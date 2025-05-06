@@ -19,14 +19,9 @@ interface IndexEntry {
 }
 
 // Define the directory containing the executive vote markdown files
-const execVotesDirectory = path.join(__dirname, '..', 'executive-votes');
+const execVotesDirectory = path.join(__dirname, '..');
 // Define the output path for the index file
-const indexFilePath = path.join(
-  __dirname,
-  '..',
-  'executive-votes',
-  'index.json',
-);
+const indexFilePath = path.join(__dirname, '..', 'index.json');
 
 async function generateExecIndex() {
   try {
@@ -68,7 +63,7 @@ async function generateExecIndex() {
       const metadata = parsed.data as ExecMetadata;
 
       // Construct the relative path from the repo root
-      const relativePath = path.join('executive-votes', file);
+      const relativePath = path.join(file);
 
       indexData.push({
         path: relativePath,
