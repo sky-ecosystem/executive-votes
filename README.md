@@ -2,7 +2,7 @@
 
 This repository stores records of executive votes within the governance system.
 
-## Directory Structure
+## Structure
 
 The `executive-votes` repository is organized as follows:
 
