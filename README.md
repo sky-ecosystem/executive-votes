@@ -28,7 +28,7 @@ Executive vote files should follow the pattern: `executive-vote-<yyyy-mm-dd>-<de
 
 ## Components
 
-- **`active/`**: Holds Markdown files for executive votes that are currently live or awaiting execution.
+- **`active/`**: Holds a proposals.json file that lists executive votes that are currently live or awaiting execution.
 - **Year Directories (`YYYY/`)**: Store historical records of executive votes, organized by the year they were concluded or executed.
 - **`templates/`**: Contains template files (`.md`) to ensure consistency when drafting new executive votes.
 - **`index.json`**: (Optional) A JSON file that could provide a quick index or summary of all executive votes, potentially linking IDs to descriptions or dates.
