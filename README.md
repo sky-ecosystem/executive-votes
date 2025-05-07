@@ -9,7 +9,7 @@ The `executive-votes` repository is organized as follows:
 ```
 executive-votes/
 ├── active/ # Contains executive votes currently under consideration
-│ └── executive-vote-active-proposal.md
+│ └── proposals.json
 ├── 2025/ # Contains executive votes posted in 2025
 │ └── e.g. executive-vote-2025-01-15-update-oracle.md
 ├── ... # Additional year directories as needed
