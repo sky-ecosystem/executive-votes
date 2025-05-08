@@ -1,8 +1,8 @@
-# executive-votes
+# Executive Votes Repository
 
 This repository stores current and historical executive votes in Sky Protocol
 
-## Directory Structure
+## Structure
 
 The `executive-votes` repository is organized as follows:
 
