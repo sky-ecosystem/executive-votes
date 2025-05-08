@@ -1,6 +1,6 @@
 # Executive Votes Repository
 
-This repository stores records of executive votes within the governance system.
+This repository stores current and historical executive votes in Sky Protocol
 
 ## Structure
 
@@ -9,11 +9,9 @@ The `executive-votes` repository is organized as follows:
 ```
 executive-votes/
 ├── active/ # Contains executive votes currently under consideration
-│ └── executive-vote-active-proposal.md
-├── 2024/ # Contains executive votes executed or concluded in 2024
-│ └── executive-vote-2024-01-15-update-oracle.md
-├── 2023/ # Contains executive votes executed or concluded in 2023
-│ └── executive-vote-2023-11-01-parameter-change.md
+│ └── proposals.json
+├── 2025/ # Contains executive votes posted in 2025
+│ └── e.g. executive-vote-2025-01-15-update-oracle.md
 ├── ... # Additional year directories as needed
 ├── templates/ # Contains templates for creating new executive vote files
 │ └── executive-vote-template.md
@@ -25,12 +23,12 @@ executive-votes/
 
 Executive vote files should follow the pattern: `executive-vote-<yyyy-mm-dd>-<description>.md`.
 
-- `<yyyy-mm-dd>`: The date the vote was proposed or enacted.
+- `<yyyy-mm-dd>`: The date the vote was proposed.
 - `<description>`: A brief, hyphenated description of the vote's purpose (e.g., `update-oracle`, `parameter-change`).
 
 ## Components
 
-- **`active/`**: Holds Markdown files for executive votes that are currently live or awaiting execution.
+- **`active/`**: Holds a proposals.json file that lists executive votes that are currently live or awaiting execution.
 - **Year Directories (`YYYY/`)**: Store historical records of executive votes, organized by the year they were concluded or executed.
 - **`templates/`**: Contains template files (`.md`) to ensure consistency when drafting new executive votes.
 - **`index.json`**: (Optional) A JSON file that could provide a quick index or summary of all executive votes, potentially linking IDs to descriptions or dates.
