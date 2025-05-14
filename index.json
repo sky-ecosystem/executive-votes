@@ -2,5 +2,14 @@
   {
     "path": "2025/placeholder.md",
     "metadata": {}
+  },
+  {
+    "path": "2025/test one.md",
+    "metadata": {
+      "title": "Test mainnet executive vote - April 16, 2025",
+      "summary": "Adjust various risk parameters across collateral types, implement oracle module upgrades, and onboard two new collateral types with associated parameters.",
+      "date": "2024-07-16T00:00:00.000Z",
+      "address": "0x039DCA7EBb7d7EEcFe9449211109A72DD988Bd81"
+    }
   }
 ]
