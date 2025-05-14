@@ -1,4 +1,4 @@
 {
-  "mainnet": [],
+  "mainnet": ["https://raw.githubusercontent.com/jetstreamgg/executive-votes/refs/heads/main/2025/test%20one.md"],
   "tenderly": []
 }
