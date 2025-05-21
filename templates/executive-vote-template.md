@@ -16,6 +16,7 @@ If you are new to voting in the Sky Protocol, please see the [voting guide](http
 ## Executive Summary
 
 If this executive proposal passes, the following **actions** will occur within the Sky Protocol:
+
 - $executive_action_description_1
 - $executive_action_description_2
 - $executive_action_description_3
