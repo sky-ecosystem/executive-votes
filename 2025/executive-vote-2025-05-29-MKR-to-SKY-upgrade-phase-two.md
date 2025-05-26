@@ -5,7 +5,7 @@ date: 2025-05-29T00:00:00.000Z
 address: "$spell_address"
 ---
 
-# [Executive Proposal] MKR Upgrade Phase Two, Switch SKY Token Rewards Vesting Stream Source, Init Unichain and Optimism Native Bridges, Deactivate SparkLend DDM, Transfer Ownership of SPK Token to SPK Company Multisig, Increase ALLOCATOR-SPARK-A Maximum Debt Ceiling, Launch Project Funding, Delegate Compensation for April 2025, Atlas Core Development USDS and SKY Payments for May 2025, Spark Proxy Spell - May 29, 2025 - May 29, 2025
+# [Executive Proposal] MKR-to-SKY Upgrade Phase Two, Switch SKY Token Rewards Vesting Stream Source, Initialize Unichain and Optimism Native Bridges, Deactivate SparkLend DDM, Transfer Ownership of SPK Token to SPK Company Multisig, Increase ALLOCATOR-SPARK-A Maximum Debt Ceiling, Launch Project Funding, Delegate Compensation for April 2025, Atlas Core Development Payments for May 2025, Spark Proxy Spell - May 29, 2025
 
 The Governance Facilitators, Dewiz, and Sidestream have placed an executive proposal into the voting system. SKY Holders should vote for this proposal if they support the following alterations to the Sky Protocol.
 
