@@ -43,7 +43,7 @@ If this executive proposal does not pass within 30 days, then it will expire and
 
 ### MKR to SKY Upgrade Phase Two
 
-- **Authorization**: [Atlas](https://sky-atlas.powerhouse.io/A.4.1.2.1.2_MKR_To_SKY_Upgrade_Phase_Two/1f1f2ff0-8d73-80ee-81e9-f508c45f90ed|b341f4c0b83472dc), (Governance Poll 1245](https://vote.makerdao.com/polling/QmcZNZg3)  
+- **Authorization**: [Atlas](https://sky-atlas.powerhouse.io/A.4.1.2.1.2_MKR_To_SKY_Upgrade_Phase_Two/1f1f2ff0-8d73-80ee-81e9-f508c45f90ed|b341f4c0b83472dc), [Governance Poll 1245](https://vote.makerdao.com/polling/QmcZNZg3)  
 - **Proposal**: [Forum Post](https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-may-5-2025/26319)
 
 If this executive proposal passes, then the following set of changes will take place to complete Phase Two of the MKR to SKY Upgrade.
