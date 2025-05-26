@@ -54,14 +54,14 @@ If this executive proposal passes, then the following set of changes will take p
 
 #### LSEV2-SKY-A AutoLine Addition
 
-- Add LSEV2-SKY-A to the AutoLine.
-- Set `line` to **50,000,000 USDS**.
-- Set `gap` to **25,000,000 USDS**.
-- Set ttl to **86,400 seconds**.
+- Add LSEV2-SKY-A to the [Debt Ceiling Instant Access Module (DC-IAM)](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.4_Debt_Ceiling_Instant_Access_Module_(DC_IAM)/071d42e3-8a21-4401-852e-0b52c49768bb%7C57eaf45219bea3b430c2).
+- Set the [Maximum Debt Ceiling (`line`)](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.4.1_Maximum_Debt_Ceiling_(line)/6f1a913d-9436-4b70-816b-e317672737d6%7C57eaf45219bea3b430c268bb) to **50,000,000 USDS**.
+- Set the [Target Available Debt (`gap`)](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.4.2_Target_Available_Debt_(gap)/c1e17312-3744-4360-81f4-03564f0dd09d%7C57eaf45219bea3b430c268bb to **25,000,000 USDS**.
+- Set the [Ceiling Increase Cooldown (`ttl`)](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.4.3_Ceiling_Increase_Cooldown_(ttl)/58f5315f-938f-464c-b2d2-f611145d469a%7C57eaf45219bea3b430c268bb) to **86,400 seconds**.
 
 #### Adjust GSM Pause Delay
 
-- Reduce GSM Pause Delay by 24 hours from 48 hours to **24 hours**.
+- Reduce the [GSM (Governance Security Module) Pause Delay](https://sky-atlas.powerhouse.io/A.1.9.2.1_Pause_Delay/a98b8227-95f6-4711-9d8d-f52cbc6ad2d0%7C0db30758e055) by 24 hours from 48 hours to **24 hours**.
 
 #### Revoke Migrator Authority Over Vat Contract
 
