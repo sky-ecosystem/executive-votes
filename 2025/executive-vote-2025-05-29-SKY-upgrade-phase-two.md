@@ -1,6 +1,6 @@
 ---
 title: Template - [Executive Vote] MKR Upgrade Phase Two, Switch SKY Token Rewards Vesting Stream Source, Init Unichain and Optimism Native Bridges, Deactivate SparkLend DDM, Transfer Ownership of SPK Token to SPK Company Multisig, Increase ALLOCATOR-SPARK-A Maximum Debt Ceiling, Launch Project Funding, Delegate Compensation for April 2025, Atlas Core Development USDS and SKY Payments for May 2025, Spark Proxy Spell - May 29, 2025
-summary: Phase Two parameter changes for MKR to SKY Upgrade, Change source of SKY For USDS Rewards to the Pause Proxy, Initialization parameters for Native Bridges on Unichain and Optimism, SparkLend Direct Deposit Module deactivation and removal from autoline, Transfer Ownership of SPK Token to SPK Company Multisig, Increase ALLOCATOR-SPARK-A Maximum Debt Ceiling, Transfer Launch Project Fundind, Distribute Delegate Compensation for April 2025, Distribute Atlas COre Development USDS and SKY payments for May 2025, Execute a Spark Proxy Spell.
+summary: Phase Two parameter changes for MKR to SKY Upgrade, Change source of SKY For USDS Rewards to the Pause Proxy, Initialization parameters for Native Bridges on Unichain and Optimism, SparkLend Direct Deposit Module deactivation and removal from autoline, Transfer Ownership of SPK Token to SPK Company Multisig, Increase ALLOCATOR-SPARK-A Maximum Debt Ceiling, Transfer Launch Project Funding, Distribute Delegate Compensation for April 2025, Distribute Atlas COre Development USDS and SKY payments for May 2025, Execute a Spark Proxy Spell.
 date: 2025-05-29T00:00:00.000Z
 address: "$spell_address"
 ---
@@ -22,7 +22,7 @@ If this executive proposal passes, the following **actions** will occur within t
 - Unichain Native Bridge will be launched with initial listed parameters.
 - Optimism Native Bridge will be launched with initial listed parameters.
 - The SparkLend Direct Deposit Module (DDM) Debt Ceiling will be deactivated.
-- Ownership of SPK Token will be transfered to the SPK Company Multisig.
+- Ownership of SPK Token will be transferred to the SPK Company Multisig.
 - ALLOCATOR-SPARK-A Maximum Debt Ceiling (`line`) will be increased.
 - **5,000,000 USDS** will be distributed to the Launch Project at [0x3C5142F28567E6a0F172fd0BaaF1f2847f49D02F](https://etherscan.io/address/0x3C5142F28567E6a0F172fd0BaaF1f2847f49D02F).
 - A total of **26,267 USDS** will be distributed as Aligned Delegate compensation for April 2025.
@@ -67,7 +67,7 @@ If this executive proposal passes, then the following set of changes will take p
 
 - Revoke LOCKSTAKE_MIGRATOR's authority over the vat.
 
-### Change Source of Sky Token Rewards (SKY to USDS) to the Pause Proxy.
+### Change the Source of Sky Token Rewards (SKY to USDS) to the Pause Proxy.
 
 - **Authorization**: [Ecosystem Approval]($TBD)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/proposed-housekeeping-item-upcoming-executive-spell-2025-05-29/26448)
@@ -162,14 +162,14 @@ If this executive proposal passes, then The SparkLend Direct Deposit Module (DDM
 
 - Remove DIRECT-SPARK-DAI from the AutoLine.
 - Set Debt Ceiling to **0 USDS**.
-- Reduce Global Debt Ceiling to account for this change.
+- Reduce the Global Debt Ceiling to account for this change.
 
 ### Transfer Ownership of SPK Token to SPK Company Multisig
 
 - **Authorization**: [$link_to_approval]()
 - **Proposal**: [$link_to_proposal]()
 
-If this executive proposal passes, then ownership of SPK Token will be transfered to the SPK Company Multisig. This is achieved through the following actions:
+If this executive proposal passes, then ownership of SPK Token will be transferred to the SPK Company Multisig. This is achieved through the following actions:
 
 - Rely [0x6FE588FDCC6A34207485cc6e47673F59cCEDF92B](https://etherscan.io/address/0x6FE588FDCC6A34207485cc6e47673F59cCEDF92B) on [0xc20059e0317DE91738d13af027DfC4a50781b066](https://etherscan.io/address/0xc20059e0317DE91738d13af027DfC4a50781b066).
 - Deny MCD_PAUSE_PROXY on [0xc20059e0317DE91738d13af027DfC4a50781b066](https://etherscan.io/address/0xc20059e0317DE91738d13af027DfC4a50781b066).
