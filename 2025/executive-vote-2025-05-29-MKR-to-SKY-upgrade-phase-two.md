@@ -161,7 +161,7 @@ If this executive proposal passes, then the Unichain Token Bridge for USDS and s
 
 ### Deactivate SparkLend DDM
 
-- **Authorization**: [Ecosystem Authorization]($TBD)
+- **Authorization**: [Ecosystem Approval](https://forum.sky.money/t/proposed-housekeeping-item-upcoming-executive-spell-2025-05-29/26448/5)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/proposed-housekeeping-item-upcoming-executive-spell-2025-05-29/26448)
 
 If this executive proposal passes, then The SparkLend Direct Deposit Module (DDM) Debt Ceiling will be deactivated. This is achieved through the following parameter changes:
