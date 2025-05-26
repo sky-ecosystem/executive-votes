@@ -94,24 +94,24 @@ If this executive proposal passes, then the Unichain Token Bridge for USDS and s
 
 #### Set l1BridgeInstance 
 
-- Set parameter l1BridgeInstance.govRelay: (L1GovernanceRelay: 0xb383070Cf9F4f01C3a2cfD0ef6da4BC057b429b7)
-- Set parameter l1BridgeInstance.escrow: (Escrow: 0x1196F688C585D3E5C895Ef8954FFB0dCDAfc566A)
-- Set parameter l1BridgeInstance.bridge: (ERC1967Proxy: 0xDF0535a4C96c9Cd8921d8FeC92A7680b281681d2)
-- Set parameter l1BridgeInstance.bridgeImp: (L1TokenBridge: 0x8A925ccFd5F7f46332E2D719A916f8b4a643599F)
+- Set parameter l1BridgeInstance.govRelay: (L1GovernanceRelay: [0xb383070Cf9F4f01C3a2cfD0ef6da4BC057b429b7](https://etherscan.io/address/0xb383070Cf9F4f01C3a2cfD0ef6da4BC057b429b7))
+- Set parameter l1BridgeInstance.escrow: (Escrow: [0x1196F688C585D3E5C895Ef8954FFB0dCDAfc566A](https://etherscan.io/address/0x1196F688C585D3E5C895Ef8954FFB0dCDAfc566A))
+- Set parameter l1BridgeInstance.bridge: (ERC1967Proxy: [0xDF0535a4C96c9Cd8921d8FeC92A7680b281681d2](https://etherscan.io/address/0xDF0535a4C96c9Cd8921d8FeC92A7680b281681d2))
+- Set parameter l1BridgeInstance.bridgeImp: (L1TokenBridge: [0x8A925ccFd5F7f46332E2D719A916f8b4a643599F](https://etherscan.io/address/0x8A925ccFd5F7f46332E2D719A916f8b4a643599F))
 
 #### Set l2BridgeInstance (Unichain Network)
 
-- Set parameter l2BridgeInstance.govRelay: (L2GovernanceRelay: 0x3510a7F16F549EcD0Ef018DE0B3c2ad7c742990f)
-- Set parameter l2BridgeInstance.bridge: (ERC1967Proxy: 0xa13152006D0216Fe4627a0D3B006087A6a55D752)
-- Set parameter l2BridgeInstance.bridgeImp: (L2TokenBridge: 0xd78292C12707CF28E8EB7bf06fA774D1044C2dF5)
-- Set parameter l2BridgeInstance.spell: (L2TokenBridgeSpell: 0x32760698c87834c02ED9AFF2d4FC3e16c029B936)
+- Set parameter l2BridgeInstance.govRelay: (L2GovernanceRelay: [0x3510a7F16F549EcD0Ef018DE0B3c2ad7c742990f](https://unichain.blockscout.com/address/0x3510a7F16F549EcD0Ef018DE0B3c2ad7c742990f))
+- Set parameter l2BridgeInstance.bridge: (ERC1967Proxy: [0xa13152006D0216Fe4627a0D3B006087A6a55D752](https://unichain.blockscout.com/address/0xa13152006D0216Fe4627a0D3B006087A6a55D752))
+- Set parameter l2BridgeInstance.bridgeImp: (L2TokenBridge: [0xd78292C12707CF28E8EB7bf06fA774D1044C2dF5](https://unichain.blockscout.com/address/0xd78292C12707CF28E8EB7bf06fA774D1044C2dF5))
+- Set parameter l2BridgeInstance.spell: (L2TokenBridgeSpell: [0x32760698c87834c02ED9AFF2d4FC3e16c029B936](https://unichain.blockscout.com/address/0x32760698c87834c02ED9AFF2d4FC3e16c029B936))
 
 #### Set cfg 
 
-- Set parameter cfg.l1Messenger: (l1messenger 0x9A3D64E386C18Cb1d6d5179a9596A4B5736e98A6)
-- Set parameter cfg.l2Messenger: (l2messenger 0x4200000000000000000000000000000000000007)
+- Set parameter cfg.l1Messenger: (l1messenger [0x9A3D64E386C18Cb1d6d5179a9596A4B5736e98A6](https://etherscan.io/address/0x9A3D64E386C18Cb1d6d5179a9596A4B5736e98A6))
+- Set parameter cfg.l2Messenger: (l2messenger [0x4200000000000000000000000000000000000007](https://unichain.blockscout.com/address/0x4200000000000000000000000000000000000007))
 - Set parameter cfg.l1Tokens: (USDS, SUSDS on mainnet)
-- Set parameter cfg.l2Tokens: (USDS: 0x7E10036Acc4B56d4dFCa3b77810356CE52313F9C, sUSDS: 0xA06b10Db9F390990364A3984C04FaDf1c13691b5 on Unichain)
+- Set parameter cfg.l2Tokens: (USDS: [0x7E10036Acc4B56d4dFCa3b77810356CE52313F9C](https://unichain.blockscout.com/address/0x7E10036Acc4B56d4dFCa3b77810356CE52313F9C), sUSDS: [0xA06b10Db9F390990364A3984C04FaDf1c13691b5](https://unichain.blockscout.com/address/0xA06b10Db9F390990364A3984C04FaDf1c13691b5) on Unichain)
 - Set parameter cfg.maxWithdraws: (type(uint256).max for each token)
 - Set parameter cfg.minGasLimit: (500,000)
 - Set parameter cfg.govRelayCLKey: (chainlog key for govRelay -> UNICHAIN_GOV_RELAY)
@@ -128,24 +128,24 @@ If this executive proposal passes, then the Optimism Token Bridge for USDS and s
 
 #### Set l1BridgeInstance 
 
-- Set parameter l1BridgeInstance.govRelay: (L1GovernanceRelay: 0x09B354CDA89203BB7B3131CC728dFa06ab09Ae2F)
-- Set parameter l1BridgeInstance.escrow: (Escrow: 0x467194771dAe2967Aef3ECbEDD3Bf9a310C76C65)
-- Set parameter l1BridgeInstance.bridge: (ERC1967Proxy: 0x3d25B7d486caE1810374d37A48BCf0963c9B8057)
-- Set parameter l1BridgeInstance.bridgeImp: (L1TokenBridge: 0xA50adBad34c1e9786979bD44220F8fd46e43A6B0)
+- Set parameter l1BridgeInstance.govRelay: (L1GovernanceRelay: [0x09B354CDA89203BB7B3131CC728dFa06ab09Ae2F](https://etherscan.io/address/0x09B354CDA89203BB7B3131CC728dFa06ab09Ae2F))
+- Set parameter l1BridgeInstance.escrow: (Escrow: [0x467194771dAe2967Aef3ECbEDD3Bf9a310C76C65](https://etherscan.io/address/0x467194771dAe2967Aef3ECbEDD3Bf9a310C76C65))
+- Set parameter l1BridgeInstance.bridge: (ERC1967Proxy: [0x3d25B7d486caE1810374d37A48BCf0963c9B8057](https://etherscan.io/address/0x3d25B7d486caE1810374d37A48BCf0963c9B8057))
+- Set parameter l1BridgeInstance.bridgeImp: (L1TokenBridge: [0xA50adBad34c1e9786979bD44220F8fd46e43A6B0](https://etherscan.io/address/0xA50adBad34c1e9786979bD44220F8fd46e43A6B0))
 
 #### Set l2BridgeInstance (Optimism Network)
 
-Set parameter l2BridgeInstance.govRelay: (L2GovernanceRelay: 0x10E6593CDda8c58a1d0f14C5164B376352a55f2F)
-Set parameter l2BridgeInstance.bridge: (ERC1967Proxy: 0x8F41DBF6b8498561Ce1d73AF16CD9C0d8eE20ba6)
-Set parameter l2BridgeInstance.bridgeImp: (L2TokenBridge: 0xc2702C859016db756149716cc4d2B7D7A436CF04)
-Set parameter l2BridgeInstance.spell: (L2TokenBridgeSpell: 0x99892216eD34e8FD924A1dBC758ceE61a9109409)
+Set parameter l2BridgeInstance.govRelay: (L2GovernanceRelay: [0x10E6593CDda8c58a1d0f14C5164B376352a55f2F](https://optimistic.etherscan.io/address/0x10E6593CDda8c58a1d0f14C5164B376352a55f2F)
+Set parameter l2BridgeInstance.bridge: (ERC1967Proxy: [0x8F41DBF6b8498561Ce1d73AF16CD9C0d8eE20ba6](https://optimistic.etherscan.io/address/0x8F41DBF6b8498561Ce1d73AF16CD9C0d8eE20ba6))
+Set parameter l2BridgeInstance.bridgeImp: (L2TokenBridge: [0xc2702C859016db756149716cc4d2B7D7A436CF04](https://optimistic.etherscan.io/address/0xc2702C859016db756149716cc4d2B7D7A436CF04)
+Set parameter l2BridgeInstance.spell: (L2TokenBridgeSpell: [0x99892216eD34e8FD924A1dBC758ceE61a9109409](https://optimistic.etherscan.io/address/0x99892216eD34e8FD924A1dBC758ceE61a9109409))
 
 #### Set cfg 
 
-- Set parameter cfg.l1Messenger: (l1messenger: 0x25ace71c97B33Cc4729CF772ae268934F7ab5fA1)
-- Set parameter cfg.l2Messenger: (l2messenger: 0x4200000000000000000000000000000000000007)
+- Set parameter cfg.l1Messenger: (l1messenger: [0x25ace71c97B33Cc4729CF772ae268934F7ab5fA1](https://etherscan.io/address/0x25ace71c97B33Cc4729CF772ae268934F7ab5fA1))
+- Set parameter cfg.l2Messenger: (l2messenger: [0x4200000000000000000000000000000000000007](https://optimistic.etherscan.io/address/0x4200000000000000000000000000000000000007))
 - Set parameter cfg.l1Tokens: (USDS, SUSDS on mainnet)
-- Set parameter cfg.l2Tokens: (USDS: 0x4F13a96EC5C4Cf34e442b46Bbd98a0791F20edC3, sUSDS: 0xb5B2dc7fd34C249F4be7fB1fCea07950784229e0 on Optimism)
+- Set parameter cfg.l2Tokens: (USDS: [0x4F13a96EC5C4Cf34e442b46Bbd98a0791F20edC3](https://optimistic.etherscan.io/address/0x4F13a96EC5C4Cf34e442b46Bbd98a0791F20edC3), sUSDS: [0xb5B2dc7fd34C249F4be7fB1fCea07950784229e0](https://optimistic.etherscan.io/address/0xb5B2dc7fd34C249F4be7fB1fCea07950784229e0) on Optimism)
 - Set parameter cfg.maxWithdraws: (type(uint256).max for each token)
 - Set parameter cfg.minGasLimit: (500,000)
 - Set parameter cfg.govRelayCLKey: (chainlog key for govRelay -> OPTIMISM_GOV_RELAY)
