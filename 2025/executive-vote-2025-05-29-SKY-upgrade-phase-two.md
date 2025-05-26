@@ -81,7 +81,13 @@ If this executive proposal passes, then a new vesting stream will be initialized
 - Remove old REWARDS_USDS_SKY_DIST from the keeper job by calling `CRON_REWARDS_DIST_JOB.rem()` with the current REWARDS_USDS_SKY_DIST. 
 - Update chainlog value for REWARDS_USDS_SKY_DIST to the new VestedRewardsDistribution contract at [0xC8d67Fcf101d3f89D0e1F3a2857485A84072a63F](https://etherscan.io/address/0xC8d67Fcf101d3f89D0e1F3a2857485A84072a63F).
 - Add new REWARDS_USDS_SKY_DIST to the keeper job by calling `CRON_REWARDS_DIST_JOB.set()` with the new REWARDS_USDS_SKY_DIST.
-- Deploy new MCD_VEST_SKY_TREASURY stream with the following parameters: usr(REWARDS_USDS_SKY_DIST), tot(137,500,000 SKY), bgn(block.timestamp), tau(182 days), cliff: none, manager, none.
+- Deploy new MCD_VEST_SKY_TREASURY stream with the following parameters:
+    - usr: REWARDS_USDS_SKY_DIST
+    - tot: 137,500,000 SKY
+    - bgn:  block.timestamp
+    - tau: 182 days
+    - cliff: none
+    - manager: none.
 - Restrict the new stream, res: 1.
 - File the id of the newly created stream to the new REWARDS_USDS_SKY_DIST contract.
 
