@@ -130,7 +130,7 @@ If this executive proposal passes, then the Unichain Token Bridge for USDS and s
 - **Authorization**: [Governance Poll 1254](https://vote.makerdao.com/polling/QmNe8Erm)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/may-29-2025-proposed-changes-to-spark-for-upcoming-spell/26372)
 
-If this executive proposal passes, then the Unichain Token Bridge for USDS and sUSDS will be initialized by calling [TokenBridgeInit.initBridges](https://github.com/makerdao/op-token-bridge/blob/0f935505c0dc74ce3db2a9998320a56119321814/deploy/TokenBridgeInit.sol#L63) using the following parameters.
+If this executive proposal passes, then the Optimism Token Bridge for USDS and sUSDS will be initialized by calling [TokenBridgeInit.initBridges](https://github.com/makerdao/op-token-bridge/blob/0f935505c0dc74ce3db2a9998320a56119321814/deploy/TokenBridgeInit.sol#L63) using the following parameters.
 
 #### Set l1BridgeInstance 
 
@@ -141,7 +141,7 @@ If this executive proposal passes, then the Unichain Token Bridge for USDS and s
 
 #### Set l2BridgeInstance (Optimism Network)
 
-- Set parameter l2BridgeInstance.govRelay: (L2GovernanceRelay: [0x10E6593CDda8c58a1d0f14C5164B376352a55f2F](https://optimistic.etherscan.io/address/0x10E6593CDda8c58a1d0f14C5164B376352a55f2F)
+- Set parameter l2BridgeInstance.govRelay: (L2GovernanceRelay: [0x10E6593CDda8c58a1d0f14C5164B376352a55f2F](https://optimistic.etherscan.io/address/0x10E6593CDda8c58a1d0f14C5164B376352a55f2F))
 - Set parameter l2BridgeInstance.bridge: (ERC1967Proxy: [0x8F41DBF6b8498561Ce1d73AF16CD9C0d8eE20ba6](https://optimistic.etherscan.io/address/0x8F41DBF6b8498561Ce1d73AF16CD9C0d8eE20ba6))
 - Set parameter l2BridgeInstance.bridgeImp: (L2TokenBridge: [0xc2702C859016db756149716cc4d2B7D7A436CF04](https://optimistic.etherscan.io/address/0xc2702C859016db756149716cc4d2B7D7A436CF04))
 - Set parameter l2BridgeInstance.spell: (L2TokenBridgeSpell: [0x99892216eD34e8FD924A1dBC758ceE61a9109409](https://optimistic.etherscan.io/address/0x99892216eD34e8FD924A1dBC758ceE61a9109409))
