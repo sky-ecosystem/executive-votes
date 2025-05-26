@@ -155,52 +155,252 @@ Set parameter l2BridgeInstance.spell: (L2TokenBridgeSpell: 0x99892216eD34e8FD924
 
 ### Deactivate SparkLend DDM
 
-- **Authorization**: [$link_to_approval]()
-- **Proposal**: [$link_to_proposal]()
+- **Authorization**: [Ecosystem Authorization]($TBD)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/proposed-housekeeping-item-upcoming-executive-spell-2025-05-29/26448)
 
-If this executive proposal passes, then $executive_entry_3_implications.
+If this executive proposal passes, then The SparkLend Direct Deposit Module (DDM) Debt Ceiling will be deactivated. This is achieved through the following parameter changes:
+
+- Remove DIRECT-SPARK-DAI from the AutoLine.
+- Set Debt Ceiling to **0 USDS**.
+- Reduce Global Debt Ceiling to account for this change.
 
 ### Transfer Ownership of SPK Token to SPK Company Multisig
 
 - **Authorization**: [$link_to_approval]()
 - **Proposal**: [$link_to_proposal]()
 
-If this executive proposal passes, then $executive_entry_3_implications.
+If this executive proposal passes, then ownership of SPK Token will be transfered to the SPK Company Multisig. This is achieved through the following actions:
+
+- Rely [0x6FE588FDCC6A34207485cc6e47673F59cCEDF92B](https://etherscan.io/address/0x6FE588FDCC6A34207485cc6e47673F59cCEDF92B) on [0xc20059e0317DE91738d13af027DfC4a50781b066](https://etherscan.io/address/0xc20059e0317DE91738d13af027DfC4a50781b066).
+- Deny MCD_PAUSE_PROXY on [0xc20059e0317DE91738d13af027DfC4a50781b066](https://etherscan.io/address/0xc20059e0317DE91738d13af027DfC4a50781b066).
 
 ### Increase ALLOCATOR-SPARK-A Maximum Debt Ceiling
 
-- **Authorization**: [$link_to_approval]()
-- **Proposal**: [$link_to_proposal]()
+- **Authorization**: [Governance Poll 1251](https://vote.makerdao.com/polling/QmVMBXm8)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/may-29-2025-proposed-changes-to-spark-for-upcoming-spell/26372)
 
-If this executive proposal passes, then $executive_entry_3_implications.
+If this executive proposal passes, then the ALLOCATOR-SPARK-A `line` will be increased by 5 billion USDS from 5 billion USDS to **10 billion USDS**. The `gap` and `ttl` parameters for ALLOCATOR-SPARK-A will remain unchanged. 
 
 ### Launch Project Funding
 
+- **Authorization**: [Atlas](https://sky-atlas.powerhouse.io/A.5.6_Launch_Project/1f433d9d-7cdb-406f-b7e8-f9bc4855eb77%7C8d5a)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/utilization-of-the-launch-project-under-the-accessibility-scope/21468/43)
+
+If this executive proposal passes, then **5,000,000 USDS** will be distributed to the Launch Project at [0x3C5142F28567E6a0F172fd0BaaF1f2847f49D02F](https://etherscan.io/address/0x3C5142F28567E6a0F172fd0BaaF1f2847f49D02F).
+
+### Delegate Compensation for April 2025
+
+- **Authorization**: [Atlas](https://sky-atlas.powerhouse.io/Budget_And_Participation_Requirements/4c698938-1a11-4486-a568-e54fc6b0ce0c|0db3af4e)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/april-2025-aligned-delegate-compensation/26441)
+
+If this executive proposal passes, then a total of **26,267 USDS** will be distributed as Aligned Delegate compensation for April 2025 as follows:
+
+| Delegate    | Amount (USDS) | Address                                                                                                               |
+|-------------|--------------:|-----------------------------------------------------------------------------------------------------------------------|
+| BLUE        | 4,000         | [0xb6C09680D822F162449cdFB8248a7D3FC26Ec9Bf](https://etherscan.io/address/0xb6C09680D822F162449cdFB8248a7D3FC26Ec9Bf) |
+| Bonapublica | 4,000         | [0x167c1a762B08D7e78dbF8f24e5C3f1Ab415021D3](https://etherscan.io/address/0x167c1a762B08D7e78dbF8f24e5C3f1Ab415021D3) |
+| Byteron      | 4,000         | [0xc2982e72D060cab2387Dba96b846acb8c96EfF66](https://etherscan.io/address/0xc2982e72D060cab2387Dba96b846acb8c96EfF66) |
+| Cloaky  | 4,000         | [0x9244F47D70587Fa2329B89B6f503022b63Ad54A5](https://etherscan.io/address/0x9244F47D70587Fa2329B89B6f503022b63Ad54A5) |
+| JuliaChang         | 4,000         | [0x252abAEe2F4f4b8D39E5F12b163eDFb7fac7AED7](https://etherscan.io/address/0x252abAEe2F4f4b8D39E5F12b163eDFb7fac7AED7) |
+| PBG         | 3,867         | [0x8D4df847dB7FfE0B46AF084fE031F7691C6478c2](https://etherscan.io/address/0x8D4df847dB7FfE0B46AF084fE031F7691C6478c2) |
+| WBC     | 2,400          | [0xeBcE83e491947aDB1396Ee7E55d3c81414fB0D47](https://etherscan.io/address/0xeBcE83e491947aDB1396Ee7E55d3c81414fB0D47) |
+
+### Atlas Core Development Payments for May 2025
+
 - **Authorization**: [$link_to_approval]()
 - **Proposal**: [$link_to_proposal]()
 
-If this executive proposal passes, then $executive_entry_3_implications.
+If this executive proposal passes, then a total of **77,584 USDS** and **618,000 SKY** will be distributed for Atlas Core Development funding.
 
-### Atlas Core Development USDS Payments for May 2025
+#### USDS Payments
 
-- **Authorization**: [$link_to_approval]()
-- **Proposal**: [$link_to_proposal]()
+| Recipient | Amount (USDS) | Address                                                                                                               |
+|-----------|--------------:|-----------------------------------------------------------------------------------------------------------------------|
+| BLUE      | 50,167        | [0xb6C09680D822F162449cdFB8248a7D3FC26Ec9Bf](https://etherscan.io/address/0xb6C09680D822F162449cdFB8248a7D3FC26Ec9Bf) |
+| Cloaky    | 16,417        | [0x9244F47D70587Fa2329B89B6f503022b63Ad54A5](https://etherscan.io/address/0x9244F47D70587Fa2329B89B6f503022b63Ad54A5) |
+| Kohla     | 11,000        | [0x73dFC091Ad77c03F2809204fCF03C0b9dccf8c7a](https://etherscan.io/address/0x73dFC091Ad77c03F2809204fCF03C0b9dccf8c7a) |
 
-If this executive proposal passes, then $executive_entry_3_implications.
+#### SKY Payments
 
-### Atlas Core Development SKY Payments for May 2025
-
-- **Authorization**: [$link_to_approval]()
-- **Proposal**: [$link_to_proposal]()
-
-If this executive proposal passes, then $executive_entry_3_implications.
+| Recipient | Amount (SKY) | Address                                                                                                               |
+|-----------|-------------:|-----------------------------------------------------------------------------------------------------------------------|
+| BLUE      | 330,000      | [0xb6C09680D822F162449cdFB8248a7D3FC26Ec9Bf](https://etherscan.io/address/0xb6C09680D822F162449cdFB8248a7D3FC26Ec9Bf) |
+| Cloaky    | 288,000      | [0x9244F47D70587Fa2329B89B6f503022b63Ad54A5](https://etherscan.io/address/0x9244F47D70587Fa2329B89B6f503022b63Ad54A5) |
 
 ### Execute Spark Proxy Spell
 
 - **Authorization**: [$link_to_approval]()
 - **Proposal**: [$link_to_proposal]()
 
-If this executive proposal passes, then $executive_entry_3_implications.
+If this executive proposal passes, then a Spark Proxy Spell will be executed at [$TBD](https://etherscan.io/address/TBD) with the following contents.
+
+#### Onboard Unichain to the Spark Liquidity Layer
+
+- **Authorization**: [Governance Poll 1253](https://vote.makerdao.com/polling/QmXjeJtw)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/may-29-2025-proposed-changes-to-spark-for-upcoming-spell/26372)
+
+Onboard Unichain to the Spark Liquidity Layer with the following addresses and parameters.
+
+##### Addresses
+
+- L1_TOKEN_BRIDGE: [0xDF0535a4C96c9Cd8921d8FeC92A7680b281681d2](https://etherscan.io/address/0xDF0535a4C96c9Cd8921d8FeC92A7680b281681d2)
+- L2_TOKEN_BRIDGE: [0xa13152006D0216Fe4627a0D3B006087A6a55D752](https://uniscan.xyz/address/0xa13152006D0216Fe4627a0D3B006087A6a55D752)
+- L2_USDS: [0x7E10036Acc4B56d4dFCa3b77810356CE52313F9C](https://uniscan.xyz/address/0x7E10036Acc4B56d4dFCa3b77810356CE52313F9C)
+- L2_SUSDS: [0xA06b10Db9F390990364A3984C04FaDf1c13691b5](https://uniscan.xyz/address/0xA06b10Db9F390990364A3984C04FaDf1c13691b5)
+
+- L1_SSR_FORWARDER: TO BE DEPLOYED
+- L2_SSR_RECEIVER: TO BE DEPLOYED
+- L2_SSR_AUTH_ORACLE: TO BE DEPLOYED
+
+- L2_GOV_RECEIVER: TO BE DEPLOYED
+- L2_GOV_EXECUTOR: TO BE DEPLOYED
+
+- L2_PSM: TO BE DEPLOYED
+
+- L2_ALM_PROXY: TO BE DEPLOYED
+- L2_ALM_CONTROLLER: TO BE DEPLOYED
+- L2_ALM_RATE_LIMITS: TO BE DEPLOYED
+
+
+##### Initial [Rate Limits](https://docs.spark.fi/dev/spark-liquidity-layer/spark-alm-controller#rate-limits)
+
+###### PSM3
+
+###### USDC
+
+*Deposit*
+
+- max: **50 million USDC**
+- slope: **50 million USDC** per day
+
+*Withdrawal*
+
+- max: **50 million USDC**
+- slope: **50 million USDC** per day
+
+###### USDS
+
+*Deposit*
+
+- max: **Unlimited**
+- slope: **Unlimited**
+
+*Withdrawal*
+
+- max: **Unlimited**
+- slope: **Unlimited**
+
+###### sUSDS
+
+*Deposit*
+
+- max: **Unlimited**
+- slope: **Unlimited**
+
+*Withdrawal*
+
+- max: **Unlimited**
+- slope: **Unlimited**
+
+###### CCTP
+
+- Global: **Unlimited**.
+- Unichain to Mainnet: **50 million** max, **25 million** slope per day.
+- Mainnet to Unichain: **50 million** max, **25 million** slope per day.
+
+###### Initial Liquidity Bridged to Unichain
+
+- USDS: **100 million USDS**.
+- sUSDS: **100 million USDS worth of sUSDS**.
+
+#### Onboard OP Mainnet to the Spark Liquidity Layer
+
+- **Authorization**: [Governance Poll 1254](https://vote.makerdao.com/polling/QmNe8Erm)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/may-29-2025-proposed-changes-to-spark-for-upcoming-spell/26372)
+
+Onboard Optimism Mainnet to the Spark Liquidity Layer with the following addresses and parameters.
+
+##### Addresses
+
+
+- L1_TOKEN_BRIDGE: [0x3d25B7d486caE1810374d37A48BCf0963c9B8057](https://etherscan.io/address/0x3d25B7d486caE1810374d37A48BCf0963c9B8057)
+- L2_TOKEN_BRIDGE: [0x8F41DBF6b8498561Ce1d73AF16CD9C0d8eE20ba6](https://optimistic.etherscan.io/address/0x8F41DBF6b8498561Ce1d73AF16CD9C0d8eE20ba6)
+- L2_USDS: [0x4F13a96EC5C4Cf34e442b46Bbd98a0791F20edC3](https://optimistic.etherscan.io/address/0x4F13a96EC5C4Cf34e442b46Bbd98a0791F20edC3)
+- L2_SUSDS: [0xb5B2dc7fd34C249F4be7fB1fCea07950784229e0](https://optimistic.etherscan.io/address/0xb5B2dc7fd34C249F4be7fB1fCea07950784229e0)
+
+- L1_SSR_FORWARDER: [0x6Ac25B8638767a3c27a65597A74792d599038724](https://etherscan.io/address/0x6Ac25B8638767a3c27a65597A74792d599038724)
+- L2_SSR_RECEIVER: [0xE2868095814c2714039b3A9eBEE035B9E2c411E5](https://optimistic.etherscan.io/address/0xE2868095814c2714039b3A9eBEE035B9E2c411E5)
+- L2_SSR_AUTH_ORACLE: [0x6E53585449142A5E6D5fC918AE6BEa341dC81C68](https://optimistic.etherscan.io/address/0x6E53585449142A5E6D5fC918AE6BEa341dC81C68)
+
+- L2_GOV_RECEIVER: [0x61Baf0Ce69D23C8318c786e161D1cAc285AA4EA3](https://optimistic.etherscan.io/address/0x61Baf0Ce69D23C8318c786e161D1cAc285AA4EA3)
+- L2_GOV_EXECUTOR: [0x205216D89a00FeB2a73273ceecD297BAf89d576d](https://optimistic.etherscan.io/address/0x205216D89a00FeB2a73273ceecD297BAf89d576d)
+
+- L2_PSM: [0xe0F9978b907853F354d79188A3dEfbD41978af62](https://optimistic.etherscan.io/address/0xe0F9978b907853F354d79188A3dEfbD41978af62)
+
+- L2_ALM_PROXY: [0x876664f0c9Ff24D1aa355Ce9f1680AE1A5bf36fB](https://optimistic.etherscan.io/address/0x876664f0c9Ff24D1aa355Ce9f1680AE1A5bf36fB)
+- L2_ALM_CONTROLLER: [0x1d54A093b8FDdFcc6fBB411d9Af31D96e034B3D5](https://optimistic.etherscan.io/address/0x1d54A093b8FDdFcc6fBB411d9Af31D96e034B3D5)
+- L2_ALM_RATE_LIMITS: [0x6B34A6B84444dC3Fc692821D5d077a1e4927342d](https://optimistic.etherscan.io/address/0x6B34A6B84444dC3Fc692821D5d077a1e4927342d)
+
+
+##### Initial [Rate Limits](https://docs.spark.fi/dev/spark-liquidity-layer/spark-alm-controller#rate-limits)
+
+###### PSM3
+
+- USDC deposit: **50 million** max, **50 million** slope per day.
+- USDC withdrawal: **50 million** max, **50 million** slope per day.
+- USDS deposit: **Unlimited**.
+- USDS withdrawal: **Unlimited**.
+- sUSDS deposit: **Unlimited**.
+- sUSDS withdrawal: **Unlimited**.
+
+###### CCTP
+
+- Global: **Unlimited**.
+- OP Mainnet to Mainnet: **50 million** max, **25 million** slope per day.
+- Mainnet to OP Mainnet: **50 million** max, **25 million** slope per day.
+
+###### Initial Liquidity Bridged to OP Mainnet
+
+- USDS: **100 million USDS**.
+- sUSDS: **100 million USDS worth of sUSDS**.
+
+#### Adjust USDS Interest Rate Model
+
+- **Authorization**: [Governance Poll 1248](https://vote.makerdao.com/polling/QmUnygNr)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/may-29-2025-proposed-changes-to-spark-for-upcoming-spell/26372)
+
+Update USDS [Interest Rate Model](https://sky-atlas.powerhouse.io/A.AG1.3.2.2.1.1.3_Interest_Rate_Model_Definition/1c1f2ff0-8d73-81dd-99c0-fc707ce48e01%7C7896ed3326389fe3553030cd0a82f68efd49) on Mainnet as follows:
+
+- [Base Rate](https://sky-atlas.powerhouse.io/A.AG1.3.2.2.1.1.13_Base_Rate_Definition/1c1f2ff0-8d73-81c1-9b9b-ef4b84c1450f%7C7896ed3326389fe3553030cd0a82f68efd49): **0%**
+- [Slope 1](https://sky-atlas.powerhouse.io/A.AG1.3.2.2.1.1.15_Slope_1_Definition/1c1f2ff0-8d73-81be-9f17-d7d4bfc6cb59%7C7896ed3326389fe3553030cd0a82f68efd49): **SSR + 0.75%**
+- [Slope 2](https://sky-atlas.powerhouse.io/A.AG1.3.2.2.1.1.17_Slope_2_Definition/1c1f2ff0-8d73-8199-aa99-dde95c3f7130%7C7896ed3326389fe3553030cd0a82f68efd49): **15% (Unchanged)**
+- [Optimal Utilization Ratio](https://sky-atlas.powerhouse.io/A.AG1.3.2.2.1.1.11_Optimal_Utilization_Definition/1c1f2ff0-8d73-8173-a52b-d6f86efd3366%7C7896ed3326389fe3553030cd0a82f68efd49): **80% (Unchanged)**
+
+#### Adjust DAI Interest Rate Model
+
+- **Authorization**: [Governance Poll 1247](https://vote.makerdao.com/polling/QmVt1spi)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/may-29-2025-proposed-changes-to-spark-for-upcoming-spell/26372)
+
+Update DAI [Interest Rate Model](https://sky-atlas.powerhouse.io/A.AG1.3.2.2.1.1.3_Interest_Rate_Model_Definition/1c1f2ff0-8d73-81dd-99c0-fc707ce48e01%7C7896ed3326389fe3553030cd0a82f68efd49) on Mainnet as follows:
+
+- [Base Rate](https://sky-atlas.powerhouse.io/A.AG1.3.2.2.1.1.13_Base_Rate_Definition/1c1f2ff0-8d73-81c1-9b9b-ef4b84c1450f%7C7896ed3326389fe3553030cd0a82f68efd49): **0%**
+- [Slope 1](https://sky-atlas.powerhouse.io/A.AG1.3.2.2.1.1.15_Slope_1_Definition/1c1f2ff0-8d73-81be-9f17-d7d4bfc6cb59%7C7896ed3326389fe3553030cd0a82f68efd49): **SSR + 0.75%**
+- [Slope 2](https://sky-atlas.powerhouse.io/A.AG1.3.2.2.1.1.17_Slope_2_Definition/1c1f2ff0-8d73-8199-aa99-dde95c3f7130%7C7896ed3326389fe3553030cd0a82f68efd49): **15% (Unchanged)**
+- [Optimal Utilization Ratio](https://sky-atlas.powerhouse.io/A.AG1.3.2.2.1.1.11_Optimal_Utilization_Definition/1c1f2ff0-8d73-8173-a52b-d6f86efd3366%7C7896ed3326389fe3553030cd0a82f68efd49): **80% (Unchanged)**
+
+#### Reduce WBTC Liquidation Threshold
+
+- **Authorization**: [Governance Poll 1249](https://vote.makerdao.com/polling/QmX16hA3)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/may-29-2025-proposed-changes-to-spark-for-upcoming-spell/26372)
+
+Reduce the WBTC [Liquidation Threshold](https://sky-atlas.powerhouse.io/A.AG1.3.2.2.1.1.5_Liquidation_Threshold_Definition/1c1f2ff0-8d73-81ea-bd7e-feb73a44923a|7896ed3326389fe3553030cd0a82f68efd49) by 5 percentage points from 45% to **40%**.
+
+#### Spark USDC Morpho Vault - Increase cbBTC Pool Supply Cap
+
+- **Authorization**: [Governance Poll 1252](https://vote.makerdao.com/polling/QmfPc8Ub)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/may-29-2025-proposed-changes-to-spark-for-upcoming-spell/26372)
+
+Increase cbBTC/USDC market [(0x9103c3b4e834476c9a62ea009ba2c884ee42e94e6e314a26f04d312434191836)](https://app.morpho.org/base/market/0x9103c3b4e834476c9a62ea009ba2c884ee42e94e6e314a26f04d312434191836/cbbtc-usdc) Supply Cap in the Spark USDC Morpho Vault on Base by 500 million USDC from 500 million USDC to **1 billion USDC**.
 
 ## Review
 
