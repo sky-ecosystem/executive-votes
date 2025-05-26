@@ -56,7 +56,7 @@ If this executive proposal passes, then the following set of changes will take p
 
 - Add LSEV2-SKY-A to the [Debt Ceiling Instant Access Module (DC-IAM)](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.4_Debt_Ceiling_Instant_Access_Module_(DC_IAM)/071d42e3-8a21-4401-852e-0b52c49768bb%7C57eaf45219bea3b430c2).
 - Set the [Maximum Debt Ceiling (`line`)](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.4.1_Maximum_Debt_Ceiling_(line)/6f1a913d-9436-4b70-816b-e317672737d6%7C57eaf45219bea3b430c268bb) to **50,000,000 USDS**.
-- Set the [Target Available Debt (`gap`)](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.4.2_Target_Available_Debt_(gap)/c1e17312-3744-4360-81f4-03564f0dd09d%7C57eaf45219bea3b430c268bb to **25,000,000 USDS**.
+- Set the [Target Available Debt (`gap`)](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.4.2_Target_Available_Debt_(gap)/c1e17312-3744-4360-81f4-03564f0dd09d%7C57eaf45219bea3b430c268bb) to **25,000,000 USDS**.
 - Set the [Ceiling Increase Cooldown (`ttl`)](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.4.3_Ceiling_Increase_Cooldown_(ttl)/58f5315f-938f-464c-b2d2-f611145d469a%7C57eaf45219bea3b430c268bb) to **86,400 seconds**.
 
 #### Adjust GSM Pause Delay
@@ -160,8 +160,8 @@ If this executive proposal passes, then the Optimism Token Bridge for USDS and s
 
 If this executive proposal passes, then The SparkLend Direct Deposit Module (DDM) Debt Ceiling will be deactivated. This is achieved through the following parameter changes:
 
-- Remove DIRECT-SPARK-DAI from the AutoLine.
-- Set Debt Ceiling to **0 USDS**.
+- Remove DIRECT-SPARK-DAI from the [Debt Ceiling Instant Access Module (DC-IAM)](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.4_Debt_Ceiling_Instant_Access_Module_(DC_IAM)/071d42e3-8a21-4401-852e-0b52c49768bb%7C57eaf45219bea3b430c2).
+- Set the [Maximum Debt Ceiling (`line`)](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.4.1_Maximum_Debt_Ceiling_(line)/6f1a913d-9436-4b70-816b-e317672737d6%7C57eaf45219bea3b430c268bb) to **0 USDS**.
 - Reduce the Global Debt Ceiling to account for this change.
 
 ### Transfer Ownership of SPK Token to SPK Company Multisig
@@ -179,7 +179,7 @@ If this executive proposal passes, then ownership of SPK Token will be transferr
 - **Authorization**: [Governance Poll 1251](https://vote.makerdao.com/polling/QmVMBXm8)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/may-29-2025-proposed-changes-to-spark-for-upcoming-spell/26372)
 
-If this executive proposal passes, then the ALLOCATOR-SPARK-A `line` will be increased by 5 billion USDS from 5 billion USDS to **10 billion USDS**. The `gap` and `ttl` parameters for ALLOCATOR-SPARK-A will remain unchanged. 
+If this executive proposal passes, then the ALLOCATOR-SPARK-A [Maximum Debt Ceiling (`line`)](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.4.1_Maximum_Debt_Ceiling_(line)/6f1a913d-9436-4b70-816b-e317672737d6%7C57eaf45219bea3b430c268bb) will be increased by 5 billion USDS from 5 billion USDS to **10 billion USDS**. The `gap` and `ttl` parameters for ALLOCATOR-SPARK-A will remain unchanged. 
 
 ### Launch Project Funding
 
