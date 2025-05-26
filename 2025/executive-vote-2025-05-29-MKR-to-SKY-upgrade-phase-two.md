@@ -267,7 +267,6 @@ Onboard Unichain to the Spark Liquidity Layer with the following addresses and p
 - L2_ALM_CONTROLLER: [0x9B1BEB11CFE05117029a30eb799B6586125321FF](https://uniscan.xyz/address/0x9B1BEB11CFE05117029a30eb799B6586125321FF?tab=contract)
 - L2_ALM_RATE_LIMITS: [0x5A1a44D2192Dd1e21efB9caA50E32D0716b35535](https://uniscan.xyz/address/0x5A1a44D2192Dd1e21efB9caA50E32D0716b35535)
 
-
 ##### Initial [Rate Limits](https://docs.spark.fi/dev/spark-liquidity-layer/spark-alm-controller#rate-limits)
 
 ###### PSM3
@@ -299,7 +298,6 @@ Onboard Optimism Mainnet to the Spark Liquidity Layer with the following address
 
 ##### Addresses
 
-
 - L1_TOKEN_BRIDGE: [0x3d25B7d486caE1810374d37A48BCf0963c9B8057](https://etherscan.io/address/0x3d25B7d486caE1810374d37A48BCf0963c9B8057)
 - L2_TOKEN_BRIDGE: [0x8F41DBF6b8498561Ce1d73AF16CD9C0d8eE20ba6](https://optimistic.etherscan.io/address/0x8F41DBF6b8498561Ce1d73AF16CD9C0d8eE20ba6)
 - L2_USDS: [0x4F13a96EC5C4Cf34e442b46Bbd98a0791F20edC3](https://optimistic.etherscan.io/address/0x4F13a96EC5C4Cf34e442b46Bbd98a0791F20edC3)
@@ -317,7 +315,6 @@ Onboard Optimism Mainnet to the Spark Liquidity Layer with the following address
 - L2_ALM_PROXY: [0x876664f0c9Ff24D1aa355Ce9f1680AE1A5bf36fB](https://optimistic.etherscan.io/address/0x876664f0c9Ff24D1aa355Ce9f1680AE1A5bf36fB)
 - L2_ALM_CONTROLLER: [0x1d54A093b8FDdFcc6fBB411d9Af31D96e034B3D5](https://optimistic.etherscan.io/address/0x1d54A093b8FDdFcc6fBB411d9Af31D96e034B3D5)
 - L2_ALM_RATE_LIMITS: [0x6B34A6B84444dC3Fc692821D5d077a1e4927342d](https://optimistic.etherscan.io/address/0x6B34A6B84444dC3Fc692821D5d077a1e4927342d)
-
 
 ##### Initial [Rate Limits](https://docs.spark.fi/dev/spark-liquidity-layer/spark-alm-controller#rate-limits)
 
