@@ -107,10 +107,10 @@ If this executive proposal passes, then the Unichain Token Bridge for USDS and s
 
 #### Set l2BridgeInstance (Unichain Network)
 
-- Set parameter l2BridgeInstance.govRelay: (L2GovernanceRelay: [0x3510a7F16F549EcD0Ef018DE0B3c2ad7c742990f](https://unichain.blockscout.com/address/0x3510a7F16F549EcD0Ef018DE0B3c2ad7c742990f))
-- Set parameter l2BridgeInstance.bridge: (ERC1967Proxy: [0xa13152006D0216Fe4627a0D3B006087A6a55D752](https://unichain.blockscout.com/address/0xa13152006D0216Fe4627a0D3B006087A6a55D752))
-- Set parameter l2BridgeInstance.bridgeImp: (L2TokenBridge: [0xd78292C12707CF28E8EB7bf06fA774D1044C2dF5](https://unichain.blockscout.com/address/0xd78292C12707CF28E8EB7bf06fA774D1044C2dF5))
-- Set parameter l2BridgeInstance.spell: (L2TokenBridgeSpell: [0x32760698c87834c02ED9AFF2d4FC3e16c029B936](https://unichain.blockscout.com/address/0x32760698c87834c02ED9AFF2d4FC3e16c029B936))
+- Set parameter l2BridgeInstance.govRelay: (L2GovernanceRelay: [0x3510a7F16F549EcD0Ef018DE0B3c2ad7c742990f](https://uniscan.xyz/address/0x3510a7F16F549EcD0Ef018DE0B3c2ad7c742990f))
+- Set parameter l2BridgeInstance.bridge: (ERC1967Proxy: [0xa13152006D0216Fe4627a0D3B006087A6a55D752](https://uniscan.xyz/address/0xa13152006D0216Fe4627a0D3B006087A6a55D752))
+- Set parameter l2BridgeInstance.bridgeImp: (L2TokenBridge: [0xd78292C12707CF28E8EB7bf06fA774D1044C2dF5](https://uniscan.xyz/address/0xd78292C12707CF28E8EB7bf06fA774D1044C2dF5))
+- Set parameter l2BridgeInstance.spell: (L2TokenBridgeSpell: [0x32760698c87834c02ED9AFF2d4FC3e16c029B936](https://uniscan.xyz/address/0x32760698c87834c02ED9AFF2d4FC3e16c029B936))
 
 #### Set cfg 
 
