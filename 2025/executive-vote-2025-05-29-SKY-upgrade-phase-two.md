@@ -69,7 +69,7 @@ If this executive proposal passes, then the following set of changes will take p
 
 ### Change the Source of Sky Token Rewards (SKY to USDS) to the Pause Proxy.
 
-- **Authorization**: [Ecosystem Approval]($TBD)
+- **Authorization**: [Ecosystem Approval](https://forum.sky.money/t/proposed-housekeeping-item-upcoming-executive-spell-2025-05-29/26448/5)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/proposed-housekeeping-item-upcoming-executive-spell-2025-05-29/26448)
 
 If this executive proposal passes, then a new stream will be initialized for Sky Token Rewards. This stream will be adjusted to match SSR by changing the rewards distribution rate. The new stream additionally changes the source for the SKY to the PauseProxy. These changes are achieved by executing the following actions:
@@ -166,7 +166,7 @@ If this executive proposal passes, then The SparkLend Direct Deposit Module (DDM
 
 ### Transfer Ownership of SPK Token to SPK Company Multisig
 
-- **Authorization**: [Ecosystem Approval]($TBD)
+- **Authorization**: [Ecosystem Approval](https://forum.sky.money/t/proposed-housekeeping-item-upcoming-executive-spell-2025-05-29/26448/5)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/proposed-housekeeping-item-upcoming-executive-spell-2025-05-29/26448/3)
 
 If this executive proposal passes, then ownership of SPK Token will be transferred to the SPK Company Multisig. This is achieved through the following actions:
