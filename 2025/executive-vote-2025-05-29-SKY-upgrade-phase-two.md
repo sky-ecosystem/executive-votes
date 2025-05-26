@@ -1,11 +1,11 @@
 ---
-title: Template - [Executive Vote] $executive_title - May 29, 2025
-summary: $summary
+title: Template - [Executive Vote] MKR Upgrade Phase Two, Switch SKY Token Rewards Vesting Stream Source, Init Unichain and Optimism Native Bridges, Deactivate SparkLend DDM, Transfer Ownership of SPK Token to SPK Company Multisig, Increase ALLOCATOR-SPARK-A Maximum Debt Ceiling, Launch Project Funding, Delegate Compensation for April 2025, Atlas Core Development USDS and SKY Payments for May 2025, Spark Proxy Spell - May 29, 2025
+summary: Phase Two parameter changes for MKR to SKY Upgrade, Change source of SKY For USDS Rewards to the Pause Proxy, Initialization parameters for Native Bridges on Unichain and Optimism, SparkLend Direct Deposit Module deactivation and removal from autoline, Transfer Ownership of SPK Token to SPK Company Multisig, Increase ALLOCATOR-SPARK-A Maximum Debt Ceiling, Transfer Launch Project Fundind, Distribute Delegate Compensation for April 2025, Distribute Atlas COre Development USDS and SKY payments for May 2025, Execute a Spark Proxy Spell.
 date: 2025-05-29T00:00:00.000Z
 address: "$spell_address"
 ---
 
-# [Executive Proposal] $executive_title - May 29, 2025
+# [Executive Proposal] MKR Upgrade Phase Two, Switch SKY Token Rewards Vesting Stream Source, Init Unichain and Optimism Native Bridges, Deactivate SparkLend DDM, Transfer Ownership of SPK Token to SPK Company Multisig, Increase ALLOCATOR-SPARK-A Maximum Debt Ceiling, Launch Project Funding, Delegate Compensation for April 2025, Atlas Core Development USDS and SKY Payments for May 2025, Spark Proxy Spell - May 29, 2025 - May 29, 2025
 
 The Governance Facilitators, Dewiz, and Sidestream have placed an executive proposal into the voting system. SKY Holders should vote for this proposal if they support the following alterations to the Sky Protocol.
 
@@ -17,9 +17,17 @@ If you are new to voting in the Sky Protocol, please see the [voting guide](http
 
 If this executive proposal passes, the following **actions** will occur within the Sky Protocol:
 
-- $executive_action_description_1
-- $executive_action_description_2
-- $executive_action_description_3
+- Multiple parameter updates for MKR to SKY Upgrade Phase Two.
+- The source for Sky Token Rewards (SKY to USDS) will be changed to the Pause Proxy.
+- Unichain Native Bridge will be launched with initial listed parameters.
+- Optimism Native Bridge will be launched with initial listed parameters.
+- The SparkLend Direct Deposit Module (DDM) Debt Ceiling will be deactivated.
+- Ownership of SPK Token will be transfered to the SPK Company Multisig.
+- ALLOCATOR-SPARK-A Maximum Debt Ceiling (`line`) will be increased.
+- **5,000,000 USDS** will be distributed to the Launch Project at [0x3C5142F28567E6a0F172fd0BaaF1f2847f49D02F](https://etherscan.io/address/0x3C5142F28567E6a0F172fd0BaaF1f2847f49D02F).
+- A total of **26,267 USDS** will be distributed as Aligned Delegate compensation for April 2025.
+- A total of **77,584 USDS** and **618,000 SKY** will be distributed as Atlas Core Development payments.
+- A Spark proxy spell will be executed.
 
 **Voting for this executive proposal will place your SKY in support of the actions outlined above.**
 
