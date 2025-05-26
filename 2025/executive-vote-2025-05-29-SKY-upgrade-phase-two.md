@@ -1,6 +1,6 @@
 ---
 title: Template - [Executive Vote] MKR-to-SKY Upgrade Phase Two, Switch SKY Token Rewards Vesting Stream Source, Initialize Unichain and Optimism Native Bridges, Deactivate SparkLend DDM, Transfer Ownership of SPK Token to SPK Company Multisig, Increase ALLOCATOR-SPARK-A Maximum Debt Ceiling, Launch Project Funding, Delegate Compensation for April 2025, Atlas Core Development Payments for May 2025, Spark Proxy Spell - May 29, 2025
-summary: Phase Two parameter changes for MKR to SKY Upgrade, Change source of SKY For USDS Rewards to the Pause Proxy, Initialization parameters for Native Bridges on Unichain and Optimism, SparkLend Direct Deposit Module deactivation and removal from autoline, Transfer Ownership of SPK Token to SPK Company Multisig, Increase ALLOCATOR-SPARK-A Maximum Debt Ceiling, Transfer Launch Project Funding, Distribute Delegate Compensation for April 2025, Distribute Atlas COre Development USDS and SKY payments for May 2025, Execute a Spark Proxy Spell.
+summary: Phase Two actions for MKR to SKY Upgrade, change source of SKY For USDS Rewards to the Pause Proxy, initialization of Native Bridges on Unichain and Optimism, SparkLend Direct Deposit Module deactivation and removal from AutoLine, transfer ownership of SPK Token to SPK Company multisig, increase ALLOCATOR-SPARK-A Maximum Debt Ceiling, Launch Project funding, distribute Delegate Compensation for April 2025, distribute Atlas Core Development payments for May 2025, execute a Spark Proxy Spell.
 date: 2025-05-29T00:00:00.000Z
 address: "$spell_address"
 ---
