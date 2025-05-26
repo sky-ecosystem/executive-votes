@@ -50,7 +50,7 @@ If this executive proposal passes, then the following set of changes will take p
 
 #### Activate USDS Rewards on the LSEV2-SKY-A Contract
 
-- Reduce splitter.burn by 50 percentage points from 100% to **50%**.
+- Reduce the [Surplus Buffer Splitter (splitter.burn)](https://sky-atlas.powerhouse.io/A.3.6.2_Surplus_Buffer_Splitter_Parameters/122f2ff0-8d73-80f8-9a2a-d221794f73f5|57ea2c54) parameter by 50 percentage points from 100% to **50%**.
 
 #### LSEV2-SKY-A AutoLine Addition
 
