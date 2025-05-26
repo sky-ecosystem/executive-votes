@@ -166,8 +166,8 @@ If this executive proposal passes, then The SparkLend Direct Deposit Module (DDM
 
 ### Transfer Ownership of SPK Token to SPK Company Multisig
 
-- **Authorization**: [$link_to_approval]()
-- **Proposal**: [$link_to_proposal]()
+- **Authorization**: [Ecosystem Approval]($TBD)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/proposed-housekeeping-item-upcoming-executive-spell-2025-05-29/26448/3)
 
 If this executive proposal passes, then ownership of SPK Token will be transferred to the SPK Company Multisig. This is achieved through the following actions:
 
