@@ -17,7 +17,7 @@ If you are new to voting in the Sky Protocol, please see the [voting guide](http
 
 If this executive proposal passes, the following **actions** will occur within the Sky Protocol:
 
-- Multiple parameter updates for MKR to SKY Upgrade Phase Two.
+- Actions for MKR to SKY Upgrade Phase Two.
 - The source for Sky Token Rewards (SKY to USDS) will be changed to the Pause Proxy.
 - Unichain Native Bridge will be launched with initial listed parameters.
 - Optimism Native Bridge will be launched with initial listed parameters.
