@@ -17,7 +17,7 @@ If you are new to voting in the Sky Protocol, please see the [voting guide](http
 
 If this executive proposal passes, the following **actions** will occur within the Sky Protocol:
 
-- Actions for MKR to SKY Upgrade Phase Two.
+- Actions for MKR to SKY Upgrade Phase Two will be performed.
 - The source for Sky Token Rewards (SKY to USDS) will be changed to the PauseProxy.
 - Unichain Native Bridge will be launched with initial listed parameters.
 - Optimism Native Bridge will be launched with initial listed parameters.
@@ -46,17 +46,17 @@ If this executive proposal does not pass within 30 days, then it will expire and
 - **Authorization**: [Atlas](https://sky-atlas.powerhouse.io/A.4.1.2.1.2_MKR_To_SKY_Upgrade_Phase_Two/1f1f2ff0-8d73-80ee-81e9-f508c45f90ed|b341f4c0b83472dc), [Governance Poll 1245](https://vote.makerdao.com/polling/QmcZNZg3)  
 - **Proposal**: [Forum Post](https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-may-5-2025/26319)
 
-If this executive proposal passes, then the following set of changes will take place to complete Phase Two of the MKR to SKY Upgrade.
+If this executive proposal passes, the following actions will complete Phase Two of the MKR to SKY Upgrade.
 
 #### Activate USDS Rewards on the LSEV2-SKY-A Contract
 
-- Reduce the [Surplus Buffer Splitter (splitter.burn)](https://sky-atlas.powerhouse.io/A.3.6.2_Surplus_Buffer_Splitter_Parameters/122f2ff0-8d73-80f8-9a2a-d221794f73f5|57ea2c54) parameter by 50 percentage points from 100% to **50%**.
+- Reduce the [Surplus Buffer Splitter burn (splitter.burn)](https://sky-atlas.powerhouse.io/A.3.6.2_Surplus_Buffer_Splitter_Parameters/122f2ff0-8d73-80f8-9a2a-d221794f73f5|57ea2c54) parameter by 50 percentage points from 100% to **50%**.
 
 #### LSEV2-SKY-A AutoLine Addition
 
 - Add LSEV2-SKY-A to the [Debt Ceiling Instant Access Module (DC-IAM)](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.4_Debt_Ceiling_Instant_Access_Module_(DC_IAM)/071d42e3-8a21-4401-852e-0b52c49768bb%7C57eaf45219bea3b430c2).
-- Set the [Maximum Debt Ceiling (`line`)](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.4.1_Maximum_Debt_Ceiling_(line)/6f1a913d-9436-4b70-816b-e317672737d6%7C57eaf45219bea3b430c268bb) to **50,000,000 USDS**.
-- Set the [Target Available Debt (`gap`)](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.4.2_Target_Available_Debt_(gap)/c1e17312-3744-4360-81f4-03564f0dd09d%7C57eaf45219bea3b430c268bb) to **25,000,000 USDS**.
+- Set the [Maximum Debt Ceiling (`line`)](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.4.1_Maximum_Debt_Ceiling_(line)/6f1a913d-9436-4b70-816b-e317672737d6%7C57eaf45219bea3b430c268bb) to **50 million USDS**.
+- Set the [Target Available Debt (`gap`)](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.4.2_Target_Available_Debt_(gap)/c1e17312-3744-4360-81f4-03564f0dd09d%7C57eaf45219bea3b430c268bb) to **25 million USDS**.
 - Set the [Ceiling Increase Cooldown (`ttl`)](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.4.3_Ceiling_Increase_Cooldown_(ttl)/58f5315f-938f-464c-b2d2-f611145d469a%7C57eaf45219bea3b430c268bb) to **86,400 seconds**.
 
 #### Adjust GSM Pause Delay
@@ -192,7 +192,7 @@ If this executive proposal passes, then the ALLOCATOR-SPARK-A [Maximum Debt Ceil
 - **Authorization**: [Atlas](https://sky-atlas.powerhouse.io/A.5.6_Launch_Project/1f433d9d-7cdb-406f-b7e8-f9bc4855eb77%7C8d5a)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/utilization-of-the-launch-project-under-the-accessibility-scope/21468/43)
 
-If this executive proposal passes, then **5,000,000 USDS** will be distributed to the Launch Project at [0x3C5142F28567E6a0F172fd0BaaF1f2847f49D02F](https://etherscan.io/address/0x3C5142F28567E6a0F172fd0BaaF1f2847f49D02F).
+If this executive proposal passes, then **5 million USDS** will be distributed to the Launch Project at [0x3C5142F28567E6a0F172fd0BaaF1f2847f49D02F](https://etherscan.io/address/0x3C5142F28567E6a0F172fd0BaaF1f2847f49D02F).
 
 ### Delegate Compensation for April 2025
 
