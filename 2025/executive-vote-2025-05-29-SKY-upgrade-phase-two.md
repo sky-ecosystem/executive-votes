@@ -395,12 +395,63 @@ Update DAI [Interest Rate Model](https://sky-atlas.powerhouse.io/A.AG1.3.2.2.1.1
 
 Reduce the WBTC [Liquidation Threshold](https://sky-atlas.powerhouse.io/A.AG1.3.2.2.1.1.5_Liquidation_Threshold_Definition/1c1f2ff0-8d73-81ea-bd7e-feb73a44923a|7896ed3326389fe3553030cd0a82f68efd49) by 5 percentage points from 45% to **40%**.
 
-#### Spark USDC Morpho Vault - Increase cbBTC Pool Supply Cap
+#### [Base] Spark USDC Morpho Vault - Increase cbBTC Pool Supply Cap
 
 - **Authorization**: [Governance Poll 1252](https://vote.makerdao.com/polling/QmfPc8Ub)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/may-29-2025-proposed-changes-to-spark-for-upcoming-spell/26372)
 
 Increase cbBTC/USDC market [(0x9103c3b4e834476c9a62ea009ba2c884ee42e94e6e314a26f04d312434191836)](https://app.morpho.org/base/market/0x9103c3b4e834476c9a62ea009ba2c884ee42e94e6e314a26f04d312434191836/cbbtc-usdc) Supply Cap in the Spark USDC Morpho Vault on Base by 500 million USDC from 500 million USDC to **1 billion USDC**.
+
+#### Increase USDS Mint and USDC Swap Rate Limits
+
+- **Authorization**: [Governance Poll 1250](https://vote.makerdao.com/polling/QmUYRV1H)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/may-29-2025-proposed-changes-to-spark-for-upcoming-spell/26372)
+
+Increase the Mint and Swap [Rate Limits](https://docs.spark.fi/dev/spark-liquidity-layer/spark-alm-controller#rate-limits) for USDS and USDC as follows.
+
+##### USDS Mint Rate Limits
+
+- Increase max by 300 million USDS from 200 million USDS to **500 million USDS**.
+- Increase slope by 300 million USDS per day from 200 million USDS per day to **500 million USDS per day**.
+
+##### USDC Swap Rate Limits
+
+- Increase max by 300 million USDC from 200 million USDC to **500 million USDC**.
+- Increase slope by 100 million USDC from 200 million USDC to **300 million USDC per day**.
+
+#### Onboard August PT-USDS to Morpho Spark DAI Vault
+
+- **Authorization**: [Governance Poll 1505](https://vote.sky.money/polling/QmRtLuL2)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/may-29-2025-proposed-changes-to-spark-for-upcoming-spell/26372)
+
+Onboard `PT-USDS-14Aug2025` to the Morpho DAI vault with the following parameters:
+
+- Pool LLTV: **96.5%**
+- Oracle base value (value at maturity): **1 USDS per PT token**
+- Oracle discount rate: **15%**
+- Pool supply cap: **500 million DAI**
+
+
+#### Increase USDe Mint and Staking Rate Limits
+
+- **Authorization**: [Governance Poll 1506](https://vote.sky.money/polling/QmcN7anL)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/may-29-2025-proposed-changes-to-spark-for-upcoming-spell/26372)
+
+Increase USDe mint and staking rate limits on the [Spark Liquidity Layer](https://docs.spark.fi/user-guides/spark-liquidity-layer/) on Mainnet as follows:
+
+- Minting USDe
+  - Max amount: **250 million**
+  - Slope: **100 million**
+- Burning USDe
+  - Max amount: **500 million**
+  - Slope: **200 million**
+- Depositing to sUSDe
+  - Max amount: **250 million**
+  - Slope: **100 million**
+- Initiating withdrawal cooldown from sUSDe
+  - Max amount: **unlimited**
+- Withdrawing from sUSDe after cooldown
+  - Max amount: **unlimited**
 
 ## Review
 
