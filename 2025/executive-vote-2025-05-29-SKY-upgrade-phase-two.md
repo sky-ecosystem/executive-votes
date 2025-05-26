@@ -72,7 +72,7 @@ If this executive proposal passes, then the following set of changes will take p
 - **Authorization**: [Ecosystem Approval](https://forum.sky.money/t/proposed-housekeeping-item-upcoming-executive-spell-2025-05-29/26448/5)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/proposed-housekeeping-item-upcoming-executive-spell-2025-05-29/26448)
 
-If this executive proposal passes, then a new stream will be initialized for Sky Token Rewards. This stream will be adjusted to match SSR by changing the rewards distribution rate. The new stream additionally changes the source for the SKY to the PauseProxy. These changes are achieved by executing the following actions:
+If this executive proposal passes, then a new vesting stream will be initialized for Sky Token Rewards. This stream will be adjusted to match SSR by changing the rewards distribution rate and its source of SKY will be switched from minting new tokens to transferring tokens from the PauseProxy. These changes are achieved by executing the following actions:
 
 - `yank` MCD_VEST_SKY stream ID 2.
 - Claim the remaining tokens from the old DssVest by calling VestedRewardsDistribution.distribute() on REWARDS_DIST_USDS_SKY
