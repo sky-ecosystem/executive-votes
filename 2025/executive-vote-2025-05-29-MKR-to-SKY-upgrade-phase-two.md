@@ -96,7 +96,7 @@ If this executive proposal passes, then a new vesting stream will be initialized
 - **Authorization**: [Governance Poll 1253](https://vote.makerdao.com/polling/QmXjeJtw)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/may-29-2025-proposed-changes-to-spark-for-upcoming-spell/26372)
 
-If this executive proposal passes, then the Unichain Token Bridge for USDS and sUSDS will be initialized by calling [TokenBridgeInit.initBridges]([TokenBridgeInit.initBridges](https://github.com/makerdao/op-token-bridge/blob/82918f4853d50c6520dac53fdb70a42fd4ce671b/script/Init.s.sol)) using the following parameters.
+If this executive proposal passes, then the Unichain Token Bridge for USDS and sUSDS will be initialized by calling [TokenBridgeInit.initBridges](https://github.com/makerdao/op-token-bridge/blob/0f935505c0dc74ce3db2a9998320a56119321814/deploy/TokenBridgeInit.sol#L63) using the following parameters.
 
 #### Set l1BridgeInstance 
 
