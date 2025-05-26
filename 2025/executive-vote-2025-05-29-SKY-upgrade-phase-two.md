@@ -207,8 +207,8 @@ If this executive proposal passes, then a total of **26,267 USDS** will be distr
 
 ### Atlas Core Development Payments for May 2025
 
-- **Authorization**: [$link_to_approval]()
-- **Proposal**: [$link_to_proposal]()
+- **Authorization**: [Atlas](https://sky-atlas.powerhouse.io/A.2.2.1.1_Funding/8ea8dcb0-7261-4c1a-ae53-b7f3eb5362e5|9e1f3b569af1), [Ecosystem Approval](https://forum.sky.money/t/atlas-core-development-payment-requests-may-2025/26344/6)  
+- **Proposal**: [Forum Post](https://forum.sky.money/t/atlas-core-development-payment-requests-may-2025/26344)
 
 If this executive proposal passes, then a total of **77,584 USDS** and **618,000 SKY** will be distributed for Atlas Core Development funding.
 
@@ -229,8 +229,8 @@ If this executive proposal passes, then a total of **77,584 USDS** and **618,000
 
 ### Execute Spark Proxy Spell
 
-- **Authorization**: [$link_to_approval]()
-- **Proposal**: [$link_to_proposal]()
+- **Authorization**: [Ecosystem Approval](https://forum.sky.money/t/may-29-2025-proposed-changes-to-spark-for-upcoming-spell/26372/3)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/may-29-2025-proposed-changes-to-spark-for-upcoming-spell/26372)
 
 If this executive proposal passes, then a Spark Proxy Spell will be executed at [$TBD](https://etherscan.io/address/TBD) with the following contents.
 
