@@ -115,9 +115,9 @@ If this executive proposal passes, then the Unichain Token Bridge for USDS and s
 #### Set cfg 
 
 - Set parameter cfg.l1Messenger: (l1messenger [0x9A3D64E386C18Cb1d6d5179a9596A4B5736e98A6](https://etherscan.io/address/0x9A3D64E386C18Cb1d6d5179a9596A4B5736e98A6))
-- Set parameter cfg.l2Messenger: (l2messenger [0x4200000000000000000000000000000000000007](https://unichain.blockscout.com/address/0x4200000000000000000000000000000000000007))
+- Set parameter cfg.l2Messenger: (l2messenger [0x4200000000000000000000000000000000000007](https://uniscan.xyz/address/0x4200000000000000000000000000000000000007))
 - Set parameter cfg.l1Tokens: (USDS, SUSDS on mainnet)
-- Set parameter cfg.l2Tokens: (USDS: [0x7E10036Acc4B56d4dFCa3b77810356CE52313F9C](https://unichain.blockscout.com/address/0x7E10036Acc4B56d4dFCa3b77810356CE52313F9C), sUSDS: [0xA06b10Db9F390990364A3984C04FaDf1c13691b5](https://unichain.blockscout.com/address/0xA06b10Db9F390990364A3984C04FaDf1c13691b5) on Unichain)
+- Set parameter cfg.l2Tokens: (USDS: [0x7E10036Acc4B56d4dFCa3b77810356CE52313F9C](https://uniscan.xyz/address/0x7E10036Acc4B56d4dFCa3b77810356CE52313F9C), sUSDS: [0xA06b10Db9F390990364A3984C04FaDf1c13691b5](https://uniscan.xyz/address/0xA06b10Db9F390990364A3984C04FaDf1c13691b5) on Unichain)
 - Set parameter cfg.maxWithdraws: (type(uint256).max for each token)
 - Set parameter cfg.minGasLimit: (500,000)
 - Set parameter cfg.govRelayCLKey: (chainlog key for govRelay -> UNICHAIN_GOV_RELAY)
