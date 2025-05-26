@@ -27,7 +27,7 @@ If this executive proposal passes, the following **actions** will occur within t
 - **5,000,000 USDS** will be distributed to the Launch Project at [0x3C5142F28567E6a0F172fd0BaaF1f2847f49D02F](https://etherscan.io/address/0x3C5142F28567E6a0F172fd0BaaF1f2847f49D02F).
 - A total of **26,267 USDS** will be distributed as Aligned Delegate compensation for April 2025.
 - A total of **77,584 USDS** and **618,000 SKY** will be distributed as Atlas Core Development payments for May 2025.
-- A Spark proxy spell will be executed.
+- A Spark proxy spell will be executed at $spark_address.
 
 **Voting for this executive proposal will place your SKY in support of the actions outlined above.**
 
