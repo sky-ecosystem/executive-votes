@@ -1,6 +1,6 @@
 ---
 title: Template - [Executive Vote] MKR-to-SKY Upgrade Phase Two, Switch SKY Token Rewards Vesting Stream Source, Initialize Unichain and Optimism Native Bridges, Deactivate SparkLend DDM, Transfer Ownership of SPK Token to SPK Company Multisig, Increase ALLOCATOR-SPARK-A Maximum Debt Ceiling, Launch Project Funding, Delegate Compensation for April 2025, Atlas Core Development Payments for May 2025, Spark Proxy Spell - May 29, 2025
-summary: Phase Two actions for MKR to SKY Upgrade, change source of SKY For USDS Rewards to the Pause Proxy, initialization of Native Bridges on Unichain and Optimism, SparkLend Direct Deposit Module deactivation and removal from AutoLine, transfer ownership of SPK Token to SPK Company multisig, increase ALLOCATOR-SPARK-A Maximum Debt Ceiling, Launch Project funding, distribute Delegate Compensation for April 2025, distribute Atlas Core Development payments for May 2025, execute a Spark Proxy Spell.
+summary: Phase Two actions for MKR-to-SKY Upgrade, change source of SKY For USDS Rewards to the Pause Proxy, initialization of Native Bridges on Unichain and Optimism, SparkLend Direct Deposit Module deactivation and removal from AutoLine, transfer ownership of SPK Token to SPK Company multisig, increase ALLOCATOR-SPARK-A Maximum Debt Ceiling, Launch Project funding, distribute Delegate Compensation for April 2025, distribute Atlas Core Development payments for May 2025, execute a Spark Proxy Spell.
 date: 2025-05-29T00:00:00.000Z
 address: "$spell_address"
 ---
@@ -17,17 +17,17 @@ If you are new to voting in the Sky Protocol, please see the [voting guide](http
 
 If this executive proposal passes, the following **actions** will occur within the Sky Protocol:
 
-- Actions for MKR to SKY Upgrade Phase Two will be performed.
+- Actions for MKR-to-SKY Upgrade Phase Two will be performed.
 - The source for Sky Token Rewards (SKY to USDS) will be changed to the PauseProxy.
 - Unichain Native Bridge will be launched with initial listed parameters.
 - Optimism Native Bridge will be launched with initial listed parameters.
 - The SparkLend Direct Deposit Module (DDM) Debt Ceiling will be deactivated.
 - Ownership of SPK Token will be transferred to the SPK Company Multisig.
 - ALLOCATOR-SPARK-A Maximum Debt Ceiling (`line`) will be increased.
-- **5,000,000 USDS** will be distributed to the Launch Project at [0x3C5142F28567E6a0F172fd0BaaF1f2847f49D02F](https://etherscan.io/address/0x3C5142F28567E6a0F172fd0BaaF1f2847f49D02F).
+- **5 million USDS** will be distributed to the Launch Project at [0x3C5142F28567E6a0F172fd0BaaF1f2847f49D02F](https://etherscan.io/address/0x3C5142F28567E6a0F172fd0BaaF1f2847f49D02F).
 - A total of **26,267 USDS** will be distributed as Aligned Delegate compensation for April 2025.
 - A total of **77,584 USDS** and **618,000 SKY** will be distributed as Atlas Core Development payments for May 2025.
-- A Spark proxy spell will be executed at $spark_address.
+- A Spark proxy spell will be executed at [0x3968a022D955Bbb7927cc011A48601B65a33F346](https://etherscan.io/address/0x3968a022D955Bbb7927cc011A48601B65a33F346).
 
 **Voting for this executive proposal will place your SKY in support of the actions outlined above.**
 
@@ -41,12 +41,12 @@ If this executive proposal does not pass within 30 days, then it will expire and
 
 ## Proposal Details
 
-### MKR to SKY Upgrade Phase Two
+### MKR-to-SKY Upgrade Phase Two
 
 - **Authorization**: [Atlas](https://sky-atlas.powerhouse.io/A.4.1.2.1.2_MKR_To_SKY_Upgrade_Phase_Two/1f1f2ff0-8d73-80ee-81e9-f508c45f90ed|b341f4c0b83472dc), [Governance Poll 1245](https://vote.makerdao.com/polling/QmcZNZg3)  
 - **Proposal**: [Forum Post](https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-may-5-2025/26319)
 
-If this executive proposal passes, the following actions will complete Phase Two of the MKR to SKY Upgrade.
+If this executive proposal passes, the following actions will complete Phase Two of the MKR-to-SKY Upgrade.
 
 #### Activate USDS Rewards on the LSEV2-SKY-A Contract
 
@@ -67,20 +67,20 @@ If this executive proposal passes, the following actions will complete Phase Two
 
 - Revoke LOCKSTAKE_MIGRATOR's authority over the vat.
 
-### Change the Source of Sky Token Rewards (SKY to USDS) to the Pause Proxy.
+### Change the Source of Sky Token Rewards (SKY to USDS) to the Pause Proxy
 
 - **Authorization**: [Ecosystem Approval](https://forum.sky.money/t/proposed-housekeeping-item-upcoming-executive-spell-2025-05-29/26448/5)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/proposed-housekeeping-item-upcoming-executive-spell-2025-05-29/26448)
 
-If this executive proposal passes, then a new vesting stream will be initialized for Sky Token Rewards. This stream will be adjusted to match SSR by changing the rewards distribution rate and its source of SKY will be switched from minting new tokens to transferring tokens from the PauseProxy. These changes are achieved by executing the following actions:
+If this executive proposal passes, then a new vesting stream will be initialized for Sky Token Rewards. This stream will be adjusted to match the SSR by changing the rewards distribution rate, and its source of SKY will be switched from minting new tokens to transferring tokens from the PauseProxy. These changes will be achieved by executing the following actions:
 
 - `yank` MCD_VEST_SKY stream ID 2.
-- Claim the remaining tokens from the old DssVest by calling VestedRewardsDistribution.distribute() on REWARDS_DIST_USDS_SKY
+- Claim the remaining tokens from the old DssVest by calling `VestedRewardsDistribution.distribute()` on REWARDS_DIST_USDS_SKY
 - Set cap on MCD_VEST_SKY_TREASURY to `151,250,000 * WAD / 182 days`.
-- Increase sky.approve(MCD_VEST_SKY_TREASURY, ...) by 137,500,000 SKY to account for new vesting stream.
+- Increase `sky.approve(MCD_VEST_SKY_TREASURY, ...)` by 137.5 million SKY to account for new vesting stream.
 - Remove old REWARDS_DIST_USDS_SKY from the keeper job by calling `CRON_REWARDS_DIST_JOB.rem()` with the current REWARDS_DIST_USDS_SKY. 
-- Update chainlog value for REWARDS_DIST_USDS_SKY to the new VestedRewardsDistribution contract at [0xC8d67Fcf101d3f89D0e1F3a2857485A84072a63F](https://etherscan.io/address/0xC8d67Fcf101d3f89D0e1F3a2857485A84072a63F).
-- Add new REWARDS_DIST_USDS_SKY to the keeper job by calling `CRON_REWARDS_DIST_JOB.set()` with the new REWARDS_DIST_USDS_SKY.
+- Update [Chainlog](https://chainlog.sky.money) value for REWARDS_DIST_USDS_SKY to the new VestedRewardsDistribution contract at [0xC8d67Fcf101d3f89D0e1F3a2857485A84072a63F](https://etherscan.io/address/0xC8d67Fcf101d3f89D0e1F3a2857485A84072a63F).
+- Add new REWARDS_DIST_USDS_SKY to the keeper job by calling `CRON_REWARDS_DIST_JOB.set()` with the new REWARDS_DIST_USDS_SKY and frequency of 601,200 seconds.
 - Deploy new MCD_VEST_SKY_TREASURY stream with the following parameters:
     - usr: REWARDS_DIST_USDS_SKY
     - tot: 137,500,000 SKY
@@ -96,7 +96,7 @@ If this executive proposal passes, then a new vesting stream will be initialized
 - **Authorization**: [Governance Poll 1253](https://vote.makerdao.com/polling/QmXjeJtw)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/may-29-2025-proposed-changes-to-spark-for-upcoming-spell/26372)
 
-If this executive proposal passes, then the Unichain Token Bridge for USDS and sUSDS will be initialized by calling [TokenBridgeInit.initBridges](https://github.com/makerdao/op-token-bridge/blob/0f935505c0dc74ce3db2a9998320a56119321814/deploy/TokenBridgeInit.sol#L63) using the following parameters.
+If this executive proposal passes, then the Unichain Token Bridge for USDS and sUSDS will be initialized by calling [`TokenBridgeInit.initBridges`](https://github.com/makerdao/op-token-bridge/blob/0f935505c0dc74ce3db2a9998320a56119321814/deploy/TokenBridgeInit.sol#L63) using the following parameters.
 
 #### Set l1BridgeInstance 
 
@@ -130,7 +130,7 @@ If this executive proposal passes, then the Unichain Token Bridge for USDS and s
 - **Authorization**: [Governance Poll 1254](https://vote.makerdao.com/polling/QmNe8Erm)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/may-29-2025-proposed-changes-to-spark-for-upcoming-spell/26372)
 
-If this executive proposal passes, then the Optimism Token Bridge for USDS and sUSDS will be initialized by calling [TokenBridgeInit.initBridges](https://github.com/makerdao/op-token-bridge/blob/0f935505c0dc74ce3db2a9998320a56119321814/deploy/TokenBridgeInit.sol#L63) using the following parameters.
+If this executive proposal passes, then the Optimism Token Bridge for USDS and sUSDS will be initialized by calling [`TokenBridgeInit.initBridges`](https://github.com/makerdao/op-token-bridge/blob/0f935505c0dc74ce3db2a9998320a56119321814/deploy/TokenBridgeInit.sol#L63) using the following parameters.
 
 #### Set l1BridgeInstance 
 
@@ -238,7 +238,7 @@ If this executive proposal passes, then a total of **77,584 USDS** and **618,000
 - **Authorization**: [Ecosystem Approval](https://forum.sky.money/t/may-29-2025-proposed-changes-to-spark-for-upcoming-spell/26372/3)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/may-29-2025-proposed-changes-to-spark-for-upcoming-spell/26372)
 
-If this executive proposal passes, then a Spark Proxy Spell will be executed at [$TBD](https://etherscan.io/address/TBD) with the following contents.
+If this executive proposal passes, then a Spark Proxy Spell will be executed at [0x3968a022D955Bbb7927cc011A48601B65a33F346](https://etherscan.io/address/0x3968a022D955Bbb7927cc011A48601B65a33F346) with the following contents.
 
 #### Onboard Unichain to the Spark Liquidity Layer
 
@@ -264,7 +264,7 @@ Onboard Unichain to the Spark Liquidity Layer with the following addresses and p
 - L2_PSM: [0x7b42Ed932f26509465F7cE3FAF76FfCe1275312f](https://uniscan.xyz/address/0x7b42Ed932f26509465F7cE3FAF76FfCe1275312f)
 
 - L2_ALM_PROXY: [0x345E368fcCd62266B3f5F37C9a131FD1c39f5869](https://uniscan.xyz/address/0x345E368fcCd62266B3f5F37C9a131FD1c39f5869)
-- L2_ALM_CONTROLLER: [0x9B1BEB11CFE05117029a30eb799B6586125321FF](https://uniscan.xyz/address/0x9B1BEB11CFE05117029a30eb799B6586125321FF?tab=contract)
+- L2_ALM_CONTROLLER: [0x9B1BEB11CFE05117029a30eb799B6586125321FF](https://uniscan.xyz/address/0x9B1BEB11CFE05117029a30eb799B6586125321FF)
 - L2_ALM_RATE_LIMITS: [0x5A1a44D2192Dd1e21efB9caA50E32D0716b35535](https://uniscan.xyz/address/0x5A1a44D2192Dd1e21efB9caA50E32D0716b35535)
 
 ##### Initial [Rate Limits](https://docs.spark.fi/dev/spark-liquidity-layer/spark-alm-controller#rate-limits)
@@ -396,7 +396,7 @@ Increase the Mint and Swap [Rate Limits](https://docs.spark.fi/dev/spark-liquidi
 #### Onboard August PT-USDS to Morpho Spark DAI Vault
 
 - **Authorization**: [Governance Poll 1505](https://vote.sky.money/polling/QmRtLuL2)
-- **Proposal**: [Forum Post](https://forum.sky.money/t/may-29-2025-proposed-changes-to-spark-for-upcoming-spell/26372)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/may-29-2025-proposed-changes-to-spark-for-upcoming-spell-2/26440)
 
 Onboard `PT-USDS-14Aug2025` to the Morpho DAI vault with the following parameters:
 
@@ -409,7 +409,7 @@ Onboard `PT-USDS-14Aug2025` to the Morpho DAI vault with the following parameter
 #### Increase USDe Mint and Staking Rate Limits
 
 - **Authorization**: [Governance Poll 1506](https://vote.sky.money/polling/QmcN7anL)
-- **Proposal**: [Forum Post](https://forum.sky.money/t/may-29-2025-proposed-changes-to-spark-for-upcoming-spell/26372)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/may-29-2025-proposed-changes-to-spark-for-upcoming-spell-2/26440)
 
 Increase USDe mint and staking rate limits on the [Spark Liquidity Layer](https://docs.spark.fi/user-guides/spark-liquidity-layer/) on Mainnet as follows:
 
