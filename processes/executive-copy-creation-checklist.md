@@ -45,7 +45,7 @@
 - [ ] Do the executive title, summary, and executive summary accurately reflect executive copy content?
 - [ ] Read the executive copy in full, with the above checklists and general readability in mind. Make any required changes.
 - [ ] Run the copy through a spelling and grammar checker - do not blindly accept suggested changes.
-- [ ] Inform the reviewer that the executive copy is ready to review
+- [ ] Inform the reviewers that the executive copy is ready to review
 - [ ] Commit changes, and create a PR to the executive votes GitHub repository.
 
 ## Atlas Active Element Updates
@@ -59,7 +59,9 @@
 ## Submission
 
 - [ ] Merge approved executive copy PR.
-- [ ] Inform technical teams that the copy is ready and provide the link.
+- [ ] Inform technical teams that the copy is ready and provide the link and hash.
+    - [ ] Use `cast keccak -- "$(wget $EXEC_URL -O -)"` to generate the hash
+    - [ ] Verify the hash against an online tool such as https://emn178.github.io/online-tools/keccak_256.html
 - [ ] Once technical teams have provided a spell address, add it to the executive copy.
 - [ ] Update the proposals.json to set the active proposal on the portal.
 - [ ] Refresh portal cache (Jetstream can provide password)
