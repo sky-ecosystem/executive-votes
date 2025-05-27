@@ -3,7 +3,7 @@
 
 ## Creation
 
-- [ ] Sync executive votes Git
+- [ ] Sync [executive votes Git](https://github.com/makerdao/executive-votes)
 - [ ] Ensure you are working from the latest main branch
 - [ ] Read Associated [Executive Contents sheet](https://docs.google.com/spreadsheets/d/1w_z5WpqxzwreCcaveB2Ye1PP5B8QAHDglzyxKHG3CHw/edit?pli=1#gid=1593813984)
 - [ ] Copy the executive template
