@@ -90,6 +90,7 @@ If this executive proposal passes, then a new vesting stream will be initialized
     - manager: none.
 - Restrict the new stream, res: 1.
 - File the id of the newly created stream to the new REWARDS_DIST_USDS_SKY contract.
+- Set rewardsDistribution on REWARDS_USDS_SKY to the new REWARDS_DIST_USDS_SKY contract.
 
 ### Init Unichain Native Bridge
 
