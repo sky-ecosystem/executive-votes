@@ -1,4 +1,4 @@
 {
-  "mainnet": [],
+  "mainnet": ["https://raw.githubusercontent.com/makerdao/executive-votes/main/2025/executive-vote-2025-05-29-MKR-to-SKY-upgrade-phase-two.md"],
   "tenderly": []
 }
