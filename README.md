@@ -8,7 +8,7 @@ The `executive-votes` repository is organized as follows:
 
 ```
 executive-votes/
-├── active/ # Contains executive votes currently under consideration
+├── active/ # Contains a JSON file that determines the executive votes currently under consideration
 │ └── proposals.json
 ├── 2025/ # Contains executive votes posted in 2025
 │ └── e.g. executive-vote-2025-01-15-update-oracle.md
@@ -28,15 +28,15 @@ Executive vote files should follow the pattern: `executive-vote-<yyyy-mm-dd>-<de
 
 ## Components
 
-- **`active/`**: Holds a proposals.json file that lists executive votes that are currently live or awaiting execution.
-- **Year Directories (`YYYY/`)**: Store historical records of executive votes, organized by the year they were concluded or executed.
+- **`active/`**: Holds a proposals.json file that points to the URL for the current Exec Doc living in the _Year Directories_.
+- **Year Directories (`YYYY/`)**: Store current and historical records of executive votes, organized by the year they were concluded or executed.
 - **`templates/`**: Contains template files (`.md`) to ensure consistency when drafting new executive votes.
 - **`index.json`**: (Optional) A JSON file that could provide a quick index or summary of all executive votes, potentially linking IDs to descriptions or dates.
 - **`README.md`**: Provides an overview of this repository's structure and conventions.
 
 ## Usage
 
-- Place ongoing executive votes in the `active/` directory.
-- Once a vote is concluded (passed or rejected), move its corresponding file from `active/` to the relevant year directory (e.g., `2024/`).
-- Use the naming convention `executive-vote-<yyyy-mm-dd>-<description>.md` for all vote files.
 - Utilize the templates in `templates/` for creating new vote proposals.
+- Use the naming convention `executive-vote-<yyyy-mm-dd>-<description>.md` for all vote files.
+- Save the Exec Doc under the appropriate _Year Directory_.
+- Update the proposals.json file in the `active/` directory to point to the URL of the Exec Doc (raw version).
