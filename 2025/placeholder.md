@@ -1,1 +1,0 @@
-This is a placeholder to demonstrate the file structure.
