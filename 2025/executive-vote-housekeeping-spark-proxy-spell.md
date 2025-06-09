@@ -1,6 +1,6 @@
 ---
 title: Template - [Executive Vote] Housekeeping Items, Spark Proxy Spell - June 12, 2025
-summary: Housekeeping actions concerning the offboarding of three BlockTower Andromeda RWA vaults, Spark proxy spell execution.
+summary: Housekeeping actions concerning the offboarding of three BlockTower RWA vaults, Spark proxy spell execution.
 date: 2025-06-12T00:00:00.000Z
 address: "$spell_address"
 ---
@@ -17,7 +17,7 @@ If you are new to voting in the Sky Protocol, please see the [voting guide](http
 
 If this executive proposal passes, the following **actions** will occur within the Sky Protocol:
 
-- Housekeeping actions concerning the offboarding of three BlockTower Andromeda RWA vaults will be carried out as described below.
+- Housekeeping actions concerning the offboarding of three BlockTower RWA vaults will be carried out as described below.
 - A Spark Proxy Spell will be executed.
 
 **Voting for this executive proposal will place your SKY in support of the actions outlined above.**
@@ -35,7 +35,7 @@ If this executive proposal does not pass within 30 days, then it will expire and
 - **Authorization**: [Spell Team Approval](https://forum.sky.money/t/proposed-housekeeping-item-2025-06-12-executive/26599/2), [Ecosystem Approval](https://forum.sky.money/t/proposed-housekeeping-item-2025-06-12-executive/26599/3)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/proposed-housekeeping-item-2025-06-12-executive/26599)
 
-If this executive proposal passes, then the three BlockTower Andromeda RWA vaults below will be fully offboarded by performing the following [housekeeping](https://sky-atlas.powerhouse.io/A.1.10.1.6.1.1_Definition_Of_Housekeeping_Items/1a7f2ff0-8d73-809a-abbb-ea8bd0b68360|0db303084211b3b5f873) actions:
+If this executive proposal passes, then the three BlockTower Andromeda RWA vaults below will be offboarded by performing the following [housekeeping](https://sky-atlas.powerhouse.io/A.1.10.1.6.1.1_Definition_Of_Housekeeping_Items/1a7f2ff0-8d73-809a-abbb-ea8bd0b68360|0db303084211b3b5f873) actions:
 
 #### BlockTower Andromeda (RWA015-A)
 
@@ -86,13 +86,13 @@ Add the Spark Liquidity Layer to the [Allocator Role](https://docs.morpho.org/cu
 
 Onboard new Ethena PTs with the following parameters:
 
-##### PT-eUSDe-Aug
+##### [PT-eUSDe-Aug](https://app.pendle.finance/trade/markets/0xe93b4a93e80bd3065b290394264af5d82422ee70/swap?view=pt&chain=ethereum&tab=info)
 
 - Pool supply cap: **500 million DAI**
 - Pool LLTV: **91.5%**
 - PT Oracle Discount Rate: **15%**
 
-##### PT-sUSDe-Sept
+##### [PT-sUSDe-Sept](https://app.pendle.finance/trade/markets/0xa36b60a14a1a5247912584768c6e53e1a269a9f7/swap?view=pt&chain=ethereum&tab=info)
 
 - Pool supply cap: **500 million DAI**
 - Pool LLTV: **91.5%**
@@ -103,7 +103,7 @@ Onboard new Ethena PTs with the following parameters:
 - **Authorization**: [Governance Poll 1510](https://vote.sky.money/polling/Qme3Des6)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/june-12-2025-proposed-changes-to-spark-for-upcoming-spell/26559)
 
-Apply the following changes to the inactive pools on mainnet:
+Apply the following changes to the inactive Spark DAI Morpho Vault pools that have matured:
 
 - PT-eUSDe-May - Reduce supply cap to **0 DAI**.
 - PT-sUSDe-May - Reduce supply cap to **0 DAI**.
@@ -135,14 +135,14 @@ Apply the following changes to the Stablecoin Market Reserve Factors on mainnet:
 - **Authorization**: [Governance Poll 1513](https://vote.sky.money/polling/QmRsqaaC)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/june-12-2025-proposed-changes-to-spark-for-upcoming-spell/26559)
 
-Increase the Vault Fee by 10 percentage points from 0% to **10%**.
+Increase the Spark DAI Morpho Vault [Performance Fee](https://docs.morpho.org/curation/concepts/fee/) by 10 percentage points from 0% to **10%**.
 
 #### [Base] Morpho USDC Vault – Update Vault Fee
 
 - **Authorization**: [Governance Poll 1514](https://vote.sky.money/polling/QmdyVQok)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/june-12-2025-proposed-changes-to-spark-for-upcoming-spell/26559)
 
-Increase the Vault Fee by 10 percentage points from 0% to **10%**.
+Increase the Spark USDC Morpho Vault [Performance Fee](https://docs.morpho.org/curation/concepts/fee/) by 10 percentage points from 0% to **10%**.
 
 #### [Mainnet] SparkLend – Update ezETH Parameters
 
