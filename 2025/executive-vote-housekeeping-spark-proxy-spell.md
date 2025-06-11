@@ -7,7 +7,7 @@ address: "$spell_address"
 
 # [Executive Proposal] Housekeeping Items, Spark Proxy Spell - June 12, 2025
 
-The Governance Facilitators, Sidestream and Dewiz have placed an executive proposal into the voting system. SKY Holders should vote for this proposal if they support the following alterations to the Sky Protocol.
+The Governance Facilitators, Sidestream, and Dewiz have placed an executive proposal into the voting system. SKY Holders should vote for this proposal if they support the following alterations to the Sky Protocol.
 
 If you are new to voting in the Sky Protocol, please see the [voting guide](https://manual.makerdao.com/governance/voting-in-makerdao/on-chain-governance) to learn how voting works.
 
@@ -32,7 +32,7 @@ If this executive proposal does not pass within 30 days, then it will expire and
 
 ### Housekeeping Actions
 
-- **Authorization**: [Spell Team Approval]($TBD), [Ecosystem Approval]($TBD)
+- **Authorization**: [Spell Team Approval](https://forum.sky.money/t/proposed-housekeeping-item-2025-06-12-executive/26599/6), [Ecosystem Approval](https://forum.sky.money/t/proposed-housekeeping-item-2025-06-12-executive/26599/7)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/proposed-housekeeping-item-2025-06-12-executive/26599)
 
 If this executive proposal passes, the following [housekeeping](https://sky-atlas.powerhouse.io/A.1.10.1.6.1.1_Definition_Of_Housekeeping_Items/1a7f2ff0-8d73-809a-abbb-ea8bd0b68360|0db303084211b3b5f873) actions will be taken for the three BlockTower Andromeda RWA vaults listed below:
