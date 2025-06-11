@@ -35,7 +35,7 @@ If this executive proposal does not pass within 30 days, then it will expire and
 - **Authorization**: [Spell Team Approval](https://forum.sky.money/t/proposed-housekeeping-item-2025-06-12-executive/26599/6), [Ecosystem Approval](https://forum.sky.money/t/proposed-housekeeping-item-2025-06-12-executive/26599/7)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/proposed-housekeeping-item-2025-06-12-executive/26599)
 
-If this executive proposal passes, the following [housekeeping](https://sky-atlas.powerhouse.io/A.1.10.1.6.1.1_Definition_Of_Housekeeping_Items/1a7f2ff0-8d73-809a-abbb-ea8bd0b68360|0db303084211b3b5f873) actions will be taken for the three BlockTower Andromeda RWA vaults listed below:
+If this executive proposal passes, the following [housekeeping](https://sky-atlas.powerhouse.io/A.1.10.1.6.1.1_Definition_Of_Housekeeping_Items/1a7f2ff0-8d73-809a-abbb-ea8bd0b68360|0db303084211b3b5f873) actions will be taken for the three BlockTower RWA vaults listed below:
 
 #### BlockTower Andromeda (RWA015-A)
 
