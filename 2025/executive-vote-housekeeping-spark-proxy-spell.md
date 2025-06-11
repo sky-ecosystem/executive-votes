@@ -18,7 +18,7 @@ If you are new to voting in the Sky Protocol, please see the [voting guide](http
 If this executive proposal passes, the following **actions** will occur within the Sky Protocol:
 
 - Housekeeping actions concerning the offboarding of three BlockTower RWA vaults will be carried out as described below.
-- A Spark Proxy Spell will be executed.
+- A Spark Proxy Spell will be executed at [0xF485e3351a4C3D7d1F89B1842Af625Fd0dFB90C8](https://etherscan.io/address/0xF485e3351a4C3D7d1F89B1842Af625Fd0dFB90C8).
 
 **Voting for this executive proposal will place your SKY in support of the actions outlined above.**
 
@@ -32,27 +32,25 @@ If this executive proposal does not pass within 30 days, then it will expire and
 
 ### Housekeeping Actions
 
-- **Authorization**: [Spell Team Approval](https://forum.sky.money/t/proposed-housekeeping-item-2025-06-12-executive/26599/2), [Ecosystem Approval](https://forum.sky.money/t/proposed-housekeeping-item-2025-06-12-executive/26599/3)
+- **Authorization**: [Spell Team Approval]($TBD), [Ecosystem Approval]($TBD)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/proposed-housekeeping-item-2025-06-12-executive/26599)
 
 If this executive proposal passes, then the three BlockTower Andromeda RWA vaults below will be offboarded by performing the following [housekeeping](https://sky-atlas.powerhouse.io/A.1.10.1.6.1.1_Definition_Of_Housekeeping_Items/1a7f2ff0-8d73-809a-abbb-ea8bd0b68360|0db303084211b3b5f873) actions:
 
 #### BlockTower Andromeda (RWA015-A)
 
-- Remove [RWA015-A](https://makerburn.com/#/collateral/RWA015-A) from the AutoLine.
-- Set RWA015-A Debt Ceiling to **0 DAI**.
+- Remove [RWA015-A](https://makerburn.com/#/collateral/RWA015-A) from the [Debt Ceiling Instant Access Module (DC-IAM)](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.4_Debt_Ceiling_Instant_Access_Module_(DC_IAM)/071d42e3-8a21-4401-852e-0b52c49768bb%7C57eaf45219bea3b430c2).
+- Set RWA015-A [Debt Ceiling (line)](https://sky-atlas.powerhouse.io/A.4.4.1.2.4_Debt_Ceiling/1e7f2ff0-8d73-803f-89b8-d6049eb54922%7Cb341740ee6e1974b) to **0 DAI**.
 - Reduce Global Debt Ceiling to account for this change.
 
 #### BlockTower S3 (RWA012-A)
 
-- Remove [RWA012-A](https://makerburn.com/#/collateral/RWA012-A) from the AutoLine.
-- Set RWA012-A Debt Ceiling to **0 DAI**.
+- Set [RWA012-A](https://makerburn.com/#/collateral/RWA012-A) [Debt Ceiling (line)](https://sky-atlas.powerhouse.io/A.4.4.1.2.4_Debt_Ceiling/1e7f2ff0-8d73-803f-89b8-d6049eb54922%7Cb341740ee6e1974b) to **0 DAI**.
 - Reduce Global Debt Ceiling to account for this change.
 
 #### BlockTower S4 (RWA013-A)
 
-- Remove [RWA013-A](https://makerburn.com/#/collateral/RWA013-A) from the AutoLine.
-- Set RWA013-A Debt Ceiling to **0 DAI**.
+- Set [RWA013-A](https://makerburn.com/#/collateral/RWA013-A) [Debt Ceiling (line)](https://sky-atlas.powerhouse.io/A.4.4.1.2.4_Debt_Ceiling/1e7f2ff0-8d73-803f-89b8-d6049eb54922%7Cb341740ee6e1974b) to **0 DAI**.
 - Reduce Global Debt Ceiling to account for this change.
 
 ### Execute Spark Proxy Spell
