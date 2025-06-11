@@ -1,6 +1,6 @@
 ---
 title: Template - [Executive Vote] Housekeeping Items, Spark Proxy Spell - June 12, 2025
-summary: Housekeeping actions concerning the offboarding of three BlockTower RWA vaults, Spark proxy spell execution.
+summary: Housekeeping actions concerning three BlockTower RWA vaults, Spark proxy spell execution.
 date: 2025-06-12T00:00:00.000Z
 address: "$spell_address"
 ---
@@ -17,7 +17,7 @@ If you are new to voting in the Sky Protocol, please see the [voting guide](http
 
 If this executive proposal passes, the following **actions** will occur within the Sky Protocol:
 
-- Housekeeping actions concerning the offboarding of three BlockTower RWA vaults will be carried out as described below.
+- Housekeeping actions concerning three BlockTower RWA vaults will be carried out as described below.
 - A Spark Proxy Spell will be executed at [0xF485e3351a4C3D7d1F89B1842Af625Fd0dFB90C8](https://etherscan.io/address/0xF485e3351a4C3D7d1F89B1842Af625Fd0dFB90C8).
 
 **Voting for this executive proposal will place your SKY in support of the actions outlined above.**
@@ -35,7 +35,7 @@ If this executive proposal does not pass within 30 days, then it will expire and
 - **Authorization**: [Spell Team Approval]($TBD), [Ecosystem Approval]($TBD)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/proposed-housekeeping-item-2025-06-12-executive/26599)
 
-If this executive proposal passes, then the three BlockTower Andromeda RWA vaults below will be offboarded by performing the following [housekeeping](https://sky-atlas.powerhouse.io/A.1.10.1.6.1.1_Definition_Of_Housekeeping_Items/1a7f2ff0-8d73-809a-abbb-ea8bd0b68360|0db303084211b3b5f873) actions:
+If this executive proposal passes, the following [housekeeping](https://sky-atlas.powerhouse.io/A.1.10.1.6.1.1_Definition_Of_Housekeeping_Items/1a7f2ff0-8d73-809a-abbb-ea8bd0b68360|0db303084211b3b5f873) actions will be taken for the three BlockTower Andromeda RWA vaults listed below:
 
 #### BlockTower Andromeda (RWA015-A)
 
