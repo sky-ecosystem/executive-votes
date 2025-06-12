@@ -2,7 +2,7 @@
 title: Template - [Executive Vote] Housekeeping Items, Spark Proxy Spell - June 12, 2025
 summary: Housekeeping actions concerning three BlockTower RWA vaults, Spark proxy spell execution.
 date: 2025-06-12T00:00:00.000Z
-address: "$spell_address"
+address: "0xbF5EF05A578F270C0E54c7f6eF7cCFB5c9cD56b0"
 ---
 
 # [Executive Proposal] Housekeeping Items, Spark Proxy Spell - June 12, 2025
