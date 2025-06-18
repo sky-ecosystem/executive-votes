@@ -7,7 +7,7 @@ This document attempts to consolidate a style in which to draft polls and execut
 Given a target audience defined as having the following characteristics:
 
 - Being global. Some users do not speak English as their first language, some users do not live in the United States, et cetera.
-- Having a low-mid to high level of familiarity with MakerDAO and its context at the moment of the vote.
+- Having a low-mid to high level of familiarity with Sky and its context at the moment of the vote.
 
 Following this guideline should result in documents that:
 
@@ -30,7 +30,7 @@ Abbreviations must be introduced in parentheses after their expanded form, e.g.,
 When not a currency amount or in a mathematical/technical context, numbers must be spelled alphabetically up to twelve inclusively, e.g.:
 
 - "Three weeks at most", "twelve components", "13 components".
-- "2 DAI", "1,000 DAI".
+- "2 USDS", "1,000 USDS".
 - "`ttl`: 12 hours".
 
 Numbers greater or equal to 1 million should be so spelled as long as the least non-zero decimal place is the ten thousands place, e.g.:
@@ -64,9 +64,9 @@ When referencing Ethereum contracts or addresses of known entities, it is advisa
 
 #### Forum Threads and Posts
 
-When including links to the MakerDAO forum, it is preferred to direct readers to the topic header unless referencing a specific reply post. Consequently, generally choose [this](https://forum.makerdao.com/t/governance-facilitators-transition-and-team-news/22261) over [this](https://forum.makerdao.com/t/governance-facilitators-transition-and-team-news/22261/2) unless you have a strong reason not to.
+When including links to the Sky forum, it is preferred to direct readers to the topic header unless referencing a specific reply post. Consequently, generally choose [this](https://forum.sky.money/t/governance-facilitators-transition-and-team-news/22261) over [this](https://forum.sky.money/t/governance-facilitators-transition-and-team-news/22261/2) unless you have a strong reason not to.
 
-Also remove URL references to the user who's sharing the link (yourself!): e.g, `https://forum.makerdao.com/t/governance-facilitators-transition-and-team-news/22261/2?u=blimpa` should be `https://forum.makerdao.com/t/governance-facilitators-transition-and-team-news/22261/2`.
+Also remove URL references to the user who's sharing the link (yourself!): e.g, `https://forum.sky.money/t/governance-facilitators-transition-and-team-news/22261/2?u=blimpa` should be `https://forum.sky.money/t/governance-facilitators-transition-and-team-news/22261/2`.
 
 ### Headers
 
@@ -86,6 +86,6 @@ Newlines (N) must be wedged between headers (H), blocks of text (B), and lists (
 
 ## Usual Pitfalls and General Recommendations
 
-- Search for "?". This symbol is used for placeholders in the templates. Make sure none is left unreplaced, or remove them when they are not relevant.
+- Search for "$". This symbol is used for placeholders in the templates. Make sure none is left unreplaced, or remove them when they are not relevant.
 - For items with no antecedent polling, it is important to go into detail.
 - It's also important for complex and derived complex items (e.g., simple items that are however a link in a long chain that configures a single complex operation).

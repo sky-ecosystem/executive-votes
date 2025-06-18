@@ -3,8 +3,8 @@
 
 ## Creation
 
-- [ ] Sync Community Git
-- [ ] Ensure you are working from the latest master branch
+- [ ] Sync executive-votes Git
+- [ ] Ensure you are working from the latest main branch
 - [ ] Read Associated [Executive Contents sheet](https://docs.google.com/spreadsheets/d/1w_z5WpqxzwreCcaveB2Ye1PP5B8QAHDglzyxKHG3CHw/edit?pli=1#gid=1593813984)
 - [ ] Copy the executive template
 - [ ] Update filename
@@ -54,14 +54,14 @@
 - [ ] Check if any Atlas active elements will need to be updated if the executive proposal passes.
 
 - [ ] If yes, create a PR to the next-gen-atlas repository and for each item
-	- [ ] Ensure that new values are correctly listed in the [Sky Atlas.html](https://github.com/makerdao/next-gen-atlas/blob/main/Sky%20Atlas/Sky%20Atlas.html) document
+	- [ ] Ensure that new values are correctly listed in the [Sky Atlas.html](https://github.com/sky-ecosystem/next-gen-atlas/blob/main/Sky%20Atlas/Sky%20Atlas.html) document
 - [ ] Request review of the PR from the reviewers of the executive proposal copy.
 
 ### Standby Spells update
 
 - [ ] Check if any new ilk has been onboarded/offboarded.
 - [ ] If yes, create a PR to the dss-emergency-spells repository and for each Standby spell affected
-	- [ ] Ensure that new values are correctly listed in the Standby Spells README (https://github.com/makerdao/dss-emergency-spells?tab=readme-ov-file) document.
+	- [ ] Ensure that new values are correctly listed in the Standby Spells README (https://github.com/sky-ecosystem/dss-emergency-spells?tab=readme-ov-file) document.
  - [ ] Request review of the PR from the reviewers of the executive proposal copy.
 
 ## Submission

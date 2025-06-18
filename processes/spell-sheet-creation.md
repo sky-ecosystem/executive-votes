@@ -3,9 +3,9 @@
 ## Pre-Meeting Tasks (Completed by EOD Monday before Spell Meeting)
 
 - [ ] Reach out to Ecosystem Actors about possible Spell Contents.
-- [ ] Inform relevant parties about deadlines (see [Spell Coordination Schedule](https://github.com/makerdao/pe-checklists/blob/master/spell/spell-crafter-mainnet-workflow.md#spell-coordination-schedule)).
-- [ ] Review recent [polls](https://vote.makerdao.com/polling) for to-do items.
-- [ ] Review the latest [forum posts](https://forum.makerdao.com/latest) for requested items.
+- [ ] Inform relevant parties about deadlines (see [Spell Coordination Schedule](https://github.com/sky-ecosystem/pe-checklists/blob/master/spell/spell-crafter-mainnet-workflow.md#spell-coordination-schedule)).
+- [ ] Review recent [polls](https://vote.sky.money/polling) for to-do items.
+- [ ] Review the latest [forum posts](https://forum.sky.money/latest) for requested items.
 
 ## GovOps Meeting Tasks (Tuesdays, one week before Spell release)
 
@@ -27,8 +27,8 @@
 - [ ] Rename duplicate tab for expected spell date (in yyyy-mm-dd format).
 - [ ] Add role and recurring items info from GovOps Meeting.
 - [ ] Add Spell Items as formatted in the sheet. 
-- [ ] Complete and confirm checksums for DAI and MKR transfers.
-- [ ] SubDAO Spell Crafter delivered the SubDAO spell address and spell PR in Discord with no differences in the code.
+- [ ] Complete and confirm checksums for USDS and SKY transfers.
+- [ ] Star Spell Crafter delivered the Star spell address and spell PR in Discord with no differences in the code.
 
 ## Obtain Confirmations for listed items (Wednesday, confirmations due EOD Friday) 
 

@@ -16,7 +16,7 @@ Clarity is important because it reduces the risk of disruption, drama, and a bre
 As the entity responsible for producing the executive copy, you must ensure that voters have access to sufficient information to vote (or not) in an informed way. This might include:
 * Links to any documentation or discussion regarding the actions included in the executive.
 * A summary of the actions included in the executive, created by an unbiased and knowledgeable third party.
-* Links to any analysis that has been published by DAO-funded entities regarding the actions within the executive.
+* Links to any analysis that has been published by Sky-funded entities regarding the actions within the executive.
 * Links to well-maintained resources describing the nature of any parameters that may be changed if the executive proposal passes.
 
 Again, the overarching theme here is legitimacy. Voters should not later regret their vote because they were not able to get a full understanding of the actions they were called to vote on.
@@ -29,7 +29,7 @@ Strategic use of hyperlinks and text formatting should both be used where possib
 
 ## Technical Detail 
 
-As the entity responsible for producing the executive copy, you must ensure that readability and understanding of the vote do not require in-depth knowledge of the technical aspects of the Maker Protocol. It is important that the level of technical detail in the executive copy be carefully considered and managed. This ties into all of the above principles. In most cases, the technical detail of how an outcome is achieved obscures clarity and clutters the copy with information that is not a strict priority.
+As the entity responsible for producing the executive copy, you must ensure that readability and understanding of the vote do not require in-depth knowledge of the technical aspects of the Sky Protocol. It is important that the level of technical detail in the executive copy be carefully considered and managed. This ties into all of the above principles. In most cases, the technical detail of how an outcome is achieved obscures clarity and clutters the copy with information that is not a strict priority.
 
 There are exceptions to this principle.
 * In the event of an emergency or urgent response, technical details are often the _only_ relevant details to a given executive proposal. 
