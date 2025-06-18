@@ -45,7 +45,7 @@
 - [ ] Read the executive copy in full, with the above checklists and general readability in mind. Make any required changes.
 - [ ] Run the copy through a spelling and grammar checker - do not blindly accept suggested changes.
 - [ ] Inform the reviewer that the executive copy is ready to review
-- [ ] Commit changes, and create a PR to the Community GitHub repository.
+- [ ] Commit changes, and create a PR to the Executive Votes GitHub repository.
 
 ## External Updates
 
