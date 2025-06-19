@@ -26,7 +26,8 @@
 - [ ] Add a new column with the spell date in the "Spell Progress Tracking" sheet and ensure the progress is kept up to date.
 - [ ] Rename duplicate tab for expected spell date (in yyyy-mm-dd format).
 - [ ] Add role and recurring items info from GovOps Meeting.
-- [ ] Add Spell Items as formatted in the sheet. 
+- [ ] Add Spell Items as formatted in the sheet.    
+    - [ ] If applicable, create a new section for Safe Harbor contract updates. 
 - [ ] Complete and confirm checksums for USDS and SKY transfers.
 - [ ] Star Spell Crafter delivered the Star spell address and spell PR in Discord with no differences in the code.
 
