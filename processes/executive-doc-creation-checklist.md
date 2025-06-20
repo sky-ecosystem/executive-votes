@@ -57,10 +57,10 @@
 	- [ ] Ensure that new values are correctly listed in the [Sky Atlas.html](https://github.com/sky-ecosystem/next-gen-atlas/blob/main/Sky%20Atlas/Sky%20Atlas.html) document
 - [ ] Request review of the PR from the reviewers of the executive proposal doc.
 
-### Standby Spells update
+### Standby Spells Update
 
 - [ ] Check if any new ilk has been onboarded/offboarded.
-- [ ] If yes, create a PR to the dss-emergency-spells repository and for each Standby spell affected
+- [ ] If yes, create a PR to the dss-emergency-spells repository and for each Standby Spell affected
 	- [ ] Ensure that new values are correctly listed in the Standby Spells README (https://github.com/sky-ecosystem/dss-emergency-spells?tab=readme-ov-file) document.
  - [ ] Request review of the PR from the reviewers of the executive proposal doc.
 
