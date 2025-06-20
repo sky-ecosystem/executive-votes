@@ -64,10 +64,16 @@
 	- [ ] Ensure that new values are correctly listed in the Standby Spells README (https://github.com/sky-ecosystem/dss-emergency-spells?tab=readme-ov-file) document.
  - [ ] Request review of the PR from the reviewers of the executive proposal doc.
 
+## Hash Generation
+
+- [ ] Generate hash of the document once two approvals have been received
+	- [ ] Ensure this has been done via script and using a second online tool such as https://emn178.github.io/online-tools/keccak_256.html
+- [ ] Ensure a reviewer has verified the hash before merging
+
 ## Submission
 
 - [ ] Merge approved executive doc PR.
-- [ ] Inform technical teams that the doc is ready and provide the link.
+- [ ] Inform technical teams that the doc is ready and provide the link and hash
 - [ ] Once technical teams have provided a spell address, add it to the executive doc.
 - [ ] Update the proposals.json to set the active proposal on the portal.
 - [ ] Refresh portal cache (DUX/Jetstream can provide password)
