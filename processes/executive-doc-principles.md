@@ -35,7 +35,7 @@ As the entity responsible for producing the executive doc, you must ensure that 
 
 There are exceptions to this principle:
 
-* In the event of an emergency or urgent response, technical details are often the _only_ relevant details to a given executive proposal. 
-* In the event of non-urgent technical fixes or housekeeping. 
+- In an emergency or urgent response, technical details are often the _only_ relevant details to a given executive proposal. 
+- For non-urgent technical fixes or housekeeping. 
 
 In the above cases, technical details should be included. In these cases, it is important that the individual writing the executive doc has a full understanding of the technical details themselves. When technical housekeeping is required, information can be included but should be given a low priority compared to other actions in the executive vote. 
