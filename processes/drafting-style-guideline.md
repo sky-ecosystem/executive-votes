@@ -46,7 +46,7 @@ Numbers greater or equal to 1 million should be so spelled as long as the least 
 
 ### Formatting Style
 
-The asterisk (*) is overloaded in Markdown: It can be used to define lists, bolden text (when doubled), and italicize text. To minimize visual noise, we recommend using:
+The asterisk (`*`) is overloaded in Markdown: It can be used to define lists, bolden text (when doubled), and italicize text. To minimize visual noise, we recommend using:
 
 - Underscore (_) for _italics_.
 - Double asterisk (**) for **bold**.
