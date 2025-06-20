@@ -4,7 +4,7 @@
 
 As the entity responsible for producing the executive doc, you must ensure:
 
-- That the effects and impacts of the proposal if passed are made as clear as possible to voters.
+- That the effects and impacts of the proposal, if passed, are made as clear as possible to voters.
 - That the processes that have led to each item being included in the executive vote are made as transparent and easily understood as possible.
 - That the identities (can be pseudonymous or at an entity level) of those responsible for publishing, writing, and reviewing the executive are as transparent as possible. 
 
@@ -31,7 +31,7 @@ Strategic use of hyperlinks and text formatting should both be used where possib
 
 ## Technical Detail 
 
-As the entity responsible for producing the executive doc, you must ensure that readability and understanding of the vote do not require in-depth knowledge of the technical aspects of the Sky Protocol. It is important that the level of technical detail in the executive doc be carefully considered and managed. This ties into all of the above principles. In most cases, the technical detail of how an outcome is achieved obscures clarity and clutters the doc with information that is not a strict priority.
+As the entity responsible for producing the executive doc, you must ensure that readability and understanding of the vote do not require in-depth knowledge of the technical aspects of the Sky Protocol. It is important that the level of technical detail in the executive doc is carefully considered and managed. This ties into all of the above principles. In most cases, the technical detail of how an outcome is achieved obscures clarity and clutters the doc with information that is not a strict priority.
 
 There are exceptions to this principle:
 
