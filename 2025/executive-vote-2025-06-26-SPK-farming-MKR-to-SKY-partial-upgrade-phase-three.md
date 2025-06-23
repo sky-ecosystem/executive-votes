@@ -212,19 +212,168 @@ The new VestedRewardsDistribution and StakingRewards contracts will be added to 
 - REWARDS_LSSKY_SPK: [0x99cBC0e4E6427F6939536eD24d1275B95ff77404](https://etherscan.io/address/0x99cBC0e4E6427F6939536eD24d1275B95ff77404).
 - REWARDS_DIST_LSSKY_SPK: [0xa3Ee378BdD0b7DD403cEd3a0A65B2B389A2eaB7e](https://etherscan.io/address/0xa3Ee378BdD0b7DD403cEd3a0A65B2B389A2eaB7e).
 
-### $executive_entry_2
+### Phase 3 MKR-to-SKY Migration Actions
 
-- **Authorization**: [$link_to_approval]()
-- **Proposal**: [$link_to_proposal]()
+- **Authorization**: [Atlas](https://sky-atlas.powerhouse.io/A.4.1.2.1.4_MKR_To_SKY_Upgrade_Phase_Three/1f1f2ff0-8d73-80f8-9345-f50e357c1f9e|b341f4c0b83472dc)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/phase-3-mkr-to-sky-migration-items-june-26-spell/26710)
 
-If this executive proposal passes, then $executive_entry_2_implications.
+If this executive proposal passes, then the following actions that form part of Phase 3 of the MKR-to-SKY migration process will be performed.
 
-### $executive_entry_3
+#### Convert MKR balance of the PauseProxy to SKY
 
-- **Authorization**: [$link_to_approval]()
-- **Proposal**: [$link_to_proposal]()
+- **Atlas document**: [A.4.1.2.1.4.2.3 - Upgrade MKR In Pause Proxy to SKY](https://sky-atlas.powerhouse.io/A.4.1.2.1.4.2.3_Upgrade_MKR_In_Pause_Proxy_To_SKY/1f1f2ff0-8d73-8064-ab0e-d51c96127c19|b341f4c0b83472dc1f9e1a3b)
 
-If this executive proposal passes, then $executive_entry_3_implications.
+If this executive proposal passes the MKR balance of the PauseProxy will be upgraded to SKY by calling mkrToSky() on MKR_SKY with the MKR balance of the PauseProxy minus the unpaid() MKR for MCD_VEST_MKR_TREASURY id 39.
+
+This vesting stream represents a committed expense in MKR. The required amount of MKR to honor this commitment will therefore remain in the PauseProxy after this spell executes.
+
+#### Disable MKR_SKY_LEGACY Converter
+
+- **Atlas document**: [A.4.1.2.2.4.2.1 - Disabling Legacy Conversion Contract](https://sky-atlas.powerhouse.io/A.4.1.2.2.4.2.1_Disabling_Legacy_Conversion_Contract/210f2ff0-8d73-80d4-a983-f9217c9b244a|b341f4c0b834477b310e7381)
+
+If this executive proposal passes MKR_SKY_LEGACY will be disabled by calling disableOldConverterMkrSky(). The audited code for this function can be found on [GitHub](https://github.com/sky-ecosystem/sky/pull/21/files#diff-f6cbf09833eed835c52b0a1c5be7dd9e84213d278c958843725af6a77faa77d4R69-R75).
+
+#### Burn Excess SKY from MKR_SKY Converter
+
+- **Atlas document**: [A.4.1.2.2.4.2](https://sky-atlas.powerhouse.io/A.4.1.2.2.4.2_MKR_To_SKY_Conversion_Emissions/209f2ff0-8d73-80c7-80e7-e61690dc7381|b341f4c0b834477b310e)
+
+If this executive proposal passes excess SKY held within the MKR_SKY converter will be burned by calling burnExtraSKY(). The audited code for this function can be found on [GitHub](https://github.com/sky-ecosystem/sky/pull/21/files#diff-f6cbf09833eed835c52b0a1c5be7dd9e84213d278c958843725af6a77faa77d4R81-R88).
+
+This excess SKY is a result of the legacy contract continuing to mint new SKY after a balance of SKY was pre-minted to the new MKR_SKY conversion contract.
+
+#### Burn PauseProxy SKY to Offset Minted Tokens
+
+- **Atlas document**: [A.4.1.2.2.4.1 - SKY Token Rewards Emissions](https://sky-atlas.powerhouse.io/A.4.1.2.2.4.1_SKY_Token_Rewards_Emissions/209f2ff0-8d73-80ee-bc70-f5cbed9c2664|b341f4c0b834477b310e)
+
+If this executive proposal passes, **426,292,860.23 SKY** tokens will be burned from the PauseProxy to offset emissions of SKY that was minted to fund SKY rewards and Early Bird Rewards.
+
+The breakdown of tokens is:
+
+- Mintable vest 1: 366,713,025.327023887843223231 SKY
+- Mintable vest 2: 36,951,526.251526251526251526 SKY
+- Early Bird Boosted Reward Total: 22,628,308.646484409734345358 SKY
+- Total to be burned: **426,292,860.225034549103820115 SKY** (note this is being rounded to 2 decimal places to streamline the crafting and reviewing process).
+
+### Smart Burn Engine Parameter Updates
+
+- **Authorization**: [Facilitator Approval](https://forum.sky.money/t/smart-burn-engine-parameter-update-proposals-june-26-2025-spell-contents/26702/3), [Governance Poll]($TBD)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/smart-burn-engine-parameter-update-proposals-june-26-2025-spell-contents/26702)
+
+If this executive proposal passes, then the following Smart Burn Engine parameters will be updated:
+
+- Reduce [vow.hump](https://sky-atlas.powerhouse.io/A.3.6.2_Surplus_Buffer_Splitter_Parameters/122f2ff0-8d73-80f8-9a2a-d221794f73f5|57ea2c54) by 20 million USDS from 70 million USDS to 50 million USDS.
+- Increase [splitter.hop](https://sky-atlas.powerhouse.io/A.3.6.2_Surplus_Buffer_Splitter_Parameters/122f2ff0-8d73-80f8-9a2a-d221794f73f5|57ea2c54) by 432 seconds from 1,728 seconds to 2,160 seconds.
+- Increase rewardsDuration by 432 seconds from 1,728 seconds to 2,160 seconds (this must be updated so the rewardsDuration of the Lockstake Engine matches the frequency of distributions by the Smart Burn Engine).
+
+### ALLOCATOR-BLOOM-A Maximum Debt Ceiling (`line`) Increase
+
+- **Authorization**: [Governance Poll](https://vote.sky.money/polling/Qmcy6Lug)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/parameter-changes-proposal-june-16-2025/26653)
+
+If this executive proposal passes, then the following parameter change will occur:
+
+- Increase the ALLOCATOR-BLOOM-A [Maximum Debt Ceiling (`line`)](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.4.1_Maximum_Debt_Ceiling_(line)/6f1a913d-9436-4b70-816b-e317672737d6%7C57eaf45219bea3b430c268bb) by 2.4 billion USDS, from 100 million USDS to 2.5 billion USDS.2.4 billion USDS, from 100 million USDS to **2.5 billion USDS**.
+
+### Spark USDS Transfer
+
+- **Authorization**: [Governance Poll]($TBD)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-2025-06-23/26701)
+
+If this executive proposal passes, then the following USDS transfer will occur:
+
+- Transfer **20.6 million USDS** to the Spark SubProxy at [0x3300f198988e4C9C63F75dF86De36421f06af8c4](https://etherscan.io/address/0x3300f198988e4C9C63F75dF86De36421f06af8c4).
+
+### Launch Project Funding
+
+- **Authorization**: [Atlas A.5.5.1.6 - Budget](https://sky-atlas.powerhouse.io/A.5.5.1.6_Budget/8a88d69e-33cf-459f-8e1c-de4ac965d76b|8d5aeb778e7c)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/utilization-of-the-launch-project-under-the-accessibility-scope/21468/46)
+
+If this executive proposal, then the following SKY transfer to the Launch Project will occur:
+
+- Transfer **8.4 million SKY** to the Launch Project at [0x3C5142F28567E6a0F172fd0BaaF1f2847f49D02F](https://etherscan.io/address/0x3C5142F28567E6a0F172fd0BaaF1f2847f49D02F).
+
+### DAO Resolution
+
+- **Authorization**: [Facilitator Approval](https://forum.sky.money/t/huntingdon-valley-bank-transaction-documents-on-permaweb/16264/28)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/huntingdon-valley-bank-transaction-documents-on-permaweb/16264/27)
+
+If this executive proposal passes, then the following DAO Resolution pertaining to [H. V. Bank (RWA009-A)](https://makerburn.com/#/collateral/RWA009-A) will be approved:
+
+- Approve the DAO Resolution with ipfs hash [bafkreidm3bqfiwv224m6w4zuabsiwqruy22sjfaxfvgx4kgcnu3wndxmva](https://ipfs.io/ipfs/bafkreidm3bqfiwv224m6w4zuabsiwqruy22sjfaxfvgx4kgcnu3wndxmva).
+
+### Delegate Compensation for May 2025
+
+- **Authorization**: [Atlas A.1.5.3 - Eligibility to Receive Budget](https://sky-atlas.powerhouse.io/A.1.5.3_Eligibility_To_Receive_Budget/5c9662be-9fc4-4b58-aef0-ca3e0bf56039|0db3af4ece0c)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/may-2025-aligned-delegate-compensation/26698)
+
+If this executive proposal passes, then the following USDS transfers totalling **20,443 USDS** will be distributed as Aligned Delegate Compensation for May 2025:
+
+| Delegate    | Amount (USDS) | Address                                                                                                               |
+|-------------|--------------:|-----------------------------------------------------------------------------------------------------------------------|
+| BLUE        | 4,000         | [0xb6C09680D822F162449cdFB8248a7D3FC26Ec9Bf](https://etherscan.io/address/0xb6C09680D822F162449cdFB8248a7D3FC26Ec9Bf) |
+| Bonapublica | 4,000         | [0x167c1a762B08D7e78dbF8f24e5C3f1Ab415021D3](https://etherscan.io/address/0x167c1a762B08D7e78dbF8f24e5C3f1Ab415021D3) |
+| Cloaky      | 4,000         | [0x9244F47D70587Fa2329B89B6f503022b63Ad54A5](https://etherscan.io/address/0x9244F47D70587Fa2329B89B6f503022b63Ad54A5) |
+| PBG         | 4,000         | [0x8D4df847dB7FfE0B46AF084fE031F7691C6478c2](https://etherscan.io/address/0x8D4df847dB7FfE0B46AF084fE031F7691C6478c2) |
+| JuliaChang  | 2,323         | [0x252abAEe2F4f4b8D39E5F12b163eDFb7fac7AED7](https://etherscan.io/address/0x252abAEe2F4f4b8D39E5F12b163eDFb7fac7AED7) |
+| Excel       | 1,088         | [0x0F04a22B62A26e25A29Cba5a595623038ef7AcE7](https://etherscan.io/address/0x0F04a22B62A26e25A29Cba5a595623038ef7AcE7) |
+| WBC         | 1,032         | [0xeBcE83e491947aDB1396Ee7E55d3c81414fB0D47](https://etherscan.io/address/0xeBcE83e491947aDB1396Ee7E55d3c81414fB0D47) |
+
+### Atlas Core Development Payments for June 2025
+
+- **Authorization**: [Atlas 2.2.1.1 - Funding](https://sky-atlas.powerhouse.io/A.2.2.1.1_Funding/8ea8dcb0-7261-4c1a-ae53-b7f3eb5362e5%7C9e1f3b569af1), [Facilitator Approval](https://forum.sky.money/t/atlas-core-development-payment-requests-june-2025/26585/7)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/atlas-core-development-payment-requests-june-2025/26585)
+
+If this executive proposal passes, then a total of **77,584 USDS** and **618,000 SKY** will be distributed for Atlas Core Development funding.
+
+#### USDS Payments
+
+| Recipient | Amount (USDS) | Address                                                                                                               |
+|-----------|--------------:|-----------------------------------------------------------------------------------------------------------------------|
+| BLUE      | 50,167        | [0xb6C09680D822F162449cdFB8248a7D3FC26Ec9Bf](https://etherscan.io/address/0xb6C09680D822F162449cdFB8248a7D3FC26Ec9Bf) |
+| Cloaky    | 16,417        | [0x9244F47D70587Fa2329B89B6f503022b63Ad54A5](https://etherscan.io/address/0x9244F47D70587Fa2329B89B6f503022b63Ad54A5) |
+| Kohla     | 11,000        | [0x73dFC091Ad77c03F2809204fCF03C0b9dccf8c7a](https://etherscan.io/address/0x73dFC091Ad77c03F2809204fCF03C0b9dccf8c7a) |
+
+#### SKY Payments
+
+| Recipient | Amount (SKY) | Address                                                                                                               |
+|-----------|-------------:|-----------------------------------------------------------------------------------------------------------------------|
+| BLUE      | 330,000      | [0xb6C09680D822F162449cdFB8248a7D3FC26Ec9Bf](https://etherscan.io/address/0xb6C09680D822F162449cdFB8248a7D3FC26Ec9Bf) |
+| Cloaky    | 288,000      | [0x9244F47D70587Fa2329B89B6f503022b63Ad54A5](https://etherscan.io/address/0x9244F47D70587Fa2329B89B6f503022b63Ad54A5) |
+
+### Spark Proxy Spell
+
+If this executive proposal passes, a Spark proxy spell at [0x74e1ba852C864d689562b5977EedCB127fDE0C9F](https://etherscan.io/address/0x74e1ba852C864d689562b5977EedCB127fDE0C9F) will be executed. The expected contents are as follows:
+
+#### Onboard syrupUSDC August PT to the Spark DAI Morpho Vault
+
+**Authorization**: [Governance Poll](https://vote.sky.money/polling/QmcGPTMX)
+**Proposal**: [Forum Post](https://forum.sky.money/t/june-26-2025-proposed-changes-to-spark-for-upcoming-spell/26663)
+
+If this executive proposal passes, PT-syrupUSDC-28Aug2025 will be onboarded to the Spark DAI Morpho Vault with the following parameters:
+
+- Pool supply cap: **300 million DAI**.
+- Pool LLTV: **91.5%**.
+- PT Oracle Discount Rate: **15%**.
+
+#### Onboard USDe September PT to the Spark DAI Morpho Vault
+
+**Authorization**: [Governance Poll](https://vote.sky.money/polling/QmWtGgPH)
+**Proposal**: [Forum Post](https://forum.sky.money/t/june-26-2025-proposed-changes-to-spark-for-upcoming-spell/26663)
+
+If this executive proposal passes, PT-USDe-25Sept2025 will be onboarded to the Spark DAI Morpho Vault with the following parameters:
+
+- Pool supply cap: **500 million DAI**.
+- Pool LLTV: **91.5%**.
+- PT Oracle Discount Rate: **15%**.
+
+#### USDS Transfer to the Spark Foundation
+
+**Authorization**: [Governance Poll]($TBD)
+**Proposal**: [Forum Post](https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-2025-06-23/26701)
+
+If this executive proposal passes, the following transfer of USDS from the Spark SubProxy to the Spark Foundation will be executed:
+
+- Transfer **800,000 USDS** from the Spark SubProxy to the Spark Foundation at [0x92e4629a4510AF5819d7D1601464C233599fF5ec](https://etherscan.io/address/0x92e4629a4510AF5819d7D1601464C233599fF5ec).
 
 ## Review
 
