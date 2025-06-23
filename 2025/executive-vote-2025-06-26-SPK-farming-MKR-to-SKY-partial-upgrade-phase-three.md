@@ -256,7 +256,7 @@ The breakdown of tokens is:
 
 ### Smart Burn Engine Parameter Updates
 
-- **Authorization**: [Facilitator Approval](https://forum.sky.money/t/smart-burn-engine-parameter-update-proposals-june-26-2025-spell-contents/26702/3), [Governance Poll]($TBD)
+- **Authorization**: [Facilitator Approval](https://forum.sky.money/t/smart-burn-engine-parameter-update-proposals-june-26-2025-spell-contents/26702/3), [Governance Poll](https://vote.sky.money/polling/QmajvKnz)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/smart-burn-engine-parameter-update-proposals-june-26-2025-spell-contents/26702)
 
 If this executive proposal passes, then the following Smart Burn Engine parameters will be updated:
@@ -276,7 +276,7 @@ If this executive proposal passes, then the following parameter change will occu
 
 ### Spark USDS Transfer
 
-- **Authorization**: [Governance Poll]($TBD)
+- **Authorization**: [Governance Poll](https://vote.sky.money/polling/QmbwyUbo)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-2025-06-23/26701)
 
 If this executive proposal passes, then the following USDS transfer will occur:
@@ -368,7 +368,7 @@ If this executive proposal passes, PT-USDe-25Sept2025 will be onboarded to the S
 
 #### USDS Transfer to the Spark Foundation
 
-**Authorization**: [Governance Poll]($TBD)
+**Authorization**: [Governance Poll](https://vote.sky.money/polling/QmbwyUbo)
 **Proposal**: [Forum Post](https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-2025-06-23/26701)
 
 If this executive proposal passes, the following transfer of USDS from the Spark SubProxy to the Spark Foundation will be executed:
