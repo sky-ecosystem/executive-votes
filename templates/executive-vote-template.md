@@ -7,7 +7,7 @@ address: "$spell_address"
 
 # [Executive Proposal] $executive_title - $date_MONTH_DD,_YYYY
 
-The $exec_publishers and $exec_crafters_and_reviewers have placed an executive proposal into the voting system. SKY Holders should vote for this proposal if they support the following alterations to the Sky Protocol.
+The $exec_publishers, $exec_crafters, and, $exec_reviewers have placed an executive proposal into the voting system. SKY holders should vote for this proposal if they support the following alterations to the Sky Protocol.
 
 If you are new to voting in the Sky Protocol, please see the [voting guide](https://manual.makerdao.com/governance/voting-in-makerdao/on-chain-governance) to learn how voting works.
 
