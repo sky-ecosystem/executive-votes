@@ -1,7 +1,7 @@
 ---
 title: Template - [Executive Vote] SPK Farming Initialization, Partial Phase 3 MKR-to-SKY Migration, Smart Burn Engine Parameter Updates, ALLOCATOR-BLOOM-A Maximum Debt Ceiling Increase, Spark USDS Transfer, Launch Project Funding, DAO Resolution, Delegate Compensation for May 2025, Atlas Core Development Payments for June 2025, Spark Proxy Spell - June 26, 2025
 summary: $summary
-date: 2025-06-25T00:00:00.000Z
+date: 2025-06-26T00:00:00.000Z
 address: "$spell_address"
 ---
 
@@ -28,7 +28,7 @@ If this executive proposal passes, the following **actions** will occur within t
 - The ALLOCATOR-BLOOM-A Maximum Debt Ceiling (`line`) will be increased.
 - **20.6 million USDS** will be transferred to the Spark SubProxy.
 - **8.4 million SKY** will be transferred to the Launch Project.
-- A DAO Resolution with the hash bafkreidm3bqfiwv224m6w4zuabsiwqruy22sjfaxfvgx4kgcnu3wndxmva will be approved.
+- A DAO Resolution with the hash [`bafkreidm3bqfiwv224m6w4zuabsiwqruy22sjfaxfvgx4kgcnu3wndxmva`](https://ipfs.io/ipfs/bafkreidm3bqfiwv224m6w4zuabsiwqruy22sjfaxfvgx4kgcnu3wndxmva) will be approved.
 - A total of **20,443 USDS** will be distributed as Aligned Delegate compensation for May 2025.
 - A total of **77,584 USDS** and **618,000 SKY** will be distributed as Atlas Core Development payments for June 2025.
 - A Spark Proxy Spell with the address [0x74e1ba852C864d689562b5977EedCB127fDE0C9F](https://etherscan.io/address/0x74e1ba852C864d689562b5977EedCB127fDE0C9F) will be executed.
@@ -49,7 +49,7 @@ If this executive proposal does not pass within 30 days, then it will expire and
 
 ### SPK Token Farming Initialization
 
-- **Authorization**: [Atlas entry](https://sky-atlas.powerhouse.io/A.2.9.1.2.2.1.2.2.2_Spark_Token_Reward_Distribution_Schedule/1fef2ff0-8d73-809d-ac41-eb9753c05d41|9e1f80092582d59891b002d4366698bb), [Governance Poll](https://vote.sky.money/polling/QmXpG84B)
+- **Authorization**: [Atlas entry](https://sky-atlas.powerhouse.io/A.2.9.1.2.2.1.2.2.2_Spark_Token_Reward_Distribution_Schedule/1fef2ff0-8d73-809d-ac41-eb9753c05d41|9e1f80092582d59891b002d4366698bb), [Governance Poll 1504](https://vote.sky.money/polling/QmXpG84B)
 - **Proposal**: [Technical Scope](https://forum.sky.money/t/technical-scope-of-spk-farms/26703), [Atlas Edit Proposal](https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-2025-05-26/26454)
 
 If this executive proposal passes, then the following actions required to implement SPK farming will be taken.
@@ -245,7 +245,7 @@ This excess SKY is a result of the legacy contract continuing to mint new SKY af
 
 - **Atlas document**: [A.4.1.2.2.4.1 - SKY Token Rewards Emissions](https://sky-atlas.powerhouse.io/A.4.1.2.2.4.1_SKY_Token_Rewards_Emissions/209f2ff0-8d73-80ee-bc70-f5cbed9c2664|b341f4c0b834477b310e)
 
-If this executive proposal passes, **426,292,860.23 SKY** tokens will be burned from the PauseProxy to offset emissions of SKY that was minted to fund SKY rewards and Early Bird Rewards.
+If this executive proposal passes, **426,292,860.23 SKY** tokens will be burned from the PauseProxy to offset emissions of SKY that were minted to fund SKY rewards and Early Bird Rewards.
 
 The breakdown of tokens is:
 
@@ -256,27 +256,27 @@ The breakdown of tokens is:
 
 ### Smart Burn Engine Parameter Updates
 
-- **Authorization**: [Facilitator Approval](https://forum.sky.money/t/smart-burn-engine-parameter-update-proposals-june-26-2025-spell-contents/26702/3), [Governance Poll](https://vote.sky.money/polling/QmajvKnz)
+- **Authorization**: [Facilitator Approval](https://forum.sky.money/t/smart-burn-engine-parameter-update-proposals-june-26-2025-spell-contents/26702/3), [Governance Poll 1524](https://vote.sky.money/polling/QmajvKnz)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/smart-burn-engine-parameter-update-proposals-june-26-2025-spell-contents/26702)
 
 If this executive proposal passes, then the following Smart Burn Engine parameters will be updated:
 
-- Reduce [vow.hump](https://sky-atlas.powerhouse.io/A.3.6.2_Surplus_Buffer_Splitter_Parameters/122f2ff0-8d73-80f8-9a2a-d221794f73f5|57ea2c54) by 20 million USDS from 70 million USDS to 50 million USDS.
-- Increase [splitter.hop](https://sky-atlas.powerhouse.io/A.3.6.2_Surplus_Buffer_Splitter_Parameters/122f2ff0-8d73-80f8-9a2a-d221794f73f5|57ea2c54) by 432 seconds from 1,728 seconds to 2,160 seconds.
-- Increase rewardsDuration by 432 seconds from 1,728 seconds to 2,160 seconds (this must be updated so the rewardsDuration of the Lockstake Engine matches the frequency of distributions by the Smart Burn Engine).
+- Reduce [vow.hump](https://sky-atlas.powerhouse.io/A.3.6.2_Surplus_Buffer_Splitter_Parameters/122f2ff0-8d73-80f8-9a2a-d221794f73f5|57ea2c54) by 20 million USDS from 70 million USDS to **50 million USDS**.
+- Increase [splitter.hop](https://sky-atlas.powerhouse.io/A.3.6.2_Surplus_Buffer_Splitter_Parameters/122f2ff0-8d73-80f8-9a2a-d221794f73f5|57ea2c54) by 432 seconds from 1,728 seconds to **2,160 seconds**.
+- Increase rewardsDuration by 432 seconds from 1,728 seconds to **2,160 seconds** (this must be updated so the rewardsDuration of the Lockstake Engine matches the frequency of distributions by the Smart Burn Engine).
 
 ### ALLOCATOR-BLOOM-A Maximum Debt Ceiling (`line`) Increase
 
-- **Authorization**: [Governance Poll](https://vote.sky.money/polling/Qmcy6Lug)
+- **Authorization**: [Governance Poll 1520](https://vote.sky.money/polling/Qmcy6Lug)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/parameter-changes-proposal-june-16-2025/26653)
 
 If this executive proposal passes, then the following parameter change will occur:
 
-- Increase the ALLOCATOR-BLOOM-A [Maximum Debt Ceiling (`line`)](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.4.1_Maximum_Debt_Ceiling_(line)/6f1a913d-9436-4b70-816b-e317672737d6%7C57eaf45219bea3b430c268bb) by 2.4 billion USDS, from 100 million USDS to 2.5 billion USDS.2.4 billion USDS, from 100 million USDS to **2.5 billion USDS**.
+- Increase the ALLOCATOR-BLOOM-A [Maximum Debt Ceiling (`line`)](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.4.1_Maximum_Debt_Ceiling_(line)/6f1a913d-9436-4b70-816b-e317672737d6%7C57eaf45219bea3b430c268bb) by 2.4 billion USDS, from 100 million USDS to **2.5 billion USDS**.
 
 ### Spark USDS Transfer
 
-- **Authorization**: [Governance Poll](https://vote.sky.money/polling/QmbwyUbo)
+- **Authorization**: [Governance Poll 1525](https://vote.sky.money/polling/QmbwyUbo)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-2025-06-23/26701)
 
 If this executive proposal passes, then the following USDS transfer will occur:
@@ -288,7 +288,7 @@ If this executive proposal passes, then the following USDS transfer will occur:
 - **Authorization**: [Atlas A.5.5.1.6 - Budget](https://sky-atlas.powerhouse.io/A.5.5.1.6_Budget/8a88d69e-33cf-459f-8e1c-de4ac965d76b|8d5aeb778e7c)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/utilization-of-the-launch-project-under-the-accessibility-scope/21468/46)
 
-If this executive proposal, then the following SKY transfer to the Launch Project will occur:
+If this executive proposal passes, then the following SKY transfer to the Launch Project will occur:
 
 - Transfer **8.4 million SKY** to the Launch Project at [0x3C5142F28567E6a0F172fd0BaaF1f2847f49D02F](https://etherscan.io/address/0x3C5142F28567E6a0F172fd0BaaF1f2847f49D02F).
 
@@ -306,7 +306,7 @@ If this executive proposal passes, then the following DAO Resolution pertaining 
 - **Authorization**: [Atlas A.1.5.3 - Eligibility to Receive Budget](https://sky-atlas.powerhouse.io/A.1.5.3_Eligibility_To_Receive_Budget/5c9662be-9fc4-4b58-aef0-ca3e0bf56039|0db3af4ece0c)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/may-2025-aligned-delegate-compensation/26698)
 
-If this executive proposal passes, then the following USDS transfers totalling **20,443 USDS** will be distributed as Aligned Delegate Compensation for May 2025:
+If this executive proposal passes, then the following USDS transfers totaling **20,443 USDS** will be distributed as Aligned Delegate Compensation for May 2025:
 
 | Delegate    | Amount (USDS) | Address                                                                                                               |
 |-------------|--------------:|-----------------------------------------------------------------------------------------------------------------------|
@@ -346,7 +346,7 @@ If this executive proposal passes, a Spark proxy spell at [0x74e1ba852C864d68956
 
 #### Onboard syrupUSDC August PT to the Spark DAI Morpho Vault
 
-**Authorization**: [Governance Poll](https://vote.sky.money/polling/QmcGPTMX)
+**Authorization**: [Governance Poll 1522](https://vote.sky.money/polling/QmcGPTMX)
 **Proposal**: [Forum Post](https://forum.sky.money/t/june-26-2025-proposed-changes-to-spark-for-upcoming-spell/26663)
 
 If this executive proposal passes, PT-syrupUSDC-28Aug2025 will be onboarded to the Spark DAI Morpho Vault with the following parameters:
@@ -357,7 +357,7 @@ If this executive proposal passes, PT-syrupUSDC-28Aug2025 will be onboarded to t
 
 #### Onboard USDe September PT to the Spark DAI Morpho Vault
 
-**Authorization**: [Governance Poll](https://vote.sky.money/polling/QmWtGgPH)
+**Authorization**: [Governance Poll 1523](https://vote.sky.money/polling/QmWtGgPH)
 **Proposal**: [Forum Post](https://forum.sky.money/t/june-26-2025-proposed-changes-to-spark-for-upcoming-spell/26663)
 
 If this executive proposal passes, PT-USDe-25Sept2025 will be onboarded to the Spark DAI Morpho Vault with the following parameters:
@@ -368,7 +368,7 @@ If this executive proposal passes, PT-USDe-25Sept2025 will be onboarded to the S
 
 #### USDS Transfer to the Spark Foundation
 
-**Authorization**: [Governance Poll](https://vote.sky.money/polling/QmbwyUbo)
+**Authorization**: [Governance Poll 1525](https://vote.sky.money/polling/QmbwyUbo)
 **Proposal**: [Forum Post](https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-2025-06-23/26701)
 
 If this executive proposal passes, the following transfer of USDS from the Spark SubProxy to the Spark Foundation will be executed:
