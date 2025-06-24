@@ -1,11 +1,11 @@
 ---
-title: Template - [Executive Vote] SPK Farming Initialization, Partial Phase 3 MKR-to-SKY Migration, Smart Burn Engine Parameter Updates, ALLOCATOR-BLOOM-A Maximum Debt Ceiling Increase, Spark USDS Transfer, Launch Project Funding, DAO Resolution, Delegate Compensation for May 2025, Atlas Core Development Payments for June 2025, Spark Proxy Spell - June 26, 2025
-summary: Initialize SPK farming using USDS and SKY tokens, perform a subset of actions for Phase 3 of the MKR-to-SKY Migration, update several parameters related to the Smart Burn Engine, increase the ALLOCATOR-BLOOM-A Maximum Debt Ceiling, execute the transfer of the Genesis Capital Allocation to Spark, transfer SKY tokens to the Launch Project, execute a DAO Resolution pertaining to RWA009-A, transfer Aligned Delegate and Atlas Core Development payments, execute a Spark Proxy Spell.
+title: Template - [Executive Vote] SPK Farming Initialization, Partial Phase 3 MKR-to-SKY Migration, Smart Burn Engine Parameter Updates, ALLOCATOR-BLOOM-A Maximum Debt Ceiling Increase, Spark USDS Transfer, Launch Project Funding, Delegate Compensation for May 2025, Atlas Core Development Payments for June 2025, Spark Proxy Spell - June 26, 2025
+summary: Initialize SPK farming using USDS and SKY tokens, perform a subset of actions for Phase 3 of the MKR-to-SKY Migration, update several parameters related to the Smart Burn Engine, increase the ALLOCATOR-BLOOM-A Maximum Debt Ceiling, execute the transfer of the Genesis Capital Allocation to Spark, transfer SKY tokens to the Launch Project, transfer Aligned Delegate and Atlas Core Development payments, execute a Spark Proxy Spell.
 date: 2025-06-26T00:00:00.000Z
 address: "$spell_address"
 ---
 
-# [Executive Proposal] SPK Farming Initialization, Partial Phase 3 MKR-to-SKY Migration, Smart Burn Engine Parameter Updates, ALLOCATOR-BLOOM-A Maximum Debt Ceiling Increase, Spark USDS Transfer, Launch Project Funding, DAO Resolution, Delegate Compensation for May 2025, Atlas Core Development Payments for June 2025, Spark Proxy Spell - June 26, 2025
+# [Executive Proposal] SPK Farming Initialization, Partial Phase 3 MKR-to-SKY Migration, Smart Burn Engine Parameter Updates, ALLOCATOR-BLOOM-A Maximum Debt Ceiling Increase, Spark USDS Transfer, Launch Project Funding, Delegate Compensation for May 2025, Atlas Core Development Payments for June 2025, Spark Proxy Spell - June 26, 2025
 
 The Governance Facilitators, Dewiz, and Sidestream have placed an executive proposal into the voting system. SKY holders should vote for this proposal if they support the following alterations to the Sky Protocol.
 
@@ -28,7 +28,6 @@ If this executive proposal passes, the following **actions** will occur within t
 - The ALLOCATOR-BLOOM-A Maximum Debt Ceiling (`line`) will be increased.
 - **20.6 million USDS** will be transferred to the Spark SubProxy.
 - **8.4 million SKY** will be transferred to the Launch Project.
-- A DAO Resolution with the hash [`bafkreidm3bqfiwv224m6w4zuabsiwqruy22sjfaxfvgx4kgcnu3wndxmva`](https://ipfs.io/ipfs/bafkreidm3bqfiwv224m6w4zuabsiwqruy22sjfaxfvgx4kgcnu3wndxmva) will be approved.
 - A total of **20,443 USDS** will be distributed as Aligned Delegate compensation for May 2025.
 - A total of **77,584 USDS** and **618,000 SKY** will be distributed as Atlas Core Development payments for June 2025.
 - A Spark Proxy Spell with the address [0x74e1ba852C864d689562b5977EedCB127fDE0C9F](https://etherscan.io/address/0x74e1ba852C864d689562b5977EedCB127fDE0C9F) will be executed.
@@ -291,15 +290,6 @@ If this executive proposal passes, then the following USDS transfer will occur:
 If this executive proposal passes, then the following SKY transfer to the Launch Project will occur:
 
 - Transfer **8.4 million SKY** to the Launch Project at [0x3C5142F28567E6a0F172fd0BaaF1f2847f49D02F](https://etherscan.io/address/0x3C5142F28567E6a0F172fd0BaaF1f2847f49D02F).
-
-### DAO Resolution
-
-- **Authorization**: [Facilitator Approval](https://forum.sky.money/t/huntingdon-valley-bank-transaction-documents-on-permaweb/16264/28)
-- **Proposal**: [Forum Post](https://forum.sky.money/t/huntingdon-valley-bank-transaction-documents-on-permaweb/16264/27)
-
-If this executive proposal passes, then the following DAO Resolution pertaining to [H. V. Bank (RWA009-A)](https://makerburn.com/#/collateral/RWA009-A) will be approved:
-
-- Approve the DAO Resolution with ipfs hash [bafkreidm3bqfiwv224m6w4zuabsiwqruy22sjfaxfvgx4kgcnu3wndxmva](https://ipfs.io/ipfs/bafkreidm3bqfiwv224m6w4zuabsiwqruy22sjfaxfvgx4kgcnu3wndxmva).
 
 ### Delegate Compensation for May 2025
 
