@@ -43,6 +43,7 @@ async function generateExecIndex() {
         '**/README.md', // Exclude any README.md file
         'meta/**', // Exclude files in any meta/ directory
         'templates/**', // Exclude files in any templates/ directory
+        'processes/**', // Exclude files in any processes/ directory
       ],
     });
 
