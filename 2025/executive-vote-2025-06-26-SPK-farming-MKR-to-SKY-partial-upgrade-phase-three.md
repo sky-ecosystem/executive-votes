@@ -224,7 +224,7 @@ If this executive proposal passes, then the following actions that form part of 
 
 If this executive proposal passes the MKR balance of the PauseProxy will be upgraded to SKY by calling mkrToSky() on MKR_SKY with the MKR balance of the PauseProxy minus the unpaid() MKR for MCD_VEST_MKR_TREASURY ids 9, 18, 24, 35, 37, and 39.
 
-These vesting stream represent committed expenses in MKR. The required amount of MKR to honor these commitments will therefore remain in the PauseProxy after this spell executes. Some of this MKR may be converted in a future spell once the future of these vesting streams has been clarified.
+These vesting streams represent committed expenses in MKR. The required amount of MKR to honor these commitments will therefore remain in the PauseProxy after this spell executes. Some of this MKR may be converted in a future spell once the future of these vesting streams has been clarified.
 
 #### Disable MKR_SKY_LEGACY Converter
 
