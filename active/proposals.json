@@ -1,4 +1,5 @@
 {
-  "mainnet": ["https://raw.githubusercontent.com/jetstreamgg/executive-votes/refs/heads/main/2025/test%20one.md"],
-  "tenderly": []
+  "mainnet": [
+    "https://raw.githubusercontent.com/sky-ecosystem/executive-votes/main/2025/executive-vote-2025-06-12-housekeeping-spark-proxy-spell.md"
+  ]
 }

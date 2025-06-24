@@ -1,15 +1,20 @@
 [
   {
-    "path": "2025/placeholder.md",
-    "metadata": {}
+    "path": "2025/executive-vote-2025-05-29-MKR-to-SKY-upgrade-phase-two.md",
+    "metadata": {
+      "title": "Template - [Executive Vote] MKR-to-SKY Upgrade Phase Two, Switch SKY Token Rewards Vesting Stream Source, Initialize Unichain and Optimism Native Bridges, Deactivate SparkLend DDM, Transfer Ownership of SPK Token to SPK Company Multisig, Increase ALLOCATOR-SPARK-A Maximum Debt Ceiling, Launch Project Funding, Delegate Compensation for April 2025, Atlas Core Development Payments for May 2025, Spark Proxy Spell - May 29, 2025",
+      "summary": "Phase Two actions for MKR-to-SKY Upgrade, change source of SKY For USDS Rewards to the Pause Proxy, initialization of Native Bridges on Unichain and Optimism, SparkLend Direct Deposit Module deactivation and removal from AutoLine, transfer ownership of SPK Token to SPK Company multisig, increase ALLOCATOR-SPARK-A Maximum Debt Ceiling, Launch Project funding, distribute Delegate Compensation for April 2025, distribute Atlas Core Development payments for May 2025, execute a Spark Proxy Spell.",
+      "date": "2025-05-29T00:00:00.000Z",
+      "address": "0x86F5A13C95ecf7263634b6e14E483d05D7d4aA0B"
+    }
   },
   {
-    "path": "2025/test one.md",
+    "path": "2025/executive-vote-2025-06-12-housekeeping-spark-proxy-spell.md",
     "metadata": {
-      "title": "Test mainnet executive vote - April 16, 2025",
-      "summary": "Adjust various risk parameters across collateral types, implement oracle module upgrades, and onboard two new collateral types with associated parameters.",
-      "date": "2024-07-16T00:00:00.000Z",
-      "address": "0x039DCA7EBb7d7EEcFe9449211109A72DD988Bd81"
+      "title": "Template - [Executive Vote] Housekeeping Items, Spark Proxy Spell - June 12, 2025",
+      "summary": "Housekeeping actions concerning three BlockTower RWA vaults, Spark proxy spell execution.",
+      "date": "2025-06-12T00:00:00.000Z",
+      "address": "0xbF5EF05A578F270C0E54c7f6eF7cCFB5c9cD56b0"
     }
   }
 ]
