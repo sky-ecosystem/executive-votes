@@ -17,7 +17,7 @@ If you are new to voting in the Sky Protocol, please see the [voting guide](http
 
 If this executive proposal passes, the following **actions** will occur within the Sky Protocol:
 
-- A new DssVestTransferrable contract for SPK tokens will be deployed.
+- A new DssVestTransferrable contract for SPK tokens will be initialized.
 - SPK farms for USDS and SKY stakers will be initialized.
 - A subset of actions relating to phase 3 of the MKR-to-SKY upgrade process will be taken:
 	- MKR held in the PauseProxy contract will be converted to SKY.
@@ -79,21 +79,21 @@ A new [VestedRewardsDistribution](https://github.com/makerdao/endgame-toolkit/bl
 
 ##### LSSKY -> SPK Farm
 
-A new [StakingRewards](https://github.com/makerdao/endgame-toolkit/blob/5bf4b1771b99f5f8758fd40a4ac567f797b5405b/src/synthetix/StakingRewards.sol) contract to permit farming of SPK tokens with USDS tokens has been deployed to [0x99cBC0e4E6427F6939536eD24d1275B95ff77404](https://etherscan.io/address/0x99cBC0e4E6427F6939536eD24d1275B95ff77404) with the following constructor parameters:
+A new [StakingRewards](https://github.com/makerdao/endgame-toolkit/blob/5bf4b1771b99f5f8758fd40a4ac567f797b5405b/src/synthetix/StakingRewards.sol) contract to permit farming of SPK tokens with Staked SKY has been deployed to [0x99cBC0e4E6427F6939536eD24d1275B95ff77404](https://etherscan.io/address/0x99cBC0e4E6427F6939536eD24d1275B95ff77404) with the following constructor parameters:
 
 - `_owner`: [MCD_PAUSE_PROXY](https://etherscan.io/address/0xBE8E3e3618f7474F8cB1d074A26afFef007E98FB).
 - `_rewardsDistribution`: address(0).
 - `_rewardsToken`: [SPK](https://etherscan.io/token/0xC20059E0317De91738D13AF027DfC4a50781b066).
 - `_stakingToken`: [LSSKY](https://etherscan.io/token/0xf9a9cfd3229e985b91f99bc866d42938044ffa1c).
 
-A new [VestedRewardsDistribution](https://github.com/makerdao/endgame-toolkit/blob/5bf4b1771b99f5f8758fd40a4ac567f797b5405b/src/VestedRewardsDistribution.sol) contract to permit farming of SPK tokens with USDS tokens has been deployed to [0xa3Ee378BdD0b7DD403cEd3a0A65B2B389A2eaB7e](https://etherscan.io/address/0xa3Ee378BdD0b7DD403cEd3a0A65B2B389A2eaB7e) with the following constructor parameters:
+A new [VestedRewardsDistribution](https://github.com/makerdao/endgame-toolkit/blob/5bf4b1771b99f5f8758fd40a4ac567f797b5405b/src/VestedRewardsDistribution.sol) contract to permit farming of SPK tokens with Staked SKY has been deployed to [0xa3Ee378BdD0b7DD403cEd3a0A65B2B389A2eaB7e](https://etherscan.io/address/0xa3Ee378BdD0b7DD403cEd3a0A65B2B389A2eaB7e) with the following constructor parameters:
 
 - `_dssVest`: The newly created SPK vesting contract deployed at [0xF9A2002b471f600A5484da5a735a2A053d377078](https://etherscan.io/address/0xF9A2002b471f600A5484da5a735a2A053d377078).
 - `_stakingRewards`: The newly created staking rewards contract deployed at [0x99cBC0e4E6427F6939536eD24d1275B95ff77404](https://etherscan.io/address/0x99cBC0e4E6427F6939536eD24d1275B95ff77404).
 
 #### Contract Initialization
 
-##### SPK Vest Initializaion
+##### SPK Vest Initialization
 
 If this executive proposal passes the SPK vesting contract will be initialized by performing the following actions:
 
@@ -101,8 +101,8 @@ If this executive proposal passes the SPK vesting contract will be initialized b
 	- `spender`: [0xF9A2002b471f600A5484da5a735a2A053d377078](https://etherscan.io/address/0xF9A2002b471f600A5484da5a735a2A053d377078)
 	- `amount`: **3_250_000_000 * WAD** (This is the total amount of SPK tokens being streamed by vests created in this spell)
 - The `cap` of the vesting contract will be set to **2_502_500_000 * WAD / 730 days** (This value is the maximum amount of SPK that can be vested per second per vesting stream. It should be greater than or equal to the largest vesting stream rate. In this spell we are adding the conventional 10% buffer to avoid any issues.)
-- Add MCD_VEST_SKY_TREASURY to the [Chainlog](https://chainlog.sky.money/) with the value [0xF9A2002b471f600A5484da5a735a2A053d377078](https://etherscan.io/address/0xF9A2002b471f600A5484da5a735a2A053d377078).
-- Add SPK to the [Chainlog](https://chainlog.sky.money/) with the value [0xC20059E0317De91738D13AF027DfC4a50781b066)](https://etherscan.io/token/0xC20059E0317De91738D13AF027DfC4a50781b066).
+- Add MCD_VEST_SPK_TREASURY to the [Chainlog](https://chainlog.sky.money/) with the value [0xF9A2002b471f600A5484da5a735a2A053d377078](https://etherscan.io/address/0xF9A2002b471f600A5484da5a735a2A053d377078).
+- Add SPK to the [Chainlog](https://chainlog.sky.money/) with the value [0xC20059E0317De91738D13AF027DfC4a50781b066](https://etherscan.io/token/0xC20059E0317De91738D13AF027DfC4a50781b066).
 
 ##### USDS -> SPK Farm Initialization
 
@@ -237,7 +237,7 @@ If this executive proposal passes MKR_SKY_LEGACY will be disabled by calling dis
 
 - **Atlas document**: [A.4.1.2.2.4.2](https://sky-atlas.powerhouse.io/A.4.1.2.2.4.2_MKR_To_SKY_Conversion_Emissions/209f2ff0-8d73-80c7-80e7-e61690dc7381|b341f4c0b834477b310e)
 
-If this executive proposal passes excess SKY held within the MKR_SKY converter will be burned by calling burnExtraSKY(). The audited code for this function can be found on [GitHub](https://github.com/sky-ecosystem/sky/pull/21/files#diff-f6cbf09833eed835c52b0a1c5be7dd9e84213d278c958843725af6a77faa77d4R81-R88).
+If this executive proposal passes excess SKY held within the MKR_SKY converter will be burned by calling burnExtraSky(). The audited code for this function can be found on [GitHub](https://github.com/sky-ecosystem/sky/pull/21/files#diff-f6cbf09833eed835c52b0a1c5be7dd9e84213d278c958843725af6a77faa77d4R81-R88).
 
 This excess SKY is a result of the legacy contract continuing to mint new SKY after a balance of SKY was pre-minted to the new MKR_SKY conversion contract.
 
@@ -263,7 +263,7 @@ If this executive proposal passes, then the following Smart Burn Engine paramete
 
 - Reduce [vow.hump](https://sky-atlas.powerhouse.io/A.3.6.2_Surplus_Buffer_Splitter_Parameters/122f2ff0-8d73-80f8-9a2a-d221794f73f5|57ea2c54) by 20 million USDS from 70 million USDS to **50 million USDS**.
 - Increase [splitter.hop](https://sky-atlas.powerhouse.io/A.3.6.2_Surplus_Buffer_Splitter_Parameters/122f2ff0-8d73-80f8-9a2a-d221794f73f5|57ea2c54) by 432 seconds from 1,728 seconds to **2,160 seconds**.
-- Increase rewardsDuration by 432 seconds from 1,728 seconds to **2,160 seconds** (this must be updated so the rewardsDuration of the Lockstake Engine matches the frequency of distributions by the Smart Burn Engine).
+- Increase rewardsDuration in `REWARDS_LSSKY_USDS` by 432 seconds from 1,728 seconds to **2,160 seconds** (this must be updated so the rewardsDuration of the Lockstake Engine matches the frequency of distributions by the Smart Burn Engine).
 
 ### ALLOCATOR-BLOOM-A Maximum Debt Ceiling (`line`) Increase
 
