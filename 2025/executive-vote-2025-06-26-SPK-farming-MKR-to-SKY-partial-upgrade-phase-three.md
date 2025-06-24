@@ -20,7 +20,7 @@ If this executive proposal passes, the following **actions** will occur within t
 - A new DssVestTransferrable contract for SPK tokens will be initialized.
 - SPK farms for USDS and SKY stakers will be initialized.
 - A subset of actions relating to phase 3 of the MKR-to-SKY upgrade process will be taken:
-	- MKR held in the PauseProxy contract will be converted to SKY.
+	- Uncommitted MKR held in the PauseProxy contract will be converted to SKY.
 	- The legacy MKR-to-SKY converter will be disabled.
 	- Excess SKY tokens in the MKR-to-SKY converter will be burned to offset tokens minted through the legacy converter.
 	- A proportion of SKY tokens held in the PauseProxy will be burned to offset minted SKY tokens.
@@ -223,9 +223,9 @@ If this executive proposal passes, then the following actions that form part of 
 
 - **Atlas document**: [A.4.1.2.1.4.2.3 - Upgrade MKR In Pause Proxy to SKY](https://sky-atlas.powerhouse.io/A.4.1.2.1.4.2.3_Upgrade_MKR_In_Pause_Proxy_To_SKY/1f1f2ff0-8d73-8064-ab0e-d51c96127c19|b341f4c0b83472dc1f9e1a3b)
 
-If this executive proposal passes the MKR balance of the PauseProxy will be upgraded to SKY by calling mkrToSky() on MKR_SKY with the MKR balance of the PauseProxy minus the unpaid() MKR for MCD_VEST_MKR_TREASURY id 39.
+If this executive proposal passes the MKR balance of the PauseProxy will be upgraded to SKY by calling mkrToSky() on MKR_SKY with the MKR balance of the PauseProxy minus the unpaid() MKR for MCD_VEST_MKR_TREASURY ids 9, 18, 24, 35, 37, and 39.
 
-This vesting stream represents a committed expense in MKR. The required amount of MKR to honor this commitment will therefore remain in the PauseProxy after this spell executes.
+These vesting stream represent committed expenses in MKR. The required amount of MKR to honor these commitments will therefore remain in the PauseProxy after this spell executes. Some of this MKR may be converted in a future spell once the future of these vesting streams has been clarified.
 
 #### Disable MKR_SKY_LEGACY Converter
 
