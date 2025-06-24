@@ -1,6 +1,6 @@
 ---
 title: Template - [Executive Vote] SPK Farming Initialization, Partial Phase 3 MKR-to-SKY Migration, Smart Burn Engine Parameter Updates, ALLOCATOR-BLOOM-A Maximum Debt Ceiling Increase, Spark USDS Transfer, Launch Project Funding, DAO Resolution, Delegate Compensation for May 2025, Atlas Core Development Payments for June 2025, Spark Proxy Spell - June 26, 2025
-summary: $summary
+summary: Initialize SPK farming using USDS and SKY tokens, perform a subset of actions for Phase 3 of the MKR-to-SKY Migration, update several parameters related to the Smart Burn Engine, increase the ALLOCATOR-BLOOM-A Maximum Debt Ceiling, execute the transfer of the Genesis Capital Allocation to Spark, transfer SKY tokens to the Launch Project, execute a DAO Resolution pertaining to RWA009-A, transfer Aligned Delegate and Atlas Core Development payments, execute a Spark Proxy Spell.
 date: 2025-06-26T00:00:00.000Z
 address: "$spell_address"
 ---
