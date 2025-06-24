@@ -346,8 +346,8 @@ If this executive proposal passes, a Spark proxy spell at [0x74e1ba852C864d68956
 
 #### Onboard syrupUSDC August PT to the Spark DAI Morpho Vault
 
-**Authorization**: [Governance Poll 1522](https://vote.sky.money/polling/QmcGPTMX)
-**Proposal**: [Forum Post](https://forum.sky.money/t/june-26-2025-proposed-changes-to-spark-for-upcoming-spell/26663)
+- **Authorization**: [Governance Poll 1522](https://vote.sky.money/polling/QmcGPTMX)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/june-26-2025-proposed-changes-to-spark-for-upcoming-spell/26663)
 
 If this executive proposal passes, PT-syrupUSDC-28Aug2025 will be onboarded to the Spark DAI Morpho Vault with the following parameters:
 
@@ -357,8 +357,8 @@ If this executive proposal passes, PT-syrupUSDC-28Aug2025 will be onboarded to t
 
 #### Onboard USDe September PT to the Spark DAI Morpho Vault
 
-**Authorization**: [Governance Poll 1523](https://vote.sky.money/polling/QmWtGgPH)
-**Proposal**: [Forum Post](https://forum.sky.money/t/june-26-2025-proposed-changes-to-spark-for-upcoming-spell/26663)
+- **Authorization**: [Governance Poll 1523](https://vote.sky.money/polling/QmWtGgPH)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/june-26-2025-proposed-changes-to-spark-for-upcoming-spell/26663)
 
 If this executive proposal passes, PT-USDe-25Sept2025 will be onboarded to the Spark DAI Morpho Vault with the following parameters:
 
@@ -368,8 +368,8 @@ If this executive proposal passes, PT-USDe-25Sept2025 will be onboarded to the S
 
 #### USDS Transfer to the Spark Foundation
 
-**Authorization**: [Governance Poll 1525](https://vote.sky.money/polling/QmbwyUbo)
-**Proposal**: [Forum Post](https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-2025-06-23/26701)
+- **Authorization**: [Governance Poll 1525](https://vote.sky.money/polling/QmbwyUbo)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-2025-06-23/26701)
 
 If this executive proposal passes, the following transfer of USDS from the Spark SubProxy to the Spark Foundation will be executed:
 
