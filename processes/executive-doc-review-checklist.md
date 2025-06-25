@@ -46,7 +46,7 @@
 	- [ ] Check that all values being changed by the executive proposal have been correctly updated in the Sky Atlas document.
 	- [ ] If all present, approve the PR so that it can be merged as soon as the executive proposal has executed.
 
-### Standby Spells update
+### Standby Spells Update
 
 - [ ] Check if any new ilk has been onboarded/offboarded.
 - [ ] If yes:
