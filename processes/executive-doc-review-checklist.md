@@ -14,8 +14,9 @@
 
 ## Items
 
+- [ ] Check that all items from the executive contents sheet are present in the doc.
 - [ ] Check that each item is present in the proposal details section.
-- [ ] Check that items are ordered by judged impact/importance.
+- [ ] Check that items are ordered by judged impact/importance and that this order is reflected in the executive contents sheet.
 
 - [ ] For each item:
 	- [ ] Check that the executive summary contains a high-level overview of the item.
