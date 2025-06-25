@@ -26,6 +26,7 @@
 
 - [ ] Add each item to the proposal details section.
 - [ ] Order the items by judged impact/importance. If different from the executive contents, reorder the executive contents sheet so that they match.
+	- [ ] If reordering the executive contents sheet, make sure that the crafter has been informed.
 
 - [ ] For each item:
 	- [ ] Ensure the executive summary contains a high-level overview of every action contained in the proposal.
