@@ -17,7 +17,7 @@
 - [ ] Check that each item is present in the proposal details section.
 - [ ] Check that items are ordered by judged impact/importance.
 
-- [ ] For each item
+- [ ] For each item:
 	- [ ] Check that the executive summary contains a high-level overview of the item.
 	- [ ] Check that each item or set of items in the executive proposal has a corresponding entry in the proposal details section.
 	- [ ] Check that the doc contains a link to the reasoning for its inclusion.
@@ -49,8 +49,8 @@
 ### Standby Spells update
 
 - [ ] Check if any new ilk has been onboarded/offboarded.
-- [ ] If yes
+- [ ] If yes:
 	- [ ] Check that a PR to the dss-emergency-spells repository has been opened by the author.
 	- [ ] Check that all Standby Spells being affected by the executive proposal have been correctly updated in the README file.
- 	- [ ] If all present, approve the PR so that it can be merged as soon as the executive proposal has executed. 
+ 	- [ ] If all present, approve the PR so that it can be merged as soon as the executive proposal has executed.
  
