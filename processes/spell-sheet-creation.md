@@ -28,6 +28,10 @@
 - [ ] Add role and recurring items info from GovOps Meeting.
 - [ ] Add Spell Items as formatted in the sheet.    
     - [ ] If applicable, create a new section for Safe Harbor contract updates. 
+- [ ] If the Bug Bounty Program needs to be updated:
+    - [ ] Are the changes correctly included in the sheet, matching the [Bug Bounty Sheet](https://docs.google.com/spreadsheets/d/1e_KOYOeBGaA5EG3Xqco6lOP_a0zV4Vrm3w5-dqFk00U/edit?gid=1121763694#gid=1121763694)?
+    - [ ] Are all contract addresses set to GREEN status in the Bug Bounty Sheet? 
+    - [ ] Have all changes been confirmed in the sheet by the Integrations Leads?
 - [ ] Complete and confirm checksums for USDS and SKY transfers.
 - [ ] Star Spell Crafter delivered the Star spell address and spell PR in Discord with no differences in the code.
 
