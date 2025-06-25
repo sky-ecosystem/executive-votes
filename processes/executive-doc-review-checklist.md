@@ -53,4 +53,8 @@
 	- [ ] Check that a PR to the dss-emergency-spells repository has been opened by the author.
 	- [ ] Check that all Standby Spells being affected by the executive proposal have been correctly updated in the README file.
  	- [ ] If all present, approve the PR so that it can be merged as soon as the executive proposal has executed.
- 
+
+### Bug Bounty Program Updates
+
+- [ ] Check if any new contracts are being added in this spell.
+- [ ] If yes, make sure they have been added to the Bug Bounty Program and approved by the integrations lead.
