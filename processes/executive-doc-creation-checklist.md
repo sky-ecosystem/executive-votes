@@ -26,6 +26,7 @@
 
 - [ ] Add each item to the proposal details section.
 - [ ] Order the items by judged impact/importance. If different from the executive contents, reorder the executive contents sheet so that they match.
+	- [ ] If reordering the executive contents sheet, make sure that the crafter has been informed.
 
 - [ ] For each item:
 	- [ ] Ensure the executive summary contains a high-level overview of every action contained in the proposal.
@@ -63,6 +64,12 @@
 - [ ] If yes, create a PR to the dss-emergency-spells repository and for each Standby Spell affected.
 	- [ ] Ensure that new values are correctly listed in the Standby Spells README (https://github.com/sky-ecosystem/dss-emergency-spells?tab=readme-ov-file) document.
  - [ ] Request review of the PR from the reviewers of the executive proposal doc.
+
+ ### Bug Bounty Updates
+
+ - [ ] Check if any new contracts need to be added to the Bug Bounty Program.
+ - [ ] If yes, make sure the Bug Bounty Program sheet has been updated.
+ 	- [ ] Have the contracts been verified by the integrations lead?
 
 ## Hash Generation
 
