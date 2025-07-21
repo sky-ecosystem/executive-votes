@@ -137,8 +137,8 @@ Grove ALM Proxy: [0x491EDFB0B8b608044e227225C715981a30F3A44E](https://etherscan.
 
 ### Star Proxy Spells for Spark and Grove
 
-- **Authorization**: [Ecosystem Approval]()
-- **Proposal**: [Forum Post]()
+- **Authorization**: Ecosystem Approval [1](http://forum.sky.money/t/july-24-2025-proposed-changes-to-spark-for-upcoming-spell/26796/3), [2](https://forum.sky.money/t/july-24-2025-proposed-onboardings-for-grove-in-upcoming-spell/26805/3)
+- **Proposal**: Forum Posts [1](https://forum.sky.money/t/july-24-2025-proposed-changes-to-spark-for-upcoming-spell/26796), [2](http://forum.sky.money/t/july-24-2025-proposed-onboardings-for-grove-in-upcoming-spell/26805)
 
 If this executive proposal passes, then Star proxy spells for Spark and Grove will be executed at [TBD](https://etherscan.io/address/TBD) and at [TBD](https://etherscan.io/address/TBD) respectively with the following contents.
 
