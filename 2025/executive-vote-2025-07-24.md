@@ -22,7 +22,7 @@ If this executive proposal passes, the following **actions** will occur within t
 - A total of **77,584 USDS** and **618,000 SKY** will be distributed as Atlas Core Development payments for July 2025.
 - A Huntingdon Valley Bank DAO Resolution will be approved.
 - Auxiliary actions for the transfer of tokenized T-bills from Spark to Grove will be executed.
-- Star proxy spells for Grove and Spark will be executed.
+- Star proxy spells for Grove and Spark will be executed at [0xe069f56033Ed646aF3B4024501FF47BBce67CfD1](https://etherscan.io/address/0xe069f56033Ed646aF3B4024501FF47BBce67CfD1) and [0x41EdbF09cd2f272175c7fACB857B767859543D15](https://etherscan.io/address/0x41EdbF09cd2f272175c7fACB857B767859543D15) respectively.
 
 **Voting for this executive proposal will place your SKY in support of the actions outlined above.**
 
@@ -49,7 +49,7 @@ If this executive proposal passes, then the distribution of SKY token rewards to
   - res: 1 (restricted)
   - vestBgn: block.timestamp
   - vestTau: block.timestamp + 15,724,800 seconds (182 days after the spell executes)
-  - Vesting rate: 100,851,495 * WAD SKY
+  - tot: **100,851,495 SKY**
 - Increase SKY allowance for MCD_VEST_SKY_TREASURY to the sum of all active streams and the new stream created by this executive vote.
 - File the new stream ID on REWARDS_DIST_USDS_SKY
 
@@ -116,7 +116,6 @@ If this executive proposal passes, the following auxiliary actions will be carri
   - [`line`](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.4.1_Maximum_Debt_Ceiling_(line)/6f1a913d-9436-4b70-816b-e317672737d6|57eaf45219bea3b430c268bb) remains unchanged at **2.5 billion USDS**.
   - [`ttl`](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.4.3_Ceiling_Increase_Cooldown_(ttl)/58f5315f-938f-464c-b2d2-f611145d469a|57eaf45219bea3b430c268bb) remains unchanged at **86,400 seconds**.
 
-Grove ALM Proxy: [0x491EDFB0B8b608044e227225C715981a30F3A44E](https://etherscan.io/address/0x491EDFB0B8b608044e227225C715981a30F3A44E)
 
 ### Star Proxy Spells for Grove and Spark
 
@@ -129,7 +128,7 @@ If this executive proposal passes, then Star proxy spells for Grove and Spark wi
 - **Authorization**: [Governance Poll 1533](https://vote.sky.money/polling/Qme5qebN)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/july-24-2025-proposed-changes-to-spark-for-upcoming-spell/26796)
 
-The Grove Allocator will mint and transfer the exact amount of USDS 1:1 to the BUIDL-I balance at the time of Spell execution plus 404,016,484 USDS for the JTRSY balance to the Spark Allocator in order to close the balance related to these tokenized T-bill holdings.
+The [Grove Allocator Buffer](https://etherscan.io/address/0x629ad4d779f46b8a1491d3f76f7e97cb04d8b1cd) will mint and transfer the exact amount of USDS 1:1 to the BUIDL-I balance at the time of Spell execution plus 404,016,484 USDS for the JTRSY balance to the [Spark Allocator Buffer](https://etherscan.io/address/0xc395d150e71378b47a1b8e9de0c1a83b75a08324) in order to close the balance related to these tokenized T-bill holdings. Grove will assume the associated debt positions for these collateral tokens.
 
 ##### [Mainnet] Grove Liquidity Layer - Onboard BlackRock BUIDL-I
 
@@ -185,7 +184,7 @@ Increase the Spark USDC Morpho vault [rate limits](https://docs.spark.fi/dev/spa
 - **Authorization**: [Governance Poll 1533](https://vote.sky.money/polling/Qme5qebN)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/july-24-2025-proposed-changes-to-spark-for-upcoming-spell/26796)
 
-Transfer of BUIDL and JTRSY tokenized T-bills to Grove Allocator. Grove will assume the associated debt positions for these collateral tokens.
+Transfer of all BUIDL and JTRSY tokenized T-bills held by Spark to [Grove ALMProxy](https://etherscan.io/address/0x491EDFB0B8b608044e227225C715981a30F3A44E). Grove will assume the associated debt positions for these collateral tokens.
 
 Additional information about this transfer can be found in [this forum post](https://forum.sky.money/t/tokenized-t-bills-transfer-from-spark-to-grove/26785).
 
@@ -194,7 +193,7 @@ Additional information about this transfer can be found in [this forum post](htt
 - **Authorization**: [Governance Poll 1532](https://vote.sky.money/polling/QmaLxz19)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/july-24-2025-proposed-changes-to-spark-for-upcoming-spell/26796)
 
-Transfer the accumulated ETH earned from SparkLend's reserve factor to the following multisig to be liquidated into USDS:
+Transfer the accumulated ETH earned from [SparkLend's reserve factor](https://etherscan.io/address/0xb137e7d16564c81ae2b0c8ee6b55de81dd46ece5) to the following multisig to be liquidated into USDS:
 
 Liquidation multisig: [0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC](https://etherscan.io/address/0x2e1b01adabb8d4981863394bea23a1263cbaedfc)
 
