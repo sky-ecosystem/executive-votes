@@ -1,11 +1,11 @@
 ---
 title: Template - [Executive Vote] MKR-to-SKY Phase Three, Sky Token Rewards Rebalance, Aligned Delegate Compensation for June 2025, Atlas Core Development Payments for July 2025, HVB DAO Resolution, Auxiliary Actions for Token Transfer Between Spark and Grove, Star Proxy Spells - July 24, 2025
-summary: MKR-to-SKY phase three, Sky Token Rewards rebalance, Aligned Delegate compensation for June 2025, Atlas Core Development USDS and SKY payments for July 2025, Huntington Valley Bank DAO Resolution, Auxiliary Actions for Token Transfer Between Spark and Grove, Star proxy spells.
+summary: MKR-to-SKY phase three actions, Sky Token Rewards rebalance, Aligned Delegate compensation for June 2025, Atlas Core Development USDS and SKY payments for July 2025, Huntington Valley Bank DAO Resolution, Auxiliary Actions for Token Transfer Between Spark and Grove,  Grove proxy spell execution, Spark proxy spell execution.
 date: 2025-07-24T00:00:00.000Z
 address: "$spell_address"
 ---
 
-# [Executive Proposal] MKR-to-SKY Phase Three, Sky Token Rewards Rebalance, Aligned Delegate Compensation for June 2025, Atlas Core Development Payments for July 2025, HVB DAO Resolution, Spark Auxiliary Actions for Token Transfer Between Spark and Grove, Star Proxy Spells - July 24, 2025
+# [Executive Proposal] MKR-to-SKY Phase Three, Sky Token Rewards Rebalance, Aligned Delegate Compensation for June 2025, Atlas Core Development Payments for July 2025, HVB DAO Resolution, Auxiliary Actions for Token Transfer Between Spark and Grove, Star Proxy Spells - July 24, 2025
 
 The Governance Facilitators, Sidestream and Dewiz have placed an executive proposal into the voting system. SKY Holders should vote for this proposal if they support the following alterations to the Sky Protocol.
 
@@ -17,8 +17,8 @@ If you are new to voting in the Sky Protocol, please see the [voting guide](http
 
 If this executive proposal passes, the following **actions** will occur within the Sky Protocol:
 
-- MKR-to-SKY Upgrade Phase Three actions will be executed.
-- Actions to rebalance the Sky Token Reward will be executed.
+- Some MKR-to-SKY Upgrade Phase Three actions will be executed.
+- Actions to rebalance the Sky Token Rewards will be executed.
 - A total of **21,062 USDS** will be distributed as Aligned Delegate compensation for June 2025.
 - A total of **77,584 USDS** and **618,000 SKY** will be distributed as Atlas Core Development payments for July 2025.
 - A Huntington Valley Bank DAO Resolution will be approved.
@@ -39,15 +39,15 @@ If this executive proposal does not pass within 30 days, then it will expire and
 
 ### MKR-to-SKY Upgrade Phase Three
 
-- **Authorization**: [Atlas](https://sky-atlas.powerhouse.io/A.4.1.2.1.4.2.2_Offboard_Borrowing_Against_Staked_MKR/1f1f2ff0-8d73-8024-bf88-f0a17374ceea%7Cb341f4c0b83472dc1f9e1a3b)
+- **Authorization**: [Atlas](https://sky-atlas.powerhouse.io/A.4.1.2.1.4.2.2_Offboard_Borrowing_Against_Staked_MKR/1f1f2ff0-8d73-8024-bf88-f0a17374ceea%7Cb341f4c0b83472dc1f9e1a3b), [Ecosystem Approval](https://forum.sky.money/t/phase-3-mkr-to-sky-migration-items-july-24th-spell/26750/2)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/phase-3-mkr-to-sky-migration-items-july-24th-spell/26750)
 
-If this executive proposal passes, then the following actions will complete Phase Three of the MKR-to-SKY Upgrade.
+If this executive proposal passes, then the following actions from [Phase Three of the MKR-to-SKY Upgrade](https://sky-atlas.powerhouse.io/A.4.1.2.1.4.2_MKR_To_SKY_Upgrade_Phase_Three_Actions/1f1f2ff0-8d73-8037-8451-f3d9ca511a3b%7Cb341f4c0b83472dc1f9e) will take place.
 
 #### Offboard LSE-MKR-A (legacy [Seal Engine](https://info.sky.money/collateral/seal-engine))
 
 - Increase LSE-MKR-A [liquidation ratio](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.1_Liquidation_Ratio/1184ab96-8cad-4755-9798-2c8782304407|57eaf45219bea3b430c2) by 9,875 percentage points from 125% to **10,000%**.
-- Reduce LSE-MKR-A `[chop](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.5.7_Liquidation_Penalty_(chop)/5295aa1f-3944-4fde-aaec-d999244b57e9|57eaf45219bea3b430c2a59a)` by 8 percentage points from 8% to **0%**.
+- Reduce LSE-MKR-A [Liquidation Penalty (chop)](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.5.7_Liquidation_Penalty_(chop)/5295aa1f-3944-4fde-aaec-d999244b57e9|57eaf45219bea3b430c2a59a) by 8 percentage points from 8% to **0%**.
 
 ### Sky Token Rewards Rebalance
 
@@ -58,13 +58,13 @@ If this executive proposal passes, then the distribution of SKY token rewards to
 
 - Yank MCD_VEST_SKY_TREASURY vest with ID 4.
 - Claim the remaining tokens from the old DssVest by calling `VestedRewardsDistribution.distribute()` on REWARDS_DIST_USDS_SKY.
-- Increase SKY allowance for MCD_VEST_SKY_TREASURY to the sum of all streams.
 - Create a new MCD_VEST_SKY_TREASURY stream with the following parameters:
   - res: 1 (restricted)
   - vestBgn: block.timestamp
   - vestTau: block.timestamp + 15,724,800 seconds (182 days after the spell executes)
   - Vesting rate: 100,851,495 * WAD SKY
-  - File the new stream ID on REWARDS_DIST_USDS_SKY
+- Increase SKY allowance for MCD_VEST_SKY_TREASURY to the sum of all streams.
+- File the new stream ID on REWARDS_DIST_USDS_SKY
 
 ### Aligned Delegate Compensation for June 2025
 
@@ -111,14 +111,14 @@ If this executive proposal passes, then a total of **77,584 USDS** and **618,000
 - **Authorization**: [Ecosystem Authorization](https://forum.sky.money/t/huntingdon-valley-bank-transaction-documents-on-permaweb/16264/28)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/huntingdon-valley-bank-transaction-documents-on-permaweb/16264/27)
 
-If this executive proposal passes, then the DAO Resolution with IPFS hash [bafkreidm3bqfiwv224m6w4zuabsiwqruy22sjfaxfvgx4kgcnu3wndxmva](https://gateway.pinata.cloud/ipfs/bafkreidm3bqfiwv224m6w4zuabsiwqruy22sjfaxfvgx4kgcnu3wndxmva) will be approved.
+If this executive proposal passes, the Huntington Valley Bank DAO Resolution with IPFS hash [bafkreidm3bqfiwv224m6w4zuabsiwqruy22sjfaxfvgx4kgcnu3wndxmva](https://gateway.pinata.cloud/ipfs/bafkreidm3bqfiwv224m6w4zuabsiwqruy22sjfaxfvgx4kgcnu3wndxmva), to amend the Trust Agreement governing the RWA Master Participation Trust will be approved. The amendment allows the Trust to make tax payments directly, outside the standard distribution waterfall.
 
 ### Auxiliary Actions for Token Transfer between Spark and Grove
 
 - **Authorization**: [Governance Poll 1533](https://vote.sky.money/polling/Qme5qebN)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/july-24-2025-proposed-changes-to-spark-for-upcoming-spell/26796#p-103150-mainnet-spark-liquidity-layer-transfer-buidl-and-jtrsy-tokens-to-grove-5)
 
-If this executive proposal passes, then Spark will transfer the existing BUIDL and JTRSY T-bill allocations to Grove by executing the following actions:
+If this executive proposal passes, the following auxiliary actions will be carried out to allow Grove to mint and transfer USDS to Spark in exchange for the tokenized T-bills, BUIDL, and JTRSY:
 
 - Increase ALLOCATOR-BLOOM-A DC-IAM [`gap`](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.4.2_Target_Available_Debt_(gap)/c1e17312-3744-4360-81f4-03564f0dd09d|57eaf45219bea3b430c268bb) by 1.2 billion USDS from 50 million USDS to **1.25 billion USDS**.
 - [`line`](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.4.1_Maximum_Debt_Ceiling_(line)/6f1a913d-9436-4b70-816b-e317672737d6|57eaf45219bea3b430c268bb) remains unchanged at **2.5 billion USDS**.
@@ -196,7 +196,7 @@ Increase the Spark USDC Morpho vault [rate limits](https://docs.spark.fi/dev/spa
 - **Authorization**: [Governance Poll 1533](https://vote.sky.money/polling/Qme5qebN)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/july-24-2025-proposed-changes-to-spark-for-upcoming-spell/26796)
 
-Facilitate a Spark transfer of BUIDL and JTRSY tokens to Grove. This requires the above changes at "Spark transfer of BUIDL and JTRSY tokens to Grove" to the ALLOCATOR-BLOOM-A Debt Ceiling Instant Access Module to facilitate the offsetting transfer of USDS from Grove to Spark as Grove will assume the associated debt positions for these collateral tokens.
+Transfer of BUIDL and JTRSY tokenized T-bills to Grove Allocator. Grove will assume the associated debt positions for these collateral tokens.
 
 Additional information about this transfer can be found in [this forum post](https://forum.sky.money/t/tokenized-t-bills-transfer-from-spark-to-grove/26785).
 
@@ -216,7 +216,7 @@ Any received USDS will later be transferred to the Spark Proxy and serve as addi
 - **Authorization**: [Governance Poll 1530](https://vote.sky.money/polling/QmP7RB2p)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/july-24-2025-proposed-changes-to-spark-for-upcoming-spell/26796)
 
-Deploy a Spark USDS Morpho Vault and onboard the PT-SPK-USDS Farm with the following parameters.
+Deploy a Spark USDS Morpho Vault and onboard the [PT USDS-SPK](https://app.pendle.finance/trade/markets/0xff43e751f2f07bbf84da1fc1fa12ce116bf447e5/swap?view=pt&chain=ethereum&tab=info) Farm with the following parameters.
 
 ###### Vault Parameter Summary
 
