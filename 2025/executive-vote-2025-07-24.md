@@ -23,7 +23,7 @@ If this executive proposal passes, the following **actions** will occur within t
 - A total of **77,584 USDS** and **618,000 SKY** will be distributed as Atlas Core Development payments for July 2025.
 - A Huntington Valley Bank DAO Resolution will be approved.
 - Auxiliary actions for the transfer of tokenized T-bills from Spark to Grove will be executed.
-- Star proxy spells for Spark and Grove will be executed.
+- Star proxy spells for Grove and Spark will be executed.
 
 **Voting for this executive proposal will place your SKY in support of the actions outlined above.**
 
