@@ -124,14 +124,14 @@ If this executive proposal passes, the following auxiliary actions will be carri
 - [`line`](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.4.1_Maximum_Debt_Ceiling_(line)/6f1a913d-9436-4b70-816b-e317672737d6|57eaf45219bea3b430c268bb) remains unchanged at **2.5 billion USDS**.
 - [`ttl`](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.4.3_Ceiling_Increase_Cooldown_(ttl)/58f5315f-938f-464c-b2d2-f611145d469a|57eaf45219bea3b430c268bb) remains unchanged at **86,400 seconds**.
 - Apply ALLOCATOR-BLOOM-A auto-line changes.
-- Execute Grove Proxy Spell at address [0x8AfC2C232716674b45CB131F858e870AA6aCD9FF](https://etherscan.io/address/0x8afc2c232716674b45cb131f858e870aa6acd9ff).
+- Execute Grove Proxy Spell at address [0xe069f56033Ed646aF3B4024501FF47BBce67CfD1](https://etherscan.io/address/0xe069f56033Ed646aF3B4024501FF47BBce67CfD1).
 - Decrease ALLOCATOR-BLOOM-A `gap` by 1.2 billion USDS from 1.25 billion USDS to **50 million USDS**.
 
 Grove ALM Proxy: [0x491EDFB0B8b608044e227225C715981a30F3A44E](https://etherscan.io/address/0x491EDFB0B8b608044e227225C715981a30F3A44E)
 
 ### Star Proxy Spells for Grove and Spark
 
-If this executive proposal passes, then Star proxy spells for Grove and Spark will be executed at [0x8AfC2C232716674b45CB131F858e870AA6aCD9FF](https://etherscan.io/address/0x8AfC2C232716674b45CB131F858e870AA6aCD9FF) and at [0x41EdbF09cd2f272175c7fACB857B767859543D15](https://etherscan.io/address/0x41EdbF09cd2f272175c7fACB857B767859543D15) respectively with the following contents.
+If this executive proposal passes, then Star proxy spells for Grove and Spark will be executed at [0xe069f56033Ed646aF3B4024501FF47BBce67CfD1](https://etherscan.io/address/0xe069f56033Ed646aF3B4024501FF47BBce67CfD1) and at [0x41EdbF09cd2f272175c7fACB857B767859543D15](https://etherscan.io/address/0x41EdbF09cd2f272175c7fACB857B767859543D15) respectively with the following contents.
 
 #### Grove Proxy Spell
 
