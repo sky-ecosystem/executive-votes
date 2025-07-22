@@ -116,7 +116,6 @@ If this executive proposal passes, the following auxiliary actions will be carri
   - [`line`](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.4.1_Maximum_Debt_Ceiling_(line)/6f1a913d-9436-4b70-816b-e317672737d6|57eaf45219bea3b430c268bb) remains unchanged at **2.5 billion USDS**.
   - [`ttl`](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.4.3_Ceiling_Increase_Cooldown_(ttl)/58f5315f-938f-464c-b2d2-f611145d469a|57eaf45219bea3b430c268bb) remains unchanged at **86,400 seconds**.
 
-
 ### Star Proxy Spells for Grove and Spark
 
 If this executive proposal passes, then Star proxy spells for Grove and Spark will be executed at [0xe069f56033Ed646aF3B4024501FF47BBce67CfD1](https://etherscan.io/address/0xe069f56033Ed646aF3B4024501FF47BBce67CfD1) and at [0x41EdbF09cd2f272175c7fACB857B767859543D15](https://etherscan.io/address/0x41EdbF09cd2f272175c7fACB857B767859543D15) respectively with the following contents.
@@ -128,7 +127,7 @@ If this executive proposal passes, then Star proxy spells for Grove and Spark wi
 - **Authorization**: [Governance Poll 1533](https://vote.sky.money/polling/Qme5qebN)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/july-24-2025-proposed-changes-to-spark-for-upcoming-spell/26796)
 
-The [Grove Allocator Buffer](https://etherscan.io/address/0x629ad4d779f46b8a1491d3f76f7e97cb04d8b1cd) will mint and transfer the exact amount of USDS 1:1 to the BUIDL-I balance at the time of Spell execution plus 404,016,484 USDS for the JTRSY balance to the [Spark Allocator Buffer](https://etherscan.io/address/0xc395d150e71378b47a1b8e9de0c1a83b75a08324) in order to close the balance related to these tokenized T-bill holdings. Grove will assume the associated debt positions for these collateral tokens.
+The [Grove Allocator Buffer](https://etherscan.io/address/0x629ad4d779f46b8a1491d3f76f7e97cb04d8b1cd) will mint an amount of USDS equal to the BUIDL-I balance of the [Spark ALMProxy](https://etherscan.io/address/0x1601843c5E9bC251A3272907010AFa41Fa18347E) at the time of Spell execution plus 404,016,484 USDS to account for Spark's JTRSY balance. This USDS will be transferred to the [Spark Allocator Buffer](https://etherscan.io/address/0xc395d150e71378b47a1b8e9de0c1a83b75a08324) to close the balance related to these tokenized T-bill holdings. Consequently, Grove will assume the associated debt positions for these collateral tokens.
 
 ##### [Mainnet] Grove Liquidity Layer - Onboard BlackRock BUIDL-I
 
@@ -193,7 +192,7 @@ Additional information about this transfer can be found in [this forum post](htt
 - **Authorization**: [Governance Poll 1532](https://vote.sky.money/polling/QmaLxz19)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/july-24-2025-proposed-changes-to-spark-for-upcoming-spell/26796)
 
-Transfer the accumulated ETH earned from [SparkLend's reserve factor](https://etherscan.io/address/0xb137e7d16564c81ae2b0c8ee6b55de81dd46ece5) to the following multisig to be liquidated into USDS:
+Transfer the accumulated ETH earned from SparkLend's Reserve Factor held in the [Spark Treasury](https://etherscan.io/address/0xb137e7d16564c81ae2b0c8ee6b55de81dd46ece5) to the following multisig to be liquidated into USDS:
 
 Liquidation multisig: [0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC](https://etherscan.io/address/0x2e1b01adabb8d4981863394bea23a1263cbaedfc)
 
@@ -206,12 +205,12 @@ Any received USDS will later be transferred to the Spark Proxy and serve as addi
 
 Deploy a Spark USDS Morpho Vault and onboard the [PT USDS-SPK](https://app.pendle.finance/trade/markets/0xff43e751f2f07bbf84da1fc1fa12ce116bf447e5/swap?view=pt&chain=ethereum&tab=info) Farm with the following parameters.
 
-###### Vault Parameter Summary
+###### Spark Liquidity Layer Vault [Rate Limit](https://docs.spark.fi/dev/spark-liquidity-layer/spark-alm-controller#rate-limits) Parameters
 
 - `Max amount`: **200 million USDS**
 - `Slope`: **100 million USDS per day**
 
-###### PT-USDS-24Sep2025
+###### PT-USDS-24Sep2025 Market Parameters
 
 - Pool LLTV: **96.5%**
 - Oracle base value (value at maturity): **1 USDS per PT token**
