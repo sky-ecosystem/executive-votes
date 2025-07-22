@@ -43,14 +43,14 @@ If this executive proposal does not pass within 30 days, then it will expire and
 
 If this executive proposal passes, then the distribution of SKY token rewards to USDS holders will be normalized to ensure the effective yield provided by these rewards equals the Sky Savings Rate (SSR), as per [A.4.3.2 - Token Reward Mechanism](https://sky-atlas.powerhouse.io/A.4.3.2_Token_Reward_Mechanism/2e3e7014-bd66-4e85-b915-b86ae3ceeb16%7Cb3417d54), by executing the following actions:
 
-- Yank MCD_VEST_SKY_TREASURY vest with ID 4.
+- `yank()` MCD_VEST_SKY_TREASURY vest with ID 4.
 - Claim the remaining tokens from the old DssVest by calling `VestedRewardsDistribution.distribute()` on REWARDS_DIST_USDS_SKY.
 - Create a new MCD_VEST_SKY_TREASURY stream with the following parameters:
   - res: 1 (restricted)
   - vestBgn: block.timestamp
   - vestTau: block.timestamp + 15,724,800 seconds (182 days after the spell executes)
   - Vesting rate: 100,851,495 * WAD SKY
-- Increase SKY allowance for MCD_VEST_SKY_TREASURY to the sum of all streams.
+- Increase SKY allowance for MCD_VEST_SKY_TREASURY to the sum of all active streams and the new stream created by this executive vote.
 - File the new stream ID on REWARDS_DIST_USDS_SKY
 
 ### Aligned Delegate Compensation for June 2025
@@ -71,7 +71,7 @@ If this executive proposal passes, then a total of **21,062 USDS** will be distr
 | Excel       | 400           | [0x0F04a22B62A26e25A29Cba5a595623038ef7AcE7](https://etherscan.io/address/0x0F04a22B62A26e25A29Cba5a595623038ef7AcE7) |
 | AegisD      | 129           | [0x78C180CF113Fe4845C325f44648b6567BC79d6E0](https://etherscan.io/address/0x78C180CF113Fe4845C325f44648b6567BC79d6E0) |
 
-### Atlas Core Development USDS Payments for July 2025
+### Atlas Core Development Payments for July 2025
 
 - **Authorization**: [Ecosystem Authorization](https://forum.sky.money/t/atlas-core-development-payment-requests-july-2025/26779/6), [Atlas Axis Authorization](https://forum.sky.money/t/atlas-core-development-payment-requests-july-2025/26779/5)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/atlas-core-development-payment-requests-july-2025/26779)
@@ -98,7 +98,7 @@ If this executive proposal passes, then a total of **77,584 USDS** and **618,000
 - **Authorization**: [Ecosystem Authorization](https://forum.sky.money/t/huntingdon-valley-bank-transaction-documents-on-permaweb/16264/28)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/huntingdon-valley-bank-transaction-documents-on-permaweb/16264/27)
 
-If this executive proposal passes, the Huntingdon Valley Bank DAO Resolution with IPFS hash [bafkreidm3bqfiwv224m6w4zuabsiwqruy22sjfaxfvgx4kgcnu3wndxmva](https://gateway.pinata.cloud/ipfs/bafkreidm3bqfiwv224m6w4zuabsiwqruy22sjfaxfvgx4kgcnu3wndxmva), to amend the Trust Agreement governing the RWA Master Participation Trust will be approved. The amendment allows the Trust to make tax payments directly, outside the standard distribution waterfall.
+If this executive proposal passes, the Huntingdon Valley Bank (RWA009-A) DAO Resolution with IPFS hash [bafkreidm3bqfiwv224m6w4zuabsiwqruy22sjfaxfvgx4kgcnu3wndxmva](https://gateway.pinata.cloud/ipfs/bafkreidm3bqfiwv224m6w4zuabsiwqruy22sjfaxfvgx4kgcnu3wndxmva), to amend the Trust Agreement governing the RWA Master Participation Trust will be approved. The amendment allows the Trust to make tax payments directly, outside the standard distribution waterfall.
 
 ### Auxiliary Actions for Token Transfer between Spark and Grove
 
@@ -108,11 +108,13 @@ If this executive proposal passes, the Huntingdon Valley Bank DAO Resolution wit
 If this executive proposal passes, the following auxiliary actions will be carried out to allow Grove to mint and transfer USDS to Spark in exchange for the tokenized T-bills, BUIDL, and JTRSY:
 
 - Increase ALLOCATOR-BLOOM-A DC-IAM [`gap`](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.4.2_Target_Available_Debt_(gap)/c1e17312-3744-4360-81f4-03564f0dd09d|57eaf45219bea3b430c268bb) by 1.2 billion USDS from 50 million USDS to **1.25 billion USDS**.
-- [`line`](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.4.1_Maximum_Debt_Ceiling_(line)/6f1a913d-9436-4b70-816b-e317672737d6|57eaf45219bea3b430c268bb) remains unchanged at **2.5 billion USDS**.
-- [`ttl`](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.4.3_Ceiling_Increase_Cooldown_(ttl)/58f5315f-938f-464c-b2d2-f611145d469a|57eaf45219bea3b430c268bb) remains unchanged at **86,400 seconds**.
+  - [`line`](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.4.1_Maximum_Debt_Ceiling_(line)/6f1a913d-9436-4b70-816b-e317672737d6|57eaf45219bea3b430c268bb) remains unchanged at **2.5 billion USDS**.
+  - [`ttl`](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.4.3_Ceiling_Increase_Cooldown_(ttl)/58f5315f-938f-464c-b2d2-f611145d469a|57eaf45219bea3b430c268bb) remains unchanged at **86,400 seconds**.
 - Apply ALLOCATOR-BLOOM-A auto-line changes.
-- Execute Grove Proxy Spell at address [0xe069f56033Ed646aF3B4024501FF47BBce67CfD1](https://etherscan.io/address/0xe069f56033Ed646aF3B4024501FF47BBce67CfD1).
+- Execute Grove Proxy Spell at address [0xe069f56033Ed646aF3B4024501FF47BBce67CfD1](https://etherscan.io/address/0xe069f56033Ed646aF3B4024501FF47BBce67CfD1) - further details below.
 - Decrease ALLOCATOR-BLOOM-A `gap` by 1.2 billion USDS from 1.25 billion USDS to **50 million USDS**.
+  - [`line`](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.4.1_Maximum_Debt_Ceiling_(line)/6f1a913d-9436-4b70-816b-e317672737d6|57eaf45219bea3b430c268bb) remains unchanged at **2.5 billion USDS**.
+  - [`ttl`](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.4.3_Ceiling_Increase_Cooldown_(ttl)/58f5315f-938f-464c-b2d2-f611145d469a|57eaf45219bea3b430c268bb) remains unchanged at **86,400 seconds**.
 
 Grove ALM Proxy: [0x491EDFB0B8b608044e227225C715981a30F3A44E](https://etherscan.io/address/0x491EDFB0B8b608044e227225C715981a30F3A44E)
 
@@ -134,7 +136,7 @@ The Grove Allocator will mint and transfer the exact amount of USDS 1:1 to the B
 - **Authorization**: [Governance Poll 1536](https://vote.sky.money/polling/QmdkNnmE)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/july-24-2025-proposed-changes-to-spark-for-upcoming-spell/26796)
 
-Onboard BlackRock BUIDL-I on the Grove Liquidity Layer on Mainnet with the following [rate limit](https://docs.spark.fi/dev/spark-liquidity-layer/spark-alm-controller#rate-limits) parameters:
+Onboard BlackRock BUIDL-I to the Grove Liquidity Layer on Mainnet with the following [rate limit](https://docs.spark.fi/dev/spark-liquidity-layer/spark-alm-controller#rate-limits) parameters:
 
 - Deposits
   - Max amount: **50 million USDC**
@@ -149,7 +151,7 @@ Token address: [0x6a9DA2D710BB9B700acde7Cb81F10F1fF8C89041](https://etherscan.io
 - **Authorization**: [Governance Poll 1537](https://vote.sky.money/polling/QmdKd2se)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/july-24-2025-proposed-changes-to-spark-for-upcoming-spell/26796)
 
-Onboard Centrifuge JTRSY on the Grove Liquidity Layer on Mainnet with the following [rate limit](https://docs.spark.fi/dev/spark-liquidity-layer/spark-alm-controller#rate-limits) parameters:
+Onboard Centrifuge JTRSY to the Grove Liquidity Layer on Mainnet with the following [rate limit](https://docs.spark.fi/dev/spark-liquidity-layer/spark-alm-controller#rate-limits) parameters:
 
 - Deposits
   - Max amount: **50 million USDC**
@@ -178,7 +180,7 @@ Increase the Spark USDC Morpho vault [rate limits](https://docs.spark.fi/dev/spa
 - `max`: Increase by 50 million from 50 million to **100 million USDC**.
 - `slope`: Increase by 25 million per day from 25 million per day to **50 million USDC per day**.
 
-##### [Mainnet] Spark Liquidity Layer - Spark transfer of BUIDL and JTRSY Tokens to Grove
+##### [Mainnet] Spark Liquidity Layer - Transfer of BUIDL and JTRSY Tokens to Grove
 
 - **Authorization**: [Governance Poll 1533](https://vote.sky.money/polling/Qme5qebN)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/july-24-2025-proposed-changes-to-spark-for-upcoming-spell/26796)
@@ -196,7 +198,7 @@ Transfer the accumulated ETH earned from SparkLend's reserve factor to the follo
 
 Liquidation multisig: [0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC](https://etherscan.io/address/0x2e1b01adabb8d4981863394bea23a1263cbaedfc)
 
-Any received USDS will later be transferred to the Spark Proxy and serve as additional risk capital.
+Any received USDS will later be transferred to the Spark Proxy and serve as additional Risk Capital.
 
 ##### [Mainnet] Spark USDS Vault - Onboard PT-SPK-USDS Farm
 
