@@ -122,7 +122,7 @@ If this executive proposal passes, then Spark will transfer the existing BUIDL a
 
 - Increase ALLOCATOR-BLOOM-A DC-IAM [`gap`](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.4.2_Target_Available_Debt_(gap)/c1e17312-3744-4360-81f4-03564f0dd09d|57eaf45219bea3b430c268bb) by 1.2 billion USDS from 50 million USDS to **1.25 billion USDS**.
 - [`line`](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.4.1_Maximum_Debt_Ceiling_(line)/6f1a913d-9436-4b70-816b-e317672737d6|57eaf45219bea3b430c268bb) remains unchanged at **2.5 billion USDS**.
-- [`ttl`](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.4.3_Ceiling_Increase_Cooldown_(ttl)/58f5315f-938f-464c-b2d2-f611145d469a|57eaf45219bea3b430c268bb) remains unchanged at **86400 seconds**.
+- [`ttl`](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.4.3_Ceiling_Increase_Cooldown_(ttl)/58f5315f-938f-464c-b2d2-f611145d469a|57eaf45219bea3b430c268bb) remains unchanged at **86,400 seconds**.
 - Apply ALLOCATOR-BLOOM-A auto-line changes.
 - Execute Grove Proxy Spell at address [0x8AfC2C232716674b45CB131F858e870AA6aCD9FF](https://etherscan.io/address/0x8afc2c232716674b45cb131f858e870aa6acd9ff).
 - Decrease ALLOCATOR-BLOOM-A `gap` by 1.2 billion USDS from 1.25 billion USDS to 50 million USDS.
