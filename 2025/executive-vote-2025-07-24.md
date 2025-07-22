@@ -47,10 +47,10 @@ If this executive proposal passes, then the distribution of SKY token rewards to
 - Claim the remaining tokens from the old DssVest by calling `VestedRewardsDistribution.distribute()` on REWARDS_DIST_USDS_SKY.
 - Create a new MCD_VEST_SKY_TREASURY stream with the following parameters:
   - res: 1 (restricted)
+  - Increase SKY allowance for MCD_VEST_SKY_TREASURY to the sum of all active streams and the new stream created by this executive vote.
   - vestBgn: block.timestamp
   - vestTau: block.timestamp + 15,724,800 seconds (182 days after the spell executes)
   - tot: **100,851,495 SKY**
-- Increase SKY allowance for MCD_VEST_SKY_TREASURY to the sum of all active streams and the new stream created by this executive vote.
 - File the new stream ID on REWARDS_DIST_USDS_SKY
 
 ### Aligned Delegate Compensation for June 2025
