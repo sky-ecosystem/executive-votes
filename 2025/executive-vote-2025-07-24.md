@@ -1,11 +1,11 @@
 ---
-title: Template - [Executive Vote] MKR-to-SKY Phase Three, Sky Token Rewards Rebalance, Aligned Delegate Compensation for June 2025, Atlas Core Development Payments for July 2025, HVB DAO Resolution, Auxiliary Actions for Token Transfer between Spark and Grove, Star Proxy Spells - July 24, 2025
-summary: MKR-to-SKY phase three, Sky Token Rewards rebalance, Aligned Delegate compensation for June 2025, Atlas Core Development USDS and SKY payments for July 2025, Huntington Valley Bank DAO Resolution, Auxiliary Actions for Token Transfer between Spark and Grove, Star proxy spells.
+title: Template - [Executive Vote] MKR-to-SKY Phase Three, Sky Token Rewards Rebalance, Aligned Delegate Compensation for June 2025, Atlas Core Development Payments for July 2025, HVB DAO Resolution, Auxiliary Actions for Token Transfer Between Spark and Grove, Star Proxy Spells - July 24, 2025
+summary: MKR-to-SKY phase three, Sky Token Rewards rebalance, Aligned Delegate compensation for June 2025, Atlas Core Development USDS and SKY payments for July 2025, Huntington Valley Bank DAO Resolution, Auxiliary Actions for Token Transfer Between Spark and Grove, Star proxy spells.
 date: 2025-07-24T00:00:00.000Z
 address: "$spell_address"
 ---
 
-# [Executive Proposal] MKR-to-SKY Phase Three, Sky Token Rewards Rebalance, Aligned Delegate Compensation for June 2025, Atlas Core Development Payments for July 2025, HVB DAO Resolution, Auxiliary Actions for Token Transfer between Spark and Grove, Star Proxy Spells - July 24, 2025
+# [Executive Proposal] MKR-to-SKY Phase Three, Sky Token Rewards Rebalance, Aligned Delegate Compensation for June 2025, Atlas Core Development Payments for July 2025, HVB DAO Resolution, Spark Auxiliary Actions for Token Transfer Between Spark and Grove, Star Proxy Spells - July 24, 2025
 
 The Governance Facilitators, Sidestream and Dewiz have placed an executive proposal into the voting system. SKY Holders should vote for this proposal if they support the following alterations to the Sky Protocol.
 
@@ -113,7 +113,7 @@ If this executive proposal passes, then a total of **77,584 USDS** and **618,000
 
 If this executive proposal passes, then the DAO Resolution with IPFS hash [bafkreidm3bqfiwv224m6w4zuabsiwqruy22sjfaxfvgx4kgcnu3wndxmva](https://gateway.pinata.cloud/ipfs/bafkreidm3bqfiwv224m6w4zuabsiwqruy22sjfaxfvgx4kgcnu3wndxmva) will be approved.
 
-### Spark transfer of BUIDL and JTRSY Tokens to Grove
+### Auxiliary Actions for Token Transfer between Spark and Grove
 
 - **Authorization**: [Governance Poll 1533](https://vote.sky.money/polling/Qme5qebN)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/july-24-2025-proposed-changes-to-spark-for-upcoming-spell/26796#p-103150-mainnet-spark-liquidity-layer-transfer-buidl-and-jtrsy-tokens-to-grove-5)
@@ -191,7 +191,7 @@ Increase the Spark USDC Morpho vault [rate limits](https://docs.spark.fi/dev/spa
 - `max`: Increase by 50 million from 50 million to **100 million USDC**.
 - `slope`: Increase by 25 million per day from 25 million per day to **50 million USDC per day**.
 
-##### [Mainnet] Spark Liquidity Layer - Auxiliary Actions for Token Transfer between Spark and Grove
+##### [Mainnet] Spark Liquidity Layer - Spark transfer of BUIDL and JTRSY Tokens to Grove
 
 - **Authorization**: [Governance Poll 1533](https://vote.sky.money/polling/Qme5qebN)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/july-24-2025-proposed-changes-to-spark-for-upcoming-spell/26796)
