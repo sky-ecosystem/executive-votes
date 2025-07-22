@@ -1,6 +1,6 @@
 ---
 title: Template - [Executive Vote] MKR-to-SKY Phase Three, Sky Token Rewards Rebalance, Aligned Delegate Compensation for June 2025, Atlas Core Development Payments for July 2025, HVB DAO Resolution, Auxiliary Actions for Token Transfer Between Spark and Grove, Star Proxy Spells - July 24, 2025
-summary: MKR-to-SKY phase three actions, Sky Token Rewards rebalance, Aligned Delegate compensation for June 2025, Atlas Core Development USDS and SKY payments for July 2025, Huntington Valley Bank DAO Resolution, Auxiliary Actions for Token Transfer Between Spark and Grove,  Grove proxy spell execution, Spark proxy spell execution.
+summary: MKR-to-SKY phase three actions, Sky Token Rewards rebalance, Aligned Delegate compensation for June 2025, Atlas Core Development USDS and SKY payments for July 2025, Huntingdon Valley Bank DAO Resolution, Auxiliary Actions for Token Transfer Between Spark and Grove,  Grove proxy spell execution, Spark proxy spell execution.
 date: 2025-07-24T00:00:00.000Z
 address: "$spell_address"
 ---
@@ -21,7 +21,7 @@ If this executive proposal passes, the following **actions** will occur within t
 - Actions to rebalance the Sky Token Rewards will be executed.
 - A total of **21,062 USDS** will be distributed as Aligned Delegate compensation for June 2025.
 - A total of **77,584 USDS** and **618,000 SKY** will be distributed as Atlas Core Development payments for July 2025.
-- A Huntington Valley Bank DAO Resolution will be approved.
+- A Huntingdon Valley Bank DAO Resolution will be approved.
 - Auxiliary actions for the transfer of tokenized T-bills from Spark to Grove will be executed.
 - Star proxy spells for Grove and Spark will be executed.
 
@@ -106,12 +106,12 @@ If this executive proposal passes, then a total of **77,584 USDS** and **618,000
 | BLUE      | 330,000      | [0xb6C09680D822F162449cdFB8248a7D3FC26Ec9Bf](https://etherscan.io/address/0xb6C09680D822F162449cdFB8248a7D3FC26Ec9Bf) |
 | Cloaky    | 288,000      | [0x9244F47D70587Fa2329B89B6f503022b63Ad54A5](https://etherscan.io/address/0x9244F47D70587Fa2329B89B6f503022b63Ad54A5) |
 
-### Huntington Valley Bank DAO Resolution
+### Huntingdon Valley Bank DAO Resolution
 
 - **Authorization**: [Ecosystem Authorization](https://forum.sky.money/t/huntingdon-valley-bank-transaction-documents-on-permaweb/16264/28)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/huntingdon-valley-bank-transaction-documents-on-permaweb/16264/27)
 
-If this executive proposal passes, the Huntington Valley Bank DAO Resolution with IPFS hash [bafkreidm3bqfiwv224m6w4zuabsiwqruy22sjfaxfvgx4kgcnu3wndxmva](https://gateway.pinata.cloud/ipfs/bafkreidm3bqfiwv224m6w4zuabsiwqruy22sjfaxfvgx4kgcnu3wndxmva), to amend the Trust Agreement governing the RWA Master Participation Trust will be approved. The amendment allows the Trust to make tax payments directly, outside the standard distribution waterfall.
+If this executive proposal passes, the Huntingdon Valley Bank DAO Resolution with IPFS hash [bafkreidm3bqfiwv224m6w4zuabsiwqruy22sjfaxfvgx4kgcnu3wndxmva](https://gateway.pinata.cloud/ipfs/bafkreidm3bqfiwv224m6w4zuabsiwqruy22sjfaxfvgx4kgcnu3wndxmva), to amend the Trust Agreement governing the RWA Master Participation Trust will be approved. The amendment allows the Trust to make tax payments directly, outside the standard distribution waterfall.
 
 ### Auxiliary Actions for Token Transfer between Spark and Grove
 
