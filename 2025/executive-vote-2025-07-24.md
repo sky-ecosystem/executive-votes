@@ -1,11 +1,11 @@
 ---
-title: Template - [Executive Vote] MKR-to-SKY Phase Three, Sky Token Rewards Rebalance, Aligned Delegate Compensation for June 2025, Atlas Core Development Payments for July 2025, HVB DAO Resolution, Auxiliary Actions for Token Transfer Between Spark and Grove, Star Proxy Spells - July 24, 2025
-summary: MKR-to-SKY phase three actions, Sky Token Rewards rebalance, Aligned Delegate compensation for June 2025, Atlas Core Development USDS and SKY payments for July 2025, Huntingdon Valley Bank DAO Resolution, Auxiliary Actions for Token Transfer Between Spark and Grove,  Grove proxy spell execution, Spark proxy spell execution.
+title: Template - [Executive Vote] Sky Token Rewards Rebalance, Aligned Delegate Compensation for June 2025, Atlas Core Development Payments for July 2025, HVB DAO Resolution, Auxiliary Actions for Token Transfer Between Spark and Grove, Star Proxy Spells - July 24, 2025
+summary: Sky Token Rewards rebalance, Aligned Delegate compensation for June 2025, Atlas Core Development USDS and SKY payments for July 2025, Huntingdon Valley Bank DAO Resolution, Auxiliary Actions for Token Transfer Between Spark and Grove,  Grove proxy spell execution, Spark proxy spell execution.
 date: 2025-07-24T00:00:00.000Z
 address: "$spell_address"
 ---
 
-# [Executive Proposal] MKR-to-SKY Phase Three, Sky Token Rewards Rebalance, Aligned Delegate Compensation for June 2025, Atlas Core Development Payments for July 2025, HVB DAO Resolution, Auxiliary Actions for Token Transfer Between Spark and Grove, Star Proxy Spells - July 24, 2025
+# [Executive Proposal] Sky Token Rewards Rebalance, Aligned Delegate Compensation for June 2025, Atlas Core Development Payments for July 2025, HVB DAO Resolution, Auxiliary Actions for Token Transfer Between Spark and Grove, Star Proxy Spells - July 24, 2025
 
 The Governance Facilitators, Sidestream and Dewiz have placed an executive proposal into the voting system. SKY Holders should vote for this proposal if they support the following alterations to the Sky Protocol.
 
@@ -17,7 +17,6 @@ If you are new to voting in the Sky Protocol, please see the [voting guide](http
 
 If this executive proposal passes, the following **actions** will occur within the Sky Protocol:
 
-- Some MKR-to-SKY Upgrade Phase Three actions will be executed.
 - Actions to rebalance the Sky Token Rewards will be executed.
 - A total of **21,062 USDS** will be distributed as Aligned Delegate compensation for June 2025.
 - A total of **77,584 USDS** and **618,000 SKY** will be distributed as Atlas Core Development payments for July 2025.
@@ -36,18 +35,6 @@ If this executive proposal does not pass within 30 days, then it will expire and
 ---
 
 ## Proposal Details
-
-### MKR-to-SKY Upgrade Phase Three
-
-- **Authorization**: [Atlas](https://sky-atlas.powerhouse.io/A.4.1.2.1.4.2.2_Offboard_Borrowing_Against_Staked_MKR/1f1f2ff0-8d73-8024-bf88-f0a17374ceea%7Cb341f4c0b83472dc1f9e1a3b), [Ecosystem Approval](https://forum.sky.money/t/phase-3-mkr-to-sky-migration-items-july-24th-spell/26750/2)
-- **Proposal**: [Forum Post](https://forum.sky.money/t/phase-3-mkr-to-sky-migration-items-july-24th-spell/26750)
-
-If this executive proposal passes, then the following actions from [Phase Three of the MKR-to-SKY Upgrade](https://sky-atlas.powerhouse.io/A.4.1.2.1.4.2_MKR_To_SKY_Upgrade_Phase_Three_Actions/1f1f2ff0-8d73-8037-8451-f3d9ca511a3b%7Cb341f4c0b83472dc1f9e) will take place.
-
-#### Offboard LSE-MKR-A (legacy [Seal Engine](https://info.sky.money/collateral/seal-engine))
-
-- Increase LSE-MKR-A [liquidation ratio](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.1_Liquidation_Ratio/1184ab96-8cad-4755-9798-2c8782304407|57eaf45219bea3b430c2) by 9,875 percentage points from 125% to **10,000%**.
-- Reduce LSE-MKR-A [Liquidation Penalty (chop)](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.5.7_Liquidation_Penalty_(chop)/5295aa1f-3944-4fde-aaec-d999244b57e9|57eaf45219bea3b430c2a59a) by 8 percentage points from 8% to **0%**.
 
 ### Sky Token Rewards Rebalance
 
