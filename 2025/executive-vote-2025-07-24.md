@@ -25,13 +25,6 @@ If this executive proposal passes, the following **actions** will occur within t
 - A tokenized T-bills transfer from Spark to Grove will be executed.
 - Star proxy spells for Spark and Grove will be executed.
 
-### Execute Spark Proxy Spell
-
-- **Authorization**: [Ecosystem Approval](https://forum.sky.money/t/may-29-2025-proposed-changes-to-spark-for-upcoming-spell/26372/3)
-- **Proposal**: [Forum Post](https://forum.sky.money/t/may-29-2025-proposed-changes-to-spark-for-upcoming-spell/26372)
-
-If this executive proposal passes, then a Spark Proxy Spell will be executed at [0x3968a022D955Bbb7927cc011A48601B65a33F346](https://etherscan.io/address/0x3968a022D955Bbb7927cc011A48601B65a33F346) with the following contents.
-
 **Voting for this executive proposal will place your SKY in support of the actions outlined above.**
 
 Unless otherwise noted, the actions listed above are subject to the [GSM Pause Delay](https://sky-atlas.powerhouse.io/A.1.9.2.1_Pause_Delay/a98b8227-95f6-4711-9d8d-f52cbc6ad2d0|0db30758e055). This means that if this executive proposal passes, the changes and additions listed above will only become active in the Sky Protocol after the GSM Pause Delay has expired. The GSM Pause Delay is currently set to [**24 hours**](https://sky-atlas.powerhouse.io/A.1.9.2.1.2_Pause_Delay_Current_Value/09d2514b-3169-4755-a654-2c774456980d|0db30758e055d2d0).
@@ -136,12 +129,48 @@ If this executive proposal passes, then Spark will transfer the existing BUIDL a
 
 Grove ALM Proxy: [0x491EDFB0B8b608044e227225C715981a30F3A44E](https://etherscan.io/address/0x491EDFB0B8b608044e227225C715981a30F3A44E)
 
-### Star Proxy Spells for Spark and Grove
+### Star Proxy Spells for Grove and Spark
 
-- **Authorization**: Ecosystem Approval [1](http://forum.sky.money/t/july-24-2025-proposed-changes-to-spark-for-upcoming-spell/26796/3), [2](https://forum.sky.money/t/july-24-2025-proposed-onboardings-for-grove-in-upcoming-spell/26805/3)
-- **Proposal**: Forum Posts [1](https://forum.sky.money/t/july-24-2025-proposed-changes-to-spark-for-upcoming-spell/26796), [2](http://forum.sky.money/t/july-24-2025-proposed-onboardings-for-grove-in-upcoming-spell/26805)
+If this executive proposal passes, then Star proxy spells for Grove and Spark will be executed at [0x8AfC2C232716674b45CB131F858e870AA6aCD9FF](https://etherscan.io/address/0x8AfC2C232716674b45CB131F858e870AA6aCD9FF) and at [0x41EdbF09cd2f272175c7fACB857B767859543D15](https://etherscan.io/address/0x41EdbF09cd2f272175c7fACB857B767859543D15) respectively with the following contents.
 
-If this executive proposal passes, then Star proxy spells for Spark and Grove will be executed at [0x41EdbF09cd2f272175c7fACB857B767859543D15](https://etherscan.io/address/0x41EdbF09cd2f272175c7fACB857B767859543D15) and at [0x8AfC2C232716674b45CB131F858e870AA6aCD9FF](https://etherscan.io/address/0x8AfC2C232716674b45CB131F858e870AA6aCD9FF) respectively with the following contents.
+#### Grove Proxy Spell
+
+##### [Mainnet] Mint USDS for BUIDL and JTRSY Tokens and Send it to Spark Allocator Buffer
+
+- **Authorization**: [Governance Poll 1533](https://vote.sky.money/polling/Qme5qebN)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/july-24-2025-proposed-changes-to-spark-for-upcoming-spell/26796)
+
+The Grove Allocator will mint and transfer the exact amount of USDS 1:1 to the BUIDL-I balance at the time of Spell execution plus 404,016,484 USDS for the JTRSY balance to the Spark Allocator in order to close the balance related to these tokenized T-bill holdings.
+
+##### [Mainnet] Grove Liquidity Layer - Onboard BlackRock BUIDL-I
+
+- **Authorization**: [Governance Poll 1536](https://vote.sky.money/polling/QmdkNnmE)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/july-24-2025-proposed-changes-to-spark-for-upcoming-spell/26796)
+
+Onboard BlackRock BUIDL-I on the Grove Liquidity Layer on Mainnet with the following [rate limit](https://docs.spark.fi/dev/spark-liquidity-layer/spark-alm-controller#rate-limits) parameters:
+
+- Deposits
+  - Max amount: **50 million USDC**
+  - Slope: **50 million USDC per day**
+- Withdrawals
+  - Max amount: **Unlimited**
+
+Token address: [0x6a9DA2D710BB9B700acde7Cb81F10F1fF8C89041](https://etherscan.io/token/0x6a9DA2D710BB9B700acde7Cb81F10F1fF8C89041)
+
+##### [Mainnet] Grove Liquidity Layer - Onboard Centrifuge JTRSY
+
+- **Authorization**: [Governance Poll 1537](https://vote.sky.money/polling/QmdKd2se)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/july-24-2025-proposed-changes-to-spark-for-upcoming-spell/26796)
+
+Onboard Centrifuge JTRSY on the Grove Liquidity Layer on Mainnet with the following [rate limit](https://docs.spark.fi/dev/spark-liquidity-layer/spark-alm-controller#rate-limits) parameters:
+
+- Deposits
+  - Max amount: **50 million USDC**
+  - Slope: **50 million USDC per day**
+- Withdrawals
+  - Max amount: **Unlimited**
+
+Token address: [0x36036fFd9B1C6966ab23209E073c68Eb9A992f50](https://etherscan.io/token/0x36036fFd9B1C6966ab23209E073c68Eb9A992f50)
 
 #### Spark Proxy Spell
 
@@ -200,45 +229,6 @@ Deploy a Spark USDS Morpho Vault and onboard the PT-SPK-USDS Farm with the follo
 - Oracle base value (value at maturity): **1 USDS per PT token**
 - Oracle discount rate: **15%**
 - Pool supply cap: **500 million USDS**
-
-#### Grove Proxy Spell
-
-##### [Mainnet] Mint USDS for BUIDL and JTRSY Tokens and Send it to Spark Allocator Buffer
-
-- **Authorization**: [Governance Poll 1533](https://vote.sky.money/polling/Qme5qebN)
-- **Proposal**: [Forum Post](https://forum.sky.money/t/july-24-2025-proposed-changes-to-spark-for-upcoming-spell/26796)
-
-The Grove Allocator will mint and transfer the exact amount of USDS 1:1 to the BUIDL-I balance at the time of Spell execution plus 404,016,484 USDS for the JTRSY balance to the Spark Allocator in order to close the balance related to these tokenized T-bill holdings.
-
-##### [Mainnet] Grove Liquidity Layer - Onboard BlackRock BUIDL-I
-
-- **Authorization**: [Governance Poll 1536](https://vote.sky.money/polling/QmdkNnmE)
-- **Proposal**: [Forum Post](https://forum.sky.money/t/july-24-2025-proposed-changes-to-spark-for-upcoming-spell/26796)
-
-Onboard BlackRock BUIDL-I on the Grove Liquidity Layer on Mainnet with the following [rate limit](https://docs.spark.fi/dev/spark-liquidity-layer/spark-alm-controller#rate-limits) parameters:
-
-- Deposits
-  - Max amount: **50 million USDC**
-  - Slope: **50 million USDC per day**
-- Withdrawals
-  - Max amount: **Unlimited**
-
-Token address: [0x6a9DA2D710BB9B700acde7Cb81F10F1fF8C89041](https://etherscan.io/token/0x6a9DA2D710BB9B700acde7Cb81F10F1fF8C89041)
-
-##### [Mainnet] Grove Liquidity Layer - Onboard Centrifuge JTRSY
-
-- **Authorization**: [Governance Poll 1537](https://vote.sky.money/polling/QmdKd2se)
-- **Proposal**: [Forum Post](https://forum.sky.money/t/july-24-2025-proposed-changes-to-spark-for-upcoming-spell/26796)
-
-Onboard Centrifuge JTRSY on the Grove Liquidity Layer on Mainnet with the following [rate limit](https://docs.spark.fi/dev/spark-liquidity-layer/spark-alm-controller#rate-limits) parameters:
-
-- Deposits
-  - Max amount: **50 million USDC**
-  - Slope: **50 million USDC per day**
-- Withdrawals
-  - Max amount: **Unlimited**
-
-Token address: [0x36036fFd9B1C6966ab23209E073c68Eb9A992f50](https://etherscan.io/token/0x36036fFd9B1C6966ab23209E073c68Eb9A992f50)
 
 ## Review
 
