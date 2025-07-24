@@ -2,7 +2,7 @@
 title: Template - [Executive Vote] Sky Token Rewards Rebalance, Aligned Delegate Compensation for June 2025, Atlas Core Development Payments for July 2025, HV Bank (RWA009-A) DAO Resolution, Auxiliary Actions for Token Transfer Between Spark and Grove, Star Proxy Spells - July 24, 2025
 summary: Sky Token Rewards rebalance, Aligned Delegate compensation for June 2025, Atlas Core Development USDS and SKY payments for July 2025, Huntingdon Valley Bank DAO Resolution, Auxiliary Actions for Token Transfer Between Spark and Grove,  Grove proxy spell execution, Spark proxy spell execution.
 date: 2025-07-24T00:00:00.000Z
-address: "$spell_address"
+address: "0x12a79fAcd8D6Bbb1583593ef414897A9bA8f0D26"
 ---
 
 # [Executive Proposal] Sky Token Rewards Rebalance, Aligned Delegate Compensation for June 2025, Atlas Core Development Payments for July 2025, HV Bank (RWA009-A) DAO Resolution, Auxiliary Actions for Token Transfer Between Spark and Grove, Star Proxy Spells - July 24, 2025
