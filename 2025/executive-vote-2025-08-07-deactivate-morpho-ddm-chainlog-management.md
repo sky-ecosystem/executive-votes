@@ -18,7 +18,7 @@ If you are new to voting in the Sky Protocol, please see the [voting guide](http
 If this executive proposal passes, the following **actions** will occur within the Sky Protocol:
 
 - The legacy Spark DAI Morpho Direct Deposit Module (DIRECT-SPARK-MORPHO-DAI) will be deactivated.
-- Legacy oracles including the MKR oracle will be removed fromt the [Chainlog](https://chainlog.sky.money).
+- Legacy oracles including the MKR oracle will be removed from the [Chainlog](https://chainlog.sky.money).
 - A Spark proxy spell at [$Spark_address](https://etherscan.io/address/$Spark_address) will be executed.
 - A Grove proxy spell at [$Grove_address](https://etherscan.io/address/$Grove_address) will be executed.
 
