@@ -47,12 +47,15 @@ If this executive proposal passes, then the legacy Spark DAI Morpho Direct Depos
 - Set the [Debt Ceiling (`line`)](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.2_Debt_Ceiling_Limit/7ae407d0-ca28-42c8-b307-6448906d7445%7C57eaf45219bea3b430c2) to **0 USDS**.
 - Reduce the Global Debt Ceiling to account for this change.
 
-### Retire Legacy MKR Oracle
+### Finalize LSE-MKR-A Offboarding
 
 - **Authorization**: [Atlas A.4.1.2.1.4.2.2](https://sky-atlas.powerhouse.io/A.4.1.2.1.4.2.2_Offboard_Borrowing_Against_Staked_MKR/1f1f2ff0-8d73-8024-bf88-f0a17374ceea|b341f4c0b83472dc1f9e1a3b)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/phase-3-mkr-to-sky-migration-item-housekeeping-august-7th-spell/26919)
 
-If this executive proposal passes, then the legacy [`PIP_MKR`](https://etherscan.io/address/0x4f94e33d0d74cff5ca0d3a66f1a650628551c56b) oracle will be removed from the [Chainlog](https://chainlog.sky.money) as part of the MKR-to-SKY Upgrade Phase 3. Additional listed actions in The Atlas such as updated the MegaPoker do not require an Executive Vote to complete.
+If this executive proposal passes, then the following actions will take place as part of the MKR-to-SKY Upgrade Phase 3. Additional listed actions in The Atlas such as updating the MegaPoker do not require an Executive Vote to complete.
+
+- Remove [`PIP_MKR`](https://etherscan.io/address/0x4f94e33d0d74cff5ca0d3a66f1a650628551c56b) from the [Chainlog](https://chainlog.sky.money).
+- Remove LSE-MKR-A from the ilk registry.
 
 ### Remove Legacy Oracle Contracts from the Chainlog
 
