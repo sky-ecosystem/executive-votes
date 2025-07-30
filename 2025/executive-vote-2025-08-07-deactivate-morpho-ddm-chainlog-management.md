@@ -107,6 +107,56 @@ If this executive proposal passes, then the following legacy oracle contracts wi
 - [`PIP_RWA014`](https://etherscan.io/address/0xfedab3d532af95b10f064c73bebef68a0d0a5f36)
 - [`PIP_RWA015`](https://etherscan.io/address/0xda28e04514e718271b37c9f36fbaf45b4bf42df4)
 
+### Remove Offboarded ilks from the Ilk Registry
+
+- **Authorization**: [$link_to_approval]()
+- **Proposal**: [Forum Post](https://forum.sky.money/t/phase-3-mkr-to-sky-migration-item-housekeeping-august-7th-spell/26919)
+
+If this executive proposal passes then the following offboarded vaults will be removed from the ilk registry to finalize their offboarding. This is categorized as a housekeeping item according to [A.1.10.1.6](https://sky-atlas.powerhouse.io/A.1.10.1.6.1_Governance_Facilitators'_Role_in_Adding_Housekeeping_Items_In_Executive_Votes/1a7f2ff0-8d73-8045-bf5a-dc38e74af873|0db303084211b3b5) of The Atlas.
+
+- AAVE-A
+- BAL-A
+- BAT-A
+- COMP-A
+- CRVV1ETHSTETH-A
+- GNO-A
+- GUSD-A
+- KNC-A
+- LINK-A
+- LRC-A
+- LSE-MKR-A
+- MANA-A
+- MATIC-A
+- PAXUSD-A
+- RENBTC-A
+- RETH-A
+- RWA003-A
+- RWA006-A
+- RWA007-A
+- RWA008-A
+- RWA010-A
+- RWA011-A
+- RWA012-A
+- RWA013-A
+- RWA014-A
+- RWA015-A
+- TUSD-A
+- UNI-A
+- UNIV2AAVEETH-A
+- UNIV2DAIETH-A
+- UNIV2DAIUSDT-A
+- UNIV2ETHUSDT-A
+- UNIV2LINKETH-A
+- UNIV2UNIETH-A
+- UNIV2USDCETH-A
+- UNIV2WBTCDAI-A
+- UNIV2WBTCETH-A
+- USDC-A
+- USDC-B
+- USDT-A
+- YFI-A
+- ZRX-A
+
 ### Spark and Grove Proxy Spells
 
 If this executive proposal passes, the Star proxy spells for Spark and Grove will be executed at [$Spark_address](https://etherscan.io/address/$Spark_address) and [$Grove_address](https://etherscan.io/address/$Grove_address) respectively with the following contents.
