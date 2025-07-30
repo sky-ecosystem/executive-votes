@@ -91,6 +91,16 @@ If this executive proposal passes, then the following legacy oracle contracts wi
 - [`PIP_CRVV1ETHSTETH`](https://etherscan.io/address/0xea508f82728927454bd3ce853171b0e2705880d4)
 - [`PIP_RETH`](https://etherscan.io/address/0xee7f0b350aa119b3d05dc733a4621a81972f7d47)
 - [`PIP_GNO`](https://etherscan.io/address/0xd800ca44ffabecd159c7889c3bf64a217361aec8)
+- [`PIP_RWA003`](https://etherscan.io/address/0xdef7e88447f7d129420fc881b2a854abb52b73b8)
+- [`PIP_RWA006`](https://etherscan.io/address/0xb8aecf04fdf22ef6c0c6b6536896e1f2870c41d3)
+- [`PIP_RWA007`](https://etherscan.io/address/0x7bb4bca758c4006998a2769776d9e4e6d86e0dab)
+- [`PIP_RWA008`](https://etherscan.io/address/0x2623de50d8a6fdc2f0d583327142210b8b464bfd)
+- [`PIP_RWA010`](https://etherscan.io/address/0xfbaa6a09a39d485a5be9f5ebfe09c602e63b21ef)
+- [`PIP_RWA011`](https://etherscan.io/address/0x8bdc64d73da9631c962c4932a391cb78065ce7a9)
+- [`PIP_RWA012`](https://etherscan.io/address/0x4fa7c611bd25da38bc929c2a67290fbe49ddff56)
+- [`PIP_RWA013`](https://etherscan.io/address/0x69cf63ed6ed57ad129bf67eb726ae1bd293edbb0)
+- [`PIP_RWA014`](https://etherscan.io/address/0xfedab3d532af95b10f064c73bebef68a0d0a5f36)
+- [`PIP_RWA015`](https://etherscan.io/address/0xda28e04514e718271b37c9f36fbaf45b4bf42df4)
 
 ### Spark and Grove Proxy Spells
 
