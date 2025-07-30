@@ -100,8 +100,8 @@ If this executive proposal passes, the Star proxy spells for Spark and Grove wil
 
 ##### [Mainnet] Onboard pyUSD to SparkLend
 
-- **Authorization**: [$link_to_approval]()
-- **Proposal**: [$link_to_proposal]()
+- **Authorization**: [Governance Poll 1547](https://vote.sky.money/polling/QmXLExe7)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/august-7-2025-proposed-changes-to-spark-for-upcoming-spell/26896)
 
 pyUSD will be onboarded to SparkLend on mainnet with the following parameters:
 
@@ -132,17 +132,69 @@ pyUSD will be onboarded to SparkLend on mainnet with the following parameters:
 - Liquidation Protocol Fee: **10%**.
 - [Emode Category](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.6_High_Efficiency_Mode_Category_Definition/1c1f2ff0-8d73-815c-8a8f-f3a095137e06|7896ed3326389fe3553030cd0a82f68efd49): **2** (stablecoin correlated emode).
 
-- **Authorization**: [$link_to_approval]()
-- **Proposal**: [$link_to_proposal]()
+##### [Mainnet] Onboard SparkLend pyUSD to the Spark Liquidity Layer
 
-- **Authorization**: [$link_to_approval]()
-- **Proposal**: [$link_to_proposal]()
+- **Authorization**: [Governance Poll 1544](https://vote.sky.money/polling/QmVGr47c)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/august-7-2025-proposed-changes-to-spark-for-upcoming-spell/26896)
 
-- **Authorization**: [$link_to_approval]()
-- **Proposal**: [$link_to_proposal]()
+SparkLend pyUSD will be onboarded to the Spark Liquidity Layer on mainnet with the following [rate limits](https://docs.spark.fi/dev/spark-liquidity-layer/spark-alm-controller#rate-limits):
 
-- **Authorization**: [$link_to_approval]()
-- **Proposal**: [$link_to_proposal]()
+- Deposit:
+  - Max amount: **50 million pyUSD**
+  - Slope: **25 million pyUSD per day**
+- Withdrawal:
+  - Max amount: **Unlimited**
+
+##### [Mainnet] Onboard Curve pyUSD/USDC Pool to the Spark Liquidity Layer for Swaps
+
+- **Authorization**: [Governance Poll 1543](https://vote.sky.money/polling/QmUevv3W)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/august-7-2025-proposed-changes-to-spark-for-upcoming-spell/26896)
+
+The Curve pyUSD/USDC pool will be onboarded to the Spark Liquidity Layer on mainnet with the [rate limits](https://docs.spark.fi/dev/spark-liquidity-layer/spark-alm-controller#rate-limits):
+
+- Swap:
+  - Max amount: **5 million**
+  - Slope: **25 million per day**
+  - Max slippage: **0.05%**
+- Deposit:
+  - Max amount: **0**
+- Withdrawal:
+  - Max amount: **0**
+
+##### [Mainnet] Update Stablecoin IRMs to Account for Base Rate Spread
+
+- **Authorization**: [Governance Poll 1548](https://vote.sky.money/polling/QmU6L1gS)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/august-7-2025-proposed-changes-to-spark-for-upcoming-spell/26896)
+
+The stablecoin interest rate models (IRMs) for SparkLend on mainnet will be updated to account for the base rate spread with the following parameters:
+
+- USDS:
+  - [Base Rate](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.3_Interest_Rate_Model_Definition/1c1f2ff0-8d73-81dd-99c0-fc707ce48e01|7896ed3326389fe3553030cd0a82f68efd49): **0%**
+  - [Slope1](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.15_Slope_1_Definition/1c1f2ff0-8d73-81be-9f17-d7d4bfc6cb59|7896ed3326389fe3553030cd0a82f68efd49): **SSR + 1%**
+  - [Slope2](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.17_Slope_2_Definition/1c1f2ff0-8d73-8199-aa99-dde95c3f7130|7896ed3326389fe3553030cd0a82f68efd49): **15%**
+  - [Optimal Utilization](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.11_Optimal_Utilization_Definition/1c1f2ff0-8d73-8173-a52b-d6f86efd3366|7896ed3326389fe3553030cd0a82f68efd49): **80%**
+- DAI:
+  - [Base Rate](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.3_Interest_Rate_Model_Definition/1c1f2ff0-8d73-81dd-99c0-fc707ce48e01|7896ed3326389fe3553030cd0a82f68efd49): **0%**
+  - [Slope1](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.15_Slope_1_Definition/1c1f2ff0-8d73-81be-9f17-d7d4bfc6cb59|7896ed3326389fe3553030cd0a82f68efd49): **SSR + 1%**
+  - [Slope2](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.17_Slope_2_Definition/1c1f2ff0-8d73-8199-aa99-dde95c3f7130|7896ed3326389fe3553030cd0a82f68efd49): **15%**
+  - [Optimal Utilization](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.11_Optimal_Utilization_Definition/1c1f2ff0-8d73-8173-a52b-d6f86efd3366|7896ed3326389fe3553030cd0a82f68efd49): **80%**
+- USDC:
+  - [Base Rate](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.3_Interest_Rate_Model_Definition/1c1f2ff0-8d73-81dd-99c0-fc707ce48e01|7896ed3326389fe3553030cd0a82f68efd49): **0%**
+  - [Slope1](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.15_Slope_1_Definition/1c1f2ff0-8d73-81be-9f17-d7d4bfc6cb59|7896ed3326389fe3553030cd0a82f68efd49): **SSR + 1.5%**
+  - [Slope2](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.17_Slope_2_Definition/1c1f2ff0-8d73-8199-aa99-dde95c3f7130|7896ed3326389fe3553030cd0a82f68efd49): **15%**
+  - [Optimal Utilization](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.11_Optimal_Utilization_Definition/1c1f2ff0-8d73-8173-a52b-d6f86efd3366|7896ed3326389fe3553030cd0a82f68efd49): **95%**
+- USDT:
+  - [Base Rate](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.3_Interest_Rate_Model_Definition/1c1f2ff0-8d73-81dd-99c0-fc707ce48e01|7896ed3326389fe3553030cd0a82f68efd49): **0%**
+  - [Slope1](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.15_Slope_1_Definition/1c1f2ff0-8d73-81be-9f17-d7d4bfc6cb59|7896ed3326389fe3553030cd0a82f68efd49): **SSR + 1.5%**
+  - [Slope2](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.17_Slope_2_Definition/1c1f2ff0-8d73-8199-aa99-dde95c3f7130|7896ed3326389fe3553030cd0a82f68efd49): **15%**
+  - [Optimal Utilization](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.11_Optimal_Utilization_Definition/1c1f2ff0-8d73-8173-a52b-d6f86efd3366|7896ed3326389fe3553030cd0a82f68efd49): **95%**
+
+##### [Mainnet] Enable Flash Loans for USDS on SparkLend
+
+- **Authorization**: [Governance Poll 1546](https://vote.sky.money/polling/QmZu3tVL)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/august-7-2025-proposed-changes-to-spark-for-upcoming-spell/26896)
+
+Flash loans for USDS will be **enabled** on SparkLend on mainnet.
 
 ## Review
 
