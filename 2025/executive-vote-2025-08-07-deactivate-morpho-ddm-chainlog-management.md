@@ -48,14 +48,14 @@ If this executive proposal passes, then the legacy Spark DAI Morpho Direct Depos
 ### Retire Legacy MKR Oracle
 
 - **Authorization**: [Atlas A.4.1.2.1.4.2.2](https://sky-atlas.powerhouse.io/A.4.1.2.1.4.2.2_Offboard_Borrowing_Against_Staked_MKR/1f1f2ff0-8d73-8024-bf88-f0a17374ceea|b341f4c0b83472dc1f9e1a3b)
-- **Proposal**: [$link_to_proposal]()
+- **Proposal**: [Forum Post](https://forum.sky.money/t/phase-3-mkr-to-sky-migration-item-housekeeping-august-7th-spell/26919)
 
 If this executive proposal passes, then the legacy [`PIP_MKR`](https://etherscan.io/address/0x4f94e33d0d74cff5ca0d3a66f1a650628551c56b) oracle will be removed from the [Chainlog](https://chainlog.sky.money) as part of the MKR-to-SKY Upgrade Phase 3. Additional listed actions in The Atlas such as updated the MegaPoker do not require an Executive Vote to complete.
 
 ### Remove Legacy Oracle Contracts from the Chainlog
 
 - **Authorization**: [$link_to_approval]()
-- **Proposal**: [$link_to_proposal]()
+- **Proposal**: [Forum Post](https://forum.sky.money/t/phase-3-mkr-to-sky-migration-item-housekeeping-august-7th-spell/26919)
 
 If this executive proposal passes, then the following legacy oracle contracts will also be removed from the [Chainlog](https://chainlog.sky.money). This is categorized as a housekeeping item according to [A.1.10.1.6](https://sky-atlas.powerhouse.io/A.1.10.1.6.1_Governance_Facilitators'_Role_in_Adding_Housekeeping_Items_In_Executive_Votes/1a7f2ff0-8d73-8045-bf5a-dc38e74af873|0db303084211b3b5) of The Atlas.
 
