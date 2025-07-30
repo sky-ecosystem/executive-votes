@@ -196,6 +196,56 @@ The stablecoin interest rate models (IRMs) for SparkLend on mainnet will be upda
 
 Flash loans for USDS will be **enabled** on SparkLend on mainnet.
 
+#### Grove Proxy Spell
+
+##### [Mainnet and Avalanche] Deploy Grove Liquidity Layer on Avalanche
+
+- **Authorization**: [Governance Poll 1540](https://vote.sky.money/polling/QmX2CAp2)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/august-7-2025-proposed-changes-to-grove-for-upcoming-spell/26883)
+
+The Grove Liquidity Layer will be deployed to Avalanche with the following contract addresses and paramaeters:
+
+###### Contract Addresses
+
+- Grove Governance: [0x4b803781828b76EaBF21AaF02e5ce23596b4d60c](https://snowtrace.io/address/0x4b803781828b76EaBF21AaF02e5ce23596b4d60c)
+- CCTP MESSENGER: [0x6B25532e1060CE10cc3B0A99e5683b91BFDe6982](https://snowtrace.io/address/0x6B25532e1060CE10cc3B0A99e5683b91BFDe6982)
+- ALM Controller: [0xEc4Cb675AF8C8665903025C2812d1234A1708bb6](https://snowtrace.io/address/0xEc4Cb675AF8C8665903025C2812d1234A1708bb6)
+- ALM Proxy: [0x7107DD8F56642327945294a18A4280C78e153644](https://snowtrace.io/address/0x7107DD8F56642327945294a18A4280C78e153644)
+- ALM Rate Limits: [0x6ba2e6bCCe3d2A31F1e3e1d3e11CDffBaA002A21](https://snowtrace.io/address/0x6ba2e6bCCe3d2A31F1e3e1d3e11CDffBaA002A21)
+- Relayer: [0x0eEC86649E756a23CBc68d9EFEd756f16aD5F85f](https://snowtrace.io/address/0x0eEC86649E756a23CBc68d9EFEd756f16aD5F85f)
+- Freezer: [0xB0113804960345fd0a245788b3423319c86940e5](https://snowtrace.io/address/0xB0113804960345fd0a245788b3423319c86940e5)
+
+###### Initial [Rate Limits](https://docs.spark.fi/dev/spark-liquidity-layer/spark-alm-controller#rate-limits)
+
+- CCTP Global: **Unlimited**
+- CCTP from Avalanche to Ethereum:
+  - max: **50 million USDC**
+  - slope: **50 million USDC per day**
+- CCTP from Ethereum to Avalanche:
+  - max: **50 million USDC**
+  - slope: **50 million USDC per day** (Rate Limit on Ethereum)
+
+##### [Mainnet] Onboard Ethena USDe and sUSDe to the GLL
+
+- **Authorization**: [Governance Poll 1540](https://vote.sky.money/polling/QmX2CAp2)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/august-7-2025-proposed-changes-to-grove-for-upcoming-spell/26883)
+
+USDe and sUSDe will be onboarded to the Grove Liquidity Layer on mainnet with the following parameters:
+
+- Minting USDe - `LIMIT_USDE_MINT`
+  - Max amount: **250 million USDC**
+  - Slope: **100 million USDC per day**
+- Burning USDe - `LIMIT_USDE_BURN` 
+  - Max amount: **500 million USDe**
+  - Slope: **200 million USDe per day**
+- Depositing to sUSDe Address: [0x9D39A5DE30e57443BfF2A8307A4256c8797A3497](https://etherscan.io/address/0x9D39A5DE30e57443BfF2A8307A4256c8797A3497)
+  - Max amount: **250 million USDe**
+  - Slope: **100 million USDe per day**
+- Initiating withdrawal cooldown from sUSDe
+  - Max amount: **unlimited**
+- Withdrawing from sUSDe after cooldown - `LIMIT_SUSDE_COOLDOWN`
+  - Max amount: **unlimited**
+
 ## Review
 
 Community debate on these topics can be found on the Sky [Governance forum](https://forum.sky.money/). Please review any linked threads to inform your position before voting.
