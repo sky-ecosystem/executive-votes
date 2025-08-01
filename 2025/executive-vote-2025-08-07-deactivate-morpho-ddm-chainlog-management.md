@@ -59,7 +59,7 @@ If this executive proposal passes, then the following actions will take place as
 
 ### Remove Legacy Oracle Contracts from the Chainlog
 
-- **Authorization**: [$link_to_approval]()
+- **Authorization**: [Forum Post](https://forum.sky.money/t/phase-3-mkr-to-sky-migration-item-housekeeping-august-7th-spell/26919/3)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/phase-3-mkr-to-sky-migration-item-housekeeping-august-7th-spell/26919)
 
 If this executive proposal passes, then the following legacy oracle contracts will also be removed from the [Chainlog](https://chainlog.sky.money). This is categorized as a housekeeping item according to [A.1.10.1.6](https://sky-atlas.powerhouse.io/A.1.10.1.6.1_Governance_Facilitators'_Role_in_Adding_Housekeeping_Items_In_Executive_Votes/1a7f2ff0-8d73-8045-bf5a-dc38e74af873|0db303084211b3b5) of The Atlas.
@@ -109,7 +109,7 @@ If this executive proposal passes, then the following legacy oracle contracts wi
 
 ### Remove Offboarded ilks from the Ilk Registry
 
-- **Authorization**: [$link_to_approval]()
+- **Authorization**: [Forum Post](https://forum.sky.money/t/phase-3-mkr-to-sky-migration-item-housekeeping-august-7th-spell/26919/3)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/phase-3-mkr-to-sky-migration-item-housekeeping-august-7th-spell/26919)
 
 If this executive proposal passes then the following offboarded vaults will be removed from the ilk registry to finalize their offboarding. This is categorized as a housekeeping item according to [A.1.10.1.6](https://sky-atlas.powerhouse.io/A.1.10.1.6.1_Governance_Facilitators'_Role_in_Adding_Housekeeping_Items_In_Executive_Votes/1a7f2ff0-8d73-8045-bf5a-dc38e74af873|0db303084211b3b5) of The Atlas.
