@@ -115,6 +115,7 @@ If this executive proposal passes, then the following legacy oracle contracts wi
 If this executive proposal passes then the following offboarded vaults will be removed from the ilk registry to finalize their offboarding. This is categorized as a housekeeping item according to [A.1.10.1.6](https://sky-atlas.powerhouse.io/A.1.10.1.6.1_Governance_Facilitators'_Role_in_Adding_Housekeeping_Items_In_Executive_Votes/1a7f2ff0-8d73-8045-bf5a-dc38e74af873|0db303084211b3b5) of The Atlas.
 
 - AAVE-A
+- ADAI-A
 - BAL-A
 - BAT-A
 - COMP-A
@@ -127,6 +128,7 @@ If this executive proposal passes then the following offboarded vaults will be r
 - LSE-MKR-A
 - MANA-A
 - MATIC-A
+- PAX-A
 - PAXUSD-A
 - RENBTC-A
 - RETH-A
