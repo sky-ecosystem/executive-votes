@@ -62,7 +62,7 @@ If this executive proposal passes, then the following actions will take place as
 - **Authorization**: [Forum Post](https://forum.sky.money/t/phase-3-mkr-to-sky-migration-item-housekeeping-august-7th-spell/26919/3)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/phase-3-mkr-to-sky-migration-item-housekeeping-august-7th-spell/26919)
 
-If this executive proposal passes, then the following legacy oracle contracts will also be removed from the [Chainlog](https://chainlog.sky.money). This is categorized as a housekeeping item according to [A.1.10.1.6](https://sky-atlas.powerhouse.io/A.1.10.1.6.1_Governance_Facilitators'_Role_in_Adding_Housekeeping_Items_In_Executive_Votes/1a7f2ff0-8d73-8045-bf5a-dc38e74af873|0db303084211b3b5) of The Atlas.
+If this executive proposal passes, then the following legacy oracle contracts will also be removed from the [Chainlog](https://chainlog.sky.money). This is categorized as a housekeeping item according to [A.1.10.1.6](https://sky-atlas.powerhouse.io/A.1.10.1.6.1.1_Definition_Of_Housekeeping_Items/1a7f2ff0-8d73-809a-abbb-ea8bd0b68360|0db303084211b3b5f873) of The Atlas.
 
 - [`PIP_AAVE`](https://etherscan.io/address/0x8df8f06dc2de0434db40dcbb32a82a104218754c)
 - [`PIP_ADAI`](https://etherscan.io/address/0x6a858592fc4cbdf432fc9a1bc8a0422b99330bdf)
@@ -112,7 +112,7 @@ If this executive proposal passes, then the following legacy oracle contracts wi
 - **Authorization**: [Forum Post](https://forum.sky.money/t/phase-3-mkr-to-sky-migration-item-housekeeping-august-7th-spell/26919/3)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/phase-3-mkr-to-sky-migration-item-housekeeping-august-7th-spell/26919)
 
-If this executive proposal passes then the following offboarded vaults will be removed from the [Ilk Registry](https://etherscan.io/address/0x5a464C28D19848f44199D003BeF5ecc87d090F87) to finalize their offboarding. This is categorized as a housekeeping item according to [A.1.10.1.6](https://sky-atlas.powerhouse.io/A.1.10.1.6.1_Governance_Facilitators'_Role_in_Adding_Housekeeping_Items_In_Executive_Votes/1a7f2ff0-8d73-8045-bf5a-dc38e74af873|0db303084211b3b5) of The Atlas.
+If this executive proposal passes then the following offboarded vaults will be removed from the [Ilk Registry](https://etherscan.io/address/0x5a464C28D19848f44199D003BeF5ecc87d090F87) to finalize their offboarding. This is categorized as a housekeeping item according to [A.1.10.1.6](https://sky-atlas.powerhouse.io/A.1.10.1.6.1.1_Definition_Of_Housekeeping_Items/1a7f2ff0-8d73-809a-abbb-ea8bd0b68360|0db303084211b3b5f873) of The Atlas.
 
 - AAVE-A
 - ADAI-A
