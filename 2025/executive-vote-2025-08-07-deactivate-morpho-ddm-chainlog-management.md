@@ -22,7 +22,7 @@ If this executive proposal passes, the following **actions** will occur within t
 - Legacy oracles will be removed from the [Chainlog](https://chainlog.sky.money).
 - Offboarded ilks will be removed from the ilk registry.
 - A Spark proxy spell at [0xb12057500EB57C3c43B91171D52b6DB141cCa01a](https://etherscan.io/address/0xb12057500EB57C3c43B91171D52b6DB141cCa01a) will be executed.
-- A Grove proxy spell at [$Grove_address](https://etherscan.io/address/$Grove_address) will be executed.
+- A Grove proxy spell at [0xa25127f759B6F07020bf2206D31bEb6Ed04D1550](https://etherscan.io/address/0xa25127f759B6F07020bf2206D31bEb6Ed04D1550) will be executed.
 
 **Voting for this executive proposal will place your SKY in support of the actions outlined above.**
 
@@ -161,7 +161,7 @@ If this executive proposal passes then the following offboarded vaults will be r
 
 ### Spark and Grove Proxy Spells
 
-If this executive proposal passes, the Star proxy spells for Spark and Grove will be executed at [0xb12057500EB57C3c43B91171D52b6DB141cCa01a](https://etherscan.io/address/0xb12057500EB57C3c43B91171D52b6DB141cCa01a) and [$Grove_address](https://etherscan.io/address/$Grove_address) respectively with the following contents.
+If this executive proposal passes, the Star proxy spells for Spark and Grove will be executed at [0xb12057500EB57C3c43B91171D52b6DB141cCa01a](https://etherscan.io/address/0xb12057500EB57C3c43B91171D52b6DB141cCa01a) and [0xa25127f759B6F07020bf2206D31bEb6Ed04D1550](https://etherscan.io/address/0xa25127f759B6F07020bf2206D31bEb6Ed04D1550) respectively with the following contents.
 
 #### Spark Proxy Spell
 
