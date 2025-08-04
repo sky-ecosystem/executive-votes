@@ -127,7 +127,6 @@ If this executive proposal passes, then the following offboarded vaults will be 
 - LRC-A
 - MANA-A
 - MATIC-A
-- PAX-A
 - PAXUSD-A
 - RENBTC-A
 - RETH-A
