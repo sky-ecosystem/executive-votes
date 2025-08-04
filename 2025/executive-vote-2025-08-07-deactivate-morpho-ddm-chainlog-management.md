@@ -1,6 +1,6 @@
 ---
 title: Template - [Executive Vote] Deactivate Spark DAI Morpho Direct Deposit Module, Retire Legacy MKR Oracle, Chainlog Management, Spark Proxy Spell, Grove Proxy Spell - August 7, 2025
-summary: Deactivate the legacy Spark DAI Morpho Direct Deposit Module (DDM), remove the legacy MKR oracle and other legacy oracles from the Chainlog, execute Spark proxy spell, execute Grove proxy spell.
+summary: Deactivate the legacy Spark DAI Morpho Direct Deposit Module (DDM), remove the legacy MKR oracle and other legacy oracles from the Chainlog, remove offboarded ilks from the Ilk Registry, execute Spark proxy spell, execute Grove proxy spell.
 date: 2025-08-07T00:00:00.000Z
 address: "$spell_address"
 ---
@@ -41,7 +41,7 @@ If this executive proposal does not pass within 30 days, then it will expire and
 - **Authorization**: [Governance Poll 1545](https://vote.sky.money/polling/QmeLZrZo)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/august-7-2025-proposed-changes-to-spark-for-upcoming-spell/26896)
 
-If this executive proposal passes, then the legacy Spark DAI Morpho Direct Deposit Module (DIRECT-SPARK-MORPHO-DAI) will be deactivated by taking the following actions:
+If this executive proposal passes, then the legacy [Spark DAI Morpho Direct Deposit Module (DIRECT-SPARK-MORPHO-DAI)](https://makerburn.com/#/collateral/DIRECT-SPARK-MORPHO-DAI) will be deactivated by taking the following actions:
 
 - Remove DIRECT-SPARK-MORPHO-DAI from the [Debt Ceiling Instant Access Module (DC-IAM)](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.4_Debt_Ceiling_Instant_Access_Module_(DC_IAM)/071d42e3-8a21-4401-852e-0b52c49768bb%7C57eaf45219bea3b430c2).
 - Set the [Debt Ceiling (`line`)](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.2_Debt_Ceiling_Limit/7ae407d0-ca28-42c8-b307-6448906d7445%7C57eaf45219bea3b430c2) to **0 USDS**.
