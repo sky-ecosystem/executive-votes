@@ -1,6 +1,6 @@
 ---
 title: Template - [Executive Vote] Deactivate Spark DAI Morpho Direct Deposit Module, Retire Legacy MKR Oracle, Chainlog Management, Spark Proxy Spell, Grove Proxy Spell - August 7, 2025
-summary: Deactivate the legacy Spark DAI Morpho Direct Deposit Module DDM, remove the legacy MKR oracle and other legacy oracles from the Chainlog, execute Spark proxy spell, execute Grove proxy spell.
+summary: Deactivate the legacy Spark DAI Morpho Direct Deposit Module (DDM), remove the legacy MKR oracle and other legacy oracles from the Chainlog, execute Spark proxy spell, execute Grove proxy spell.
 date: 2025-08-07T00:00:00.000Z
 address: "$spell_address"
 ---
@@ -36,7 +36,7 @@ If this executive proposal does not pass within 30 days, then it will expire and
 
 ## Proposal Details
 
-### Deactive Legacy Spark DAI Morpho Direct Deposit Module
+### Deactivate Legacy Spark DAI Morpho Direct Deposit Module
 
 - **Authorization**: [Governance Poll 1545](https://vote.sky.money/polling/QmeLZrZo)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/august-7-2025-proposed-changes-to-spark-for-upcoming-spell/26896)
@@ -270,7 +270,7 @@ Flash loans for USDS will be **enabled** on SparkLend on mainnet.
 - **Authorization**: [Governance Poll 1540](https://vote.sky.money/polling/QmX2CAp2)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/august-7-2025-proposed-changes-to-grove-for-upcoming-spell/26883)
 
-The Grove Liquidity Layer will be deployed to Avalanche with the following contract addresses and paramaeters:
+The Grove Liquidity Layer will be deployed to Avalanche with the following contract addresses and parameters:
 
 ###### Contract Addresses
 
