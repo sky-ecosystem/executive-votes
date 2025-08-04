@@ -26,7 +26,7 @@ If this executive proposal passes, the following **actions** will occur within t
 
 **Voting for this executive proposal will place your SKY in support of the actions outlined above.**
 
-Unless otherwise noted, the actions listed above are subject to the [GSM Pause Delay](https://sky-atlas.powerhouse.io/#A.1.8.2.1_Pause_Delay-a98b8227-95f6-4711-9d8d-f52cbc6ad2d0|0db30758e055). This means that if this executive proposal passes, the changes and additions listed above will only become active in the Sky Protocol after the GSM Pause Delay has expired. The GSM Pause Delay is currently set to [**24 hours**](https://sky-atlas.powerhouse.io/#A.1.8.2.1.2_Pause_Delay_Current_Value-09d2514b-3169-4755-a654-2c774456980d|0db30758e055d2d0).
+Unless otherwise noted, the actions listed above are subject to the [GSM Pause Delay](https://sky-atlas.powerhouse.io/A.1.9.2.1_Pause_Delay/a98b8227-95f6-4711-9d8d-f52cbc6ad2d0|0db30758e055). This means that if this executive proposal passes, the changes and additions listed above will only become active in the Sky Protocol after the GSM Pause Delay has expired. The GSM Pause Delay is currently set to [**24 hours**](https://sky-atlas.powerhouse.io/A.1.9.2.1.2_Pause_Delay_Current_Value/09d2514b-3169-4755-a654-2c774456980d|0db30758e055d2d0).
 
 This executive proposal includes an office-hours modifier that means that it **can only be executed between 14:00 and 21:00 UTC, Monday - Friday**. 
 
@@ -294,7 +294,7 @@ The Grove Liquidity Layer will be deployed to Avalanche with the following contr
 
 ##### [Mainnet] Onboard Ethena USDe and sUSDe to the GLL
 
-- **Authorization**: [Governance Poll 1540](https://vote.sky.money/polling/QmX2CAp2)
+- **Authorization**: [Governance Poll 1542](https://vote.sky.money/polling/QmNsimEt)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/august-7-2025-proposed-changes-to-grove-for-upcoming-spell/26883)
 
 USDe and sUSDe will be onboarded to the Grove Liquidity Layer on mainnet with the following parameters:
