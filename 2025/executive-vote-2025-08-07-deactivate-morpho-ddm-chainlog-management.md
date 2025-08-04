@@ -125,7 +125,6 @@ If this executive proposal passes then the following offboarded vaults will be r
 - KNC-A
 - LINK-A
 - LRC-A
-- LSE-MKR-A
 - MANA-A
 - MATIC-A
 - PAX-A
