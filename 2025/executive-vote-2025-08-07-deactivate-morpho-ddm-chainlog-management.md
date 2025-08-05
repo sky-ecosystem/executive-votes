@@ -52,7 +52,7 @@ If this executive proposal passes, then the legacy [Spark DAI Morpho Direct Depo
 - **Authorization**: [Atlas A.4.1.2.1.4.2.2](https://sky-atlas.powerhouse.io/A.4.1.2.1.4.2.2_Offboard_Borrowing_Against_Staked_MKR/1f1f2ff0-8d73-8024-bf88-f0a17374ceea|b341f4c0b83472dc1f9e1a3b)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/phase-3-mkr-to-sky-migration-item-housekeeping-august-7th-spell/26919)
 
-If this executive proposal passes, then the following actions will take place as part of the MKR-to-SKY Upgrade Phase 3. Additional listed actions in The Atlas such as updating the MegaPoker do not require an Executive Vote to complete:
+If this executive proposal passes, then the following actions will take place as part of the MKR-to-SKY Upgrade Phase 3. Additional listed actions in The Atlas, such as updating the MegaPoker, do not require an Executive Vote to complete:
 
 - Remove [`PIP_MKR`](https://etherscan.io/address/0x4f94e33d0d74cff5ca0d3a66f1a650628551c56b) from the [Chainlog](https://chainlog.sky.money).
 - Remove LSE-MKR-A from the ilk registry.
