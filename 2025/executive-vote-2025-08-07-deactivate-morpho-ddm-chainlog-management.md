@@ -115,7 +115,6 @@ If this executive proposal passes, then the following legacy oracle contracts wi
 If this executive proposal passes, then the following offboarded vaults will be removed from the [Ilk Registry](https://etherscan.io/address/0x5a464C28D19848f44199D003BeF5ecc87d090F87) to finalize their offboarding. This is categorized as a housekeeping item according to [A.1.10.1.6](https://sky-atlas.powerhouse.io/A.1.10.1.6.1.1_Definition_Of_Housekeeping_Items/1a7f2ff0-8d73-809a-abbb-ea8bd0b68360|0db303084211b3b5f873) of The Atlas.
 
 - AAVE-A
-- ADAI-A
 - BAL-A
 - BAT-A
 - COMP-A
