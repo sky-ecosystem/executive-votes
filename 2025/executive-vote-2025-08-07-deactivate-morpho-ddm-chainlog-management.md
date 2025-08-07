@@ -2,7 +2,7 @@
 title: Template - [Executive Vote] Deactivate Spark DAI Morpho Direct Deposit Module, Retire Legacy MKR Oracle, Chainlog Management, Spark Proxy Spell, Grove Proxy Spell - August 7, 2025
 summary: Deactivate the legacy Spark DAI Morpho Direct Deposit Module (DDM), remove the legacy MKR oracle and other legacy oracles from the Chainlog, remove offboarded ilks from the Ilk Registry, execute Spark proxy spell, execute Grove proxy spell.
 date: 2025-08-07T00:00:00.000Z
-address: "$spell_address"
+address: "0x26009aFf7fE39bF7611d66E0D38CAc43b3A93CD5"
 ---
 
 # [Executive Proposal] Deactivate Spark DAI Morpho Direct Deposit Module, Retire Legacy MKR Oracle, Chainlog Management, Spark Proxy Spell, Grove Proxy Spell - August 7, 2025
