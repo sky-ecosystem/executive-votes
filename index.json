@@ -34,5 +34,14 @@
       "date": "2025-07-24T00:00:00.000Z",
       "address": "0x12a79fAcd8D6Bbb1583593ef414897A9bA8f0D26"
     }
+  },
+  {
+    "path": "2025/executive-vote-2025-08-07-deactivate-morpho-ddm-chainlog-management.md",
+    "metadata": {
+      "title": "Template - [Executive Vote] Deactivate Spark DAI Morpho Direct Deposit Module, Retire Legacy MKR Oracle, Chainlog Management, Spark Proxy Spell, Grove Proxy Spell - August 7, 2025",
+      "summary": "Deactivate the legacy Spark DAI Morpho Direct Deposit Module (DDM), remove the legacy MKR oracle and other legacy oracles from the Chainlog, remove offboarded ilks from the Ilk Registry, execute Spark proxy spell, execute Grove proxy spell.",
+      "date": "2025-08-07T00:00:00.000Z",
+      "address": "0x26009aFf7fE39bF7611d66E0D38CAc43b3A93CD5"
+    }
   }
 ]
