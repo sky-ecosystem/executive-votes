@@ -249,9 +249,9 @@ Activate the following rate-limited transfer of MORPHO tokens from the Spark Tre
 
 Execute the following payment as part of the Spark-Aave Revenue Share program:
 
-Source address: [0x3300f198988e4C9C63F75dF86De36421f06af8c4](https://etherscan.io/address/0x3300f198988e4C9C63F75dF86De36421f06af8c4) (Spark subdao proxy)
-Recipient address: [0x464C71f6c2F760DdA6093dCB91C24c39e5d6e18c](https://etherscan.io/address/0x464C71f6c2F760DdA6093dCB91C24c39e5d6e18c) (Aave v3 collector)
-Transfer amount: 19,411.17 USDS
+- Source address: [0x3300f198988e4C9C63F75dF86De36421f06af8c4](https://etherscan.io/address/0x3300f198988e4C9C63F75dF86De36421f06af8c4) (Spark subdao proxy)
+- Recipient address: [0x464C71f6c2F760DdA6093dCB91C24c39e5d6e18c](https://etherscan.io/address/0x464C71f6c2F760DdA6093dCB91C24c39e5d6e18c) (Aave v3 collector)
+- Transfer amount: 19,411.17 USDS
 
 ##### [Ethereum] Spark Treasury - Transfer USDS to Spark Foundation
 
