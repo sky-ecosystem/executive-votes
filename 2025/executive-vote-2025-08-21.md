@@ -162,67 +162,67 @@ Update the market parameters for SparkLend on mainnet below as follows.
 
 ###### ETH
 
-- [Maximum LTV](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.4_LTV_Definition/1c1f2ff0-8d73-81bb-8385-c4bc0c1ebd30%7C7896ed3326389fe3553030cd0a82f68efd49): 85%
-- [Liquidation threshold](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.5_Liquidation_Threshold_Definition/1c1f2ff0-8d73-81ea-bd7e-feb73a44923a%7C7896ed3326389fe3553030cd0a82f68efd49): 86%
+- [Maximum LTV](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.4_LTV_Definition/1c1f2ff0-8d73-81bb-8385-c4bc0c1ebd30%7C7896ed3326389fe3553030cd0a82f68efd49): **85%**
+- [Liquidation threshold](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.5_Liquidation_Threshold_Definition/1c1f2ff0-8d73-81ea-bd7e-feb73a44923a%7C7896ed3326389fe3553030cd0a82f68efd49): **86%**
 - Interest rate model
-  - [Slope1](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.15_Slope_1_Definition/1c1f2ff0-8d73-81be-9f17-d7d4bfc6cb59%7C7896ed3326389fe3553030cd0a82f68efd49) spread: -0.3%
+  - [Slope1](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.15_Slope_1_Definition/1c1f2ff0-8d73-81be-9f17-d7d4bfc6cb59%7C7896ed3326389fe3553030cd0a82f68efd49) spread: **-0.3%**
 
 ###### wstETH
 
-- [Maximum LTV](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.4_LTV_Definition/1c1f2ff0-8d73-81bb-8385-c4bc0c1ebd30%7C7896ed3326389fe3553030cd0a82f68efd49): 83%
-- [Liquidation threshold](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.5_Liquidation_Threshold_Definition/1c1f2ff0-8d73-81ea-bd7e-feb73a44923a%7C7896ed3326389fe3553030cd0a82f68efd49): 84%
-- [Borrow cap Absolute Maximum Exposure (`max`)](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.3.1.3_SparkLend_Risk_Parameters_Cap_Automator_Absolute_Maximum_Exposure_Definition/1c1f2ff0-8d73-8118-8297-de5ca8d630bd|7896ed3326389fe3553030cd0a82f68e65d71fb5):  1 wstETH
+- [Maximum LTV](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.4_LTV_Definition/1c1f2ff0-8d73-81bb-8385-c4bc0c1ebd30%7C7896ed3326389fe3553030cd0a82f68efd49): **83%**
+- [Liquidation threshold](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.5_Liquidation_Threshold_Definition/1c1f2ff0-8d73-81ea-bd7e-feb73a44923a%7C7896ed3326389fe3553030cd0a82f68efd49): **84%**
+- [Borrow cap Absolute Maximum Exposure (`max`)](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.3.1.3_SparkLend_Risk_Parameters_Cap_Automator_Absolute_Maximum_Exposure_Definition/1c1f2ff0-8d73-8118-8297-de5ca8d630bd|7896ed3326389fe3553030cd0a82f68e65d71fb5):  **1 wstETH**
 
 ###### rETH
 
-- [Borrow cap Absolute Maximum Exposure (`max`)](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.3.1.3_SparkLend_Risk_Parameters_Cap_Automator_Absolute_Maximum_Exposure_Definition/1c1f2ff0-8d73-8118-8297-de5ca8d630bd|7896ed3326389fe3553030cd0a82f68e65d71fb5): 1 rETH
+- [Borrow cap Absolute Maximum Exposure (`max`)](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.3.1.3_SparkLend_Risk_Parameters_Cap_Automator_Absolute_Maximum_Exposure_Definition/1c1f2ff0-8d73-8118-8297-de5ca8d630bd|7896ed3326389fe3553030cd0a82f68e65d71fb5): **1 rETH**
 
 ###### cbBTC
 
-- [Maximum LTV](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.4_LTV_Definition/1c1f2ff0-8d73-81bb-8385-c4bc0c1ebd30%7C7896ed3326389fe3553030cd0a82f68efd49): 81%
-- [Liquidation threshold](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.5_Liquidation_Threshold_Definition/1c1f2ff0-8d73-81ea-bd7e-feb73a44923a%7C7896ed3326389fe3553030cd0a82f68efd49): 82%
+- [Maximum LTV](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.4_LTV_Definition/1c1f2ff0-8d73-81bb-8385-c4bc0c1ebd30%7C7896ed3326389fe3553030cd0a82f68efd49): **81%**
+- [Liquidation threshold](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.5_Liquidation_Threshold_Definition/1c1f2ff0-8d73-81ea-bd7e-feb73a44923a%7C7896ed3326389fe3553030cd0a82f68efd49): **82%**
 
 ###### weETH
 
-- [Maximum LTV](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.4_LTV_Definition/1c1f2ff0-8d73-81bb-8385-c4bc0c1ebd30%7C7896ed3326389fe3553030cd0a82f68efd49): 79%
-- [Liquidation threshold](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.5_Liquidation_Threshold_Definition/1c1f2ff0-8d73-81ea-bd7e-feb73a44923a%7C7896ed3326389fe3553030cd0a82f68efd49): 80%
-- [Liquidation penalty](https://sky-atlas.powerhouse.io/A.3.3.2.1.1.1.1.1.2.1_Liquidation_Penalty/200f2ff0-8d73-8009-8a68-cc32b9e83913%7C57ea07cc1306fc67f56106856ede0d3bc4bd): 8%
+- [Maximum LTV](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.4_LTV_Definition/1c1f2ff0-8d73-81bb-8385-c4bc0c1ebd30%7C7896ed3326389fe3553030cd0a82f68efd49): **79%**
+- [Liquidation threshold](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.5_Liquidation_Threshold_Definition/1c1f2ff0-8d73-81ea-bd7e-feb73a44923a%7C7896ed3326389fe3553030cd0a82f68efd49): **80%**
+- [Liquidation penalty](https://sky-atlas.powerhouse.io/A.3.3.2.1.1.1.1.1.2.1_Liquidation_Penalty/200f2ff0-8d73-8009-8a68-cc32b9e83913%7C57ea07cc1306fc67f56106856ede0d3bc4bd): **8%**
 
 ###### rsETH
 
-- [Maximum LTV](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.4_LTV_Definition/1c1f2ff0-8d73-81bb-8385-c4bc0c1ebd30%7C7896ed3326389fe3553030cd0a82f68efd49): 75%
-- [Liquidation threshold](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.5_Liquidation_Threshold_Definition/1c1f2ff0-8d73-81ea-bd7e-feb73a44923a%7C7896ed3326389fe3553030cd0a82f68efd49): 76%
+- [Maximum LTV](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.4_LTV_Definition/1c1f2ff0-8d73-81bb-8385-c4bc0c1ebd30%7C7896ed3326389fe3553030cd0a82f68efd49): **75%**
+- [Liquidation threshold](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.5_Liquidation_Threshold_Definition/1c1f2ff0-8d73-81ea-bd7e-feb73a44923a%7C7896ed3326389fe3553030cd0a82f68efd49): **76%**
 
 ###### ezETH
 
-- [Maximum LTV](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.4_LTV_Definition/1c1f2ff0-8d73-81bb-8385-c4bc0c1ebd30%7C7896ed3326389fe3553030cd0a82f68efd49): 75%
-- [Liquidation threshold](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.5_Liquidation_Threshold_Definition/1c1f2ff0-8d73-81ea-bd7e-feb73a44923a%7C7896ed3326389fe3553030cd0a82f68efd49): 76%
+- [Maximum LTV](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.4_LTV_Definition/1c1f2ff0-8d73-81bb-8385-c4bc0c1ebd30%7C7896ed3326389fe3553030cd0a82f68efd49): **75%**
+- [Liquidation threshold](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.5_Liquidation_Threshold_Definition/1c1f2ff0-8d73-81ea-bd7e-feb73a44923a%7C7896ed3326389fe3553030cd0a82f68efd49): **76%**
 
 ###### LBTC
 
-- [Maximum LTV](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.4_LTV_Definition/1c1f2ff0-8d73-81bb-8385-c4bc0c1ebd30%7C7896ed3326389fe3553030cd0a82f68efd49): 74%
-- [Liquidation threshold](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.5_Liquidation_Threshold_Definition/1c1f2ff0-8d73-81ea-bd7e-feb73a44923a%7C7896ed3326389fe3553030cd0a82f68efd49): 75%
+- [Maximum LTV](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.4_LTV_Definition/1c1f2ff0-8d73-81bb-8385-c4bc0c1ebd30%7C7896ed3326389fe3553030cd0a82f68efd49): **74%**
+- [Liquidation threshold](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.5_Liquidation_Threshold_Definition/1c1f2ff0-8d73-81ea-bd7e-feb73a44923a%7C7896ed3326389fe3553030cd0a82f68efd49): **75%**
 
 ###### tBTC
 
-- [Maximum LTV](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.4_LTV_Definition/1c1f2ff0-8d73-81bb-8385-c4bc0c1ebd30%7C7896ed3326389fe3553030cd0a82f68efd49): 74%
-- [Liquidation threshold](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.5_Liquidation_Threshold_Definition/1c1f2ff0-8d73-81ea-bd7e-feb73a44923a%7C7896ed3326389fe3553030cd0a82f68efd49): 75%
+- [Maximum LTV](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.4_LTV_Definition/1c1f2ff0-8d73-81bb-8385-c4bc0c1ebd30%7C7896ed3326389fe3553030cd0a82f68efd49): **74%**
+- [Liquidation threshold](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.5_Liquidation_Threshold_Definition/1c1f2ff0-8d73-81ea-bd7e-feb73a44923a%7C7896ed3326389fe3553030cd0a82f68efd49): **75%**
 
 ###### DAI
 
-- [Slope1](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.15_Slope_1_Definition/1c1f2ff0-8d73-81be-9f17-d7d4bfc6cb59%7C7896ed3326389fe3553030cd0a82f68efd49): SSR + 1.25%
+- [Slope1](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.15_Slope_1_Definition/1c1f2ff0-8d73-81be-9f17-d7d4bfc6cb59%7C7896ed3326389fe3553030cd0a82f68efd49): **SSR + 1.25%**
 
 ###### USDS
 
-- [Slope1](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.15_Slope_1_Definition/1c1f2ff0-8d73-81be-9f17-d7d4bfc6cb59%7C7896ed3326389fe3553030cd0a82f68efd49): SSR + 1.25%
+- [Slope1](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.15_Slope_1_Definition/1c1f2ff0-8d73-81be-9f17-d7d4bfc6cb59%7C7896ed3326389fe3553030cd0a82f68efd49): **SSR + 1.25%**
 
 ###### USDC
 
-- [Slope1](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.15_Slope_1_Definition/1c1f2ff0-8d73-81be-9f17-d7d4bfc6cb59%7C7896ed3326389fe3553030cd0a82f68efd49): SSR + 1.25%
+- [Slope1](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.15_Slope_1_Definition/1c1f2ff0-8d73-81be-9f17-d7d4bfc6cb59%7C7896ed3326389fe3553030cd0a82f68efd49): **SSR + 1.25%**
 
 ###### USDT
 
-- [Slope1](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.15_Slope_1_Definition/1c1f2ff0-8d73-81be-9f17-d7d4bfc6cb59%7C7896ed3326389fe3553030cd0a82f68efd49): SSR + 1.25%
+- [Slope1](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.15_Slope_1_Definition/1c1f2ff0-8d73-81be-9f17-d7d4bfc6cb59%7C7896ed3326389fe3553030cd0a82f68efd49): **SSR + 1.25%**
 
 ##### [Ethereum] Spark USDS Morpho Vault - Activate Vault Fee
 
