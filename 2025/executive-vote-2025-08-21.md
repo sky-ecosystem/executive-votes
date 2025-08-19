@@ -136,7 +136,6 @@ If this executive proposal passes, then a total of **77,932 USDS** and **618,000
 If this executive proposal passes, then the following Sky Frontier Foundation Grant transfers will be executed:
 
 - Transfer 50 million USDS to [0xca5183FB9997046fbd9bA8113139bf5a5Af122A0](https://etherscan.io/address/0xca5183FB9997046fbd9bA8113139bf5a5Af122A0).
-- Transfer all MKR held in the Pause Proxy to [0xca5183FB9997046fbd9bA8113139bf5a5Af122A0](https://etherscan.io/address/0xca5183FB9997046fbd9bA8113139bf5a5Af122A0).
 - Transfer all DAI held in the Pause Proxy to [0xca5183FB9997046fbd9bA8113139bf5a5Af122A0](https://etherscan.io/address/0xca5183FB9997046fbd9bA8113139bf5a5Af122A0).
 - Transfer all UniV2 USDS-SKY LP ([0x2621CC0B3F3c079c1Db0E80794AA24976F0b9e3c](https://etherscan.io/address/0x2621CC0B3F3c079c1Db0E80794AA24976F0b9e3c)) held in the Pause Proxy to [0xca5183FB9997046fbd9bA8113139bf5a5Af122A0](https://etherscan.io/address/0xca5183FB9997046fbd9bA8113139bf5a5Af122A0).
 - Transfer all ENS ([0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72](https://etherscan.io/address/0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72)) held in the Pause Proxy to [0xca5183FB9997046fbd9bA8113139bf5a5Af122A0](https://etherscan.io/address/0xca5183FB9997046fbd9bA8113139bf5a5Af122A0).
