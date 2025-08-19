@@ -261,7 +261,7 @@ Execute the following payment as part of the Spark-Aave Revenue Share program:
 Execute the following payment to the Spark Foundation to cover routine operating expenses and payments for service providers:
 
 - Recipient address: [0x92e4629a4510AF5819d7D1601464C233599fF5ec](https://etherscan.io/address/0x92e4629a4510AF5819d7D1601464C233599fF5ec)
-- Transfer amount: 800,000 USDS
+- Transfer amount: **800,000 USDS**
 
 ##### [Ethereum] Spark Liquidity Layer - Update SparkLend USDS Rate Limits
 
