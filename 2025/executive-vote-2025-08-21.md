@@ -46,7 +46,7 @@ If this executive proposal does not pass within 30 days, then it will expire and
 
 If this executive proposal passes, then the following transfers will be made to the Fortification Foundation as a grant in the context of the [Sky Ecosystem Liquidity Bootstrapping](https://sky-atlas.powerhouse.io/A.5.5.1.9_Sky_Ecosystem_Liquidity_Bootstrapping/109f2ff0-8d73-8029-baba-da835b70d03e%7C8d5aeb778e7c):
 
-- Transfer **10 million USDS** to the Sky Frontier Foundation at [0x483413ccCD796Deddee88E4d3e202425d5E891C6](https://etherscan.io/address/0x483413cccd796deddee88e4d3e202425d5e891c6).
+- Transfer **10 million USDS** to the Fortification Foundation at [0x483413ccCD796Deddee88E4d3e202425d5E891C6](https://etherscan.io/address/0x483413cccd796deddee88e4d3e202425d5e891c6).
 - Transfer **200 million SKY** to the Sky Frontier Foundation at [0x483413ccCD796Deddee88E4d3e202425d5E891C6](https://etherscan.io/address/0x483413cccd796deddee88e4d3e202425d5e891c6).
 
 ### Surplus Buffer Splitter Parameter Update
@@ -135,7 +135,7 @@ If this executive proposal passes, then a total of **77,932 USDS** and **618,000
 
 If this executive proposal passes, then the following Sky Frontier Foundation Grant transfers will be executed:
 
-- Transfer 50,000,000 USDS to [0xca5183FB9997046fbd9bA8113139bf5a5Af122A0](https://etherscan.io/address/0xca5183FB9997046fbd9bA8113139bf5a5Af122A0).
+- Transfer 50 million USDS to [0xca5183FB9997046fbd9bA8113139bf5a5Af122A0](https://etherscan.io/address/0xca5183FB9997046fbd9bA8113139bf5a5Af122A0).
 - Transfer all MKR held in the Pause Proxy to [0xca5183FB9997046fbd9bA8113139bf5a5Af122A0](https://etherscan.io/address/0xca5183FB9997046fbd9bA8113139bf5a5Af122A0).
 - Transfer all DAI held in the Pause Proxy to [0xca5183FB9997046fbd9bA8113139bf5a5Af122A0](https://etherscan.io/address/0xca5183FB9997046fbd9bA8113139bf5a5Af122A0).
 - Transfer all UniV2 USDS-SKY LP ([0x2621CC0B3F3c079c1Db0E80794AA24976F0b9e3c](https://etherscan.io/address/0x2621CC0B3F3c079c1Db0E80794AA24976F0b9e3c)) held in the Pause Proxy to [0xca5183FB9997046fbd9bA8113139bf5a5Af122A0](https://etherscan.io/address/0xca5183FB9997046fbd9bA8113139bf5a5Af122A0).
@@ -145,11 +145,11 @@ If this executive proposal passes, then the following Sky Frontier Foundation Gr
 - Transfer all AAVE ([0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9](https://etherscan.io/address/0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9)) held in the Pause Proxy to [0xca5183FB9997046fbd9bA8113139bf5a5Af122A0](https://etherscan.io/address/0xca5183FB9997046fbd9bA8113139bf5a5Af122A0).
 - Transfer all WETH ([0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2](https://etherscan.io/address/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2)) held in the Pause Proxy to [0xca5183FB9997046fbd9bA8113139bf5a5Af122A0](https://etherscan.io/address/0xca5183FB9997046fbd9bA8113139bf5a5Af122A0).
 - Transfer all ETH held in the Pause Proxy to [0xca5183FB9997046fbd9bA8113139bf5a5Af122A0](https://etherscan.io/address/0xca5183FB9997046fbd9bA8113139bf5a5Af122A0).
-- Retain 16,000,000 SKY in the Pause Proxy and transfer the remaining SKY to [0xca5183FB9997046fbd9bA8113139bf5a5Af122A0](https://etherscan.io/address/0xca5183FB9997046fbd9bA8113139bf5a5Af122A0).
+- Retain 16 million SKY in the Pause Proxy and transfer the remaining SKY to [0xca5183FB9997046fbd9bA8113139bf5a5Af122A0](https://etherscan.io/address/0xca5183FB9997046fbd9bA8113139bf5a5Af122A0).
 
 ### Prime Agent Proxy Spells for Spark and Grove
 
-If this executive proposal passes, then Star proxy spells for Spark and Grove will be executed at [0xa57d3ea3aBAbD57Ed1a1d91CD998a68FB490B95E](https://etherscan.io/address/0xa57d3ea3aBAbD57Ed1a1d91CD998a68FB490B95E) and at [0xFa533FEd0F065dEf8dcFA6699Aa3d73337302BED](https://etherscan.io/address/0xFa533FEd0F065dEf8dcFA6699Aa3d73337302BED) respectively with the following contents.
+If this executive proposal passes, then Prime Agent proxy spells for Spark and Grove will be executed at [0xa57d3ea3aBAbD57Ed1a1d91CD998a68FB490B95E](https://etherscan.io/address/0xa57d3ea3aBAbD57Ed1a1d91CD998a68FB490B95E) and at [0xFa533FEd0F065dEf8dcFA6699Aa3d73337302BED](https://etherscan.io/address/0xFa533FEd0F065dEf8dcFA6699Aa3d73337302BED) respectively with the following contents.
 
 #### Spark Proxy Spell
 
@@ -336,7 +336,7 @@ LIMIT_CENTRIFUGE_TRANSFER:
 Furthermore, `setCentrifugeRecipient` will be called with the following parameters for the Grove_ALM_Proxy on Ethereum:
 
 - centrifugeId: **1**
-- receipient: **Ethereum.ALM_PROXY**
+- recipient: **Ethereum.ALM_PROXY**
 
 ##### [Mainnet] Grove Liquidity Layer - Onboard Centrifuge V3 and Offboard Centrifuge V2
 
