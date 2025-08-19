@@ -157,7 +157,7 @@ If this executive proposal passes, then Prime Agent proxy spells for Spark and G
 - **Authorization**: [Governance Poll 1557](https://vote.sky.money/polling/QmNmGBSt)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/august-21-2025-proposed-changes-to-spark-for-upcoming-spell/26997)
 
-Update the market parameters for SparkLend on mainnet below as follows.
+Update the market parameters for SparkLend on mainnet as follows.
 
 ###### ETH
 
@@ -170,7 +170,7 @@ Update the market parameters for SparkLend on mainnet below as follows.
 
 - [Maximum LTV](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.4_LTV_Definition/1c1f2ff0-8d73-81bb-8385-c4bc0c1ebd30%7C7896ed3326389fe3553030cd0a82f68efd49): **83%**
 - [Liquidation threshold](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.5_Liquidation_Threshold_Definition/1c1f2ff0-8d73-81ea-bd7e-feb73a44923a%7C7896ed3326389fe3553030cd0a82f68efd49): **84%**
-- [Borrow cap Absolute Maximum Exposure (`max`)](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.3.1.3_SparkLend_Risk_Parameters_Cap_Automator_Absolute_Maximum_Exposure_Definition/1c1f2ff0-8d73-8118-8297-de5ca8d630bd|7896ed3326389fe3553030cd0a82f68e65d71fb5):  **1 wstETH**
+- [Borrow cap Absolute Maximum Exposure (`max`)](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.3.1.3_SparkLend_Risk_Parameters_Cap_Automator_Absolute_Maximum_Exposure_Definition/1c1f2ff0-8d73-8118-8297-de5ca8d630bd|7896ed3326389fe3553030cd0a82f68e65d71fb5): **1 wstETH**
 
 ###### rETH
 
@@ -258,7 +258,7 @@ Execute the following payment as part of the Spark-Aave Revenue Share program:
 - **Authorization**: [A.2.9.1.2.2.5.4.1](https://sky-atlas.powerhouse.io/A.2.9.1.2.2.5.4.1_Initial_Cash_Grant_To_Spark_Foundation/21ff2ff0-8d73-8018-be75-c28cee3dddb7%257C9e1f80092582d59891b0d93ee881)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/august-21-2025-proposed-changes-to-spark-for-upcoming-spell-2/27059)
 
-Execute the following payment to the Spark Foundation to cover routine operating expenses and payments for service providers:
+Execute the following payment to the Spark Foundation to cover routine operating expenses and payments to service providers:
 
 - Recipient address: [0x92e4629a4510AF5819d7D1601464C233599fF5ec](https://etherscan.io/address/0x92e4629a4510AF5819d7D1601464C233599fF5ec)
 - Transfer amount: **800,000 USDS**
