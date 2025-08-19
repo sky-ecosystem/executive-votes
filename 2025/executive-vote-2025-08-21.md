@@ -148,7 +148,7 @@ If this executive proposal passes, then the following Sky Frontier Foundation Gr
 
 ### Prime Agent Proxy Spells for Spark and Grove
 
-If this executive proposal passes, then Prime Agent proxy spells for Spark and Grove will be executed at [0xa57d3ea3aBAbD57Ed1a1d91CD998a68FB490B95E](https://etherscan.io/address/0xa57d3ea3aBAbD57Ed1a1d91CD998a68FB490B95E) and at [0xFa533FEd0F065dEf8dcFA6699Aa3d73337302BED](https://etherscan.io/address/0xFa533FEd0F065dEf8dcFA6699Aa3d73337302BED) respectively with the following contents.
+If this executive proposal passes, then Prime Agent proxy spells for Spark and Grove will be executed at [0xa57d3ea3aBAbD57Ed1a1d91CD998a68FB490B95E](https://etherscan.io/address/0xa57d3ea3aBAbD57Ed1a1d91CD998a68FB490B95E) and at [0xFa533FEd0F065dEf8dcFA6699Aa3d73337302BED](https://etherscan.io/address/0xFa533FEd0F065dEf8dcFA6699Aa3d73337302BED) respectively, with the following contents.
 
 #### Spark Proxy Spell
 
