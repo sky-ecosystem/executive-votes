@@ -44,7 +44,7 @@ If this executive proposal does not pass within 30 days, then it will expire and
 - **Authorization**: [A.2.14.1](https://sky-atlas.powerhouse.io/A.2.14.1_Ecosystem_Entity_Grants/254f2ff0-8d73-80db-aa7c-e1ee7d7641ce%7C9e1fe7f4)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/weekly-cycle-atlas-edit-proposal-week-starting-2025-08-11/27008)
 
-If this executive proposal passes, then the following transfers will be made to the Fortification Foundation as a grant in the context of the [Sky Ecosystem Liquidity Bootstrapping](https://sky-atlas.powerhouse.io/A.5.5.1.9_Sky_Ecosystem_Liquidity_Bootstrapping/109f2ff0-8d73-8029-baba-da835b70d03e%7C8d5aeb778e7c):
+If this executive proposal passes, then the following transfers will be made to the Fortification Foundation:
 
 - Transfer **10 million USDS** to the Fortification Foundation at [0x483413ccCD796Deddee88E4d3e202425d5E891C6](https://etherscan.io/address/0x483413cccd796deddee88e4d3e202425d5e891c6).
 - Transfer **200 million SKY** to the Sky Frontier Foundation at [0x483413ccCD796Deddee88E4d3e202425d5E891C6](https://etherscan.io/address/0x483413cccd796deddee88e4d3e202425d5e891c6).
