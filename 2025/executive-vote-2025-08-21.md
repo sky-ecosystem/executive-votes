@@ -41,7 +41,7 @@ If this executive proposal does not pass within 30 days, then it will expire and
 
 ### Fortification Foundation Grant
 
-- **Authorization**: [Governance Poll 1551](https://vote.sky.money/polling/Qmeba6D9)
+- **Authorization**: [A.2.14.1](https://sky-atlas.powerhouse.io/A.2.14.1_Ecosystem_Entity_Grants/254f2ff0-8d73-80db-aa7c-e1ee7d7641ce%7C9e1fe7f4)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/weekly-cycle-atlas-edit-proposal-week-starting-2025-08-11/27008)
 
 If this executive proposal passes, then the following transfers will be made to the Fortification Foundation as a grant in the context of the [Sky Ecosystem Liquidity Bootstrapping](https://sky-atlas.powerhouse.io/A.5.5.1.9_Sky_Ecosystem_Liquidity_Bootstrapping/109f2ff0-8d73-8029-baba-da835b70d03e%7C8d5aeb778e7c):
@@ -51,7 +51,7 @@ If this executive proposal passes, then the following transfers will be made to 
 
 ### Surplus Buffer Splitter Parameter Update
 
-- **Authorization**: [Governance Poll 1551](https://vote.sky.money/polling/Qmeba6D9)
+- **Authorization**: [A.3.6.2](https://sky-atlas.powerhouse.io/A.3.6.2_Surplus_Buffer_Splitter_Parameters/122f2ff0-8d73-80f8-9a2a-d221794f73f5%7C57ea2c54)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/weekly-cycle-atlas-edit-proposal-week-starting-2025-08-11/27008)
 
 If this executive proposal passes, then the [Surplus Buffer](https://sky-atlas.powerhouse.io/A.3.6.1_Surplus_Buffer/11af2ff0-8d73-806a-afb0-ca38393197d3%7C57ea2c54) Splitter parameters below will be changed as follows:
@@ -108,7 +108,7 @@ If this executive proposal passes, then a total of **24,602 USDS** will be distr
 
 ### Atlas Core Development Payments for August 2025
 
-- **Authorization**: [Ecosystem Authorization](https://forum.sky.money/t/atlas-core-development-payment-requests-august-2025/26976/7), Atlas Axis Authorizations [1]](https://forum.sky.money/t/atlas-core-development-payment-requests-august-2025/26976/4), [2](https://forum.sky.money/t/atlas-core-development-payment-requests-august-2025/26976/6)
+- **Authorization**: [Ecosystem Authorization](https://forum.sky.money/t/atlas-core-development-payment-requests-august-2025/26976/7), Atlas Axis Authorizations [1](https://forum.sky.money/t/atlas-core-development-payment-requests-august-2025/26976/4), [2](https://forum.sky.money/t/atlas-core-development-payment-requests-august-2025/26976/6)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/atlas-core-development-payment-requests-august-2025/26976)
 
 If this executive proposal passes, then a total of **77,932 USDS** and **618,000 SKY** will be distributed as Atlas Core Development payments for August 2025 as follows:
@@ -130,7 +130,7 @@ If this executive proposal passes, then a total of **77,932 USDS** and **618,000
 
 ### Sky Frontier Foundation Grant
 
-- **Authorization**: [Governance Poll 1551](https://vote.sky.money/polling/Qmeba6D9)
+- **Authorization**: [A.2.14.1](https://sky-atlas.powerhouse.io/A.2.14.1_Ecosystem_Entity_Grants/254f2ff0-8d73-80db-aa7c-e1ee7d7641ce%7C9e1fe7f4)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/weekly-cycle-atlas-edit-proposal-week-starting-2025-08-11/27008)
 
 If this executive proposal passes, then the following Sky Frontier Foundation Grant transfers will be executed:
