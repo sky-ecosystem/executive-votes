@@ -1,6 +1,6 @@
 ---
 title: Template - [Executive Vote] Fortification Foundation Grant, Surplus Buffer Splitter Parameter Changes, UNIV2DAIUSDC-A Offboard, Spark-Aave Revenue Share, Liquidity Bootstrapping Funding, Delegate Compensation for July 2025, Atlas Core Development Payments for August 2025, Sky Frontier Foundation Grant, Prime Agent Proxy Spell - August 21, 2025
-summary: Fortification Foundation grant, Surplus Buffer Splitter parameter changes, UNIV2DAIUSDC-A offboard, Spark-Aave Revenue Share program payment, Liquidity Bootstrapping funding, Aligned Delegate compensation for July 2025, Atlas Core Development payments for August 2025, Sky Frontier Foundation grant, Prime Agent Proxy Spells for Spark and Grove
+summary: Fortification Foundation grant, Surplus Buffer Splitter parameter changes, UNIV2DAIUSDC-A offboard, Spark-Aave Revenue Share program payment, Liquidity Bootstrapping funding, Aligned Delegate compensation for July 2025, Atlas Core Development payments for August 2025, Sky Frontier Foundation grant, Prime Agent Proxy Spells for Spark and Grove.
 date: 2025-08-21T00:00:00.000Z
 address: "$spell_address"
 ---
@@ -149,7 +149,7 @@ If this executive proposal passes, then the following Sky Frontier Foundation Gr
 
 ### Prime Agent Proxy Spells for Spark and Grove
 
-If this executive proposal passes, then Star proxy spells for Spark and Grove will be executed at [?](https://etherscan.io/address/?) and at [0xFa533FEd0F065dEf8dcFA6699Aa3d73337302BED](https://etherscan.io/address/0xFa533FEd0F065dEf8dcFA6699Aa3d73337302BED) respectively with the following contents.
+If this executive proposal passes, then Star proxy spells for Spark and Grove will be executed at [0xa57d3ea3aBAbD57Ed1a1d91CD998a68FB490B95E](https://etherscan.io/address/0xa57d3ea3aBAbD57Ed1a1d91CD998a68FB490B95E) and at [0xFa533FEd0F065dEf8dcFA6699Aa3d73337302BED](https://etherscan.io/address/0xFa533FEd0F065dEf8dcFA6699Aa3d73337302BED) respectively with the following contents.
 
 #### Spark Proxy Spell
 
