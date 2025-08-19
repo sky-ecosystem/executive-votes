@@ -56,7 +56,7 @@ If this executive proposal passes, then the following transfers will be made to 
 
 If this executive proposal passes, then the [Surplus Buffer](https://sky-atlas.powerhouse.io/A.3.6.1_Surplus_Buffer/11af2ff0-8d73-806a-afb0-ca38393197d3%7C57ea2c54) Splitter parameters below will be changed as follows:
 
-- Decrease [`vow.hump`](https://sky-atlas.powerhouse.io/A.3.6.2_Surplus_Buffer_Splitter_Parameters/122f2ff0-8d73-80f8-9a2a-d221794f73f5%7C57ea2c54) by 49 million USDS, from 50 million to **1 million USDS**.
+- Decrease [`vow.hump`](https://sky-atlas.powerhouse.io/A.3.6.2_Surplus_Buffer_Splitter_Parameters/122f2ff0-8d73-80f8-9a2a-d221794f73f5%7C57ea2c54) by 49 million USDS from 50 million to **1 million USDS**.
 - Decrease [`splitter.burn`](https://sky-atlas.powerhouse.io/A.3.6.2_Surplus_Buffer_Splitter_Parameters/122f2ff0-8d73-80f8-9a2a-d221794f73f5%7C57ea2c54) by 25.00 percentage points from 50% to **25%**.
 
 ### UNIV2DAIUSDC-A Offboarding
