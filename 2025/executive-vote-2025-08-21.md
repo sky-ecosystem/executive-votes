@@ -52,7 +52,7 @@ If this executive proposal passes, then the following transfers will be made to 
 ### Surplus Buffer Splitter Parameter Update
 
 - **Authorization**: [Governance Poll 1551](https://vote.sky.money/polling/Qmeba6D9)
-- **Proposal**: [Forum Postl](https://forum.sky.money/t/weekly-cycle-atlas-edit-proposal-week-starting-2025-08-11/27008)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/weekly-cycle-atlas-edit-proposal-week-starting-2025-08-11/27008)
 
 If this executive proposal passes, then the [Surplus Buffer](https://sky-atlas.powerhouse.io/A.3.6.1_Surplus_Buffer/11af2ff0-8d73-806a-afb0-ca38393197d3%7C57ea2c54) Splitter parameters below will be changed as follows:
 
@@ -78,7 +78,7 @@ If this executive proposal passes, then the [UNIV2DAIUSDC-A vault type](https://
 - **Authorization**: [Ecosystem Authorization](https://forum.sky.money/t/spark-aave-revenue-share-calculations-payments-8-q2-2025/27005/2)
 - **Proposal**: [Forum post](https://forum.sky.money/t/spark-aave-revenue-share-calculations-payments-8-q2-2025/27005)
 
-If this executive proposal passes, then a payment of **177,506 USDS** will be made to a smart contract controlled by Aave Governance at [0x464C71f6c2F760DdA6093dCB91C24c39e5d6e18c](https://etherscan.io/address/0x464C71f6c2F760DdA6093dCB91C24c39e5d6e18c) as part of the SparkLend-Aave Revenue Share program.
+If this executive proposal passes, then a payment of **177,507 USDS** will be made to a smart contract controlled by Aave Governance at [0x464C71f6c2F760DdA6093dCB91C24c39e5d6e18c](https://etherscan.io/address/0x464C71f6c2F760DdA6093dCB91C24c39e5d6e18c) as part of the SparkLend-Aave Revenue Share program.
 
 ### Sky Ecosystem Liquidity Bootstrapping
 
