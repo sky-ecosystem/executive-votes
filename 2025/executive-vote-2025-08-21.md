@@ -2,7 +2,7 @@
 title: Template - [Executive Vote] Fortification Foundation Grant, Surplus Buffer Splitter Parameter Changes, UNIV2DAIUSDC-A Offboard, Spark-Aave Revenue Share, Liquidity Bootstrapping Funding, Delegate Compensation for July 2025, Atlas Core Development Payments for August 2025, Sky Frontier Foundation Grant, Prime Agent Proxy Spells - August 21, 2025
 summary: Fortification Foundation grant, Surplus Buffer Splitter parameter changes, UNIV2DAIUSDC-A offboard, Spark-Aave Revenue Share program payment, Liquidity Bootstrapping funding, Aligned Delegate compensation for July 2025, Atlas Core Development payments for August 2025, Sky Frontier Foundation grant, Prime Agent Proxy Spells for Spark and Grove.
 date: 2025-08-21T00:00:00.000Z
-address: "$spell_address"
+address: "0x3F89feDD7588456e44189A36fD888c56B2C1f589"
 ---
 
 # [Executive Proposal] Fortification Foundation Grant, Surplus Buffer Splitter Parameter Changes, UNIV2DAIUSDC-A Offboard, Spark-Aave Revenue Share, Liquidity Bootstrapping Funding, Delegate Compensation for July 2025, Atlas Core Development Payments for August 2025, Sky Frontier Foundation Grant, Prime Agent Proxy Spells - August 21, 2025
