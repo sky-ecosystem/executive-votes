@@ -33,7 +33,7 @@
     - [ ] Are all contract addresses set to GREEN status in the Bug Bounty Sheet?
     - [ ] Have all changes been confirmed in the sheet by the Integrations Leads?
 - [ ] Complete and confirm checksums for USDS and SKY transfers.
-- [ ] Star Spell Crafter delivered the Star spell address and spell PR in Discord with no differences in the code.
+- [ ] Prime Spell Crafter delivered the Prime spell address and spell PR in Discord with no differences in the code.
 
 ## Obtain Confirmations for listed items (Wednesday, confirmations due EOD Friday)
 
