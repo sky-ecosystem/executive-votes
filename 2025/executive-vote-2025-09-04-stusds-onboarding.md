@@ -26,7 +26,7 @@ If this executive proposal passes, the following **actions** will occur within t
 
 **Voting for this executive proposal will place your SKY in support of the actions outlined above.**
 
-Unless otherwise noted, the actions listed above are subject to the [GSM Pause Delay](https://sky-atlas.powerhouse.io/A.1.9.2.1_Pause_Delay/a98b8227-95f6-4711-9d8d-f52cbc6ad2d0|0db30758e055). This means that if this executive proposal passes, the changes and additions listed above will only become active in the Sky Protocol after the GSM Pause Delay has expired. The GSM Pause Delay is currently set to [**$number hours**](https://sky-atlas.powerhouse.io/A.1.9.2.1.2_Pause_Delay_Current_Value/09d2514b-3169-4755-a654-2c774456980d|0db30758e055d2d0).
+Unless otherwise noted, the actions listed above are subject to the [GSM Pause Delay](https://sky-atlas.powerhouse.io/A.1.9.2.1_Pause_Delay/a98b8227-95f6-4711-9d8d-f52cbc6ad2d0|0db30758e055). This means that if this executive proposal passes, the changes and additions listed above will only become active in the Sky Protocol after the GSM Pause Delay has expired. The GSM Pause Delay is currently set to [**24 hours**](https://sky-atlas.powerhouse.io/A.1.9.2.1.2_Pause_Delay_Current_Value/09d2514b-3169-4755-a654-2c774456980d|0db30758e055d2d0).
 
 This executive proposal includes an office-hours modifier that means that it **can only be executed between 14:00 and 21:00 UTC, Monday - Friday**. 
 
@@ -38,24 +38,89 @@ If this executive proposal does not pass within 30 days, then it will expire and
 
 ### stUSDS Onboarding
 
-- **Authorization**: [$link_to_approval]()
-- **Proposal**: [$link_to_proposal]()
+- **Authorization**: [Governance Poll 1562](https://vote.sky.money/polling/QmQwTjgE)  
+- **Proposal**: [Forum Post 1](https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-2025-09-01/27122), [2](https://forum.sky.money/t/technical-scope-of-the-stusds-module-launch/27129)
 
-If this executive proposal passes, then $executive_entry_1_implications.
+If this executive proposal passes, then stUSDS will be onboarded with the parameters detailed below.
 
-### $executive_entry_2
+#### 
 
-- **Authorization**: [$link_to_approval]()
-- **Proposal**: [$link_to_proposal]()
+### USDS-SKY Rewards Normalization
+
+- **Authorization**: [Stability Facilitator Approval](https://forum.sky.money/t/sky-token-rewards-usds-to-sky-rewards-normalization-configuration/26638/15)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/sky-token-rewards-usds-to-sky-rewards-normalization-configuration/26638/14)
 
 If this executive proposal passes, then $executive_entry_2_implications.
 
-### $executive_entry_3
+### Prime Settlement Cycle
 
-- **Authorization**: [$link_to_approval]()
-- **Proposal**: [$link_to_proposal]()
+- **Authorization**: [TBD]()
+- **Proposal**: [TBD]()
 
 If this executive proposal passes, then $executive_entry_3_implications.
+
+### Core Simplification Buffer Budget Transfer
+
+- **Authorization**: [Governance Poll 1562](https://vote.sky.money/polling/QmQwTjgE)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-2025-09-01/27122)
+
+If this executive proposal passes, then $executive_entry_3_implications.
+
+### Accessibility Reward Budget Transfer
+
+- **Authorization**: [Governance Poll 1561](https://vote.sky.money/polling/QmXRwLEu)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/utilization-of-the-accessibility-reward-budget-a-2-4/27131)
+
+If this executive proposal passes, then $executive_entry_3_implications.
+
+### Spark Proxy Spell
+
+If this executive proposal passes, then the Prime Agent proxy spell for Spark will be executed at [TBD](), with the following contents. 
+
+#### [Ethereum] Spark USDS Morpho Vault - Onboard November Ethena PTs
+
+- **Authorization**: [Governance Poll 1569](https://vote.sky.money/polling/QmeLKi1N)  
+- **Proposal**: [Forum Post](https://forum.sky.money/t/september-4-2025-proposed-changes-to-spark-for-upcoming-spell/27102)
+
+#### [Ethereum] Spark USDC Morpho Vault - Create Vault and Onboard Assets
+
+- **Authorization**: [Governance Poll 1568](https://vote.sky.money/polling/QmXDwbcJ)  
+- **Proposal**: [Forum Post](https://forum.sky.money/t/september-4-2025-proposed-changes-to-spark-for-upcoming-spell/27102)
+
+#### [Ethereum] Spark Liquidity Layer - Onboard Spark USDC Morpho Vault
+
+- **Authorization**: [Governance Poll 1566](https://vote.sky.money/polling/QmRLrw8X)  
+- **Proposal**: [Forum Post](https://forum.sky.money/t/september-4-2025-proposed-changes-to-spark-for-upcoming-spell/27102)
+
+#### [Ethereum] Spark Liquidity Layer - Onboard Aave aUSDe
+
+- **Authorization**: [Governance Poll 1565](https://vote.sky.money/polling/QmTS1Jw7)  
+- **Proposal**: [Forum Post](https://forum.sky.money/t/september-4-2025-proposed-changes-to-spark-for-upcoming-spell/27102)
+
+#### [Ethereum] Spark Liquidity Layer - Increase Curve Swap Rate Limits
+
+- **Authorization**: [Governance Poll 1563](https://vote.sky.money/polling/QmUKs4Lt)  
+- **Proposal**: [Forum Post](https://forum.sky.money/t/september-4-2025-proposed-changes-to-spark-for-upcoming-spell/27102)
+
+#### [Ethereum] Spark Liquidity Layer - Increase SparkLend spUSDt and spPYUSD Rate Limits
+
+- **Authorization**: [Governance Poll 1564](https://vote.sky.money/polling/QmNbTb5v)  
+- **Proposal**: [Forum Post](https://forum.sky.money/t/september-4-2025-proposed-changes-to-spark-for-upcoming-spell/27102)
+
+#### [Ethereum] Spark Treasury - Transfer BUIDL to Grove
+
+- **Authorization**: [Governance Poll 1567](https://vote.sky.money/polling/QmbSeE7t)  
+- **Proposal**: [Forum Post](https://forum.sky.money/t/september-4-2025-proposed-changes-to-spark-for-upcoming-spell/27102)
+
+#### [Ethereum] Spark Treasury - Withdraw USDS and DAI Reserves from SparkLend
+
+- **Authorization**: [Governance Poll 1570](https://vote.sky.money/polling/QmbHt4Vg)  
+- **Proposal**: [Forum Post](https://forum.sky.money/t/september-4-2025-proposed-changes-to-spark-for-upcoming-spell/27102)
+
+#### [Ethereum] Spark Treasury - Transfer USDS to Spark Foundation
+
+- **Authorization**: [Atlas](https://sky-atlas.powerhouse.io/A.2.9.1.2.2.5.4.1_Initial_Cash_Grant_To_Spark_Foundation/21ff2ff0-8d73-8018-be75-c28cee3dddb7%7C9e1f80092582d59891b0d93ee881)  
+- **Proposal**: [Forum Post](https://forum.sky.money/t/september-4-2025-proposed-changes-to-spark-for-upcoming-spell/27102)
 
 ## Review
 
