@@ -82,45 +82,128 @@ If this executive proposal passes, then the Prime Agent proxy spell for Spark wi
 - **Authorization**: [Governance Poll 1569](https://vote.sky.money/polling/QmeLKi1N)  
 - **Proposal**: [Forum Post](https://forum.sky.money/t/september-4-2025-proposed-changes-to-spark-for-upcoming-spell/27102)
 
+The following November Ethena PTs will be onboarded to the Spark USDS Morpho vault on mainnet.
+
+##### PT-USDe-Nov2025
+
+- Supply cap: **500 million USDS**
+- LLTV: **91.5%**
+- Oracle:
+  - PT value at redemption: **fixed 1 USD**
+  - Linear discount rate: **15%**
+
+##### PT-sUSDe-Nov2025
+
+- Supply cap: **500 million USDS**
+- LLTV: **91.5%**
+- Oracle:
+  - PT value at redemption: **fixed 1 USD**
+  - Linear discount rate: **15%**
+
 #### [Ethereum] Spark USDC Morpho Vault - Create Vault and Onboard Assets
 
 - **Authorization**: [Governance Poll 1568](https://vote.sky.money/polling/QmXDwbcJ)  
 - **Proposal**: [Forum Post](https://forum.sky.money/t/september-4-2025-proposed-changes-to-spark-for-upcoming-spell/27102)
+
+A Spark USDC Morpho vault will be created on mainnet and pools onboarded with the following details:
+
+- Vault name: **Spark Blue Chip USDC Vault**
+- Vault ticker: **sparkUSDCbc**
+- Admins:
+  - Owner: [0x3300f198988e4C9C63F75dF86De36421f06af8c4](https://etherscan.io/address/0x3300f198988e4C9C63F75dF86De36421f06af8c4) (Spark Proxy)
+  - Guardian: n/a (defaults to owner)
+  - Curator: n/a (defaults to owner)
+  - Allocator: [0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB](https://etherscan.io/address/0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB) (Spark Liquidity Layer ALM Planner)
+- Fee: **1%**
+- Markets:
+  - cbBTC 86%:
+    - Supply cap: **500 million USDC**
+  - wstETH 86%:
+    - Supply cap: **500 million USDC**
+
 
 #### [Ethereum] Spark Liquidity Layer - Onboard Spark USDC Morpho Vault
 
 - **Authorization**: [Governance Poll 1566](https://vote.sky.money/polling/QmRLrw8X)  
 - **Proposal**: [Forum Post](https://forum.sky.money/t/september-4-2025-proposed-changes-to-spark-for-upcoming-spell/27102)
 
+The Spark USDC Morpho vault will be onboarded to the Spark Liquidity Layer on mainnet with the following deposit [rate limits](https://docs.spark.fi/dev/spark-liquidity-layer/spark-alm-controller#rate-limits):
+
+- maxAmount: **50 million USDC**
+- slope: **25 million USDC per day**
+
 #### [Ethereum] Spark Liquidity Layer - Onboard Aave aUSDe
 
 - **Authorization**: [Governance Poll 1565](https://vote.sky.money/polling/QmTS1Jw7)  
 - **Proposal**: [Forum Post](https://forum.sky.money/t/september-4-2025-proposed-changes-to-spark-for-upcoming-spell/27102)
+
+Aave aUSDe will be onboarded to the Spark Liquidity Layer on mainnet with the following [rate limits](https://docs.spark.fi/dev/spark-liquidity-layer/spark-alm-controller#rate-limits):
+
+- Deposits:
+  - maxAmount: **250 million USDe**
+  - slope: **100 million USDe per day**
+- Withdrawals:
+  - maxAmount: **Unlimited**
 
 #### [Ethereum] Spark Liquidity Layer - Increase Curve Swap Rate Limits
 
 - **Authorization**: [Governance Poll 1563](https://vote.sky.money/polling/QmUKs4Lt)  
 - **Proposal**: [Forum Post](https://forum.sky.money/t/september-4-2025-proposed-changes-to-spark-for-upcoming-spell/27102)
 
+The Curve swap [rate limits](https://docs.spark.fi/dev/spark-liquidity-layer/spark-alm-controller#rate-limits) will be increased in the Spark Liquidity Layer on mainnet with the following parameters:
+
+- sUSDS/USDT
+  - maxAmount: **5 million**
+  - slope: **100 million per day**
+  - maxSlippage: **0.25%**
+- PYUSD/USDC
+  - maxAmount: **5 million**
+  - slope: **100 million per day**
+  - maxSlippage: **0.1%**
+
 #### [Ethereum] Spark Liquidity Layer - Increase SparkLend spUSDt and spPYUSD Rate Limits
 
 - **Authorization**: [Governance Poll 1564](https://vote.sky.money/polling/QmNbTb5v)  
 - **Proposal**: [Forum Post](https://forum.sky.money/t/september-4-2025-proposed-changes-to-spark-for-upcoming-spell/27102)
+
+SparkLend spUSDT and spPYUSD deposit [rate limits](https://docs.spark.fi/dev/spark-liquidity-layer/spark-alm-controller#rate-limits) will be increased in the Spark Liquidity Layer on mainnet with the following parameters:
+
+- SparkLend spUSDT:
+  - maxAmount: Increase by 50 million USDT from 50 million USDT to **100 million USDT**
+  - slope: Increase by 75 million USDT per day from 25 million USDT per day to **100 million USDT per day**
+- SparkLend spPYUSD:
+  - maxAmount: Increase by 50 million PYUSD from 50 million PYUSD to **100 million PYUSD**
+  - slope: Increase by 75 million PYUSD per day from 25 million PYUSD per day to **100 million PYUSD per day**
 
 #### [Ethereum] Spark Treasury - Transfer BUIDL to Grove
 
 - **Authorization**: [Governance Poll 1567](https://vote.sky.money/polling/QmbSeE7t)  
 - **Proposal**: [Forum Post](https://forum.sky.money/t/september-4-2025-proposed-changes-to-spark-for-upcoming-spell/27102)
 
+Residual BUIDL tokens will be transfered from Spark to Grove on mainnet with the following details:
+
+- Recipient address: [0x491EDFB0B8b608044e227225C715981a30F3A44E](https://etherscan.io/address/0x491EDFB0B8b608044e227225C715981a30F3A44E) (Grove ALM Proxy)
+- Transfer amount: **900,612.89 BUIDL-I** (all BUIDL-I held in [Spark ALM Proxy](https://etherscan.io/address/0x1601843c5E9bC251A3272907010AFa41Fa18347E))
+
 #### [Ethereum] Spark Treasury - Withdraw USDS and DAI Reserves from SparkLend
 
 - **Authorization**: [Governance Poll 1570](https://vote.sky.money/polling/QmbHt4Vg)  
 - **Proposal**: [Forum Post](https://forum.sky.money/t/september-4-2025-proposed-changes-to-spark-for-upcoming-spell/27102)
 
+All accumulated DAI and USDS reserves will be transfered from the SparkLend Collector to the Spark Proxy on mainnet with the following details:
+
+- Sender address: [0xb137E7d16564c81ae2b0C8ee6B55De81dd46ECe5](https://etherscan.io/address/0xb137E7d16564c81ae2b0C8ee6B55De81dd46ECe5) (SparkLend Collector)
+- Recipient address: [0x3300f198988e4C9C63F75dF86De36421f06af8c4](https://etherscan.io/address/0x3300f198988e4C9C63F75dF86De36421f06af8c4) (Spark Proxy)
+- Transfer amount: All spDAI and spUSDS in the SparkLend Collector
+
 #### [Ethereum] Spark Treasury - Transfer USDS to Spark Foundation
 
 - **Authorization**: [Atlas](https://sky-atlas.powerhouse.io/A.2.9.1.2.2.5.4.1_Initial_Cash_Grant_To_Spark_Foundation/21ff2ff0-8d73-8018-be75-c28cee3dddb7%7C9e1f80092582d59891b0d93ee881)  
 - **Proposal**: [Forum Post](https://forum.sky.money/t/september-4-2025-proposed-changes-to-spark-for-upcoming-spell/27102)
+
+The following transfer of USDS from the Spark SubProxy to the Spark Foundation will be executed:
+
+- Transfer **800,000 USDS** from the Spark SubProxy to the Spark Foundation at [0x92e4629a4510AF5819d7D1601464C233599fF5ec](https://etherscan.io/address/0x92e4629a4510AF5819d7D1601464C233599fF5ec).
 
 ## Review
 
