@@ -1,6 +1,6 @@
 ---
-title: Template - [Executive Vote] stUSDS Onboarding, USDS-SKY Rewards Normalization, Prime Settlement Cycle, Core Simplification Buffer Budget Transfer, Accessibility Reward Budget Transfer, Spark Proxy Spell - September 4, 2025
-summary: Onboard stUSDS with Bounded External Access Module Exception (BEAM), update USDS-SKY Rewards rate, execute Prime Settlement Cycle for Spark and Grove, transfer USDS for Core Simplification Buffer Budget, transfer USDS for Accessibility Reward Budget, execute Spark Proxy Spell.
+title: Template - [Executive Vote] stUSDS Onboarding, SKY Token Rewards Rebalance, Prime Settlement Cycle, Core Simplification Buffer Budget Transfer, Accessibility Reward Budget Transfer, Spark Proxy Spell - September 4, 2025
+summary: Onboard stUSDS with Bounded External Access Module Exception (BEAM), update Sky Token Rewards stream, execute Prime Settlement Cycle for Spark and Grove, transfer USDS for Core Simplification Buffer Budget, transfer USDS for Accessibility Reward Budget, execute Spark Proxy Spell.
 date: 2025-09-04T00:00:00.000Z
 address: "$spell_address"
 ---
@@ -41,16 +41,47 @@ If this executive proposal does not pass within 30 days, then it will expire and
 - **Authorization**: [Governance Poll 1562](https://vote.sky.money/polling/QmQwTjgE)  
 - **Proposal**: [Forum Post 1](https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-2025-09-01/27122), [2](https://forum.sky.money/t/technical-scope-of-the-stusds-module-launch/27129)
 
-If this executive proposal passes, then stUSDS will be onboarded with the parameters detailed below.
+If this executive proposal passes, then stUSDS will be onboarded to support SKY Staking as described in [A.4.4.1 - SKY Staking](https://sky-atlas.powerhouse.io/A.4.4.1_SKY_Staking/3923f478-26b6-4036-b6d2-92b94505e6e1%7Cb341740e), by executing the following actions:
 
-#### 
+- Update LSEV2-SKY-A clipper by calling LockstakeInit.updateClipper
+  - clipper_ being LockstakeClipper at [0x836F56750517b1528B5078Cba4Ac4B94fBE4A399](https://etherscan.io/address/0x836F56750517b1528B5078Cba4Ac4B94fBE4A399)
+  - cuttee being ERC1967Proxy for StUsds at [0x99CD4Ec3f88A45940936F469E4bB72A2A701EEB9](https://etherscan.io/address/0x99CD4Ec3f88A45940936F469E4bB72A2A701EEB9)
+- Initialize stUSDS module by calling StUsdsInit.init
+  - instance.stUsds being ERC1967Proxy for StUsds at [0x99CD4Ec3f88A45940936F469E4bB72A2A701EEB9](https://etherscan.io/address/0x99CD4Ec3f88A45940936F469E4bB72A2A701EEB9)
+  - instance.stUsdsImp being StUsds implementation at [0x7A61B7adCFD493f7CF0F86dFCECB94b72c227F22](https://etherscan.io/address/0x7A61B7adCFD493f7CF0F86dFCECB94b72c227F22)
+  - instance.rateSetter being StUsdsRateSetter at [0x30784615252B13E1DbE2bDf598627eaC297Bf4C5](https://etherscan.io/address/0x30784615252B13E1DbE2bDf598627eaC297Bf4C5)
+  - instance.mom being StUsdsMom at [0xf5DEe2CeDC5ADdd85597742445c0bf9b9cAfc699](https://etherscan.io/address/0xf5DEe2CeDC5ADdd85597742445c0bf9b9cAfc699)
+  - cfg.clip being LockstakeClipper at [0x836F56750517b1528B5078Cba4Ac4B94fBE4A399](https://etherscan.io/address/0x836F56750517b1528B5078Cba4Ac4B94fBE4A399)
+  - cfg.str being **0 basis points**
+  - cfg.cap being **200,000,000 USDS**
+  - cfg.line being **200,000,000 USDS**
+  - cfg.tau being **57,600 seconds**
+  - cfg.maxLine being **1,000,000,000 USDS**
+  - cfg.maxCap being **1,000,000,000 USDS**
+  - cfg.minStrBps being **200 basis points**
+  - cfg.maxStrBps being **5,000 basis points**
+  - cfg.stepStrBps being **4,000 basis points**
+  - cfg.minDutyBps being **210 basis points**
+  - cfg.maxDutyBps being **5,000 basis points**
+  - cfg.stepDutyBps being **4,000 basis points**
+  - cfg.buds being [0xBB865F94B8A92E57f79fCc89Dfd4dcf0D3fDEA16](https://etherscan.io/address/0xBB865F94B8A92E57f79fCc89Dfd4dcf0D3fDEA16)
 
-### USDS-SKY Rewards Normalization
+### SKY Token Rewards Rebalance 
 
 - **Authorization**: [Stability Facilitator Approval](https://forum.sky.money/t/sky-token-rewards-usds-to-sky-rewards-normalization-configuration/26638/15)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/sky-token-rewards-usds-to-sky-rewards-normalization-configuration/26638/14)
 
-If this executive proposal passes, then $executive_entry_2_implications.
+If this executive proposal passes, then the distribution of SKY token rewards to USDS holders will be normalized to ensure the effective yield provided by these rewards equals the Sky Savings Rate (SSR), as per [A.4.3.2 - Token Reward Mechanism](https://sky-atlas.powerhouse.io/A.4.3.2_Token_Reward_Mechanism/2e3e7014-bd66-4e85-b915-b86ae3ceeb16%7Cb3417d54), by executing the following actions:
+
+- `yank()` MCD_VEST_SKY_TREASURY vest with ID 5.
+- Claim the remaining tokens from the old DssVest by calling `VestedRewardsDistribution.distribute()` on REWARDS_DIST_USDS_SKY.
+- Create a new MCD_VEST_SKY_TREASURY stream with the following parameters:
+  - res: 1 (restricted)
+  - Increase SKY allowance for MCD_VEST_SKY_TREASURY to the sum of all active streams and the new stream created by this executive vote.
+  - vestBgn: block.timestamp
+  - vestTau: block.timestamp + 15,724,800 seconds (182 days after the spell executes)
+  - tot: **76,739,938 SKY**
+- File the new stream ID on REWARDS_DIST_USDS_SKY
 
 ### Prime Settlement Cycle
 
@@ -64,14 +95,14 @@ If this executive proposal passes, then $executive_entry_3_implications.
 - **Authorization**: [Governance Poll 1562](https://vote.sky.money/polling/QmQwTjgE)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-2025-09-01/27122)
 
-If this executive proposal passes, then $executive_entry_3_implications.
+If this executive proposal passes, then **8 million USDS** will be transfered to [0xd8507ef0a59f37d15b5d7b630fa6eea40ce4afdd](https://etherscan.io/address/0xd8507ef0a59f37d15b5d7b630fa6eea40ce4afdd) for the [Core Simplification Buffer](https://github.com/sky-ecosystem/next-gen-atlas/pull/54/files#diff-29fcb684de058590234788c2b217dbc0eb06b3e61aa7bb19a4d0148f38490f28R19747) budget.
 
 ### Accessibility Reward Budget Transfer
 
 - **Authorization**: [Governance Poll 1561](https://vote.sky.money/polling/QmXRwLEu)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/utilization-of-the-accessibility-reward-budget-a-2-4/27131)
 
-If this executive proposal passes, then $executive_entry_3_implications.
+If this executive proposal passes, then **3 million USDS** will be transfered to [0x05F471262d15EECA4059DadE070e5BEd509a4e73](https://etherscan.io/address/0x05F471262d15EECA4059DadE070e5BEd509a4e73) for the [Accessibility Reward](https://sky-atlas.powerhouse.io/A.2.3.8.1.1.1_Purpose/1b3f2ff0-8d73-8083-90b3-e9b92abb01b5%7C9e1ff936eafd750cb0dc) budget.
 
 ### Spark Proxy Spell
 
