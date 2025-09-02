@@ -203,7 +203,7 @@ SparkLend spUSDT and spPYUSD deposit [rate limits](https://docs.spark.fi/dev/spa
 - **Authorization**: [Governance Poll 1567](https://vote.sky.money/polling/QmbSeE7t)  
 - **Proposal**: [Forum Post](https://forum.sky.money/t/september-4-2025-proposed-changes-to-spark-for-upcoming-spell/27102)
 
-Residual BUIDL tokens will be transfered from Spark to Grove on mainnet with the following details:
+Residual BUIDL tokens will be transferred from Spark to Grove on mainnet with the following details:
 
 - Recipient address: [0x491EDFB0B8b608044e227225C715981a30F3A44E](https://etherscan.io/address/0x491EDFB0B8b608044e227225C715981a30F3A44E) (Grove ALM Proxy)
 - Transfer amount: **900,612.89 BUIDL-I** (all BUIDL-I held in [Spark ALM Proxy](https://etherscan.io/address/0x1601843c5E9bC251A3272907010AFa41Fa18347E))
