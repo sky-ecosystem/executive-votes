@@ -126,7 +126,7 @@ The following November Ethena PTs will be onboarded to the Spark USDS Morpho vau
 
 #### [Ethereum] Spark USDC Morpho Vault - Create Vault and Onboard Pools
 
-- **Authorization**: [Governance Poll 1568](https://vote.sky.money/polling/QmXDwbcJ)  
+- **Authorization**: [Governance Poll 1568](https://vote.sky.money/polling/QmXDwbcJ)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/september-4-2025-proposed-changes-to-spark-for-upcoming-spell/27102)
 
 A Spark USDC Morpho vault will be created on mainnet and pools onboarded with the following details:
