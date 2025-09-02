@@ -5,7 +5,7 @@ date: 2025-09-04T00:00:00.000Z
 address: "$spell_address"
 ---
 
-# [Executive Proposal] stUSDS Onboarding, USDS-SKY Rewards Normalization, Prime Settlement Cycle, Core Simplification Buffer Budget Transfer, Accessibility Reward Budget Transfer, Spark Proxy Spell - September 4, 2025
+# [Executive Proposal] stUSDS Onboarding, USDS-SKY Rewards Normalization, Core Simplification Buffer Budget Transfer, Accessibility Reward Budget Transfer, Spark Proxy Spell - September 4, 2025
 
 The Governance Facilitators, Dewiz, and Sidestream have placed an executive proposal into the voting system. SKY holders should vote for this proposal if they support the following alterations to the Sky Protocol.
 
