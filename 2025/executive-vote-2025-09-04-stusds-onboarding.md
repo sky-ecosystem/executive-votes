@@ -157,7 +157,7 @@ The Spark USDC Morpho vault will be onboarded to the Spark Liquidity Layer on ma
 
 #### [Ethereum] Spark Liquidity Layer - Onboard Aave aUSDe
 
-- **Authorization**: [Governance Poll 1565](https://vote.sky.money/polling/QmTS1Jw7)  
+- **Authorization**: [Governance Poll 1565](https://vote.sky.money/polling/QmTS1Jw7)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/september-4-2025-proposed-changes-to-spark-for-upcoming-spell/27102)
 
 Aave aUSDe will be onboarded to the Spark Liquidity Layer on mainnet with the following [rate limits](https://docs.spark.fi/dev/spark-liquidity-layer/spark-alm-controller#rate-limits):
