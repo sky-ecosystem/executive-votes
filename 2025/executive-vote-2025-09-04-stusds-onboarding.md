@@ -186,7 +186,7 @@ The Curve swap [rate limits](https://docs.spark.fi/dev/spark-liquidity-layer/spa
 
 #### [Ethereum] Spark Liquidity Layer - Increase SparkLend spUSDt and spPYUSD Rate Limits
 
-- **Authorization**: [Governance Poll 1564](https://vote.sky.money/polling/QmNbTb5v)  
+- **Authorization**: [Governance Poll 1564](https://vote.sky.money/polling/QmNbTb5v)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/september-4-2025-proposed-changes-to-spark-for-upcoming-spell/27102)
 
 SparkLend spUSDT and spPYUSD deposit [rate limits](https://docs.spark.fi/dev/spark-liquidity-layer/spark-alm-controller#rate-limits) will be increased in the Spark Liquidity Layer on mainnet with the following parameters:
