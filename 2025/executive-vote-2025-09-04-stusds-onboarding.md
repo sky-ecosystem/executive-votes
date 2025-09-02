@@ -43,7 +43,7 @@ If this executive proposal does not pass within 30 days, then it will expire and
 If this executive proposal passes, then stUSDS will be onboarded to support SKY Staking as described in [A.4.4.1 - SKY Staking](https://sky-atlas.powerhouse.io/A.4.4.1_SKY_Staking/3923f478-26b6-4036-b6d2-92b94505e6e1%7Cb341740e), by executing the following actions:
 
 - Update LSEV2-SKY-A clipper by calling [`LockstakeInit.updateClipper`](https://github.com/sky-ecosystem/lockstake/blob/d4dbe6eab1644e398d3fa59fe84c0522fad46532/deploy/LockstakeInit.sol#L318-L388) with the following parameters:
-  - clipper_ being LockstakeClipper at [0x836F56750517b1528B5078Cba4Ac4B94fBE4A399](https://etherscan.io/address/0x836F56750517b1528B5078Cba4Ac4B94fBE4A399)
+  - `clipper_` being `LockstakeClipper` at [0x836F56750517b1528B5078Cba4Ac4B94fBE4A399](https://etherscan.io/address/0x836F56750517b1528B5078Cba4Ac4B94fBE4A399)
   - cuttee being ERC1967Proxy for StUsds at [0x99CD4Ec3f88A45940936F469E4bB72A2A701EEB9](https://etherscan.io/address/0x99CD4Ec3f88A45940936F469E4bB72A2A701EEB9)
 - Initialize stUSDS module by calling StUsdsInit.init
   - instance.stUsds being ERC1967Proxy for StUsds at [0x99CD4Ec3f88A45940936F469E4bB72A2A701EEB9](https://etherscan.io/address/0x99CD4Ec3f88A45940936F469E4bB72A2A701EEB9)
