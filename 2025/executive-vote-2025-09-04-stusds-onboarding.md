@@ -50,7 +50,7 @@ If this executive proposal passes, then stUSDS will be onboarded to support SKY 
   - `instance.stUsdsImp` being `StUsds implementation` at [0x7A61B7adCFD493f7CF0F86dFCECB94b72c227F22](https://etherscan.io/address/0x7A61B7adCFD493f7CF0F86dFCECB94b72c227F22)
   - `instance.rateSetter` being `StUsdsRateSetter` at [0x30784615252B13E1DbE2bDf598627eaC297Bf4C5](https://etherscan.io/address/0x30784615252B13E1DbE2bDf598627eaC297Bf4C5)
   - `instance.mom` being `StUsdsMom` at [0xf5DEe2CeDC5ADdd85597742445c0bf9b9cAfc699](https://etherscan.io/address/0xf5DEe2CeDC5ADdd85597742445c0bf9b9cAfc699)
-  - cfg.clip being LockstakeClipper at [0x836F56750517b1528B5078Cba4Ac4B94fBE4A399](https://etherscan.io/address/0x836F56750517b1528B5078Cba4Ac4B94fBE4A399)
+  - `cfg.clip` being `LockstakeClipper` at [0x836F56750517b1528B5078Cba4Ac4B94fBE4A399](https://etherscan.io/address/0x836F56750517b1528B5078Cba4Ac4B94fBE4A399)
   - cfg.str being **0 basis points**
   - cfg.cap being **200,000,000 USDS**
   - cfg.line being **200,000,000 USDS**
