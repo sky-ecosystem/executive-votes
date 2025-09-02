@@ -48,7 +48,7 @@ If this executive proposal passes, then stUSDS will be onboarded to support SKY 
 - Initialize stUSDS module by calling [`StUsdsInit.init`](https://github.com/sky-ecosystem/stusds/blob/09b7eee515866d725955894ce1d00a5c09ce23b0/deploy/StUsdsInit.sol#L82-L143) with the following parameters:
   - `instance.stUsds` being `ERC1967Proxy for StUsds` at [0x99CD4Ec3f88A45940936F469E4bB72A2A701EEB9](https://etherscan.io/address/0x99CD4Ec3f88A45940936F469E4bB72A2A701EEB9)
   - `instance.stUsdsImp` being `StUsds implementation` at [0x7A61B7adCFD493f7CF0F86dFCECB94b72c227F22](https://etherscan.io/address/0x7A61B7adCFD493f7CF0F86dFCECB94b72c227F22)
-  - instance.rateSetter being StUsdsRateSetter at [0x30784615252B13E1DbE2bDf598627eaC297Bf4C5](https://etherscan.io/address/0x30784615252B13E1DbE2bDf598627eaC297Bf4C5)
+  - `instance.rateSetter` being `StUsdsRateSetter` at [0x30784615252B13E1DbE2bDf598627eaC297Bf4C5](https://etherscan.io/address/0x30784615252B13E1DbE2bDf598627eaC297Bf4C5)
   - instance.mom being StUsdsMom at [0xf5DEe2CeDC5ADdd85597742445c0bf9b9cAfc699](https://etherscan.io/address/0xf5DEe2CeDC5ADdd85597742445c0bf9b9cAfc699)
   - cfg.clip being LockstakeClipper at [0x836F56750517b1528B5078Cba4Ac4B94fBE4A399](https://etherscan.io/address/0x836F56750517b1528B5078Cba4Ac4B94fBE4A399)
   - cfg.str being **0 basis points**
