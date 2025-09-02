@@ -57,7 +57,7 @@ If this executive proposal passes, then stUSDS will be onboarded to support SKY 
   - `cfg.tau` being **57,600 seconds**
   - `cfg.maxLine` being **1 billion USDS**
   - `cfg.maxCap` being **1 billion USDS**
-  - cfg.minStrBps being **200 basis points**
+  - `cfg.minStrBps` being **200 basis points**
   - cfg.maxStrBps being **5,000 basis points**
   - cfg.stepStrBps being **4,000 basis points**
   - cfg.minDutyBps being **210 basis points**
