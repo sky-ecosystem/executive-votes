@@ -61,7 +61,7 @@ If this executive proposal passes, then stUSDS will be onboarded to support SKY 
   - `cfg.maxStrBps` being **5,000 basis points**
   - `cfg.stepStrBps` being **4,000 basis points**
   - `cfg.minDutyBps` being **210 basis points**
-  - cfg.maxDutyBps being **5,000 basis points**
+  - `cfg.maxDutyBps` being **5,000 basis points**
   - cfg.stepDutyBps being **4,000 basis points**
   - cfg.buds being [0xBB865F94B8A92E57f79fCc89Dfd4dcf0D3fDEA16](https://etherscan.io/address/0xBB865F94B8A92E57f79fCc89Dfd4dcf0D3fDEA16)
 
