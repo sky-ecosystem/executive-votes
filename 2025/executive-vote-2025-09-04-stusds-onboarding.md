@@ -213,7 +213,7 @@ Residual BUIDL tokens will be transferred from Spark to Grove on mainnet with th
 - **Authorization**: [Governance Poll 1570](https://vote.sky.money/polling/QmbHt4Vg)  
 - **Proposal**: [Forum Post](https://forum.sky.money/t/september-4-2025-proposed-changes-to-spark-for-upcoming-spell/27102)
 
-All accumulated DAI and USDS reserves will be transfered from the SparkLend Collector to the Spark Proxy on mainnet with the following details:
+All accumulated DAI and USDS reserves will be transferred from the SparkLend Collector to the Spark Proxy on mainnet with the following details:
 
 - Sender address: [0xb137E7d16564c81ae2b0C8ee6B55De81dd46ECe5](https://etherscan.io/address/0xb137E7d16564c81ae2b0C8ee6B55De81dd46ECe5) (SparkLend Collector)
 - Recipient address: [0x3300f198988e4C9C63F75dF86De36421f06af8c4](https://etherscan.io/address/0x3300f198988e4C9C63F75dF86De36421f06af8c4) (Spark Proxy)
