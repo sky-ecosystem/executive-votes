@@ -99,7 +99,7 @@ If this executive proposal passes, then **3 million USDS** will be transferred t
 
 ### Spark Proxy Spell
 
-If this executive proposal passes, then the Prime Agent proxy spell for Spark will be executed at [0xe7782847eF825FF37662Ef2F426f2D8c5D904121](https://etherscan.io/address/0xe7782847eF825FF37662Ef2F426f2D8c5D904121), with the  following contents. 
+If this executive proposal passes, then the Prime Agent proxy spell for Spark will be executed at [0xe7782847eF825FF37662Ef2F426f2D8c5D904121](https://etherscan.io/address/0xe7782847eF825FF37662Ef2F426f2D8c5D904121), with the following contents. 
 
 #### [Ethereum] Spark USDS Morpho Vault - Onboard November Ethena PTs
 
