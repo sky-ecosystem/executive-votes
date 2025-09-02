@@ -82,13 +82,6 @@ If this executive proposal passes, then the distribution of SKY token rewards to
   - tot: **76,739,938 SKY**
 - File the new stream ID on REWARDS_DIST_USDS_SKY
 
-### Prime Settlement Cycle
-
-- **Authorization**: [TBD]()
-- **Proposal**: [TBD]()
-
-If this executive proposal passes, then $executive_entry_3_implications.
-
 ### Core Simplification Buffer Budget Transfer
 
 - **Authorization**: [Governance Poll 1562](https://vote.sky.money/polling/QmQwTjgE)
