@@ -79,7 +79,7 @@ If this executive proposal passes, then the distribution of SKY token rewards to
   - Increase SKY allowance for MCD_VEST_SKY_TREASURY to the sum of all active streams and the new stream created by this executive vote.
   - vestBgn: block.timestamp
   - vestTau: block.timestamp + 15,724,800 seconds (182 days after the spell executes)
-  - tot: **76,739,938 SKY**
+  - `tot`: **76,739,938 SKY**
 - File the new stream ID on REWARDS_DIST_USDS_SKY
 
 ### Core Simplification Buffer Budget Transfer
