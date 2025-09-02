@@ -18,7 +18,7 @@ If you are new to voting in the Sky Protocol, please see the [voting guide](http
 If this executive proposal passes, the following **actions** will occur within the Sky Protocol:
 
 - stUSDS will be onboarded with the actions below.
-- The reward rate for USDS-SKY farm will be updated with the actions described below.
+- The reward rate for the USDS-SKY farm will be updated with the actions described below.
 - A transfer of TBD will be made to Spark for the Prime Settlement Cycle.
 - **8 million USDS** will be transfered to [0xd8507ef0a59f37d15b5d7b630fa6eea40ce4afdd](https://etherscan.io/address/0xd8507ef0a59f37d15b5d7b630fa6eea40ce4afdd) for the Core Simplification Buffer budget.
 - **3 million USDS** will be transfered to [0x05F471262d15EECA4059DadE070e5BEd509a4e73](https://etherscan.io/address/0x05F471262d15EECA4059DadE070e5BEd509a4e73) for the Accessibility Reward budget.
