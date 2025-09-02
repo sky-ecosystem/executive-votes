@@ -88,7 +88,7 @@ If this executive proposal passes, then the distribution of SKY token rewards to
 - **Authorization**: [Governance Poll 1562](https://vote.sky.money/polling/QmQwTjgE)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-2025-09-01/27122)
 
-If this executive proposal passes, then **8 million USDS** will be transfered to [0xd8507ef0a59f37d15b5d7b630fa6eea40ce4afdd](https://etherscan.io/address/0xd8507ef0a59f37d15b5d7b630fa6eea40ce4afdd) for the [Core Simplification Buffer](https://github.com/sky-ecosystem/next-gen-atlas/pull/54/files#diff-29fcb684de058590234788c2b217dbc0eb06b3e61aa7bb19a4d0148f38490f28R19747) budget.
+If this executive proposal passes, then **8 million USDS** will be transferred to [0xd8507ef0a59f37d15b5d7b630fa6eea40ce4afdd](https://etherscan.io/address/0xd8507ef0a59f37d15b5d7b630fa6eea40ce4afdd) for the [Core Simplification Buffer Budget](https://github.com/sky-ecosystem/next-gen-atlas/pull/54/files#diff-29fcb684de058590234788c2b217dbc0eb06b3e61aa7bb19a4d0148f38490f28R19747).
 
 ### Accessibility Reward Budget Transfer
 
