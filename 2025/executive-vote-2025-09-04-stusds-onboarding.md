@@ -59,7 +59,7 @@ If this executive proposal passes, then stUSDS will be onboarded to support SKY 
   - `cfg.maxCap` being **1 billion USDS**
   - `cfg.minStrBps` being **200 basis points**
   - `cfg.maxStrBps` being **5,000 basis points**
-  - cfg.stepStrBps being **4,000 basis points**
+  - `cfg.stepStrBps` being **4,000 basis points**
   - cfg.minDutyBps being **210 basis points**
   - cfg.maxDutyBps being **5,000 basis points**
   - cfg.stepDutyBps being **4,000 basis points**
