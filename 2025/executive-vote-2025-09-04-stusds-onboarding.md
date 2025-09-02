@@ -194,7 +194,7 @@ SparkLend spUSDT and spPYUSD deposit [rate limits](https://docs.spark.fi/dev/spa
 - SparkLend spUSDT
   - maxAmount: Increase by 50 million USDT from 50 million USDT to **100 million USDT**
   - slope: Increase by 75 million USDT per day from 25 million USDT per day to **100 million USDT per day**
-- SparkLend spPYUSD:
+- SparkLend spPYUSD
   - maxAmount: Increase by 50 million PYUSD from 50 million PYUSD to **100 million PYUSD**
   - slope: Increase by 75 million PYUSD per day from 25 million PYUSD per day to **100 million PYUSD per day**
 
