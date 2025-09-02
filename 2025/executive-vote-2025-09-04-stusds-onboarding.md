@@ -221,7 +221,7 @@ All accumulated DAI and USDS reserves will be transferred from the SparkLend Col
 
 #### [Ethereum] Spark Treasury - Transfer USDS to Spark Foundation
 
-- **Authorization**: [Atlas](https://sky-atlas.powerhouse.io/A.2.9.1.2.2.5.4.1_Initial_Cash_Grant_To_Spark_Foundation/21ff2ff0-8d73-8018-be75-c28cee3dddb7%7C9e1f80092582d59891b0d93ee881)  
+- **Authorization**: [Atlas](https://sky-atlas.powerhouse.io/A.2.9.1.2.2.5.4.1_Initial_Cash_Grant_To_Spark_Foundation/21ff2ff0-8d73-8018-be75-c28cee3dddb7%7C9e1f80092582d59891b0d93ee881)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/september-4-2025-proposed-changes-to-spark-for-upcoming-spell/27102)
 
 The following transfer of USDS from the Spark SubProxy to the Spark Foundation will be executed:
