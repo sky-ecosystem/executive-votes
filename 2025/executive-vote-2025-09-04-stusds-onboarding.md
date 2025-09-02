@@ -147,7 +147,7 @@ A Spark USDC Morpho vault will be created on mainnet and pools onboarded with th
 
 #### [Ethereum] Spark Liquidity Layer - Onboard Spark USDC Morpho Vault
 
-- **Authorization**: [Governance Poll 1566](https://vote.sky.money/polling/QmRLrw8X)  
+- **Authorization**: [Governance Poll 1566](https://vote.sky.money/polling/QmRLrw8X)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/september-4-2025-proposed-changes-to-spark-for-upcoming-spell/27102)
 
 The Spark USDC Morpho vault will be onboarded to the Spark Liquidity Layer on mainnet with the following deposit [rate limits](https://docs.spark.fi/dev/spark-liquidity-layer/spark-alm-controller#rate-limits):
