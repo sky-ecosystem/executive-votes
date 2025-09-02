@@ -145,7 +145,6 @@ A Spark USDC Morpho vault will be created on mainnet and pools onboarded with th
   - wstETH 86%:
     - Supply cap: **500 million USDC**
 
-
 #### [Ethereum] Spark Liquidity Layer - Onboard Spark USDC Morpho Vault
 
 - **Authorization**: [Governance Poll 1566](https://vote.sky.money/polling/QmRLrw8X)  
