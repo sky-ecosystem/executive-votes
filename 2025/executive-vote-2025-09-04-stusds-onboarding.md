@@ -44,7 +44,7 @@ If this executive proposal passes, then stUSDS will be onboarded to support SKY 
 
 - Update LSEV2-SKY-A clipper by calling [`LockstakeInit.updateClipper`](https://github.com/sky-ecosystem/lockstake/blob/d4dbe6eab1644e398d3fa59fe84c0522fad46532/deploy/LockstakeInit.sol#L318-L388) with the following parameters:
   - `clipper_` being `LockstakeClipper` at [0x836F56750517b1528B5078Cba4Ac4B94fBE4A399](https://etherscan.io/address/0x836F56750517b1528B5078Cba4Ac4B94fBE4A399)
-  - cuttee being ERC1967Proxy for StUsds at [0x99CD4Ec3f88A45940936F469E4bB72A2A701EEB9](https://etherscan.io/address/0x99CD4Ec3f88A45940936F469E4bB72A2A701EEB9)
+  - `cuttee` being `ERC1967Proxy for StUsds` at [0x99CD4Ec3f88A45940936F469E4bB72A2A701EEB9](https://etherscan.io/address/0x99CD4Ec3f88A45940936F469E4bB72A2A701EEB9)
 - Initialize stUSDS module by calling StUsdsInit.init
   - instance.stUsds being ERC1967Proxy for StUsds at [0x99CD4Ec3f88A45940936F469E4bB72A2A701EEB9](https://etherscan.io/address/0x99CD4Ec3f88A45940936F469E4bB72A2A701EEB9)
   - instance.stUsdsImp being StUsds implementation at [0x7A61B7adCFD493f7CF0F86dFCECB94b72c227F22](https://etherscan.io/address/0x7A61B7adCFD493f7CF0F86dFCECB94b72c227F22)
