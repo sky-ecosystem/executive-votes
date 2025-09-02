@@ -103,7 +103,7 @@ If this executive proposal passes, then the Prime Agent proxy spell for Spark wi
 
 #### [Ethereum] Spark USDS Morpho Vault - Onboard November Ethena PTs
 
-- **Authorization**: [Governance Poll 1569](https://vote.sky.money/polling/QmeLKi1N)  
+- **Authorization**: [Governance Poll 1569](https://vote.sky.money/polling/QmeLKi1N)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/september-4-2025-proposed-changes-to-spark-for-upcoming-spell/27102)
 
 The following November Ethena PTs will be onboarded to the Spark USDS Morpho vault on mainnet.
