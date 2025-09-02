@@ -95,7 +95,7 @@ If this executive proposal passes, then **8 million USDS** will be transfered to
 - **Authorization**: [Governance Poll 1561](https://vote.sky.money/polling/QmXRwLEu)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/utilization-of-the-accessibility-reward-budget-a-2-4/27131)
 
-If this executive proposal passes, then **3 million USDS** will be transfered to [0x05F471262d15EECA4059DadE070e5BEd509a4e73](https://etherscan.io/address/0x05F471262d15EECA4059DadE070e5BEd509a4e73) for the [Accessibility Reward](https://sky-atlas.powerhouse.io/A.2.3.8.1.1.1_Purpose/1b3f2ff0-8d73-8083-90b3-e9b92abb01b5%7C9e1ff936eafd750cb0dc) budget.
+If this executive proposal passes, then **3 million USDS** will be transferred to [0x05F471262d15EECA4059DadE070e5BEd509a4e73](https://etherscan.io/address/0x05F471262d15EECA4059DadE070e5BEd509a4e73) for the [Accessibility Reward](https://sky-atlas.powerhouse.io/A.2.3.8.1.1.1_Purpose/1b3f2ff0-8d73-8083-90b3-e9b92abb01b5%7C9e1ff936eafd750cb0dc) budget.
 
 ### Spark Proxy Spell
 
