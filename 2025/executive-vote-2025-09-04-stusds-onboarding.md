@@ -210,7 +210,7 @@ Residual BUIDL tokens will be transferred from Spark to Grove on mainnet with th
 
 #### [Ethereum] Spark Treasury - Withdraw USDS and DAI Reserves from SparkLend
 
-- **Authorization**: [Governance Poll 1570](https://vote.sky.money/polling/QmbHt4Vg)  
+- **Authorization**: [Governance Poll 1570](https://vote.sky.money/polling/QmbHt4Vg)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/september-4-2025-proposed-changes-to-spark-for-upcoming-spell/27102)
 
 All accumulated DAI and USDS reserves will be transferred from the SparkLend Collector to the Spark Proxy on mainnet with the following details:
