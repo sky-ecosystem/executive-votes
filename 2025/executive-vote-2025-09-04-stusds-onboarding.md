@@ -21,7 +21,7 @@ If this executive proposal passes, the following **actions** will occur within t
 - The reward rate for the USDS-SKY farm will be updated with the actions described below.
 - **8 million USDS** will be transferred to [0xd8507ef0a59f37d15b5d7b630fa6eea40ce4afdd](https://etherscan.io/address/0xd8507ef0a59f37d15b5d7b630fa6eea40ce4afdd) for the Core Simplification Buffer Budget.
 - **3 million USDS** will be transferred to [0x05F471262d15EECA4059DadE070e5BEd509a4e73](https://etherscan.io/address/0x05F471262d15EECA4059DadE070e5BEd509a4e73) for the Accessibility Reward budget.
-- A Spark proxy spell will be executed at TBD.
+- A Spark proxy spell will be executed at [0xe7782847eF825FF37662Ef2F426f2D8c5D904121](https://etherscan.io/address/0xe7782847eF825FF37662Ef2F426f2D8c5D904121).
 
 **Voting for this executive proposal will place your SKY in support of the actions outlined above.**
 
@@ -99,7 +99,7 @@ If this executive proposal passes, then **3 million USDS** will be transferred t
 
 ### Spark Proxy Spell
 
-If this executive proposal passes, then the Prime Agent proxy spell for Spark will be executed at [TBD](), with the following contents. 
+If this executive proposal passes, then the Prime Agent proxy spell for Spark will be executed at [0xe7782847eF825FF37662Ef2F426f2D8c5D904121](https://etherscan.io/address/0xe7782847eF825FF37662Ef2F426f2D8c5D904121), with the  following contents. 
 
 #### [Ethereum] Spark USDS Morpho Vault - Onboard November Ethena PTs
 
