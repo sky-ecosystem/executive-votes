@@ -170,7 +170,7 @@ Aave aUSDe will be onboarded to the Spark Liquidity Layer on mainnet with the fo
 
 #### [Ethereum] Spark Liquidity Layer - Increase Curve Swap Rate Limits
 
-- **Authorization**: [Governance Poll 1563](https://vote.sky.money/polling/QmUKs4Lt)  
+- **Authorization**: [Governance Poll 1563](https://vote.sky.money/polling/QmUKs4Lt)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/september-4-2025-proposed-changes-to-spark-for-upcoming-spell/27102)
 
 The Curve swap [rate limits](https://docs.spark.fi/dev/spark-liquidity-layer/spark-alm-controller#rate-limits) will be increased in the Spark Liquidity Layer on mainnet with the following parameters:
