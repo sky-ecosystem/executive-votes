@@ -1,6 +1,6 @@
 ---
 title: Template - [Executive Vote] stUSDS Onboarding, SKY Token Rewards Rebalance, Core Simplification Buffer Budget Transfer, Accessibility Reward Budget Transfer, Spark Proxy Spell - September 4, 2025
-summary: Onboard stUSDS with Bounded External Access Module Exception (BEAM), update Sky Token Rewards stream, execute Prime Settlement Cycle for Spark and Grove, transfer USDS for Core Simplification Buffer Budget, transfer USDS for Accessibility Reward Budget, execute Spark Proxy Spell.
+summary: Onboard stUSDS and the stUSDS Bounded External Access Module Exception (stUSDS BEAM), update Sky Token Rewards stream, transfer USDS for Core Simplification Buffer Budget, transfer USDS for Accessibility Reward Budget, execute Spark Proxy Spell.
 date: 2025-09-04T00:00:00.000Z
 address: "$spell_address"
 ---
