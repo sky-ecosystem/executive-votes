@@ -124,7 +124,7 @@ The following November Ethena PTs will be onboarded to the Spark USDS Morpho vau
   - PT value at redemption: **fixed 1 USD**
   - Linear discount rate: **15%**
 
-#### [Ethereum] Spark USDC Morpho Vault - Create Vault and Onboard Assets
+#### [Ethereum] Spark USDC Morpho Vault - Create Vault and Onboard Pools
 
 - **Authorization**: [Governance Poll 1568](https://vote.sky.money/polling/QmXDwbcJ)  
 - **Proposal**: [Forum Post](https://forum.sky.money/t/september-4-2025-proposed-changes-to-spark-for-upcoming-spell/27102)
