@@ -191,7 +191,7 @@ The Curve swap [rate limits](https://docs.spark.fi/dev/spark-liquidity-layer/spa
 
 SparkLend spUSDT and spPYUSD deposit [rate limits](https://docs.spark.fi/dev/spark-liquidity-layer/spark-alm-controller#rate-limits) will be increased in the Spark Liquidity Layer on mainnet with the following parameters:
 
-- SparkLend spUSDT:
+- SparkLend spUSDT
   - maxAmount: Increase by 50 million USDT from 50 million USDT to **100 million USDT**
   - slope: Increase by 75 million USDT per day from 25 million USDT per day to **100 million USDT per day**
 - SparkLend spPYUSD:
