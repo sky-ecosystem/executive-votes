@@ -37,7 +37,7 @@ If this executive proposal does not pass within 30 days, then it will expire and
 
 ### stUSDS Onboarding
 
-- **Authorization**: [Governance Poll 1562](https://vote.sky.money/polling/QmQwTjgE)  
+- **Authorization**: [Governance Poll 1562](https://vote.sky.money/polling/QmQwTjgE)
 - **Proposal**: [Forum Post 1](https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-2025-09-01/27122), [2](https://forum.sky.money/t/technical-scope-of-the-stusds-module-launch/27129)
 
 If this executive proposal passes, then stUSDS will be onboarded to support SKY Staking, as described in [A.4.4.1 - SKY Staking](https://sky-atlas.powerhouse.io/A.4.4.1_SKY_Staking/3923f478-26b6-4036-b6d2-92b94505e6e1%7Cb341740e), by executing the following actions:
