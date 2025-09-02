@@ -200,7 +200,7 @@ SparkLend spUSDT and spPYUSD deposit [rate limits](https://docs.spark.fi/dev/spa
 
 #### [Ethereum] Spark Treasury - Transfer BUIDL to Grove
 
-- **Authorization**: [Governance Poll 1567](https://vote.sky.money/polling/QmbSeE7t)  
+- **Authorization**: [Governance Poll 1567](https://vote.sky.money/polling/QmbSeE7t)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/september-4-2025-proposed-changes-to-spark-for-upcoming-spell/27102)
 
 Residual BUIDL tokens will be transferred from Spark to Grove on mainnet with the following details:
