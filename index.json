@@ -52,5 +52,14 @@
       "date": "2025-08-21T00:00:00.000Z",
       "address": "0x3F89feDD7588456e44189A36fD888c56B2C1f589"
     }
+  },
+  {
+    "path": "2025/executive-vote-2025-09-04-stusds-onboarding.md",
+    "metadata": {
+      "title": "Template - [Executive Vote] stUSDS Onboarding, SKY Token Rewards Rebalance, Core Simplification Buffer Budget Transfer, Accessibility Reward Budget Transfer, Spark Proxy Spell - September 4, 2025",
+      "summary": "Onboard stUSDS and the stUSDS Bounded External Access Module Exception (stUSDS BEAM), update Sky Token Rewards stream, transfer USDS for Core Simplification Buffer Budget, transfer USDS for Accessibility Reward Budget, execute Spark Proxy Spell.",
+      "date": "2025-09-04T00:00:00.000Z",
+      "address": "$spell_address"
+    }
   }
 ]
