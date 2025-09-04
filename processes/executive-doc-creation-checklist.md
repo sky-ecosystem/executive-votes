@@ -36,7 +36,7 @@
 	- [ ] Ensure that each item in the doc contains any links required for voters to determine the context surrounding its inclusion.
 	- [ ] Ensure that the framing and tense used for each item is future-conditional. Ie: "IF this executive proposal passes, THEN this action will take place".
 	- [ ] Ensure that hyperlinks to documentation and/or context are added to key parameters, terms, and contracts where reasonable and possible.
- 	- [ ] [ ] Ensure that Ethereum addresses appear in checksummed format.
+ 	- [ ] Ensure that Ethereum addresses appear in checksummed format.
 	- [ ] Ensure that Ethereum and IPFS addresses are hyperlinked such that it is easy to view their details.
 	- [ ] Ensure that parties implicated in the proposal outcome related to this item are aware of the wording used.
 
