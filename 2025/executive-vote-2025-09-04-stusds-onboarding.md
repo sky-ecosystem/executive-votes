@@ -19,7 +19,7 @@ If this executive proposal passes, the following **actions** will occur within t
 
 - stUSDS will be onboarded with the actions below.
 - The reward rate for the USDS-SKY farm will be updated with the actions described below.
-- **8 million USDS** will be transferred to [0xd8507ef0a59f37d15b5d7b630fa6eea40ce4afdd](https://etherscan.io/address/0xd8507ef0a59f37d15b5d7b630fa6eea40ce4afdd) for the Core Simplification Buffer Budget.
+- **8 million USDS** will be transferred to [0xD8507ef0A59f37d15B5D7b630FA6EEa40CE4AFdD](https://etherscan.io/address/0xd8507ef0a59f37d15b5d7b630fa6eea40ce4afdd) for the Core Simplification Buffer Budget.
 - **3 million USDS** will be transferred to [0x05F471262d15EECA4059DadE070e5BEd509a4e73](https://etherscan.io/address/0x05F471262d15EECA4059DadE070e5BEd509a4e73) for the Accessibility Reward budget.
 - A Spark proxy spell will be executed at [0xe7782847eF825FF37662Ef2F426f2D8c5D904121](https://etherscan.io/address/0xe7782847eF825FF37662Ef2F426f2D8c5D904121).
 
@@ -88,7 +88,7 @@ If this executive proposal passes, then the distribution of SKY token rewards to
 - **Authorization**: [Governance Poll 1562](https://vote.sky.money/polling/QmQwTjgE)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-2025-09-01/27122)
 
-If this executive proposal passes, then **8 million USDS** will be transferred to [0xd8507ef0a59f37d15b5d7b630fa6eea40ce4afdd](https://etherscan.io/address/0xd8507ef0a59f37d15b5d7b630fa6eea40ce4afdd) for the [Core Simplification Buffer Budget](https://github.com/sky-ecosystem/next-gen-atlas/pull/54/files#diff-29fcb684de058590234788c2b217dbc0eb06b3e61aa7bb19a4d0148f38490f28R19747).
+If this executive proposal passes, then **8 million USDS** will be transferred to [0xD8507ef0A59f37d15B5D7b630FA6EEa40CE4AFdD](https://etherscan.io/address/0xd8507ef0a59f37d15b5d7b630fa6eea40ce4afdd) for the [Core Simplification Buffer Budget](https://github.com/sky-ecosystem/next-gen-atlas/pull/54/files#diff-29fcb684de058590234788c2b217dbc0eb06b3e61aa7bb19a4d0148f38490f28R19747).
 
 ### Accessibility Reward Budget Transfer
 
