@@ -75,7 +75,7 @@ If this executive proposal passes, then the following series of actions related 
 - **Authorization**: [Atlas Axis Authorization](https://forum.sky.money/t/september-18-2025-proposed-changes-to-lsev2-sky-a-liquidation-ratio/27160/2)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/september-18-2025-proposed-changes-to-lsev2-sky-a-liquidation-ratio/27160)
 
-If this executive proposal passes, then the LSEV2-SKY-A Liquidation Ratio will be increased as follows:
+If this executive proposal passes, then the LSEV2-SKY-A [Liquidation Ratio](https://sky-atlas.powerhouse.io/A.3.8.1.1.2.1_Liquidation_Ratio/1184ab96-8cad-4755-9798-2c8782304407|57eaf45219bea3b430c2) will be increased as follows:
 
 - Increase LSEV2-SKY-A Liquidation Ratio by 20 percentage points, from 125% to **145%**.
 
@@ -84,7 +84,7 @@ If this executive proposal passes, then the LSEV2-SKY-A Liquidation Ratio will b
 - **Authorization**: [A.2.5.1.2.2.1](https://sky-atlas.powerhouse.io/A.2.5.1.2.2.1_Stage_1/241f2ff0-8d73-8014-b124-e76f5f5c91fc%7C9e1fcc279923ea16fa2d)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/monthly-settlement-cycle-1-july-august-september-18-2025-spell/27173)
 
-If this executive proposal passes, then the Monthly Settlement Cycle corresponding to July-August 2025 will be executed as follows.
+If this executive proposal passes, then the [Monthly Settlement Cycle](https://sky-atlas.powerhouse.io/A.2.5_Sky_Core_Monthly_Settlement_Cycle/1d8f2ff0-8d73-807c-80f0-e58dde70cc27|9e1f) corresponding to July-August 2025 will be executed as follows.
 
 #### Spark Settlement
 
