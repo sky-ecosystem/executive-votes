@@ -54,7 +54,7 @@ If this executive proposal passes, then the Delayed Upgrade Penalty for upgradin
 If this executive proposal passes, then the following series of actions related to the genesis process pertaining to Launch Agent 2 will be executed:
 
 - Offboard previously ratified operator in favor of a SubProxy-based setup:
-  - Remove Operator ability to transfer USDS out of the Nova allocator buffer via:
+  - Remove Operator ability to transfer USDS out of the Launch Agent 2 allocator buffer via:
     - `AllocatorBufferLike(ALLOCATOR_NOVA_A_BUFFER).approve(USDS, NOVA_OPERATOR, 0);`
   - Remove Operator from the role 0 via:
     - `AllocatorRolesLike(ALLOCATOR_ROLES).setUserRole("ALLOCATOR-NOVA-A", NOVA_OPERATOR, 0, false);`
