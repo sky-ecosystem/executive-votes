@@ -122,7 +122,7 @@ If this executive proposal passes, then a total of **22,899 USDS** will be distr
 - **Authorization**: [Ecosystem Authorization](https://forum.sky.money/t/atlas-core-development-payment-requests-september-2025/27139/6), [Atlas Axis Authorizations](https://forum.sky.money/t/atlas-core-development-payment-requests-september-2025/27139/5)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/atlas-core-development-payment-requests-september-2025/27139)
 
-If this executive proposal passes, then a total of **77,724 USDS** and **618,000 SKY** will be distributed as Atlas Core Development payments for August 2025 as follows:
+If this executive proposal passes, then a total of **77,724 USDS** and **618,000 SKY** will be distributed as Atlas Core Development payments for September 2025 as follows:
 
 #### USDS Payments
 
