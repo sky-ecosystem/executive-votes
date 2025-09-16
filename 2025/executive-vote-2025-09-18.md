@@ -29,7 +29,7 @@ If this executive proposal passes, the following **actions** will occur within t
 
 Unless otherwise noted, the actions listed above are subject to the [GSM Pause Delay](https://sky-atlas.powerhouse.io/A.1.9.2.1_Pause_Delay/a98b8227-95f6-4711-9d8d-f52cbc6ad2d0|0db30758e055). This means that if this executive proposal passes, the changes and additions listed above will only become active in the Sky Protocol after the GSM Pause Delay has expired. The GSM Pause Delay is currently set to [**24 hours**](https://sky-atlas.powerhouse.io/A.1.9.2.1.2_Pause_Delay_Current_Value/09d2514b-3169-4755-a654-2c774456980d|0db30758e055d2d0).
 
-$OfficeHours? This executive proposal includes an office-hours modifier that means that it **can only be executed between 14:00 and 21:00 UTC, Monday - Friday**.
+This executive proposal includes an office-hours modifier that means that it **can only be executed between 14:00 and 21:00 UTC, Monday - Friday**.
 
 If this executive proposal does not pass within 30 days, then it will expire and can no longer have any effect on the Sky Protocol.
 
@@ -89,14 +89,14 @@ If this executive proposal passes, then the Monthly Settlement Cycle correspondi
 #### Spark Settlement
 
 - Mint 1,603,952 USDS debt in ALLOCATOR-SPARK-A and transfer the amount to the Surplus Buffer via:
-  -_`takeAllocatorPayment(ALLOCATOR-SPARK-A, ALLOCATOR_SPARK_A_VAULT, 1_603_952e18);`
+  - `_takeAllocatorPayment(ALLOCATOR_SPARK_A_VAULT, 1_603_952e18);`
 - Send 5,927,944 USDS from the Surplus Buffer to the Spark SubProxy via:
   - `_transferUsds(SPARK_PROXY: 0x3300f198988e4C9C63F75dF86De36421f06af8c4, 5_927_944e18);`
 
 #### Grove Settlement
 
 - Mint 4,788,407 USDS debt in ALLOCATOR-BLOOM-A and transfer the amount to the Surplus Buffer via:
-  - `_takeAllocatorPayment(ALLOCATOR-BLOOM-A, ALLOCATOR_BLOOM_A_VAULT, 4_788_407e18);`
+  - `_takeAllocatorPayment(ALLOCATOR_BLOOM_A_VAULT, 4_788_407e18);`
 - Send 30,654 USDS from the Surplus Buffer to the Grove SubProxy via:
   - `_transferUsds(GROVE_PROXY: 0x1369f7b2b38c76B6478c0f0E66D94923421891Ba, 30_654e18);`
 
