@@ -1,11 +1,11 @@
 ---
-title: Template - [Executive Vote] Delayed Upgrade Penalty, Remove Nova Operator, LSEV2-SKY-A Liquidation Ratio Increase, First Monthly Settlement Cycle, AD Compensation, Atlas Core Development USDS Payments for September 2025, Atlas Core Development SKY Payments for September 2025, Spark Proxy Spell - September 18, 2025
-summary: Set Delayed Upgrade Penalty, Remove Nova Operator as the operator of Launch Agent 2, LSEV2-SKY-A Liquidation Ratio increase, Monthly Settlement Cycle execution for July-August 2025, Aligned Delegate Compensation, Atlas Core Development payments for September 2025, Spark proxy spell execution.
+title: Template - [Executive Vote] Delayed Upgrade Penalty, Nova Allocator Adjustment, LSEV2-SKY-A Liquidation Ratio Increase, First Monthly Settlement Cycle, AD Compensation, Atlas Core Development USDS Payments for September 2025, Atlas Core Development SKY Payments for September 2025, Spark Proxy Spell - September 18, 2025
+summary: Set Delayed Upgrade Penalty, Nova Allocator Adjustment as the operator of Launch Agent 2, LSEV2-SKY-A Liquidation Ratio increase, Monthly Settlement Cycle execution for July-August 2025, Aligned Delegate Compensation, Atlas Core Development payments for September 2025, Spark proxy spell execution.
 date: 2025-09-18T00:00:00.000Z
 address: "$spell_address"
 ---
 
-# [Executive Proposal] Delayed Upgrade Penalty, Remove Nova Operator, LSEV2-SKY-A Liquidation Ratio Increase, First Monthly Settlement Cycle, AD Compensation, Atlas Core Development USDS Payments for September 2025, Atlas Core Development SKY Payments for September 2025, Spark Proxy Spell - September 18, 2025
+# [Executive Proposal] Delayed Upgrade Penalty, Nova Allocator Adjustment, LSEV2-SKY-A Liquidation Ratio Increase, First Monthly Settlement Cycle, AD Compensation, Atlas Core Development USDS Payments for September 2025, Atlas Core Development SKY Payments for September 2025, Spark Proxy Spell - September 18, 2025
 
 The Governance Facilitators, Sidestream, and Dewiz have placed an executive proposal into the voting system. SKY holders should vote for this proposal if they support the following alterations to the Sky Protocol.
 
@@ -46,7 +46,7 @@ If this executive proposal does not pass within 30 days, then it will expire and
 
 If this executive proposal passes, then the Delayed Upgrade Penalty will be set to **1%**.
 
-### Remove Nova Operator
+### Nova Allocator Adjustment
 
 - **Authorization**: [Governance Poll 1583](https://vote.sky.money/polling/QmYt7nbx)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/technical-scope-of-the-nova-allocator-adjustment/27175)
