@@ -92,14 +92,14 @@ If this executive proposal passes, then the [Monthly Settlement Cycle](https://s
 
 - Mint 1,603,952 USDS debt in ALLOCATOR-SPARK-A and transfer the amount to the Surplus Buffer via:
   - `_takeAllocatorPayment(ALLOCATOR_SPARK_A_VAULT, 1_603_952e18);`
-- Send 5,927,944 USDS from the Surplus Buffer to the Spark SubProxy via:
+- Transfer 5,927,944 USDS from the Surplus Buffer to the Spark SubProxy via:
   - `_transferUsds(SPARK_PROXY: 0x3300f198988e4C9C63F75dF86De36421f06af8c4, 5_927_944e18);`
 
 #### Grove Settlement
 
 - Mint 4,788,407 USDS debt in ALLOCATOR-BLOOM-A and transfer the amount to the Surplus Buffer via:
   - `_takeAllocatorPayment(ALLOCATOR_BLOOM_A_VAULT, 4_788_407e18);`
-- Send 30,654 USDS from the Surplus Buffer to the Grove SubProxy via:
+- Transfer 30,654 USDS from the Surplus Buffer to the Grove SubProxy via:
   - `_transferUsds(GROVE_PROXY: 0x1369f7b2b38c76B6478c0f0E66D94923421891Ba, 30_654e18);`
 
 ### Aligned Delegate Compensation for August 2025
@@ -238,7 +238,7 @@ Upgrade the current [Spark Liquidity Layer](https://docs.spark.fi/user-guides/sp
 - **Authorization**: [Governance Poll 1579](https://vote.sky.money/polling/QmeyqTyQ)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/september-18-2025-proposed-changes-to-spark-for-upcoming-spell/27153)
 
-Onboard the PT-USDS-SPK-25Dec2025 token to the Spark USDS Morpho vault on mainnet with the following parameters:
+Onboard the [PT-USDS-SPK-18Dec2025](https://app.pendle.finance/trade/markets/0x40b7380796751d15005197fb488b0449bd691e46/swap?view=pt&chain=ethereum&tab=info) token to the Spark USDS Morpho vault on mainnet with the following parameters:
 
 - Supply cap: **1 billion USDS**
 - LLTV: **96.5%**
