@@ -5,7 +5,7 @@ date: 2025-09-18T00:00:00.000Z
 address: "$spell_address"
 ---
 
-# [Executive Proposal] Delayed Upgrade Penalty, Nova Allocator Adjustment, LSEV2-SKY-A Liquidation Ratio Increase, First Monthly Settlement Cycle, AD Compensation, Atlas Core Development USDS Payments for September 2025, Atlas Core Development SKY Payments for September 2025, Spark Proxy Spell - September 18, 2025
+# [Executive Proposal] Delayed Upgrade Penalty, Launch Agent 2 Allocator Adjustment, LSEV2-SKY-A Liquidation Ratio Increase, First Monthly Settlement Cycle, AD Compensation, Atlas Core Development USDS and SKY Payments, Spark Proxy Spell - September 18, 2025
 
 The Governance Facilitators, Sidestream, and Dewiz have placed an executive proposal into the voting system. SKY holders should vote for this proposal if they support the following alterations to the Sky Protocol.
 
