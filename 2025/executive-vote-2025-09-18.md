@@ -17,8 +17,8 @@ If you are new to voting in the Sky Protocol, please see the [voting guide](http
 
 If this executive proposal passes, the following **actions** will occur within the Sky Protocol:
 
-- The Delayed Upgrade Penalty will be set to 1%.
-- Nova Operator will be removed as the operator of Launch Agent 2 in favor of a proxy-based setup.
+- The [Delayed Upgrade Penalty](https://sky-atlas.powerhouse.io/A.4.1.2.1.4.2.5_Set_Conversion_Fee_In_MKR_To_SKY_Conversion_Contract_To_1%25/1f1f2ff0-8d73-804c-948b-fddc869fcb65%7Cb341f4c0b83472dc1f9e1a3b) will be set to 1%.
+- Launch Agent 2 Operator will be removed in favor of a proxy-based setup.
 - The LSEV2-SKY-A Liquidation Ratio will be increased.
 - The first Monthly Settlement Cycle, corresponding to July-August 2025, will be executed.
 - A total of **22,899 USDS** will be distributed as Aligned Delegate compensation for August 2025.
@@ -29,7 +29,7 @@ If this executive proposal passes, the following **actions** will occur within t
 
 Unless otherwise noted, the actions listed above are subject to the [GSM Pause Delay](https://sky-atlas.powerhouse.io/A.1.9.2.1_Pause_Delay/a98b8227-95f6-4711-9d8d-f52cbc6ad2d0|0db30758e055). This means that if this executive proposal passes, the changes and additions listed above will only become active in the Sky Protocol after the GSM Pause Delay has expired. The GSM Pause Delay is currently set to [**24 hours**](https://sky-atlas.powerhouse.io/A.1.9.2.1.2_Pause_Delay_Current_Value/09d2514b-3169-4755-a654-2c774456980d|0db30758e055d2d0).
 
-This executive proposal **has its earliest execution date set to Monday 22, 2025 at 14:00 UTC**. This means that it cannot be executed before that date.
+This executive proposal **has its earliest execution date set to Monday September 22, 2025 at 14:00 UTC**. This means that it cannot be executed before that date.
 
 This executive proposal includes an office-hours modifier that means that it **can only be executed between 14:00 and 21:00 UTC, Monday - Friday**.
 
@@ -44,9 +44,9 @@ If this executive proposal does not pass within 30 days, then it will expire and
 - **Authorization**: [A.4.1.2.1.4.2.5](https://sky-atlas.powerhouse.io/A.4.1.2.1.4.2.5_Set_Conversion_Fee_In_MKR_To_SKY_Conversion_Contract_To_1%25/1f1f2ff0-8d73-804c-948b-fddc869fcb65%7Cb341f4c0b83472dc1f9e1a3b)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/phase-3-mkr-to-sky-migration-items-september-18th-spell/27178)
 
-If this executive proposal passes, then the Delayed Upgrade Penalty will be set to **1%**.
+If this executive proposal passes, then the Delayed Upgrade Penalty for upgrading MKR to SKY will be set to **1%**.
 
-### Nova Allocator Adjustment
+### Launch Agent 2 Allocator Adjustment
 
 - **Authorization**: [Governance Poll 1583](https://vote.sky.money/polling/QmYt7nbx)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/technical-scope-of-the-nova-allocator-adjustment/27175)
@@ -57,7 +57,7 @@ If this executive proposal passes, then the following series of actions related 
   - Remove Operator ability to transfer USDS out of the Nova allocator buffer via:
     - `AllocatorBufferLike(ALLOCATOR_NOVA_A_BUFFER).approve(USDS, NOVA_OPERATOR, 0);`
   - Remove Operator from the role 0 via:
-  - `AllocatorRolesLike(ALLOCATOR_ROLES).setUserRole("ALLOCATOR-NOVA-A", NOVA_OPERATOR, 0, false);`
+    - `AllocatorRolesLike(ALLOCATOR_ROLES).setUserRole("ALLOCATOR-NOVA-A", NOVA_OPERATOR, 0, false);`
   - Remove ability to "draw" and "wipe" for the role 0 via:
     - `AllocatorRolesLike(ALLOCATOR_ROLES).setRoleAction("ALLOCATOR-NOVA-A", 0, ALLOCATOR_NOVA_A_VAULT, VaultLike.draw.selector, false);`
     - `AllocatorRolesLike(ALLOCATOR_ROLES).setRoleAction("ALLOCATOR-NOVA-A", 0, ALLOCATOR_NOVA_A_VAULT, VaultLike.wipe.selector, false);`
@@ -92,14 +92,14 @@ If this executive proposal passes, then the [Monthly Settlement Cycle](https://s
 
 - Mint 1,603,952 USDS debt in ALLOCATOR-SPARK-A and transfer the amount to the Surplus Buffer via:
   - `_takeAllocatorPayment(ALLOCATOR_SPARK_A_VAULT, 1_603_952e18);`
-- Transfer 5,927,944 USDS from the Surplus Buffer to the Spark SubProxy via:
+- Transfer 5,927,944 USDS from the Surplus Buffer to the [Spark SubProxy](https://etherscan.io/address/0x3300f198988e4C9C63F75dF86De36421f06af8c4) via:
   - `_transferUsds(SPARK_PROXY: 0x3300f198988e4C9C63F75dF86De36421f06af8c4, 5_927_944e18);`
 
 #### Grove Settlement
 
 - Mint 4,788,407 USDS debt in ALLOCATOR-BLOOM-A and transfer the amount to the Surplus Buffer via:
   - `_takeAllocatorPayment(ALLOCATOR_BLOOM_A_VAULT, 4_788_407e18);`
-- Transfer 30,654 USDS from the Surplus Buffer to the Grove SubProxy via:
+- Transfer 30,654 USDS from the Surplus Buffer to the [Grove SubProxy](https://etherscan.io/address/0x1369f7b2b38c76B6478c0f0E66D94923421891Ba) via:
   - `_transferUsds(GROVE_PROXY: 0x1369f7b2b38c76B6478c0f0E66D94923421891Ba, 30_654e18);`
 
 ### Aligned Delegate Compensation for August 2025
