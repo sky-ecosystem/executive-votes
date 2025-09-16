@@ -18,7 +18,7 @@ If you are new to voting in the Sky Protocol, please see the [voting guide](http
 If this executive proposal passes, the following **actions** will occur within the Sky Protocol:
 
 - The [Delayed Upgrade Penalty](https://sky-atlas.powerhouse.io/A.4.1.2.1.4.2.5_Set_Conversion_Fee_In_MKR_To_SKY_Conversion_Contract_To_1%25/1f1f2ff0-8d73-804c-948b-fddc869fcb65%7Cb341f4c0b83472dc1f9e1a3b) will be set to 1%.
-- Launch Agent 2 Operator will be removed in favor of a proxy-based setup.
+- Launch Agent 2 Allocator Instance Operator will be replaced with a subproxy-based setup.
 - The LSEV2-SKY-A Liquidation Ratio will be increased.
 - The first Monthly Settlement Cycle, corresponding to July-August 2025, will be executed.
 - A total of **22,899 USDS** will be distributed as Aligned Delegate compensation for August 2025.
