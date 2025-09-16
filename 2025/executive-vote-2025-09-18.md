@@ -51,7 +51,7 @@ If this executive proposal passes, then the Delayed Upgrade Penalty for upgradin
 - **Authorization**: [Governance Poll 1583](https://vote.sky.money/polling/QmYt7nbx)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/technical-scope-of-the-nova-allocator-adjustment/27175)
 
-If this executive proposal passes, then the following series of actions related to the genesis process pertaining to Launch Agent 2 will be executed:
+If this executive proposal passes, then the following series of actions to Launch Agent 2 will be executed:
 
 - Offboard previously ratified operator in favor of a SubProxy-based setup:
   - Remove Operator ability to transfer USDS out of the Launch Agent 2 allocator buffer via:
