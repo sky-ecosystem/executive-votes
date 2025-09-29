@@ -79,7 +79,7 @@ The [PT-USDe-27Nov2025 pool](https://morpho.blockanalitica.com/ethereum/markets/
 
 Supply [Cap Automator Parameters](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.3_SparkLend_Risk_Parameters_Cap_Automators/1c1f2ff0-8d73-81ec-bc16-e2f85c0765d7%7C7896ed3326389fe3553030cd0a82f68e) for LBTC will be increased as follows:
 
-- Supply cap max: 10,000 LBTC (increase for 7,500 LBTC)
+- Supply cap max: 10,000 LBTC (increased by 7,500 LBTC)
 - Supply cap gap: 500 LBTC (increase for 250 LBTC)
 - Supply cap ttl: 12 hours (no change)
 
