@@ -57,7 +57,7 @@ If this executive proposal passes, then the distribution of SKY token rewards to
 
 If this executive proposal passes, then the Keel ALM Proxy will be whitelisted on the LitePSM with the following call:
 
-- "MCD_LITE_PSM_USDC_A.kiss(0xa5139956eC99aE2e51eA39d0b57C42B6D8db0758)"
+- `MCD_LITE_PSM_USDC_A.kiss(0xa5139956eC99aE2e51eA39d0b57C42B6D8db0758)`
 
 ### Prime Agent Proxy Spells 
 
