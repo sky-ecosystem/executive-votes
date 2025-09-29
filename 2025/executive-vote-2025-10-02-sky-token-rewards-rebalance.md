@@ -188,7 +188,7 @@ SparkLend ETH will be onboarded to the [Spark Liquidity Layer](https://docs.spar
 
 B2C2 Penny will be onboarded to provide OTC services for the following tokens with the listed [rate limits](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.1.2_Rate_Limits/264f2ff0-8d73-8050-892b-e4a0ed9828dc|9e1ff936a6cb63b1903ca2d845de):
 
-* USDC transferAsset
+- USDC transferAsset
   * Recipient address: tbd upon completion of B2C2 onboarding, will be provided before inclusion in executive spell
   * maxAmount: **1 million USDC**
   * slope: **20 million USDC per day**
