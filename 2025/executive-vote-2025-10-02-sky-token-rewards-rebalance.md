@@ -289,9 +289,7 @@ The Grove Liquidity Layer will be deployed to Plume with the following contract 
 
 Apollo ACRDX will be onboarded to the Grove Liquidity Layer on Plume. A risk assessment for this deployment has been produced and can be found [here](https://forum.sky.money/t/anemoy-tokenized-apollo-diversified-credit-fund-risk-assessment/27186).
 
-###### Associated DAO Resolution
-
-Sky Governance approved the DAO Resolution authorizing the subscription to the Anemoy Tokenized Apollo Diversified Credit Fund by Aspen Grove Ltd with the IPFS hash [bafkreiefed2vyibzwd7ajacaezuq5r422z4zoo4lnbk3ximd5mzktwjzfi](https://gateway.pinata.cloud/ipfs/bafkreiefed2vyibzwd7ajacaezuq5r422z4zoo4lnbk3ximd5mzktwjzfi).
+A poll wherein Sky Governance approved the DAO Resolution authorizing the subscription to the Anemoy Tokenized Apollo Diversified Credit Fund by Aspen Grove Ltd with the IPFS hash [bafkreiefed2vyibzwd7ajacaezuq5r422z4zoo4lnbk3ximd5mzktwjzfi](https://gateway.pinata.cloud/ipfs/bafkreiefed2vyibzwd7ajacaezuq5r422z4zoo4lnbk3ximd5mzktwjzfi) can be found [here](https://vote.sky.money/polling/QmTE1YTn).
 
 ###### [Plume] Apollo ACRDX [Rate Limits](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.1.2_Rate_Limits/264f2ff0-8d73-8050-892b-e4a0ed9828dc|9e1ff936a6cb63b1903ca2d845de)
 
