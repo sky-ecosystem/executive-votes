@@ -105,7 +105,7 @@ All accumulated DAI and USDS reserves will be transferred from the SparkLend Col
 
 - Sender address: [0xb137E7d16564c81ae2b0C8ee6B55De81dd46ECe5](https://etherscan.io/address/0xb137E7d16564c81ae2b0C8ee6B55De81dd46ECe5) (SparkLend Collector)
 - Recipient address: [0x1601843c5E9bC251A3272907010AFa41Fa18347E](https://etherscan.io/address/0x1601843c5E9bC251A3272907010AFa41Fa18347E) (Spark ALM Proxy)
-- Transfer amount: All accumulated USDS and Dai reserves.
+- Transfer amount: All accumulated USDS and DAI reserves.
 
 ##### [Ethereum] Spark Savings v2 - Launch Savings Vaults for USDC, USDT, and ETH
 
