@@ -7,7 +7,7 @@ address: "$spell_address"
 
 # [Executive Proposal] SKY Token Rewards Rebalance, Whitelist Keel ALM Proxy, Execute Prime Proxy Spells - October 2, 2025
 
-The Governance Facilitators, dewiz, and Sidestream have placed an executive proposal into the voting system. SKY holders should vote for this proposal if they support the following alterations to the Sky Protocol.
+The Governance Facilitators, Dewiz, and Sidestream have placed an executive proposal into the voting system. SKY holders should vote for this proposal if they support the following alterations to the Sky Protocol.
 
 If you are new to voting in the Sky Protocol, please see the [voting guide](https://manual.makerdao.com/governance/voting-in-makerdao/on-chain-governance) to learn how voting works.
 
