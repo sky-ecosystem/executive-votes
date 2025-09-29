@@ -293,7 +293,7 @@ Sky Governance approved the DAO Resolution authorizing the subscription to the A
 
 ###### [Plume] Apollo ACRDX [Rate Limits](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.1.2_Rate_Limits/264f2ff0-8d73-8050-892b-e4a0ed9828dc|9e1ff936a6cb63b1903ca2d845de)
 
-* ACRDX: plume:[0x354a9222571259457B2e98b2285B62e6a9bf4eD3](https://explorer.plume.org/address/0x354a9222571259457B2e98b2285B62e6a9bf4eD3)
+- ACRDX: plume:[0x354a9222571259457B2e98b2285B62e6a9bf4eD3](https://explorer.plume.org/address/0x354a9222571259457B2e98b2285B62e6a9bf4eD3)
   * Deposits:
     * Max amount: **20 million USDC**
     * Slope: **20 million USDC per day**
