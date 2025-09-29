@@ -329,7 +329,7 @@ Grove will be redeeming JTRSY on Plume for the USDC liquidity necessary to purch
 - **Authorization**: [Governance Poll 1596](https://vote.sky.money/polling/QmWfqZRS)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/october-02-2025-prime-technical-scope-keel-initialization-for-upcoming-spell/27192)
 
-The Keel ALM controller will be initialized on mainnet with the following addresses and rate limit parameters:
+The Keel ALM controller will be initialized on mainnet with the following addresses and rate limit parameters.
 
 ###### Contract Addresses
 
