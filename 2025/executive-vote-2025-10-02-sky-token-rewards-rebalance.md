@@ -235,7 +235,7 @@ Spark will transfer Grove’s share of the net profit attributable to the Ethena
 ##### [Ethereum] Spark Treasury - Spark Foundation Grant
 
 - **Authorization**: [Governance Poll 1597](https://vote.sky.money/polling/QmcuRr3c)
-- **Proposal**: [Forum Post](https://forum.sky.money/t/october-2-2025-proposed-changes-to-spark-for-upcoming-spell/27191)
+- **Proposal**: [Forum Post 1](https://forum.sky.money/t/october-2-2025-proposed-changes-to-spark-for-upcoming-spell/27191), [2](https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-2025-09-29/27222)
 
 A transfer from the SubDAO Proxy to the Spark Foundation will be made to enable the Spark Foundation to fulfill its mandate of promoting the growth and development of Spark.
 
