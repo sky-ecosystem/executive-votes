@@ -91,9 +91,11 @@ Supply [Cap Automator Parameters](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.
 [Reserve Factors](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.8_Reserve_Factor_Definition/1c1f2ff0-8d73-81a0-9436-c819cdd7bbbe%7C7896ed3326389fe3553030cd0a82f68efd49) for Stablecoin Markets will be reduced as follows:
 
 ###### USDC
+
 - Reserve factor: Reduce by 9 percentage points from 10% to **1%**.
 
 ###### USDT
+
 - Reserve factor: Reduce by 9 percentage points from 10% to **1%**.
 
 ##### [Ethereum] SparkLend - Claim Reserves for USDS and DAI
