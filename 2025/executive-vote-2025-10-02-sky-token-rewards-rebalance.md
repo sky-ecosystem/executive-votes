@@ -7,7 +7,7 @@ address: "$spell_address"
 
 # [Executive Proposal] SKY Token Rewards Rebalance, Whitelist Keel ALM Proxy, Execute Prime Proxy Spells - October 2, 2025
 
-The Governaance Facilitators, dewiz, and Sidestream have placed an executive proposal into the voting system. SKY holders should vote for this proposal if they support the following alterations to the Sky Protocol.
+The Governance Facilitators, dewiz, and Sidestream have placed an executive proposal into the voting system. SKY holders should vote for this proposal if they support the following alterations to the Sky Protocol.
 
 If you are new to voting in the Sky Protocol, please see the [voting guide](https://manual.makerdao.com/governance/voting-in-makerdao/on-chain-governance) to learn how voting works.
 
@@ -61,7 +61,7 @@ If this executive proposal passes, then the Keel ALM Proxy will be whitelisted o
 
 ### Prime Agent Proxy Spells 
 
-If this executive proposal passes, then Prime Agent proxy spells for Spark, Grove, and Keel will be executed at [TBD]($TBD), [0x67e7b3bFAb1Fb6267baECEc034Bbf7592F6B4E9b](0x67e7b3bFAb1Fb6267baECEc034Bbf7592F6B4E9b) and [0x7ae136b7e677C6A9B909a0ef0a4E29f0a1c3c7fE](https://etherscan.io/address/0x7ae136b7e677C6A9B909a0ef0a4E29f0a1c3c7fE) respectively, with the following contents.
+If this executive proposal passes, then Prime Agent proxy spells for Spark, Grove, and Keel will be executed at [0xD1919a5D4d320c07ca55e7936d3C25bE831A9561](https://etherscan.io/address/0xD1919a5D4d320c07ca55e7936d3C25bE831A9561), [0x67e7b3bFAb1Fb6267baECEc034Bbf7592F6B4E9b](0x67e7b3bFAb1Fb6267baECEc034Bbf7592F6B4E9b) and [0x7ae136b7e677C6A9B909a0ef0a4E29f0a1c3c7fE](https://etherscan.io/address/0x7ae136b7e677C6A9B909a0ef0a4E29f0a1c3c7fE) respectively, with the following contents.
 
 #### Spark Proxy Spell
 
@@ -72,67 +72,191 @@ If this executive proposal passes, then Prime Agent proxy spells for Spark, Grov
 
 The [PT-USDe-27Nov2025 pool](https://morpho.blockanalitica.com/ethereum/markets/8cdb63a27a48ac27fadc0f158a732104bcc4e10bb61c9a5095ea7c127204e26c/) supply cap will be increased by 500 million USDS from 500 million USDS to **1 billion USDS**.
 
-#####
+##### [Ethereum] SparkLend - Increase LBTC Supply Cap Automator Parameters
+
+- **Authorization**: [Atlas](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.2.1_SparkLend_Risk_Parameters_Modification/1c1f2ff0-8d73-819c-9641-d87ad5b7058b|7896ed3326389fe3553030cd0a822213)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/october-2-2025-proposed-changes-to-spark-for-upcoming-spell/27191)
+
+Supply [Cap Automator Parameters](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.3_SparkLend_Risk_Parameters_Cap_Automators/1c1f2ff0-8d73-81ec-bc16-e2f85c0765d7%7C7896ed3326389fe3553030cd0a82f68e) for LBTC will be increased to the following parameters:
+
+- Supply cap max: 10,000 LBTC (increase for 7,500 LBTC)
+- Supply cap gap: 500 LBTC (increase for 250 LBTC)
+- Supply cap ttl: 12 hours (no change)
+
+##### [Ethereum] SparkLend - Reduce Stablecoin Market Reserve Factors
+
+- **Authorization**: [Atlas](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.2.1_SparkLend_Risk_Parameters_Modification/1c1f2ff0-8d73-819c-9641-d87ad5b7058b|7896ed3326389fe3553030cd0a822213)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/october-2-2025-proposed-changes-to-spark-for-upcoming-spell/27191)
+
+[Reserve Factors](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.8_Reserve_Factor_Definition/1c1f2ff0-8d73-81a0-9436-c819cdd7bbbe%7C7896ed3326389fe3553030cd0a82f68efd49) for Stablecoin Markets will be reduced to the following parameters:
+
+###### USDC
+- Reserve factor: Reduce by 9%, from 10% to **1%**.
+
+###### USDT
+- Reserve factor: Reduce by 9%, from 10% to **1%**.
+
+##### [Ethereum] SparkLend - Claim Reserves for USDS and DAI
+
+- **Authorization**: [Governance Poll 1593](https://vote.sky.money/polling/QmeKTbg6)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/october-2-2025-proposed-changes-to-spark-for-upcoming-spell/27191)
+
+All accumulated DAI and USDS reserves will be transferred from the SparkLend Collector to the Spark ALM Proxy on mainnet with the following details:
+
+- Sender address: [0xb137E7d16564c81ae2b0C8ee6B55De81dd46ECe5](https://etherscan.io/address/0xb137E7d16564c81ae2b0C8ee6B55De81dd46ECe5) (SparkLend Collector)
+- Recipient address: [0x1601843c5E9bC251A3272907010AFa41Fa18347E](https://etherscan.io/address/0x1601843c5E9bC251A3272907010AFa41Fa18347E) (Spark ALM Proxy)
+- Transfer amount: All accumulated USDS and Dai reserves.
+
+##### [Ethereum] Spark Savings v2 - Launch Savings Vaults for USDC, USDT, and ETH
+
+- **Authorization**: [Governance Poll 1586](https://vote.sky.money/polling/QmUn84ag)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/october-2-2025-proposed-changes-to-spark-for-upcoming-spell/27191)
+
+The following Spark Savings v2 vaults will be launched:
+
+###### ETH
+
+- Spark Savings ETH (spETH)
+  - spETH address: to be provided when available, before submission in executive vote
+  - Roles
+    - Default admin: [0x3300f198988e4C9C63F75dF86De36421f06af8c4](https://etherscan.io/address/0x3300f198988e4C9C63F75dF86De36421f06af8c4) (Spark Subdao Proxy)
+    - Setter: [0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC](https://etherscan.io/address/0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC) (Spark operations safe)
+    - Taker: [0x1601843c5E9bC251A3272907010AFa41Fa18347E](https://etherscan.io/address/0x1601843c5E9bC251A3272907010AFa41Fa18347E) (ALM Proxy)
+  - Yield
+    - Max yield: **5%**
+    - Current yield (at launch): **0%**
+  - Supply cap: **10,000 WETH**
+  - SLL [rate limits](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.1.2_Rate_Limits/264f2ff0-8d73-8050-892b-e4a0ed9828dc|9e1ff936a6cb63b1903ca2d845de)
+    - take
+      - maxAmount: **unlimited**
+    - transferAssets
+      - maxAmount: **unlimited**
+
+###### USDC
+
+- Spark Savings USDC (spUSDC)
+  - spUSDC address: to be provided when available, before submission in executive vote
+  - Roles
+    - Default admin: [0x3300f198988e4C9C63F75dF86De36421f06af8c4](https://etherscan.io/address/0x3300f198988e4C9C63F75dF86De36421f06af8c4) (Spark Subdao Proxy)
+    - Setter: [0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC](https://etherscan.io/address/0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC) (Spark operations safe)
+    - Taker: [0x1601843c5E9bC251A3272907010AFa41Fa18347E](https://etherscan.io/address/0x1601843c5E9bC251A3272907010AFa41Fa18347E) (ALM Proxy)
+  - Yield
+    - Max yield: **10%**
+    - Current yield (at launch): **0%**
+  - Supply cap: **50 million USDC**
+  - SLL [rate limits](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.1.2_Rate_Limits/264f2ff0-8d73-8050-892b-e4a0ed9828dc|9e1ff936a6cb63b1903ca2d845de)
+    - take
+      - maxAmount: **unlimited**
+    - transferAssets
+      - maxAmount: **unlimited**
+
+###### USDT
+
+- Spark Savings USDT (spUSDT)
+  - spUSDT address: to be provided when available, before submission in executive vote
+  - Roles
+    - Default admin: [0x3300f198988e4C9C63F75dF86De36421f06af8c4](https://etherscan.io/address/0x3300f198988e4C9C63F75dF86De36421f06af8c4) (Spark Subdao Proxy)
+    - Setter: [0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC](https://etherscan.io/address/0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC) (Spark operations safe)
+    - Taker: [0x1601843c5E9bC251A3272907010AFa41Fa18347E](https://etherscan.io/address/0x1601843c5E9bC251A3272907010AFa41Fa18347E) (ALM Proxy)
+  - Yield
+    - Max yield: **10%**
+    - Current yield (at launch): **0%**
+  - Supply cap: **50 million USDT**
+  - SLL [rate limits](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.1.2_Rate_Limits/264f2ff0-8d73-8050-892b-e4a0ed9828dc|9e1ff936a6cb63b1903ca2d845de)
+    - take
+      - maxAmount: **unlimited**
+    - transferAssets
+      - maxAmount: **unlimited**
+
+##### [Ethereum] Spark Liquidity Layer - Onboard SparkLend ETH
+
+- **Authorization**: [Governance Poll 1590](https://vote.sky.money/polling/QmREvn1i)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/october-2-2025-proposed-changes-to-spark-for-upcoming-spell/27191)
+
+SparkLend ETH will be onboarded to the Spark Liquidity Layer on mainnet with the following [rate limits](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.1.2_Rate_Limits/264f2ff0-8d73-8050-892b-e4a0ed9828dc|9e1ff936a6cb63b1903ca2d845de):
+
+- Deposits
+  - maxAmount: **50,000 ETH**
+  - slope: **10,000 ETH per day**
+- Withdrawals
+  - maxAmount: **unlimited**
+
+##### [Ethereum] Spark Liquidity Layer - Onboard B2C2 Penny for OTC Services
+
+- **Authorization**: [Governance Poll 1589](https://vote.sky.money/polling/QmTNrfXk)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/october-2-2025-proposed-changes-to-spark-for-upcoming-spell/27191)
+
+B2C2 Penny will be onboarded to provide OTC services for the following tokens with the listed [rate limits](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.1.2_Rate_Limits/264f2ff0-8d73-8050-892b-e4a0ed9828dc|9e1ff936a6cb63b1903ca2d845de):
+
+* USDC transferAsset
+  * Recipient address: tbd upon completion of B2C2 onboarding, will be provided before inclusion in executive spell
+  * maxAmount: **1 million USDC**
+  * slope: **20 million USDC per day**
+* USDT transferAsset
+  * Recipient address: tbd upon completion of B2C2 onboarding, will be provided before inclusion in executive spell
+  * maxAmount: **1 million USDT**
+  * slope: **20 million USDT per day**
+* PYUSD transferAsset
+  * Recipient address: tbd upon completion of B2C2 onboarding, will be provided before inclusion in executive spell
+  * maxAmount: **1 million PYUSD**
+  * slope: **20 million PYUSD per day**
+
+##### [Ethereum] Spark Liquidity Layer - Claim Aave Core aUSDS Rewards
+
+- **Authorization**: [Governance Poll 1588](https://vote.sky.money/polling/QmdY24Cm)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/october-2-2025-proposed-changes-to-spark-for-upcoming-spell/27191)
+
+All aEthUSDS rewards earned by the Spark ALM Proxy in the Aave Core market (roughly 243,167 aUSDS) will be claimed. 
+
+##### [Ethereum] Spark Liquidity Layer - Add transferAsset Rate Limit for SYRUP
+
+- **Authorization**: [Governance Poll 1587](https://vote.sky.money/polling/QmSaMJWy)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/october-2-2025-proposed-changes-to-spark-for-upcoming-spell/27191)
+
+A transferAsset [rate limit](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.1.2_Rate_Limits/264f2ff0-8d73-8050-892b-e4a0ed9828dc|9e1ff936a6cb63b1903ca2d845de) for SYRUP will be added to the Spark Liquidity Layer on mainnet with the following parameters:
+
+- Transfer
+  - Recipient address: [0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC](https://etherscan.io/address/0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC) (Spark liquidation multisig)
+  - maxAmount: **200,000 SYRUP**
+  - slope: **200,000 SYRUP per day**
+
+##### [Ethereum] Spark Treasury - Transfer Share of Ethena Direct Allocation Net Profit to Grove
+
+- **Authorization**: [Atlas](https://sky-atlas.powerhouse.io/A.2.9.1.1.2.9.1_Revenue_Share/248f2ff0-8d73-8039-a678-ce5cefe826d0|9e1f80092582d098de0cf76e)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/october-2-2025-proposed-changes-to-spark-for-upcoming-spell/27191)
+
+Spark will transfer Grove’s share of the net profit attributable to the Ethena Direct Allocation to the Grove subdao proxy.
+
+- Recipient address: [0x1369f7b2b38c76B6478c0f0E66D94923421891Ba](https://etherscan.io/address/0x1369f7b2b38c76B6478c0f0E66D94923421891Ba)
+- Transfer amount: **1,031,866 USDS**
+
+##### [Ethereum] Spark Treasury - Spark Foundation Grant
+
+- **Authorization**: [Governance Poll 1597](https://vote.sky.money/polling/QmcuRr3c)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/october-2-2025-proposed-changes-to-spark-for-upcoming-spell/27191)
+
+A transfer from the SubDAO Proxy to the Spark Foundation will be made to enable the Spark Foundation to fulfill its mandate of promoting the growth and development of Spark.
+
+- Recipient address: [0x92e4629a4510AF5819d7D1601464C233599fF5ec](https://etherscan.io/address/0x92e4629a4510AF5819d7D1601464C233599fF5ec)
+- Transfer amount: **1,100,000 USDS**
+
+##### [Ethereum] SPK Staking - Configure Symbiotic Instance
 
 - **Authorization**: [Governance Poll 1594](https://vote.sky.money/polling/QmPsHirj)
-- **Proposal**: [Forum Post](https://forum.sky.money/t/october-2-2025-proposed-changes-to-grove-for-upcoming-spell/27190)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/october-2-2025-proposed-changes-to-spark-for-upcoming-spell/27191)
 
-#####
+SPK staking will be configured through the Symbiotic Instance with the following details:
 
-- **Authorization**: [Governance Poll 1594](https://vote.sky.money/polling/QmPsHirj)
-- **Proposal**: [Forum Post](https://forum.sky.money/t/october-2-2025-proposed-changes-to-grove-for-upcoming-spell/27190)
-
-#####
-
-- **Authorization**: [Governance Poll 1594](https://vote.sky.money/polling/QmPsHirj)
-- **Proposal**: [Forum Post](https://forum.sky.money/t/october-2-2025-proposed-changes-to-grove-for-upcoming-spell/27190)
-
-#####
-
-- **Authorization**: [Governance Poll 1594](https://vote.sky.money/polling/QmPsHirj)
-- **Proposal**: [Forum Post](https://forum.sky.money/t/october-2-2025-proposed-changes-to-grove-for-upcoming-spell/27190)
-
-#####
-
-- **Authorization**: [Governance Poll 1594](https://vote.sky.money/polling/QmPsHirj)
-- **Proposal**: [Forum Post](https://forum.sky.money/t/october-2-2025-proposed-changes-to-grove-for-upcoming-spell/27190)
-
-#####
-
-- **Authorization**: [Governance Poll 1594](https://vote.sky.money/polling/QmPsHirj)
-- **Proposal**: [Forum Post](https://forum.sky.money/t/october-2-2025-proposed-changes-to-grove-for-upcoming-spell/27190)
-
-#####
-
-- **Authorization**: [Governance Poll 1594](https://vote.sky.money/polling/QmPsHirj)
-- **Proposal**: [Forum Post](https://forum.sky.money/t/october-2-2025-proposed-changes-to-grove-for-upcoming-spell/27190)
-
-#####
-
-- **Authorization**: [Governance Poll 1594](https://vote.sky.money/polling/QmPsHirj)
-- **Proposal**: [Forum Post](https://forum.sky.money/t/october-2-2025-proposed-changes-to-grove-for-upcoming-spell/27190)
-
-#####
-
-- **Authorization**: [Governance Poll 1594](https://vote.sky.money/polling/QmPsHirj)
-- **Proposal**: [Forum Post](https://forum.sky.money/t/october-2-2025-proposed-changes-to-grove-for-upcoming-spell/27190)
-
-#####
-
-- **Authorization**: [Governance Poll 1594](https://vote.sky.money/polling/QmPsHirj)
-- **Proposal**: [Forum Post](https://forum.sky.money/t/october-2-2025-proposed-changes-to-grove-for-upcoming-spell/27190)
-
-#####
-
-- **Authorization**: [Governance Poll 1594](https://vote.sky.money/polling/QmPsHirj)
-- **Proposal**: [Forum Post](https://forum.sky.money/t/october-2-2025-proposed-changes-to-grove-for-upcoming-spell/27190)
-
+* Owner: [0x3300f198988e4C9C63F75dF86De36421f06af8c4](https://etherscan.io/address/0x3300f198988e4C9C63F75dF86De36421f06af8c4) (Spark subdao proxy)
+* Operator: [0x3300f198988e4C9C63F75dF86De36421f06af8c4](https://etherscan.io/address/0x3300f198988e4C9C63F75dF86De36421f06af8c4)
+* Network: [0x3300f198988e4C9C63F75dF86De36421f06af8c4](https://etherscan.io/address/0x3300f198988e4C9C63F75dF86De36421f06af8c4)
+* maxNetworkLimit: **unlimited**
 
 #### Grove Proxy Spell
 
 ##### [Mainnet + Plume] Grove Liquidity Layer - Plume Deployment
 
-- **Authorization**: [Governance Poll 1594](https://vote.sky.money/polling/QmPsHirj)
+- **Authorization**: [Governance Poll 1591](https://vote.sky.money/polling/QmerdKkX)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/october-2-2025-proposed-changes-to-grove-for-upcoming-spell/27190)
 
 The Grove Liquidity Layer will be deployed to Plume with the following contract addresses and parameters:
@@ -190,7 +314,7 @@ Grove will be redeeming JTRSY on Plume for the USDC liquidity necessary to purch
 ###### [Mainnet] setCentrifugeRecipient
 
 - centrifugeId: **4**
-- receipient: Plume.ALM_PROXY
+- recipient: Plume.ALM_PROXY
 
 ###### JTRSY Withdrawl [Rate Limits](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.1.2_Rate_Limits/264f2ff0-8d73-8050-892b-e4a0ed9828dc|9e1ff936a6cb63b1903ca2d845de)
 
