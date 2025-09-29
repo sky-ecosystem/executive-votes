@@ -18,7 +18,7 @@ If you are new to voting in the Sky Protocol, please see the [voting guide](http
 If this executive proposal passes, the following **actions** will occur within the Sky Protocol:
 
 - The reward rate for the USDS-SKY farm will be updated with the actions described below.
-- The Keel Mainnet ALM Controller will be whitelisted on the LitePSM. 
+- The Keel ALM Proxy will be whitelisted on the LitePSM. 
 - Prime Agent proxy spells for Spark, Grove, and Keel will be executed.
 
 **Voting for this executive proposal will place your SKY in support of the actions outlined above.**
