@@ -94,7 +94,7 @@ Supply [Cap Automator Parameters](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.
 - Reserve factor: Reduce by 9 percentage points from 10% to **1%**.
 
 ###### USDT
-- Reserve factor: Reduce by 9%, from 10% to **1%**.
+- Reserve factor: Reduce by 9 percentage points from 10% to **1%**.
 
 ##### [Ethereum] SparkLend - Claim Reserves for USDS and DAI
 
