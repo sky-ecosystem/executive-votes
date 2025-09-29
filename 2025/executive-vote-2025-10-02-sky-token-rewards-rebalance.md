@@ -213,7 +213,7 @@ All aEthUSDS rewards earned by the Spark ALM Proxy in the Aave Core market (roug
 - **Authorization**: [Governance Poll 1587](https://vote.sky.money/polling/QmSaMJWy)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/october-2-2025-proposed-changes-to-spark-for-upcoming-spell/27191)
 
-A transferAsset [rate limit](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.1.2_Rate_Limits/264f2ff0-8d73-8050-892b-e4a0ed9828dc|9e1ff936a6cb63b1903ca2d845de) for SYRUP will be added to the Spark Liquidity Layer on mainnet with the following parameters:
+A transferAsset [rate limit](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.1.2_Rate_Limits/264f2ff0-8d73-8050-892b-e4a0ed9828dc|9e1ff936a6cb63b1903ca2d845de) for SYRUP will be added to the [Spark Liquidity Layer](https://docs.spark.fi/user-guides/spark-liquidity-layer/) on mainnet with the following parameters:
 
 - Transfer
   - Recipient address: [0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC](https://etherscan.io/address/0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC) (Spark liquidation multisig)
