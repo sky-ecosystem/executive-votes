@@ -259,7 +259,7 @@ SPK staking will be configured through the Symbiotic Instance with the following
 - **Authorization**: [Governance Poll 1591](https://vote.sky.money/polling/QmerdKkX)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/october-2-2025-proposed-changes-to-grove-for-upcoming-spell/27190)
 
-The Grove Liquidity Layer will be deployed to Plume with the following contract addresses and parameters:
+The Grove Liquidity Layer will be deployed to Plume with the following contract addresses and parameters.
 
 ###### Contract Addresses
 
