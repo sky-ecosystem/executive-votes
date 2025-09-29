@@ -88,7 +88,7 @@ Supply [Cap Automator Parameters](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.
 - **Authorization**: [Atlas](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.2.1_SparkLend_Risk_Parameters_Modification/1c1f2ff0-8d73-819c-9641-d87ad5b7058b|7896ed3326389fe3553030cd0a822213)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/october-2-2025-proposed-changes-to-spark-for-upcoming-spell/27191)
 
-[Reserve Factors](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.8_Reserve_Factor_Definition/1c1f2ff0-8d73-81a0-9436-c819cdd7bbbe%7C7896ed3326389fe3553030cd0a82f68efd49) for Stablecoin Markets will be reduced to the following parameters:
+[Reserve Factors](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.8_Reserve_Factor_Definition/1c1f2ff0-8d73-81a0-9436-c819cdd7bbbe%7C7896ed3326389fe3553030cd0a82f68efd49) for Stablecoin Markets will be reduced as follows:
 
 ###### USDC
 - Reserve factor: Reduce by 9%, from 10% to **1%**.
