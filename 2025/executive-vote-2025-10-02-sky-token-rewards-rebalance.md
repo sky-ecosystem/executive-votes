@@ -227,7 +227,7 @@ A transferAsset [rate limit](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.1.2_R
 - **Authorization**: [Atlas](https://sky-atlas.powerhouse.io/A.2.9.1.1.2.9.1_Revenue_Share/248f2ff0-8d73-8039-a678-ce5cefe826d0|9e1f80092582d098de0cf76e)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/october-2-2025-proposed-changes-to-spark-for-upcoming-spell/27191)
 
-Spark will transfer Grove’s share of the net profit attributable to the Ethena Direct Allocation to the Grove subdao proxy.
+Spark will transfer Grove’s share of the net profit attributable to the Ethena Direct Allocation to the Grove Subdao Proxy.
 
 - Recipient address: [0x1369f7b2b38c76B6478c0f0E66D94923421891Ba](https://etherscan.io/address/0x1369f7b2b38c76B6478c0f0E66D94923421891Ba)
 - Transfer amount: **1,031,866 USDS**
