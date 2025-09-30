@@ -183,26 +183,6 @@ SparkLend ETH will be onboarded to the [Spark Liquidity Layer](https://docs.spar
 - Withdrawals
   - maxAmount: **unlimited**
 
-##### [Ethereum] Spark Liquidity Layer - Onboard B2C2 Penny for OTC Services
-
-- **Authorization**: [Governance Poll 1589](https://vote.sky.money/polling/QmTNrfXk)
-- **Proposal**: [Forum Post](https://forum.sky.money/t/october-2-2025-proposed-changes-to-spark-for-upcoming-spell/27191)
-
-B2C2 Penny will be onboarded to provide OTC services for the following tokens with the listed [rate limits](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.1.2_Rate_Limits/264f2ff0-8d73-8050-892b-e4a0ed9828dc|9e1ff936a6cb63b1903ca2d845de):
-
-- USDC transferAsset
-  * Recipient address: tbd upon completion of B2C2 onboarding, will be provided before inclusion in executive spell
-  * maxAmount: **1 million USDC**
-  * slope: **20 million USDC per day**
-* USDT transferAsset
-  * Recipient address: tbd upon completion of B2C2 onboarding, will be provided before inclusion in executive spell
-  * maxAmount: **1 million USDT**
-  * slope: **20 million USDT per day**
-* PYUSD transferAsset
-  * Recipient address: tbd upon completion of B2C2 onboarding, will be provided before inclusion in executive spell
-  * maxAmount: **1 million PYUSD**
-  * slope: **20 million PYUSD per day**
-
 ##### [Ethereum] Spark Liquidity Layer - Claim Aave Core aUSDS Rewards
 
 - **Authorization**: [Governance Poll 1588](https://vote.sky.money/polling/QmdY24Cm)
