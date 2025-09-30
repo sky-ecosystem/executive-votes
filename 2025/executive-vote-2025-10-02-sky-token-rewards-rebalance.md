@@ -294,8 +294,8 @@ Grove will be redeeming JTRSY on Plume for the USDC liquidity necessary to purch
 
 - JTRSY token: eth:[0xFE6920eB6C421f1179cA8c8d4170530CDBdfd77A](https://etherscan.io/address/0xFE6920eB6C421f1179cA8c8d4170530CDBdfd77A)
 - Plume destinationCentrifugeId: **4**
-    - Max amount: **20 million JTRSY**
-    - Slope: **20 million JTRSY per day**
+  - Max amount: **20 million JTRSY**
+  - Slope: **20 million JTRSY per day**
 
 ###### [Mainnet] setCentrifugeRecipient
 
