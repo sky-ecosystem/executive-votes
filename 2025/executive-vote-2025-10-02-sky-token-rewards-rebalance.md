@@ -276,7 +276,7 @@ A poll wherein Sky Governance approved the DAO Resolution authorizing the subscr
 - ACRDX: plume:[0x354a9222571259457B2e98b2285B62e6a9bf4eD3](https://explorer.plume.org/address/0x354a9222571259457B2e98b2285B62e6a9bf4eD3)
   - Deposits:
     - Max amount: **20 million USDC**
-    * Slope: **20 million USDC per day**
+    - Slope: **20 million USDC per day**
   * Withdrawals:
     * Max amount: **Unlimited**
 
