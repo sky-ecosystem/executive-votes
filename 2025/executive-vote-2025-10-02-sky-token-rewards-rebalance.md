@@ -188,7 +188,7 @@ SparkLend ETH will be onboarded to the [Spark Liquidity Layer](https://docs.spar
 - **Authorization**: [Governance Poll 1588](https://vote.sky.money/polling/QmdY24Cm)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/october-2-2025-proposed-changes-to-spark-for-upcoming-spell/27191)
 
-All aEthUSDS rewards earned by the Spark ALM Proxy in the Aave Core market (roughly 243,167 aUSDS) will be claimed to the [Spark ALM Proxy}(https://etherscan.io/address/0x1601843c5E9bC251A3272907010AFa41Fa18347E).
+All aEthUSDS rewards earned by the Spark ALM Proxy in the Aave Core market (roughly 243,167 aUSDS) will be claimed to the [Spark ALM Proxy](https://etherscan.io/address/0x1601843c5E9bC251A3272907010AFa41Fa18347E).
 
 ##### [Ethereum] Spark Liquidity Layer - Add transferAsset Rate Limit for SYRUP
 
