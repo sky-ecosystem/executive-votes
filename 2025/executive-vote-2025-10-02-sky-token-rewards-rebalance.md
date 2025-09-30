@@ -119,7 +119,7 @@ The following Spark Savings v2 vaults will be launched:
 ###### ETH
 
 - Spark Savings ETH (spETH)
-  - spETH address: to be provided when available, before submission in executive vote
+  - spETH address: [0xC2C0582D1cCe30449cF561C7b9C4D6d527547F12](https://etherscan.io/address/0xC2C0582D1cCe30449cF561C7b9C4D6d527547F12)
   - Roles
     - Default admin: [0x3300f198988e4C9C63F75dF86De36421f06af8c4](https://etherscan.io/address/0x3300f198988e4C9C63F75dF86De36421f06af8c4) (Spark Subdao Proxy)
     - Setter: [0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC](https://etherscan.io/address/0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC) (Spark operations safe)
@@ -137,7 +137,7 @@ The following Spark Savings v2 vaults will be launched:
 ###### USDC
 
 - Spark Savings USDC (spUSDC)
-  - spUSDC address: to be provided when available, before submission in executive vote
+  - spUSDC address: [0x15F4a4b19baaA168AC0b6092d310aE9725741211](https://etherscan.io/address/0x15F4a4b19baaA168AC0b6092d310aE9725741211)
   - Roles
     - Default admin: [0x3300f198988e4C9C63F75dF86De36421f06af8c4](https://etherscan.io/address/0x3300f198988e4C9C63F75dF86De36421f06af8c4) (Spark Subdao Proxy)
     - Setter: [0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC](https://etherscan.io/address/0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC) (Spark operations safe)
@@ -155,7 +155,7 @@ The following Spark Savings v2 vaults will be launched:
 ###### USDT
 
 - Spark Savings USDT (spUSDT)
-  - spUSDT address: to be provided when available, before submission in executive vote
+  - spUSDT address: [0xE742c84510A200b95979645b46c872073F0fa929](https://etherscan.io/address/0xE742c84510A200b95979645b46c872073F0fa929)
   - Roles
     - Default admin: [0x3300f198988e4C9C63F75dF86De36421f06af8c4](https://etherscan.io/address/0x3300f198988e4C9C63F75dF86De36421f06af8c4) (Spark Subdao Proxy)
     - Setter: [0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC](https://etherscan.io/address/0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC) (Spark operations safe)
