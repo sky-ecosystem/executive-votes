@@ -61,7 +61,13 @@ If this executive proposal passes, then the Keel ALM Proxy will be whitelisted o
 
 ### Prime Agent Proxy Spells 
 
-If this executive proposal passes, then Prime Agent proxy spells for Spark, Grove, and Keel will be executed at [0xD1919a5D4d320c07ca55e7936d3C25bE831A9561](https://etherscan.io/address/0xD1919a5D4d320c07ca55e7936d3C25bE831A9561), [0x67e7b3bFAb1Fb6267baECEc034Bbf7592F6B4E9b](0x67e7b3bFAb1Fb6267baECEc034Bbf7592F6B4E9b) and [0x7ae136b7e677C6A9B909a0ef0a4E29f0a1c3c7fE](https://etherscan.io/address/0x7ae136b7e677C6A9B909a0ef0a4E29f0a1c3c7fE) respectively, with the following contents.
+If this executive proposal passes, then Prime Agent proxy spells for Spark, Grove, and Keel will be executed at the following addresses:
+
+- Spark: [0xD1919a5D4d320c07ca55e7936d3C25bE831A9561](https://etherscan.io/address/0xD1919a5D4d320c07ca55e7936d3C25bE831A9561)
+- Grove: [0x67e7b3bFAb1Fb6267baECEc034Bbf7592F6B4E9b](0x67e7b3bFAb1Fb6267baECEc034Bbf7592F6B4E9b)
+- Keel: [0x7ae136b7e677C6A9B909a0ef0a4E29f0a1c3c7fE](https://etherscan.io/address/0x7ae136b7e677C6A9B909a0ef0a4E29f0a1c3c7fE)
+
+The expected contents of each proxy spell are listed below.
 
 #### Spark Proxy Spell
 
