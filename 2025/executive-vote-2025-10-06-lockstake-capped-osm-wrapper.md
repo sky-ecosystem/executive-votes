@@ -1,11 +1,11 @@
 ---
-title: Template - [Executive Vote] SKY Token Rewards Rebalance, Whitelist Keel ALM Proxy, Execute Prime Agent Proxy Spells - October 2, 2025
-summary: Normalize SKY Token Rewards, whitelist Keel ALM Proxy on the LitePSM, execute Proxy Spells for Spark, Grove, and Keel Prime Agents. 
-date: 2025-10-02T00:00:00.000Z
+title: Template - [Executive Vote] Launch Lockstake Capped OSM Wrapper, SKY Token Rewards Rebalance, Whitelist Keel ALM Proxy, Execute Prime Agent Proxy Spells - October 6, 2025
+summary: Launch Lockstake Capped Oracle Security Module for SKY, normalize SKY Token Rewards, whitelist Keel ALM Proxy on the LitePSM, execute Proxy Spells for Spark, Grove, and Keel Prime Agents. 
+date: 2025-10-06T00:00:00.000Z
 address: "$spell_address"
 ---
 
-# [Executive Proposal] SKY Token Rewards Rebalance, Whitelist Keel ALM Proxy, Execute Prime Proxy Spells - October 2, 2025
+# [Executive Proposal] Launch Lockstake Capped OSM Wrapper, SKY Token Rewards Rebalance, Whitelist Keel ALM Proxy, Execute Prime Agent Proxy Spells - October 6, 2025
 
 The Governance Facilitators, Dewiz, and Sidestream have placed an executive proposal into the voting system. SKY holders should vote for this proposal if they support the following alterations to the Sky Protocol.
 
