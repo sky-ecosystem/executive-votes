@@ -53,14 +53,14 @@ If this executive proposal passes, then the Lockstake Capped OSM Wrapper for SKY
 
 If this executive proposal passes, then the distribution of SKY token rewards to USDS holders will be normalized to ensure the effective yield provided by these rewards equals the Sky Savings Rate (SSR), as per [A.4.3.2 - Token Reward Mechanism](https://sky-atlas.powerhouse.io/A.4.3.2_Token_Reward_Mechanism/2e3e7014-bd66-4e85-b915-b86ae3ceeb16%7Cb3417d54), by executing the following actions:
 
-- `yank()` MCD_VEST_SKY_TREASURY vest with ID 6.
 - Distribute the remaining tokens from the old DssVest by calling `VestedRewardsDistribution.distribute()` on REWARDS_DIST_USDS_SKY.
 - Create a new MCD_VEST_SKY_TREASURY stream with the following parameters:
   - `res`: 1 (restricted)
-  - Increase SKY allowance for MCD_VEST_SKY_TREASURY to the sum of all active streams and the new stream created by this executive vote.
+  - Adjust the Sky allowance for MCD_VEST_SKY_TREASURY, reducing it by the remaining yanked stream amount and increasing it by the new stream total.
   - `vestBgn`: `block.timestamp`
   - `vestTau`: `block.timestamp` + 15,724,800 seconds (182 days after the spell executes)
   - `tot`: **68,379,376 SKY**
+- `yank()` MCD_VEST_SKY_TREASURY vest with ID 6.
 - File the new stream ID on REWARDS_DIST_USDS_SKY
 
 ### Whitelist Keel ALM Proxy on litePSM
