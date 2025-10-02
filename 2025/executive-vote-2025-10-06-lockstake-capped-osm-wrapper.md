@@ -1,11 +1,11 @@
 ---
-title: Template - [Executive Vote] SKY Token Rewards Rebalance, Whitelist Keel ALM Proxy, Execute Prime Agent Proxy Spells - October 2, 2025
-summary: Normalize SKY Token Rewards, whitelist Keel ALM Proxy on the LitePSM, execute Proxy Spells for Spark, Grove, and Keel Prime Agents. 
-date: 2025-10-02T00:00:00.000Z
+title: Template - [Executive Vote] Launch Lockstake Capped OSM Wrapper, SKY Token Rewards Rebalance, Whitelist Keel ALM Proxy, Execute Prime Agent Proxy Spells - October 6, 2025
+summary: Launch Lockstake Capped Oracle Security Module for SKY, normalize SKY Token Rewards, whitelist Keel ALM Proxy on the LitePSM, execute Proxy Spells for Spark, Grove, and Keel Prime Agents. 
+date: 2025-10-06T00:00:00.000Z
 address: "$spell_address"
 ---
 
-# [Executive Proposal] SKY Token Rewards Rebalance, Whitelist Keel ALM Proxy, Execute Prime Proxy Spells - October 2, 2025
+# [Executive Proposal] Launch Lockstake Capped OSM Wrapper, SKY Token Rewards Rebalance, Whitelist Keel ALM Proxy, Execute Prime Agent Proxy Spells - October 6, 2025
 
 The Governance Facilitators, Dewiz, and Sidestream have placed an executive proposal into the voting system. SKY holders should vote for this proposal if they support the following alterations to the Sky Protocol.
 
@@ -17,6 +17,7 @@ If you are new to voting in the Sky Protocol, please see the [voting guide](http
 
 If this executive proposal passes, the following **actions** will occur within the Sky Protocol:
 
+- The Lockstake Capped OSM Wrapper will be launched as described below. 
 - The reward rate for the USDS-SKY farm will be updated with the actions described below.
 - The Keel ALM Proxy will be whitelisted on the LitePSM. 
 - Prime Agent proxy spells for Spark, Grove, and Keel will be executed.
@@ -33,6 +34,18 @@ If this executive proposal does not pass within 30 days, then it will expire and
 
 ## Proposal Details
 
+### Launch Lockstake Capped OSM Wrapper
+
+- **Authorization**: [Forum Post](https://forum.sky.money/t/technical-scope-of-the-lockstake-capped-osm-wrapper-launch/27246/4), [Atlas](https://sky-atlas.powerhouse.io/A.0.1.2.1_Facilitators%E2%80%99_Broad_Discretionary_Capacity/9baf179a-ac10-4ed1-b4f2-1cb2cbb7daf1%7C693d9aad475a)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/technical-scope-of-the-lockstake-capped-osm-wrapper-launch/27246)
+
+If this executive proposal passes, then the Lockstake Capped OSM Wrapper for SKY will be launched. The Lockstake Capped OSM Wrapper wraps an OSM contract, and reports prices up to a pre set `cap`. The contract will wrap PIP_SKY to be used on LOCKSTAKE_ENGINE, aiming to prevent SKY price spikes from allowing excessive USDS debt generation on the module. This executive proposal will launch Lockstake Capped OSM Wrapper with the following calls and parameters:
+
+-Call [LockstakeInit.updateOSM](https://github.com/sky-ecosystem/lockstake/blob/7db951621c7ac49e6d459a91ffbc0a8a43a4b12f/deploy/LockstakeInit.sol#L376-L407) with:
+  - dss: **A DssInstance** (from [dss-test/MCD.sol](https://github.com/sky-ecosystem/dss-test/blob/master/src/MCD.sol))
+  - cappedOSM: [0x0C13fF3DC02E85aC169c4099C09c9B388f2943Fd](https://etherscan.io/address/0x0C13fF3DC02E85aC169c4099C09c9B388f2943Fd)
+  - cap: **0.083 USDS**
+
 ### SKY Token Rewards Rebalance
 
 - **Authorization**: [Forum Post](https://forum.sky.money/t/sky-token-rewards-usds-to-sky-rewards-normalization-configuration/26638/20), [Atlas](https://sky-atlas.powerhouse.io/A.4.3.2.1_SKY_Token_Rewards/1d6f2ff0-8d73-809b-9088-d11181182d17%7Cb3417d54eb16)
@@ -40,14 +53,14 @@ If this executive proposal does not pass within 30 days, then it will expire and
 
 If this executive proposal passes, then the distribution of SKY token rewards to USDS holders will be normalized to ensure the effective yield provided by these rewards equals the Sky Savings Rate (SSR), as per [A.4.3.2 - Token Reward Mechanism](https://sky-atlas.powerhouse.io/A.4.3.2_Token_Reward_Mechanism/2e3e7014-bd66-4e85-b915-b86ae3ceeb16%7Cb3417d54), by executing the following actions:
 
-- `yank()` MCD_VEST_SKY_TREASURY vest with ID 6.
 - Distribute the remaining tokens from the old DssVest by calling `VestedRewardsDistribution.distribute()` on REWARDS_DIST_USDS_SKY.
 - Create a new MCD_VEST_SKY_TREASURY stream with the following parameters:
   - `res`: 1 (restricted)
-  - Increase SKY allowance for MCD_VEST_SKY_TREASURY to the sum of all active streams and the new stream created by this executive vote.
+  - Adjust the Sky allowance for MCD_VEST_SKY_TREASURY, reducing it by the remaining yanked stream amount and increasing it by the new stream total.
   - `vestBgn`: `block.timestamp`
   - `vestTau`: `block.timestamp` + 15,724,800 seconds (182 days after the spell executes)
   - `tot`: **68,379,376 SKY**
+- `yank()` MCD_VEST_SKY_TREASURY vest with ID 6.
 - File the new stream ID on REWARDS_DIST_USDS_SKY
 
 ### Whitelist Keel ALM Proxy on litePSM
@@ -63,7 +76,7 @@ If this executive proposal passes, then the Keel ALM Proxy will be whitelisted o
 
 If this executive proposal passes, then Prime Agent proxy spells for Spark, Grove, and Keel will be executed at the following addresses:
 
-- Spark: [0xD1919a5D4d320c07ca55e7936d3C25bE831A9561](https://etherscan.io/address/0xD1919a5D4d320c07ca55e7936d3C25bE831A9561)
+- Spark: [0x4a3a40957CDc47552E2BE2012d127A5f4BD7f689](https://etherscan.io/address/0x4a3a40957CDc47552E2BE2012d127A5f4BD7f689)
 - Grove: [0x67e7b3bFAb1Fb6267baECEc034Bbf7592F6B4E9b](0x67e7b3bFAb1Fb6267baECEc034Bbf7592F6B4E9b)
 - Keel: [0x7ae136b7e677C6A9B909a0ef0a4E29f0a1c3c7fE](https://etherscan.io/address/0x7ae136b7e677C6A9B909a0ef0a4E29f0a1c3c7fE)
 
@@ -125,7 +138,7 @@ The following Spark Savings v2 vaults will be launched:
 ###### ETH
 
 - Spark Savings ETH (spETH)
-  - spETH address: [0xC2C0582D1cCe30449cF561C7b9C4D6d527547F12](https://etherscan.io/address/0xC2C0582D1cCe30449cF561C7b9C4D6d527547F12)
+  - spETH address: [0xfE6eb3b609a7C8352A241f7F3A21CEA4e9209B8f](https://etherscan.io/address/0xfE6eb3b609a7C8352A241f7F3A21CEA4e9209B8f)
   - Roles
     - Default admin: [0x3300f198988e4C9C63F75dF86De36421f06af8c4](https://etherscan.io/address/0x3300f198988e4C9C63F75dF86De36421f06af8c4) (Spark Subdao Proxy)
     - Setter: [0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC](https://etherscan.io/address/0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC) (Spark operations safe)
@@ -143,7 +156,7 @@ The following Spark Savings v2 vaults will be launched:
 ###### USDC
 
 - Spark Savings USDC (spUSDC)
-  - spUSDC address: [0x15F4a4b19baaA168AC0b6092d310aE9725741211](https://etherscan.io/address/0x15F4a4b19baaA168AC0b6092d310aE9725741211)
+  - spUSDC address: [0x28B3a8fb53B741A8Fd78c0fb9A6B2393d896a43d](https://etherscan.io/address/0x28B3a8fb53B741A8Fd78c0fb9A6B2393d896a43d)
   - Roles
     - Default admin: [0x3300f198988e4C9C63F75dF86De36421f06af8c4](https://etherscan.io/address/0x3300f198988e4C9C63F75dF86De36421f06af8c4) (Spark Subdao Proxy)
     - Setter: [0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC](https://etherscan.io/address/0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC) (Spark operations safe)
@@ -161,7 +174,7 @@ The following Spark Savings v2 vaults will be launched:
 ###### USDT
 
 - Spark Savings USDT (spUSDT)
-  - spUSDT address: [0xE742c84510A200b95979645b46c872073F0fa929](https://etherscan.io/address/0xE742c84510A200b95979645b46c872073F0fa929)
+  - spUSDT address: [0xe2e7a17dFf93280dec073C995595155283e3C372](https://etherscan.io/address/0xe2e7a17dFf93280dec073C995595155283e3C372)
   - Roles
     - Default admin: [0x3300f198988e4C9C63F75dF86De36421f06af8c4](https://etherscan.io/address/0x3300f198988e4C9C63F75dF86De36421f06af8c4) (Spark Subdao Proxy)
     - Setter: [0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC](https://etherscan.io/address/0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC) (Spark operations safe)
