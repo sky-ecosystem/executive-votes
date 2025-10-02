@@ -76,7 +76,7 @@ If this executive proposal passes, then the Keel ALM Proxy will be whitelisted o
 
 If this executive proposal passes, then Prime Agent proxy spells for Spark, Grove, and Keel will be executed at the following addresses:
 
-- Spark: [0xD1919a5D4d320c07ca55e7936d3C25bE831A9561](https://etherscan.io/address/0xD1919a5D4d320c07ca55e7936d3C25bE831A9561)
+- Spark: [0x4a3a40957CDc47552E2BE2012d127A5f4BD7f689](https://etherscan.io/address/0x4a3a40957CDc47552E2BE2012d127A5f4BD7f689)
 - Grove: [0x67e7b3bFAb1Fb6267baECEc034Bbf7592F6B4E9b](0x67e7b3bFAb1Fb6267baECEc034Bbf7592F6B4E9b)
 - Keel: [0x7ae136b7e677C6A9B909a0ef0a4E29f0a1c3c7fE](https://etherscan.io/address/0x7ae136b7e677C6A9B909a0ef0a4E29f0a1c3c7fE)
 
@@ -138,7 +138,7 @@ The following Spark Savings v2 vaults will be launched:
 ###### ETH
 
 - Spark Savings ETH (spETH)
-  - spETH address: [0xC2C0582D1cCe30449cF561C7b9C4D6d527547F12](https://etherscan.io/address/0xC2C0582D1cCe30449cF561C7b9C4D6d527547F12)
+  - spETH address: [0xfE6eb3b609a7C8352A241f7F3A21CEA4e9209B8f](https://etherscan.io/address/0xfE6eb3b609a7C8352A241f7F3A21CEA4e9209B8f)
   - Roles
     - Default admin: [0x3300f198988e4C9C63F75dF86De36421f06af8c4](https://etherscan.io/address/0x3300f198988e4C9C63F75dF86De36421f06af8c4) (Spark Subdao Proxy)
     - Setter: [0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC](https://etherscan.io/address/0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC) (Spark operations safe)
@@ -156,7 +156,7 @@ The following Spark Savings v2 vaults will be launched:
 ###### USDC
 
 - Spark Savings USDC (spUSDC)
-  - spUSDC address: [0x15F4a4b19baaA168AC0b6092d310aE9725741211](https://etherscan.io/address/0x15F4a4b19baaA168AC0b6092d310aE9725741211)
+  - spUSDC address: [0x28B3a8fb53B741A8Fd78c0fb9A6B2393d896a43d](https://etherscan.io/address/0x28B3a8fb53B741A8Fd78c0fb9A6B2393d896a43d)
   - Roles
     - Default admin: [0x3300f198988e4C9C63F75dF86De36421f06af8c4](https://etherscan.io/address/0x3300f198988e4C9C63F75dF86De36421f06af8c4) (Spark Subdao Proxy)
     - Setter: [0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC](https://etherscan.io/address/0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC) (Spark operations safe)
@@ -174,7 +174,7 @@ The following Spark Savings v2 vaults will be launched:
 ###### USDT
 
 - Spark Savings USDT (spUSDT)
-  - spUSDT address: [0xE742c84510A200b95979645b46c872073F0fa929](https://etherscan.io/address/0xE742c84510A200b95979645b46c872073F0fa929)
+  - spUSDT address: [0xe2e7a17dFf93280dec073C995595155283e3C372](https://etherscan.io/address/0xe2e7a17dFf93280dec073C995595155283e3C372)
   - Roles
     - Default admin: [0x3300f198988e4C9C63F75dF86De36421f06af8c4](https://etherscan.io/address/0x3300f198988e4C9C63F75dF86De36421f06af8c4) (Spark Subdao Proxy)
     - Setter: [0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC](https://etherscan.io/address/0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC) (Spark operations safe)
