@@ -44,7 +44,7 @@ If this executive proposal passes, then the Lockstake Capped OSM Wrapper for SKY
 -Call [LockstakeInit.updateOSM](https://github.com/sky-ecosystem/lockstake/blob/7db951621c7ac49e6d459a91ffbc0a8a43a4b12f/deploy/LockstakeInit.sol#L376-L407) with:
   - dss: **A DssInstance** (from [dss-test/MCD.sol](https://github.com/sky-ecosystem/dss-test/blob/master/src/MCD.sol))
   - cappedOSM: [0x0C13fF3DC02E85aC169c4099C09c9B388f2943Fd](https://etherscan.io/address/0x0C13fF3DC02E85aC169c4099C09c9B388f2943Fd)
-  - cap: **0.083 USDS**
+  - cap: **0.04 USDS**
 
 ### SKY Token Rewards Rebalance
 
