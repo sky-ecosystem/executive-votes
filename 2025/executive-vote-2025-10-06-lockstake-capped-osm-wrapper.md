@@ -36,7 +36,7 @@ If this executive proposal does not pass within 30 days, then it will expire and
 
 ### Launch Lockstake Capped OSM Wrapper
 
-- **Authorization**: [Forum Post](https://forum.sky.money/t/technical-scope-of-the-lockstake-capped-osm-wrapper-launch/27246/4), [Atlas](https://sky-atlas.powerhouse.io/A.0.1.2.1_Facilitators%E2%80%99_Broad_Discretionary_Capacity/9baf179a-ac10-4ed1-b4f2-1cb2cbb7daf1%7C693d9aad475a)
+- **Authorization**: Forum Post [1](https://forum.sky.money/t/technical-scope-of-the-lockstake-capped-osm-wrapper-launch/27246/4), [2](https://forum.sky.money/t/technical-scope-of-the-lockstake-capped-osm-wrapper-launch/27246/6), [Atlas](https://sky-atlas.powerhouse.io/A.0.1.2.1_Facilitators%E2%80%99_Broad_Discretionary_Capacity/9baf179a-ac10-4ed1-b4f2-1cb2cbb7daf1%7C693d9aad475a)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/technical-scope-of-the-lockstake-capped-osm-wrapper-launch/27246)
 
 If this executive proposal passes, then the Lockstake Capped OSM Wrapper for SKY will be launched. The Lockstake Capped OSM Wrapper wraps an OSM contract, and reports prices up to a pre set `cap`. The contract will wrap PIP_SKY to be used on LOCKSTAKE_ENGINE, aiming to prevent SKY price spikes from allowing excessive USDS debt generation on the module. This executive proposal will launch Lockstake Capped OSM Wrapper with the following calls and parameters:
@@ -44,7 +44,7 @@ If this executive proposal passes, then the Lockstake Capped OSM Wrapper for SKY
 -Call [LockstakeInit.updateOSM](https://github.com/sky-ecosystem/lockstake/blob/7db951621c7ac49e6d459a91ffbc0a8a43a4b12f/deploy/LockstakeInit.sol#L376-L407) with:
   - dss: **A DssInstance** (from [dss-test/MCD.sol](https://github.com/sky-ecosystem/dss-test/blob/master/src/MCD.sol))
   - cappedOSM: [0x0C13fF3DC02E85aC169c4099C09c9B388f2943Fd](https://etherscan.io/address/0x0C13fF3DC02E85aC169c4099C09c9B388f2943Fd)
-  - cap: **0.083 USDS**
+  - cap: **0.04 USDS**
 
 ### SKY Token Rewards Rebalance
 
