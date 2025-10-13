@@ -37,7 +37,7 @@ If this executive proposal does not pass within 30 days, then it will expire and
 
 ### Allocator 4 Technical Launch
 
-- **Authorization**: [Facilitator approval]($TBD), [Atlas Authorization]($TBD)
+- **Authorization**: [Facilitator approval](https://forum.sky.money/t/technical-scope-launch-of-the-agent-4-allocation-system/27314/4), [Governance poll](https://vote.sky.money/polling/QmWyJQpE)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/technical-scope-launch-of-the-agent-4-allocation-system/27314)
 
 If this executive proposal passes, then the technical launch of Allocator 4 will be carried out by calling [AllocatorInit.initIlk](https://github.com/makerdao/dss-allocator/blob/226584d3b179d98025497815adb4ea585ea0102d/deploy/AllocatorInit.sol#L97-L164) with the following parameters:
