@@ -197,6 +197,9 @@ The Spark Liquidity Layer will onboard Avalanche with the following details and 
 
 ##### [Avalanche] Onboard Aave v3 Avalanche USDC
 
+- **Authorization**: [Snapshot poll](https://snapshot.box/#/s:sparkfi.eth/proposal/0x56cbdcf3f29f3b3f03c65ebb779106ebfe34e4582a177b5987c90cc5cf5a37ea)
+- **Proposal**: [Forum post](https://forum.sky.money/t/october-16-2025-proposed-changes-to-spark-for-upcoming-spell/27215)
+
 Aave v3 Avalanche USDC will be onboarded to the Spark Liquidity Layer on Avalanche with the following details and [rate limits](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.1.2_Rate_Limits/264f2ff0-8d73-8050-892b-e4a0ed9828dc|9e1ff936a6cb63b1903ca2d845de):
 
 - aAvaUSDC address: [0x625E7708f30cA75bfd92586e17077590C60eb4cD](https://snowtrace.io/address/0x625E7708f30cA75bfd92586e17077590C60eb4cD)
@@ -210,6 +213,9 @@ Aave v3 Avalanche USDC will be onboarded to the Spark Liquidity Layer on Avalanc
 #### Grove
 
 ##### [Ethereum] Enable USDC Transfers to FalconX
+
+- **Authorization**: [Governance poll/Atlas Edit Proposal](https://vote.sky.money/polling/QmWyJQpE)
+- **Proposal**: [Forum post](https://forum.sky.money/t/october-16-2025-proposed-changes-to-grove-for-upcoming-spell/27266)
 
 USDC deposits to FalconX will be onboarded to the Grove Liquidity Layer with the following details and [rate limits](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.1.2_Rate_Limits/264f2ff0-8d73-8050-892b-e4a0ed9828dc|9e1ff936a6cb63b1903ca2d845de):
 
