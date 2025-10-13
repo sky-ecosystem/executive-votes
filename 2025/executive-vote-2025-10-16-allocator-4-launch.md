@@ -56,7 +56,7 @@ If this executive proposal passes, then the technical launch of Allocator 4 will
 - `cfg.allocatorProxy`: [0x8be042581f581E3620e29F213EA8b94afA1C8071](https://etherscan.io/address/0x8be042581f581E3620e29F213EA8b94afA1C8071) (SubProxy contract);
 - `cfg.ilkRegistry`: `ILK_REGISTRY` from [Chainlog](https://chainlog.sky.money/);
 
-The initialization script will create a PIP_ALLOCATOR_OBEX_A entry in the chainlog; this entry is not necessary and will be removed.
+The initialization script will create a PIP_ALLOCATOR_OBEX_A entry in the [Chainlog](https://chainlog.sky.money/); this entry is not necessary and will be removed.
 
 ALLOCATOR-OBEX-A will be added to the [Debt Ceiling Breaker (LINE_MOM)](https://sky-atlas.powerhouse.io/A.1.9.3.2.3_Debt_Ceiling_Breaker_Exception/8c27b081-2db5-4e8f-9b5c-f5cf0f8d3102|0db30758e055352c).
 
