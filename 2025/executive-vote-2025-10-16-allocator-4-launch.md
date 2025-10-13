@@ -122,7 +122,7 @@ If this executive proposal passes, then a total of **78,188 USDS** and **618,000
 If this executive proposal passes, then Prime Agent proxy spells for Spark and Grove will be executed at the following addresses:
 
 - Spark: [0x4924e46935F6706d08413d44dF5C31a9d40F6a64](https://etherscan.io/address/0x4924e46935F6706d08413d44dF5C31a9d40F6a64)
-- Grove: $TBD
+- Grove: [0xF2A28fb43D5d3093904B889538277fB175B42Ece](https://etherscan.io/address/0xF2A28fb43D5d3093904B889538277fB175B42Ece)
 
 The expected contents of each proxy spell are listed below.
 
