@@ -42,19 +42,19 @@ If this executive proposal does not pass within 30 days, then it will expire and
 
 If this executive proposal passes, then the technical launch of Allocator 4 will be carried out by calling [AllocatorInit.initIlk](https://github.com/makerdao/dss-allocator/blob/226584d3b179d98025497815adb4ea585ea0102d/deploy/AllocatorInit.sol#L97-L164) with the following parameters:
 
-- sharedInstance.oracle: PIP_ALLOCATOR from [chainlog](https://chainlog.sky.money/);
-- sharedInstance.roles: ALLOCATOR_ROLES from chainlog;
-- sharedInstance.registry: ALLOCATOR_REGISTRY from chainlog;
-- ilkInstance.owner: MCD_PAUSE_PROXY from chainlog;
-- ilkInstance.vault: [0xF275110dFE7B80df66a762f968f59B70BABE2b29](https://etherscan.io/address/0xF275110dFE7B80df66a762f968f59B70BABE2b29) (AllocatorVault contract);
-- ilkInstance.buffer: [0x51E9681D7a05abFD33EfaFd43e5dd3Afc0093F1D](https://etherscan.io/address/0x51E9681D7a05abFD33EfaFd43e5dd3Afc0093F1D) (AllocatorBuffer contract);
-- cfg.ilk: ALLOCATOR-OBEX-A;
-- cfg.duty: **1*10^27 (0%)**;
-- cfg.gap: **10 million USDS**;
-- cfg.maxLine: **10 million USDS**;
-- cfg.ttl: **86,400 seconds (24 hours)**;
-- cfg.allocatorProxy: [0x8be042581f581E3620e29F213EA8b94afA1C8071](https://etherscan.io/address/0x8be042581f581E3620e29F213EA8b94afA1C8071) (SubProxy contract);
-- cfg.ilkRegistry: ILK_REGISTRY from chainlog;
+- `sharedInstance.oracle`: `PIP_ALLOCATOR` from [Chainlog](https://chainlog.sky.money/);
+- `sharedInstance.roles`: `ALLOCATOR_ROLES` from [Chainlog](https://chainlog.sky.money/);
+- `sharedInstance.registry`: `ALLOCATOR_REGISTRY` from [Chainlog](https://chainlog.sky.money/);
+- `ilkInstance.owner`: `MCD_PAUSE_PROXY` from [Chainlog](https://chainlog.sky.money/);
+- `ilkInstance.vault`: [0xF275110dFE7B80df66a762f968f59B70BABE2b29](https://etherscan.io/address/0xF275110dFE7B80df66a762f968f59B70BABE2b29) (AllocatorVault contract);
+- `ilkInstance.buffer`: [0x51E9681D7a05abFD33EfaFd43e5dd3Afc0093F1D](https://etherscan.io/address/0x51E9681D7a05abFD33EfaFd43e5dd3Afc0093F1D) (AllocatorBuffer contract);
+- `cfg.ilk`: `ALLOCATOR-OBEX-A`;
+- `cfg.duty`: **1*10^27 (0%)**;
+- `cfg.gap`: **10 million USDS**;
+- `cfg.maxLine`: **10 million USDS**;
+- `cfg.ttl`: **86,400 seconds (24 hours)**;
+- `cfg.allocatorProxy`: [0x8be042581f581E3620e29F213EA8b94afA1C8071](https://etherscan.io/address/0x8be042581f581E3620e29F213EA8b94afA1C8071) (SubProxy contract);
+- `cfg.ilkRegistry`: `ILK_REGISTRY` from [Chainlog](https://chainlog.sky.money/);
 
 The initialization script will create a PIP_ALLOCATOR_OBEX_A entry in the chainlog; this entry is not necessary and will be removed.
 
