@@ -49,10 +49,10 @@ If this executive proposal passes, then the technical launch of Allocator 4 will
 - ilkInstance.vault: [0xF275110dFE7B80df66a762f968f59B70BABE2b29](https://etherscan.io/address/0xF275110dFE7B80df66a762f968f59B70BABE2b29) (AllocatorVault contract);
 - ilkInstance.buffer: [0x51E9681D7a05abFD33EfaFd43e5dd3Afc0093F1D](https://etherscan.io/address/0x51E9681D7a05abFD33EfaFd43e5dd3Afc0093F1D) (AllocatorBuffer contract);
 - cfg.ilk: ALLOCATOR-OBEX-A;
-- cfg.duty: 1 * 10**27 (0%) (%TBC);
-- cfg.gap: $TBD (Note: to be provided; can be any value, including 0);
-- cfg.maxLine: $TBD (Note: to be provided; must be > 0);
-- cfg.ttl: $TBD (Note: to be provided; must be < type(uint48).max);
+- cfg.duty: 1 * 10**27 (0%);
+- cfg.gap: 10 million USDS;
+- cfg.maxLine: 10 million USDS;
+- cfg.ttl: 86,400 seconds (24 hours);
 - cfg.allocatorProxy: [0x8be042581f581E3620e29F213EA8b94afA1C8071](https://etherscan.io/address/0x8be042581f581E3620e29F213EA8b94afA1C8071) (SubProxy contract);
 - cfg.ilkRegistry: ILK_REGISTRY from chainlog;
 
