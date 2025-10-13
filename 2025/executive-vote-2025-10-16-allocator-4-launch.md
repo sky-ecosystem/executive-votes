@@ -5,7 +5,7 @@ date: 2025-10-16T00:00:00.000Z
 address: "$spell_address"
 ---
 
-# [Executive Proposal] Allocator 4 Technical Launch, Monthly Settlement Cycle for September 2025, Ranked Delegate Compensation, Atlas Core Development Compensation, Star Proxy Spells - October 16, 2025
+# [Executive Proposal] Allocator 4 Technical Launch, Monthly Settlement Cycle for September 2025, Ranked Delegate Compensation, Atlas Core Development Compensation, Prime Agent Proxy Spells - October 16, 2025
 
 The Governance Facilitators, Sidestream, and Dewiz have placed an executive proposal into the voting system. SKY holders should vote for this proposal if they support the following alterations to the Sky Protocol.
 
@@ -54,7 +54,7 @@ If this executive proposal passes, then the technical launch of Allocator 4 will
 - `cfg.maxLine`: **10 million USDS**;
 - `cfg.ttl`: **86,400 seconds (24 hours)**;
 - `cfg.allocatorProxy`: [0x8be042581f581E3620e29F213EA8b94afA1C8071](https://etherscan.io/address/0x8be042581f581E3620e29F213EA8b94afA1C8071) (SubProxy contract);
-- `cfg.ilkRegistry`: `ILK_REGISTRY` from [Chainlog](https://chainlog.sky.money/);
+- `cfg.ilkRegistry`: `ILK_REGISTRY` from [Chainlog](https://chainlog.sky.money/).
 
 The initialization script will create a PIP_ALLOCATOR_OBEX_A entry in the [Chainlog](https://chainlog.sky.money/); this entry is not necessary and will be removed.
 
@@ -150,7 +150,7 @@ Superstate USCC will be onboarded to the Spark Liquidity Layer on mainnet with t
     - maxAmount: **100 million USDC**
     - slope: **50 million USDC per day**
   - Withdrawals
-    - maxAmount: **unlimited**
+    - maxAmount: **Unlimited**
 
 ##### [Avalanche] Onboard Avalanche to the Spark Liquidity Layer
 
@@ -202,7 +202,7 @@ The Spark Liquidity Layer will onboard Avalanche with the following details and 
 
 Aave v3 Avalanche USDC will be onboarded to the Spark Liquidity Layer on Avalanche with the following details and [rate limits](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.1.2_Rate_Limits/264f2ff0-8d73-8050-892b-e4a0ed9828dc|9e1ff936a6cb63b1903ca2d845de):
 
-- aAvaUSDC address: [0x625E7708f30cA75bfd92586e17077590C60eb4cD](https://snowtrace.io/address/0x625E7708f30cA75bfd92586e17077590C60eb4cD)
+- aAvaxUSDC address: [0x625E7708f30cA75bfd92586e17077590C60eb4cD](https://snowtrace.io/address/0x625E7708f30cA75bfd92586e17077590C60eb4cD)
 - Underlying asset: USDC
 - Deposits
   - maxAmount: **20 million USDC**
@@ -222,8 +222,8 @@ USDC deposits to FalconX will be onboarded to the Grove Liquidity Layer with the
 - **FalconX USDC Deposit Address:** [0xD94F9ef3395BBE41C1f05ced3C9a7dc520D08036](https://etherscan.io/address/0xD94F9ef3395BBE41C1f05ced3C9a7dc520D08036)
 - **Rationale:** Onboard USDC (ERC20Transfers) deposits to the above FalconX USDC Deposit Address for settlement. The address is an EOA and onboarding details have been documented in the [Risk Assessment thread](https://forum.sky.money/t/grove-risk-assessment-pt-usde-pt-susde/27254).
 - **Parameters:**
-  - **USDC:** [0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48](https://etherscan.io/token/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48)
-    - **Deposits / Transfers:**
+  - USDC: [0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48](https://etherscan.io/token/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48)
+    - Deposits/ Transfers:
       - **Max amount:** 50 million USDC
       - **Slope:** 50 million USDC per day
 
