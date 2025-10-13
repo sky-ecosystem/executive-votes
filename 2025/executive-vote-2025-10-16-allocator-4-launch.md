@@ -133,7 +133,7 @@ The expected contents of each proxy spell are listed below.
 - **Authorization**: [Snapshot poll](https://snapshot.box/#/s:sparkfi.eth/proposal/0x56cbdcf3f29f3b3f03c65ebb779106ebfe34e4582a177b5987c90cc5cf5a37ea)
 - **Proposal**: [Forum post](https://forum.sky.money/t/october-16-2025-proposed-changes-to-spark-for-upcoming-spell/27215)
 
-BUIDL and JTRSY will be offboarded from the Spark Liquidity Layer on mainnet by setting their deposit and redemption maxAmount and Slope [rate limits](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.1.2_Rate_Limits/264f2ff0-8d73-8050-892b-e4a0ed9828dc|9e1ff936a6cb63b1903ca2d845de) to **0**.
+BUIDL and JTRSY will be offboarded from the Spark Liquidity Layer on mainnet by setting their deposit and redemption maxAmount and slope [rate limits](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.1.2_Rate_Limits/264f2ff0-8d73-8050-892b-e4a0ed9828dc|9e1ff936a6cb63b1903ca2d845de) to **0**.
 
 ##### [Ethereum] Onboard USCC
 
@@ -160,14 +160,14 @@ Superstate USCC will be onboarded to the Spark Liquidity Layer on mainnet with t
 The Spark Liquidity Layer will onboard Avalanche with the following details and [rate limits](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.1.2_Rate_Limits/264f2ff0-8d73-8050-892b-e4a0ed9828dc|9e1ff936a6cb63b1903ca2d845de):
 
 - SLL addresses:
-  - Spark Governance executor: [0x7566DEbC906C17338524A414343fA61BcA26A843](https://snowtrace.io/address/0x7566DEbC906C17338524A414343fA61BcA26A843)
+  - Spark Governance Executor: [0x7566DEbC906C17338524A414343fA61BcA26A843](https://snowtrace.io/address/0x7566DEbC906C17338524A414343fA61BcA26A843)
   - Receiver: [0xd905be48983D405C6fD7f5a983D2351fb61C691F](https://snowtrace.io/address/0xd905be48983D405C6fD7f5a983D2351fb61C691F)
   - CCTP Messenger: [0x6B25532e1060CE10cc3B0A99e5683b91BFDe6982](https://snowtrace.io/address/0x6B25532e1060CE10cc3B0A99e5683b91BFDe6982)
   - ALM Controller: [0x4E64b576F72c237690F27727376186639447f096](https://snowtrace.io/address/0x4E64b576F72c237690F27727376186639447f096)
   - ALM Proxy: [0xecE6B0E8a54c2f44e066fBb9234e7157B15b7FeC](https://snowtrace.io/address/0xecE6B0E8a54c2f44e066fBb9234e7157B15b7FeC)
   - ALM Rate Limits: [0xb79972e8B21f0dE911E65AC342ac85ad38C9A77a](https://snowtrace.io/address/0xb79972e8B21f0dE911E65AC342ac85ad38C9A77a)
   - Relayer: [0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB](https://snowtrace.io/address/0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB)
-  - Backup relayer: [0x8Cc0Cb0cfB6B7e548cfd395B833c05C346534795](https://snowtrace.io/address/0x8Cc0Cb0cfB6B7e548cfd395B833c05C346534795)
+  - Backup Relayer: [0x8Cc0Cb0cfB6B7e548cfd395B833c05C346534795](https://snowtrace.io/address/0x8Cc0Cb0cfB6B7e548cfd395B833c05C346534795)
   - Freezer: [0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431](https://snowtrace.io/address/0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431)
 - CCTP initial rate limits:
   - CCTP global
