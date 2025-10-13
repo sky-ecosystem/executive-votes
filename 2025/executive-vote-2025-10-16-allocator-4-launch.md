@@ -100,8 +100,6 @@ If this executive proposal passes, then a total of **23,824 USDS** will be distr
 
 If this executive proposal passes, then a total of **78,188 USDS** and **618,000 SKY** will be distributed as Atlas Core Development payments for October 2025 as follows.
 
-#### USDS
-
 #### USDS Payments
 
 | Recipient | Amount (USDS) | Address                                                                                                               |
@@ -224,8 +222,8 @@ USDC deposits to FalconX will be onboarded to the Grove Liquidity Layer with the
 - **Parameters:**
   - USDC: [0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48](https://etherscan.io/token/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48)
     - Deposits/ Transfers:
-      - **Max amount:** 50 million USDC
-      - **Slope:** 50 million USDC per day
+      - maxAmount: **50 million USDC**
+      - slope: **50 million USDC per day**
 
 ## Review
 
