@@ -2,7 +2,7 @@
 title: Template - [Executive Vote] Allocator 4 Technical Launch, Monthly Settlement Cycle for September 2025, Ranked Delegate Compensation, Atlas Core Development Compensation, Execute Prime Agent Proxy Spells - October 16, 2025
 summary: Onboard Allocator 4, execute the steps for the Monthly Settlement Cycle for September 2025, distribute Ranked Delegate compensation for September 2025, distribute Atlas Core Development compensation for October 2025, execute proxy spells for Spark and Grove.
 date: 2025-10-16T00:00:00.000Z
-address: "$spell_address"
+address: "0xf3d37a2508d269b8328026f72D65795730Ce07b6"
 ---
 
 # [Executive Proposal] Allocator 4 Technical Launch, Monthly Settlement Cycle for September 2025, Ranked Delegate Compensation, Atlas Core Development Compensation, Prime Agent Proxy Spells - October 16, 2025
