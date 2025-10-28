@@ -294,18 +294,18 @@ Aave Core RLUSD and USDC will be onboarded to the Grove Liquity Layer (GLL) with
   - aEthUSDC Address: [0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c](https://etherscan.io/address/0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c)
   - Underlying asset: **USDC**
   - Deposits
-    - maxAmount: **50 million USDC**
-    - slope: **25 million per day USDC**
+    - [maxAmount](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.2.2.1_MaxAmount/264f2ff0-8d73-80cf-a4d0-c55dd7dc0138%7C9e1ff936a6cb63b1903ca2d845de28dc): **50 million USDC**
+    - [slope](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.2.2.2_Slope/264f2ff0-8d73-80ff-9ba4-f25914f61e14%7C9e1ff936a6cb63b1903ca2d845de28dc): **25 million per day USDC**
   - Withdrawals
-    - maxAmount: **unlimited**
+    - [maxAmount](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.2.2.1_MaxAmount/264f2ff0-8d73-80cf-a4d0-c55dd7dc0138%7C9e1ff936a6cb63b1903ca2d845de28dc): **unlimited**
 - Aave Core v3 RLUSD
   - aEthRLUSD Address: [0xFa82580c16A31D0c1bC632A36F82e83EfEF3Eec0](https://etherscan.io/address/0xFa82580c16A31D0c1bC632A36F82e83EfEF3Eec0)
   - Underlying asset: **RLUSD**
   - Deposits
-    - maxAmount: **50 million RLUSD**
-    - slope: **25 million per day RLUSD**
+    - [maxAmount](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.2.2.1_MaxAmount/264f2ff0-8d73-80cf-a4d0-c55dd7dc0138%7C9e1ff936a6cb63b1903ca2d845de28dc: **50 million RLUSD**
+    - [slope](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.2.2.2_Slope/264f2ff0-8d73-80ff-9ba4-f25914f61e14%7C9e1ff936a6cb63b1903ca2d845de28dc): **25 million per day RLUSD**
   - Withdrawals
-  - maxAmount: **unlimited**
+  - [maxAmount](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.2.2.1_MaxAmount/264f2ff0-8d73-80cf-a4d0-c55dd7dc0138%7C9e1ff936a6cb63b1903ca2d845de28dc): **unlimited**
  
 ##### [Mainnet] GLL - Onboard Aave Horizon RLUSD and USDC
 
@@ -318,18 +318,18 @@ Aave Horizon RLUSD and USDC will be onboarded to the Grove Liquity Layer (GLL) w
   - Address: [0x68215B6533c47ff9f7125aC95adf00fE4a62f79e](https://etherscan.io/address/0x68215B6533c47ff9f7125aC95adf00fE4a62f79e)
   - Underlying asset: **USDC**
   - Deposits
-    - maxAmount: **50 million USDC**
-    - slope: **25 million per day USDC**
+    - [maxAmount](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.2.2.1_MaxAmount/264f2ff0-8d73-80cf-a4d0-c55dd7dc0138%7C9e1ff936a6cb63b1903ca2d845de28dc): **50 million USDC**
+    - [slope](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.2.2.2_Slope/264f2ff0-8d73-80ff-9ba4-f25914f61e14%7C9e1ff936a6cb63b1903ca2d845de28dc): **25 million per day USDC**
   - Withdrawals
-    - maxAmount: **unlimited**
+    - [maxAmount](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.2.2.1_MaxAmount/264f2ff0-8d73-80cf-a4d0-c55dd7dc0138%7C9e1ff936a6cb63b1903ca2d845de28dc): **unlimited**
 - Aave Horizon RLUSD
   - Address: [0xE3190143Eb552456F88464662f0c0C4aC67A77eB](https://etherscan.io/address/0xE3190143Eb552456F88464662f0c0C4aC67A77eB)
   - Underlying asset: **RLUSD**
   - Deposits
-    - maxAmount: **50 million RLUSD**
-    - slope: **25 million per day RLUSD**
+    - [maxAmount](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.2.2.1_MaxAmount/264f2ff0-8d73-80cf-a4d0-c55dd7dc0138%7C9e1ff936a6cb63b1903ca2d845de28dc): **50 million RLUSD**
+    - [slope](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.2.2.2_Slope/264f2ff0-8d73-80ff-9ba4-f25914f61e14%7C9e1ff936a6cb63b1903ca2d845de28dc): **25 million per day RLUSD**
   - Withdrawals
-    - maxAmount: **unlimited**
+    - [maxAmount](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.2.2.1_MaxAmount/264f2ff0-8d73-80cf-a4d0-c55dd7dc0138%7C9e1ff936a6cb63b1903ca2d845de28dc): **unlimited**
    
 ##### [Mainnet] GLL - Onboard Curve RLUSD and USDC Swaps
 
@@ -342,9 +342,9 @@ Curve RLUSD and USDC Swaps will be onboarded to the Grove Liquity Layer (GLL) wi
   - Pool Address: [0xD001aE433f254283FeCE51d4ACcE8c53263aa186](https://etherscan.io/address/0xD001aE433f254283FeCE51d4ACcE8c53263aa186)
   - Underlying assets: **USDC** and **RLUSD**
   - Swaps
-    - maxAmount: **20 million**
-    - slope: **100 million per day**
-    - maxSlippage: **0.1%**
+    - [maxAmount](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.2.2.1_MaxAmount/264f2ff0-8d73-80cf-a4d0-c55dd7dc0138%7C9e1ff936a6cb63b1903ca2d845de28dc): **20 million**
+    - [slope](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.2.2.2_Slope/264f2ff0-8d73-80ff-9ba4-f25914f61e14%7C9e1ff936a6cb63b1903ca2d845de28dc): **100 million per day**
+    - [maxSlippage](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.2.6_MaxSlippage/264f2ff0-8d73-80c8-be69-ced9b40cb5ce%7C9e1ff936a6cb63b1903ca2d845de): **0.1%**
 
 ## Review
 
