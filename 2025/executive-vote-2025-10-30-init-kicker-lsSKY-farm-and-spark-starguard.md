@@ -107,6 +107,11 @@ Call [StarGuardInit.init](https://github.com/sidestream-tech/sky-star-guard/blob
 - `cfg.starGuardKey`: **SPARK_STARGUARD**
 - `cfg.maxDelay`: **7 days**
 
+- Other required actions:
+  - Add `StarGuardJob` deployed at [0xB18d211fA69422a9A848B790C5B4a3957F7Aa44E](https://etherscan.io/address/0xB18d211fA69422a9A848B790C5B4a3957F7Aa44E) to the Sequencer.
+  - Add `SPARK_STARGUARD` to the `StarGuardJob`.
+  - Add `StarGuardJob` to the [Chainlog](https://chainlog.sky.money) as `CRON_STARGUARD_JOB`.
+
 ### Fund Core Council Multisigs
 
 - **Authorization**: [Governance Poll 1601](https://vote.sky.money/polling/Qmbs7wEM)
