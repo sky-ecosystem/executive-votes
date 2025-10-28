@@ -170,8 +170,8 @@ The Sparklend Supply and Borrow Caps for Non Collateral Stablecoins (USDC, USDT,
 
 The SparkLend cbBTC Supply and Borrow Caps on Ethereum will be increased as described below:
 
-- Supply cap max: **20,000**
-- Borrow cap max: **10,000**
+- [Supply cap](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.9_Supply_Cap_Definition/1c1f2ff0-8d73-81b3-8206-e7b26cebfd73%7C7896ed3326389fe3553030cd0a82f68efd49): **20,000**
+- [Borrow cap](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.10_Borrow_Cap_Definition/1c1f2ff0-8d73-81ed-b136-d5f9871bc2c2%7C7896ed3326389fe3553030cd0a82f68efd49): **10,000**
 
 ##### [[Mainnet] SparkLend - Increase tBTC Supply and Borrow Caps
 
@@ -180,8 +180,8 @@ The SparkLend cbBTC Supply and Borrow Caps on Ethereum will be increased as desc
 
 The SparkLend tBTC Supply and Borrow Caps on Ethereum will be increased as described below:
 
-- Supply cap max: **1,000**
-- Borrow cap max: **900**
+- [Supply cap](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.9_Supply_Cap_Definition/1c1f2ff0-8d73-81b3-8206-e7b26cebfd73%7C7896ed3326389fe3553030cd0a82f68efd49): **1,000**
+- [Borrow cap](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.10_Borrow_Cap_Definition/1c1f2ff0-8d73-81ed-b136-d5f9871bc2c2%7C7896ed3326389fe3553030cd0a82f68efd49): **900**
 
 ##### [Mainnet] SparkLend - Claim Reserves for USDS and DAI Markets
 
@@ -198,11 +198,11 @@ All accrued reserves for SparkLend USDS and SparkLend DAI will be claimed.
 The Vault Deposit Caps will be increased for the following markets on Spark Savings:
 
 - Ethereum Spark Savings USDC (spUSDC)
-  - Deposit cap: **250 million**
+  - [Deposit cap](https://docs.spark.fi/dev/savings/spark-vaults-v2#deposit-cap): **250 million**
 - Ethereum Spark Savings USDT (spUSDT)
-  - Deposit cap: **250 million**
+  - [Deposit cap](https://docs.spark.fi/dev/savings/spark-vaults-v2#deposit-cap): **250 million**
 - Ethereum Spark Savings ETH (spETH)
-  - Deposit cap: **50,000**
+  - [Deposit cap](https://docs.spark.fi/dev/savings/spark-vaults-v2#deposit-cap): **50,000**
  
 ##### [Mainnet] Spark Liquidity Layer - Onboard syrupUSDT
 
@@ -213,10 +213,10 @@ syrupUSDT will be onboarded to the Spark Liquity Layer (SLL) with the following 
 
 - syrupUSDT address: [0x356B8d89c1e1239Cbbb9dE4815c39A1474d5BA7D](https://etherscan.io/address/0x356B8d89c1e1239Cbbb9dE4815c39A1474d5BA7D)
 - Deposits
-  - maxAmount: **50 million**
-  - slope: **10 million per day**
+  - [maxAmount](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.2.2.1_MaxAmount/264f2ff0-8d73-80cf-a4d0-c55dd7dc0138%7C9e1ff936a6cb63b1903ca2d845de28dc): **50 million**
+  - [slope](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.2.2.2_Slope/264f2ff0-8d73-80ff-9ba4-f25914f61e14%7C9e1ff936a6cb63b1903ca2d845de28dc): **10 million per day**
 - Withdrawals
-  - maxAmount: **unlimited**
+  - [maxAmount](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.2.2.1_MaxAmount/264f2ff0-8d73-80cf-a4d0-c55dd7dc0138%7C9e1ff936a6cb63b1903ca2d845de28dc): **unlimited**
  
 ##### [Mainnet] Spark-Aave Revenue Share Payment
 
@@ -247,7 +247,7 @@ Spark will transfer funding for the November Spark Foundation Grant to the Spark
 
 Avalanche Spark Savings spUSDC Vault Deposit Cap will be increased to the following amount:
 
-- Deposit cap: **150 million**
+- [Deposit cap](https://docs.spark.fi/dev/savings/spark-vaults-v2#deposit-cap): **150 million**
 
 ##### [Arbitrum] Spark Liquidity Layer - Update Controller to v1.7
 
