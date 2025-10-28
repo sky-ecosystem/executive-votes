@@ -131,7 +131,7 @@ If this executive proposal passes, then the following USDS transfers to the list
 
 If this executive proposal passes, then the following USDS transfer to the Integration Boost Multisig will occur:
 
-- Transfer **1,000,000 USDS** to [0xD6891d1DFFDA6B0B1aF3524018a1eE2E608785F7](https://etherscan.io/address/0xD6891d1DFFDA6B0B1aF3524018a1eE2E608785F7).
+- Transfer **1 million USDS** to [0xD6891d1DFFDA6B0B1aF3524018a1eE2E608785F7](https://etherscan.io/address/0xD6891d1DFFDA6B0B1aF3524018a1eE2E608785F7).
 
 ### Adjust stUSDS BEAM `step` parameters
 
