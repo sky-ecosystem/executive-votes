@@ -223,7 +223,7 @@ The Vault Deposit Caps will be increased for the following markets on Spark Savi
 - **Authorization**: [Snapshot Proposal](https://snapshot.box/#/s:sparkfi.eth/proposal/0xab448e3d135620340da30616c0dabaa293f816a9edd4dc009f29b0ffb5bcbad2)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/october-30-2025-proposed-changes-to-spark-for-upcoming-spell/27309)
 
-syrupUSDT will be onboarded to the Spark Liquity Layer (SLL) with the following parameters:
+syrupUSDT will be onboarded to the Spark Liquidity Layer (SLL) with the following parameters:
 
 - syrupUSDT address: [0x356B8d89c1e1239Cbbb9dE4815c39A1474d5BA7D](https://etherscan.io/address/0x356B8d89c1e1239Cbbb9dE4815c39A1474d5BA7D)
 - Deposits
