@@ -209,11 +209,11 @@ All accrued reserves for SparkLend USDS and SparkLend DAI will be claimed.
 The Vault Deposit Caps will be increased for the following markets on Spark Savings:
 
 - Ethereum Spark Savings USDC (spUSDC)
-  - [Deposit cap](https://docs.spark.fi/dev/savings/spark-vaults-v2#deposit-cap): **250 million spUSDC**
+  - [Deposit cap](https://docs.spark.fi/dev/savings/spark-vaults-v2#deposit-cap): **250 million USDC**
 - Ethereum Spark Savings USDT (spUSDT)
-  - [Deposit cap](https://docs.spark.fi/dev/savings/spark-vaults-v2#deposit-cap): **250 million spUSDT**
+  - [Deposit cap](https://docs.spark.fi/dev/savings/spark-vaults-v2#deposit-cap): **250 million USDT**
 - Ethereum Spark Savings ETH (spETH)
-  - [Deposit cap](https://docs.spark.fi/dev/savings/spark-vaults-v2#deposit-cap): **50,000 spETH**
+  - [Deposit cap](https://docs.spark.fi/dev/savings/spark-vaults-v2#deposit-cap): **50,000 wETH**
  
 ##### [Mainnet] Spark Liquidity Layer - Onboard syrupUSDT
 
@@ -342,8 +342,8 @@ Curve RLUSD and USDC Swaps will be onboarded to the Grove Liquity Layer (GLL) wi
   - Pool Address: [0xD001aE433f254283FeCE51d4ACcE8c53263aa186](https://etherscan.io/address/0xD001aE433f254283FeCE51d4ACcE8c53263aa186)
   - Underlying assets: **USDC** and **RLUSD**
   - Swaps
-    - maxAmount: **20 million USDC**
-    - slope: **100 million per day USDC**
+    - maxAmount: **20 million**
+    - slope: **100 million per day**
     - maxSlippage: **0.1%**
 
 ## Review
