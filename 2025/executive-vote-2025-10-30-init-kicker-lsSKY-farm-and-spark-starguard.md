@@ -92,6 +92,8 @@ Call [TreasuryFundedFarmingInit.initLockstakeFarm](https://github.com/sky-ecosys
 - `vestTau`: **180 days**
 - `lockstakeEngine`: **LOCKSTAKE_ENGINE** from the [Chainlog](https://chainlog.sky.money)
 
+Be advised that the SKY for the lsSKY->SKY Farm will be provided from the Sky Frontier Foundation and with funding expected to last for three months, as detailed in this [Atlas Edit](https://vote.sky.money/polling/Qmbs7wEM). 
+
 ### Initialize Spark StarGuard
 
 - **Authorization**: [Governance Poll 1601](https://vote.sky.money/polling/Qmbs7wEM)
@@ -225,7 +227,7 @@ syrupUSDT will be onboarded to the Spark Liquity Layer (SLL) with the following 
   - [maxAmount](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.2.2.1_MaxAmount/264f2ff0-8d73-80cf-a4d0-c55dd7dc0138%7C9e1ff936a6cb63b1903ca2d845de28dc): **50 million syrupUSDT**
   - [slope](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.2.2.2_Slope/264f2ff0-8d73-80ff-9ba4-f25914f61e14%7C9e1ff936a6cb63b1903ca2d845de28dc): **10 million per day syrupUSDT**
 - Withdrawals
-  - [maxAmount](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.2.2.1_MaxAmount/264f2ff0-8d73-80cf-a4d0-c55dd7dc0138%7C9e1ff936a6cb63b1903ca2d845de28dc): **unlimited syrupUSDT**
+  - [maxAmount](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.2.2.1_MaxAmount/264f2ff0-8d73-80cf-a4d0-c55dd7dc0138%7C9e1ff936a6cb63b1903ca2d845de28dc): **unlimited**
  
 ##### [Mainnet] Spark-Aave Revenue Share Payment
 
@@ -295,7 +297,7 @@ Aave Core RLUSD and USDC will be onboarded to the Grove Liquity Layer (GLL) with
     - maxAmount: **50 million USDC**
     - slope: **25 million per day USDC**
   - Withdrawals
-    - maxAmount: **unlimited USDC**
+    - maxAmount: **unlimited**
 - Aave Core v3 RLUSD
   - aEthRLUSD Address: [0xFa82580c16A31D0c1bC632A36F82e83EfEF3Eec0](https://etherscan.io/address/0xFa82580c16A31D0c1bC632A36F82e83EfEF3Eec0)
   - Underlying asset: **RLUSD**
@@ -303,7 +305,7 @@ Aave Core RLUSD and USDC will be onboarded to the Grove Liquity Layer (GLL) with
     - maxAmount: **50 million RLUSD**
     - slope: **25 million per day RLUSD**
   - Withdrawals
-  - maxAmount: **unlimited RLUSD**
+  - maxAmount: **unlimited**
  
 ##### [Mainnet] GLL - Onboard Aave Horizon RLUSD and USDC
 
@@ -319,7 +321,7 @@ Aave Horizon RLUSD and USDC will be onboarded to the Grove Liquity Layer (GLL) w
     - maxAmount: **50 million USDC**
     - slope: **25 million per day USDC**
   - Withdrawals
-    - maxAmount: **unlimited USDC**
+    - maxAmount: **unlimited**
 - Aave Horizon RLUSD
   - Address: [0xE3190143Eb552456F88464662f0c0C4aC67A77eB](https://etherscan.io/address/0xE3190143Eb552456F88464662f0c0C4aC67A77eB)
   - Underlying asset: **RLUSD**
@@ -327,7 +329,7 @@ Aave Horizon RLUSD and USDC will be onboarded to the Grove Liquity Layer (GLL) w
     - maxAmount: **50 million RLUSD**
     - slope: **25 million per day RLUSD**
   - Withdrawals
-    - maxAmount: **unlimited RLUSD**
+    - maxAmount: **unlimited**
    
 ##### [Mainnet] GLL - Onboard Curve RLUSD and USDC Swaps
 
