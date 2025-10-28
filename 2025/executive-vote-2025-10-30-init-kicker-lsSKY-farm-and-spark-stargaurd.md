@@ -150,11 +150,11 @@ The Sparklend Borrow Caps for Non Collateral Stablecoins (USDC, USDT, PYUSD) on 
   - Remove supply and borrow cap automation
   - Supply cap: 0 (no cap)
   - Borrow cap: 0 (no cap)
--  SparkLend USDT
+- SparkLend USDT
   - Remove supply and borrow cap automation
   - Supply cap: 0 (no cap)
   - Borrow cap: 0 (no cap)
--SparkLend PYUSD
+- SparkLend PYUSD
   - Remove supply and borrow cap automation
   - Supply cap: 0 (no cap)
   - Borrow cap: 0 (no cap)
