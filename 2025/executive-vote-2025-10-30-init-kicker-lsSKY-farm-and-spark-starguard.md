@@ -184,7 +184,7 @@ The SparkLend cbBTC Supply and Borrow Caps on Ethereum will be increased as desc
 - [Supply cap](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.9_Supply_Cap_Definition/1c1f2ff0-8d73-81b3-8206-e7b26cebfd73%7C7896ed3326389fe3553030cd0a82f68efd49): **20,000 cbBTC**
 - [Borrow cap](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.10_Borrow_Cap_Definition/1c1f2ff0-8d73-81ed-b136-d5f9871bc2c2%7C7896ed3326389fe3553030cd0a82f68efd49): **10,000 cbBTC**
 
-##### [[Mainnet] SparkLend - Increase tBTC Supply and Borrow Caps
+##### [Mainnet] SparkLend - Increase tBTC Supply and Borrow Caps
 
 - **Authorization**: [Snapshot Proposal](https://snapshot.box/#/s:sparkfi.eth/proposal/0x14300684fb44685ad27270745fa6780e8083f3741de2119b98cf6bb1e44b4617)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/october-30-2025-proposed-changes-to-spark-for-upcoming-spell/27309)
