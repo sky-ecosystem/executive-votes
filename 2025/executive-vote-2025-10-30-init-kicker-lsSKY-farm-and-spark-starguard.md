@@ -339,7 +339,7 @@ Aave Horizon RLUSD and USDC will be onboarded to the Grove Liquidity Layer (GLL)
 - **Authorization**: [Governance Poll 1600](https://vote.sky.money/polling/Qmef8C3a)
 - **Proposal**: [Forum Post 1](https://forum.sky.money/t/october-30th-2025-proposed-changes-to-grove-for-upcoming-spell/27321), [2](https://forum.sky.money/t/october-30th-2025-sky-prime-technical-scope-param-changes/27325)
 
-Curve RLUSD and USDC Swaps will be onboarded to the Grove Liquity Layer (GLL) with the following parameters:
+Curve RLUSD and USDC Swaps will be onboarded to the Grove Liquidity Layer (GLL) with the following parameters:
 
 - Curve RLUSD<>USDC
   - Pool Address: [0xD001aE433f254283FeCE51d4ACcE8c53263aa186](https://etherscan.io/address/0xD001aE433f254283FeCE51d4ACcE8c53263aa186)
