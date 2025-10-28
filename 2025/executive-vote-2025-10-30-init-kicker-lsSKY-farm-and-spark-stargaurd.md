@@ -148,16 +148,16 @@ The Sparklend Borrow Caps for Non Collateral Stablecoins (USDC, USDT, PYUSD) on 
 
 - SparkLend USDC
   - Remove supply and borrow cap automation
-  - Supply cap: 0 (no cap)
-  - Borrow cap: 0 (no cap)
+  - Supply cap: **0** (no cap)
+  - Borrow cap: **0** (no cap)
 - SparkLend USDT
   - Remove supply and borrow cap automation
-  - Supply cap: 0 (no cap)
-  - Borrow cap: 0 (no cap)
+  - Supply cap: **0** (no cap)
+  - Borrow cap: **0** (no cap)
 - SparkLend PYUSD
   - Remove supply and borrow cap automation
-  - Supply cap: 0 (no cap)
-  - Borrow cap: 0 (no cap)
+  - Supply cap: **0** (no cap)
+  - Borrow cap: **0** (no cap)
 
 ##### [Mainnet] Sparklend - Increase cbBTC Supply and Borrow Caps
 
@@ -194,11 +194,11 @@ All accrued reserves for SparkLend USDS and SparkLend DAI will be claimed.
 The Vault Deposit Caps will be increased for the following markets on Spark Savings:
 
 - Ethereum Spark Savings USDC (spUSDC)
-  - Deposit cap: 250 million
+  - Deposit cap: **250 million**
 - Ethereum Spark Savings USDT (spUSDT)
-  - Deposit cap: 250 million
+  - Deposit cap: **250 million**
 - Ethereum Spark Savings ETH (spETH)
-  - Deposit cap: 50,000
+  - Deposit cap: **50,000**
  
 ##### [Mainnet] Spark Liquidity Layer - Onboard syrupUSDT
 
@@ -209,10 +209,10 @@ syrupUSDT will be onboarded to the Spark Liquity Layer (SLL) with the following 
 
 - syrupUSDT address: [0x356B8d89c1e1239Cbbb9dE4815c39A1474d5BA7D](https://etherscan.io/address/0x356B8d89c1e1239Cbbb9dE4815c39A1474d5BA7D)
 - Deposits
-  - maxAmount: 50 million
-  - slope: 10 million per day
+  - maxAmount: **50 million**
+  - slope: **10 million per day**
 - Withdrawals
-  - maxAmount: Unlimited
+  - maxAmount: **unlimited**
  
 ##### [Mainnet] Spark-Aave Revenue Share Payment
 
