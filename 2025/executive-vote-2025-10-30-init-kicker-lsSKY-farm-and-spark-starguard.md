@@ -138,7 +138,7 @@ If this executive proposal passes, then the following USDS transfer to the Integ
 - **Authorization**: [Governance Poll 1602](https://vote.sky.money/polling/QmbzWao8)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/stusds-beam-rate-setter-configuration/27161/20)
 
-If this executive proposal passes, then the following parameter updates to the [stUSDS Bounded External Access Module (stUSDS BEAM)](https://sky-atlas.powerhouse.io/A.3.5_Surplus_Buffer_and_Smart_Burn_Engine/c58d38dc-4b17-4c0a-a1df-546a06612c54%7C57ea) will occur:
+If this executive proposal passes, then the following parameter updates to the [stUSDS Bounded External Access Module (stUSDS BEAM)](https://sky-atlas.powerhouse.io/A.4.4.1.2.8_stUSDS_Bounded_External_Access_Module/264f2ff0-8d73-8043-9ce4-ee69a1cb4078%7Cb341740ee6e1974b) will occur:
 
 - Reduce `stepStrBps` parameter by 3,500 bps from 4,000 bps to **500 bps**.
 - Reduce `stepDutyBps` parameter by 3,500 bps from 4,000 bps to **500 bps**.
