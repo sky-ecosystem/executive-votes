@@ -178,7 +178,7 @@ The SparkLend tBTC Supply and Borrow Caps on Ethereum will be increased as descr
 - Supply cap max: **1,000**
 - Borrow cap max: **900**
 
-##### [Mainnet] Sparklend - Claim Reserves for USDS and DAI Markets
+##### [Mainnet] SparkLend - Claim Reserves for USDS and DAI Markets
 
 - **Authorization**: [Atlas - Token Claim Authorization](https://sky-atlas.powerhouse.io/A.AG1.2.6.P15.2.1.2.3_Token_Claim_Authorization/280f2ff0-8d73-8040-9e11-d79eb710596b%7C7896ed3326389fe3185c95c7594595c36ff152ce)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/october-30-2025-proposed-changes-to-spark-for-upcoming-spell/27309)
