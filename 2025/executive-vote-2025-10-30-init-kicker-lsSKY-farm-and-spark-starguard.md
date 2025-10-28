@@ -158,7 +158,7 @@ The Sparklend Borrow Caps for Non Collateral Stablecoins (USDC, USDT, PYUSD) on 
   - Supply cap: **0** (no cap)
   - Borrow cap: **0** (no cap)
 
-##### [Mainnet] Sparklend - Increase cbBTC Supply and Borrow Caps
+##### [Mainnet] SparkLend - Increase cbBTC Supply and Borrow Caps
 
 - **Authorization**: [Snapshot Proposal](https://snapshot.box/#/s:sparkfi.eth/proposal/0x95138f104ff84defb64985368f348af4d7500b2641b88b396e37426126f5ce0d)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/october-30-2025-proposed-changes-to-spark-for-upcoming-spell/27309)
