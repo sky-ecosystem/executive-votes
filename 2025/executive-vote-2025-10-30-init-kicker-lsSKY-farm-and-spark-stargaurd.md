@@ -111,7 +111,7 @@ If this executive proposal passes, then the following USDS transfers to the list
 
 ### Fund Integration Boost Multisig
 
-- **Authorization**: [Atlas - Near_Term_Process](https://sky-atlas.powerhouse.io/A.2.3.8.2.2.1.3.2.1_Near_Term_Process/1b3f2ff0-8d73-8006-8d52-f441b4e85f5b|9e1ff936eafd46ecfcbb87335192b6fc)
+- **Authorization**: [Atlas - Near Term Process](https://sky-atlas.powerhouse.io/A.2.3.8.2.2.1.3.2.1_Near_Term_Process/1b3f2ff0-8d73-8006-8d52-f441b4e85f5b|9e1ff936eafd46ecfcbb87335192b6fc)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/utilization-of-the-integration-boost-budget-a-5-2-1-2/25536/13)
 
 If this executive proposal passes, then the following USDS transfer to the Integration Boost Multisig will occur:
