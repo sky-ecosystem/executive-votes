@@ -231,7 +231,7 @@ syrupUSDT will be onboarded to the Spark Liquidity Layer (SLL) with the followin
   - [slope](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.2.2.2_Slope/264f2ff0-8d73-80ff-9ba4-f25914f61e14%7C9e1ff936a6cb63b1903ca2d845de28dc): **10 million per day USDT**
 - Withdrawals
   - [maxAmount](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.2.2.1_MaxAmount/264f2ff0-8d73-80cf-a4d0-c55dd7dc0138%7C9e1ff936a6cb63b1903ca2d845de28dc): **unlimited**
- 
+
 ##### [Mainnet] Spark-Aave Revenue Share Payment
 
 - **Authorization**: [Atlas - Standard Agreement Post SPK Launch](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.2.3.2_Standard_Agreement_Post_SPK_Launch/1c1f2ff0-8d73-81f6-8b1e-cb3bac92d9b3|7896ed3326389fe3553030cd0a82221360c2)
