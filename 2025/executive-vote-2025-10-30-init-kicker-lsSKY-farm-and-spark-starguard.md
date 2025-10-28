@@ -121,8 +121,8 @@ Other required actions:
 
 If this executive proposal passes, then the following USDS transfers to the listed Core Council Multisigs will occur:
 
-- Transfer **3,876,387 USDS** to the Core Council Budget Multisig at [0x210CFcF53d1f9648C1c4dcaEE677f0Cb06914364](https://etherscan.io/address/0x210CFcF53d1f9648C1c4dcaEE677f0Cb06914364).
-- Transfer **193,820 USDS** to the Core Council Delegate Multisig at [0x37FC5d447c8c54326C62b697f674c93eaD2A93A3](https://etherscan.io/address/0x37FC5d447c8c54326C62b697f674c93eaD2A93A3).
+- Transfer **3,876,387 USDS** to the Core Council Buffer Multisig at [0x210CFcF53d1f9648C1c4dcaEE677f0Cb06914364](https://etherscan.io/address/0x210CFcF53d1f9648C1c4dcaEE677f0Cb06914364).
+- Transfer **193,820 USDS** to the Aligned Delegates Buffer Multisig at [0x37FC5d447c8c54326C62b697f674c93eaD2A93A3](https://etherscan.io/address/0x37FC5d447c8c54326C62b697f674c93eaD2A93A3).
 
 ### Fund Integration Boost Multisig
 
