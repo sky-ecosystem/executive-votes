@@ -23,7 +23,7 @@ If this executive proposal passes, the following **actions** will occur within t
 - A StarGuard instance will be initialized for Spark Proxy Spells.
 - Two Core Council multisigs will be funded with a total of **4,070,207 USDS**.
 - **1,000,000 USDS** will be transfered to fund the Integration Boost multisig at [0xD6891d1DFFDA6B0B1aF3524018a1eE2E608785F7](https://etherscan.io/address/0xD6891d1DFFDA6B0B1aF3524018a1eE2E608785F7).
-- The stUSDS Bounded External Access Module (stUSDS BEAM) parameters will be adjusted as described below.
+- The stUSDS Bounded External Access Module (stUSDS BEAM) `step` parameters will be adjusted as described below.
 - Prime Agent proxy spells for Spark and Grove will be executed.
 
 **Voting for this executive proposal will place your SKY in support of the actions outlined above.**
