@@ -333,7 +333,6 @@ Curve RLUSD and USDC Swaps will be onboarded to the Grove Liquity Layer (GLL) wi
 
 ## Review
 
-
 Community debate on these topics can be found on the Sky [Governance forum](https://forum.sky.money/). Please review any linked threads to inform your position before voting.
 
 ---
