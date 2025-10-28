@@ -233,7 +233,7 @@ Spark will transfer funding for the November Spark Foundation Grant to the Spark
 
 - Payment Amount: **1,100,000 USDS**
 - Payment Source: **Spark SubProxy**
-- Payment Received Address: [0x92e4629a4510AF5819d7D1601464C233599fF5ec](https://etherscan.io/address/0x92e4629a4510AF5819d7D1601464C233599fF5ec) (Spark Foundation)
+- Payment Receipt Address: [0x92e4629a4510AF5819d7D1601464C233599fF5ec](https://etherscan.io/address/0x92e4629a4510AF5819d7D1601464C233599fF5ec) (Spark Foundation)
 
 ##### [Avalanche] Spark Savings - Increase spUSDC Vault Deposit Cap
 
