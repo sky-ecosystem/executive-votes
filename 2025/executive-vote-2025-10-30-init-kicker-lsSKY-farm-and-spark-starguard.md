@@ -148,20 +148,20 @@ The expected contents of each proxy spell are listed below.
 - **Authorization**: [Snapshot Proposal](https://snapshot.box/#/s:sparkfi.eth/proposal/0xeea0e2648f55df4e57f8717831a5949f2a35852e32aa0f98a7e16e7ed56268a8)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/october-30-2025-proposed-changes-to-spark-for-upcoming-spell/27309)
 
-The Sparklend Borrow Caps for Non Collateral Stablecoins (USDC, USDT, PYUSD) on Ethereum will be removed by setting the following parameters:
+The Sparklend Supply and Borrow Caps for Non Collateral Stablecoins (USDC, USDT, PYUSD) on Ethereum will be removed by setting the following parameters:
 
 - SparkLend USDC
   - Remove supply and borrow cap automation
-  - Supply cap: **0** (no cap)
-  - Borrow cap: **0** (no cap)
+  - [Supply cap](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.9_Supply_Cap_Definition/1c1f2ff0-8d73-81b3-8206-e7b26cebfd73%7C7896ed3326389fe3553030cd0a82f68efd49): **0** (no cap)
+  - [Borrow cap](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.10_Borrow_Cap_Definition/1c1f2ff0-8d73-81ed-b136-d5f9871bc2c2%7C7896ed3326389fe3553030cd0a82f68efd49): **0** (no cap)
 - SparkLend USDT
   - Remove supply and borrow cap automation
-  - Supply cap: **0** (no cap)
-  - Borrow cap: **0** (no cap)
+  - [Supply cap](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.9_Supply_Cap_Definition/1c1f2ff0-8d73-81b3-8206-e7b26cebfd73%7C7896ed3326389fe3553030cd0a82f68efd49): **0** (no cap)
+  - [Borrow cap](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.10_Borrow_Cap_Definition/1c1f2ff0-8d73-81ed-b136-d5f9871bc2c2%7C7896ed3326389fe3553030cd0a82f68efd49): **0** (no cap)
 - SparkLend PYUSD
   - Remove supply and borrow cap automation
-  - Supply cap: **0** (no cap)
-  - Borrow cap: **0** (no cap)
+  - [Supply cap](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.9_Supply_Cap_Definition/1c1f2ff0-8d73-81b3-8206-e7b26cebfd73%7C7896ed3326389fe3553030cd0a82f68efd49): **0** (no cap)
+  - [Borrow cap](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.10_Borrow_Cap_Definition/1c1f2ff0-8d73-81ed-b136-d5f9871bc2c2%7C7896ed3326389fe3553030cd0a82f68efd49): **0** (no cap)
 
 ##### [Mainnet] SparkLend - Increase cbBTC Supply and Borrow Caps
 
