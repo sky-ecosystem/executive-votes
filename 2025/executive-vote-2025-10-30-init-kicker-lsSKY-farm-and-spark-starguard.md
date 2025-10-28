@@ -222,7 +222,7 @@ The Q3-2025 SparkLend profit-sharing payment with the Aave community for the FOS
 
 - Spark Obligation: **150,042 USDS**
 - Payment Source: **Spark SubProxy**
-- Payment Received Address: [0x464C71f6c2F760DdA6093dCB91C24c39e5d6e18c](https://etherscan.io/address/0x464C71f6c2F760DdA6093dCB91C24c39e5d6e18c)
+- Payment Receipt Address: [0x464C71f6c2F760DdA6093dCB91C24c39e5d6e18c](https://etherscan.io/address/0x464C71f6c2F760DdA6093dCB91C24c39e5d6e18c)
 
 ##### [Mainnet] Pay Spark Foundation Grant
 
