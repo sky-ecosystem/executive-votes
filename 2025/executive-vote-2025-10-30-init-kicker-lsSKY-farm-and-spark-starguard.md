@@ -49,8 +49,8 @@ Init Kicker by calling [FlapperInit.initKicker](https://github.com/sky-ecosystem
 
 - `dss`: **A DssInstance** (from [dss-test/MCD.sol](https://github.com/sky-ecosystem/dss-test/blob/master/src/DssTest.sol))
 - `kicker`: [0xD889477102e8C4A857b78Fcc2f134535176Ec1Fc](https://etherscan.io/address/0xD889477102e8C4A857b78Fcc2f134535176Ec1Fc#code)
-- `cfg.khump`: **-200 million USDS**
-- `cfg.kbump`: **10,000 USDS**
+- `cfg.khump`: **-200 million USDS** - the minimum Surplus Buffer value that must be reached before the Kicker can activate.
+- `cfg.kbump`: **10,000 USDS** - the amount of USDS that will be transferred from the Surplus Buffer to the Splitter each time the Kicker is activated.
 - `cfg.chainlogKey`: **MCD_KICK**
 
 ### Recalibrate Smart Burn Engine
