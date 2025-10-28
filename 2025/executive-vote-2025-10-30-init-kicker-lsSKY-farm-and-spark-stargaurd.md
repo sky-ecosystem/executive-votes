@@ -1,6 +1,6 @@
 ---
 title: Template - [Executive Vote] Initialize Kicker, Recalibrate Smart Burn Engine, Initialize lsSKY to SKY Farm, Initialize Spark StarGuard, Fund Core Council Multisigs, Fund Integration Boost Multisig, Adjust stUSDS BEAM Step Parameters, Execute Prime Agent Proxy Spells - October 30, 2025
-summary: Add Kicker to support Smart Burn Engine, update several parameters related to the Smart Burn Engine, add lsSKY to SKY contracts for farm, add StarGuard for Spark Proxy Spells, transfer funds to Core Council Multisigs, transfer funds for Integration Boost, reduce str step and duty step in the stUSDS Bounded External Access Module (stUSDS BEAM), execute Proxy Spells for Spark and Grove.
+summary: Upgrade Smart Burn Engine by initializing the Kicker contract, update several parameters related to the Smart Burn Engine, add lsSKY to SKY farm, initialize StarGuard for Spark Proxy Spells, transfer funds to Core Council multisigs, transfer funds to Integration Boost multisig, reduce str step and duty step in the stUSDS Bounded External Access Module (stUSDS BEAM), execute proxy spells for Spark and Grove.
 date: 2025-10-30T00:00:00.000Z
 address: "$spell_address"
 ---
