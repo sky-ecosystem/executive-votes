@@ -73,15 +73,15 @@ If this executive proposal passes, then the lsSKY->SKY Farm will be initialized 
 
 Call [TreasuryFundedFarmingInit.initLockstakeFarm](https://github.com/sky-ecosystem/endgame-toolkit/blob/fe734bea271e87c0b8e772d7adcccb46c4df1939/script/dependencies/treasury-funded-farms/TreasuryFundedFarmingInit.sol#L111) with the following parameters:
 
-- `stakingToken`: **LOCKSTAKE_SKY** from chainlog
-- `rewardsToken`: **SKY** from chainlog
+- `stakingToken`: **LOCKSTAKE_SKY** from the [Chainlog](https://chainlog.sky.money)
+- `rewardsToken`: **SKY** from the [Chainlog](https://chainlog.sky.money)
 - `rewards`: [0xB44C2Fb4181D7Cb06bdFf34A46FdFe4a259B40Fc](https://etherscan.io/address/0xB44C2Fb4181D7Cb06bdFf34A46FdFe4a259B40Fc#code)
 - `rewardsKey`: **REWARDS_LSSKY_SKY**
 - `dist`: [0x675671A8756dDb69F7254AFB030865388Ef699Ee](https://etherscan.io/address/0x675671A8756dDb69F7254AFB030865388Ef699Ee#code)
 - `distKey`: **REWARDS_DIST_LSSKY_SKY**
-- `distJob`: **CRON_REWARDS_DIST_JOB** from chainlog
+- `distJob`: **CRON_REWARDS_DIST_JOB** from the [Chainlog](https://chainlog.sky.money)
 - `distJobInterval`: **7 days - 1 hours**
-- `vest`: **MCD_VEST_SKY_TREASURY** from chainlog
+- `vest`: **MCD_VEST_SKY_TREASURY** from the [Chainlog](https://chainlog.sky.money)
 
 ### Initialize Spark StarGuard
 
