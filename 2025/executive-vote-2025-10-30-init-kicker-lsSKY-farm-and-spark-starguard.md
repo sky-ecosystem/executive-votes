@@ -152,16 +152,16 @@ The Sparklend Supply and Borrow Caps for Non Collateral Stablecoins (USDC, USDT,
 
 - SparkLend USDC
   - Remove supply and borrow cap automation
-  - [Supply cap](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.9_Supply_Cap_Definition/1c1f2ff0-8d73-81b3-8206-e7b26cebfd73%7C7896ed3326389fe3553030cd0a82f68efd49): **0** (no cap)
-  - [Borrow cap](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.10_Borrow_Cap_Definition/1c1f2ff0-8d73-81ed-b136-d5f9871bc2c2%7C7896ed3326389fe3553030cd0a82f68efd49): **0** (no cap)
+  - [Supply cap](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.9_Supply_Cap_Definition/1c1f2ff0-8d73-81b3-8206-e7b26cebfd73%7C7896ed3326389fe3553030cd0a82f68efd49): **0 USDC** (no cap)
+  - [Borrow cap](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.10_Borrow_Cap_Definition/1c1f2ff0-8d73-81ed-b136-d5f9871bc2c2%7C7896ed3326389fe3553030cd0a82f68efd49): **0 USDC** (no cap)
 - SparkLend USDT
   - Remove supply and borrow cap automation
-  - [Supply cap](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.9_Supply_Cap_Definition/1c1f2ff0-8d73-81b3-8206-e7b26cebfd73%7C7896ed3326389fe3553030cd0a82f68efd49): **0** (no cap)
-  - [Borrow cap](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.10_Borrow_Cap_Definition/1c1f2ff0-8d73-81ed-b136-d5f9871bc2c2%7C7896ed3326389fe3553030cd0a82f68efd49): **0** (no cap)
+  - [Supply cap](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.9_Supply_Cap_Definition/1c1f2ff0-8d73-81b3-8206-e7b26cebfd73%7C7896ed3326389fe3553030cd0a82f68efd49): **0 USDT** (no cap)
+  - [Borrow cap](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.10_Borrow_Cap_Definition/1c1f2ff0-8d73-81ed-b136-d5f9871bc2c2%7C7896ed3326389fe3553030cd0a82f68efd49): **0 USDT** (no cap)
 - SparkLend PYUSD
   - Remove supply and borrow cap automation
-  - [Supply cap](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.9_Supply_Cap_Definition/1c1f2ff0-8d73-81b3-8206-e7b26cebfd73%7C7896ed3326389fe3553030cd0a82f68efd49): **0** (no cap)
-  - [Borrow cap](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.10_Borrow_Cap_Definition/1c1f2ff0-8d73-81ed-b136-d5f9871bc2c2%7C7896ed3326389fe3553030cd0a82f68efd49): **0** (no cap)
+  - [Supply cap](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.9_Supply_Cap_Definition/1c1f2ff0-8d73-81b3-8206-e7b26cebfd73%7C7896ed3326389fe3553030cd0a82f68efd49): **0 PYUSD** (no cap)
+  - [Borrow cap](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.10_Borrow_Cap_Definition/1c1f2ff0-8d73-81ed-b136-d5f9871bc2c2%7C7896ed3326389fe3553030cd0a82f68efd49): **0 PYUSD** (no cap)
 
 ##### [Mainnet] SparkLend - Increase cbBTC Supply and Borrow Caps
 
@@ -170,8 +170,8 @@ The Sparklend Supply and Borrow Caps for Non Collateral Stablecoins (USDC, USDT,
 
 The SparkLend cbBTC Supply and Borrow Caps on Ethereum will be increased as described below:
 
-- [Supply cap](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.9_Supply_Cap_Definition/1c1f2ff0-8d73-81b3-8206-e7b26cebfd73%7C7896ed3326389fe3553030cd0a82f68efd49): **20,000**
-- [Borrow cap](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.10_Borrow_Cap_Definition/1c1f2ff0-8d73-81ed-b136-d5f9871bc2c2%7C7896ed3326389fe3553030cd0a82f68efd49): **10,000**
+- [Supply cap](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.9_Supply_Cap_Definition/1c1f2ff0-8d73-81b3-8206-e7b26cebfd73%7C7896ed3326389fe3553030cd0a82f68efd49): **20,000 cbBTC**
+- [Borrow cap](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.10_Borrow_Cap_Definition/1c1f2ff0-8d73-81ed-b136-d5f9871bc2c2%7C7896ed3326389fe3553030cd0a82f68efd49): **10,000 cbBTC**
 
 ##### [[Mainnet] SparkLend - Increase tBTC Supply and Borrow Caps
 
@@ -180,8 +180,8 @@ The SparkLend cbBTC Supply and Borrow Caps on Ethereum will be increased as desc
 
 The SparkLend tBTC Supply and Borrow Caps on Ethereum will be increased as described below:
 
-- [Supply cap](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.9_Supply_Cap_Definition/1c1f2ff0-8d73-81b3-8206-e7b26cebfd73%7C7896ed3326389fe3553030cd0a82f68efd49): **1,000**
-- [Borrow cap](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.10_Borrow_Cap_Definition/1c1f2ff0-8d73-81ed-b136-d5f9871bc2c2%7C7896ed3326389fe3553030cd0a82f68efd49): **900**
+- [Supply cap](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.9_Supply_Cap_Definition/1c1f2ff0-8d73-81b3-8206-e7b26cebfd73%7C7896ed3326389fe3553030cd0a82f68efd49): **1,000 tBTC**
+- [Borrow cap](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.10_Borrow_Cap_Definition/1c1f2ff0-8d73-81ed-b136-d5f9871bc2c2%7C7896ed3326389fe3553030cd0a82f68efd49): **900 tBTC**
 
 ##### [Mainnet] SparkLend - Claim Reserves for USDS and DAI Markets
 
@@ -198,11 +198,11 @@ All accrued reserves for SparkLend USDS and SparkLend DAI will be claimed.
 The Vault Deposit Caps will be increased for the following markets on Spark Savings:
 
 - Ethereum Spark Savings USDC (spUSDC)
-  - [Deposit cap](https://docs.spark.fi/dev/savings/spark-vaults-v2#deposit-cap): **250 million**
+  - [Deposit cap](https://docs.spark.fi/dev/savings/spark-vaults-v2#deposit-cap): **250 million spUSDC**
 - Ethereum Spark Savings USDT (spUSDT)
-  - [Deposit cap](https://docs.spark.fi/dev/savings/spark-vaults-v2#deposit-cap): **250 million**
+  - [Deposit cap](https://docs.spark.fi/dev/savings/spark-vaults-v2#deposit-cap): **250 million spUSDT**
 - Ethereum Spark Savings ETH (spETH)
-  - [Deposit cap](https://docs.spark.fi/dev/savings/spark-vaults-v2#deposit-cap): **50,000**
+  - [Deposit cap](https://docs.spark.fi/dev/savings/spark-vaults-v2#deposit-cap): **50,000 spETH**
  
 ##### [Mainnet] Spark Liquidity Layer - Onboard syrupUSDT
 
@@ -213,10 +213,10 @@ syrupUSDT will be onboarded to the Spark Liquity Layer (SLL) with the following 
 
 - syrupUSDT address: [0x356B8d89c1e1239Cbbb9dE4815c39A1474d5BA7D](https://etherscan.io/address/0x356B8d89c1e1239Cbbb9dE4815c39A1474d5BA7D)
 - Deposits
-  - [maxAmount](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.2.2.1_MaxAmount/264f2ff0-8d73-80cf-a4d0-c55dd7dc0138%7C9e1ff936a6cb63b1903ca2d845de28dc): **50 million**
-  - [slope](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.2.2.2_Slope/264f2ff0-8d73-80ff-9ba4-f25914f61e14%7C9e1ff936a6cb63b1903ca2d845de28dc): **10 million per day**
+  - [maxAmount](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.2.2.1_MaxAmount/264f2ff0-8d73-80cf-a4d0-c55dd7dc0138%7C9e1ff936a6cb63b1903ca2d845de28dc): **50 million syrupUSDT**
+  - [slope](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.2.2.2_Slope/264f2ff0-8d73-80ff-9ba4-f25914f61e14%7C9e1ff936a6cb63b1903ca2d845de28dc): **10 million per day syrupUSDT**
 - Withdrawals
-  - [maxAmount](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.2.2.1_MaxAmount/264f2ff0-8d73-80cf-a4d0-c55dd7dc0138%7C9e1ff936a6cb63b1903ca2d845de28dc): **unlimited**
+  - [maxAmount](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.2.2.1_MaxAmount/264f2ff0-8d73-80cf-a4d0-c55dd7dc0138%7C9e1ff936a6cb63b1903ca2d845de28dc): **unlimited syrupUSDT**
  
 ##### [Mainnet] Spark-Aave Revenue Share Payment
 
@@ -247,7 +247,7 @@ Spark will transfer funding for the November Spark Foundation Grant to the Spark
 
 Avalanche Spark Savings spUSDC Vault Deposit Cap will be increased to the following amount:
 
-- [Deposit cap](https://docs.spark.fi/dev/savings/spark-vaults-v2#deposit-cap): **150 million**
+- [Deposit cap](https://docs.spark.fi/dev/savings/spark-vaults-v2#deposit-cap): **150 million spUSDC**
 
 ##### [Arbitrum] Spark Liquidity Layer - Update Controller to v1.7
 
@@ -283,18 +283,18 @@ Aave Core RLUSD and USDC will be onboarded to the Grove Liquity Layer (GLL) with
   - aEthUSDC Address: [0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c](https://etherscan.io/address/0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c)
   - Underlying asset: **USDC**
   - Deposits
-    - maxAmount: **50 million**
-    - slope: **25 million per day**
+    - maxAmount: **50 million aEthUSDC**
+    - slope: **25 million per day aEthUSDC**
   - Withdrawals
-    - maxAmount: **unlimited**
+    - maxAmount: **unlimited aEthUSDC**
 - Aave Core v3 RLUSD
   - aEthRLUSD Address: [0xFa82580c16A31D0c1bC632A36F82e83EfEF3Eec0](https://etherscan.io/address/0xFa82580c16A31D0c1bC632A36F82e83EfEF3Eec0)
   - Underlying asset: **RLUSD**
   - Deposits
-    - maxAmount: **50 million**
-    - slope: **25 million per day**
+    - maxAmount: **50 million aEthRLUSD**
+    - slope: **25 million per day aEthRLUSD**
   - Withdrawals
-  - maxAmount: **unlimited**
+  - maxAmount: **unlimited aEthRLUSD**
  
 ##### [Mainnet] GLL - Onboard Aave Horizon RLUSD and USDC
 
@@ -307,18 +307,18 @@ Aave Horizon RLUSD and USDC will be onboarded to the Grove Liquity Layer (GLL) w
   - Address: [0x68215B6533c47ff9f7125aC95adf00fE4a62f79e](https://etherscan.io/address/0x68215B6533c47ff9f7125aC95adf00fE4a62f79e)
   - Underlying asset: **USDC**
   - Deposits
-    - maxAmount: **50 million**
-    - slope: **25 million per day**
+    - maxAmount: **50 million aHorRwaUSDC**
+    - slope: **25 million per day aHorRwaUSDC**
   - Withdrawals
-    - maxAmount: **unlimited**
+    - maxAmount: **unlimited aHorRwaUSDC**
 - Aave Horizon RLUSD
   - Address: [0xE3190143Eb552456F88464662f0c0C4aC67A77eB](https://etherscan.io/address/0xE3190143Eb552456F88464662f0c0C4aC67A77eB)
   - Underlying asset: **RLUSD**
   - Deposits
-    - maxAmount: **50 million**
-    - slope: **25 million per day**
+    - maxAmount: **50 million aHorRwaRLUSD**
+    - slope: **25 million per day aHorRwaRLUSD**
   - Withdrawals
-    - maxAmount: **unlimited**
+    - maxAmount: **unlimited aHorRwaRLUSD**
    
 ##### [Mainnet] GLL - Onboard Curve RLUSD and USDC Swaps
 
@@ -329,10 +329,10 @@ Curve RLUSD and USDC Swaps will be onboarded to the Grove Liquity Layer (GLL) wi
 
 - Curve RLUSD<>USDC
   - Pool Address: [0xD001aE433f254283FeCE51d4ACcE8c53263aa186](https://etherscan.io/address/0xD001aE433f254283FeCE51d4ACcE8c53263aa186)
-  - Underlying asset: **USDC**
+  - Underlying assets: **USDC** and **RLUSD**
   - Swaps
-    - maxAmount: **20 million**
-    - slope: **100 million per day**
+    - maxAmount: **20 million USDCRLUSD_D001AE.USD**
+    - slope: **100 million per day USDCRLUSD_D001AE.USD**
     - maxSlippage: **0.1%**
 
 ## Review
