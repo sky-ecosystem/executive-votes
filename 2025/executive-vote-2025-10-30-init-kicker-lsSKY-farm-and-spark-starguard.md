@@ -309,7 +309,7 @@ Aave Core RLUSD and USDC will be onboarded to the Grove Liquidity Layer (GLL) wi
     - [slope](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.2.2.2_Slope/264f2ff0-8d73-80ff-9ba4-f25914f61e14%7C9e1ff936a6cb63b1903ca2d845de28dc): **25 million per day RLUSD**
   - Withdrawals
   - [maxAmount](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.2.2.1_MaxAmount/264f2ff0-8d73-80cf-a4d0-c55dd7dc0138%7C9e1ff936a6cb63b1903ca2d845de28dc): **unlimited**
- 
+
 ##### [Mainnet] GLL - Onboard Aave Horizon RLUSD and USDC
 
 - **Authorization**: [Governance Poll 1600](https://vote.sky.money/polling/Qmef8C3a)
