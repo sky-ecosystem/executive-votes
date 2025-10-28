@@ -103,6 +103,7 @@ Be advised that the SKY for the lsSKY->SKY Farm will be provided by the Sky Fron
 If this executive proposal passes, then [StarGuard](https://forum.sky.money/t/launching-starguard-an-upgrade-to-the-sky-agents-governance-payload-execution/27364) will be initialized for Spark proxy spells by executing the following actions.
 
 Call [StarGuardInit.init](https://github.com/sidestream-tech/sky-star-guard/blob/7398ffb283c4490c6e29bea28b92cd57285d4889/deploy/StarGuardInit.sol#L44-L63) with the following parameters:
+
 - address chainlog: **DssExecLib.LOG**
 - `cfg.subProxy`: [0x3300f198988e4C9C63F75dF86De36421f06af8c4](https://etherscan.io/address/0x3300f198988e4C9C63F75dF86De36421f06af8c4#code)
 - `cfg.subProxyKey`: **SPARK_SUBPROXY**
