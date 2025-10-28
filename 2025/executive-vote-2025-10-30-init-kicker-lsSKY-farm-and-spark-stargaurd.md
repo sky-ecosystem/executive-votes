@@ -70,7 +70,7 @@ If this executive proposal passes, then the following [Smart Burn Engine](https:
 - **Authorization**: [Governance Poll 1601](https://vote.sky.money/polling/Qmbs7wEM)
 - **Proposal**: [Forum Post 1](https://forum.sky.money/t/technical-scope-lssky-sky-farm/27312), [2](https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-2025-10-27/27362)
 
-If this executive proposal passes, then the lsSKY->SKY Farm will be initalized by executing the following required actions.
+If this executive proposal passes, then the lsSKY->SKY Farm will be initialized by executing the following required actions.
 
 Call [TreasuryFundedFarmingInit.initLockstakeFarm](https://github.com/sky-ecosystem/endgame-toolkit/blob/fe734bea271e87c0b8e772d7adcccb46c4df1939/script/dependencies/treasury-funded-farms/TreasuryFundedFarmingInit.sol#L111) with the following parameters:
 
@@ -104,7 +104,7 @@ Call [StarGuardInit.init](https://github.com/sidestream-tech/sky-star-guard/blob
 - **Authorization**: [Governance Poll 1601](https://vote.sky.money/polling/Qmbs7wEM)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-2025-10-27/27362)
 
-If this executive proposal passes, then the folling USDS transfers to the listed Core Council Multisigs will occur:
+If this executive proposal passes, then the following USDS transfers to the listed Core Council Multisigs will occur:
 
 - Transfer **3,876,387 USDS** to the Core Council Budget Multisig at [0x210CFcF53d1f9648C1c4dcaEE677f0Cb06914364](https://etherscan.io/address/0x210CFcF53d1f9648C1c4dcaEE677f0Cb06914364).
 - Transfer **193,820 USDS** to the Core Council Delegate Multisig at [0x37FC5d447c8c54326C62b697f674c93eaD2A93A3](0x37FC5d447c8c54326C62b697f674c93eaD2A93A3).
@@ -114,7 +114,7 @@ If this executive proposal passes, then the folling USDS transfers to the listed
 - **Authorization**: [Atlas - Near_Term_Process](https://sky-atlas.powerhouse.io/A.2.3.8.2.2.1.3.2.1_Near_Term_Process/1b3f2ff0-8d73-8006-8d52-f441b4e85f5b|9e1ff936eafd46ecfcbb87335192b6fc)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/utilization-of-the-integration-boost-budget-a-5-2-1-2/25536/13)
 
-If this executive proposal passes, then the folling USDS transfer to the Integration Boost Multisig will occur:
+If this executive proposal passes, then the following USDS transfer to the Integration Boost Multisig will occur:
 
 - Transfer **1,000,000 USDS** to [0xD6891d1DFFDA6B0B1aF3524018a1eE2E608785F7](0xD6891d1DFFDA6B0B1aF3524018a1eE2E608785F7).
 
@@ -123,7 +123,7 @@ If this executive proposal passes, then the folling USDS transfer to the Integra
 - **Authorization**: [Governance Poll 1602](https://vote.sky.money/polling/QmbzWao8)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/stusds-beam-rate-setter-configuration/27161/20)
 
-If this executive proposal passes, then the folling parameter updates to the [stUSDS Bounded External Access Module (stUSDS BEAM)](https://sky-atlas.powerhouse.io/A.3.5_Surplus_Buffer_and_Smart_Burn_Engine/c58d38dc-4b17-4c0a-a1df-546a06612c54%7C57ea) will occur:
+If this executive proposal passes, then the following parameter updates to the [stUSDS Bounded External Access Module (stUSDS BEAM)](https://sky-atlas.powerhouse.io/A.3.5_Surplus_Buffer_and_Smart_Burn_Engine/c58d38dc-4b17-4c0a-a1df-546a06612c54%7C57ea) will occur:
 
 - Reduce `stepStrBps` parameter by 3,500 bps from 4,000 bps to **500 bps**.
 - Reduce `stepDutyBps` parameter by 3,500 bps from 4,000 bps to **500 bps**.
@@ -205,7 +205,7 @@ The Vault Deposit Caps will be increased for the following markets on Spark Savi
 - **Authorization**: [Snapshot Proposal](https://snapshot.box/#/s:sparkfi.eth/proposal/0xab448e3d135620340da30616c0dabaa293f816a9edd4dc009f29b0ffb5bcbad2)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/october-30-2025-proposed-changes-to-spark-for-upcoming-spell/27309)
 
-syrupUSDT will be onboarded to the Spark Liquity Layer (SLL) will the following parameters:
+syrupUSDT will be onboarded to the Spark Liquity Layer (SLL) with the following parameters:
 
 - syrupUSDT address: [0x356B8d89c1e1239Cbbb9dE4815c39A1474d5BA7D](https://etherscan.io/address/0x356B8d89c1e1239Cbbb9dE4815c39A1474d5BA7D)
 - Deposits
@@ -219,7 +219,7 @@ syrupUSDT will be onboarded to the Spark Liquity Layer (SLL) will the following 
 - **Authorization**: [Atlas - Standard Agreement Post SPK Launch](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.2.3.2_Standard_Agreement_Post_SPK_Launch/1c1f2ff0-8d73-81f6-8b1e-cb3bac92d9b3|7896ed3326389fe3553030cd0a82221360c2)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/spark-aave-revenue-share-calculations-payments-9-q3-2025/27296)
 
-The Q3-2025 SparkLend profit-sharing payment with the Aave community for the FOSS work done on Aave v3 will be transfered as detailed below:
+The Q3-2025 SparkLend profit-sharing payment with the Aave community for the FOSS work done on Aave v3 will be transferred as detailed below:
 
 - Spark Obligation: **150,042 USDS**
 - Payment Source: **Spark SubProxy**
