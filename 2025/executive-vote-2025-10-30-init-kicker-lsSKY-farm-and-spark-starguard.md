@@ -291,7 +291,7 @@ The Unichain ALM Controller will be updated to v1.7.
 - **Authorization**: [Governance Poll 1600](https://vote.sky.money/polling/Qmef8C3a)
 - **Proposal**: [Forum Post 1](https://forum.sky.money/t/october-30th-2025-proposed-changes-to-grove-for-upcoming-spell/27321), [2](https://forum.sky.money/t/october-30th-2025-sky-prime-technical-scope-param-changes/27325)
 
-Aave Core RLUSD and USDC will be onboarded to the Grove Liquity Layer (GLL) with the following parameters:
+Aave Core RLUSD and USDC will be onboarded to the Grove Liquidity Layer (GLL) with the following parameters:
 
 - Aave Core v3 USDC
   - aEthUSDC Address: [0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c](https://etherscan.io/address/0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c)
