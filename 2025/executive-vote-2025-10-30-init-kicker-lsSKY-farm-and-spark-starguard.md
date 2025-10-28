@@ -173,7 +173,7 @@ The SparkLend cbBTC Supply and Borrow Caps on Ethereum will be increased as desc
 - **Authorization**: [Snapshot Proposal](https://snapshot.box/#/s:sparkfi.eth/proposal/0x14300684fb44685ad27270745fa6780e8083f3741de2119b98cf6bb1e44b4617)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/october-30-2025-proposed-changes-to-spark-for-upcoming-spell/27309)
 
-The Sparklend tBTC Supply and Borrow Caps on Ethereum will be increased as described below:
+The SparkLend tBTC Supply and Borrow Caps on Ethereum will be increased as described below:
 
 - Supply cap max: **1,000**
 - Borrow cap max: **900**
