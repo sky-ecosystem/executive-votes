@@ -43,7 +43,7 @@ If this executive proposal does not pass within 30 days, then it will expire and
 - **Authorization**: [Governance Poll 1601](https://vote.sky.money/polling/Qmbs7wEM)
 - **Proposal**: [Forum Post 1](https://forum.sky.money/t/technical-scope-of-the-kicker-launch/27350), [2](https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-2025-10-27/27362)
 
-If this executive proposal passes, then the following actions required to initialize the Kicker Contract will be executed:
+If this executive proposal passes, then the following actions required to initialize the Kicker module will be executed:
 
 Init Kicker by calling [FlapperInit.initKicker](https://github.com/sky-ecosystem/dss-flappers/blob/f4f4f22b3eae6c912551b00ad64a56862ad61f86/deploy/FlapperInit.sol#L226-L249) with the following parameters:
 
