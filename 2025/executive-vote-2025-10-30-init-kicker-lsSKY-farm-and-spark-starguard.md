@@ -57,7 +57,7 @@ Init Kicker by calling [FlapperInit.initKicker](https://github.com/sky-ecosystem
   - Remove old `FlapJob` ([0xc32506E9bB590971671b649d9B8e18CB6260559F](https://etherscan.io/address/0xc32506E9bB590971671b649d9B8e18CB6260559F) from the Sequencer.
   - Add new `FlapJob` deployed at [0xE564C4E237f4D7e0130FdFf6ecC8a5E931C51494](https://etherscan.io/address/0xE564C4E237f4D7e0130FdFf6ecC8a5E931C51494) to the Sequencer.
   - Update `CRON_FLAP_JOB` in the [Chainlog](https://chainlog.sky.money) to [0xE564C4E237f4D7e0130FdFf6ecC8a5E931C51494](https://etherscan.io/address/0xE564C4E237f4D7e0130FdFf6ecC8a5E931C51494).
-  - 
+ 
 ### Recalibrate Smart Burn Engine
 
 - **Authorization**: [Governance Poll 1601](https://vote.sky.money/polling/Qmbs7wEM)
@@ -283,18 +283,18 @@ Aave Core RLUSD and USDC will be onboarded to the Grove Liquity Layer (GLL) with
   - aEthUSDC Address: [0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c](https://etherscan.io/address/0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c)
   - Underlying asset: **USDC**
   - Deposits
-    - maxAmount: **50 million aEthUSDC**
-    - slope: **25 million per day aEthUSDC**
+    - maxAmount: **50 million USDC**
+    - slope: **25 million per day USDC**
   - Withdrawals
-    - maxAmount: **unlimited aEthUSDC**
+    - maxAmount: **unlimited USDC**
 - Aave Core v3 RLUSD
   - aEthRLUSD Address: [0xFa82580c16A31D0c1bC632A36F82e83EfEF3Eec0](https://etherscan.io/address/0xFa82580c16A31D0c1bC632A36F82e83EfEF3Eec0)
   - Underlying asset: **RLUSD**
   - Deposits
-    - maxAmount: **50 million aEthRLUSD**
-    - slope: **25 million per day aEthRLUSD**
+    - maxAmount: **50 million RLUSD**
+    - slope: **25 million per day RLUSD**
   - Withdrawals
-  - maxAmount: **unlimited aEthRLUSD**
+  - maxAmount: **unlimited RLUSD**
  
 ##### [Mainnet] GLL - Onboard Aave Horizon RLUSD and USDC
 
@@ -307,18 +307,18 @@ Aave Horizon RLUSD and USDC will be onboarded to the Grove Liquity Layer (GLL) w
   - Address: [0x68215B6533c47ff9f7125aC95adf00fE4a62f79e](https://etherscan.io/address/0x68215B6533c47ff9f7125aC95adf00fE4a62f79e)
   - Underlying asset: **USDC**
   - Deposits
-    - maxAmount: **50 million aHorRwaUSDC**
-    - slope: **25 million per day aHorRwaUSDC**
+    - maxAmount: **50 million USDC**
+    - slope: **25 million per day USDC**
   - Withdrawals
-    - maxAmount: **unlimited aHorRwaUSDC**
+    - maxAmount: **unlimited USDC**
 - Aave Horizon RLUSD
   - Address: [0xE3190143Eb552456F88464662f0c0C4aC67A77eB](https://etherscan.io/address/0xE3190143Eb552456F88464662f0c0C4aC67A77eB)
   - Underlying asset: **RLUSD**
   - Deposits
-    - maxAmount: **50 million aHorRwaRLUSD**
-    - slope: **25 million per day aHorRwaRLUSD**
+    - maxAmount: **50 million RLUSD**
+    - slope: **25 million per day RLUSD**
   - Withdrawals
-    - maxAmount: **unlimited aHorRwaRLUSD**
+    - maxAmount: **unlimited RLUSD**
    
 ##### [Mainnet] GLL - Onboard Curve RLUSD and USDC Swaps
 
@@ -331,8 +331,8 @@ Curve RLUSD and USDC Swaps will be onboarded to the Grove Liquity Layer (GLL) wi
   - Pool Address: [0xD001aE433f254283FeCE51d4ACcE8c53263aa186](https://etherscan.io/address/0xD001aE433f254283FeCE51d4ACcE8c53263aa186)
   - Underlying assets: **USDC** and **RLUSD**
   - Swaps
-    - maxAmount: **20 million USDCRLUSD_D001AE.USD**
-    - slope: **100 million per day USDCRLUSD_D001AE.USD**
+    - maxAmount: **20 million USDC**
+    - slope: **100 million per day USDC**
     - maxSlippage: **0.1%**
 
 ## Review
