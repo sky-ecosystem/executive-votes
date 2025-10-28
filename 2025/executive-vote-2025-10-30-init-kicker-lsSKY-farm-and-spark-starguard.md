@@ -163,7 +163,7 @@ The Sparklend Borrow Caps for Non Collateral Stablecoins (USDC, USDT, PYUSD) on 
 - **Authorization**: [Snapshot Proposal](https://snapshot.box/#/s:sparkfi.eth/proposal/0x95138f104ff84defb64985368f348af4d7500b2641b88b396e37426126f5ce0d)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/october-30-2025-proposed-changes-to-spark-for-upcoming-spell/27309)
 
-The Sparklend cbBTC Supply and Borrow Caps on Ethereum will be increased as described below:
+The SparkLend cbBTC Supply and Borrow Caps on Ethereum will be increased as described below:
 
 - Supply cap max: **20,000**
 - Borrow cap max: **10,000**
