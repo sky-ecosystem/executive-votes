@@ -138,7 +138,7 @@ The expected contents of each proxy spell are listed below.
 
 #### Spark
 
-##### [Mainnet] Sparklend - Remove Supply and Borrow Caps for Non Collateral Stablecoins (USDC, USDT, PYUSD)
+##### [Mainnet] SparkLend - Remove Supply and Borrow Caps for Non Collateral Stablecoins (USDC, USDT, PYUSD)
 
 - **Authorization**: [Snapshot Proposal](https://snapshot.box/#/s:sparkfi.eth/proposal/0xeea0e2648f55df4e57f8717831a5949f2a35852e32aa0f98a7e16e7ed56268a8)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/october-30-2025-proposed-changes-to-spark-for-upcoming-spell/27309)
