@@ -48,7 +48,7 @@ If this executive proposal passes, then the following actions required to initia
 Init Kicker by calling [FlapperInit.initKicker()](https://github.com/sky-ecosystem/dss-flappers/blob/f4f4f22b3eae6c912551b00ad64a56862ad61f86/deploy/FlapperInit.sol#L226-L249) with the following parameters:
 
 - `dss`: **A DssInstance** (from [dss-test/MCD.sol](https://github.com/sky-ecosystem/dss-test/blob/master/src/DssTest.sol))
-- `kicker`: [0xD889477102e8C4A857b78Fcc2f134535176Ec1Fc]((https://etherscan.io/address/0xD889477102e8C4A857b78Fcc2f134535176Ec1Fc#code))
+- `kicker`: [0xD889477102e8C4A857b78Fcc2f134535176Ec1Fc](https://etherscan.io/address/0xD889477102e8C4A857b78Fcc2f134535176Ec1Fc#code)
 - `cfg.khump`: **-200 million USDS**
 - `cfg.kbump`: **10,000 USDS**
 - `cfg.chainlogKey`: **MCD_KICK**
