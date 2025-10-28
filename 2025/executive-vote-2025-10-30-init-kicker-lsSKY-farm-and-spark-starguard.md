@@ -217,7 +217,7 @@ The Vault Deposit Caps will be increased for the following markets on Spark Savi
   - [Deposit cap](https://docs.spark.fi/dev/savings/spark-vaults-v2#deposit-cap): **250 million USDT**
 - Ethereum Spark Savings ETH (spETH)
   - [Deposit cap](https://docs.spark.fi/dev/savings/spark-vaults-v2#deposit-cap): **50,000 wETH**
- 
+
 ##### [Mainnet] Spark Liquidity Layer - Onboard syrupUSDT
 
 - **Authorization**: [Snapshot Proposal](https://snapshot.box/#/s:sparkfi.eth/proposal/0xab448e3d135620340da30616c0dabaa293f816a9edd4dc009f29b0ffb5bcbad2)
