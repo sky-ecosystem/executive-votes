@@ -87,7 +87,7 @@ Call [TreasuryFundedFarmingInit.initLockstakeFarm](https://github.com/sky-ecosys
 - `distJob`: **CRON_REWARDS_DIST_JOB** from the [Chainlog](https://chainlog.sky.money)
 - `distJobInterval`: **7 days - 1 hours**
 - `vest`: **MCD_VEST_SKY_TREASURY** from the [Chainlog](https://chainlog.sky.money)
-- `vestTot`: **1,000,000,000 SKY**
+- `vestTot`: **1 billion SKY**
 - `vestBgn`: **block.timestamp - 7 days**
 - `vestTau`: **180 days**
 - `lockstakeEngine`: **LOCKSTAKE_ENGINE** from the [Chainlog](https://chainlog.sky.money)
