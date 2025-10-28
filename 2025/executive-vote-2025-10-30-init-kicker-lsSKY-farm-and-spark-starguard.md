@@ -258,7 +258,7 @@ Spark will transfer funding for the November Spark Foundation Grant to the Spark
 
 Avalanche Spark Savings spUSDC Vault Deposit Cap will be increased to the following amount:
 
-- [Deposit cap](https://docs.spark.fi/dev/savings/spark-vaults-v2#deposit-cap): **150 million spUSDC**
+- [Deposit cap](https://docs.spark.fi/dev/savings/spark-vaults-v2#deposit-cap): **150 million USDC**
 
 ##### [Arbitrum] Spark Liquidity Layer - Update Controller to v1.7
 
