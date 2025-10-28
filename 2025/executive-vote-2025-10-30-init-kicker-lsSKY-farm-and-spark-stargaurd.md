@@ -64,7 +64,6 @@ If this executive proposal passes, then the following [Smart Burn Engine](https:
 - Increase `splitter.hop` by 720 seconds from 2,160 seconds to **2,880 seconds**.
 - Increase `rewardsDuration` in REWARDS_LSSKY_USDS by 720 seconds from 2,160 seconds to **2,880 seconds**.
 
-
 ### Initialize lsSKY->SKY Farm
 
 - **Authorization**: [Governance Poll 1601](https://vote.sky.money/polling/Qmbs7wEM)
