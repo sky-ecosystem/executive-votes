@@ -74,7 +74,7 @@ If this executive proposal passes, then the following [Smart Burn Engine](https:
 - **Authorization**: [Governance Poll 1601](https://vote.sky.money/polling/Qmbs7wEM)
 - **Proposal**: [Forum Post 1](https://forum.sky.money/t/technical-scope-lssky-sky-farm/27312), [2](https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-2025-10-27/27362)
 
-If this executive proposal passes, then the lsSKY->SKY Farm will be initialized by executing the following required actions.
+If this executive proposal passes, then the lsSKY->SKY Farm will be initialized by executing the following actions.
 
 Call [TreasuryFundedFarmingInit.initLockstakeFarm](https://github.com/sky-ecosystem/endgame-toolkit/blob/fe734bea271e87c0b8e772d7adcccb46c4df1939/script/dependencies/treasury-funded-farms/TreasuryFundedFarmingInit.sol#L111) with the following parameters:
 
