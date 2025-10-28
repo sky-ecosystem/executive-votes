@@ -92,7 +92,7 @@ Call [TreasuryFundedFarmingInit.initLockstakeFarm](https://github.com/sky-ecosys
 - `vestTau`: **180 days**
 - `lockstakeEngine`: **LOCKSTAKE_ENGINE** from the [Chainlog](https://chainlog.sky.money)
 
-Be advised that the SKY for the lsSKY->SKY Farm will be provided from the Sky Frontier Foundation and with funding rate to be reviewed after three months, as detailed in this [Atlas Edit](https://vote.sky.money/polling/Qmbs7wEM). 
+Be advised that the SKY for the lsSKY->SKY Farm will be provided by the Sky Frontier Foundation and the funding rate will be reviewed after three months, as detailed in this [Atlas Edit](https://vote.sky.money/polling/Qmbs7wEM). 
 
 ### Initialize Spark StarGuard
 
