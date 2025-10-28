@@ -181,8 +181,8 @@ The Sparklend Supply and Borrow Caps for Non Collateral Stablecoins (USDC, USDT,
 
 The SparkLend cbBTC Supply and Borrow Caps on Ethereum will be increased as described below:
 
-- [Supply cap](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.9_Supply_Cap_Definition/1c1f2ff0-8d73-81b3-8206-e7b26cebfd73%7C7896ed3326389fe3553030cd0a82f68efd49): **20,000 cbBTC**
-- [Borrow cap](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.10_Borrow_Cap_Definition/1c1f2ff0-8d73-81ed-b136-d5f9871bc2c2%7C7896ed3326389fe3553030cd0a82f68efd49): **10,000 cbBTC**
+- [Supply cap max](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.3_SparkLend_Risk_Parameters_Cap_Automators/1c1f2ff0-8d73-81ec-bc16-e2f85c0765d7%7C7896ed3326389fe3553030cd0a82f68e): **20,000 cbBTC**
+- [Borrow cap max](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.3_SparkLend_Risk_Parameters_Cap_Automators/1c1f2ff0-8d73-81ec-bc16-e2f85c0765d7%7C7896ed3326389fe3553030cd0a82f68e): **10,000 cbBTC**
 
 ##### [Mainnet] SparkLend - Increase tBTC Supply and Borrow Caps
 
@@ -191,8 +191,8 @@ The SparkLend cbBTC Supply and Borrow Caps on Ethereum will be increased as desc
 
 The SparkLend tBTC Supply and Borrow Caps on Ethereum will be increased as described below:
 
-- [Supply cap](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.9_Supply_Cap_Definition/1c1f2ff0-8d73-81b3-8206-e7b26cebfd73%7C7896ed3326389fe3553030cd0a82f68efd49): **1,000 tBTC**
-- [Borrow cap](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.1.10_Borrow_Cap_Definition/1c1f2ff0-8d73-81ed-b136-d5f9871bc2c2%7C7896ed3326389fe3553030cd0a82f68efd49): **900 tBTC**
+- [Supply cap max](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.3_SparkLend_Risk_Parameters_Cap_Automators/1c1f2ff0-8d73-81ec-bc16-e2f85c0765d7%7C7896ed3326389fe3553030cd0a82f68e): **1,000 tBTC**
+- [Borrow cap max](https://sky-atlas.powerhouse.io/A.AG1.3.2.1.1.3_SparkLend_Risk_Parameters_Cap_Automators/1c1f2ff0-8d73-81ec-bc16-e2f85c0765d7%7C7896ed3326389fe3553030cd0a82f68e): **900 tBTC**
 
 ##### [Mainnet] SparkLend - Claim Reserves for USDS and DAI Markets
 
