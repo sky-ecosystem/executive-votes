@@ -54,10 +54,11 @@ Init Kicker by calling [FlapperInit.initKicker](https://github.com/sky-ecosystem
 - `cfg.chainlogKey`: **MCD_KICK**
 
 Other required actions:
+
 - Remove old `FlapJob` ([0xc32506E9bB590971671b649d9B8e18CB6260559F](https://etherscan.io/address/0xc32506E9bB590971671b649d9B8e18CB6260559F) from the Sequencer.
 - Add new `FlapJob` deployed at [0xE564C4E237f4D7e0130FdFf6ecC8a5E931C51494](https://etherscan.io/address/0xE564C4E237f4D7e0130FdFf6ecC8a5E931C51494) to the Sequencer.
 - Update `CRON_FLAP_JOB` in the [Chainlog](https://chainlog.sky.money) to [0xE564C4E237f4D7e0130FdFf6ecC8a5E931C51494](https://etherscan.io/address/0xE564C4E237f4D7e0130FdFf6ecC8a5E931C51494).
- 
+
 ### Recalibrate Smart Burn Engine
 
 - **Authorization**: [Governance Poll 1601](https://vote.sky.money/polling/Qmbs7wEM)
