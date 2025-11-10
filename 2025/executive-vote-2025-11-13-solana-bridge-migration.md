@@ -1,11 +1,11 @@
 ---
-title: Template - [Executive Vote] Solana Bridge Migration, Launch Agent 4 DC-IAM Parameter Changes and Genesis Capital Funding, Whitelist Launch Agent 4 ALMProxy on the LitePSM - November 13, 2025
-summary: $summary
+title: Template - [Executive Vote] Solana Bridge Migration Spell 0, Launch Agent 4 DC-IAM Parameter Changes and Genesis Capital Funding, Whitelist Launch Agent 4 ALMProxy on the LitePSM, Prime Agent Proxy Spells - November 13, 2025
+summary: Undertake the first steps of the Solana Bridge Migration, adjust the Launch Agent 4 DC-IAM parameters, distribute Launch Agent 4 Genesis Capital, whitelist the Launch Agent 4 ALMProxy on the litePSM, whitelist Spark proxy spell in Spark Starguard, execute a Launch Agent 4 proxy spell.
 date: 2025-11-13T00:00:00.000Z
 address: "$spell_address"
 ---
 
-# [Executive Proposal] Solana Bridge Migration, Launch Agent 4 DC-IAM Parameter Changes and Genesis Capital Funding, Whitelist Launch Agent 4 ALMProxy on the LitePSM - November 13, 2025
+# [Executive Proposal] Solana Bridge Migration Spell 0, Launch Agent 4 DC-IAM Parameter Changes and Genesis Capital Funding, Whitelist Launch Agent 4 ALMProxy on the LitePSM, Prime Agent Proxy Spells - November 13, 2025
 
 The Core Facilitator, Sidestream, and Dewiz have placed an executive proposal into the voting system. SKY holders should vote for this proposal if they support the following alterations to the Sky Protocol.
 
