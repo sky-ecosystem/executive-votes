@@ -54,7 +54,7 @@ If this executive proposal passes, then the first stage of the Solana Bridge Mig
 
 These actions will disable the existing Wormhole-based Solana bridge, resulting in a stop of all inbound and outbound transfers on both sides of the bridge.
 
-After the initial spell is executed, LayerZero and the technical teams will ensure that the Wormhole bridge is fully stopped and the bridging queue is empty on both sides of the bridge. Unless there is a queue, this step is supposed to take a maximum of a few hours.
+After the initial spell is executed, LayerZero and the technical teams will ensure that the Wormhole bridge is fully stopped and the bridging queue is empty on both sides of the bridge. Unless there is a queue, this step is expected to take a maximum of a few hours.
 
 A follow-up out-of-schedule spell completing the migration will be posted to the voting portal once the appropriate confirmations have been received.
 
@@ -87,7 +87,7 @@ If this executive proposal passes, then the Launch Agent 4 ALMProxy at [0xb6dD7a
 
 If this executive proposal passes, then a Spark Proxy Spell at [0x63Fa202a7020e8eE0837196783f0fB768CBFE2f1](https://etherscan.io/address/0x63Fa202a7020e8eE0837196783f0fB768CBFE2f1) with the codehash `0x6e88f81cc72989a637f4b87592dcde2016272fbceb08a2af3b2effdb2d20c0fb` will be whitelisted in the Spark StarGuard.
 
-If this executive proposal passes, then an Launch Agent 4 Proxy Spell at [0xF538909eDF14d2c23002C2b3882Ad60f79d61893](https://etherscan.io/address/0xF538909eDF14d2c23002C2b3882Ad60f79d61893) will be executed.
+If this executive proposal passes, then a Launch Agent 4 Proxy Spell at [0xF538909eDF14d2c23002C2b3882Ad60f79d61893](https://etherscan.io/address/0xF538909eDF14d2c23002C2b3882Ad60f79d61893) will be executed.
 
 #### Spark
 
