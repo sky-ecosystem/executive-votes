@@ -40,7 +40,7 @@ If this executive proposal passes, then the final stage of the Solana Bridge Mig
 
 - Call [MigrationInit.initMigrationStep1](https://github.com/sky-ecosystem/wh-lz-migration/blob/4aeb832d712efc0ec2fbad5623207de54b450b0c/deploy/MigrationInit.sol#L221-L249) with the following parameters:
   - `oftAdapter` – [`0x1e1D42781FC170EF9da004Fb735f56F0276d01B8`](https://etherscan.io/address/0x1e1D42781FC170EF9da004Fb735f56F0276d01B8#code)
-  - `oftPeer` – Solana LayerZero Token bridge program's PDA
+  - `oftPeer` – [BEvTHkTyXooyaJzP8egDUC7WQK8cyRrq5WvERZNWhuah](https://solscan.io/account/BEvTHkTyXooyaJzP8egDUC7WQK8cyRrq5WvERZNWhuah)
   - `govOapp` – [`0x27FC1DD771817b53bE48Dc28789533BEa53C9CCA`](https://etherscan.io/address/0x27FC1DD771817b53bE48Dc28789533BEa53C9CCA#code)
   - `govPeer` – [`8vXXGiaXFrKFUDw21H5Z57ex552Lh8WP9rVd2ktzmcCy`](https://solscan.io/account/8vXXGiaXFrKFUDw21H5Z57ex552Lh8WP9rVd2ktzmcCy)
   - `rl.outboundWindow` – outbound [duration of the rate limiting window](https://github.com/sky-ecosystem/sky-oapp-oft/blob/8128f8aa8b465b8b784efd1bb27aa8a3f082fedd/contracts/SkyRateLimiter.sol#L145)
