@@ -63,7 +63,7 @@ A follow-up out-of-schedule spell completing the migration will be posted to the
 - **Authorization**: [Governance Poll 1603](https://vote.sky.money/polling/Qmetv8fp), [Atlas Entry](https://sky-atlas.io/#A.6.1.1.5.2.6.1.2.1.1.4.1)
 - **Proposal**: [Atlas Edit Proposal](https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-2025-11-03/27381)
 
-If this executive proposal passes, then the ALLOCATOR-OBEX-A DC-IAM parameters will be adjusted as follows:
+If this executive proposal passes, then the ALLOCATOR-OBEX-A [DC-IAM](https://sky-atlas.io/#A.1.9.3.2.6) parameters will be adjusted as follows:
 
 - Increase the [Maximum Debt Ceiling (`line`)](https://sky-atlas.io/#A.3.7.1.1.2.4.1) by 2.49 billion USDS from 10 million USDS to **2.5 billion USDS**.
 - Increase the [Target Available Debt (`gap`)](https://sky-atlas.io/#A.3.7.1.1.2.4.2) by 40 million USDS from 10 million USDS to **50 million USDS**.
@@ -71,10 +71,10 @@ If this executive proposal passes, then the ALLOCATOR-OBEX-A DC-IAM parameters w
 
 ### Launch Agent 4 Genesis Capital Funding
 
-- **Authorization**: [Governance Poll 1604](https://vote.sky.money/polling/QmYPMN4y)
+- **Authorization**: [Governance Poll 1604](https://vote.sky.money/polling/QmYPMN4y), [Atlas Entry](https://sky-atlas.io/#A.2.9.2.4.2.1)
 - **Proposal**: [Atlas Edit Proposal](https://forum.sky.money/t/out-of-schedule-atlas-edit-proposal/27393)
 
-If this executive proposal passes, then **21 million USDS** of Genesis Capital will be transferred to the Launch Agent 4 SubProxy at [0x8be042581f581E3620e29F213EA8b94afA1C8071](https://etherscan.io/address/0x8be042581f581E3620e29F213EA8b94afA1C8071).
+If this executive proposal passes, then **21 million USDS** of [Genesis Capital](https://sky-atlas.io/#A.3.7.1.5) will be transferred to the Launch Agent 4 SubProxy at [0x8be042581f581E3620e29F213EA8b94afA1C8071](https://etherscan.io/address/0x8be042581f581E3620e29F213EA8b94afA1C8071).
 
 ### Whitelist Launch Agent 4 ALMProxy on the LitePSM
 
@@ -85,7 +85,7 @@ If this executive proposal passes, then the Launch Agent 4 ALMProxy at [0xb6dD7a
 
 ### Prime Agent Proxy Spells
 
-If this executive proposal passes, then a Spark Proxy Spell at [0x63Fa202a7020e8eE0837196783f0fB768CBFE2f1](https://etherscan.io/address/0x63Fa202a7020e8eE0837196783f0fB768CBFE2f1) with the codehash `0x6e88f81cc72989a637f4b87592dcde2016272fbceb08a2af3b2effdb2d20c0fb` will be whitelisted in the Spark StarGuard.
+If this executive proposal passes, then a Spark Proxy Spell at [0x63Fa202a7020e8eE0837196783f0fB768CBFE2f1](https://etherscan.io/address/0x63Fa202a7020e8eE0837196783f0fB768CBFE2f1) with the codehash `0x6e88f81cc72989a637f4b87592dcde2016272fbceb08a2af3b2effdb2d20c0fb` will be whitelisted in the Spark [StarGuard](https://sky-atlas.io/#A.1.9.2.3.2.2.2.1.1).
 
 If this executive proposal passes, then a Launch Agent 4 Proxy Spell at [0xF538909eDF14d2c23002C2b3882Ad60f79d61893](https://etherscan.io/address/0xF538909eDF14d2c23002C2b3882Ad60f79d61893) will be executed.
 
@@ -106,11 +106,11 @@ If this executive proposal passes, then a Launch Agent 4 Proxy Spell at [0xF5389
 The sUSDS and sDAI markets on SparkLend will be deprecated by performing the following parameter adjustments:
 
 - sUSDS:
-  - Remove from cap automator and set Supply Cap to **1 sUSDS**.
-  - Set Max LTV to **0**.
+  - Remove from cap automator and set [Supply Cap](https://sky-atlas.io/#A.6.1.1.1.3.2.1.1.1.9) to **1 sUSDS**.
+  - Set [Max LTV](https://sky-atlas.io/#A.6.1.1.1.3.2.1.1.1.4) to **0**.
 - sDAI:
-  - Remove from cap automator and set Supply Cap **1 sDAI**.
-  - Set Max LTV to **0**.
+  - Remove from cap automator and set [Supply Cap](https://sky-atlas.io/#A.6.1.1.1.3.2.1.1.1.9) **1 sDAI**.
+  - Set [Max LTV](https://sky-atlas.io/#A.6.1.1.1.3.2.1.1.1.4) to **0**.
 
 ##### [Mainnet] Claim Reserves from USDS and DAI Markets
 
@@ -124,10 +124,10 @@ All accrued reserves for SparkLend USDS and SparkLend DAI will be claimed.
 - **Authorization**: [Core Facilitator Approval](https://forum.sky.money/t/november-13-2025-proposed-changes-to-sparklend-for-upcoming-spell-2/27395/3)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/november-13-2025-proposed-changes-to-sparklend-for-upcoming-spell-2/27395)
 
-The SparkLend PYUSD Interest Rate Model will be updated to use a higher base rate benchmarked to the Sky Savings Rate, alongside a lower slope 1 with the following parameter changes:
+The SparkLend PYUSD [Interest Rate Model](https://sky-atlas.io/#A.6.1.1.1.3.2.1.1.1.3) will be updated to use a higher base rate benchmarked to the Sky Savings Rate, alongside a lower slope 1 with the following parameter changes:
 
-- Base Rate: **SSR**
-- Slope 1: **2%**
+- [Base Rate](https://sky-atlas.io/#A.6.1.1.1.3.2.1.1.1.13): **SSR**
+- [Slope 1](https://sky-atlas.io/#A.6.1.1.1.3.2.1.1.1.15): **2%**
 
 ##### [Mainnet] Increase Spark Liquidity Layer Rate Limits for SparkLend USDC and USDT
 
