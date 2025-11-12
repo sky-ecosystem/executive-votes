@@ -38,7 +38,7 @@ If this executive proposal does not pass within 30 days, then it will expire and
 
 ## Proposal Details
 
-### Solana Bridge Migration
+### Solana Bridge Migration Spell 0
 
 - **Authorization**: [Governance Poll 1603](https://vote.sky.money/polling/Qmetv8fp), [Atlas Entry](https://sky-atlas.io/#A.1.9.4.1)
 - **Proposal**: [Technical Scope](https://forum.sky.money/t/november-27-2025-prime-technical-scope-solana-pre-configuration-for-upcoming-spell/27404), [Atlas Edit Proposal](https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-2025-11-03/27381)
