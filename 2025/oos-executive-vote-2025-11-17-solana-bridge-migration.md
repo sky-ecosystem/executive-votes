@@ -15,7 +15,7 @@ If you are new to voting in the Sky Protocol, please see the [voting guide](http
 
 ## Executive Summary
 
-If this executive proposal passes, the following **actions** will occur within the Sky Protocol:
+If this executive proposal passes, the following **action** will occur within the Sky Protocol:
 
 - The final stage of the Solana Bridge Migration will be executed.
 

@@ -1,6 +1,6 @@
 ---
 title: Template - [Executive Vote] Solana Bridge Migration Spell 0, Launch Agent 4 DC-IAM Parameter Changes and Genesis Capital Funding, Whitelist Launch Agent 4 ALMProxy on the LitePSM, Prime Agent Proxy Spells - November 13, 2025
-summary: Undertake the first steps of the Solana Bridge Migration, adjust the Launch Agent 4 DC-IAM parameters, distribute Launch Agent 4 Genesis Capital, whitelist the Launch Agent 4 ALMProxy on the litePSM, whitelist Spark proxy spell in Spark Starguard, execute a Launch Agent 4 proxy spell.
+summary: Carry out the first stage of the Solana Bridge Migration, adjust the Launch Agent 4 DC-IAM parameters, distribute Launch Agent 4 Genesis Capital, whitelist the Launch Agent 4 ALMProxy on the LitePSM, whitelist Spark proxy spell in Spark Starguard, execute a Launch Agent 4 proxy spell.
 date: 2025-11-13T00:00:00.000Z
 address: "$spell_address"
 ---
@@ -20,7 +20,7 @@ If this executive proposal passes, the following **actions** will occur within t
 - The first stage of the Solana Bridge Migration will be carried out.
 - The DC-IAM parameters for ALLOCATOR-OBEX-A will be updated.
 - Genesis Capital of **21,000,000 USDS** will be distributed to the Launch Agent 4 SubProxy.
-- The Launch Agent 4 ALMProxy will be whitelisted on the litePSM.
+- The Launch Agent 4 ALMProxy will be whitelisted on the LitePSM.
 - A proxy spell for Spark will be whitelisted in the Spark StarGuard.
 - A proxy spell for Launch Agent 4 will be executed.
 
@@ -96,7 +96,7 @@ If this executive proposal passes, then a Launch Agent 4 Proxy Spell at [0xF5389
 - **Authorization**: [Atlas Entry](https://sky-atlas.io/#A.2.9.2.1)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/november-13-2025-proposed-changes-to-spark-for-upcoming-spell/27354)
 
-625,069 USDS will be transferred from the Spark SubProxy to the Grove SubProxy at [0x1369f7b2b38c76B6478c0f0E66D94923421891Ba](https://etherscan.io/address/0x1369f7b2b38c76B6478c0f0E66D94923421891Ba) as part of the ongoing Spark-Grove USDe and sUSDe revenue share.
+**625,069 USDS** will be transferred from the Spark SubProxy to the Grove SubProxy at [0x1369f7b2b38c76B6478c0f0E66D94923421891Ba](https://etherscan.io/address/0x1369f7b2b38c76B6478c0f0E66D94923421891Ba) as part of the ongoing Spark-Grove USDe and sUSDe revenue share.
 
 ##### [Mainnet] Deprecate sUSDS and sDAI Collateral in SparkLend
 
@@ -109,7 +109,7 @@ The sUSDS and sDAI markets on SparkLend will be deprecated by performing the fol
   - Remove from cap automator and set [Supply Cap](https://sky-atlas.io/#A.6.1.1.1.3.2.1.1.1.9) to **1 sUSDS**.
   - Set [Max LTV](https://sky-atlas.io/#A.6.1.1.1.3.2.1.1.1.4) to **0**.
 - sDAI:
-  - Remove from cap automator and set [Supply Cap](https://sky-atlas.io/#A.6.1.1.1.3.2.1.1.1.9) **1 sDAI**.
+  - Remove from cap automator and set [Supply Cap](https://sky-atlas.io/#A.6.1.1.1.3.2.1.1.1.9) to **1 sDAI**.
   - Set [Max LTV](https://sky-atlas.io/#A.6.1.1.1.3.2.1.1.1.4) to **0**.
 
 ##### [Mainnet] Claim Reserves from USDS and DAI Markets
@@ -131,28 +131,28 @@ The SparkLend PYUSD [Interest Rate Model](https://sky-atlas.io/#A.6.1.1.1.3.2.1.
 
 ##### [Mainnet] Increase Spark Liquidity Layer Rate Limits for SparkLend USDC and USDT
 
-**Authorization**: [Snapshot Poll](https://snapshot.box/#/s:sparkfi.eth/proposal/0xe697ded18a50e09618c6f34fb89cbb8358d84a4c40602928ae4b44a644b83dcf)
-**Proposal**: [Forum Post](https://forum.sky.money/t/november-13-2025-proposed-changes-to-spark-for-upcoming-spell/27354)
+- **Authorization**: [Snapshot Poll](https://snapshot.box/#/s:sparkfi.eth/proposal/0xe697ded18a50e09618c6f34fb89cbb8358d84a4c40602928ae4b44a644b83dcf)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/november-13-2025-proposed-changes-to-spark-for-upcoming-spell/27354)
 
-The Spark Liquidity [Rate Limits](https://sky-atlas.io/#A.2.3.9.1.1.1.2.2) for SparkLend USDC and USDT will be adjusted as follows:
+The Spark Liquidity Layer [Rate Limits](https://sky-atlas.io/#A.2.3.9.1.1.1.2.2) for SparkLend USDC and USDT will be adjusted as follows:
 
 - SparkLend USDC:
   - Deposits:
-    - maxAmount: 100 million USDC (no change)
-    - slope: Increase by 150 million USDC per day from 50 million USDC per day to 200 million USDC per day.
+    - maxAmount: **100 million USDC** (no change)
+    - slope: Increase by 150 million USDC per day from 50 million USDC per day to **200 million USDC per day**.
   - Withdrawals:
-    - maxAmount: Unlimited (no change)
+    - maxAmount: **Unlimited** (no change)
 - SparkLend USDT:
   - Deposits:
-    - maxAmount: 100 million USDT (no change)
-    - slope: Increase by 100 million USDT per day from 100 million USDT per day to 200 million USDT per day.
+    - maxAmount: **100 million USDT** (no change)
+    - slope: Increase by 100 million USDT per day from 100 million USDT per day to **200 million USDT per day**.
   - Withdrawals:
-    - maxAmount: Unlimited (no change)
+    - maxAmount: **Unlimited** (no change)
 
 ##### [Mainnet] Increase Deposit Caps for spUSDC, spUSDT, and spETH Savings Vaults
 
-**Authorization**: [Snapshot Poll](https://snapshot.box/#/s:sparkfi.eth/proposal/0x785d3b23e63e3e6b6fb7927ca0bc529b2dc7b58d429102465e4ba8a36bc23fda)
-**Proposal**: [Forum Post](https://forum.sky.money/t/november-13-2025-proposed-changes-to-spark-for-upcoming-spell/27354/2)
+- **Authorization**: [Snapshot Poll](https://snapshot.box/#/s:sparkfi.eth/proposal/0x785d3b23e63e3e6b6fb7927ca0bc529b2dc7b58d429102465e4ba8a36bc23fda)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/november-13-2025-proposed-changes-to-spark-for-upcoming-spell/27354/2)
 
 The [Deposit Caps](https://docs.spark.fi/dev/savings/spark-vaults-v2#deposit-cap) for the spUSDC, spUSDT, and spETH Savings Vaults will be adjusted as follows:
 
@@ -165,8 +165,8 @@ The [Deposit Caps](https://docs.spark.fi/dev/savings/spark-vaults-v2#deposit-cap
 
 ##### [Base] Spark Blue Chip USDC Morpho Vault - Onboard ETH/USDC Market
 
-**Authorization**: [Snapshot Poll](https://snapshot.box/#/s:sparkfi.eth/proposal/0xd7397d29254989ce4c5785f3c67a94de21018abc4e9a76b1e7fc359aec36e60a)
-**Proposal**: [Forum Post](https://forum.sky.money/t/november-13-2025-proposed-changes-to-spark-for-upcoming-spell/27354)
+- **Authorization**: [Snapshot Poll](https://snapshot.box/#/s:sparkfi.eth/proposal/0xd7397d29254989ce4c5785f3c67a94de21018abc4e9a76b1e7fc359aec36e60a)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/november-13-2025-proposed-changes-to-spark-for-upcoming-spell/27354)
 
 The ETH/USDC market will be onboarded to the [Spark Blue Chip USDC Morpho Vault](https://morpho.blockanalitica.com/base/vaults/vaults/0x7bfa7c4f149e7415b73bdedfe609237e29cbf34a) on Base with the following parameters:
 
@@ -176,8 +176,8 @@ The ETH/USDC market will be onboarded to the [Spark Blue Chip USDC Morpho Vault]
 
 ##### [Avalanche] Increase spUSDC Savings Vault Deposit Cap
 
-**Authorization**: [Snapshot Poll](https://snapshot.box/#/s:sparkfi.eth/proposal/0xb31a1c997c3186943b57ce9f1528cb02c1dc5399dcdc151e60d136af46d5c126)
-**Proposal**: [Forum Post](https://forum.sky.money/t/november-13-2025-proposed-changes-to-spark-for-upcoming-spell/27354)
+- **Authorization**: [Snapshot Poll](https://snapshot.box/#/s:sparkfi.eth/proposal/0xb31a1c997c3186943b57ce9f1528cb02c1dc5399dcdc151e60d136af46d5c126)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/november-13-2025-proposed-changes-to-spark-for-upcoming-spell/27354)
 
 The spUSDC [Deposit Cap](https://docs.spark.fi/dev/savings/spark-vaults-v2#deposit-cap) on Avalanche will be adjusted as follows:
 
