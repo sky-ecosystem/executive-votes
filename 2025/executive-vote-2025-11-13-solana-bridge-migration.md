@@ -17,9 +17,9 @@ If you are new to voting in the Sky Protocol, please see the [voting guide](http
 
 If this executive proposal passes, the following **actions** will occur within the Sky Protocol:
 
-- The first steps of the Solana Bridge Migration will be carried out.
+- The first stage of the Solana Bridge Migration will be carried out.
 - The DC-IAM parameters for ALLOCATOR-OBEX-A will be updated.
-- Genesis Capital of 21,000,000 USDS will be distributed to the Launch Agent 4 SubProxy.
+- Genesis Capital of **21,000,000 USDS** will be distributed to the Launch Agent 4 SubProxy.
 - The Launch Agent 4 ALMProxy will be whitelisted on the litePSM.
 - A proxy spell for Spark will be whitelisted in the Spark StarGuard.
 - A proxy spell for Launch Agent 4 will be executed.
@@ -28,7 +28,7 @@ If this executive proposal passes, the following **actions** will occur within t
 
 Unless otherwise noted, the actions listed above are subject to the [GSM Pause Delay](https://sky-atlas.io/#A.1.9.3.1). This means that if this executive proposal passes, the changes and additions listed above will only become active in the Sky Protocol after the GSM Pause Delay has expired. The GSM Pause Delay is currently set to [**24 hours**](https://sky-atlas.io/#A.1.9.3.1.2).
 
-This executive proposal **has its earliest execution date set to Monday November 17, 2025 at 14:00 UTC**. This means that it cannot be executed before that date.
+This executive proposal **has its earliest execution date set to Monday, November 17, 2025 at 14:00 UTC**. This means that it cannot be executed before that date.
 
 This executive proposal includes an office-hours modifier that means that it **can only be executed between 14:00 and 21:00 UTC, Monday - Friday**.
 
@@ -93,7 +93,7 @@ If this executive proposal passes, then a Launch Agent 4 Proxy Spell at [0xF5389
 
 ##### [Mainnet] Transfer Share of Ethena Profits to Grove
 
-- **Authorization**: [Atlas Entry](https://sky-atlas.io/#A.2.9.2)
+- **Authorization**: [Atlas Entry](https://sky-atlas.io/#A.2.9.2.1)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/november-13-2025-proposed-changes-to-spark-for-upcoming-spell/27354)
 
 625,069 USDS will be transferred from the Spark SubProxy to the Grove SubProxy at [0x1369f7b2b38c76B6478c0f0E66D94923421891Ba](https://etherscan.io/address/0x1369f7b2b38c76B6478c0f0E66D94923421891Ba) as part of the ongoing Spark-Grove USDe and sUSDe revenue share.
@@ -124,7 +124,7 @@ All accrued reserves for SparkLend USDS and SparkLend DAI will be claimed.
 - **Authorization**: [Core Facilitator Approval](https://forum.sky.money/t/november-13-2025-proposed-changes-to-sparklend-for-upcoming-spell-2/27395/3)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/november-13-2025-proposed-changes-to-sparklend-for-upcoming-spell-2/27395)
 
-The SparkLend PYUSD [Interest Rate Model](https://sky-atlas.io/#A.6.1.1.1.3.2.1.1.1.3) will be updated to use a higher base rate benchmarked to the Sky Savings Rate, alongside a lower slope 1 with the following parameter changes:
+The SparkLend PYUSD [Interest Rate Model](https://sky-atlas.io/#A.6.1.1.1.3.2.1.1.1.3) will be updated to use a higher base rate benchmarked to the Sky Savings Rate, alongside a lower slope 1, with the following parameter changes:
 
 - [Base Rate](https://sky-atlas.io/#A.6.1.1.1.3.2.1.1.1.13): **SSR**
 - [Slope 1](https://sky-atlas.io/#A.6.1.1.1.3.2.1.1.1.15): **2%**

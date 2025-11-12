@@ -1,11 +1,11 @@
 ---
-title: Template - [Executive Vote] Out Of Schedule Spell - Solana Bridge Migration Spell 1 - November 17, 2025
+title: Template - [Executive Vote] Out-of-Schedule Spell - Solana Bridge Migration Spell 1 - November 17, 2025
 summary: Undertake the final steps of the Solana Bridge Migration.
 date: 2025-11-17T00:00:00.000Z
 address: "$spell_address"
 ---
 
-# [Executive Proposal] Out Of Schedule Spell - Solana Bridge Migration Spell 1 - November 17, 2025
+# [Executive Proposal] Out-of-Schedule Spell - Solana Bridge Migration Spell 1 - November 17, 2025
 
 The Core Facilitator, Sidestream, and Dewiz have placed an executive proposal into the voting system. SKY holders should vote for this proposal if they support the following alterations to the Sky Protocol.
 
@@ -17,9 +17,9 @@ If you are new to voting in the Sky Protocol, please see the [voting guide](http
 
 If this executive proposal passes, the following **actions** will occur within the Sky Protocol:
 
-- The final steps of the Solana Bridge Migration will be executed.
+- The final stage of the Solana Bridge Migration will be executed.
 
-**Voting for this executive proposal will place your SKY in support of the actions outlined above.**
+**Voting for this executive proposal will place your SKY in support of the action outlined above.**
 
 Unless otherwise noted, the actions listed above are subject to the [GSM Pause Delay](https://sky-atlas.io/#A.1.9.3.1). This means that if this executive proposal passes, the changes and additions listed above will only become active in the Sky Protocol after the GSM Pause Delay has expired. The GSM Pause Delay is currently set to [**24 hours**](https://sky-atlas.io/#A.1.9.3.1.2).
 
@@ -39,11 +39,11 @@ If this executive proposal does not pass within 30 days, then it will expire and
 If this executive proposal passes, then the final stage of the Solana Bridge Migration will be executed through the following actions:
 
 - Call [MigrationInit.initMigrationStep1](https://github.com/sky-ecosystem/wh-lz-migration/blob/4aeb832d712efc0ec2fbad5623207de54b450b0c/deploy/MigrationInit.sol#L221-L249) with the following parameters:
-  - `oftAdapter` – [`0x1e1D42781FC170EF9da004Fb735f56F0276d01B8`](https://etherscan.io/address/0x1e1D42781FC170EF9da004Fb735f56F0276d01B8#code)
-  - `oftPeer` – [BEvTHkTyXooyaJzP8egDUC7WQK8cyRrq5WvERZNWhuah](https://solscan.io/account/BEvTHkTyXooyaJzP8egDUC7WQK8cyRrq5WvERZNWhuah)
+  - `oftAdapter`: [`0x1e1D42781FC170EF9da004Fb735f56F0276d01B8`](https://etherscan.io/address/0x1e1D42781FC170EF9da004Fb735f56F0276d01B8#code)
+  - `oftPeer` – [`BEvTHkTyXooyaJzP8egDUC7WQK8cyRrq5WvERZNWhuah`](https://solscan.io/account/BEvTHkTyXooyaJzP8egDUC7WQK8cyRrq5WvERZNWhuah)
   - `govOapp` – [`0x27FC1DD771817b53bE48Dc28789533BEa53C9CCA`](https://etherscan.io/address/0x27FC1DD771817b53bE48Dc28789533BEa53C9CCA#code)
   - `govPeer` – [`8vXXGiaXFrKFUDw21H5Z57ex552Lh8WP9rVd2ktzmcCy`](https://solscan.io/account/8vXXGiaXFrKFUDw21H5Z57ex552Lh8WP9rVd2ktzmcCy)
-  - `rl.outboundWindow` – outbound [duration of the rate limiting window](https://github.com/sky-ecosystem/sky-oapp-oft/blob/8128f8aa8b465b8b784efd1bb27aa8a3f082fedd/contracts/SkyRateLimiter.sol#L145)
+  - `rl.outboundWindow` – outbound [duration of the rate limiting window](https://github.com/sky-ecosystem/sky-oapp-oft/blob/8128f8aa8b465b8b784efd1bb27aa8a3f082fedd/contracts/SkyRateLimiter.sol#L145):
     - **1 days** (as specified [in the Atlas edit](https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-2025-11-03/27381#:~:text=rate%20limit%20of%2010%2C000%2C000%20USDS%20per%20day))
   - `rl.outboundLimit` – outbound [maximum allowed amount within a given window](https://github.com/sky-ecosystem/sky-oapp-oft/blob/8128f8aa8b465b8b784efd1bb27aa8a3f082fedd/contracts/SkyRateLimiter.sol#L144)
     - **10_000_000 USDS** (as specified [in the Atlas edit](https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-2025-11-03/27381#:~:text=rate%20limit%20of%2010%2C000%2C000%20USDS%20per%20day))
@@ -69,10 +69,10 @@ If this executive proposal passes, then the final stage of the Solana Bridge Mig
 
 #### Chainlog Additions
 
-The following additions to the [chainlog](https://chainlog.sky.money) will be made:
+The following additions to the [Chainlog](https://chainlog.sky.money) will be made:
 
-- Add new `SkyOFTAdapter` ([`0x1e1D42781FC170EF9da004Fb735f56F0276d01B8`](https://etherscan.io/address/0x1e1D42781FC170EF9da004Fb735f56F0276d01B8#code)) to the chainlog as `USDS_OFT`
-- Add new `GovernanceOAppSender` ([`0x27FC1DD771817b53bE48Dc28789533BEa53C9CCA`](https://etherscan.io/address/0x27FC1DD771817b53bE48Dc28789533BEa53C9CCA#code)) to the chainlog as `LZ_GOV_SENDER`
+- Add new `SkyOFTAdapter` ([`0x1e1D42781FC170EF9da004Fb735f56F0276d01B8`](https://etherscan.io/address/0x1e1D42781FC170EF9da004Fb735f56F0276d01B8#code)) to the Chainlog as `USDS_OFT`
+- Add new `GovernanceOAppSender` ([`0x27FC1DD771817b53bE48Dc28789533BEa53C9CCA`](https://etherscan.io/address/0x27FC1DD771817b53bE48Dc28789533BEa53C9CCA#code)) to the Chainlog as `LZ_GOV_SENDER`
 
 ## Review
 
