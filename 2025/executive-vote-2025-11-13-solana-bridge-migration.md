@@ -190,7 +190,7 @@ The spUSDC [Deposit Cap](https://docs.spark.fi/dev/savings/spark-vaults-v2#depos
 - **Authorization**: [Governance Poll 1603](https://vote.sky.money/polling/Qmetv8fp)
 - **Proposal**: [Technical Scope](https://forum.sky.money/t/proposed-changes-to-launch-agent-4-obex-for-upcoming-spell/27370), [Atlas Edit Proposal](https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-2025-11-03/27381)
 
-The Obex Liquidity Layer will be initialized on Ethereum mainnet with the following addresses and [Rate Limit](https://sky-atlas.io/#A.2.3.9.1.1.1.2.2) parameters:
+The Obex Liquidity Layer will be initialized on Ethereum mainnet with the following addresses and [Rate Limits](https://sky-atlas.io/#A.2.3.9.1.1.1.2.2):
 
 ###### Contracts
 
@@ -208,7 +208,7 @@ The Obex Liquidity Layer will be initialized on Ethereum mainnet with the follow
 
 ###### Initial Parameters
 
-Onchain [Rate Limit](https://sky-atlas.io/#A.2.3.9.1.1.1.2.2) parameters for the Obex Liquidity Layer for initial activation.
+Onchain [Rate Limits](https://sky-atlas.io/#A.2.3.9.1.1.1.2.2) for the Obex Liquidity Layer for initial activation:
 
 | Parameter                          | Max Amount       | Slope                   |
 |------------------------------------|------------------|-------------------------|
@@ -222,7 +222,7 @@ Onchain [Rate Limit](https://sky-atlas.io/#A.2.3.9.1.1.1.2.2) parameters for the
 - **Authorization**: [Governance Poll 1603](https://vote.sky.money/polling/Qmetv8fp)
 - **Proposal**: [Technical Scope](https://forum.sky.money/t/proposed-changes-to-launch-agent-4-obex-for-upcoming-spell/27370), [Atlas Edit Proposal](https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-2025-11-03/27381)
 
-syrupUSDC will be onboarded to the Obex Liquidity Layer with the following [Rate Limit](https://sky-atlas.io/#A.2.3.9.1.1.1.2.2) parameters:
+syrupUSDC will be onboarded to the Obex Liquidity Layer with the following [Rate Limits](https://sky-atlas.io/#A.2.3.9.1.1.1.2.2):
 
 - Deposits:
   - maxAmount: **100 million USDC**

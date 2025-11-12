@@ -1,6 +1,6 @@
 ---
 title: Template - [Executive Vote] Out-of-Schedule Spell - Solana Bridge Migration Spell 1 - November 17, 2025
-summary: Undertake the final steps of the Solana Bridge Migration.
+summary: Carry out the final stage of the Solana Bridge Migration.
 date: 2025-11-17T00:00:00.000Z
 address: "$spell_address"
 ---
@@ -21,7 +21,7 @@ If this executive proposal passes, the following **action** will occur within th
 
 **Voting for this executive proposal will place your SKY in support of the action outlined above.**
 
-Unless otherwise noted, the actions listed above are subject to the [GSM Pause Delay](https://sky-atlas.io/#A.1.9.3.1). This means that if this executive proposal passes, the changes and additions listed above will only become active in the Sky Protocol after the GSM Pause Delay has expired. The GSM Pause Delay is currently set to [**24 hours**](https://sky-atlas.io/#A.1.9.3.1.2).
+Unless otherwise noted, the action listed above is subject to the [GSM Pause Delay](https://sky-atlas.io/#A.1.9.3.1). This means that if this executive proposal passes, the changes and additions listed above will only become active in the Sky Protocol after the GSM Pause Delay has expired. The GSM Pause Delay is currently set to [**24 hours**](https://sky-atlas.io/#A.1.9.3.1.2).
 
 This executive proposal includes an office-hours modifier that means that it **can only be executed between 14:00 and 21:00 UTC, Monday - Friday**.
 
