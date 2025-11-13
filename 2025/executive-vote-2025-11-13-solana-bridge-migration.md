@@ -2,7 +2,7 @@
 title: Template - [Executive Vote] Solana Bridge Migration Spell 0, Launch Agent 4 DC-IAM Parameter Changes and Genesis Capital Funding, Whitelist Launch Agent 4 ALMProxy on the LitePSM, Prime Agent Proxy Spells - November 13, 2025
 summary: Carry out the first stage of the Solana Bridge Migration, adjust the Launch Agent 4 DC-IAM parameters, distribute Launch Agent 4 Genesis Capital, whitelist the Launch Agent 4 ALMProxy on the LitePSM, whitelist Spark proxy spell in Spark Starguard, execute a Launch Agent 4 proxy spell.
 date: 2025-11-13T00:00:00.000Z
-address: "$spell_address"
+address: "0xed3de16bDF69F697FecF1b4103b9f48d71BdDF20"
 ---
 
 # [Executive Proposal] Solana Bridge Migration Spell 0, Launch Agent 4 DC-IAM Parameter Changes and Genesis Capital Funding, Whitelist Launch Agent 4 ALMProxy on the LitePSM, Prime Agent Proxy Spells - November 13, 2025
