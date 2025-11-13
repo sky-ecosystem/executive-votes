@@ -97,5 +97,23 @@
       "date": "2025-10-30T00:00:00.000Z",
       "address": "0xa1D35e93d5BfAF300e0327d73143529f19B3DA78"
     }
+  },
+  {
+    "path": "2025/executive-vote-2025-11-13-solana-bridge-migration.md",
+    "metadata": {
+      "title": "Template - [Executive Vote] Solana Bridge Migration Spell 0, Launch Agent 4 DC-IAM Parameter Changes and Genesis Capital Funding, Whitelist Launch Agent 4 ALMProxy on the LitePSM, Prime Agent Proxy Spells - November 13, 2025",
+      "summary": "Carry out the first stage of the Solana Bridge Migration, adjust the Launch Agent 4 DC-IAM parameters, distribute Launch Agent 4 Genesis Capital, whitelist the Launch Agent 4 ALMProxy on the LitePSM, whitelist Spark proxy spell in Spark Starguard, execute a Launch Agent 4 proxy spell.",
+      "date": "2025-11-13T00:00:00.000Z",
+      "address": "0xed3de16bDF69F697FecF1b4103b9f48d71BdDF20"
+    }
+  },
+  {
+    "path": "2025/oos-executive-vote-2025-11-17-solana-bridge-migration.md",
+    "metadata": {
+      "title": "Template - [Executive Vote] Out-of-Schedule Spell - Solana Bridge Migration Spell 1 - November 17, 2025",
+      "summary": "Carry out the final stage of the Solana Bridge Migration.",
+      "date": "2025-11-17T00:00:00.000Z",
+      "address": "$spell_address"
+    }
   }
 ]
