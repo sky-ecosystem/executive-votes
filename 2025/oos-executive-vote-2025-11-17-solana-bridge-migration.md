@@ -2,7 +2,7 @@
 title: Template - [Executive Vote] Out-of-Schedule Spell - Solana Bridge Migration Spell 1 - November 17, 2025
 summary: Carry out the final stage of the Solana Bridge Migration.
 date: 2025-11-17T00:00:00.000Z
-address: "$spell_address"
+address: "0x2140f15f957Fcb0b101CD3957217174c3E4d6bf9"
 ---
 
 # [Executive Proposal] Out-of-Schedule Spell - Solana Bridge Migration Spell 1 - November 17, 2025
