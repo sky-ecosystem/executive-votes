@@ -88,7 +88,7 @@ If this executive proposal passes, then [StarGuard](https://forum.sky.money/t/la
 
 Call [StarGuardInit.init](https://github.com/sidestream-tech/sky-star-guard/blob/7398ffb283c4490c6e29bea28b92cd57285d4889/deploy/StarGuardInit.sol#L44-L63) with the following parameters:
 
-- `address chainlog`: **DssExecLib.LOG**
+- `chainlog`: **DssExecLib.LOG**
 - `cfg.subProxy`: [0x8be042581f581E3620e29F213EA8b94afA1C8071](https://etherscan.io/address/0x8be042581f581E3620e29F213EA8b94afA1C8071#code)
 - `cfg.subProxyKey`: **OBEX_SUBPROXY**
 - `cfg.starGuard`: [0x987f1C31f9935e9926555BcFB76516bb2EcEccaD](https://etherscan.io/address/0x987f1C31f9935e9926555BcFB76516bb2EcEccaD#code)
