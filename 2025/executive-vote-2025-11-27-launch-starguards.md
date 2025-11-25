@@ -313,7 +313,7 @@ The ALM Controller will be upgraded to v1.8 on Mainnet, Base, Arbitrum, Optimism
 ##### [Solana] Launch Allocation System on Solana
 
 - **Authorization**: [Governance Poll 1606](https://vote.sky.money/polling/QmdomJ7o)
-- **Proposal**: [Forum Post](https://forum.sky.money/t/november-27-2025-prime-technical-scope-parameter-change-for-upcoming-spell/27406)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/november-27-2025-prime-technical-scope-solana-pre-configuration-for-upcoming-spell/27404)
 
 [Rate limits](https://sky-atlas.io/#A.2.3.9.1.1.1.2.2) for the parameters listed below will be updated for the Solana Allocation System launch.
 
