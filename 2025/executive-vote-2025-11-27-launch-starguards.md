@@ -19,7 +19,7 @@ If this executive proposal passes, the following **actions** will occur within t
 
 - StarGuard modules for Grove, Keel, and Obex will be launched.
 - The Monthly Settlement Cycle and Treasury Management Function for October 2025 will be executed.
-- The Keel Subproxy will be whitelisted to send cross-chain messages to Solana, as described below.
+- The Keel SubProxy will be whitelisted to send cross-chain messages to Solana, as described below.
 - A total of **23,479 USDS** will be distributed to six Ranked Delegates as compensation for October 2025.
 - A total of **66,584 USDS** and **618,000 SKY** will be distributed as Atlas Core Development compensation for November 2025.
 - **1,806,670 USDS** will be transferred to Gnosis at [0x849D52316331967b6fF1198e5E32A0eB168D039d](https://etherscan.io/address/0x849D52316331967b6fF1198e5E32A0eB168D039d).
