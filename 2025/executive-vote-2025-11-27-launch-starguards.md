@@ -257,7 +257,7 @@ The ALM Controller will be upgraded to v1.8 on Mainnet, Base, Arbitrum, Optimism
 
 #### Keel
 
-##### [Mainnet] Adjust ALM Controller parameters to prepare for Solana launch
+##### [Mainnet] Adjust ALM Controller Parameters to Prepare for Solana Launch
 
 - **Authorization**: [Governance Poll 1606](https://vote.sky.money/polling/QmdomJ7o)
 - **Proposal**: [Forum Post 1](https://forum.sky.money/t/november-27-2025-prime-technical-scope-parameter-change-for-upcoming-spell/27406), [2](https://forum.sky.money/t/november-27-2025-prime-technical-scope-solana-pre-configuration-for-upcoming-spell/27404) 
