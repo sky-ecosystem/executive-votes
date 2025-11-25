@@ -267,31 +267,31 @@ The ALM controller [rate limit](https://sky-atlas.io/#A.2.3.9.1.1.1.2.2) paramet
 ###### [Mainnet] LIMIT_USDS_TO_USDC
 
 - Rate limit:
-  - Max amount: **100 million USDS**
+  - maxAmount: **100 million USDS**
   - Slope: **50 million USDS per day**
  
 ###### [Mainnet] LIMIT_4626_DEPOSIT - sUSDS (sUSDS Deposit)
 
 - Rate limit:
-  -  Max amount: **100 million USDS**
+  -  maxAmount: **100 million USDS**
   -  Slope: **50 million USDS per day**
  
 ###### [Mainnet] LIMIT_4626_WITHDRAW - sUSDS (sUSDS Withdraw)
 
 - Rate limit:
-  - Max amount: **Unlimited**
+  - maxAmount: **Unlimited**
   - Slope: **0**
  
 ###### [Mainnet] LIMIT_USDC_TO_CCTP
 
 - Rate limit:
-  - Max amount: **100 million USDC**
+  - maxAmount: **100 million USDC**
   - Slope: **50 million USDC per day**
  
 ###### [Mainnet] LIMIT_USDC_TO_DOMAIN - 5 (Solana)
 
 - Rate limit:
-  - Max amount: **100 million USDS**
+  - maxAmount: **100 million USDS**
   - Slope: **50 million USDS per day**
 
 ###### [Mainnet] mintRecipients[5] (CCTP Mint Recipient — to Keel’s Solana ALM Controller)
@@ -302,7 +302,7 @@ The ALM controller [rate limit](https://sky-atlas.io/#A.2.3.9.1.1.1.2.2) paramet
 ###### [Mainnet] LIMIT_LAYERZERO_TRANSFER - Solana (LayerZero/SkyBridge - USDS to Keel’s Solana ALM Controller)
 
 - Rate limit:
-  - Max amount: **100 million USDS**
+  - maxAmount: **100 million USDS**
   - Slope: **50 million USDS per day**
  
 ###### [Mainnet] layerZeroRecipients[**30168**] (LayerZero/SkyBridge — Solana)
@@ -324,7 +324,7 @@ The ALM controller [rate limit](https://sky-atlas.io/#A.2.3.9.1.1.1.2.2) paramet
   - status: **ReserveStatus::Active**
   - mint: [USDSwr9ApdHk5bvJKMjzff41FfuX8bSxdKcR81vTwcA](https://solscan.io/token/USDSwr9ApdHk5bvJKMjzff41FfuX8bSxdKcR81vTwcA) (USDS Token Mint)
 - Rate limit:
-  - Max amount: **25 million USDS**
+  - maxAmount: **25 million USDS**
   - Slope: **10 million USDS per day**
 
 ###### [Solana] USDC-Reserve
@@ -334,7 +334,7 @@ The ALM controller [rate limit](https://sky-atlas.io/#A.2.3.9.1.1.1.2.2) paramet
   - status: **ReserveStatus::Active**
   - mint: [EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v](https://solscan.io/account/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v) (USDC Token Mint)
 - Rate limit:
-  - Max amount: **25 million USDC**
+  - maxAmount: **25 million USDC**
   - Slope: **10 million USDC per day**
  
 ###### [Solana] USDT-Reserve
@@ -344,7 +344,7 @@ The ALM controller [rate limit](https://sky-atlas.io/#A.2.3.9.1.1.1.2.2) paramet
   - status: **ReserveStatus::Active**
   - mint: [Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB](https://solscan.io/token/Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB) (USDT Token Mint)
 - Rate limit:
-  - Max amount: **25 million USDT**
+  - maxAmount: **25 million USDT**
   - Slope: **10 million USDT per day**
 
 ###### [Solana] CctpBridge-USDC-Integration
@@ -356,7 +356,7 @@ The ALM controller [rate limit](https://sky-atlas.io/#A.2.3.9.1.1.1.2.2) paramet
   - description: **USDC CctpBridge**
   - permit_liquidation: **true**
 - Rate limit:
-  - Max amount: **25 million USDC**
+  - maxAmount: **25 million USDC**
   - Slope: **10 million USDC per day**
 - Inner:
   - cctp_token_messenger_minter: [CCTPiPYPc6AsJuwueEnWgSgucamXDZwBd53dQ11YiKX3](https://solscan.io/account/CCTPiPYPc6AsJuwueEnWgSgucamXDZwBd53dQ11YiKX3)
@@ -374,7 +374,7 @@ The ALM controller [rate limit](https://sky-atlas.io/#A.2.3.9.1.1.1.2.2) paramet
   - description: **USDS LzBridge**
   - permit_liquidation: **true**
 - Rate limit:
-  - Max amount: **25 million USDS**
+  - maxAmount: **25 million USDS**
   - Slope: **10 million USDS per day**
 - Inner:
   - program: [SKYTAiJRkgexqQqFoqhXdCANyfziwrVrzjhBaCzdbKW](https://solscan.io/account/SKYTAiJRkgexqQqFoqhXdCANyfziwrVrzjhBaCzdbKW) (Sky USDS OFT)
@@ -405,7 +405,7 @@ The ALM controller [rate limit](https://sky-atlas.io/#A.2.3.9.1.1.1.2.2) paramet
   - description: **USDS->USDC AtomicSwap**
   - permit_liquidation: **true**
 - Rate limit:
-  - Max amount: **25 million USDS**
+  - maxAmount: **25 million USDS**
   - Slope: **10 million USDS per day**
 - Oracle ([GgnDDij1tbhj52d3AA3jPDhUMSz3LhdeNUDwSt1RcUze](https://solscan.io/account/GgnDDij1tbhj52d3AA3jPDhUMSz3LhdeNUDwSt1RcUze)):
   - oracle_type: **Switchboard**
@@ -442,7 +442,7 @@ The ALM controller [rate limit](https://sky-atlas.io/#A.2.3.9.1.1.1.2.2) paramet
   - description: **USDC->USDT AtomicSwap**
   - permit_liquidation: **false**
 - Rate limit:
-  - Max amount: **25 million USDC**
+  - maxAmount: **25 million USDC**
   - Slope: **10 million USDC per day**
 - Oracle ([E6QFLWgPoDHydKVwEc5Ar49k1zMQ19qM8A9NFxjoSitn](https://solscan.io/account/E6QFLWgPoDHydKVwEc5Ar49k1zMQ19qM8A9NFxjoSitn)):
   - oracle_type: **Switchboard**
@@ -468,7 +468,7 @@ The ALM controller [rate limit](https://sky-atlas.io/#A.2.3.9.1.1.1.2.2) paramet
   - description: **USDT->USDC AtomicSwap**
   - permit_liquidation: **true**
 - Rate limit:
-  - Max amount: **25 million USDT**
+  - maxAmount: **25 million USDT**
   - Slope: **10 million USDT per day**
 - Oracle ([E6QFLWgPoDHydKVwEc5Ar49k1zMQ19qM8A9NFxjoSitn](https://solscan.io/account/E6QFLWgPoDHydKVwEc5Ar49k1zMQ19qM8A9NFxjoSitn):
   - oracle_type: Switchboard
@@ -501,7 +501,7 @@ Various Kamino vaults will be onboarded on Solana with the following [rate limit
   - description: **Kamino Main USDC**
   - permit_liquidation: **true**
 - Rate limit:
-  - Max amount: **25 million USDC**
+  - maxAmount: **25 million USDC**
   - Slope: **10 million USDC per day**
 - Inner:
   - market: [7u3HeHxYDLhnCoErrtycNokbQYbWGzLs6JSDqGAv5PfF](https://solscan.io/account/7u3HeHxYDLhnCoErrtycNokbQYbWGzLs6JSDqGAv5PfF)
@@ -518,7 +518,7 @@ Various Kamino vaults will be onboarded on Solana with the following [rate limit
   - description: **Kamino Main USDS**
   - permit_liquidation: **true**
 - Rate limit:
-  - Max amount: **25 million USDS**
+  - maxAmount: **25 million USDS**
   - Slope: **10 million USDS per day**
 - Inner:
   - market: [7u3HeHxYDLhnCoErrtycNokbQYbWGzLs6JSDqGAv5PfF](https://solscan.io/account/7u3HeHxYDLhnCoErrtycNokbQYbWGzLs6JSDqGAv5PfF)
@@ -535,7 +535,7 @@ Various Kamino vaults will be onboarded on Solana with the following [rate limit
   - description: **Kamino Main USDT**
   - permit_liquidation: **true**
 - Rate limit:
-  - Max amount: **25 million USDT**
+  - maxAmount: **25 million USDT**
   - Slope: **10 million USDT per day**
 - Inner:
   - market: [7u3HeHxYDLhnCoErrtycNokbQYbWGzLs6JSDqGAv5PfF](https://solscan.io/account/7u3HeHxYDLhnCoErrtycNokbQYbWGzLs6JSDqGAv5PfF)
@@ -559,7 +559,7 @@ Various Drift vaults will be onboarded on Solana with the following [rate limits
   - description: **Drift Main USDC**
   - permit_liquidation: **true**
 - Rate limit:
-  - Max amount: **25 million USDC**
+  - maxAmount: **25 million USDC**
   - Slope: **10 million USDC per day**
 - Inner:
   - market_idx: **0**
@@ -575,7 +575,7 @@ Various Drift vaults will be onboarded on Solana with the following [rate limits
   - description: **Drift Main USDS**
   - permit_liquidation: **true**
 - Rate limit:
-  - Max amount: **25 million USDS**
+  - maxAmount: **25 million USDS**
   - Slope: **10 million USDS per day**
 - Other:
   - market_idx: **28**
@@ -591,7 +591,7 @@ Various Drift vaults will be onboarded on Solana with the following [rate limits
   - description: **Drift Main USDT**
   - permit_liquidation: **true**
 - Rate limit:
-  - Max amount: **25 million USDT**
+  - maxAmount: **25 million USDT**
   - Slope: **10 million USDT per day**
 - Inner:
   - market_idx: **5**
