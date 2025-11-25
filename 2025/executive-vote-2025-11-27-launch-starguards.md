@@ -122,7 +122,7 @@ If this executive proposal passes, then the October 2025 Monthly Settlement Cycl
 
 ### Whitelist the Keel SubProxy to Send Cross-Chain Messages to Solana
 
-- **Authorization**: [Governance Poll 1606](https://vote.sky.money/polling/QmdomJ7o)
+- **Authorization**: [Governance Poll 1606](https://vote.sky.money/polling/QmdomJ7o), [A.6.1.1.3.2.6.1.2.1.1.4.3](https://sky-atlas.io/#A.6.1.1.3.2.6.1.2.1.1.4.3)
 - **Proposal**: [Forum Post 1](https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-2025-11-17/27421), [2](https://forum.sky.money/t/executive-inclusion-whitelisting-the-keel-subproxy-to-send-cross-chain-messages-to-solana/27447)
 
 If this executive proposal passes, then the Keel SubProxy will be whitelisted to send cross-chain messages to Solana. This will allow the Keel SubProxy on mainnet to control the Solana ALM Controller and upgrade it in future, if required. This is achieved through the following calls:
