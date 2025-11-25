@@ -217,18 +217,18 @@ A transfer of **4 million USDS** will be made to [0x92e4629a4510AF5819d7D1601464
 
 B2C2 Penny will be onboarded to provide OTC services for the following tokens with the listed [rate limits](https://sky-atlas.io/#A.2.3.9.1.1.1.2.2):
 
-* USDC transferAsset
-  * Recipient address: [0xa29e963992597b21bcdcaa969d571984869c4ff5](https://etherscan.io/address/0xa29e963992597b21bcdcaa969d571984869c4ff5)
-  * maxAmount: **1 million USDC**
-  * slope: **20 million USDC per day**
-* USDT transferAsset
-  * Recipient address: [0xa29e963992597b21bcdcaa969d571984869c4ff5](https://etherscan.io/address/0xa29e963992597b21bcdcaa969d571984869c4ff5)
-  * maxAmount: **1 million USDT**
-  * slope: **20 million USDT per day**
-* PYUSD transferAsset
-  * Recipient address: [0xa29e963992597b21bcdcaa969d571984869c4ff5](https://etherscan.io/address/0xa29e963992597b21bcdcaa969d571984869c4ff5)
-  * maxAmount: **1 million PYUSD**
-  * slope: **20 million PYUSD per day**
+- USDC transferAsset
+  - Recipient address: [0xa29e963992597b21bcdcaa969d571984869c4ff5](https://etherscan.io/address/0xa29e963992597b21bcdcaa969d571984869c4ff5)
+  - maxAmount: **1 million USDC**
+  - slope: **20 million USDC per day**
+- USDT transferAsset
+  - Recipient address: [0xa29e963992597b21bcdcaa969d571984869c4ff5](https://etherscan.io/address/0xa29e963992597b21bcdcaa969d571984869c4ff5)
+  - maxAmount: **1 million USDT**
+  - slope: **20 million USDT per day**
+- PYUSD transferAsset
+  - Recipient address: [0xa29e963992597b21bcdcaa969d571984869c4ff5](https://etherscan.io/address/0xa29e963992597b21bcdcaa969d571984869c4ff5)
+  - maxAmount: **1 million PYUSD**
+  - slope: **20 million PYUSD per day**
 
 ##### [Mainnet] Foundation Grant
 
