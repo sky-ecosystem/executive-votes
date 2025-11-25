@@ -44,21 +44,60 @@ If this executive proposal does not pass within 30 days, then it will expire and
 - **Authorization**: [Governance Poll 1606](https://vote.sky.money/polling/QmdomJ7o)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/technical-scope-of-the-starguard-launches-for-grove-keel-and-obex/27441)
 
-If this executive proposal passes, then StarGuard for Grove will be launched, to be used to whitelist future Grove Proxy Spells.
+If this executive proposal passes, then [StarGuard](https://forum.sky.money/t/launching-starguard-an-upgrade-to-the-sky-agents-governance-payload-execution/27364) will be initialized for Grove proxy spells by executing the following actions.
+
+Call [StarGuardInit.init](https://github.com/sidestream-tech/sky-star-guard/blob/7398ffb283c4490c6e29bea28b92cd57285d4889/deploy/StarGuardInit.sol#L44-L63) with the following parameters:
+
+- address chainlog: **DssExecLib.LOG**
+- `cfg.subProxy`: [0x1369f7b2b38c76B6478c0f0E66D94923421891Ba](https://etherscan.io/address/0x1369f7b2b38c76B6478c0f0E66D94923421891Ba#code)
+- `cfg.subProxyKey`: **GROVE_SUBPROXY**
+- `cfg.starGuard`: [0xfc51CAa049E8894bEcFfB68c61095C3F3Ec8a880](https://etherscan.io/address/0xfc51CAa049E8894bEcFfB68c61095C3F3Ec8a880#code)
+- `cfg.starGuardKey`: **GROVE_STARGUARD**
+- `cfg.maxDelay`: **7 days**
+
+Other required actions:
+
+- Add `GROVE_STARGUARD` to the `StarGuardJob`.
 
 ### Launch Keel StarGuard
 
 - **Authorization**: [Governance Poll 1606](https://vote.sky.money/polling/QmdomJ7o)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/technical-scope-of-the-starguard-launches-for-grove-keel-and-obex/27441)
 
-If this executive proposal passes, then StarGuard for Keel will be launched, to be used to whitelist future Keel Proxy Spells.
+If this executive proposal passes, then [StarGuard](https://forum.sky.money/t/launching-starguard-an-upgrade-to-the-sky-agents-governance-payload-execution/27364) will be initialized for Keel proxy spells by executing the following actions.
+
+Call [StarGuardInit.init](https://github.com/sidestream-tech/sky-star-guard/blob/7398ffb283c4490c6e29bea28b92cd57285d4889/deploy/StarGuardInit.sol#L44-L63) with the following parameters:
+
+- address chainlog: **DssExecLib.LOG**
+- `cfg.subProxy`: [0x355CD90Ecb1b409Fdf8b64c4473C3B858dA2c310](https://etherscan.io/address/0x355CD90Ecb1b409Fdf8b64c4473C3B858dA2c310#code)
+- `cfg.subProxyKey`: **KEEL_SUBPROXY**
+- `cfg.starGuard`: [0xe8fF70481d653Ec31AB9E0cB2A8B316afF8D84ee](https://etherscan.io/address/0xe8fF70481d653Ec31AB9E0cB2A8B316afF8D84ee#code)
+- `cfg.starGuardKey`: **KEEL_STARGUARD**
+- `cfg.maxDelay`: **7 days**
+
+Other required actions:
+
+- Add `KEEL_STARGUARD` to the `StarGuardJob`.
 
 ### Launch Obex StarGuard
 
 - **Authorization**: [Governance Poll 1606](https://vote.sky.money/polling/QmdomJ7o)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/technical-scope-of-the-starguard-launches-for-grove-keel-and-obex/27441)
 
-If this executive proposal passes, then StarGuard for Obex will be launched, to be used to whitelist future Obex Proxy Spells.
+If this executive proposal passes, then [StarGuard](https://forum.sky.money/t/launching-starguard-an-upgrade-to-the-sky-agents-governance-payload-execution/27364) will be initialized for Obex proxy spells by executing the following actions.
+
+Call [StarGuardInit.init](https://github.com/sidestream-tech/sky-star-guard/blob/7398ffb283c4490c6e29bea28b92cd57285d4889/deploy/StarGuardInit.sol#L44-L63) with the following parameters:
+
+- address chainlog: **DssExecLib.LOG**
+- `cfg.subProxy`: [0x8be042581f581E3620e29F213EA8b94afA1C8071](https://etherscan.io/address/0x8be042581f581E3620e29F213EA8b94afA1C8071#code)
+- `cfg.subProxyKey`: **OBEX_SUBPROXY**
+- `cfg.starGuard`: [0x987f1C31f9935e9926555BcFB76516bb2EcEccaD](https://etherscan.io/address/0x987f1C31f9935e9926555BcFB76516bb2EcEccaD#code)
+- `cfg.starGuardKey`: **OBEX_STARGUARD**
+- `cfg.maxDelay`: **7 days**
+
+Other required actions:
+
+- Add `OBEX_STARGUARD` to the `StarGuardJob`.
 
 ### Monthly Settlement Cycle and Treasury Management Function for October
 
