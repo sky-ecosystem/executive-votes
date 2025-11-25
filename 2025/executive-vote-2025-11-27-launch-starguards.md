@@ -169,25 +169,52 @@ If this executive proposal passes, then a Keel Proxy Spell at [0x2395AF361CdF86d
 - **Authorization**: [Snapshot Poll](https://snapshot.box/#/s:sparkfi.eth/proposal/0x9dd06e68b3b109b616cc7cf7af7f1cf78ed9408312bfb9fe43764a3b3dba563a)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/november-27-2025-proposed-changes-to-spark-for-upcoming-spell/27418)
 
+A transfer of **4 million USDS** will be made to [0x92e4629a4510AF5819d7D1601464C233599fF5ec](https://etherscan.io/address/0x92e4629a4510AF5819d7D1601464C233599fF5ec) to fund the Arkis Strategic Investment. 
+
 ##### [Mainnet] Onboard B2C2 Penny
 
 - **Authorization**: [Governance Poll 1589](https://vote.sky.money/polling/QmTNrfXk)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/november-27-2025-proposed-changes-to-spark-for-upcoming-spell/27418)
+
+B2C2 Penny will be onboarded to provide OTC services for the following tokens with the listed [rate limits](https://sky-atlas.powerhouse.io/A.2.3.9.1.1.1.1.2_Rate_Limits/264f2ff0-8d73-8050-892b-e4a0ed9828dc|9e1ff936a6cb63b1903ca2d845de):
+
+* USDC transferAsset
+  * Recipient address: tbd upon completion of B2C2 onboarding, will be provided before inclusion in executive spell
+  * maxAmount: **1 million USDC**
+  * slope: **20 million USDC per day**
+* USDT transferAsset
+  * Recipient address: tbd upon completion of B2C2 onboarding, will be provided before inclusion in executive spell
+  * maxAmount: **1 million USDT**
+  * slope: **20 million USDT per day**
+* PYUSD transferAsset
+  * Recipient address: tbd upon completion of B2C2 onboarding, will be provided before inclusion in executive spell
+  * maxAmount: **1 million PYUSD**
+  * slope: **20 million PYUSD per day**
 
 ##### [Mainnet] Foundation Grant
 
 - **Authorization**: [A.2.9.2.2.2.5.1](https://sky-atlas.io/#A.2.9.2.2.2.5.5.1)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/november-27-2025-proposed-changes-to-spark-for-upcoming-spell/27418)
 
+Spark will transfer funding for the December Spark Foundation Grant to the Spark Foundation:
+
+- Payment Amount: **1.1 million USDS**
+- Payment Source: **Spark SubProxy**
+- Payment Receipt Address: [0x92e4629a4510AF5819d7D1601464C233599fF5ec](https://etherscan.io/address/0x92e4629a4510AF5819d7D1601464C233599fF5ec) (Spark Foundation)
+
 ##### [Mainnet] Claim SparkLend Reserves
 
 - **Authorization**: [A.6.1.1.1.2.6.1.2.1.2.3](https://sky-atlas.io/#A.6.1.1.1.2.6.1.2.1.2.3)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/november-27-2025-proposed-changes-to-spark-for-upcoming-spell/27418)
 
-##### Upgrade ALM Controller to 1.8
+All accrued reserves for SparkLend USDS and SparkLend DAI will be claimed.
+
+##### Upgrade ALM Controller to v1.8
 
 - **Authorization**: [Snapshot Poll](https://snapshot.box/#/s:sparkfi.eth/proposal/0xcaafeb100a8ec75ae1e1e9d4059f7d2ec2db31aa55a09be2ec2c7467e0f10799)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/november-27-2025-proposed-changes-to-spark-for-upcoming-spell/27418)
+
+The ALM Controller will be upgraded to v1.8 on Mainnet, Base, Arbitrum, Optimism, Unichain, and Avalanche.
 
 #### Keel
 
@@ -196,20 +223,28 @@ If this executive proposal passes, then a Keel Proxy Spell at [0x2395AF361CdF86d
 - **Authorization**: [Governance Poll 1606](https://vote.sky.money/polling/QmdomJ7o)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/november-27-2025-prime-technical-scope-parameter-change-for-upcoming-spell/27406)
 
+Rate limits for various parameters will be updated for the Solana launch, as described in this [forum post](https://forum.sky.money/t/november-27-2025-prime-technical-scope-parameter-change-for-upcoming-spell/27406).
+
 ##### [Solana] Launch Allocation System on Solana
 
 - **Authorization**: [Governance Poll 1606](https://vote.sky.money/polling/QmdomJ7o)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/november-27-2025-prime-technical-scope-parameter-change-for-upcoming-spell/27406)
+
+The Allocation System for Keel will be launched on Solana, allowing for the deployment of USDS allocations on Solana.
 
 ##### [Solana] Onboard various Kamino vaults
 
 - **Authorization**: [Governance Poll 1606](https://vote.sky.money/polling/QmdomJ7o)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/november-27-2025-prime-technical-scope-parameter-change-for-upcoming-spell/27406)
 
+Various Kamino vaults will be onboarded on Solana.
+
 ##### [Solana] Onboard various Drift vaults
 
 - **Authorization**: [Governance Poll 1606](https://vote.sky.money/polling/QmdomJ7o)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/november-27-2025-prime-technical-scope-parameter-change-for-upcoming-spell/27406)
+
+Various Drift vaults will be onboarded on Solana.
 
 ## Review
 
