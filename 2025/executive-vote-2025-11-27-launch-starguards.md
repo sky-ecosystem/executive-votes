@@ -17,7 +17,7 @@ If you are new to voting in the Sky Protocol, please see the [voting guide](http
 
 If this executive proposal passes, the following **actions** will occur within the Sky Protocol:
 
-- StarGaurd modules for Grove, Keel, and Obex will be launched.
+- StarGuard modules for Grove, Keel, and Obex will be launched.
 - The Monthly Settlement Cycle and Treasury Management Function for October 2025 will be executed.
 - The Keel Subproxy will be whitelisted to send cross-chain messages to Solana, as described below.
 - A total of **23,479 USDS** will be distributed to six Ranked Delegates as compensation for October 2025.
