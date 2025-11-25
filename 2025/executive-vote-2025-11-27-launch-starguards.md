@@ -128,14 +128,14 @@ If this executive proposal passes, then the following steps to execute the Septe
 If this executive proposal passes, then the Keel Subproxy will be whitelisted to send cross-chain messages to Solana. This will allow the Keel SubProxy on mainnet to control the Solana ALM Controller and upgrade it in future, if required. This is achieved through the following calls:
 
 - Call `setCanCallTarget` on [LZ_GOV_SENDER](https://etherscan.io/address/0x27FC1DD771817b53bE48Dc28789533BEa53C9CCA) with the following parameters:
-  - _srcSender: KEEL_SUBPROXY
+  - _srcSender: [KEEL_SUBPROXY](https://etherscan.io/address/0x355CD90Ecb1b409Fdf8b64c4473C3B858dA2c310)
   - _dstEID: SOL_EID defined by LayerZero
-  - _dstTarget: ALM1JSnEhc5PkNecbSZotgprBuJujL5objTbwGtpTgTd
+  - _dstTarget: [ALM1JSnEhc5PkNecbSZotgprBuJujL5objTbwGtpTgTd](https://solscan.io/account/ALM1JSnEhc5PkNecbSZotgprBuJujL5objTbwGtpTgTd)
   - _canCall: true
 - Call `setCanCallTarget` on [LZ_GOV_SENDER](https://etherscan.io/address/0x27FC1DD771817b53bE48Dc28789533BEa53C9CCA) with the following parameters:
-  - _srcSender: KEEL_SUBPROXY
+  - _srcSender: [KEEL_SUBPROXY](https://etherscan.io/address/0x355CD90Ecb1b409Fdf8b64c4473C3B858dA2c310)
   - _dstEID: SOL_EID defined by LayerZero
-  - _dstTarget: BPFLoaderUpgradeab1e11111111111111111111111
+  - _dstTarget: [BPFLoaderUpgradeab1e11111111111111111111111](https://solscan.io/account/BPFLoaderUpgradeab1e11111111111111111111111)
   - _canCall: true
 
 ### Delegate Compensation for October 2025
@@ -237,7 +237,7 @@ B2C2 Penny will be onboarded to provide OTC services for the following tokens wi
 Spark will transfer funding for the December Spark Foundation Grant to the Spark Foundation:
 
 - Payment Amount: **1.1 million USDS**
-- Payment Source: **Spark SubProxy**
+- Payment Source: **[Spark SubProxy](https://etherscan.io/address/0x3300f198988e4C9C63F75dF86De36421f06af8c4)**
 - Payment Receipt Address: [0x92e4629a4510AF5819d7D1601464C233599fF5ec](https://etherscan.io/address/0x92e4629a4510AF5819d7D1601464C233599fF5ec) (Spark Foundation)
 
 ##### [Mainnet] Claim SparkLend Reserves
