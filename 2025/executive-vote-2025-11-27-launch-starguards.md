@@ -158,7 +158,7 @@ If this executive proposal passes, then ALLOCATOR-OBEX-A will be added to the SP
 - 
 ### Prime Agent Proxy Spells
 
-If this executive proposal passes, then a Spark Proxy Spell at [0x2C9E477313EC440fe4Ab6C98529da2793e6890F2](https://etherscan.io/address/0x2C9E477313EC440fe4Ab6C98529da2793e6890F2) with the codehash 0xfad4d50e95e43a5d172619770dac42160a77258693d15be09343c5b29f88c521 will be whitelisted in the Spark StarGuard.
+If this executive proposal passes, then a Spark Proxy Spell at [0x2C9E477313EC440fe4Ab6C98529da2793e6890F2](https://etherscan.io/address/0x2C9E477313EC440fe4Ab6C98529da2793e6890F2) with the codehash `0xfad4d50e95e43a5d172619770dac42160a77258693d15be09343c5b29f88c521` will be whitelisted in the Spark StarGuard.
 
 If this executive proposal passes, then a Keel Proxy Spell at [0x2395AF361CdF86d348B07E109E710943AFDb23aa](https://etherscan.io/address/0x2395AF361CdF86d348B07E109E710943AFDb23aa) will be executed.
 
