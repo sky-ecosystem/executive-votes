@@ -51,7 +51,7 @@ If this executive proposal passes, then StarGuard for Grove will be launched, to
 - **Authorization**: [$link_to_approval](TBD)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/technical-scope-of-the-starguard-launches-for-grove-keel-and-obex/27441)
 
-If this executive proposal passes, then StarGaurd for Keel will be launched, to be used to whitelist future Keel Proxy Spells.
+If this executive proposal passes, then StarGuard for Keel will be launched, to be used to whitelist future Keel Proxy Spells.
 
 ### Launch Obex StarGuard
 
