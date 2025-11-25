@@ -265,171 +265,171 @@ The ALM Controller will be upgraded to v1.8 on Mainnet, Base, Arbitrum, Optimism
 
 ###### [Solana]-USDS-Reserve
 
-- Address: FfpyJhTfxKfDJSode3YNZCxEkPRZ2shBv9gU5PTWCCEk
+- Address: [FfpyJhTfxKfDJSode3YNZCxEkPRZ2shBv9gU5PTWCCEk](https://solscan.io/account/FfpyJhTfxKfDJSode3YNZCxEkPRZ2shBv9gU5PTWCCEk)
 - General:
-  - status: ReserveStatus::Active
-  - mint: USDSwr9ApdHk5bvJKMjzff41FfuX8bSxdKcR81vTwcA (USDS Token Mint)
+  - status: **ReserveStatus::Active**
+  - mint: [USDSwr9ApdHk5bvJKMjzff41FfuX8bSxdKcR81vTwcA](https://solscan.io/token/USDSwr9ApdHk5bvJKMjzff41FfuX8bSxdKcR81vTwcA) (USDS Token Mint)
 - Rate limit:
-  - Max amount: 25m USDS (25_000_000_000_000 units)
-  - Slope: 10m USDS (10_000_000_000_000 units) per day
+  - Max amount: **25 million USDS (25_000_000_000_000 units)**
+  - Slope: **10 million USDS (10_000_000_000_000 units) per day**
 
 ###### [Solana]-USDC-Reserve
 
-- Address: ELdtQWuDKswV5ddhWqHn1EgRDdv5E6mtuhEVhqksYEpi
+- Address: [ELdtQWuDKswV5ddhWqHn1EgRDdv5E6mtuhEVhqksYEpi](https://solscan.io/account/ELdtQWuDKswV5ddhWqHn1EgRDdv5E6mtuhEVhqksYEpi)
 - General:
-  - status: ReserveStatus::Active
-  - mint: EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v (USDC Token Mint)
+  - status: **ReserveStatus::Active**
+  - mint: [EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v](https://solscan.io/account/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v) (USDC Token Mint)
 - Rate limit:
-  - Max amount: 25m USDC (25_000_000_000_000 units)
-  - Slope: 10m USDC (10_000_000_000_000 units) per day
+  - Max amount: **25 million USDC (25_000_000_000_000 units)**
+  - Slope: **10 million USDC (10_000_000_000_000 units) per day**
  
 ###### [Solana]-USDT-Reserve
 
-- Address: 3g74M93WWad6KuZoiwkAxPQsVZBuHhzpirBs73WPJ27W
+- Address: [3g74M93WWad6KuZoiwkAxPQsVZBuHhzpirBs73WPJ27W](https://solscan.io/account/3g74M93WWad6KuZoiwkAxPQsVZBuHhzpirBs73WPJ27W)
 - General:
-  - status: ReserveStatus::Active
-  - mint: Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB (USDT Token Mint)
+  - status: **ReserveStatus::Active**
+  - mint: [Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB](https://solscan.io/token/Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB) (USDT Token Mint)
 - Rate limit:
-  - Max amount: 25m USDT (25_000_000_000_000 units)
-  - Slope: 10m USDT (10_000_000_000_000 units) per day
+  - Max amount: **25 million USDT (25_000_000_000_000 units)**
+  - Slope: **10 million USDT (10_000_000_000_000 units) per day**
 
 ###### [Solana]-CctpBridge-USDC-Integration
 
-- Address: zYyBzzLkH97TdBH7xNcM2TJEyvYejCnPCdCh2LYC3q8
+- Address: [zYyBzzLkH97TdBH7xNcM2TJEyvYejCnPCdCh2LYC3q8](https://solscan.io/account/zYyBzzLkH97TdBH7xNcM2TJEyvYejCnPCdCh2LYC3q8)
 - General:
-  - integration_type: IntegrationType::CctpBridge
-  - status: IntegrationStatus::Active
-  - description: USDC CctpBridge
-  - permit_liquidation: true
+  - integration_type: **IntegrationType::CctpBridge**
+  - status: **IntegrationStatus::Active**
+  - description: **USDC CctpBridge**
+  - permit_liquidation: **true**
 - Rate limit:
-  - Max amount: 25m USDC (25_000_000_000_000 units)
-  - Slope: 10m USDC (10_000_000_000_000 units) per day
+  - Max amount: **25 million USDC (25_000_000_000_000 units)**
+  - Slope: **10 million USDC (10_000_000_000_000 units) per day**
 - Inner:
-  - cctp_token_messenger_minter: CCTPiPYPc6AsJuwueEnWgSgucamXDZwBd53dQ11YiKX3
-  - cctp_message_transmitter: CCTPmbSD7gX1bxKPAmg77w8oFzNFpaQiQUWD43TKaecd
-  - mint: EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v (USDC)
-  - destination_address: 0xa5139956eC99aE2e51eA39d0b57C42B6D8db0758 (Keel ALM Proxy)
-  - destination_domain: 0 (Ethereum Mainnet)
+  - cctp_token_messenger_minter: [CCTPiPYPc6AsJuwueEnWgSgucamXDZwBd53dQ11YiKX3](https://solscan.io/account/CCTPiPYPc6AsJuwueEnWgSgucamXDZwBd53dQ11YiKX3)
+  - cctp_message_transmitter: [CCTPmbSD7gX1bxKPAmg77w8oFzNFpaQiQUWD43TKaecd](https://solscan.io/account/CCTPmbSD7gX1bxKPAmg77w8oFzNFpaQiQUWD43TKaecd)
+  - mint: [EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v](https://solscan.io/token/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v) (USDC)
+  - destination_address: [0xa5139956eC99aE2e51eA39d0b57C42B6D8db0758](https://etherscan.io/address/0xa5139956eC99aE2e51eA39d0b57C42B6D8db0758) (Keel ALM Proxy)
+  - destination_domain: **0 (Ethereum Mainnet)**
  
 ###### [Solana]-LzBridge-USDS-Integration
 
-- Address: 93bmMnKLgBXLMMfqVk53DzMAR4JcE3m5WX5hdTrUopuM
+- Address: [93bmMnKLgBXLMMfqVk53DzMAR4JcE3m5WX5hdTrUopuM](https://solscan.io/account/93bmMnKLgBXLMMfqVk53DzMAR4JcE3m5WX5hdTrUopuM)
 - General:
-  - integration_type: IntegrationType::LzBridge
-  - status: IntegrationStatus::Active
-  - description: USDS LzBridge
-  - permit_liquidation: true
+  - integration_type: **IntegrationType::LzBridge**
+  - status: **IntegrationStatus::Active**
+  - description: **USDS LzBridge**
+  - permit_liquidation: **true**
 - Rate limit:
-  - Max amount: 25m USDS (25_000_000_000_000 units)
-  - Slope: 10m USDS (10_000_000_000_000 units) per day
+  - Max amount: **25 million USDS (25_000_000_000_000 units)**
+  - Slope: **10 million USDS (10_000_000_000_000 units) per day**
 - Inner:
-  - program: SKYTAiJRkgexqQqFoqhXdCANyfziwrVrzjhBaCzdbKW (Sky USDS OFT)
-  - mint: USDSwr9ApdHk5bvJKMjzff41FfuX8bSxdKcR81vTwcA (USDS)
-  - oft_store: BEvTHkTyXooyaJzP8egDUC7WQK8cyRrq5WvERZNWhuah
-  - oft_token_escrow: 8GVwe5nYwqkC9udmj1LsGMD5pYDq2ZtKH9YNrzWzV3Z2
-  - peer_config: CwL294rKs4a18rAKDnDs18JsSVoA5Cgz1ekwVPqsQgfR
-  - destination_address: 0xa5139956eC99aE2e51eA39d0b57C42B6D8db0758 (Keel ALM Proxy)
-  - destination_eid: 30101 (Ethereum Mainnet)
+  - program: [SKYTAiJRkgexqQqFoqhXdCANyfziwrVrzjhBaCzdbKW](https://solscan.io/account/SKYTAiJRkgexqQqFoqhXdCANyfziwrVrzjhBaCzdbKW) (Sky USDS OFT)
+  - mint: [USDSwr9ApdHk5bvJKMjzff41FfuX8bSxdKcR81vTwcA](https://solscan.io/account/USDSwr9ApdHk5bvJKMjzff41FfuX8bSxdKcR81vTwcA) (USDS)
+  - oft_store: [BEvTHkTyXooyaJzP8egDUC7WQK8cyRrq5WvERZNWhuah](https://solscan.io/account/BEvTHkTyXooyaJzP8egDUC7WQK8cyRrq5WvERZNWhuah)
+  - oft_token_escrow: [8GVwe5nYwqkC9udmj1LsGMD5pYDq2ZtKH9YNrzWzV3Z2](https://solscan.io/account/8GVwe5nYwqkC9udmj1LsGMD5pYDq2ZtKH9YNrzWzV3Z2)
+  - peer_config: [CwL294rKs4a18rAKDnDs18JsSVoA5Cgz1ekwVPqsQgfR](https://solscan.io/account/CwL294rKs4a18rAKDnDs18JsSVoA5Cgz1ekwVPqsQgfR)
+  - destination_address: [0xa5139956eC99aE2e51eA39d0b57C42B6D8db0758](https://etherscan.io/address/0xa5139956eC99aE2e51eA39d0b57C42B6D8db0758) (Keel ALM Proxy)
+  - destination_eid: **30101 (Ethereum Mainnet)**
  
 ###### [Solana]-USDS/USDC-Switchboard-Feed (Oracle)
 
-- Address: 4ATfhXp6LibWDgzMZMQ729Q2qmnpxr319e5cSTXsxgrk
+- Address: [4ATfhXp6LibWDgzMZMQ729Q2qmnpxr319e5cSTXsxgrk](https://solscan.io/account/4ATfhXp6LibWDgzMZMQ729Q2qmnpxr319e5cSTXsxgrk)
 - General:
-  - queue: A43DyUGA7s8eXPxqEjJY6EBu1KKbNgfxF8h17VAHn13w (Primary mainnet queue)
-  - max_variance: 1%
-  - min_job_responses: 1
-  - min_sample_size: 1
-  - max_staleness: 100 (slots)
-  - auth_only_updates: false
+  - queue: [A43DyUGA7s8eXPxqEjJY6EBu1KKbNgfxF8h17VAHn13w](https://solscan.io/account/A43DyUGA7s8eXPxqEjJY6EBu1KKbNgfxF8h17VAHn13w) (Primary mainnet queue)
+  - max_variance: **1%**
+  - min_job_responses: **1**
+  - min_sample_size: **1**
+  - max_staleness: **100 (slots)**
+  - auth_only_updates: **false**
  
 ###### [Solana]-USDS-USDC-AtomicSwap-Integration
 
-- Address: 3vAnLvHHERj4xdnrGhMcBpdL7p4RtyisgggHq78MWGSw
+- Address: [3vAnLvHHERj4xdnrGhMcBpdL7p4RtyisgggHq78MWGSw](https://solscan.io/account/3vAnLvHHERj4xdnrGhMcBpdL7p4RtyisgggHq78MWGSw)
 - General:
-  - integration_type: IntegrationType::AtomicSwap
-  - status: IntegrationStatus::Active
-  - description: USDS->USDC AtomicSwap
-  - permit_liquidation: true
+  - integration_type: **IntegrationType::AtomicSwap**
+  - status: **IntegrationStatus::Active**
+  - description: **USDS->USDC AtomicSwap**
+  - permit_liquidation: **true**
 - Rate limit:
-  - Max amount: **25M USDS (25_000_000_000_000 units)**
-  - Slope: **10M USDS (10_000_000_000_000 units) per day**
-- Oracle (GgnDDij1tbhj52d3AA3jPDhUMSz3LhdeNUDwSt1RcUze):
-  - oracle_type: Switchboard
-  - price_feed: 4ATfhXp6LibWDgzMZMQ729Q2qmnpxr319e5cSTXsxgrk
-  - base_mint: USDSwr9ApdHk5bvJKMjzff41FfuX8bSxdKcR81vTwcA
-  - quote_mint: EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v
+  - Max amount: **25 million USDS (25_000_000_000_000 units)**
+  - Slope: **10 million USDS (10_000_000_000_000 units) per day**
+- Oracle ([GgnDDij1tbhj52d3AA3jPDhUMSz3LhdeNUDwSt1RcUze](https://solscan.io/account/GgnDDij1tbhj52d3AA3jPDhUMSz3LhdeNUDwSt1RcUze)):
+  - oracle_type: **Switchboard**
+  - price_feed: [4ATfhXp6LibWDgzMZMQ729Q2qmnpxr319e5cSTXsxgrk](https://solscan.io/account/4ATfhXp6LibWDgzMZMQ729Q2qmnpxr319e5cSTXsxgrk)
+  - base_mint: [USDSwr9ApdHk5bvJKMjzff41FfuX8bSxdKcR81vTwcA](https://solscan.io/token/USDSwr9ApdHk5bvJKMjzff41FfuX8bSxdKcR81vTwcA)
+  - quote_mint: [EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v](https://solscan.io/token/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v)
 - Inner:
-  - input_token: USDSwr9ApdHk5bvJKMjzff41FfuX8bSxdKcR81vTwcA (USDS Token Mint)
-  - output_token: EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v (USDC Token Mint)
-  - status: active
-  - oracle: GgnDDij1tbhj52d3AA3jPDhUMSz3LhdeNUDwSt1RcUze
-  - max_staleness: 100 (slots, approx 30 seconds)
-  - expiry_timestamp: i64::MAX (never)
-  - max_slippage_bps: 10
-  - oracle_price_inverted: false
+  - input_token: [USDSwr9ApdHk5bvJKMjzff41FfuX8bSxdKcR81vTwcA](https://solscan.io/token/USDSwr9ApdHk5bvJKMjzff41FfuX8bSxdKcR81vTwcA) (USDS Token Mint)
+  - output_token: [EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v](https://solscan.io/token/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v) (USDC Token Mint)
+  - status: **active**
+  - oracle: [GgnDDij1tbhj52d3AA3jPDhUMSz3LhdeNUDwSt1RcUze](https://solscan.io/account/GgnDDij1tbhj52d3AA3jPDhUMSz3LhdeNUDwSt1RcUze)
+  - max_staleness: **100 (slots, approx 30 seconds)**
+  - expiry_timestamp: **i64::MAX (never)**
+  - max_slippage_bps: **10**
+  - oracle_price_inverted: **false**
 
 ###### [Solana]-USDT/USDC-Switchboard-Feed (Oracle)
 
-- Address: EQWQQhg9KajosBpZ2sYqEgPfNm6wdmWwGNAkVMocQSz4
+- Address: [EQWQQhg9KajosBpZ2sYqEgPfNm6wdmWwGNAkVMocQSz4](https://solscan.io/account/EQWQQhg9KajosBpZ2sYqEgPfNm6wdmWwGNAkVMocQSz4)
 - General:
-  - queue: A43DyUGA7s8eXPxqEjJY6EBu1KKbNgfxF8h17VAHn13w (Primary mainnet queue)
-  - max_variance: 1%
-  - min_job_responses: 1
-  - min_sample_size: 1
-  - max_staleness: 100 (slots)
-  - auth_only_updates: false
+  - queue: [A43DyUGA7s8eXPxqEjJY6EBu1KKbNgfxF8h17VAHn13w](https://solscan.io/account/A43DyUGA7s8eXPxqEjJY6EBu1KKbNgfxF8h17VAHn13w) (Primary mainnet queue)
+  - max_variance: **1%**
+  - min_job_responses: **1**
+  - min_sample_size: **1**
+  - max_staleness: **100 (slots)**
+  - auth_only_updates: **false**
  
 ###### [Solana]-USDC-USDT-AtomicSwap-Integration
 
-- Address: Efy1EWHmJzckFqpAbDzxnsMXwBu5Jf13BMXXf2fMUUcs
+- Address: [Efy1EWHmJzckFqpAbDzxnsMXwBu5Jf13BMXXf2fMUUcs](https://solscan.io/account/Efy1EWHmJzckFqpAbDzxnsMXwBu5Jf13BMXXf2fMUUcs)
 - General:
-  - integration_type: IntegrationType::AtomicSwap
-  - status: IntegrationStatus::Active
-  - description: USDC->USDT AtomicSwap
-  - permit_liquidation: false
+  - integration_type: **IntegrationType::AtomicSwap**
+  - status: **IntegrationStatus::Active**
+  - description: **USDC->USDT AtomicSwap**
+  - permit_liquidation: **false**
 - Rate limit:
-  - Max amount: 25m USDC (25_000_000_000_000 units)
-  - Slope: 10m USDC (10_000_000_000_000 units) per day
-- Oracle (E6QFLWgPoDHydKVwEc5Ar49k1zMQ19qM8A9NFxjoSitn):
-  - oracle_type: Switchboard
-  - price_feed: EQWQQhg9KajosBpZ2sYqEgPfNm6wdmWwGNAkVMocQSz4
-  - base_mint: Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB
-  - quote_mint: EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v
+  - Max amount: **25 million USDC (25_000_000_000_000 units)**
+  - Slope: **10 million USDC (10_000_000_000_000 units) per day**
+- Oracle ([E6QFLWgPoDHydKVwEc5Ar49k1zMQ19qM8A9NFxjoSitn](https://solscan.io/account/E6QFLWgPoDHydKVwEc5Ar49k1zMQ19qM8A9NFxjoSitn)):
+  - oracle_type: **Switchboard**
+  - price_feed: [EQWQQhg9KajosBpZ2sYqEgPfNm6wdmWwGNAkVMocQSz4](https://solscan.io/account/EQWQQhg9KajosBpZ2sYqEgPfNm6wdmWwGNAkVMocQSz4)
+  - base_mint: [Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB](https://solscan.io/token/Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB)
+  - quote_mint: [EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v](https://solscan.io/token/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v)
 - Inner:
-  - input_token: EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v (USDC Token Mint)
-  - output_token: Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB (USDT Token Mint)
-  - status: active
-  - oracle: E6QFLWgPoDHydKVwEc5Ar49k1zMQ19qM8A9NFxjoSitn
-  - max_staleness: 100 (slots, approx 30 seconds)
-  - expiry_timestamp: i64::MAX (never)
-  - max_slippage_bps: 10
-  - oracle_price_inverted: true
+  - input_token: [EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v](https://solscan.io/token/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v) (USDC Token Mint)
+  - output_token: [Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB](https://solscan.io/token/Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB) (USDT Token Mint)
+  - status: **active**
+  - oracle: [E6QFLWgPoDHydKVwEc5Ar49k1zMQ19qM8A9NFxjoSitn](https://solscan.io/account/E6QFLWgPoDHydKVwEc5Ar49k1zMQ19qM8A9NFxjoSitn)
+  - max_staleness: **100 (slots, approx 30 seconds)**
+  - expiry_timestamp: **i64::MAX (never)**
+  - max_slippage_bps: **10**
+  - oracle_price_inverted: **true**
  
 ###### [Solana]-USDT-USDC-AtomicSwap-Integration
 
-- Address: EGbTPmtHB4MJ99pjbrZhquqhMGGixEev9TKQbsX4ioyV
+- Address: [EGbTPmtHB4MJ99pjbrZhquqhMGGixEev9TKQbsX4ioyV](https://solscan.io/account/EGbTPmtHB4MJ99pjbrZhquqhMGGixEev9TKQbsX4ioyV)
 - General:
-  - integration_type: IntegrationType::AtomicSwap
-  - status: IntegrationStatus::Active
-  - description: USDT->USDC AtomicSwap
-  - permit_liquidation: true
+  - integration_type: **IntegrationType::AtomicSwap**
+  - status: **IntegrationStatus::Active**
+  - description: **USDT->USDC AtomicSwap**
+  - permit_liquidation: **true**
 - Rate limit:
-  - Max amount: 25m USDT (25_000_000_000_000 units)
-  - Slope: 10m USDT (10_000_000_000_000 units) per day
-- Oracle (E6QFLWgPoDHydKVwEc5Ar49k1zMQ19qM8A9NFxjoSitn):
+  - Max amount: **25 million USDT (25_000_000_000_000 units)**
+  - Slope: **10 million USDT (10_000_000_000_000 units) per day**
+- Oracle ([E6QFLWgPoDHydKVwEc5Ar49k1zMQ19qM8A9NFxjoSitn](https://solscan.io/account/E6QFLWgPoDHydKVwEc5Ar49k1zMQ19qM8A9NFxjoSitn):
   - oracle_type: Switchboard
-  - price_feed: EQWQQhg9KajosBpZ2sYqEgPfNm6wdmWwGNAkVMocQSz4
-  - base_mint: Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB
-  - quote_mint: EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v
+  - price_feed: [EQWQQhg9KajosBpZ2sYqEgPfNm6wdmWwGNAkVMocQSz4](https://solscan.io/account/EQWQQhg9KajosBpZ2sYqEgPfNm6wdmWwGNAkVMocQSz4)
+  - base_mint: [Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB](https://solscan.io/token/Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB)
+  - quote_mint: [EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v](https://solscan.io/token/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v)
 - Inner:
-  - input_token: Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB (USDT Token Mint)
-  - output_token: EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v (USDC Token Mint)
-  - status: active
-  - oracle: E6QFLWgPoDHydKVwEc5Ar49k1zMQ19qM8A9NFxjoSitn
-  - max_staleness: 100 (slots, approx 30 seconds)
-  - expiry_timestamp: i64::MAX (never)
-  - max_slippage_bps: 10
-  - oracle_price_inverted: false
+  - input_token: [Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB](https://solscan.io/token/Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB) (USDT Token Mint)
+  - output_token: [EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v](https://solscan.io/token/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v) (USDC Token Mint)
+  - status: **active**
+  - oracle: [E6QFLWgPoDHydKVwEc5Ar49k1zMQ19qM8A9NFxjoSitn](https://solscan.io/account/E6QFLWgPoDHydKVwEc5Ar49k1zMQ19qM8A9NFxjoSitn)
+  - max_staleness: **100 (slots, approx 30 seconds)**
+  - expiry_timestamp: **i64::MAX (never)**
+  - max_slippage_bps: **10**
+  - oracle_price_inverted: **false**
 
 ##### [Solana] Launch Allocation System on Solana
 
@@ -447,54 +447,54 @@ Various Kamino vaults will be onboarded on Solana with the following [rate limit
 
 ###### [Solana]-Kamino-Main-USDC-Integration
 
-- Address: GZ6vUcBZk4QiaBUhhn1TpX6S7FiXK71Pogke1RnBc3zA
+- Address: [GZ6vUcBZk4QiaBUhhn1TpX6S7FiXK71Pogke1RnBc3zA](https://solscan.io/account/GZ6vUcBZk4QiaBUhhn1TpX6S7FiXK71Pogke1RnBc3zA)
 - General:
-  - integration_type: IntegrationType::Kamino
-  - status: IntegrationStatus::Active
-  - description: Kamino Main USDC
-  - permit_liquidation: true
+  - integration_type: **IntegrationType::Kamino**
+  - status: **IntegrationStatus::Active**
+  - description: **Kamino Main USDC**
+  - permit_liquidation: **true**
 - Rate limit:
-  - Max amount: 25m USDC (25_000_000_000_000 units)
-  - Slope: 10m USDC (10_000_000_000_000 units) per day
+  - Max amount: **25 million USDC (25_000_000_000_000 units)**
+  - Slope: **10 million USDC (10_000_000_000_000 units) per day**
 - Inner:
-  - market: 7u3HeHxYDLhnCoErrtycNokbQYbWGzLs6JSDqGAv5PfF
-  - reserve: D6q6wuQSrifJKZYpR1M8R4YawnLDtDsMmWM1NbBmgJ59
-  - reserve_liquidity_mint: EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v
-  - obligation_id: 0
+  - market: [7u3HeHxYDLhnCoErrtycNokbQYbWGzLs6JSDqGAv5PfF](https://solscan.io/account/7u3HeHxYDLhnCoErrtycNokbQYbWGzLs6JSDqGAv5PfF)
+  - reserve: [D6q6wuQSrifJKZYpR1M8R4YawnLDtDsMmWM1NbBmgJ59](https://solscan.io/account/D6q6wuQSrifJKZYpR1M8R4YawnLDtDsMmWM1NbBmgJ59)
+  - reserve_liquidity_mint: [EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v](https://solscan.io/token/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v)
+  - obligation_id: **0**
 
 ###### [Solana]-Kamino-Main-USDS-Integration
 
-- Address: H5Vix4RGchYq1cemoe61y7J4j4v3XgWPGLBeqvPEgvzr
+- Address: [H5Vix4RGchYq1cemoe61y7J4j4v3XgWPGLBeqvPEgvzr](https://solscan.io/account/H5Vix4RGchYq1cemoe61y7J4j4v3XgWPGLBeqvPEgvzr)
 - General:
-  - integration_type: IntegrationType::Kamino
-  - status: IntegrationStatus::Active
-  - description: Kamino Main USDS
-  - permit_liquidation: true
+  - integration_type: **IntegrationType::Kamino**
+  - status: **IntegrationStatus::Active**
+  - description: **Kamino Main USDS**
+  - permit_liquidation: **true**
 - Rate limit:
-  - Max amount: 25m USDS (25_000_000_000_000 units)
-  - Slope: 10m USDS (10_000_000_000_000 units) per day
+  - Max amount: **25 million USDS (25_000_000_000_000 units)**
+  - Slope: **10 million USDS (10_000_000_000_000 units) per day**
 - Inner:
-  - market: 7u3HeHxYDLhnCoErrtycNokbQYbWGzLs6JSDqGAv5PfF
-  - reserve: BHUi32TrEsfN2U821G4FprKrR4hTeK4LCWtA3BFetuqA
-  - reserve_liquidity_mint: USDSwr9ApdHk5bvJKMjzff41FfuX8bSxdKcR81vTwcA
-  - obligation_id: 0
+  - market: [7u3HeHxYDLhnCoErrtycNokbQYbWGzLs6JSDqGAv5PfF](https://solscan.io/account/7u3HeHxYDLhnCoErrtycNokbQYbWGzLs6JSDqGAv5PfF)
+  - reserve: [BHUi32TrEsfN2U821G4FprKrR4hTeK4LCWtA3BFetuqA](https://solscan.io/account/BHUi32TrEsfN2U821G4FprKrR4hTeK4LCWtA3BFetuqA)
+  - reserve_liquidity_mint: [USDSwr9ApdHk5bvJKMjzff41FfuX8bSxdKcR81vTwcA](https://solscan.io/token/USDSwr9ApdHk5bvJKMjzff41FfuX8bSxdKcR81vTwcA)
+  - obligation_id: **0**
  
 ###### [Solana]-Kamino-Main-USDT-Integration
 
-- Address: ArpjQUCqHvtDQZFR2tFbPPEKYiQHuaJkcFQBdW5NQC4U
+- Address: [ArpjQUCqHvtDQZFR2tFbPPEKYiQHuaJkcFQBdW5NQC4U](https://solscan.io/account/ArpjQUCqHvtDQZFR2tFbPPEKYiQHuaJkcFQBdW5NQC4U)
 - General:
-  - integration_type: IntegrationType::Kamino
-  - status: IntegrationStatus::Active
-  - description: Kamino Main USDT
-  - permit_liquidation: true
+  - integration_type: **IntegrationType::Kamino**
+  - status: **IntegrationStatus::Active**
+  - description: **Kamino Main USDT**
+  - permit_liquidation: **true**
 - Rate limit:
-  - Max amount: 25m USDT (25_000_000_000_000 units)
-  - Slope: 10m USDT (10_000_000_000_000 units) per day
+  - Max amount: **25 million USDT (25_000_000_000_000 units)**
+  - Slope: **10 million USDT (10_000_000_000_000 units) per day**
 - Inner:
-  - market: 7u3HeHxYDLhnCoErrtycNokbQYbWGzLs6JSDqGAv5PfF
-  - reserve: H3t6qZ1JkguCNTi9uzVKqQ7dvt2cum4XiXWom6Gn5e5S
-  - reserve_liquidity_mint: Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB (USDT Mint)
-  - obligation_id: 0
+  - market: [7u3HeHxYDLhnCoErrtycNokbQYbWGzLs6JSDqGAv5PfF](https://solscan.io/account/7u3HeHxYDLhnCoErrtycNokbQYbWGzLs6JSDqGAv5PfF)
+  - reserve: [H3t6qZ1JkguCNTi9uzVKqQ7dvt2cum4XiXWom6Gn5e5S](https://solscan.io/account/H3t6qZ1JkguCNTi9uzVKqQ7dvt2cum4XiXWom6Gn5e5S)
+  - reserve_liquidity_mint: [Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB](https://solscan.io/account/Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB) (USDT Mint)
+  - obligation_id: **0**
 
 ##### [Solana] Onboard various Drift vaults
 
@@ -505,51 +505,51 @@ Various Drift vaults will be onboarded on Solana with the following [rate limits
 
 ###### [Solana]-Drift-MainMarket-USDC-Integration
 
-- Address: ET3k7uBeXLmeVQW5Tm8xBnLte9FgUSRebgneT57wjuqL
+- Address: [ET3k7uBeXLmeVQW5Tm8xBnLte9FgUSRebgneT57wjuqL](https://solscan.io/account/ET3k7uBeXLmeVQW5Tm8xBnLte9FgUSRebgneT57wjuqL)
 - General:
-  - integration_type: IntegrationType::Drift
-  - status: IntegrationStatus::Active
-  - description: Drift Main USDC
-  - permit_liquidation: true
+  - integration_type: **IntegrationType::Drift**
+  - status: **IntegrationStatus::Active**
+  - description: **Drift Main USDC**
+  - permit_liquidation: **true**
 - Rate limit:
-  - Max amount: 25m USDC (25_000_000_000_000 units)
-  - Slope: 10m USDC (10_000_000_000_000 units) per day
+  - Max amount: **25 million USDC (25_000_000_000_000 units)**
+  - Slope: **10 million USDC (10_000_000_000_000 units) per day**
 - Inner:
-  - market_idx: 0
-  - sub_account_id: 0
-  - pool_id: 0 (Main Market)
+  - market_idx: **0**
+  - sub_account_id: **0**
+  - pool_id: **0 (Main Market)**
 
 ###### [Solana]-Drift-Main-USDS-Integration
 
-- Address: DFrV1Nyfvoucz3nofVRGFmhWAxV1qz1xQxz5rQi4MNot
+- Address: [DFrV1Nyfvoucz3nofVRGFmhWAxV1qz1xQxz5rQi4MNot](https://solscan.io/account/DFrV1Nyfvoucz3nofVRGFmhWAxV1qz1xQxz5rQi4MNot)
 - General:
-  - integration_type: IntegrationType::Drift
-  - status: IntegrationStatus::Active
-  - description: Drift Main USDS
-  - permit_liquidation: true
+  - integration_type: **IntegrationType::Drift**
+  - status: **IntegrationStatus::Active**
+  - description: **Drift Main USDS**
+  - permit_liquidation: **true**
 - Rate limit:
-  - Max amount: 25m USDS (25_000_000_000_000 units)
-  - Slope: 10m USDS (10_000_000_000_000 units) per day
+  - Max amount: **25 million USDS (25_000_000_000_000 units)**
+  - Slope: **10 million USDS (10_000_000_000_000 units) per day**
 - Other:
-  - market_idx: 28
-  - sub_account_id: 0
-  - pool_id: 0 (Main Market)
+  - market_idx: **28**
+  - sub_account_id: **0**
+  - pool_id: **0 (Main Market)**
 
 ###### [Solana]-Drift-MainMarket-USDT-Integration
 
-- Address: Gb8TLtzWtUVVm5VaEXeZS7hdeXMc675PBvWimeep6aU1
+- Address: [Gb8TLtzWtUVVm5VaEXeZS7hdeXMc675PBvWimeep6aU1](https://solscan.io/account/Gb8TLtzWtUVVm5VaEXeZS7hdeXMc675PBvWimeep6aU1)
 - General:
-  - integration_type: IntegrationType::Drift
-  - status: IntegrationStatus::Active
-  - description: Drift Main USDT
-  - permit_liquidation: true
+  - integration_type: **IntegrationType::Drift**
+  - status: **IntegrationStatus::Active**
+  - description: **Drift Main USDT**
+  - permit_liquidation: **true**
 - Rate limit:
-  - Max amount: 25m USDT (25_000_000_000_000 units)
-  - Slope: 10m USDT (10_000_000_000_000 units) per day
+  - Max amount: **25 million USDT (25_000_000_000_000 units)**
+  - Slope: **10 million USDT (10_000_000_000_000 units) per day**
 - Inner:
-  - market_idx: 5
-  - sub_account_id: 0
-  - pool_id: 0 (Main Market)
+  - market_idx: **5**
+  - sub_account_id: **0**
+  - pool_id: **0 (Main Market)**
 
 ## Review
 
