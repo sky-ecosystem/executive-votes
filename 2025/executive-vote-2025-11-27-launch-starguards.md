@@ -260,9 +260,62 @@ The ALM Controller will be upgraded to v1.8 on Mainnet, Base, Arbitrum, Optimism
 ##### [Mainnet] Adjust ALM Controller parameters to prepare for Solana launch
 
 - **Authorization**: [Governance Poll 1606](https://vote.sky.money/polling/QmdomJ7o)
-- **Proposal**: [Forum Post](https://forum.sky.money/t/november-27-2025-prime-technical-scope-parameter-change-for-upcoming-spell/27406)
+- **Proposal**: [Forum Post 1](https://forum.sky.money/t/november-27-2025-prime-technical-scope-parameter-change-for-upcoming-spell/27406), [2](https://forum.sky.money/t/november-27-2025-prime-technical-scope-solana-pre-configuration-for-upcoming-spell/27404) 
 
 [Rate limits](https://sky-atlas.io/#A.2.3.9.1.1.1.2.2) for the parameters listed below will be updated for the Solana launch.
+
+###### [Mainnet] LIMIT_USDS_TO_USDC
+
+- Rate limit:
+  - Max amount: **100 million USDS**
+  - Slope: **50 million USDS per day**
+ 
+###### [Mainnet] LIMIT_4626_DEPOSIT - sUSDS (sUSDS Deposit)
+
+- Rate limit:
+  -  Max amount: **100 million USDS**
+  -  Slope: **50 million USDS per day**
+ 
+###### [Mainnet] LIMIT_4626_WITHDRAW - sUSDS (sUSDS Withdraw)
+
+- Rate limit:
+  - Max amount: **Unlimited**
+  - Slope: **0**
+ 
+###### [Mainnet] LIMIT_USDC_TO_CCTP
+
+- Rate limit:
+  - Max amount: **100 million USDC**
+  - Slope: **50 million USDC per day**
+ 
+###### [Mainnet] LIMIT_USDC_TO_DOMAIN - 5 (Solana)
+
+- Rate limit:
+  - Max amount: **100 million USDS**
+  - Slope: **50 million USDS per day**
+
+###### [Mainnet] mintRecipients[5] (CCTP Mint Recipient — to Keel’s Solana ALM Controller)
+
+- destinationDomain: [5](https://developers.circle.com/cctp/v1/supported-domains)
+- mintRecipient: **0xcac3764c231540dd2364f24c78fe8f491c08c42ef2ed370f22904eda9ac48609** (Hex encoding of Keel’s Solana ALM Controller’s (base58) PDA: [EeWDutgcKNTdQGJkGRrWYmTXXuKnPUZNvXepbLkQrxW4](https://solscan.io/account/EeWDutgcKNTdQGJkGRrWYmTXXuKnPUZNvXepbLkQrxW4))
+
+###### [Mainnet] LIMIT_LAYERZERO_TRANSFER - Solana (LayerZero/SkyBridge - USDS to Keel’s Solana ALM Controller)
+
+- Rate limit:
+  - Max amount: **100 million USDS**
+  - Slope: **50 million USDS per day**
+ 
+###### [Mainnet] layerZeroRecipients[**30168**] (LayerZero/SkyBridge — Solana)
+
+- desinationEndpointId : [30168](https://docs.layerzero.network/v2/deployments/chains/solana) 
+- layerZeroRecipient: **0xcac3764c231540dd2364f24c78fe8f491c08c42ef2ed370f22904eda9ac48609** (Hex encoding of Keel’s Solana ALM Controller’s (base58) PDA: [EeWDutgcKNTdQGJkGRrWYmTXXuKnPUZNvXepbLkQrxW4](https://solscan.io/account/EeWDutgcKNTdQGJkGRrWYmTXXuKnPUZNvXepbLkQrxW4))
+
+##### [Solana] Launch Allocation System on Solana
+
+- **Authorization**: [Governance Poll 1606](https://vote.sky.money/polling/QmdomJ7o)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/november-27-2025-prime-technical-scope-parameter-change-for-upcoming-spell/27406)
+
+[Rate limits](https://sky-atlas.io/#A.2.3.9.1.1.1.2.2) for the parameters listed below will be updated for the Solana Allocation System launch.
 
 ###### [Solana] USDS-Reserve
 
@@ -431,13 +484,6 @@ The ALM Controller will be upgraded to v1.8 on Mainnet, Base, Arbitrum, Optimism
   - expiry_timestamp: **i64::MAX (never)**
   - max_slippage_bps: **10**
   - oracle_price_inverted: **false**
-
-##### [Solana] Launch Allocation System on Solana
-
-- **Authorization**: [Governance Poll 1606](https://vote.sky.money/polling/QmdomJ7o)
-- **Proposal**: [Forum Post](https://forum.sky.money/t/november-27-2025-prime-technical-scope-parameter-change-for-upcoming-spell/27406)
-
-In conjunction with the other Proxy Spell items, the Allocation System for Keel will be launched on Solana, allowing for the deployment of USDS allocations on Solana. FFor more information, view the approval [here](https://forum.sky.money/t/november-27-2025-prime-technical-scope-solana-pre-configuration-for-upcoming-spell/27404/2).
 
 ##### [Solana] Onboard various Kamino vaults
 
