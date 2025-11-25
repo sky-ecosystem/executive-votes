@@ -108,7 +108,7 @@ If this executive proposal passes, then the following steps to execute the Septe
 
 #### Spark
 
-- Mint **16,332,535 USDS debt** in ALLOCATOR-SPARK-A and transfer the amount to the Surplus Buffer.
+- Mint **16,332,535 USDS** debt in ALLOCATOR-SPARK-A and transfer the amount to the Surplus Buffer.
 - Transfer **4,642,240 USDS** from the Surplus Buffer to the Spark SubProxy at [0x3300f198988e4C9C63F75dF86De36421f06af8c4](https://etherscan.io/address/0x3300f198988e4C9C63F75dF86De36421f06af8c4).
 
 #### Grove
