@@ -41,21 +41,21 @@ If this executive proposal does not pass within 30 days, then it will expire and
 
 ### Launch Grove StarGuard
 
-- **Authorization**: [$link_to_approval](TBD)
+- **Authorization**: [Governance Poll 1606](https://vote.sky.money/polling/QmdomJ7o)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/technical-scope-of-the-starguard-launches-for-grove-keel-and-obex/27441)
 
 If this executive proposal passes, then StarGuard for Grove will be launched, to be used to whitelist future Grove Proxy Spells.
 
 ### Launch Keel StarGuard
 
-- **Authorization**: [$link_to_approval](TBD)
+- **Authorization**: [Governance Poll 1606](https://vote.sky.money/polling/QmdomJ7o)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/technical-scope-of-the-starguard-launches-for-grove-keel-and-obex/27441)
 
 If this executive proposal passes, then StarGuard for Keel will be launched, to be used to whitelist future Keel Proxy Spells.
 
 ### Launch Obex StarGuard
 
-- **Authorization**: [$link_to_approval](TBD)
+- **Authorization**: [Governance Poll 1606](https://vote.sky.money/polling/QmdomJ7o)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/technical-scope-of-the-starguard-launches-for-grove-keel-and-obex/27441)
 
 If this executive proposal passes, then StarGuard for Obex will be launched, to be used to whitelist future Obex Proxy Spells.
