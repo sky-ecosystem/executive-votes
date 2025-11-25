@@ -143,7 +143,7 @@ If this executive proposal passes, then a total of **66,584 USDS** and **618,000
 
 If this executive proposal passes, then the following transfer will be made for the difference between the Sky Savings Rate and the Dai Savings Rate on xDai:
 
--Transfer **1,806,670 USDS** to Gnosis at [0x849D52316331967b6fF1198e5E32A0eB168D039d](https://etherscan.io/address/0x849D52316331967b6fF1198e5E32A0eB168D039d).
+- Transfer **1,806,670 USDS** to Gnosis at [0x849D52316331967b6fF1198e5E32A0eB168D039d](https://etherscan.io/address/0x849D52316331967b6fF1198e5E32A0eB168D039d).
 
 ### Add ALLOCATOR-OBEX-A to SP-BEAM
 
