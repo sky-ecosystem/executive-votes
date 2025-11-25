@@ -58,7 +58,7 @@ If this executive proposal passes, then StarGuard for Keel will be launched, to 
 - **Authorization**: [$link_to_approval](TBD)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/technical-scope-of-the-starguard-launches-for-grove-keel-and-obex/27441)
 
-If this executive proposal passes, then StarGaurd for Obex will be launched, to be used to whitelist future Obex Proxy Spells.
+If this executive proposal passes, then StarGuard for Obex will be launched, to be used to whitelist future Obex Proxy Spells.
 
 ### Monthly Settlement Cycle and Treasury Management Function for October
 
