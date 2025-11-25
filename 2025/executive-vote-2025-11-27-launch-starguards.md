@@ -104,7 +104,7 @@ Other required actions:
 - **Authorization**: [A.2.5](https://sky-atlas.io/#A.2.5), [A.2.4.1.4.1.1](https://sky-atlas.io/#A.2.4.1.4.1.1), [A.2.4.1.4.1.2](https://sky-atlas.io/#A.2.4.1.4.1.2)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/msc-3-settlemnt-summary-october-2025-initial-calculation/27397/3)
 
-If this executive proposal passes, then the following steps to execute the October 2025 Monthly Settlement Cycle will be taken.
+If this executive proposal passes, then the October 2025 Monthly Settlement Cycle will be executed by taking the following steps.
 
 #### Spark
 
