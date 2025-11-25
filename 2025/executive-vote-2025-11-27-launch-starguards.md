@@ -84,7 +84,7 @@ Other required actions:
 - **Authorization**: [Governance Poll 1606](https://vote.sky.money/polling/QmdomJ7o)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/technical-scope-of-the-starguard-launches-for-grove-keel-and-obex/27441)
 
-If this executive proposal passes, then [StarGuard](https://forum.sky.money/t/launching-starguard-an-upgrade-to-the-sky-agents-governance-payload-execution/27364) will be initialized for Obex proxy spells by executing the following actions.
+If this executive proposal passes, then [StarGuard](https://forum.sky.money/t/launching-starguard-an-upgrade-to-the-sky-agents-governance-payload-execution/27364) will be initialized for Obex proxy spells by executing the following actions:
 
 Call [StarGuardInit.init](https://github.com/sidestream-tech/sky-star-guard/blob/7398ffb283c4490c6e29bea28b92cd57285d4889/deploy/StarGuardInit.sol#L44-L63) with the following parameters:
 
