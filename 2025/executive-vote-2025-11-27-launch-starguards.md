@@ -44,7 +44,7 @@ If this executive proposal does not pass within 30 days, then it will expire and
 - **Authorization**: [$link_to_approval](TBD)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/technical-scope-of-the-starguard-launches-for-grove-keel-and-obex/27441)
 
-If this executive proposal passes, then StarGaurd for Grove will be launched, to be used to whitelist future Grove Proxy Spells.
+If this executive proposal passes, then StarGuard for Grove will be launched, to be used to whitelist future Grove Proxy Spells.
 
 ### Launch Keel StarGuard
 
