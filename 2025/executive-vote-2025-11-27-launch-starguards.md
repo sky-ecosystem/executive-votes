@@ -1,5 +1,5 @@
 ---
-title: Template - [Executive Vote] Launch Starguards, Monthly Settlement Cycle and Treasury Management Function, Whitelist Keel Subproxy, Ranked Delegate Compensation, Atlas Core Development Compensation, Payment to Gnosis, Add OBEX to SP-BEAM, Prime Agent Proxy Spells - November 27, 2025
+title: Template - [Executive Vote] Launch StarGuards, Monthly Settlement Cycle and Treasury Management Function, Whitelist Keel Subproxy, Ranked Delegate Compensation, Atlas Core Development Compensation, Payment to Gnosis, Add OBEX to SP-BEAM, Prime Agent Proxy Spells - November 27, 2025
 summary: Launch Starguard for Grove, Keel, and Obex, Monthly Settlement Cycle and Treasury Management Function for October, Whitelist the Keel SubProxy to send cross-chain messages to Solana, Ranked Delegate Compensation for October, Atlas Core Development USDS and SKY payments for November, Gnosis Payment for the difference between the Sky Savings Rate and the Dai Savings Rate on xDai, add ALLOCATOR-OBEX-A to SP-BEAM, whitelist Spark Proxy Spell in Starguard, execute Keel Proxy Spell. 
 date: 2025-11-27T00:00:00.000Z
 address: "$spell_address"
@@ -17,7 +17,7 @@ If you are new to voting in the Sky Protocol, please see the [voting guide](http
 
 If this executive proposal passes, the following **actions** will occur within the Sky Protocol:
 
-- Stargaurd modules for Grove, Keel, and Obex will be launched.
+- StarGaurd modules for Grove, Keel, and Obex will be launched.
 - The Monthly Settlement Cycle and Treasury Management Function for October 2025 will be executed.
 - The Keel Subproxy will be whitelisted to send cross-chain messages to Solana, as described below.
 - A total of **23,479 USDS** will be distributed to six Ranked Delegates as compensation for October 2025.
@@ -41,73 +41,175 @@ If this executive proposal does not pass within 30 days, then it will expire and
 
 ### Launch Grove StarGuard
 
-- **Authorization**: [$link_to_approval]()
-- **Proposal**: [$link_to_proposal]()
+- **Authorization**: [$link_to_approval](TBD)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/technical-scope-of-the-starguard-launches-for-grove-keel-and-obex/27441)
 
-If this executive proposal passes, then $executive_entry_1_implications.
+If this executive proposal passes, then StarGaurd for Grove will be launched, to be used to whitelist future Grove Proxy Spells.
 
 ### Launch Keel StarGuard
 
-- **Authorization**: [$link_to_approval]()
-- **Proposal**: [$link_to_proposal]()
+- **Authorization**: [$link_to_approval](TBD)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/technical-scope-of-the-starguard-launches-for-grove-keel-and-obex/27441)
 
-If this executive proposal passes, then $executive_entry_2_implications.
+If this executive proposal passes, then StarGaurd for Keel will be launched, to be used to whitelist future Keel Proxy Spells.
 
 ### Launch Obex StarGuard
 
-- **Authorization**: [$link_to_approval]()
-- **Proposal**: [$link_to_proposal]()
+- **Authorization**: [$link_to_approval](TBD)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/technical-scope-of-the-starguard-launches-for-grove-keel-and-obex/27441)
 
-If this executive proposal passes, then $executive_entry_3_implications.
+If this executive proposal passes, then StarGaurd for Obex will be launched, to be used to whitelist future Obex Proxy Spells.
 
 ### Monthly Settlement Cycle and Treasury Management Function for October
 
-- **Authorization**: [$link_to_approval]()
-- **Proposal**: [$link_to_proposal]()
+- **Authorization**: [A.2.5](https://sky-atlas.io/#A.2.5)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/msc-3-settlemnt-summary-october-2025-initial-calculation/27397/3)
 
-If this executive proposal passes, then $executive_entry_3_implications.
+If this executive proposal passes, then the following steps to execute the September 2025 Monthly Settlement Cycle will be taken.
+
+#### Spark
+
+- Mint **16,332,535 USDS debt** in ALLOCATOR-SPARK-A and transfer the amount to the Surplus Buffer.
+- Transfer **4,642,240 USDS** from the Surplus Buffer to the Spark SubProxy at [0x3300f198988e4C9C63F75dF86De36421f06af8c4](https://etherscan.io/address/0x3300f198988e4C9C63F75dF86De36421f06af8c4).
+
+#### Grove
+
+- Mint **4,196,768 USDS debt** in ALLOCATOR-BLOOM-A and transfer the amount to the Surplus Buffer.
+
+#### Treasury Management 
+
+- Transfer **3,177,413 USDS** to the Core Council Buffer Multisig at [0x210CFcF53d1f9648C1c4dcaEE677f0Cb06914364](https://etherscan.io/address/0x210CFcF53d1f9648C1c4dcaEE677f0Cb06914364).
+- Transfer **158,871 USDS** to the Aligned Delegates Buffer Multisig at [0x37FC5d447c8c54326C62b697f674c93eaD2A93A3](https://etherscan.io/address/0x37FC5d447c8c54326C62b697f674c93eaD2A93A3)
 
 ### Whitelist the Keel SubProxy to Send Cross-Chain Messages to Solana
 
-- **Authorization**: [$link_to_approval]()
-- **Proposal**: [$link_to_proposal]()
+- **Authorization**: [Governance Poll 1606](https://vote.sky.money/polling/QmdomJ7o)
+- **Proposal**: [Forum Post 1](https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-2025-11-17/27421), [2](https://forum.sky.money/t/executive-inclusion-whitelisting-the-keel-subproxy-to-send-cross-chain-messages-to-solana/27447)
 
-If this executive proposal passes, then $executive_entry_3_implications.
+If this executive proposal passes, then the Keel Subproxy will be whitelisted to send cross-chain messages to Solana. This will allow the Keel SubProxy on mainnet to control the Solana ALM Controller and upgrade it in future, if required. This is achieved through the following calls:
 
-### Delegate Compensation for October
+- Call `setCanCallTarget` on [LZ_GOV_SENDER](https://etherscan.io/address/0x27FC1DD771817b53bE48Dc28789533BEa53C9CCA) with the following parameters:
+  - _srcSender: KEEL_SUBPROXY
+  - _dstEID: SOL_EID defined by LayerZero
+  - _dstTarget: ALM1JSnEhc5PkNecbSZotgprBuJujL5objTbwGtpTgTd
+  - _canCall: true
+- Call `setCanCallTarget` on [LZ_GOV_SENDER](https://etherscan.io/address/0x27FC1DD771817b53bE48Dc28789533BEa53C9CCA) with the following parameters:
+  - _srcSender: KEEL_SUBPROXY
+  - _dstEID: SOL_EID defined by LayerZero
+  - _dstTarget: BPFLoaderUpgradeab1e11111111111111111111111
+  - _canCall: true
 
-- **Authorization**: [$link_to_approval]()
-- **Proposal**: [$link_to_proposal]()
+### Delegate Compensation for October 2025
 
-If this executive proposal passes, then $executive_entry_3_implications.
+- **Authorization**: [A.1.5](https://sky-atlas.io/#A.1.5)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/october-2025-ranked-delegate-compensation/27412)
 
-### Atlas Core Development Payments
+If this executive proposal passes, then a total of **23,479 USDS** will be distributed to six Ranked Delegates as follows:
 
-- **Authorization**: [$link_to_approval]()
-- **Proposal**: [$link_to_proposal]()
+| Delegate    | Amount (USDS) | Address                                                                                                               |
+|-------------|---------------|-----------------------------------------------------------------------------------------------------------------------|
+| AegisD      | 4,000         | [0x78C180CF113Fe4845C325f44648b6567BC79d6E0](https://etherscan.io/address/0x78C180CF113Fe4845C325f44648b6567BC79d6E0) |
+| BLUE        | 4,000         | [0xb6C09680D822F162449cdFB8248a7D3FC26Ec9Bf](https://etherscan.io/address/0xb6C09680D822F162449cdFB8248a7D3FC26Ec9Bf) |
+| Bonapublica | 4,000         | [0x167c1a762B08D7e78dbF8f24e5C3f1Ab415021D3](https://etherscan.io/address/0x167c1a762B08D7e78dbF8f24e5C3f1Ab415021D3) |
+| Cloaky      | 4,000         | [0x9244F47D70587Fa2329B89B6f503022b63Ad54A5](https://etherscan.io/address/0x9244F47D70587Fa2329B89B6f503022b63Ad54A5) |
+| Sky Staking | 3,783         | [0x05c73AE49fF0ec654496bF4008d73274a919cB5C](https://etherscan.io/address/0x05c73AE49fF0ec654496bF4008d73274a919cB5C) |
+| Tango | 3,696         | [0xB2B86A130B1EC101e4Aed9a88502E08995760307](https://etherscan.io/address/0xB2B86A130B1EC101e4Aed9a88502E08995760307) |
 
-If this executive proposal passes, then $executive_entry_3_implications.
+### Atlas Core Development Payments for November 2025
+
+- **Authorization**: [A.2.2.1.1](https://sky-atlas.io/#A.2.2.1.1)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/atlas-core-development-payment-requests-november-2025/27402)
+
+If this executive proposal passes, then a total of **66,584 USDS** and **618,000 SKY** will be distributed as Atlas Core Development payments for November 2025 as follows.
+
+#### USDS Payments
+
+| Recipient | Amount (USDS) | Address                                                                                                               |
+|-----------|--------------:|-----------------------------------------------------------------------------------------------------------------------|
+| BLUE      | 50,167        | [0xb6C09680D822F162449cdFB8248a7D3FC26Ec9Bf](https://etherscan.io/address/0xb6C09680D822F162449cdFB8248a7D3FC26Ec9Bf) |
+| Cloaky    | 16,417        | [0x9244F47D70587Fa2329B89B6f503022b63Ad54A5](https://etherscan.io/address/0x9244F47D70587Fa2329B89B6f503022b63Ad54A5) |
+
+#### SKY Payments
+
+| Recipient | Amount (SKY) | Address                                                                                                               |
+|-----------|-------------:|-----------------------------------------------------------------------------------------------------------------------|
+| BLUE      | 330,000      | [0xb6C09680D822F162449cdFB8248a7D3FC26Ec9Bf](https://etherscan.io/address/0xb6C09680D822F162449cdFB8248a7D3FC26Ec9Bf) |
+| Cloaky    | 288,000      | [0x9244F47D70587Fa2329B89B6f503022b63Ad54A5](https://etherscan.io/address/0x9244F47D70587Fa2329B89B6f503022b63Ad54A5) |
 
 ### Payment to Gnosis
 
-- **Authorization**: [$link_to_approval]()
-- **Proposal**: [$link_to_proposal]()
+- **Authorization**: [A.4.1.1.1.1](https://sky-atlas.io/#A.4.1.1.1.1)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-2025-11-10/27400)
 
-If this executive proposal passes, then $executive_entry_3_implications.
+If this executive proposal passes, then the following transfer will be made for the difference between the Sky Savings Rate and the Dai Savings Rate on xDai:
+
+-Transfer **1,806,670 USDS** to Gnosis at [0x849D52316331967b6fF1198e5E32A0eB168D039d](https://etherscan.io/address/0x849D52316331967b6fF1198e5E32A0eB168D039d).
 
 ### Add ALLOCATOR-OBEX-A to SP-BEAM
 
-- **Authorization**: [$link_to_approval]()
-- **Proposal**: [$link_to_proposal]()
+- **Authorization**: [A.3.7.1.2.3](https://sky-atlas.io/#A.3.7.1.2.3)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/executive-inclusion-add-allocator-obex-a-to-the-sp-beam/27442)
 
-If this executive proposal passes, then $executive_entry_3_implications.
+If this executive proposal passes, then ALLOCATOR-OBEX-A will be added to the SP-BEAM with the following parameters:
 
+- [max](https://sky-atlas.io/#A.3.7.1.2.1.2): 3,000 basis points
+- [min](https://sky-atlas.io/#A.3.7.1.2.1.1): 0 basis points
+- [step](https://sky-atlas.io/#A.3.7.1.2.1.3): 400 basis points
+- 
 ### Prime Agent Proxy Spells
 
-- **Authorization**: [$link_to_approval]()
-- **Proposal**: [$link_to_proposal]()
+If this executive proposal passes, then a Spark Proxy Spell at [0x2C9E477313EC440fe4Ab6C98529da2793e6890F2](https://etherscan.io/address/0x2C9E477313EC440fe4Ab6C98529da2793e6890F2) with the codehash 0xfad4d50e95e43a5d172619770dac42160a77258693d15be09343c5b29f88c521 will be whitelisted in the Spark StarGuard.
 
-If this executive proposal passes, then $executive_entry_3_implications.
+If this executive proposal passes, then a Keel Proxy Spell at [0x2395AF361CdF86d348B07E109E710943AFDb23aa](https://etherscan.io/address/0x2395AF361CdF86d348B07E109E710943AFDb23aa) will be executed.
+
+#### Spark
+
+##### [Mainnet] Arkis Funding
+
+- **Authorization**: [Snapshot Poll](https://snapshot.box/#/s:sparkfi.eth/proposal/0x9dd06e68b3b109b616cc7cf7af7f1cf78ed9408312bfb9fe43764a3b3dba563a)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/november-27-2025-proposed-changes-to-spark-for-upcoming-spell/27418)
+
+##### [Mainnet] Onboard B2C2 Penny
+
+- **Authorization**: [Governance Poll 1589](https://vote.sky.money/polling/QmTNrfXk)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/november-27-2025-proposed-changes-to-spark-for-upcoming-spell/27418)
+
+##### [Mainnet] Foundation Grant
+
+- **Authorization**: [A.2.9.2.2.2.5.1](https://sky-atlas.io/#A.2.9.2.2.2.5.5.1)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/november-27-2025-proposed-changes-to-spark-for-upcoming-spell/27418)
+
+##### [Mainnet] Claim SparkLend Reserves
+
+- **Authorization**: [A.6.1.1.1.2.6.1.2.1.2.3](https://sky-atlas.io/#A.6.1.1.1.2.6.1.2.1.2.3)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/november-27-2025-proposed-changes-to-spark-for-upcoming-spell/27418)
+
+##### Upgrade ALM Controller to 1.8
+
+- **Authorization**: [Snapshot Poll](https://snapshot.box/#/s:sparkfi.eth/proposal/0xcaafeb100a8ec75ae1e1e9d4059f7d2ec2db31aa55a09be2ec2c7467e0f10799)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/november-27-2025-proposed-changes-to-spark-for-upcoming-spell/27418)
+
+#### Keel
+
+##### [Mainnet] Adjust ALM Controller parameters to prepare for Solana launch
+
+- **Authorization**: [Governance Poll 1606](https://vote.sky.money/polling/QmdomJ7o)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/november-27-2025-prime-technical-scope-parameter-change-for-upcoming-spell/27406)
+
+##### [Solana] Launch Allocation System on Solana
+
+- **Authorization**: [Governance Poll 1606](https://vote.sky.money/polling/QmdomJ7o)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/november-27-2025-prime-technical-scope-parameter-change-for-upcoming-spell/27406)
+
+##### [Solana] Onboard various Kamino vaults
+
+- **Authorization**: [Governance Poll 1606](https://vote.sky.money/polling/QmdomJ7o)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/november-27-2025-prime-technical-scope-parameter-change-for-upcoming-spell/27406)
+
+##### [Solana] Onboard various Drift vaults
+
+- **Authorization**: [Governance Poll 1606](https://vote.sky.money/polling/QmdomJ7o)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/november-27-2025-prime-technical-scope-parameter-change-for-upcoming-spell/27406)
 
 ## Review
 
