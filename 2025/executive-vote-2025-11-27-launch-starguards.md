@@ -488,7 +488,7 @@ The ALM controller [rate limit](https://sky-atlas.io/#A.2.3.9.1.1.1.2.2) paramet
 ##### [Solana] Onboard various Kamino vaults
 
 - **Authorization**: [Governance Poll 1606](https://vote.sky.money/polling/QmdomJ7o)
-- **Proposal**: [Forum Post](https://forum.sky.money/t/november-27-2025-prime-technical-scope-parameter-change-for-upcoming-spell/27406)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/november-27-2025-prime-technical-scope-solana-pre-configuration-for-upcoming-spell/27404)
 
 Various Kamino vaults will be onboarded on Solana with the following [rate limits](https://sky-atlas.io/#A.2.3.9.1.1.1.2.2).
 
