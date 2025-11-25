@@ -127,12 +127,12 @@ If this executive proposal passes, then the following steps to execute the Septe
 
 If this executive proposal passes, then the Keel SubProxy will be whitelisted to send cross-chain messages to Solana. This will allow the Keel SubProxy on mainnet to control the Solana ALM Controller and upgrade it in future, if required. This is achieved through the following calls:
 
-- Call `setCanCallTarget` on [LZ_GOV_SENDER](https://etherscan.io/address/0x27FC1DD771817b53bE48Dc28789533BEa53C9CCA) with the following parameters:
+- Call [`setCanCallTarget`](https://github.com/sky-ecosystem/sky-oapp-oft/blob/main/contracts/GovernanceOAppSender.sol#L45-L50) on [LZ_GOV_SENDER](https://etherscan.io/address/0x27FC1DD771817b53bE48Dc28789533BEa53C9CCA) with the following parameters:
   - _srcSender: [KEEL_SUBPROXY](https://etherscan.io/address/0x355CD90Ecb1b409Fdf8b64c4473C3B858dA2c310)
   - _dstEID: SOL_EID defined by LayerZero
   - _dstTarget: [ALM1JSnEhc5PkNecbSZotgprBuJujL5objTbwGtpTgTd](https://solscan.io/account/ALM1JSnEhc5PkNecbSZotgprBuJujL5objTbwGtpTgTd)
   - _canCall: true
-- Call `setCanCallTarget` on [LZ_GOV_SENDER](https://etherscan.io/address/0x27FC1DD771817b53bE48Dc28789533BEa53C9CCA) with the following parameters:
+- Call [`setCanCallTarget`](https://github.com/sky-ecosystem/sky-oapp-oft/blob/main/contracts/GovernanceOAppSender.sol#L45-L50) on [LZ_GOV_SENDER](https://etherscan.io/address/0x27FC1DD771817b53bE48Dc28789533BEa53C9CCA) with the following parameters:
   - _srcSender: [KEEL_SUBPROXY](https://etherscan.io/address/0x355CD90Ecb1b409Fdf8b64c4473C3B858dA2c310)
   - _dstEID: SOL_EID defined by LayerZero
   - _dstTarget: [BPFLoaderUpgradeab1e11111111111111111111111](https://solscan.io/account/BPFLoaderUpgradeab1e11111111111111111111111)
