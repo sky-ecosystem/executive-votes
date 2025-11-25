@@ -57,7 +57,7 @@ Call [StarGuardInit.init](https://github.com/sidestream-tech/sky-star-guard/blob
 
 Other required actions:
 
-- Add `GROVE_STARGUARD` to the `StarGuardJob`.
+- Add `GROVE_STARGUARD` to the [`StarGuardJob`](https://etherscan.io/address/0xb18d211fa69422a9a848b790c5b4a3957f7aa44e).
 
 ### Launch Keel StarGuard
 
