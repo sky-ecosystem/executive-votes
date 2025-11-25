@@ -76,7 +76,7 @@ If this executive proposal passes, then the following steps to execute the Septe
 
 - Mint **4,196,768 USDS debt** in ALLOCATOR-BLOOM-A and transfer the amount to the Surplus Buffer.
 
-#### Treasury Management 
+#### Treasury Management Function
 
 - Transfer **3,177,413 USDS** to the Core Council Buffer Multisig at [0x210CFcF53d1f9648C1c4dcaEE677f0Cb06914364](https://etherscan.io/address/0x210CFcF53d1f9648C1c4dcaEE677f0Cb06914364).
 - Transfer **158,871 USDS** to the Aligned Delegates Buffer Multisig at [0x37FC5d447c8c54326C62b697f674c93eaD2A93A3](https://etherscan.io/address/0x37FC5d447c8c54326C62b697f674c93eaD2A93A3)
