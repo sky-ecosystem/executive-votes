@@ -288,7 +288,7 @@ The ALM controller [rate limit](https://sky-atlas.io/#A.2.3.9.1.1.1.2.2) paramet
  
 ###### [Mainnet] layerZeroRecipients[**30168**] (LayerZero/SkyBridge — Solana)
 
-- desinationEndpointId : [30168](https://docs.layerzero.network/v2/deployments/chains/solana) 
+- destinationEndpointId : [30168](https://docs.layerzero.network/v2/deployments/chains/solana)
 - layerZeroRecipient: **0xcac3764c231540dd2364f24c78fe8f491c08c42ef2ed370f22904eda9ac48609** (Hex encoding of Keel’s Solana ALM Controller’s (base58) PDA: [EeWDutgcKNTdQGJkGRrWYmTXXuKnPUZNvXepbLkQrxW4](https://solscan.io/account/EeWDutgcKNTdQGJkGRrWYmTXXuKnPUZNvXepbLkQrxW4))
 
 ##### [Solana] Launch Allocation System on Solana
