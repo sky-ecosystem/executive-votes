@@ -1,11 +1,11 @@
 ---
-title: Template - [Executive Vote] Launch StarGuards, October Monthly Settlement Cycle and Treasury Management Function, Whitelist Keel SubProxy, October Ranked Delegate Compensation, Atlas Core Development Compensation, Payment to Gnosis, Add ALLOCATOR-OBEX-A to SP-BEAM, Prime Agent Proxy Spells - November 27, 2025
-summary: Launch Starguard for Grove, Keel, and Obex, execute Monthly Settlement Cycle and Treasury Management Function for October, whitelist the Keel SubProxy to send cross-chain messages to Solana, pay Ranked Delegate Compensation for October, make Atlas Core Development USDS and SKY payments for November, make Gnosis payment for the difference between the Sky Savings Rate and the Dai Savings Rate on xDai, add ALLOCATOR-OBEX-A to SP-BEAM, whitelist Spark Proxy Spell in Spark Starguard, execute Keel Proxy Spell. 
+title: Template - [Executive Vote] Launch StarGuards, October Monthly Settlement Cycle and Treasury Management Function, October Ranked Delegate Compensation, Atlas Core Development Compensation, Payment to Gnosis, Add ALLOCATOR-OBEX-A to SP-BEAM, Prime Agent Proxy Spells - November 27, 2025
+summary: Launch Starguard for Grove, Keel, and Obex, execute Monthly Settlement Cycle and Treasury Management Function for October, pay Ranked Delegate Compensation for October, make Atlas Core Development USDS and SKY payments for November, make Gnosis payment for the difference between the Sky Savings Rate and the Dai Savings Rate on xDai, add ALLOCATOR-OBEX-A to SP-BEAM, whitelist Spark Proxy Spell in Spark Starguard, execute Keel Proxy Spell. 
 date: 2025-11-27T00:00:00.000Z
 address: "$spell_address"
 ---
 
-# [Executive Proposal] Launch Starguards, Monthly Settlement Cycle and Treasury Management Function for October, Whitelist Keel SubProxy, Ranked Delegate Compensation, Atlas Core Development Compensation, Payment to Gnosis, Add ALLOCATOR-OBEX-A to SP-BEAM, Prime Agent Proxy Spells - November 27, 2025
+# [Executive Proposal] Launch StarGuards, October Monthly Settlement Cycle and Treasury Management Function, October Ranked Delegate Compensation, Atlas Core Development Compensation, Payment to Gnosis, Add ALLOCATOR-OBEX-A to SP-BEAM, Prime Agent Proxy Spells - November 27, 2025
 
 The Core Facilitators, Dewiz, and Sidestream have placed an executive proposal into the voting system. SKY holders should vote for this proposal if they support the following alterations to the Sky Protocol.
 
@@ -19,7 +19,6 @@ If this executive proposal passes, the following **actions** will occur within t
 
 - StarGuard modules for Grove, Keel, and Obex will be launched.
 - The Monthly Settlement Cycle and Treasury Management Function for October 2025 will be executed.
-- The Keel SubProxy will be whitelisted to send cross-chain messages to Solana, as described below.
 - A total of **23,479 USDS** will be distributed to six Ranked Delegates as compensation for October 2025.
 - A total of **66,584 USDS** and **618,000 SKY** will be distributed as Atlas Core Development compensation for November 2025.
 - **1,806,670 USDS** will be transferred to Gnosis at [0x849D52316331967b6fF1198e5E32A0eB168D039d](https://etherscan.io/address/0x849D52316331967b6fF1198e5E32A0eB168D039d).
@@ -120,24 +119,6 @@ If this executive proposal passes, then the October 2025 Monthly Settlement Cycl
 - Transfer **3,177,413 USDS** to the Core Council Buffer Multisig at [0x210CFcF53d1f9648C1c4dcaEE677f0Cb06914364](https://etherscan.io/address/0x210CFcF53d1f9648C1c4dcaEE677f0Cb06914364).
 - Transfer **158,871 USDS** to the Aligned Delegates Buffer Multisig at [0x37FC5d447c8c54326C62b697f674c93eaD2A93A3](https://etherscan.io/address/0x37FC5d447c8c54326C62b697f674c93eaD2A93A3)
 
-### Whitelist the Keel SubProxy to Send Cross-Chain Messages to Solana
-
-- **Authorization**: [Governance Poll 1606](https://vote.sky.money/polling/QmdomJ7o), [A.6.1.1.3.2.6.1.2.1.1.4.3](https://sky-atlas.io/#A.6.1.1.3.2.6.1.2.1.1.4.3)
-- **Proposal**: [Forum Post 1](https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-2025-11-17/27421), [2](https://forum.sky.money/t/executive-inclusion-whitelisting-the-keel-subproxy-to-send-cross-chain-messages-to-solana/27447)
-
-If this executive proposal passes, then the Keel SubProxy will be whitelisted to send cross-chain messages to Solana. This will allow the Keel SubProxy on mainnet to control the Solana ALM Controller and upgrade it in future, if required. This is achieved through the following calls:
-
-- Call [`setCanCallTarget`](https://github.com/sky-ecosystem/sky-oapp-oft/blob/main/contracts/GovernanceOAppSender.sol#L45-L50) on [LZ_GOV_SENDER](https://etherscan.io/address/0x27FC1DD771817b53bE48Dc28789533BEa53C9CCA) with the following parameters:
-  - _srcSender: [KEEL_SUBPROXY](https://etherscan.io/address/0x355CD90Ecb1b409Fdf8b64c4473C3B858dA2c310)
-  - _dstEID: SOL_EID defined by LayerZero
-  - _dstTarget: [ALM1JSnEhc5PkNecbSZotgprBuJujL5objTbwGtpTgTd](https://solscan.io/account/ALM1JSnEhc5PkNecbSZotgprBuJujL5objTbwGtpTgTd)
-  - _canCall: true
-- Call [`setCanCallTarget`](https://github.com/sky-ecosystem/sky-oapp-oft/blob/main/contracts/GovernanceOAppSender.sol#L45-L50) on [LZ_GOV_SENDER](https://etherscan.io/address/0x27FC1DD771817b53bE48Dc28789533BEa53C9CCA) with the following parameters:
-  - _srcSender: [KEEL_SUBPROXY](https://etherscan.io/address/0x355CD90Ecb1b409Fdf8b64c4473C3B858dA2c310)
-  - _dstEID: SOL_EID defined by LayerZero
-  - _dstTarget: [BPFLoaderUpgradeab1e11111111111111111111111](https://solscan.io/account/BPFLoaderUpgradeab1e11111111111111111111111)
-  - _canCall: true
-
 ### Delegate Compensation for October 2025
 
 - **Authorization**: [A.1.5](https://sky-atlas.io/#A.1.5)
@@ -208,7 +189,7 @@ If this executive proposal passes, then a Keel Proxy Spell at [0x2395AF361CdF86d
 - **Authorization**: [Snapshot Poll](https://snapshot.box/#/s:sparkfi.eth/proposal/0x9dd06e68b3b109b616cc7cf7af7f1cf78ed9408312bfb9fe43764a3b3dba563a)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/november-27-2025-proposed-changes-to-spark-for-upcoming-spell/27418)
 
-A transfer of **4 million USDS** will be made to [0x92e4629a4510AF5819d7D1601464C233599fF5ec](https://etherscan.io/address/0x92e4629a4510AF5819d7D1601464C233599fF5ec) to fund the Arkis Strategic Investment. 
+A transfer of **4 million USDS** will be made to [0x92e4629a4510AF5819d7D1601464C233599fF5ec](https://etherscan.io/address/0x92e4629a4510AF5819d7D1601464C233599fF5ec) to fund the Arkis Strategic Investment.
 
 ##### [Mainnet] Onboard B2C2 Penny
 
@@ -260,7 +241,7 @@ The ALM Controller will be upgraded to v1.8 on Mainnet, Base, Arbitrum, Optimism
 ##### [Mainnet] Adjust ALM Controller Parameters to Prepare for Solana Launch
 
 - **Authorization**: [Governance Poll 1606](https://vote.sky.money/polling/QmdomJ7o)
-- **Proposal**: [Forum Post 1](https://forum.sky.money/t/november-27-2025-prime-technical-scope-parameter-change-for-upcoming-spell/27406), [2](https://forum.sky.money/t/november-27-2025-prime-technical-scope-solana-pre-configuration-for-upcoming-spell/27404) 
+- **Proposal**: [Forum Post 1](https://forum.sky.money/t/november-27-2025-prime-technical-scope-parameter-change-for-upcoming-spell/27406), [2](https://forum.sky.money/t/november-27-2025-prime-technical-scope-solana-pre-configuration-for-upcoming-spell/27404)
 
 The ALM controller [rate limit](https://sky-atlas.io/#A.2.3.9.1.1.1.2.2) parameters listed below will be updated for the Solana launch.
 
@@ -269,25 +250,25 @@ The ALM controller [rate limit](https://sky-atlas.io/#A.2.3.9.1.1.1.2.2) paramet
 - Rate limit:
   - maxAmount: **100 million USDS**
   - Slope: **50 million USDS per day**
- 
+
 ###### [Mainnet] LIMIT_4626_DEPOSIT - sUSDS (sUSDS Deposit)
 
 - Rate limit:
-  -  maxAmount: **100 million USDS**
-  -  Slope: **50 million USDS per day**
- 
+  - maxAmount: **100 million USDS**
+  - Slope: **50 million USDS per day**
+
 ###### [Mainnet] LIMIT_4626_WITHDRAW - sUSDS (sUSDS Withdraw)
 
 - Rate limit:
   - maxAmount: **Unlimited**
   - Slope: **0**
- 
+
 ###### [Mainnet] LIMIT_USDC_TO_CCTP
 
 - Rate limit:
   - maxAmount: **100 million USDC**
   - Slope: **50 million USDC per day**
- 
+
 ###### [Mainnet] LIMIT_USDC_TO_DOMAIN - 5 (Solana)
 
 - Rate limit:
@@ -304,10 +285,10 @@ The ALM controller [rate limit](https://sky-atlas.io/#A.2.3.9.1.1.1.2.2) paramet
 - Rate limit:
   - maxAmount: **100 million USDS**
   - Slope: **50 million USDS per day**
- 
+
 ###### [Mainnet] layerZeroRecipients[**30168**] (LayerZero/SkyBridge — Solana)
 
-- desinationEndpointId : [30168](https://docs.layerzero.network/v2/deployments/chains/solana) 
+- destinationEndpointId : [30168](https://docs.layerzero.network/v2/deployments/chains/solana)
 - layerZeroRecipient: **0xcac3764c231540dd2364f24c78fe8f491c08c42ef2ed370f22904eda9ac48609** (Hex encoding of Keel’s Solana ALM Controller’s (base58) PDA: [EeWDutgcKNTdQGJkGRrWYmTXXuKnPUZNvXepbLkQrxW4](https://solscan.io/account/EeWDutgcKNTdQGJkGRrWYmTXXuKnPUZNvXepbLkQrxW4))
 
 ##### [Solana] Launch Allocation System on Solana
@@ -336,7 +317,7 @@ The ALM controller [rate limit](https://sky-atlas.io/#A.2.3.9.1.1.1.2.2) paramet
 - Rate limit:
   - maxAmount: **25 million USDC**
   - Slope: **10 million USDC per day**
- 
+
 ###### [Solana] USDT-Reserve
 
 - Address: [3g74M93WWad6KuZoiwkAxPQsVZBuHhzpirBs73WPJ27W](https://solscan.io/account/3g74M93WWad6KuZoiwkAxPQsVZBuHhzpirBs73WPJ27W)
@@ -364,7 +345,7 @@ The ALM controller [rate limit](https://sky-atlas.io/#A.2.3.9.1.1.1.2.2) paramet
   - mint: [EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v](https://solscan.io/token/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v) (USDC)
   - destination_address: [0xa5139956eC99aE2e51eA39d0b57C42B6D8db0758](https://etherscan.io/address/0xa5139956eC99aE2e51eA39d0b57C42B6D8db0758) (Keel ALM Proxy)
   - destination_domain: **0 (Ethereum Mainnet)**
- 
+
 ###### [Solana] LzBridge-USDS-Integration
 
 - Address: [93bmMnKLgBXLMMfqVk53DzMAR4JcE3m5WX5hdTrUopuM](https://solscan.io/account/93bmMnKLgBXLMMfqVk53DzMAR4JcE3m5WX5hdTrUopuM)
@@ -384,7 +365,7 @@ The ALM controller [rate limit](https://sky-atlas.io/#A.2.3.9.1.1.1.2.2) paramet
   - peer_config: [CwL294rKs4a18rAKDnDs18JsSVoA5Cgz1ekwVPqsQgfR](https://solscan.io/account/CwL294rKs4a18rAKDnDs18JsSVoA5Cgz1ekwVPqsQgfR)
   - destination_address: [0xa5139956eC99aE2e51eA39d0b57C42B6D8db0758](https://etherscan.io/address/0xa5139956eC99aE2e51eA39d0b57C42B6D8db0758) (Keel ALM Proxy)
   - destination_eid: **30101 (Ethereum Mainnet)**
- 
+
 ###### [Solana] USDS/USDC-Switchboard-Feed (Oracle)
 
 - Address: [4ATfhXp6LibWDgzMZMQ729Q2qmnpxr319e5cSTXsxgrk](https://solscan.io/account/4ATfhXp6LibWDgzMZMQ729Q2qmnpxr319e5cSTXsxgrk)
@@ -395,7 +376,7 @@ The ALM controller [rate limit](https://sky-atlas.io/#A.2.3.9.1.1.1.2.2) paramet
   - min_sample_size: **1**
   - max_staleness: **100 (slots)**
   - auth_only_updates: **false**
- 
+
 ###### [Solana] USDS-USDC-AtomicSwap-Integration
 
 - Address: [3vAnLvHHERj4xdnrGhMcBpdL7p4RtyisgggHq78MWGSw](https://solscan.io/account/3vAnLvHHERj4xdnrGhMcBpdL7p4RtyisgggHq78MWGSw)
@@ -432,7 +413,7 @@ The ALM controller [rate limit](https://sky-atlas.io/#A.2.3.9.1.1.1.2.2) paramet
   - min_sample_size: **1**
   - max_staleness: **100 (slots)**
   - auth_only_updates: **false**
- 
+
 ###### [Solana] USDC-USDT-AtomicSwap-Integration
 
 - Address: [Efy1EWHmJzckFqpAbDzxnsMXwBu5Jf13BMXXf2fMUUcs](https://solscan.io/account/Efy1EWHmJzckFqpAbDzxnsMXwBu5Jf13BMXXf2fMUUcs)
@@ -458,7 +439,7 @@ The ALM controller [rate limit](https://sky-atlas.io/#A.2.3.9.1.1.1.2.2) paramet
   - expiry_timestamp: **i64::MAX (never)**
   - max_slippage_bps: **10**
   - oracle_price_inverted: **true**
- 
+
 ###### [Solana] USDT-USDC-AtomicSwap-Integration
 
 - Address: [EGbTPmtHB4MJ99pjbrZhquqhMGGixEev9TKQbsX4ioyV](https://solscan.io/account/EGbTPmtHB4MJ99pjbrZhquqhMGGixEev9TKQbsX4ioyV)
@@ -525,7 +506,7 @@ Various Kamino vaults will be onboarded on Solana with the following [rate limit
   - reserve: [BHUi32TrEsfN2U821G4FprKrR4hTeK4LCWtA3BFetuqA](https://solscan.io/account/BHUi32TrEsfN2U821G4FprKrR4hTeK4LCWtA3BFetuqA)
   - reserve_liquidity_mint: [USDSwr9ApdHk5bvJKMjzff41FfuX8bSxdKcR81vTwcA](https://solscan.io/token/USDSwr9ApdHk5bvJKMjzff41FfuX8bSxdKcR81vTwcA)
   - obligation_id: **0**
- 
+
 ###### [Solana] Kamino-Main-USDT-Integration
 
 - Address: [ArpjQUCqHvtDQZFR2tFbPPEKYiQHuaJkcFQBdW5NQC4U](https://solscan.io/account/ArpjQUCqHvtDQZFR2tFbPPEKYiQHuaJkcFQBdW5NQC4U)
