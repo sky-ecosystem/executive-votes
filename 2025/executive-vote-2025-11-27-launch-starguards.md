@@ -189,7 +189,7 @@ If this executive proposal passes, then a Keel Proxy Spell at [0x2395AF361CdF86d
 - **Authorization**: [Snapshot Poll](https://snapshot.box/#/s:sparkfi.eth/proposal/0x9dd06e68b3b109b616cc7cf7af7f1cf78ed9408312bfb9fe43764a3b3dba563a)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/november-27-2025-proposed-changes-to-spark-for-upcoming-spell/27418)
 
-A transfer of **4 million USDS** will be made to [0x92e4629a4510AF5819d7D1601464C233599fF5ec](https://etherscan.io/address/0x92e4629a4510AF5819d7D1601464C233599fF5ec) to fund the Arkis Strategic Investment. 
+A transfer of **4 million USDS** will be made to [0x92e4629a4510AF5819d7D1601464C233599fF5ec](https://etherscan.io/address/0x92e4629a4510AF5819d7D1601464C233599fF5ec) to fund the Arkis Strategic Investment.
 
 ##### [Mainnet] Onboard B2C2 Penny
 
@@ -241,7 +241,7 @@ The ALM Controller will be upgraded to v1.8 on Mainnet, Base, Arbitrum, Optimism
 ##### [Mainnet] Adjust ALM Controller Parameters to Prepare for Solana Launch
 
 - **Authorization**: [Governance Poll 1606](https://vote.sky.money/polling/QmdomJ7o)
-- **Proposal**: [Forum Post 1](https://forum.sky.money/t/november-27-2025-prime-technical-scope-parameter-change-for-upcoming-spell/27406), [2](https://forum.sky.money/t/november-27-2025-prime-technical-scope-solana-pre-configuration-for-upcoming-spell/27404) 
+- **Proposal**: [Forum Post 1](https://forum.sky.money/t/november-27-2025-prime-technical-scope-parameter-change-for-upcoming-spell/27406), [2](https://forum.sky.money/t/november-27-2025-prime-technical-scope-solana-pre-configuration-for-upcoming-spell/27404)
 
 The ALM controller [rate limit](https://sky-atlas.io/#A.2.3.9.1.1.1.2.2) parameters listed below will be updated for the Solana launch.
 
@@ -250,25 +250,25 @@ The ALM controller [rate limit](https://sky-atlas.io/#A.2.3.9.1.1.1.2.2) paramet
 - Rate limit:
   - maxAmount: **100 million USDS**
   - Slope: **50 million USDS per day**
- 
+
 ###### [Mainnet] LIMIT_4626_DEPOSIT - sUSDS (sUSDS Deposit)
 
 - Rate limit:
-  -  maxAmount: **100 million USDS**
-  -  Slope: **50 million USDS per day**
- 
+  - maxAmount: **100 million USDS**
+  - Slope: **50 million USDS per day**
+
 ###### [Mainnet] LIMIT_4626_WITHDRAW - sUSDS (sUSDS Withdraw)
 
 - Rate limit:
   - maxAmount: **Unlimited**
   - Slope: **0**
- 
+
 ###### [Mainnet] LIMIT_USDC_TO_CCTP
 
 - Rate limit:
   - maxAmount: **100 million USDC**
   - Slope: **50 million USDC per day**
- 
+
 ###### [Mainnet] LIMIT_USDC_TO_DOMAIN - 5 (Solana)
 
 - Rate limit:
@@ -285,7 +285,7 @@ The ALM controller [rate limit](https://sky-atlas.io/#A.2.3.9.1.1.1.2.2) paramet
 - Rate limit:
   - maxAmount: **100 million USDS**
   - Slope: **50 million USDS per day**
- 
+
 ###### [Mainnet] layerZeroRecipients[**30168**] (LayerZero/SkyBridge — Solana)
 
 - destinationEndpointId : [30168](https://docs.layerzero.network/v2/deployments/chains/solana)
@@ -317,7 +317,7 @@ The ALM controller [rate limit](https://sky-atlas.io/#A.2.3.9.1.1.1.2.2) paramet
 - Rate limit:
   - maxAmount: **25 million USDC**
   - Slope: **10 million USDC per day**
- 
+
 ###### [Solana] USDT-Reserve
 
 - Address: [3g74M93WWad6KuZoiwkAxPQsVZBuHhzpirBs73WPJ27W](https://solscan.io/account/3g74M93WWad6KuZoiwkAxPQsVZBuHhzpirBs73WPJ27W)
@@ -345,7 +345,7 @@ The ALM controller [rate limit](https://sky-atlas.io/#A.2.3.9.1.1.1.2.2) paramet
   - mint: [EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v](https://solscan.io/token/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v) (USDC)
   - destination_address: [0xa5139956eC99aE2e51eA39d0b57C42B6D8db0758](https://etherscan.io/address/0xa5139956eC99aE2e51eA39d0b57C42B6D8db0758) (Keel ALM Proxy)
   - destination_domain: **0 (Ethereum Mainnet)**
- 
+
 ###### [Solana] LzBridge-USDS-Integration
 
 - Address: [93bmMnKLgBXLMMfqVk53DzMAR4JcE3m5WX5hdTrUopuM](https://solscan.io/account/93bmMnKLgBXLMMfqVk53DzMAR4JcE3m5WX5hdTrUopuM)
@@ -365,7 +365,7 @@ The ALM controller [rate limit](https://sky-atlas.io/#A.2.3.9.1.1.1.2.2) paramet
   - peer_config: [CwL294rKs4a18rAKDnDs18JsSVoA5Cgz1ekwVPqsQgfR](https://solscan.io/account/CwL294rKs4a18rAKDnDs18JsSVoA5Cgz1ekwVPqsQgfR)
   - destination_address: [0xa5139956eC99aE2e51eA39d0b57C42B6D8db0758](https://etherscan.io/address/0xa5139956eC99aE2e51eA39d0b57C42B6D8db0758) (Keel ALM Proxy)
   - destination_eid: **30101 (Ethereum Mainnet)**
- 
+
 ###### [Solana] USDS/USDC-Switchboard-Feed (Oracle)
 
 - Address: [4ATfhXp6LibWDgzMZMQ729Q2qmnpxr319e5cSTXsxgrk](https://solscan.io/account/4ATfhXp6LibWDgzMZMQ729Q2qmnpxr319e5cSTXsxgrk)
@@ -376,7 +376,7 @@ The ALM controller [rate limit](https://sky-atlas.io/#A.2.3.9.1.1.1.2.2) paramet
   - min_sample_size: **1**
   - max_staleness: **100 (slots)**
   - auth_only_updates: **false**
- 
+
 ###### [Solana] USDS-USDC-AtomicSwap-Integration
 
 - Address: [3vAnLvHHERj4xdnrGhMcBpdL7p4RtyisgggHq78MWGSw](https://solscan.io/account/3vAnLvHHERj4xdnrGhMcBpdL7p4RtyisgggHq78MWGSw)
@@ -413,7 +413,7 @@ The ALM controller [rate limit](https://sky-atlas.io/#A.2.3.9.1.1.1.2.2) paramet
   - min_sample_size: **1**
   - max_staleness: **100 (slots)**
   - auth_only_updates: **false**
- 
+
 ###### [Solana] USDC-USDT-AtomicSwap-Integration
 
 - Address: [Efy1EWHmJzckFqpAbDzxnsMXwBu5Jf13BMXXf2fMUUcs](https://solscan.io/account/Efy1EWHmJzckFqpAbDzxnsMXwBu5Jf13BMXXf2fMUUcs)
@@ -439,7 +439,7 @@ The ALM controller [rate limit](https://sky-atlas.io/#A.2.3.9.1.1.1.2.2) paramet
   - expiry_timestamp: **i64::MAX (never)**
   - max_slippage_bps: **10**
   - oracle_price_inverted: **true**
- 
+
 ###### [Solana] USDT-USDC-AtomicSwap-Integration
 
 - Address: [EGbTPmtHB4MJ99pjbrZhquqhMGGixEev9TKQbsX4ioyV](https://solscan.io/account/EGbTPmtHB4MJ99pjbrZhquqhMGGixEev9TKQbsX4ioyV)
@@ -506,7 +506,7 @@ Various Kamino vaults will be onboarded on Solana with the following [rate limit
   - reserve: [BHUi32TrEsfN2U821G4FprKrR4hTeK4LCWtA3BFetuqA](https://solscan.io/account/BHUi32TrEsfN2U821G4FprKrR4hTeK4LCWtA3BFetuqA)
   - reserve_liquidity_mint: [USDSwr9ApdHk5bvJKMjzff41FfuX8bSxdKcR81vTwcA](https://solscan.io/token/USDSwr9ApdHk5bvJKMjzff41FfuX8bSxdKcR81vTwcA)
   - obligation_id: **0**
- 
+
 ###### [Solana] Kamino-Main-USDT-Integration
 
 - Address: [ArpjQUCqHvtDQZFR2tFbPPEKYiQHuaJkcFQBdW5NQC4U](https://solscan.io/account/ArpjQUCqHvtDQZFR2tFbPPEKYiQHuaJkcFQBdW5NQC4U)
