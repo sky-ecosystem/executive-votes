@@ -1,11 +1,11 @@
 ---
-title: Template - [Executive Vote] Launch StarGuards, October Monthly Settlement Cycle and Treasury Management Function, Whitelist Keel SubProxy, October Ranked Delegate Compensation, Atlas Core Development Compensation, Payment to Gnosis, Add ALLOCATOR-OBEX-A to SP-BEAM, Prime Agent Proxy Spells - November 27, 2025
-summary: Launch Starguard for Grove, Keel, and Obex, execute Monthly Settlement Cycle and Treasury Management Function for October, whitelist the Keel SubProxy to send cross-chain messages to Solana, pay Ranked Delegate Compensation for October, make Atlas Core Development USDS and SKY payments for November, make Gnosis payment for the difference between the Sky Savings Rate and the Dai Savings Rate on xDai, add ALLOCATOR-OBEX-A to SP-BEAM, whitelist Spark Proxy Spell in Spark Starguard, execute Keel Proxy Spell. 
+title: Template - [Executive Vote] Launch StarGuards, October Monthly Settlement Cycle and Treasury Management Function, October Ranked Delegate Compensation, Atlas Core Development Compensation, Payment to Gnosis, Add ALLOCATOR-OBEX-A to SP-BEAM, Prime Agent Proxy Spells - November 27, 2025
+summary: Launch Starguard for Grove, Keel, and Obex, execute Monthly Settlement Cycle and Treasury Management Function for October, pay Ranked Delegate Compensation for October, make Atlas Core Development USDS and SKY payments for November, make Gnosis payment for the difference between the Sky Savings Rate and the Dai Savings Rate on xDai, add ALLOCATOR-OBEX-A to SP-BEAM, whitelist Spark Proxy Spell in Spark Starguard, execute Keel Proxy Spell. 
 date: 2025-11-27T00:00:00.000Z
 address: "$spell_address"
 ---
 
-# [Executive Proposal] Launch Starguards, Monthly Settlement Cycle and Treasury Management Function for October, Whitelist Keel SubProxy, Ranked Delegate Compensation, Atlas Core Development Compensation, Payment to Gnosis, Add ALLOCATOR-OBEX-A to SP-BEAM, Prime Agent Proxy Spells - November 27, 2025
+# [Executive Proposal] Launch Starguards, Monthly Settlement Cycle and Treasury Management Function for October, Ranked Delegate Compensation, Atlas Core Development Compensation, Payment to Gnosis, Add ALLOCATOR-OBEX-A to SP-BEAM, Prime Agent Proxy Spells - November 27, 2025
 
 The Core Facilitators, Dewiz, and Sidestream have placed an executive proposal into the voting system. SKY holders should vote for this proposal if they support the following alterations to the Sky Protocol.
 
@@ -19,7 +19,6 @@ If this executive proposal passes, the following **actions** will occur within t
 
 - StarGuard modules for Grove, Keel, and Obex will be launched.
 - The Monthly Settlement Cycle and Treasury Management Function for October 2025 will be executed.
-- The Keel SubProxy will be whitelisted to send cross-chain messages to Solana, as described below.
 - A total of **23,479 USDS** will be distributed to six Ranked Delegates as compensation for October 2025.
 - A total of **66,584 USDS** and **618,000 SKY** will be distributed as Atlas Core Development compensation for November 2025.
 - **1,806,670 USDS** will be transferred to Gnosis at [0x849D52316331967b6fF1198e5E32A0eB168D039d](https://etherscan.io/address/0x849D52316331967b6fF1198e5E32A0eB168D039d).
@@ -119,24 +118,6 @@ If this executive proposal passes, then the October 2025 Monthly Settlement Cycl
 
 - Transfer **3,177,413 USDS** to the Core Council Buffer Multisig at [0x210CFcF53d1f9648C1c4dcaEE677f0Cb06914364](https://etherscan.io/address/0x210CFcF53d1f9648C1c4dcaEE677f0Cb06914364).
 - Transfer **158,871 USDS** to the Aligned Delegates Buffer Multisig at [0x37FC5d447c8c54326C62b697f674c93eaD2A93A3](https://etherscan.io/address/0x37FC5d447c8c54326C62b697f674c93eaD2A93A3)
-
-### Whitelist the Keel SubProxy to Send Cross-Chain Messages to Solana
-
-- **Authorization**: [Governance Poll 1606](https://vote.sky.money/polling/QmdomJ7o), [A.6.1.1.3.2.6.1.2.1.1.4.3](https://sky-atlas.io/#A.6.1.1.3.2.6.1.2.1.1.4.3)
-- **Proposal**: [Forum Post 1](https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-2025-11-17/27421), [2](https://forum.sky.money/t/executive-inclusion-whitelisting-the-keel-subproxy-to-send-cross-chain-messages-to-solana/27447)
-
-If this executive proposal passes, then the Keel SubProxy will be whitelisted to send cross-chain messages to Solana. This will allow the Keel SubProxy on mainnet to control the Solana ALM Controller and upgrade it in future, if required. This is achieved through the following calls:
-
-- Call [`setCanCallTarget`](https://github.com/sky-ecosystem/sky-oapp-oft/blob/main/contracts/GovernanceOAppSender.sol#L45-L50) on [LZ_GOV_SENDER](https://etherscan.io/address/0x27FC1DD771817b53bE48Dc28789533BEa53C9CCA) with the following parameters:
-  - _srcSender: [KEEL_SUBPROXY](https://etherscan.io/address/0x355CD90Ecb1b409Fdf8b64c4473C3B858dA2c310)
-  - _dstEID: SOL_EID defined by LayerZero
-  - _dstTarget: [ALM1JSnEhc5PkNecbSZotgprBuJujL5objTbwGtpTgTd](https://solscan.io/account/ALM1JSnEhc5PkNecbSZotgprBuJujL5objTbwGtpTgTd)
-  - _canCall: true
-- Call [`setCanCallTarget`](https://github.com/sky-ecosystem/sky-oapp-oft/blob/main/contracts/GovernanceOAppSender.sol#L45-L50) on [LZ_GOV_SENDER](https://etherscan.io/address/0x27FC1DD771817b53bE48Dc28789533BEa53C9CCA) with the following parameters:
-  - _srcSender: [KEEL_SUBPROXY](https://etherscan.io/address/0x355CD90Ecb1b409Fdf8b64c4473C3B858dA2c310)
-  - _dstEID: SOL_EID defined by LayerZero
-  - _dstTarget: [BPFLoaderUpgradeab1e11111111111111111111111](https://solscan.io/account/BPFLoaderUpgradeab1e11111111111111111111111)
-  - _canCall: true
 
 ### Delegate Compensation for October 2025
 
