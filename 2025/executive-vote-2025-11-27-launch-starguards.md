@@ -2,7 +2,7 @@
 title: Template - [Executive Vote] Launch StarGuards, October Monthly Settlement Cycle and Treasury Management Function, October Ranked Delegate Compensation, Atlas Core Development Compensation, Payment to Gnosis, Add ALLOCATOR-OBEX-A to SP-BEAM, Prime Agent Proxy Spells - November 27, 2025
 summary: Launch Starguard for Grove, Keel, and Obex, execute Monthly Settlement Cycle and Treasury Management Function for October, pay Ranked Delegate Compensation for October, make Atlas Core Development USDS and SKY payments for November, make Gnosis payment for the difference between the Sky Savings Rate and the Dai Savings Rate on xDai, add ALLOCATOR-OBEX-A to SP-BEAM, whitelist Spark Proxy Spell in Spark Starguard, execute Keel Proxy Spell. 
 date: 2025-11-27T00:00:00.000Z
-address: "$spell_address"
+address: "0xa57d885d8FB034455aADb8c3F3D5414c214cBe3d"
 ---
 
 # [Executive Proposal] Launch StarGuards, October Monthly Settlement Cycle and Treasury Management Function, October Ranked Delegate Compensation, Atlas Core Development Compensation, Payment to Gnosis, Add ALLOCATOR-OBEX-A to SP-BEAM, Prime Agent Proxy Spells - November 27, 2025
