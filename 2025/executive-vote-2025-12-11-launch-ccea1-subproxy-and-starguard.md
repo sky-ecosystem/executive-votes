@@ -158,7 +158,7 @@ If this executive proposal passes, then a total of **66,584 USDS** and **618,000
 
 If this executive proposal passes, then a Spark Proxy Spell at [0x2cB9Fa737603cB650d4919937a36EA732ACfe963](https://etherscan.io/address/0x2cB9Fa737603cB650d4919937a36EA732ACfe963) with the codehash `0x5fdec666ca088e84b1e330ce686b9b4bb84d01022c8de54529dc90cacfd56e37` will be whitelisted in the [Spark StarGuard](https://etherscan.io/address/0x6605aa120fe8b656482903E7757BaBF56947E45E).
 
-If this executive proposal passes, then a Grove Proxy Spell at [0x6772d7eaab1c2e275f46b99d8cce8d470fa790ab](https://etherscan.io/address/0x6772d7eaab1c2e275f46b99d8cce8d470fa790ab) with the codehash `0x62e0ddd487406519e23c4c6e26414e898c2442dd90365ee1a4a7cb188114e614` will be whitelisted in the [Grove StarGuard](https://etherscan.io/address/0xfc51CAa049E8894bEcFfB68c61095C3F3Ec8a880).
+If this executive proposal passes, then a Grove Proxy Spell at [0x6772d7eaaB1c2e275f46B99D8cce8d470fA790Ab](https://etherscan.io/address/0x6772d7eaaB1c2e275f46B99D8cce8d470fA790Ab) with the codehash `0x62e0ddd487406519e23c4c6e26414e898c2442dd90365ee1a4a7cb188114e614` will be whitelisted in the [Grove StarGuard](https://etherscan.io/address/0xfc51CAa049E8894bEcFfB68c61095C3F3Ec8a880).
 
 #### Spark
 
