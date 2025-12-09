@@ -1,13 +1,13 @@
 ---
-title: Template - [Executive Vote] Initialize and Fund Core Council Executor Agent 1 SubProxy and StarGuard, USDS-SKY Farm Normalization, Increase Delayed Upgrade Penalty, Adjust stUSDS Capped OSM and Liquidation Ratio, Adjust stUSDS BEAM step Parameters, DAO Resolution, Ranked Delegate and Atlas Core Development Compensation, Star Proxy Spells - December 11, 2025
-summary: Initialize and fund the SubProxy and StarGuard for Core Council Executor Agent 1, normalize the USDS-SKY farm vesting stream, increase the Delayed Upgrade Penalty to 2%,  decrease the stUSDS capped oracle price and liquidation ratio, increase the stUSDS BEAM step parameters, approve a DAO Resolution for HVBank (RWA009-A), distribute Ranked Delegate and Atlas Core Development compensation, whitelist proxy spells for Spark and Grove in their respective StarGuard modules.
+title: Template - [Executive Vote] Initialize and Fund Core Council Executor Agent 1 SubProxy and StarGuard, USDS-SKY Farm Normalization, Increase Delayed Upgrade Penalty, Adjust stUSDS Liquidation Ratio and Capped OSM, Adjust stUSDS BEAM step Parameters, DAO Resolution, Ranked Delegate and Atlas Core Development Compensation, Star Proxy Spells - December 11, 2025
+summary: Initialize and fund the SubProxy and StarGuard for Core Council Executor Agent 1, normalize the USDS-SKY farm vesting stream, increase the Delayed Upgrade Penalty to 2%, decrease the stUSDS Liquidation Ratio and Capped Pracle price, increase the stUSDS BEAM step parameters, approve a DAO Resolution for HVBank (RWA009-A), distribute Ranked Delegate and Atlas Core Development compensation, whitelist proxy spells for Spark and Grove in their respective StarGuard modules.
 date: 2025-12-11T00:00:00.000Z
 address: "$spell_address"
 ---
 
-# [Executive Proposal] Initialize and Fund Core Council Executor Agent 1 SubProxy and StarGuard, USDS-SKY Farm Normalization, Increase Delayed Upgrade Penalty, Adjust stUSDS Capped OSM and Liquidation Ratio, Adjust stUSDS BEAM step Parameters, DAO Resolution, Ranked Delegate and Atlas Core Development Compensation, Star Proxy Spells - December 11, 2025
+# [Executive Proposal] Initialize and Fund Core Council Executor Agent 1 SubProxy and StarGuard, USDS-SKY Farm Normalization, Increase Delayed Upgrade Penalty, Adjust stUSDS Liquidation Ratio and Capped OSM, Adjust stUSDS BEAM step Parameters, DAO Resolution, Ranked Delegate and Atlas Core Development Compensation, Star Proxy Spells - December 11, 2025
 
-The Core Facilitator, Dewiz, and Sidestream have placed an executive proposal into the voting system. SKY holders should vote for this proposal if they support the following alterations to the Sky Protocol.
+The Core Facilitator, Sidestream, and Dewiz have placed an executive proposal into the voting system. SKY holders should vote for this proposal if they support the following alterations to the Sky Protocol.
 
 If you are new to voting in the Sky Protocol, please see the [voting guide](https://manual.makerdao.com/governance/voting-in-makerdao/on-chain-governance) to learn how voting works.
 
@@ -20,7 +20,7 @@ If this executive proposal passes, the following **actions** will occur within t
 - The Core Council Executor Agent 1 SubProxy and StarGuard will be initialized.
 - The Core Council Executor Agent 1 Genesis Capital Allocation will be distributed
 - The USDS -> SKY Farm will be normalized.
-- The stUSDS OSM `cap` and Liquidation Ratio parameters will be updated.
+- The stUSDS Liquidation Ratio and OSM `cap` parameters will be updated.
 - The stUSDS BEAM `step` parameters will be increased.
 - A DAO Resolution relating to HV-BANK (RWA009-A) will be approved.
 - A total of **22,815 USDS** will be distributed to six Ranked Delegates as compensation for November 2025.
@@ -29,7 +29,7 @@ If this executive proposal passes, the following **actions** will occur within t
 
 **Voting for this executive proposal will place your SKY in support of the actions outlined above.**
 
-Unless otherwise noted, the actions listed above are subject to the [GSM Pause Delay](https://sky-atlas.io/#A.1.9.3.1). This means that if this executive proposal passes, the changes and additions listed above will only become active in the Sky Protocol after the GSM Pause Delay has expired. The GSM Pause Delay is currently set to [**24**](https://sky-atlas.io/#A.1.9.3.1.2).
+Unless otherwise noted, the actions listed above are subject to the [GSM Pause Delay](https://sky-atlas.io/#A.1.9.3.1). This means that if this executive proposal passes, the changes and additions listed above will only become active in the Sky Protocol after the GSM Pause Delay has expired. The GSM Pause Delay is currently set to [**24 hours**](https://sky-atlas.io/#A.1.9.3.1.2).
 
 This executive proposal includes an office-hours modifier that means that it **can only be executed between 14:00 and 21:00 UTC, Monday - Friday**.
 
@@ -97,8 +97,8 @@ If this executive proposal passes, then the distribution of SKY token rewards to
 
 If this executive proposal passes, then stUSDS risk parameters will be updated as follows:
 
-- Reduce the SKY-Backed Borrowing Capped OSM Wrapper [`cap`](https://sky-atlas.io/#A.4.4.1.3.9.1.1) parameter by 0.015 USDS from 0.04 USDS to **0.25 USDS**.
-- Reduce the stUSDS [Liquidation Ratio (`mat`)](https://sky-atlas.io/#A.3.7.1.1.2.1) by 25 percentage points from 145% to **120%**.
+- Decrease the stUSDS [Liquidation Ratio (`mat`)](https://sky-atlas.io/#A.3.7.1.1.2.1) by 25 percentage points from 145% to **120%**. 
+- Decrease the SKY-Backed Borrowing Capped OSM Wrapper [`cap`](https://sky-atlas.io/#A.4.4.1.3.9.1.1) parameter by 0.015 USDS from 0.04 USDS to **0.25 USDS**.
 
 ### stUSDS BEAM Parameter Updates
 
@@ -167,8 +167,8 @@ If this executive proposal passes, then a Grove Proxy Spell at [0x6772d7eaaB1c2e
 - **Authorization**: [A.2.9.2.2.2.5.5.1](https://sky-atlas.io/#A.2.9.2.2.2.5.5.1)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/december-11-2025-proposed-changes-to-spark-for-upcoming-spell/27481)
 
-- Transfer 1.1 million USDS to the Spark Foundation at [0x92e4629a4510AF5819d7D1601464C233599fF5ec](https://etherscan.io/address/0x92e4629a4510AF5819d7D1601464C233599fF5ec)
-- Transfer 150,000 USDS to the Spark Asset Foundation at [0xEabCb8C0346Ac072437362f1692706BA5768A911](https://etherscan.io/address/0xEabCb8C0346Ac072437362f1692706BA5768A911)
+- Transfer **1.1 million USDS** to the Spark Foundation at [0x92e4629a4510AF5819d7D1601464C233599fF5ec](https://etherscan.io/address/0x92e4629a4510AF5819d7D1601464C233599fF5ec)
+- Transfer **150,000 USDS** to the Spark Asset Foundation at [0xEabCb8C0346Ac072437362f1692706BA5768A911](https://etherscan.io/address/0xEabCb8C0346Ac072437362f1692706BA5768A911)
 
 ##### [Mainnet] SparkLend - Withdraw Reserves
 
