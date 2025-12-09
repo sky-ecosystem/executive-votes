@@ -20,6 +20,7 @@ If this executive proposal passes, the following **actions** will occur within t
 - The Core Council Executor Agent 1 SubProxy and StarGuard will be initialized.
 - The Core Council Executor Agent 1 Genesis Capital Allocation will be distributed
 - The USDS -> SKY Farm will be normalized.
+- The Delayed Upgrade Penalty for conversion from MKR to SKY will be increased.
 - The stUSDS Liquidation Ratio and OSM `cap` parameters will be updated.
 - The stUSDS BEAM `step` parameters will be increased.
 - A DAO Resolution relating to HV-BANK (RWA009-A) will be approved.
@@ -89,6 +90,15 @@ If this executive proposal passes, then the distribution of SKY token rewards to
   - `tot`: **60,297,057 SKY**
 - Adjust the Sky allowance for [MCD_VEST_SKY_TREASURY](https://etherscan.io/address/0x67eadb3288ccede034ce95b0511dcc65cf630bb6), reducing it by the remaining yanked stream amount and increasing it by the new stream total.
 - `file` the new stream ID on [REWARDS_DIST_USDS_SKY](https://etherscan.io/address/0xc8d67fcf101d3f89d0e1f3a2857485a84072a63f)
+
+### Delayed Upgrade Penalty Increase
+
+- **Authorization**: [A.4.1.2.1.1.1.1](https://sky-atlas.io/#A.4.1.2.1.1.1.1)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/delayed-migration-penalty-update-december-11th-spell/27520)
+
+If this executive proposal passes, then the [Delayed Upgrade Penalty](https://sky-atlas.io/#A.4.1.2.1.1.1.1) in the [MKR_SKY](https://etherscan.io/address/0xa1ea1ba18e88c381c724a75f23a130420c403f9) conversion contract will be increased as follows:
+
+- Increase the Delayed Upgrade Penalty (`fee`) by 1 percentage point from 1% to **2%**.
 
 ### stUSDS Risk Parameter Updates
 
