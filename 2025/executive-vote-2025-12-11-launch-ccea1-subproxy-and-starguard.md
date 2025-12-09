@@ -79,9 +79,9 @@ If this executive proposal passes, then the Genesis Capital Allocation for Core 
 - **Authorization**: [A.4.3.2.1](https://sky-atlas.io/#A.4.3.2.1)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/sky-token-rewards-usds-to-sky-rewards-normalization-configuration/26638/24)
 
-If this executive proposal passes, then the distribution of SKY token rewards to USDS holders will be normalized to ensure the effective yield provided by these rewards equals the Sky Savings Rate (SSR), as per [A.4.3.2 - Token Reward Mechanism](https://sky-atlas.powerhouse.io/A.4.3.2_Token_Reward_Mechanism/2e3e7014-bd66-4e85-b915-b86ae3ceeb16%7Cb3417d54), by executing the following actions:
+If this executive proposal passes, then the distribution of SKY token rewards to USDS holders will be normalized to ensure the effective yield provided by these rewards equals the Sky Savings Rate (SSR), as per [A.4.3.2 - Token Reward Mechanism](https://sky-atlas.io/#A.4.3.2), by executing the following actions:
 
-- `yank` [MCD_VEST_SKY_TREASURY](https://etherscan.io/address/0x67eadb3288ccede034ce95b0511dcc65cf630bb6) vest with ID 6.
+- `yank` [MCD_VEST_SKY_TREASURY](https://etherscan.io/address/0x67eadb3288ccede034ce95b0511dcc65cf630bb6) vest with ID 7.
 - Distribute the remaining tokens from the old DssVest by calling `VestedRewardsDistribution.distribute()` on [REWARDS_DIST_USDS_SKY](https://etherscan.io/address/0xc8d67fcf101d3f89d0e1f3a2857485a84072a63f)
 - Create a new [MCD_VEST_SKY_TREASURY](https://etherscan.io/address/0x67eadb3288ccede034ce95b0511dcc65cf630bb6) stream with the following parameters:
   - `res`: 1 (restricted)
@@ -108,7 +108,7 @@ If this executive proposal passes, then the [Delayed Upgrade Penalty](https://sk
 If this executive proposal passes, then stUSDS risk parameters will be updated as follows:
 
 - Decrease the stUSDS [Liquidation Ratio (`mat`)](https://sky-atlas.io/#A.3.7.1.1.2.1) by 25 percentage points from 145% to **120%**. 
-- Decrease the SKY-Backed Borrowing Capped OSM Wrapper [`cap`](https://sky-atlas.io/#A.4.4.1.3.9.1.1) parameter by 0.015 USDS from 0.04 USDS to **0.25 USDS**.
+- Decrease the SKY-Backed Borrowing Capped OSM Wrapper [`cap`](https://sky-atlas.io/#A.4.4.1.3.9.1.1) parameter by 0.015 USDS from 0.04 USDS to **0.025 USDS**.
 
 ### stUSDS BEAM Parameter Updates
 
