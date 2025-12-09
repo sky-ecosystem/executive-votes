@@ -18,7 +18,7 @@ If you are new to voting in the Sky Protocol, please see the [voting guide](http
 If this executive proposal passes, the following **actions** will occur within the Sky Protocol:
 
 - The Core Council Executor Agent 1 SubProxy and StarGuard will be initialized.
-- The Core Council Executor Agent 1 Genesis Capital Allocation will be distributed
+- The Core Council Executor Agent 1 Genesis Capital Allocation will be distributed.
 - The USDS -> SKY Farm will be normalized.
 - The Delayed Upgrade Penalty for conversion from MKR to SKY will be increased.
 - The stUSDS Liquidation Ratio and OSM `cap` parameters will be updated.
