@@ -2,7 +2,7 @@
 title: Template - [Executive Vote] Initialize and Fund Core Council Executor Agent 1 SubProxy and StarGuard, USDS-SKY Farm Normalization, Increase Delayed Upgrade Penalty, Adjust stUSDS Liquidation Ratio and Capped OSM, Adjust stUSDS BEAM step Parameters, DAO Resolution, Ranked Delegate and Atlas Core Development Compensation, Star Proxy Spells - December 11, 2025
 summary: Initialize and fund the SubProxy and StarGuard for Core Council Executor Agent 1, normalize the USDS-SKY farm vesting stream, increase the Delayed Upgrade Penalty to 2%, decrease the stUSDS Liquidation Ratio and Capped Oracle price, increase the stUSDS BEAM step parameters, approve a DAO Resolution for HVBank (RWA009-A), distribute November Ranked Delegate and December Atlas Core Development compensation, whitelist proxy spells for Spark and Grove in their respective StarGuard modules.
 date: 2025-12-11T00:00:00.000Z
-address: "$spell_address"
+address: "0x0D2BDA9a446527238E802708B370DD66f375E4d1"
 ---
 
 # [Executive Proposal] Initialize and Fund Core Council Executor Agent 1 SubProxy and StarGuard, USDS-SKY Farm Normalization, Increase Delayed Upgrade Penalty, Adjust stUSDS Liquidation Ratio and Capped OSM, Adjust stUSDS BEAM step Parameters, DAO Resolution, Ranked Delegate and Atlas Core Development Compensation, Star Proxy Spells - December 11, 2025
