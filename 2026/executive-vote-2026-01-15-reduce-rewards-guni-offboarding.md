@@ -1,6 +1,6 @@
 ---
 title: Template - [Executive Vote] Reduce Rewards Emissions, Complete GUNI Vault Offboardings, Whitelist Keel SubProxy to Send Cross-Chain Messages, Adjust Grove DC-IAM Parameters, Delegate Compensation, Star Agent Proxy Spells - January 15, 2026
-summary: Reduce emissions to the LSSKY-USDS and LSSKY-SPK farms, finalize the offboarding of GUNIV3DAIUSDC1-A and GUNIV3DAIUSDC2-A, whitelist the Keel SubProxy to send cross-chain messages using the Solana governance bridge, adjust the ALLOCATOR-BLOOM-A DC-IAM parameters, Ranked Delegate compensation for December 2025, whitelist Star Agent proxy spells in the respective StarGuard modules.
+summary: Reduce emissions to the USDS-SKY and LSSKY-SPK farms, finalize the offboarding of GUNIV3DAIUSDC1-A and GUNIV3DAIUSDC2-A, whitelist the Keel SubProxy to send cross-chain messages using the Solana governance bridge, adjust the ALLOCATOR-BLOOM-A DC-IAM parameters, Ranked Delegate compensation for December 2025, whitelist Star Agent proxy spells in the respective StarGuard modules.
 date: 2026-01-15T00:00:00.000Z
 address: "$spell_address"
 ---
@@ -17,7 +17,7 @@ If you are new to voting in the Sky Protocol, please see the [voting guide](http
 
 If this executive proposal passes, the following **actions** will occur within the Sky Protocol:
 
-- The LSSKY-USDS and LSSKY-SPK rewards streams will be terminated.
+- The USDS-SKY and LSSKY-SPK rewards streams will be terminated.
 - The offboarding of GUNIV3DAIUSDC1-A and GUNIV3DAIUSDC2-A will be completed.
 - The Keel SubProxy will be whitelisted to send cross-chain messages to Solana.
 - ALLOCATOR-BLOOM-A DC-IAM parameters will be adjusted.
@@ -41,7 +41,7 @@ If this executive proposal does not pass within 30 days, then it will expire and
 - **Authorization**: [Governance Poll 1613](https://vote.sky.money/polling/QmYmaVVc)
 - **Proposal**: [Forum Proposal](https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-2026-01-12/27606)
 
-If this executive proposal passes, then rewards to the LSSKY-USDS and LSSKY-SPK farms will be terminated through the following actions.
+If this executive proposal passes, then rewards to the USDS-SKY and LSSKY-SPK farms will be terminated through the following actions.
 
 #### USDS-SKY
 
@@ -124,11 +124,11 @@ If this executive proposal passes, then the following distributions totaling **2
 
 ### Star Agent Proxy Spells
 
-If this executive proposal passes, then a Spark Proxy Spell at [0xCE352d9429A5e10b29D3d610C7217f9333e04aB4](https://etherscan.io/address/0xCE352d9429A5e10b29D3d610C7217f9333e04aB4) with the codehash `0x10d1055c82acd9d6804cfb64a80decf3880a257b8af6adad603334325d2586ed` will be whitelisted in the [Spark StarGuard](https://etherscan.io/address/0x6605aa120fe8b656482903E7757BaBF56947E45E).
+If this executive proposal passes, then a Spark proxy spell at [0xCE352d9429A5e10b29D3d610C7217f9333e04aB4](https://etherscan.io/address/0xCE352d9429A5e10b29D3d610C7217f9333e04aB4) with the codehash `0x10d1055c82acd9d6804cfb64a80decf3880a257b8af6adad603334325d2586ed` will be whitelisted in the [Spark StarGuard](https://etherscan.io/address/0x6605aa120fe8b656482903E7757BaBF56947E45E).
 
-If this executive proposal passes, then a Grove Proxy Spell at [0x90230A17dcA6c0b126521BB55B98f8C6Cf2bA748](https://etherscan.io/address/0x90230A17dcA6c0b126521BB55B98f8C6Cf2bA748) with the codehash `0x9317fd876201f5a1b08658b47a47c8980b8c8aa7538e059408668b502acfa5fb` will be whitelisted in the [Grove StarGuard](https://etherscan.io/address/0xfc51CAa049E8894bEcFfB68c61095C3F3Ec8a880).
+If this executive proposal passes, then a Grove proxy spell at [0x90230A17dcA6c0b126521BB55B98f8C6Cf2bA748](https://etherscan.io/address/0x90230A17dcA6c0b126521BB55B98f8C6Cf2bA748) with the codehash `0x9317fd876201f5a1b08658b47a47c8980b8c8aa7538e059408668b502acfa5fb` will be whitelisted in the [Grove StarGuard](https://etherscan.io/address/0xfc51CAa049E8894bEcFfB68c61095C3F3Ec8a880).
 
-If this executive proposal passes, then a Keel Proxy Spell at [0x10AF705fB80bc115FCa83a6B976576Feb1E1aaca](https://etherscan.io/address/0x10AF705fB80bc115FCa83a6B976576Feb1E1aaca) with the codehash `0xa231c2a3fa83669201d02335e50f6aa379a6319c5972cc046b588c08d91fd44d` will be whitelisted in the [Keel StarGuard](https://etherscan.io/address/0xe8fF70481d653Ec31AB9E0cB2A8B316afF8D84ee).
+If this executive proposal passes, then a Keel proxy spell at [0x10AF705fB80bc115FCa83a6B976576Feb1E1aaca](https://etherscan.io/address/0x10AF705fB80bc115FCa83a6B976576Feb1E1aaca) with the codehash `0xa231c2a3fa83669201d02335e50f6aa379a6319c5972cc046b588c08d91fd44d` will be whitelisted in the [Keel StarGuard](https://etherscan.io/address/0xe8fF70481d653Ec31AB9E0cB2A8B316afF8D84ee).
 
 #### Spark Proxy Spell
 
@@ -153,7 +153,7 @@ A new curator and guardian multisig for the Morpho vault will be added with the 
   - Threshold: **3 of 5**
 - Guardian role: [**0xf5748bBeFa17505b2F7222B23ae11584932C908B**](https://etherscan.io/address/0xf5748bBeFa17505b2F7222B23ae11584932C908B)
   - Threshold: **3 of 5**
-Timelock: **10 days (240 hours)**
+- Timelock: **10 days (240 hours)**
 
 ##### [Ethereum Mainnet] Spark Blue Chip USDC Morpho Vault - Update Vault Roles
 
@@ -166,18 +166,20 @@ A new curator and guardian multisig for the Morpho vault will be added with the 
   - Threshold: **3 of 5**
 - Guardian role: [**0xf5748bBeFa17505b2F7222B23ae11584932C908B**](https://etherscan.io/address/0xf5748bBeFa17505b2F7222B23ae11584932C908B)
   - Threshold: **3 of 5**
-Timelock: **10 days (240 hours)**
+- Timelock: **10 days (240 hours)**
 
 ##### [Base] Spark USDC Morpho Vault - Update Vault Roles
 
 - **Authorization**: [Snapshot Poll](https://snapshot.box/#/s:sparkfi.eth/proposal/0x85f242a3d35252380a21ae3e5c80b023122e74af95698a301b541c7b610ffee8)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/january-15-2026-proposed-changes-to-spark-for-upcoming-spell/27585)
 
+A new curator and guardian multisig for the Morpho vault will be added with the following details:
+
 - Curator role: [**0x0f963A8A8c01042B69054e787E5763ABbB0646A3**](https://basescan.org/address/0x0f963A8A8c01042B69054e787E5763ABbB0646A3)
   - Threshold: **3 of 5**
 - Guardian role: [**0xf5748bBeFa17505b2F7222B23ae11584932C908B**](https://basescan.org/address/0xf5748bBeFa17505b2F7222B23ae11584932C908B)
   - Threshold: **3 of 5**
-Timelock: **10 days (240 hours)**
+- Timelock: **10 days (240 hours)**
 
 ##### [Ethereum Mainnet] Spark Savings - Increase spUSDC Deposit Cap
 
@@ -289,7 +291,7 @@ The MainnetController will be upgraded to v1.8.0.
 - **Authorization**: [Governance Poll 1612](https://vote.sky.money/polling/QmcJnbbu)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/january-15-2026-prime-technical-scope-parameter-change-for-upcoming-spell/27567)
 
-The CCTP mintRecipient address on Solana will be updated to Keel’s Solana ALM Controller’s USDC token account at [4UA2CC9fQDTbX1SnJcanYn2QU5PtyB1MGfezDvGFPVwd](https://solscan.io/account/4UA2CC9fQDTbX1SnJcanYn2QU5PtyB1MGfezDvGFPVwd).
+The CCTP mintRecipient address on Solana will be updated to the Keel Solana ALM Controller’s USDC token account at [4UA2CC9fQDTbX1SnJcanYn2QU5PtyB1MGfezDvGFPVwd](https://solscan.io/account/4UA2CC9fQDTbX1SnJcanYn2QU5PtyB1MGfezDvGFPVwd).
 
 ## Review
 
