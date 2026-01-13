@@ -21,7 +21,7 @@ If this executive proposal passes, the following **actions** will occur within t
 - The offboarding of GUNIV3DAIUSDC1-A and GUNIV3DAIUSDC2-A will be completed.
 - The Keel SubProxy will be whitelisted to send cross-chain messages to Solana.
 - ALLOCATOR-BLOOM-A DC-IAM parameters will be adjusted.
-- Ranked Delegate compensation for December 2025 totalling 20,755 USDS will be distributed.
+- Ranked Delegate compensation for December 2025, totaling **20,755 USDS**, will be distributed.
 - Star Agent proxy spells for Spark, Grove, and Keel will be whitelisted in the respective StarGuard modules.
 
 **Voting for this executive proposal will place your SKY in support of the actions outlined above.**
@@ -46,12 +46,12 @@ If this executive proposal passes, then rewards to the LSSKY-USDS and LSSKY-SPK 
 #### USDS-SKY
 
 - Call `VestedRewardsDistribution.distribute()` on [REWARDS_DIST_USDS_SKY](https://etherscan.io/address/0xC8d67Fcf101d3f89D0e1F3a2857485A84072a63F)
-- `yank` [MCD_VEST_SKY_TREASURY](https://etherscan.io/address/0x67eaDb3288cceDe034cE95b0511DCc65cf630bB6) stream with `id` of **9**.
+- `yank` [MCD_VEST_SKY_TREASURY](https://etherscan.io/address/0x67eaDb3288cceDe034cE95b0511DCc65cf630bB6) stream with `id` of **9**
 
 #### LSSKY-SPK
 
 - Call `VestedRewardsDistribution.distribute()` on [REWARDS_DIST_LSSKY_SPK](https://etherscan.io/address/0xa3Ee378BdD0b7DD403cEd3a0A65B2B389A2eaB7e)
-- `yank` [MCD_VEST_SPK_TREASURY](https://etherscan.io/address/0xF9A2002b471f600A5484da5a735a2A053d377078) stream with `id` of **2**.
+- `yank` [MCD_VEST_SPK_TREASURY](https://etherscan.io/address/0xF9A2002b471f600A5484da5a735a2A053d377078) stream with `id` of **2**
 
 ### Complete GUNI Vault Offboardings
 
@@ -103,8 +103,8 @@ This will be done by calling [setCanCallTarget](https://github.com/sky-ecosystem
 
 If this executive proposal passes, then the ALLOCATOR-BLOOM-A DC-IAM parameters will be adjusted as follows:
 
-- Increase ALLOCATOR-BLOOM-A DC-IAM [Target Available Debt (`gap`)](https://sky-atlas.io/#A.3.7.1.1.2.4.2) by 200 million USDS, from 50 million USDS to 250 million USDS
-- Increase ALLOCATOR-BLOOM-A DC-IAM [Maximum Debt Ceiling (`line`)](https://sky-atlas.io/#A.3.7.1.1.2.4.1) by 2.5 billion USDS, from 2.5 billion USDS to 5 billion USDS
+- Increase ALLOCATOR-BLOOM-A DC-IAM [Target Available Debt (`gap`)](https://sky-atlas.io/#A.3.7.1.1.2.4.2) by 200 million USDS, from 50 million USDS to **250 million USDS**
+- Increase ALLOCATOR-BLOOM-A DC-IAM [Maximum Debt Ceiling (`line`)](https://sky-atlas.io/#A.3.7.1.1.2.4.1) by 2.5 billion USDS, from 2.5 billion USDS to **5 billion USDS**
 
 ### Ranked Delegate Compensation for December 2025
 
