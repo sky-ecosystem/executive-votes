@@ -62,27 +62,27 @@ If this executive proposal passes, then the offboarding of GUNIV3DAIUSDC1-A and 
 
 #### GUNIV3DAIUSDC1-A
 
-- [Liquidation Ratio (mat)](https://sky-atlas.io/#A.3.7.1.1.2.1): increase by 898 percentage points, from 102% to **1000%**
-- [Liquidation Penalty (chop)](https://sky-atlas.io/#A.3.7.1.1.2.5.7): reduce by 13 percentage points, from 13% to **0%**
-- [Flat Kick Incentive (tip)](https://sky-atlas.io/#A.3.7.1.1.2.5.6): reduce by 300 DAI, from 300 DAI to **0 DAI**
-- [Proportional Kick Incentive (chip)](https://sky-atlas.io/#A.3.7.1.1.2.5.5): reduce by 0.1 percentage points, from 0.1% to **0%**
-- [Auction Price Multiplier (buf)](https://sky-atlas.io/#A.3.7.1.1.2.5.2): reduce by 3 percentage points, from 105% to **102%**
-- [Max Auction Drawdown (cusp)](https://sky-atlas.io/#A.3.7.1.1.2.5.3): increase by 5 percentage points, from 90% to **95%**
-- [Auction Price Function (step)](https://sky-atlas.io/#A.3.7.1.1.2.5.1.2): reduce by 60 seconds, from 120 seconds to **60 seconds**
-- [Max Auction Duration (tail)](https://sky-atlas.io/#A.3.7.1.1.2.5.4): reduce by 9,900 seconds, from 13,200 seconds to **3,300 seconds**
-- Update the value of [stopped](https://github.com/sky-ecosystem/governance-manual/blob/main/governance/gsm-exceptions.md#liquidations-circuit-breaker) to **0** on [MCD_CLIP_GUNIV3DAIUSDC1_A](https://etherscan.io/address/0x5048c5Cd3102026472f8914557A1FD35c8Dc6c9e)
+- [Liquidation Ratio (`mat`)](https://sky-atlas.io/#A.3.7.1.1.2.1): increase by 898 percentage points, from 102% to **1000%**
+- [Liquidation Penalty (`chop`)](https://sky-atlas.io/#A.3.7.1.1.2.5.7): reduce by 13 percentage points, from 13% to **0%**
+- [Flat Kick Incentive (`tip`)](https://sky-atlas.io/#A.3.7.1.1.2.5.6): reduce by 300 DAI, from 300 DAI to **0 DAI**
+- [Proportional Kick Incentive (`chip`)](https://sky-atlas.io/#A.3.7.1.1.2.5.5): reduce by 0.1 percentage points, from 0.1% to **0%**
+- [Auction Price Multiplier (`buf`)](https://sky-atlas.io/#A.3.7.1.1.2.5.2): reduce by 3 percentage points, from 105% to **102%**
+- [Max Auction Drawdown (`cusp`)](https://sky-atlas.io/#A.3.7.1.1.2.5.3): increase by 5 percentage points, from 90% to **95%**
+- [Auction Price Function (`step`)](https://sky-atlas.io/#A.3.7.1.1.2.5.1.2): reduce by 60 seconds, from 120 seconds to **60 seconds**
+- [Max Auction Duration (`tail`)](https://sky-atlas.io/#A.3.7.1.1.2.5.4): reduce by 9,900 seconds, from 13,200 seconds to **3,300 seconds**
+- Update the value of [`stopped`](https://github.com/sky-ecosystem/governance-manual/blob/main/governance/gsm-exceptions.md#liquidations-circuit-breaker) to **0** on [MCD_CLIP_GUNIV3DAIUSDC1_A](https://etherscan.io/address/0x5048c5Cd3102026472f8914557A1FD35c8Dc6c9e)
 
 #### GUNIV3DAIUSDC2-A
 
-- [Liquidation Ratio (mat)](https://sky-atlas.io/#A.3.7.1.1.2.1): increase by 898 percentage points, from 102% to **1000%**
-- [Liquidation Penalty (chop)](https://sky-atlas.io/#A.3.7.1.1.2.5.7): reduce by 13 percentage points, from 13% to **0%**
-- [Flat Kick Incentive (tip)](https://sky-atlas.io/#A.3.7.1.1.2.5.6): reduce by 300 DAI, from 300 DAI to **0 DAI**
-- [Proportional Kick Incentive (chip)](https://sky-atlas.io/#A.3.7.1.1.2.5.5): reduce by 0.1 percentage points, from 0.1% to **0%**
-- [Auction Price Multiplier (buf)](https://sky-atlas.io/#A.3.7.1.1.2.5.2): reduce by 3 percentage points, from 105% to **102%**
-- [Max Auction Drawdown (cusp)](https://sky-atlas.io/#A.3.7.1.1.2.5.3): increase by 5 percentage points, from 90% to **95%**
-- [Auction Price Function (step)](https://sky-atlas.io/#A.3.7.1.1.2.5.1.2): reduce by 60 seconds, from 120 seconds to **60 seconds**
-- [Max Auction Duration (tail)](https://sky-atlas.io/#A.3.7.1.1.2.5.4): reduce by 9,900 seconds, from 13,200 seconds to **3,300 seconds**
-- Update the value of [stopped](https://github.com/sky-ecosystem/governance-manual/blob/main/governance/gsm-exceptions.md#liquidations-circuit-breaker) to **0** on [MCD_CLIP_GUNIV3DAIUSDC2_A](https://etherscan.io/address/0xB55da3d3100C4eBF9De755b6DdC24BF209f6cc06)
+- [Liquidation Ratio (`mat`)](https://sky-atlas.io/#A.3.7.1.1.2.1): increase by 898 percentage points, from 102% to **1000%**
+- [Liquidation Penalty (`chop`)](https://sky-atlas.io/#A.3.7.1.1.2.5.7): reduce by 13 percentage points, from 13% to **0%**
+- [Flat Kick Incentive (`tip`)](https://sky-atlas.io/#A.3.7.1.1.2.5.6): reduce by 300 DAI, from 300 DAI to **0 DAI**
+- [Proportional Kick Incentive (`chip`)](https://sky-atlas.io/#A.3.7.1.1.2.5.5): reduce by 0.1 percentage points, from 0.1% to **0%**
+- [Auction Price Multiplier (`buf`)](https://sky-atlas.io/#A.3.7.1.1.2.5.2): reduce by 3 percentage points, from 105% to **102%**
+- [Max Auction Drawdown (`cusp`)](https://sky-atlas.io/#A.3.7.1.1.2.5.3): increase by 5 percentage points, from 90% to **95%**
+- [Auction Price Function (`step`)](https://sky-atlas.io/#A.3.7.1.1.2.5.1.2): reduce by 60 seconds, from 120 seconds to **60 seconds**
+- [Max Auction Duration (`tail`)](https://sky-atlas.io/#A.3.7.1.1.2.5.4): reduce by 9,900 seconds, from 13,200 seconds to **3,300 seconds**
+- Update the value of [`stopped`](https://github.com/sky-ecosystem/governance-manual/blob/main/governance/gsm-exceptions.md#liquidations-circuit-breaker) to **0** on [MCD_CLIP_GUNIV3DAIUSDC2_A](https://etherscan.io/address/0xB55da3d3100C4eBF9De755b6DdC24BF209f6cc06)
 
 ### Whitelist the Keel SubProxy to Send Cross-Chain Messages to Solana
 
@@ -94,14 +94,14 @@ If this executive proposal passes, then the Keel SubProxy will be whitelisted to
 - SVM Controller program: [ALM1JSnEhc5PkNecbSZotgprBuJujL5objTbwGtpTgTd](https://solscan.io/account/ALM1JSnEhc5PkNecbSZotgprBuJujL5objTbwGtpTgTd)
 - BPF Loader V3: [BPFLoaderUpgradeab1e11111111111111111111111](https://solscan.io/account/BPFLoaderUpgradeab1e11111111111111111111111)
 
-This will be done by calling [setCanCallTarget](https://github.com/sky-ecosystem/sky-oapp-oft/blob/main/contracts/GovernanceOAppSender.sol#L45-L50) function on [LZ_GOV_SENDER](https://etherscan.io/address/0x27FC1DD771817b53bE48Dc28789533BEa53C9CCA) twice, passing these programs as the `_dstTarget`.
+This will be done by calling the [`setCanCallTarget`](https://github.com/sky-ecosystem/sky-oapp-oft/blob/main/contracts/GovernanceOAppSender.sol#L45-L50) function on [LZ_GOV_SENDER](https://etherscan.io/address/0x27FC1DD771817b53bE48Dc28789533BEa53C9CCA) twice, passing these programs as the `_dstTarget`.
 
 ### Grove (ALLOCATOR-BLOOM-A) DC-IAM Parameter Adjustment
 
 - **Authorization**: [Governance Poll 1613](https://vote.sky.money/polling/QmYmaVVc)
 - **Proposal**: [Forum Proposal](https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-2026-01-12/27606)
 
-If this executive proposal passes, then the ALLOCATOR-BLOOM-A DC-IAM parameters will be adjusted as follows:
+If this executive proposal passes, then the ALLOCATOR-BLOOM-A Debt Ceiling Instant Access Module (DC-IAM) parameters will be adjusted as follows:
 
 - Increase ALLOCATOR-BLOOM-A DC-IAM [Target Available Debt (`gap`)](https://sky-atlas.io/#A.3.7.1.1.2.4.2) by 200 million USDS, from 50 million USDS to **250 million USDS**
 - Increase ALLOCATOR-BLOOM-A DC-IAM [Maximum Debt Ceiling (`line`)](https://sky-atlas.io/#A.3.7.1.1.2.4.1) by 2.5 billion USDS, from 2.5 billion USDS to **5 billion USDS**
@@ -111,7 +111,7 @@ If this executive proposal passes, then the ALLOCATOR-BLOOM-A DC-IAM parameters 
 - **Authorization**: [A.1.5.3](https://sky-atlas.io/#A.1.5.3)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/december-2025-ranked-delegate-compensation/27605)
 
-If this executive proposal passes, then the following distributions totalling **20,755 USDS** will be distributed to 6 Aligned Delegates.
+If this executive proposal passes, then the following distributions totaling **20,755 USDS** will be distributed to 6 Aligned Delegates.
 
 | Delegate    | Amount (USDS) | Address                                                                                                               |
 | ----------- | ------------- | --------------------------------------------------------------------------------------------------------------------- |
