@@ -2,7 +2,7 @@
 title: Template - [Executive Vote] Reduce Rewards Emissions, Complete GUNI Vault Offboardings, Whitelist Keel SubProxy to Send Cross-Chain Messages, Adjust Grove DC-IAM Parameters, Delegate Compensation, Star Agent Proxy Spells - January 15, 2026
 summary: Reduce emissions to the USDS-SKY and LSSKY-SPK farms, finalize the offboarding of GUNIV3DAIUSDC1-A and GUNIV3DAIUSDC2-A, whitelist the Keel SubProxy to send cross-chain messages using the Solana governance bridge, adjust the ALLOCATOR-BLOOM-A DC-IAM parameters, Ranked Delegate compensation for December 2025, whitelist Star Agent proxy spells in the respective StarGuard modules.
 date: 2026-01-15T00:00:00.000Z
-address: "$spell_address"
+address: "0xE91C453B7e1f4DF94fb4Cb69E1F4836E62718D76"
 ---
 
 # [Executive Proposal] Reduce Rewards Emissions, Complete GUNI Vault Offboardings, Whitelist Keel SubProxy to Send Cross-Chain Messages, Adjust Grove DC-IAM Parameters, Delegate Compensation, Star Agent Proxy Spells - January 15, 2026
