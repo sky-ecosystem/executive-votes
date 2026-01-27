@@ -150,7 +150,7 @@ If this executive proposal passes, then a DAO Resolution with IPFS hash [bafkrei
 
 If this executive proposal passes, then a Spark proxy spell at [0xa091BeD493C27efaa4D6e06e32684eCa0325adcA](https://etherscan.io/address/0xa091BeD493C27efaa4D6e06e32684eCa0325adcA) with the codehash `0x6ef4bf2258afab1e1c857892e5253e95880230a86ee9adc773fab559d7a594ec` will be whitelisted in the [Spark StarGuard](https://etherscan.io/address/0x6605aa120fe8b656482903E7757BaBF56947E45E).
 
-If this executive proposal passes, then a Grove proxy spell at [0x67aB5b15E3907E3631a303c50060c2207465a9AD](https://etherscan.io/address/0x67aB5b15E3907E3631a303c50060c2207465a9AD) with the codehash `0x7e4eb1e46f50b347fc7c8d20face6070c8fda4876049e32f3877a89cede1d533` iwill be whitelisted in the [Grove StarGuard](https://etherscan.io/address/0xfc51CAa049E8894bEcFfB68c61095C3F3Ec8a880).
+If this executive proposal passes, then a Grove proxy spell at [0x67aB5b15E3907E3631a303c50060c2207465a9AD](https://etherscan.io/address/0x67aB5b15E3907E3631a303c50060c2207465a9AD) with the codehash `0x7e4eb1e46f50b347fc7c8d20face6070c8fda4876049e32f3877a89cede1d533` will be whitelisted in the [Grove StarGuard](https://etherscan.io/address/0xfc51CAa049E8894bEcFfB68c61095C3F3Ec8a880).
 
 #### Spark Proxy Spell
 
