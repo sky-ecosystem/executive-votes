@@ -307,17 +307,17 @@ The mint destination address for AUSD with Agora will be updated with the follow
 Curve AUSD/USDC Swaps & Liquidity Provision will be onboarded with the following parameters:
 
 - Curve AUSD/USDC Pool: [0xE79C1C7E24755574438A26D5e062Ad2626C04662](https://www.curve.finance/dex/ethereum/pools/factory-stable-ng-225/deposit)
-    - USDC: [0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48](https://developers.circle.com/stablecoins/usdc-contract-addresses)
-    - AUSD: [0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a](https://docs.agora.finance/developer/contract-deployments)
-        - Swaps:
-            - Max amount: **5M AUSD/USDC**
-            - Slope: **100M AUSD/USDC per day**
-            - maxSlippage: **0.1%**
-        - LP Deposits:
-            - Max amount: **25M AUSD/USDC**
-            - Slope: **25M AUSD/USDC per day**
-        - LP Withdraws:
-            - Max amount: **unlimited**
+  - USDC: [0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48](https://developers.circle.com/stablecoins/usdc-contract-addresses)
+  - AUSD: [0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a](https://docs.agora.finance/developer/contract-deployments)
+    - Swaps:
+      - Max amount: **5M AUSD/USDC**
+      - Slope: **100M AUSD/USDC per day**
+      - maxSlippage: **0.1%**
+    - LP Deposits:
+      - Max amount: **25M AUSD/USDC**
+      - Slope: **25M AUSD/USDC per day**
+    - LP Withdraws:
+      - Max amount: **unlimited**
 
 ##### [Mainnet] Onboard Uniswap v3 AUSD/USDC Swaps & LP
 
