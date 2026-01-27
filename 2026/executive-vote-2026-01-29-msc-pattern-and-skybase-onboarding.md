@@ -110,7 +110,7 @@ Init new StarGuard module by calling [StarGuardInit.init](https://github.com/sid
 - `cfg.starGuardKey`: `PATTERN_STARGUARD`
 - `cfg.maxDelay`: **7 days**
 
-PATTERN_STARGUARD module will then be added to the [StarGuardJob](https://etherscan.io/address/0xB18d211fA69422a9A848B790C5B4a3957F7Aa44E).
+PATTERN_STARGUARD will be added to the [StarGuardJob](https://etherscan.io/address/0xB18d211fA69422a9A848B790C5B4a3957F7Aa44E).
 
 ### Skybase Onboarding and Genesis Capital Funding
 
