@@ -400,7 +400,7 @@ Steakhouse PYUSD Morpho Vault will be onboarded with the following parameters:
 - **Authorization**: [$TBD]($TBD)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/january-29-2026-proposed-changes-to-grove-for-upcoming-spell/27608)
 
-A Secondary Relayer to MainnetController will be onboarded for Grove, located at [0x9187807e07112359C481870feB58f0c117a29179](https://etherscan.io/address/0x9187807e07112359C481870feB58f0c117a29179#code).
+A Secondary Relayer for the MainnetController will be onboarded for Grove, located at [0x9187807e07112359C481870feB58f0c117a29179](https://etherscan.io/address/0x9187807e07112359C481870feB58f0c117a29179#code).
 
 ##### [Mainnet] Transfer 2.5 billion GROVE tokens to Grove Labs
 
