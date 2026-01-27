@@ -87,7 +87,7 @@ Init new Allocator instance by calling [AllocatorInit.initIlk](https://github.co
 - cfg.AllocatorProxy: 0xbC8959Ae2d4E9B385Fe620BEF48C2FD7f4A84736
 - cfg.ilkRegistry: ILK_REGISTRY from chainlog
 
-The initialization script will create a PIP_ALLOCATOR_PATTERN_A entry in the Chainlog; this entry is not necessary and will be removed.
+The initialization script will create a PIP_ALLOCATOR_PATTERN_A entry in the [Chainlog](https://chainlog.sky.money/); this entry is not necessary and will be removed.
 
 ALLOCATOR-PATTERN-A will be added to the [Debt Ceiling Breaker (LINE_MOM)](https://sky-atlas.powerhouse.io/A.1.9.3.2.3_Debt_Ceiling_Breaker_Exception/8c27b081-2db5-4e8f-9b5c-f5cf0f8d3102|0db30758e055352c).
 
