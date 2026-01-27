@@ -162,7 +162,7 @@ If this executive proposal passes, then a Grove proxy spell at [0x67aB5b15E3907E
 The deprecation process for the Gnosis market will begin by setting the following parameters:
 
 - [Reserve state](https://sky-atlas.io/#A.6.1.1.1.3.2.1.1.1.14) (all assets): **Frozen**
-- Increase Increase [reserve factor](https://sky-atlas.io/#A.6.1.1.1.3.2.1.1.1.8) (all assets) to **50%**
+- Increase [reserve factor](https://sky-atlas.io/#A.6.1.1.1.3.2.1.1.1.8) (all assets) to **50%**
 
 ##### [Ethereum] SparkLend - Deprecate tBTC Phase 1
 
