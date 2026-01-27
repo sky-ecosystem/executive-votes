@@ -344,7 +344,6 @@ Uniswap v3 AUSD/USDC Swaps & Liquidity Provision will be onboarded with the foll
 	- lowerTickBound: **-10**
 	- upperTickBound: **+10**
 
-
 ##### [Mainnet] Onboard Curve PYUSD/USDS Swaps
 
 - **Authorization**: [$TBD]($TBD)
