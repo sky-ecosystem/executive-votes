@@ -300,7 +300,7 @@ The mint destination address for AUSD with Agora will be updated with the follow
 
 ##### [Mainnet] Onboard Curve AUSD/USDC Swaps & LP
 
-**- **Authorization**: [Governance Poll 1615](https://vote.sky.money/polling/QmVGah9c)
+- **Authorization**: [Governance Poll 1615](https://vote.sky.money/polling/QmVGah9c)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/january-29-2026-proposed-changes-to-grove-for-upcoming-spell/27608)
 
 Curve AUSD/USDC Swaps & Liquidity Provision will be onboarded with the following parameters:
