@@ -285,19 +285,19 @@ Accumulated reserves will be claimed as described below:
 The mint destination address for AUSD with Agora will be updated with the following market parameters:
 
 - USDC: [0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 ](https://developers.circle.com/stablecoins/usdc-contract-addresses)
-    - ERC20Transfers:
-        - Destination: [0xfEa17E5f0e9bF5c86D5d553e2A074199F03B44E8](https://github.com/grove-labs/grove-spells/blob/1d963ab4d8e0f18287a6630d56b13ece35ad7a78/src/proposals/20251211/GroveEthereum_20251211.sol#L29)
-        - Max amount: **0 USDC**
-        - Slope: **0 USDC per day**
-    - ERC20Transfers:
-        -Destination: [0x748b66a6b3666311F370218Bc2819c0bEe13677e](https://etherscan.io/address/0x748b66a6b3666311F370218Bc2819c0bEe13677e)
-        - Max amount: **10M USDC**
-        - Slope: **100M USDC per day**
+  - ERC20Transfers:
+    - Destination: [0xfEa17E5f0e9bF5c86D5d553e2A074199F03B44E8](https://github.com/grove-labs/grove-spells/blob/1d963ab4d8e0f18287a6630d56b13ece35ad7a78/src/proposals/20251211/GroveEthereum_20251211.sol#L29)
+    - Max amount: **0 USDC**
+    - Slope: **0 USDC per day**
+  - ERC20Transfers:
+    - Destination: [0x748b66a6b3666311F370218Bc2819c0bEe13677e](https://etherscan.io/address/0x748b66a6b3666311F370218Bc2819c0bEe13677e)
+    - Max amount: **10M USDC**
+    - Slope: **100M USDC per day**
 - AUSD: [0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a](https://docs.agora.finance/developer/contract-deployments)
-    - ERC20Transfers:
-        - Destination: [0xab8306d9FeFBE8183c3C59cA897A2E0Eb5beFE67](https://etherscan.io/address/0xab8306d9FeFBE8183c3C59cA897A2E0Eb5beFE67)
-        - Max amount: **10M AUSD**
-        - Slope: **100M AUSD per day**
+  - ERC20Transfers:
+    - Destination: [0xab8306d9FeFBE8183c3C59cA897A2E0Eb5beFE67](https://etherscan.io/address/0xab8306d9FeFBE8183c3C59cA897A2E0Eb5beFE67)
+    - Max amount: **10M AUSD**
+    - Slope: **100M AUSD per day**
 
 ##### [Mainnet] Onboard Curve AUSD/USDC Swaps & LP
 
