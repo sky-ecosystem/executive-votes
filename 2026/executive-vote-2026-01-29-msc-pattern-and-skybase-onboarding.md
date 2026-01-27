@@ -55,7 +55,7 @@ If this executive proposal passes, then If this executive proposal passes, then 
 #### Obex
 
 - Mint **1,768,819 USDS** debt in ALLOCATOR-OBEX-A and transfer the amount to the Surplus Buffer.
-- Transfer **442,327 USDS** from the Surplus Buffer to the OBEX_SUBPROXY located at [0x8be042581f581E3620e29F213EA8b94afA1C8071](https://etherscan.io/address/0x8be042581f581e3620e29f213ea8b94afa1c8071).
+- Transfer **442,327 USDS** from the Surplus Buffer to the OBEX_SUBPROXY located at [0x8be042581f581E3620e29F213EA8b94afA1C8071](https://etherscan.io/address/0x8be042581f581E3620e29F213EA8b94afA1C8071).
 
 #### Treasury Management Function
 
