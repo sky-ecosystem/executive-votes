@@ -117,7 +117,7 @@ PATTERN_STARGUARD module will then be added to the [StarGuardJob](https://ethers
 - **Authorization**: [$TBD]($TBD)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/technical-scope-of-the-new-skybase-agent/27642)
 
-If this executive proposal passes, then the Skybase Prime will be onboarded to their own StarGaurd instance and recieve Genesis Capital Funding, as described below.
+If this executive proposal passes, then the Skybase Prime will be onboarded to their own StarGuard instance and receive Genesis Capital Funding, as described below.
 
 #### Add Skybase StarGaurd instance
 
