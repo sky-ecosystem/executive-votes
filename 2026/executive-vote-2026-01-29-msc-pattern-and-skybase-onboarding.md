@@ -134,7 +134,7 @@ SKYBASE_STARGUARD will be added to the [StarGuardJob](https://etherscan.io/addre
 
 #### Skybase Genesis Funding
 
-The following transfers will be made as part of Skybase's Gensis funding:
+The following transfers will be made as part of Skybase's Genesis funding:
 
 - Transfer **10 million USDS** to SKYBASE_SUBPROXY located at [0x08978E3700859E476201c1D7438B3427e3C81140](https://etherscan.io/address/0x08978E3700859E476201c1D7438B3427e3C81140).
 - Transfer **5 million USDS** to the USDS Demand Subsidies Multisig at [0x3F32bC09d41eE699844F8296e806417D6bf61Bba](https://etherscan.io/address/0x3F32bC09d41eE699844F8296e806417D6bf61Bba).
