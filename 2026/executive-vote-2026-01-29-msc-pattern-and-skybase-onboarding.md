@@ -385,14 +385,14 @@ Grove x Steakhouse USDC Morpho Vault V2 will be onboarded with the following par
 Steakhouse PYUSD Morpho Vault will be onboarded with the following parameters:
 
 - Steakhouse PYUSD Main: [0xd8A6511979D9C5D387c819E9F8ED9F3a5C6c5379](https://app.morpho.org/ethereum/vault/0xd8A6511979D9C5D387c819E9F8ED9F3a5C6c5379/steakhouse-high-yield-instant?tab=vault)
-    - PYUSD: [0x6c3ea9036406852006290770BEdFcAbA0e23A0e8](https://docs.paxos.com/guides/stablecoin/pyusd/mainnet)
+  - PYUSD: [0x6c3ea9036406852006290770BEdFcAbA0e23A0e8](https://docs.paxos.com/guides/stablecoin/pyusd/mainnet)
     - Deposits:
-        - Max amount: **20M PYUSD**
-        - Slope: **20M PYUSD per day**
+      - Max amount: **20M PYUSD**
+      - Slope: **20M PYUSD per day**
     - Withdraws:
-        - Amount: Unlimited
+      - Amount: **Unlimited**
     - Max Exchange Rate:
-        - Controllers now have  protections that require a `maxExchangeRate` to be set for deposits. The following ensures 1 share can represent at most 4 PYUSD (current share price is 2).
+      - Controllers now have  protections that require a `maxExchangeRate` to be set for deposits. The following ensures 1 share can represent at most 4 PYUSD (current share price is 2).
         - `setMaxExchangeRate(STEAKHOUSE_PYUSD_MAIN, 1e18, 4e6)`
 
 ##### [Mainnet] Onboard Relayers for Grove Liquidity Layer
