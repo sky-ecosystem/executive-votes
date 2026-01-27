@@ -146,7 +146,7 @@ The following transfers will be made as part of Skybase's Gensis funding:
 
 If this executive proposal passes, then a DAO Resolution with IPFS hash [bafkreiczdjq55zsxvxcf4le3oaqvhp4jgvls4n4b7xbnzvkwilzen3a2te](https://gateway.pinata.cloud/ipfs/bafkreiczdjq55zsxvxcf4le3oaqvhp4jgvls4n4b7xbnzvkwilzen3a2te) will be approved. This DAO Resolution authorizes the return of the full balance of funds held in the Trust.
 
-### Star Agent Proxy Spells
+### Prime Agent Proxy Spells
 
 If this executive proposal passes, then a Spark proxy spell at [0xa091BeD493C27efaa4D6e06e32684eCa0325adcA](https://etherscan.io/address/0xa091BeD493C27efaa4D6e06e32684eCa0325adcA) with the codehash `0x6ef4bf2258afab1e1c857892e5253e95880230a86ee9adc773fab559d7a594ec` will be whitelisted in the [Spark StarGuard](https://etherscan.io/address/0x6605aa120fe8b656482903E7757BaBF56947E45E).
 
