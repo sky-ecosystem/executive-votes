@@ -197,7 +197,7 @@ The deprecation process for rsETH on SparkLend Mainnet will begin by setting the
 - **Authorization**: [Snapshot Poll](https://snapshot.org/#/s:sparkfi.eth/proposal/0x7888032804772315db4be8e2d0c59ec50c70fbc0d4e7c5bab0af0a4b7391070e)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/january-29-2026-proposed-changes/27620)
 
-The Ethereum ALM Controller will be upgraded to version 1.9.0. This upgrade adds functionality to be able to integrate Uniswap v4 pools for liquidity provision (including single tick ranges that serve as limit orders) and swaps.
+The Ethereum ALM Controller will be upgraded to version 1.9.0. This upgrade adds functionality to facilitate integration of Uniswap v4 pools for liquidity provision (including single tick ranges that serve as limit orders) and swaps.
 
 ##### [Ethereum] SLL - Onboard Uniswap v4 PYUSD/USDS
 
