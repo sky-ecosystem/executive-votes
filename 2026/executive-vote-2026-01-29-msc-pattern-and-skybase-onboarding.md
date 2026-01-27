@@ -123,12 +123,12 @@ If this executive proposal passes, then the Skybase Prime will be onboarded to t
 
 Initialize new StarGuard module by calling StarGuardInit.init with:
 
-- chainlog: DssExecLib.LOG
-- cfg.subProxy: [0x08978E3700859E476201c1D7438B3427e3C81140](https://etherscan.io/address/0x08978E3700859E476201c1D7438B3427e3C81140)
-- cfg.subProxyKey: SKYBASE_SUBPROXY
-- cfg.StarGuard: [0xA170086AeF9b3b81dD73897A0dF56B55e4C2a1F7](https://etherscan.io/address/0xA170086AeF9b3b81dD73897A0dF56B55e4C2a1F7)
-- cfg.starGuardKey: SKYBASE_STARGUARD
-- cfg.maxDelay: 7 days
+- [`chainlog`](https://chainlog.sky.money/): `DssExecLib.LOG`
+- `cfg.subProxy`: [0x08978E3700859E476201c1D7438B3427e3C81140](https://etherscan.io/address/0x08978E3700859E476201c1D7438B3427e3C81140)
+- `cfg.subProxyKey`: `SKYBASE_SUBPROXY`
+- `cfg.StarGuard`: [0xA170086AeF9b3b81dD73897A0dF56B55e4C2a1F7](https://etherscan.io/address/0xA170086AeF9b3b81dD73897A0dF56B55e4C2a1F7)
+- `cfg.starGuardKey`: `SKYBASE_STARGUARD`
+- `cfg.maxDelay`: **7 days**
 
 SKYBASE_STARGUARD module will then be added to the [StarGuardJob](https://etherscan.io/address/0xb18d211fa69422a9a848b790c5b4a3957f7aa44e).
 
