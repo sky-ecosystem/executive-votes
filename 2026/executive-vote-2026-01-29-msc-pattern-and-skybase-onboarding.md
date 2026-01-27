@@ -67,7 +67,7 @@ If this executive proposal passes, then If this executive proposal passes, then 
 - **Authorization**: [Governance Poll 1615](https://vote.sky.money/polling/QmVGah9c)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/technical-scope-of-the-new-pattern-allocator-instance/27641)
 
-If this executive proposal passes, then Pattern will be onboarded as a Prime Agent. The onboarding will consist of initailizing an Allocator Vault, adding the new Allocator Vault to the SP-BEAM for the new allocator vault, and initializing a Pattern StarGuard instance for future proxy spells.
+If this executive proposal passes, then Pattern will be onboarded as a Prime Agent. The onboarding will consist of initializing an Allocator Vault, adding the new Allocator Vault to the SP-BEAM, and initializing a Pattern StarGuard instance for future proxy spells.
 
 #### Add Allocator Instance
 
