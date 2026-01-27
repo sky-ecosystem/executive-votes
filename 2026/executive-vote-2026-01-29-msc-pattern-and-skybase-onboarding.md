@@ -97,7 +97,7 @@ ALLOCATOR-PATTERN-A ilk will be added to the SP-BEAM with the following paramete
 
 - max: 3,000 bps
 - min: 0 bps
-- step: 400 bps
+- [step](https://sky-atlas.io/#A.3.7.1.2.1.3): **400 bps**
 
 #### Add Pattern StarGaurd instance
 
