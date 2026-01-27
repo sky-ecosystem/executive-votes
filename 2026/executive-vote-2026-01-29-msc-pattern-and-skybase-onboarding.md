@@ -119,7 +119,7 @@ PATTERN_STARGUARD module will then be added to the [StarGuardJob](https://ethers
 
 If this executive proposal passes, then the Skybase Prime will be onboarded to their own StarGuard instance and receive Genesis Capital Funding, as described below.
 
-#### Add Skybase StarGaurd instance
+#### Add Skybase StarGuard instance
 
 Initialize new StarGuard module by calling StarGuardInit.init with:
 
