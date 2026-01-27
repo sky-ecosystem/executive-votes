@@ -372,7 +372,7 @@ Grove x Steakhouse USDC Morpho Vault V2 will be onboarded with the following par
     - Withdraws:
       - Amount: **Unlimited**
     - Max Exchange Rate:
-      - Controllers now have  protections that require a `maxExchangeRate` to be set for deposits. The following ensures 1 share can represent at most 2 USDC.
+      - Controllers now have  protections that require a `maxExchangeRate` to be set for deposits. The following ensures that 1 share can represent at most 2 USDC.
         - `setMaxExchangeRate(GROVE_X_STEAKHOUSE_USDC_V2, 1e18, 2e6)`
 
 ##### [Mainnet] Onboard Steakhouse PYUSD Morpho Vault
