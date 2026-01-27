@@ -81,11 +81,11 @@ Init new Allocator instance by calling [AllocatorInit.initIlk](https://github.co
 - ilkInstance.buffer: 0x823459b55D79F0421f24a4828237F7ecb8D7F1ef
 - cfg.ilk: ALLOCATOR-PATTERN-A
 - `cfg.duty`: **0%**;
-- cfg.gap: 10 million USDS
-- cfg.maxLine: 10 million USDS
-- cfg.ttl: 86,400 seconds
-- cfg.AllocatorProxy: 0xbC8959Ae2d4E9B385Fe620BEF48C2FD7f4A84736
-- cfg.ilkRegistry: ILK_REGISTRY from chainlog
+- `cfg.gap`: **10 million USDS**;
+- `cfg.maxLine`: **10 million USDS**;
+- `cfg.ttl`: **86,400 seconds**;
+- `cfg.AllocatorProxy`: [0xbC8959Ae2d4E9B385Fe620BEF48C2FD7f4A84736](https://etherscan.io/address/0xbC8959Ae2d4E9B385Fe620BEF48C2FD7f4A84736);
+- `cfg.ilkRegistry`: ILK_REGISTRY from [Chainlog](https://chainlog.sky.money/)
 
 The initialization script will create a PIP_ALLOCATOR_PATTERN_A entry in the [Chainlog](https://chainlog.sky.money/); this entry is not necessary and will be removed.
 
