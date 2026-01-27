@@ -366,15 +366,15 @@ Curve PYUSD/USDS Swaps will be onboarded with the following parameters:
 
 Grove x Steakhouse USDC Morpho Vault V2 will be onboarded with the following parameters:
 
-* **Grove x Steakhouse USDC V2:** [0xBeefF08dF54897e7544aB01d0e86f013DA354111](https://app.morpho.org/ethereum/vault/0xBeefF08dF54897e7544aB01d0e86f013DA354111/grove-x-steakhouse-usdc)
-    - USDC: [0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 ](https://developers.circle.com/stablecoins/usdc-contract-addresses)
+- **Grove x Steakhouse USDC V2:** [0xBeefF08dF54897e7544aB01d0e86f013DA354111](https://app.morpho.org/ethereum/vault/0xBeefF08dF54897e7544aB01d0e86f013DA354111/grove-x-steakhouse-usdc)
+  - USDC: [0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 ](https://developers.circle.com/stablecoins/usdc-contract-addresses)
     - Deposits:
-        - Max amount:  **20M USDC**
-        - Slope: **20M USDC per day**
+      - Max amount:  **20M USDC**
+      - Slope: **20M USDC per day**
     - Withdraws:
-        - Amount: **Unlimited**
+      - Amount: **Unlimited**
     - Max Exchange Rate:
-        - Controllers now have  protections that require a `maxExchangeRate` to be set for deposits. The following ensures 1 share can represent at most 2 USDC.
+      - Controllers now have  protections that require a `maxExchangeRate` to be set for deposits. The following ensures 1 share can represent at most 2 USDC.
         - `setMaxExchangeRate(GROVE_X_STEAKHOUSE_USDC_V2, 1e18, 2e6)`
 
 ##### [Mainnet] Onboard Steakhouse PYUSD Morpho Vault
