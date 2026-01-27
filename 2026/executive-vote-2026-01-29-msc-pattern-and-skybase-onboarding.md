@@ -80,7 +80,7 @@ Init new Allocator instance by calling [AllocatorInit.initIlk](https://github.co
 - ilkInstance.vault: 0xbd34fc6AAa1d3F52B314CB9D78023dd23eAc3B0E
 - ilkInstance.buffer: 0x823459b55D79F0421f24a4828237F7ecb8D7F1ef
 - cfg.ilk: ALLOCATOR-PATTERN-A
-- cfg.duty: 0
+- `cfg.duty`: **0%**;
 - cfg.gap: 10 million USDS
 - cfg.maxLine: 10 million USDS
 - cfg.ttl: 86,400 seconds
