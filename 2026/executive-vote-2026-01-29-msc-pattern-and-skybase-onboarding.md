@@ -130,7 +130,7 @@ Initialize new StarGuard module by calling StarGuardInit.init with:
 - `cfg.starGuardKey`: `SKYBASE_STARGUARD`
 - `cfg.maxDelay`: **7 days**
 
-SKYBASE_STARGUARD module will then be added to the [StarGuardJob](https://etherscan.io/address/0xb18d211fa69422a9a848b790c5b4a3957f7aa44e).
+SKYBASE_STARGUARD will be added to the [StarGuardJob](https://etherscan.io/address/0xb18d211fa69422a9a848b790c5b4a3957f7aa44e).
 
 #### Skybase Genesis Funding
 
