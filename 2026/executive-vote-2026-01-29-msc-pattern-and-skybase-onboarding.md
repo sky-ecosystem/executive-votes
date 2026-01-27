@@ -41,7 +41,7 @@ If this executive proposal does not pass within 30 days, then it will expire and
 - **Authorization**: [A.2.4 - Sky Core Monthly Settlement Cycle](https://sky-atlas.io/#A.2.4), [A.2.3 - Treasury Management](https://sky-atlas.io/#A.2.3)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/msc-4-settlement-summary-november-and-december-2025-spark-grove/27617/5)
 
-If this executive proposal passes, then If this executive proposal passes, then the November and December 2025 Monthly Settlement Cycles will be executed by taking the following steps.
+If this executive proposal passes, then the November and December 2025 Monthly Settlement Cycles will be executed by taking the following steps.
 
 #### Spark
 
