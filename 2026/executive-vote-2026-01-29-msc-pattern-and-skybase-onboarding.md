@@ -77,7 +77,7 @@ Init new Allocator instance by calling [AllocatorInit.initIlk](https://github.co
 - sharedInstance.roles: ALLOCATOR_ROLES from chainlog
 - sharedInstance: ALLOCATOR_REGISTRY from chainlog
 - ilkInstance.owner: MCD_PAUSE_PROXY from chainlog
-- ilkInstance.vault: 0xbd34fc6AAa1d3F52B314CB9D78023dd23eAc3B0E
+- 'ilkInstance.vault': [0xbd34fc6AAa1d3F52B314CB9D78023dd23eAc3B0E](https://etherscan.io/address/0xbd34fc6AAa1d3F52B314CB9D78023dd23eAc3B0E);
 - 'ilkInstance.buffer': [0x823459b55D79F0421f24a4828237F7ecb8D7F1ef](https://etherscan.io/address/0x823459b55D79F0421f24a4828237F7ecb8D7F1ef);
 - 'cfg.ilk': `ALLOCATOR-PATTERN-A`;
 - `cfg.duty`: **0%**;
