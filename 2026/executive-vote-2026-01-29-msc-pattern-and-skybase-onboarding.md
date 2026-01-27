@@ -73,10 +73,10 @@ If this executive proposal passes, then Pattern will be onboarded as a Prime Age
 
 Init new Allocator instance by calling [AllocatorInit.initIlk](https://github.com/sky-ecosystem/dss-allocator/blob/226584d3b179d98025497815adb4ea585ea0102d/deploy/AllocatorInit.sol#L97-L164) with:
 
-- sharedInstance.oracle: PIP_ALLOCATOR from chainlog
-- sharedInstance.roles: ALLOCATOR_ROLES from chainlog
-- sharedInstance: ALLOCATOR_REGISTRY from chainlog
-- ilkInstance.owner: MCD_PAUSE_PROXY from chainlog
+`sharedInstance.oracle`: `PIP_ALLOCATOR` from [Chainlog](https://chainlog.sky.money/);
+- `sharedInstance.roles`: `ALLOCATOR_ROLES` from [Chainlog](https://chainlog.sky.money/);
+- `sharedInstance.registry`: `ALLOCATOR_REGISTRY` from [Chainlog](https://chainlog.sky.money/);
+- `ilkInstance.owner`: `MCD_PAUSE_PROXY` from [Chainlog](https://chainlog.sky.money/);
 - 'ilkInstance.vault': [0xbd34fc6AAa1d3F52B314CB9D78023dd23eAc3B0E](https://etherscan.io/address/0xbd34fc6AAa1d3F52B314CB9D78023dd23eAc3B0E);
 - 'ilkInstance.buffer': [0x823459b55D79F0421f24a4828237F7ecb8D7F1ef](https://etherscan.io/address/0x823459b55D79F0421f24a4828237F7ecb8D7F1ef);
 - 'cfg.ilk': `ALLOCATOR-PATTERN-A`;
