@@ -325,24 +325,23 @@ Curve AUSD/USDC Swaps & Liquidity Provision will be onboarded with the following
 - **Proposal**: [Forum Post](https://forum.sky.money/t/january-29-2026-proposed-changes-to-grove-for-upcoming-spell/27608)
 
 Uniswap v3 AUSD/USDC Swaps & Liquidity Provision will be onboarded with the following parameters:
-
 - Uniswap v3 AUSD/USDC Pool: [0xbAFeAd7c60Ea473758ED6c6021505E8BBd7e8E5d](https://app.uniswap.org/explore/pools/ethereum/0xbAFeAd7c60Ea473758ED6c6021505E8BBd7e8E5d)
-    - USDC: [0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48](https://developers.circle.com/stablecoins/usdc-contract-addresses)
-    - AUSD: [0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a](https://docs.agora.finance/developer/contract-deployments)
-        - Swaps:
-            - Max amount: **5M AUSD/USDC**
-            - Slope: **100M AUSD/USDC per day**
-            - maxSlippage: **0.1%**
-        - LP Deposits:
-            - Max amount: **25M AUSD/USDC**
-            - slope: **25M AUSD/USDC per day**
-        - LP Withdraws:
-            - Max amount: **unlimited**
+  - USDC: [0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48](https://developers.circle.com/stablecoins/usdc-contract-addresses)
+  - AUSD: [0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a](https://docs.agora.finance/developer/contract-deployments)
+    - Swaps:
+      - Max amount: **5M AUSD/USDC**
+      - Slope: **100M AUSD/USDC per day**
+      - maxSlippage: **0.1%**
+    - LP Deposits:
+      - Max amount: **25M AUSD/USDC**
+      - slope: **25M AUSD/USDC per day**
+    - LP Withdraws:
+      - Max amount: **unlimited**
 - Additional Settings
-	- twapSecondsAgo: **600**
-	- maxTickDelta: **200**
-	- lowerTickBound: **-10**
-	- upperTickBound: **+10**
+  - twapSecondsAgo: **600**
+  - maxTickDelta: **200**
+  - lowerTickBound: **-10**
+  - upperTickBound: **+10**
 
 ##### [Mainnet] Onboard Curve PYUSD/USDS Swaps
 
