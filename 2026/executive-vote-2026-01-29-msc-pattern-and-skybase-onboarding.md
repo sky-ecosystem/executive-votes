@@ -64,7 +64,7 @@ If this executive proposal passes, then If this executive proposal passes, then 
 
 ### Pattern Onboarding
 
-- **Authorization**: [$TBD]($TBD)
+- **Authorization**: [Governance Poll 1615](https://vote.sky.money/polling/QmVGah9c)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/technical-scope-of-the-new-pattern-allocator-instance/27641)
 
 If this executive proposal passes, then Pattern will be onboarded as a Prime Agent. The onboarding will consist of initailizing an Allocator Vault, adding the new Allocator Vault to the SP-BEAM for the new allocator vault, and initializing a Pattern StarGuard instance for future proxy spells.
@@ -80,10 +80,10 @@ Init new Allocator instance by calling [AllocatorInit.initIlk](https://github.co
 - 'ilkInstance.vault': [0xbd34fc6AAa1d3F52B314CB9D78023dd23eAc3B0E](https://etherscan.io/address/0xbd34fc6AAa1d3F52B314CB9D78023dd23eAc3B0E);
 - 'ilkInstance.buffer': [0x823459b55D79F0421f24a4828237F7ecb8D7F1ef](https://etherscan.io/address/0x823459b55D79F0421f24a4828237F7ecb8D7F1ef);
 - 'cfg.ilk': `ALLOCATOR-PATTERN-A`;
-- `cfg.duty`: **0%**;
-- `cfg.gap`: **10 million USDS**;
-- `cfg.maxLine`: **10 million USDS**;
-- `cfg.ttl`: **86,400 seconds**;
+- [`cfg.duty`](https://sky-atlas.io/#A.3.7.1.1.2.3): **0%**;
+- [`cfg.gap`](https://sky-atlas.io/#A.3.7.1.1.2.4.2): **10 million USDS**;
+- [`cfg.maxLine`](https://sky-atlas.io/#A.3.7.1.1.2.4.1): **10 million USDS**;
+- [`cfg.ttl`](https://sky-atlas.io/#A.3.7.1.1.2.4.1): **86,400 seconds**;
 - `cfg.AllocatorProxy`: [0xbC8959Ae2d4E9B385Fe620BEF48C2FD7f4A84736](https://etherscan.io/address/0xbC8959Ae2d4E9B385Fe620BEF48C2FD7f4A84736);
 - `cfg.ilkRegistry`: ILK_REGISTRY from [Chainlog](https://chainlog.sky.money/)
 
@@ -93,7 +93,7 @@ ALLOCATOR-PATTERN-A will be added to the [Debt Ceiling Breaker (LINE_MOM)](https
 
 #### Add New Pattern Allocator to the SP-BEAM
 
-ALLOCATOR-PATTERN-A ilk will be added to the SP-BEAM with the following parameters:
+ALLOCATOR-PATTERN-A ilk will be added to the [SP-BEAM](https://sky-atlas.io/#A.3.7.1.2) with the following parameters:
 
 - [max](https://sky-atlas.io/#A.3.7.1.2): **3,000 bps**
 - [min](https://sky-atlas.io/#A.3.7.1.2.1.1): **0 bps**
@@ -110,11 +110,11 @@ Init new StarGuard module by calling [StarGuardInit.init](https://github.com/sid
 - `cfg.starGuardKey`: `PATTERN_STARGUARD`
 - `cfg.maxDelay`: **7 days**
 
-PATTERN_STARGUARD module will then be added to the [StarGuardJob](https://etherscan.io/address/0xb18d211fa69422a9a848b790c5b4a3957f7aa44e).
+PATTERN_STARGUARD module will then be added to the [StarGuardJob](https://etherscan.io/address/0xB18d211fA69422a9A848B790C5B4a3957F7Aa44E).
 
 ### Skybase Onboarding and Genesis Capital Funding
 
-- **Authorization**: [$TBD]($TBD)
+- **Authorization**: [Governance Poll 1615](https://vote.sky.money/polling/QmVGah9c)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/technical-scope-of-the-new-skybase-agent/27642)
 
 If this executive proposal passes, then the Skybase Prime will be onboarded to their own StarGuard instance and receive Genesis Capital Funding, as described below.
@@ -161,8 +161,8 @@ If this executive proposal passes, then a Grove proxy spell at [0x67aB5b15E3907E
 
 The deprecation process for the Gnosis market will begin by setting the following parameters:
 
-- Freeze reserve (all assets)
-- Increase reserve factor (all assets) to 50%
+- [Reserve state](https://sky-atlas.io/#A.6.1.1.1.3.2.1.1.1.14) (all assets): **Frozen**
+- Increase Increase [reserve factor](https://sky-atlas.io/#A.6.1.1.1.3.2.1.1.1.8) (all assets) to **50%**
 
 ##### [Ethereum] SparkLend - Deprecate tBTC Phase 1
 
@@ -171,8 +171,8 @@ The deprecation process for the Gnosis market will begin by setting the followin
 
 The deprecation process for tBTC on SparkLend Mainnet will begin by setting the following parameters:
 
-- Freeze reserve
-- Increase reserve factor to 99%
+- [Reserve state](https://sky-atlas.io/#A.6.1.1.1.3.2.1.1.1.14): **Frozen**
+- Increase [reserve factor](https://sky-atlas.io/#A.6.1.1.1.3.2.1.1.1.8) to **99%**
 
 ##### [Ethereum] SparkLend - Deprecate ezETH Phase 1
 
@@ -181,7 +181,7 @@ The deprecation process for tBTC on SparkLend Mainnet will begin by setting the 
 
 The deprecation process for ezETH on SparkLend Mainnet will begin by setting the following parameters:
 
-- Freeze reserve
+- [Reserve state](https://sky-atlas.io/#A.6.1.1.1.3.2.1.1.1.14): **Frozen**
 
 ##### [Ethereum] SparkLend - Deprecate rsETH Phase 1
 
@@ -190,7 +190,7 @@ The deprecation process for ezETH on SparkLend Mainnet will begin by setting the
 
 The deprecation process for rsETH on SparkLend Mainnet will begin by setting the following parameters:
 
-- Freeze reserve
+- [Reserve state](https://sky-atlas.io/#A.6.1.1.1.3.2.1.1.1.14): **Frozen**
 
 ##### [Ethereum] SLL - Upgrade ALM Controller
 
@@ -208,20 +208,20 @@ The Uniswap v4 PYUSD/USDS Pool will be onboarded with the following parameters:
 
 - Pool: `0xe63e32b2ae40601662f760d6bf5d771057324fbd97784fe1d3717069f7b75d45`
 - Swap fee: **0.0005%**
-- SLL parameters
+- SLL [Uniswap parameters](https://docs.uniswap.org/contracts/v4/reference/core/libraries/TickMath)
   - Min lower tick limit: **276,314 (-0.1%)**
   - Max upper tick limit: **276,334 (+0.1%)**
   - Max tick width: **10 ticks**
   - Max slippage: **0.1%**
 - Deposits
-  - maxAmount: **10 million**
-  - slope: **100 million per day**
+  - [maxAmount](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2.1): **10 million**
+  - [Slope](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2.2): **100 million per day**
 - Withdrawals
-  - maxAmount: **50 million**
-  - slope: **200 million per day**
+  - [maxAmount](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2.1): **50 million**
+  - [Slope](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2.2): **200 million per day**
 - Swaps
-  - maxAmount: **5 million**
-  - slope: **50 million per day**
+  - [maxAmount](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2.1): **5 million**
+  - [Slope](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2.2): **50 million per day**
 
 ##### [Ethereum] SLL - Onboard Uniswap v4 USDT/USDS
 
@@ -232,20 +232,20 @@ The Uniswap v4 USDT/USDS Pool will be onboarded with the following parameters:
 
 - Pool: `0x3b1b1f2e775a6db1664f8e7d59ad568605ea2406312c11aef03146c0cf89d5b9`
 - Swap fee: **0.0005%**
-- SLL parameters
+- SLL [Uniswap parameters](https://docs.uniswap.org/contracts/v4/reference/core/libraries/TickMath)
   - Min lower tick limit: **276,304 (-0.2%)**
   - Max upper tick limit: **276,344 (+0.2%)**
   - Max tick width: **10 ticks**
   - Max slippage: **0.2%**
 - Deposits
-  - maxAmount: **5 million**
-  - slope: **50 million per day**
+  - [maxAmount](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2.1): **5 million**
+  - [Slope](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2.2): **50 million per day**
 - Withdrawals
-  - maxAmount: **50 million**
-  - slope: **200 million per day**
+  - [maxAmount](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2.1): **50 million**
+  - [Slope](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2.2): **200 million per day**
 - Swaps
-  - maxAmount: **5 million**
-  - slope: **50 million per day**
+  - [maxAmount](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2.1): **5 million**
+  - [Slope](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2.2): **50 million per day**
 
 ##### [Ethereum] Spark Savings - Increase spUSDT Supply Cap
 
@@ -278,7 +278,7 @@ Accumulated reserves will be claimed as described below:
 
 ##### [Mainnet] Re-Onboard Agora AUSD Mint Redeem
 
-- **Authorization**: [$TBD]($TBD)
+- **Authorization**: [Governance Poll 1615](https://vote.sky.money/polling/QmVGah9c)
 - **Proposal**: [[Forum Post](https://forum.sky.money/t/january-29-2026-proposed-changes-to-grove-for-upcoming-spell/27608)
 
 The mint destination address for AUSD with Agora will be updated with the following market parameters:
@@ -286,21 +286,21 @@ The mint destination address for AUSD with Agora will be updated with the follow
 - USDC: [0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 ](https://developers.circle.com/stablecoins/usdc-contract-addresses)
   - ERC20Transfers:
     - Destination: [0xfEa17E5f0e9bF5c86D5d553e2A074199F03B44E8](https://github.com/grove-labs/grove-spells/blob/1d963ab4d8e0f18287a6630d56b13ece35ad7a78/src/proposals/20251211/GroveEthereum_20251211.sol#L29)
-    - Max amount: **0 USDC**
-    - Slope: **0 USDC per day**
+    - [maxAmount](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2.1): **0 USDC**
+    - [Slope](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2.2): **0 USDC per day**
   - ERC20Transfers:
     - Destination: [0x748b66a6b3666311F370218Bc2819c0bEe13677e](https://etherscan.io/address/0x748b66a6b3666311F370218Bc2819c0bEe13677e)
-    - Max amount: **10M USDC**
-    - Slope: **100M USDC per day**
+    - [maxAmount](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2.1): **10M USDC**
+    - [Slope](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2.2): **100M USDC per day**
 - AUSD: [0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a](https://docs.agora.finance/developer/contract-deployments)
   - ERC20Transfers:
     - Destination: [0xab8306d9FeFBE8183c3C59cA897A2E0Eb5beFE67](https://etherscan.io/address/0xab8306d9FeFBE8183c3C59cA897A2E0Eb5beFE67)
-    - Max amount: **10M AUSD**
-    - Slope: **100M AUSD per day**
+    - [maxAmount](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2.1): **10M AUSD**
+    - [Slope](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2.2): **100M AUSD per day**
 
 ##### [Mainnet] Onboard Curve AUSD/USDC Swaps & LP
 
-**- **Authorization**: [$TBD]($TBD)
+**- **Authorization**: [Governance Poll 1615](https://vote.sky.money/polling/QmVGah9c)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/january-29-2026-proposed-changes-to-grove-for-upcoming-spell/27608)
 
 Curve AUSD/USDC Swaps & Liquidity Provision will be onboarded with the following parameters:
@@ -309,18 +309,18 @@ Curve AUSD/USDC Swaps & Liquidity Provision will be onboarded with the following
   - USDC: [0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48](https://developers.circle.com/stablecoins/usdc-contract-addresses)
   - AUSD: [0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a](https://docs.agora.finance/developer/contract-deployments)
     - Swaps:
-      - Max amount: **5M AUSD/USDC**
-      - Slope: **100M AUSD/USDC per day**
-      - maxSlippage: **0.1%**
+      - [maxAmount](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2.1): **5M AUSD/USDC**
+      - [Slope](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2.2): **100M AUSD/USDC per day**
+      - [maxSlippage](https://sky-atlas.io/#A.2.2.9.1.1.1.2.6): **0.1%**
     - LP Deposits:
-      - Max amount: **25M AUSD/USDC**
-      - Slope: **25M AUSD/USDC per day**
+      - [maxAmount](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2.1): **25M AUSD/USDC**
+      - [Slope](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2.2): **25M AUSD/USDC per day**
     - LP Withdraws:
-      - Max amount: **unlimited**
+      - [maxAmount](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2.1): **unlimited**
 
 ##### [Mainnet] Onboard Uniswap v3 AUSD/USDC Swaps & LP
 
-- **Authorization**: [$TBD]($TBD)
+- **Authorization**: [Governance Poll 1615](https://vote.sky.money/polling/QmVGah9c)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/january-29-2026-proposed-changes-to-grove-for-upcoming-spell/27608)
 
 Uniswap v3 AUSD/USDC Swaps & Liquidity Provision will be onboarded with the following parameters:
@@ -328,15 +328,15 @@ Uniswap v3 AUSD/USDC Swaps & Liquidity Provision will be onboarded with the foll
   - USDC: [0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48](https://developers.circle.com/stablecoins/usdc-contract-addresses)
   - AUSD: [0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a](https://docs.agora.finance/developer/contract-deployments)
     - Swaps:
-      - Max amount: **5M AUSD/USDC**
-      - Slope: **100M AUSD/USDC per day**
-      - maxSlippage: **0.1%**
+      - [maxAmount](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2.1): **5M AUSD/USDC**
+      - [Slope](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2.2): **100M AUSD/USDC per day**
+      - [maxSlippage](https://sky-atlas.io/#A.2.2.9.1.1.1.2.6): **0.1%**
     - LP Deposits:
-      - Max amount: **25M AUSD/USDC**
-      - slope: **25M AUSD/USDC per day**
+      - [maxAmount](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2.1): **25M AUSD/USDC**
+      - [Slope](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2.2): **25M AUSD/USDC per day**
     - LP Withdraws:
-      - Max amount: **unlimited**
-- Additional Settings
+      - [maxAmount](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2.1): **unlimited**
+- [Instance Specific Parameters](https://sky-atlas.io/#A.6.1.1.2.2.6.1.3.1.12.2.4)
   - twapSecondsAgo: **600**
   - maxTickDelta: **200**
   - lowerTickBound: **-10**
@@ -344,7 +344,7 @@ Uniswap v3 AUSD/USDC Swaps & Liquidity Provision will be onboarded with the foll
 
 ##### [Mainnet] Onboard Curve PYUSD/USDS Swaps
 
-- **Authorization**: [$TBD]($TBD)
+- **Authorization**: [Governance Poll 1615](https://vote.sky.money/polling/QmVGah9c)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/january-29-2026-proposed-changes-to-grove-for-upcoming-spell/27608)
 
 Curve PYUSD/USDS Swaps will be onboarded with the following parameters:
@@ -353,13 +353,13 @@ Curve PYUSD/USDS Swaps will be onboarded with the following parameters:
   - PYUSD: [0x6c3ea9036406852006290770BEdFcAbA0e23A0e8](https://docs.paxos.com/guides/stablecoin/pyusd/mainnet)
   - USDS: [0xdC035D45d973E3EC169d2276DDab16f1e407384F](https://github.com/grove-labs/grove-address-registry/blob/5fd8653a059386b44e4c7f503d5c66547cf90680/src/Ethereum.sol#L26C40-L26C82)
     - Swaps:
-      - Max amount: **5M PYUSD/USDS**
-      - Slope: **100M PYUSD/USDS per day**
-      - maxSlippage: **0.1%**
+      - [maxAmount](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2.1): **5M PYUSD/USDS**
+      - [Slope](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2.2): **100M PYUSD/USDS per day**
+      - [maxSlippage](https://sky-atlas.io/#A.2.2.9.1.1.1.2.6): **0.1%**
 
 ##### [Mainnet] Onboard Grove x Steakhouse USDC Morpho Vault
 
-- **Authorization**: [$TBD]($TBD)
+- **Authorization**: [Governance Poll 1615](https://vote.sky.money/polling/QmVGah9c)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/january-29-2026-proposed-changes-to-grove-for-upcoming-spell/27608)
 
 Grove x Steakhouse USDC Morpho Vault V2 will be onboarded with the following parameters:
@@ -367,7 +367,7 @@ Grove x Steakhouse USDC Morpho Vault V2 will be onboarded with the following par
 - **Grove x Steakhouse USDC V2:** [0xBeefF08dF54897e7544aB01d0e86f013DA354111](https://app.morpho.org/ethereum/vault/0xBeefF08dF54897e7544aB01d0e86f013DA354111/grove-x-steakhouse-usdc)
   - USDC: [0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 ](https://developers.circle.com/stablecoins/usdc-contract-addresses)
     - Deposits:
-      - Max amount:  **20M USDC**
+      - maxAmount:  **20M USDC**
       - Slope: **20M USDC per day**
     - Withdraws:
       - Amount: **Unlimited**
@@ -377,7 +377,7 @@ Grove x Steakhouse USDC Morpho Vault V2 will be onboarded with the following par
 
 ##### [Mainnet] Onboard Steakhouse PYUSD Morpho Vault
 
-- **Authorization**: [$TBD]($TBD)
+- **Authorization**: [Governance Poll 1615](https://vote.sky.money/polling/QmVGah9c)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/january-29-2026-proposed-changes-to-grove-for-upcoming-spell/27608)
 
 Steakhouse PYUSD Morpho Vault will be onboarded with the following parameters:
@@ -385,7 +385,7 @@ Steakhouse PYUSD Morpho Vault will be onboarded with the following parameters:
 - Steakhouse PYUSD Main: [0xd8A6511979D9C5D387c819E9F8ED9F3a5C6c5379](https://app.morpho.org/ethereum/vault/0xd8A6511979D9C5D387c819E9F8ED9F3a5C6c5379/steakhouse-high-yield-instant?tab=vault)
   - PYUSD: [0x6c3ea9036406852006290770BEdFcAbA0e23A0e8](https://docs.paxos.com/guides/stablecoin/pyusd/mainnet)
     - Deposits:
-      - Max amount: **20M PYUSD**
+      - maxAmount: **20M PYUSD**
       - Slope: **20M PYUSD per day**
     - Withdraws:
       - Amount: **Unlimited**
@@ -395,7 +395,7 @@ Steakhouse PYUSD Morpho Vault will be onboarded with the following parameters:
 
 ##### [Mainnet] Onboard Relayers for Grove Liquidity Layer
 
-- **Authorization**: [$TBD]($TBD)
+- **Authorization**: [Governance Poll 1615](https://vote.sky.money/polling/QmVGah9c)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/january-29-2026-proposed-changes-to-grove-for-upcoming-spell/27608)
 
 A Secondary Relayer for the MainnetController will be onboarded for Grove, located at [0x9187807e07112359C481870feB58f0c117a29179](https://etherscan.io/address/0x9187807e07112359C481870feB58f0c117a29179#code).
