@@ -99,7 +99,7 @@ ALLOCATOR-PATTERN-A ilk will be added to the SP-BEAM with the following paramete
 - [min](https://sky-atlas.io/#A.3.7.1.2.1.1): **0 bps**
 - [step](https://sky-atlas.io/#A.3.7.1.2.1.3): **400 bps**
 
-#### Add Pattern StarGaurd instance
+#### Add Pattern StarGuard instance
 
 Init new StarGuard module by calling [StarGuardInit.init](https://github.com/sidestream-tech/sky-star-guard/blob/7398ffb283c4490c6e29bea28b92cd57285d4889/deploy/StarGuardInit.sol#L44-L63) with:
 
