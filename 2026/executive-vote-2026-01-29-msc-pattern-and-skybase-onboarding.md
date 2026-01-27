@@ -134,7 +134,7 @@ SKYBASE_STARGUARD will be added to the [StarGuardJob](https://etherscan.io/addre
 
 #### Skybase Genesis Funding
 
-The following transfers will be made as part of Skybase's Genesis funding:
+The following transfers will be made as part of Skybase's [Genesis funding](https://sky-atlas.io/#A.2.8.2.7.2.2):
 
 - Transfer **10 million USDS** to SKYBASE_SUBPROXY located at [0x08978E3700859E476201c1D7438B3427e3C81140](https://etherscan.io/address/0x08978E3700859E476201c1D7438B3427e3C81140).
 - Transfer **5 million USDS** to the USDS Demand Subsidies Multisig at [0x3F32bC09d41eE699844F8296e806417D6bf61Bba](https://etherscan.io/address/0x3F32bC09d41eE699844F8296e806417D6bf61Bba).
@@ -247,12 +247,12 @@ The Uniswap v4 USDT/USDS Pool will be onboarded with the following parameters:
   - [maxAmount](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2.1): **5 million**
   - [Slope](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2.2): **50 million per day**
 
-##### [Ethereum] Spark Savings - Increase spUSDT Supply Cap
+##### [Ethereum] Spark Savings - Increase spUSDT Deposit Cap
 
 - **Authorization**: [Snapshot Poll](https://snapshot.org/#/s:sparkfi.eth/proposal/0x64bd800579115f0a11a1290af898bdbe587947cd483afab3998b8454e3a4fb2d)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/january-29-2026-proposed-changes/27620)
 
-The spUSDT Supply Cap will be increased to **2 billion USDT**.
+The spUSDT [Deposit Cap](https://docs.spark.fi/dev/savings/spark-vaults-v2#deposit-cap) will be increased by 1.5 billion, from 500 million to **2 billion USDT**.
 
 ##### [Ethereum] SparkLend - Claim Accumulated Reserves
 
@@ -316,7 +316,7 @@ Curve AUSD/USDC Swaps & Liquidity Provision will be onboarded with the following
       - [maxAmount](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2.1): **25M AUSD/USDC**
       - [Slope](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2.2): **25M AUSD/USDC per day**
     - LP Withdraws:
-      - [maxAmount](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2.1): **unlimited**
+      - [maxAmount](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2.1): **Unlimited**
 
 ##### [Mainnet] Onboard Uniswap v3 AUSD/USDC Swaps & LP
 
@@ -335,7 +335,7 @@ Uniswap v3 AUSD/USDC Swaps & Liquidity Provision will be onboarded with the foll
       - [maxAmount](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2.1): **25M AUSD/USDC**
       - [Slope](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2.2): **25M AUSD/USDC per day**
     - LP Withdraws:
-      - [maxAmount](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2.1): **unlimited**
+      - [maxAmount](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2.1): **Unlimited**
 - [Instance Specific Parameters](https://sky-atlas.io/#A.6.1.1.2.2.6.1.3.1.12.2.4)
   - twapSecondsAgo: **600**
   - maxTickDelta: **200**
