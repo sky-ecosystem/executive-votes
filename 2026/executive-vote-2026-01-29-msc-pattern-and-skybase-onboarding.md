@@ -390,7 +390,7 @@ Steakhouse PYUSD Morpho Vault will be onboarded with the following parameters:
     - Withdraws:
       - Amount: **Unlimited**
     - Max Exchange Rate:
-      - Controllers now have  protections that require a `maxExchangeRate` to be set for deposits. The following ensures 1 share can represent at most 4 PYUSD (current share price is 2).
+      - Controllers now have  protections that require a `maxExchangeRate` to be set for deposits. The following ensures that 1 share can represent at most 4 PYUSD (current share price is 2).
         - `setMaxExchangeRate(STEAKHOUSE_PYUSD_MAIN, 1e18, 4e6)`
 
 ##### [Mainnet] Onboard Relayers for Grove Liquidity Layer
