@@ -263,7 +263,7 @@ The spUSDT Supply Cap will be increased to **2 billion USDT**.
 Accumulated reserves will be claimed as described below:
 
 - Claim SparkLend USDS, USDC, DAI, PYUSD, and USDT and send to SparkALM Proxy
-- Recipient address: [0x3300f198988e4C9C63F75dF86De36421f06af8c4](https://etherscan.io/address/0x3300f198988e4C9C63F75dF86De36421f06af8c4)
+- Recipient address: [0x1601843c5E9bC251A3272907010AFa41Fa18347E](https://etherscan.io/address/0x1601843c5E9bC251A3272907010AFa41Fa18347E)
 
 - Claim all other SparkLend reserves, and send to Spark Operations Multisig
 - Recipient address: [0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC](https://etherscan.io/address/0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC)
