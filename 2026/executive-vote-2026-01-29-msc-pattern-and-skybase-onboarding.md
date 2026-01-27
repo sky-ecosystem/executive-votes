@@ -352,12 +352,12 @@ Uniswap v3 AUSD/USDC Swaps & Liquidity Provision will be onboarded with the foll
 Curve PYUSD/USDS Swaps will be onboarded with the following parameters:
 
 - Curve PYUSD/USDS Pool: [0xA632D59b9B804a956BfaA9b48Af3A1b74808FC1f](https://www.curve.finance/dex/ethereum/pools/factory-stable-ng-561/deposit)
-    - PYUSD: [0x6c3ea9036406852006290770BEdFcAbA0e23A0e8](https://docs.paxos.com/guides/stablecoin/pyusd/mainnet)
-    - USDS: [0xdC035D45d973E3EC169d2276DDab16f1e407384F](https://github.com/grove-labs/grove-address-registry/blob/5fd8653a059386b44e4c7f503d5c66547cf90680/src/Ethereum.sol#L26C40-L26C82)
-        - Swaps:
-            - Max amount: **5M PYUSD/USDS**
-            - Slope: **100M PYUSD/USDS per day**
-            - maxSlippage: **0.1%**
+  - PYUSD: [0x6c3ea9036406852006290770BEdFcAbA0e23A0e8](https://docs.paxos.com/guides/stablecoin/pyusd/mainnet)
+  - USDS: [0xdC035D45d973E3EC169d2276DDab16f1e407384F](https://github.com/grove-labs/grove-address-registry/blob/5fd8653a059386b44e4c7f503d5c66547cf90680/src/Ethereum.sol#L26C40-L26C82)
+    - Swaps:
+      - Max amount: **5M PYUSD/USDS**
+      - Slope: **100M PYUSD/USDS per day**
+      - maxSlippage: **0.1%**
 
 ##### [Mainnet] Onboard Grove x Steakhouse USDC Morpho Vault
 
