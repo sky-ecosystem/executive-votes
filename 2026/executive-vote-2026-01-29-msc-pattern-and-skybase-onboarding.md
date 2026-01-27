@@ -18,7 +18,7 @@ If you are new to voting in the Sky Protocol, please see the [voting guide](http
 If this executive proposal passes, the following **actions** will occur within the Sky Protocol:
 
 - The Monthly Settlement Cycle and Treasury Management Function for November and December 2025 will be executed.
-- The Pattern SubProxy and StarGuard will be initialized.
+- The Pattern Allocator Vault and StarGuard will be initialized.
 - Skybase StarGuard will be initialized.
 - Skybase Genesis Capital Allocation will be distributed.
 - A DAO Resolution relating to 6s Capital (RWA001-A) will be approved.
