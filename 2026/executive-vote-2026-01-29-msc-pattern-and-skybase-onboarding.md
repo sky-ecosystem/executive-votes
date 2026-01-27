@@ -96,7 +96,7 @@ ALLOCATOR-PATTERN-A will be added to the Debt Ceiling Breaker (LINE_MOM).
 ALLOCATOR-PATTERN-A ilk will be added to the SP-BEAM with the following parameters:
 
 - max: 3,000 bps
-- min: 0 bps
+- [min](https://sky-atlas.io/#A.3.7.1.2.1.1): **0 bps**
 - [step](https://sky-atlas.io/#A.3.7.1.2.1.3): **400 bps**
 
 #### Add Pattern StarGaurd instance
