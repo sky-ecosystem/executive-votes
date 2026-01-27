@@ -46,7 +46,7 @@ If this executive proposal passes, then If this executive proposal passes, then 
 #### Spark
 
 - Mint **25,547,255 USDS** debt in ALLOCATOR-SPARK-A and transfer the amount to the Surplus Buffer.
-- Transfer **7,071,339 USDS** from the surplus buffer to the SPARK_SUBPROXY located at [0x3300f198988e4C9C63F75dF86De36421f06af8c4](https://etherscan.io/address/0x3300f198988e4C9C63F75dF86De36421f06af8c4).
+- Transfer **7,071,339 USDS** from the Surplus Buffer to the SPARK_SUBPROXY located at [0x3300f198988e4C9C63F75dF86De36421f06af8c4](https://etherscan.io/address/0x3300f198988e4C9C63F75dF86De36421f06af8c4).
 
 #### Grove
 
