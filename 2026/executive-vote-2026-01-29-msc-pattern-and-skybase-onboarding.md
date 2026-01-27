@@ -210,19 +210,19 @@ The Uniswap v4 PYUSD/USDS Pool will be onboarded with the following parameters:
 - Pool: `0xe63e32b2ae40601662f760d6bf5d771057324fbd97784fe1d3717069f7b75d45`
 - Swap fee: **0.0005%**
 - SLL parameters
-	- Min lower tick limit: **276,314 (-0.1%)**
-	- Max upper tick limit: **276,334 (+0.1%)**
-	- Max tick width: **10 ticks**
-	- Max slippage: **0.1%**
+  - Min lower tick limit: **276,314 (-0.1%)**
+  - Max upper tick limit: **276,334 (+0.1%)**
+  - Max tick width: **10 ticks**
+  - Max slippage: **0.1%**
 - Deposits
-	- maxAmount: **10 million**
-	- slope: **100 million per day**
+  - maxAmount: **10 million**
+  - slope: **100 million per day**
 - Withdrawals
-	- maxAmount: **50 million**
-	- slope: **200 million per day**
+  - maxAmount: **50 million**
+  - slope: **200 million per day**
 - Swaps
-	- maxAmount: **5 million**
-	- slope: **50 million per day**
+  - maxAmount: **5 million**
+  - slope: **50 million per day**
 
 ##### [Ethereum] SLL - Onboard Uniswap v4 USDT/USDS
 
