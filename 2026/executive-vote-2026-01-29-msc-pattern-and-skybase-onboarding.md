@@ -103,12 +103,12 @@ ALLOCATOR-PATTERN-A ilk will be added to the SP-BEAM with the following paramete
 
 Init new StarGuard module by calling [StarGuardInit.init](https://github.com/sidestream-tech/sky-star-guard/blob/7398ffb283c4490c6e29bea28b92cd57285d4889/deploy/StarGuardInit.sol#L44-L63) with:
 
-- chainlog: DssExecLib.LOG
-- cfg.subProxy: [0xbC8959Ae2d4E9B385Fe620BEF48C2FD7f4A84736](https://etherscan.io/address/0xbC8959Ae2d4E9B385Fe620BEF48C2FD7f4A84736)
-- cfg.subProxyKey: PATTERN_SUBPROXY
+- [`chainlog`](https://chainlog.sky.money/): `DssExecLib.LOG`
+- `cfg.subProxy`: [0xbC8959Ae2d4E9B385Fe620BEF48C2FD7f4A84736](https://etherscan.io/address/0xbC8959Ae2d4E9B385Fe620BEF48C2FD7f4A84736)
+- `cfg.subProxyKey`: `PATTERN_SUBPROXY`
 - cfg.starGuard: [0x2fb18b28fB39Ec3b26C3B5AF5222e2ca3B8B2269](https://etherscan.io/address/0x2fb18b28fB39Ec3b26C3B5AF5222e2ca3B8B2269)
-- cfg.starGuardKey: PATTERN_STARGUARD
-- cfg.maxDelay: 7 days
+- `cfg.starGuardKey`: `PATTERN_STARGUARD`
+- `cfg.maxDelay`: **7 days**
 
 PATTERN_STARGUARD module will then be added to the [StarGuardJob](https://etherscan.io/address/0xb18d211fa69422a9a848b790c5b4a3957f7aa44e).
 
