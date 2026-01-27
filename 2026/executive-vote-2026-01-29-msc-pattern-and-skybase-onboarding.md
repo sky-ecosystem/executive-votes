@@ -279,7 +279,7 @@ Accumulated reserves will be claimed as described below:
 ##### [Mainnet] Re-Onboard Agora AUSD Mint Redeem
 
 - **Authorization**: [Governance Poll 1615](https://vote.sky.money/polling/QmVGah9c)
-- **Proposal**: [[Forum Post](https://forum.sky.money/t/january-29-2026-proposed-changes-to-grove-for-upcoming-spell/27608)
+- **Proposal**: [Forum Post](https://forum.sky.money/t/january-29-2026-proposed-changes-to-grove-for-upcoming-spell/27608)
 
 The mint destination address for AUSD with Agora will be updated with the following market parameters:
 
