@@ -234,19 +234,19 @@ The Uniswap v4 USDT/USDS Pool will be onboarded with the following parameters:
 - Pool: `0x3b1b1f2e775a6db1664f8e7d59ad568605ea2406312c11aef03146c0cf89d5b9`
 - Swap fee: **0.0005%**
 - SLL parameters
-	- Min lower tick limit: **276,304 (-0.2%)**
-	- Max upper tick limit: **276,344 (+0.2%)**
-	- Max tick width: **10 ticks**
-	- Max slippage: **0.2%**
+  - Min lower tick limit: **276,304 (-0.2%)**
+  - Max upper tick limit: **276,344 (+0.2%)**
+  - Max tick width: **10 ticks**
+  - Max slippage: **0.2%**
 - Deposits
-	- maxAmount: **5 million**
-	- slope: **50 million per day**
+  - maxAmount: **5 million**
+  - slope: **50 million per day**
 - Withdrawals
-	- maxAmount: **50 million**
-	- slope: **200 million per day**
+  - maxAmount: **50 million**
+  - slope: **200 million per day**
 - Swaps
-	- maxAmount: **5 million**
-	- slope: **50 million per day**
+  - maxAmount: **5 million**
+  - slope: **50 million per day**
 
 ##### [Ethereum] Spark Savings - Increase spUSDT Supply Cap
 
