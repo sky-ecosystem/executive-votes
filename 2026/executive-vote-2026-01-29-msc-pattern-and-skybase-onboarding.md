@@ -2,7 +2,7 @@
 title: Template - [Executive Vote] November and December Monthly Settlement Cycles and Treasury Management Function, Pattern Onboarding, Skybase Onboarding and Genesis Capital Funding, DAO Resolution for 6s Capital, Prime Agent Proxy Spells - January 29, 2026
 summary: Execute Monthly Settlement Cycle and Treasury Management Function for November and December, onboard Pattern with ALLOCATOR-PATTERN-A and StarGuard instance, onboard Skybase with StarGuard instance, approve DAO Resolution for RWA001-A, whitelist proxy spells for Spark and Grove.
 date: 2026-01-26T00:00:00.000Z
-address: "$spell_address"
+address: "0x4d99868F6D4d2545EbFf3a1385efE31C06d3A472"
 ---
 
 # [Executive Proposal] November and December Monthly Settlement Cycles and Treasury Management Function, Pattern Onboarding, Skybase Onboarding and Genesis Capital Funding, DAO Resolution for 6s Capital, Prime Agent Proxy Spells - January 29, 2026
