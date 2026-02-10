@@ -47,7 +47,7 @@ If this executive proposal passes, then the [Debt Ceiling Instant Access Module 
 - **Authorization**: [Core Facilitator Approval](https://forum.sky.money/t/technical-scope-of-rwa001-a-offboarding/27706/2)
 - **Proposal**: [Technical Scope](https://forum.sky.money/t/technical-scope-of-rwa001-a-offboarding/27706)
 
-If this executive proposal passes, then the [Stability Fee ](https://sky-atlas.io/#A.3.7.1.1.2.3)for [RWA001-A (6S Capital)](https://info.sky.money/collateral/legacy-rwa/RWA001-A) will be adjusted as follows:
+If this executive proposal passes, then the [Stability Fee](https://sky-atlas.io/#A.3.7.1.1.2.3)for [RWA001-A (6s Capital)](https://info.sky.money/collateral/legacy-rwa/RWA001-A) will be adjusted as follows:
 
 - Reduce the Stability Fee by 9 percentage points from 9% to **0%**
 
