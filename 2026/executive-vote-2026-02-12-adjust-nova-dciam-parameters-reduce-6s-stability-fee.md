@@ -2,7 +2,7 @@
 title: Template - [Executive Vote] Adjust ALLOCATOR-NOVA-A DC-IAM Parameters, Reduce RWA001-A Stability Fee, Prime Agent Proxy Spells - February 12, 2026
 summary: Update the DC-IAM parameters for ALLOCATOR-NOVA-A, reduce the RWA001-A Stability Fee to prepare for offboarding, whitelist proxy spells for Spark and Grove.
 date: 2026-02-12T00:00:00.000Z
-address: "$spell_address"
+address: "0x97bD98F46D0d0769745883E76c05483f9aa15Ca6"
 ---
 
 # [Executive Proposal] Adjust ALLOCATOR-NOVA-A DC-IAM Parameters, Reduce RWA001-A Stability Fee, Prime Agent Proxy Spells - February 12, 2026
