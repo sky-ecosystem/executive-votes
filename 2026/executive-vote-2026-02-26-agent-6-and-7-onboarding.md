@@ -89,7 +89,7 @@ PRYSM_STARGUARD will be added to the [StarGuardJob](https://etherscan.io/address
 - **Authorization**: [Governance Poll 1618](https://vote.sky.money/polling/QmcxUENd)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/technical-scope-of-the-new-launch-agent-7-allocator-instance/27725)
 
-If this executive proposal passes, then Launch Agent 7 will be onboarded as a Star Agent. The onboarding will consist of initializing an Allocator Vault, adding the new Allocator Vault to the SP-BEAM, and initializing a Pattern StarGuard instance for future proxy spells.
+If this executive proposal passes, then Launch Agent 7 will be onboarded as a Prime Agent. The onboarding will consist of initializing an Allocator Vault, adding the new Allocator Vault to the SP-BEAM, and initializing a StarGuard instance for future proxy spells.
 
 #### Allocator Contracts
 
