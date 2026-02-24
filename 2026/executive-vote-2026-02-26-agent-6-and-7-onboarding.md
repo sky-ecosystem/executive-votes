@@ -217,40 +217,40 @@ SparkLend reserves will be claimed as follows:
 
 The SparkLend USDT [rate limit](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2) parameters will be increased as follows:
 
-- Deposits
-  - maxAmount: **250 million USDT**
-  - slope: **2 billion USDT per day**
-- Withdrawals
-  - maxAmount: **Unlimited**
+- Deposits:
+  - maxAmount: Increase by 150 million USDT, from 100 million USDT to **250 million USDT**.
+  - slope: Increase by 1.8 billion USDT, from 200 million USDT per day to **2 billion USDT per day**.
+- Withdrawals:
+  - maxAmount: **Unlimited**.
 
-##### [Mainnet] Spark Liquidity Layer - Increase Rate Limit for Maple syrupUSDT
+##### [Mainnet] Spark Liquidity Layer - Adjust Rate Limit for Maple syrupUSDT
 
 - **Authorization**: [Snapshot Poll](https://snapshot.box/#/s:sparkfi.eth/proposal/0xdc1931c6f37149183ae2f15b61f56621d5091d1ce4469ad95cc6cdd33963db8c)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/february-26-2026-proposed-changes-to-spark-for-upcoming-spell/27719)
 
-The Maple syrupUSDT [rate limit](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2) parameters will be increased as follows:
+The Maple syrupUSDT [rate limit](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2) parameters will be adjusted as follows:
 
-- Deposits
-  - maxAmount: **25 million USDT**
-  - slope: **100 million USDT per day**
-- Request Redemption
+- Deposits:
+  - maxAmount: Decrease by 25 million USDT, from 50 million USDT to **25 million USDT**.
+  - slope: Increase by 90 million USDT, from 10 million USDT to **100 million USDT per day**.
+- Request Redemption Setting:
   - maxAmount: **50 million USDT**
   - slope: **500 million USDT per day**
-- Withdrawals
+- Withdrawals Setting:
   - maxAmount: **Unlimited**
 
-##### [Mainnet] Spark Liquidity Layer - Increase Rate Limit for Aave Core USDT
+##### [Mainnet] Spark Liquidity Layer - Adjust Rate Limit for Aave Core USDT
 
 - **Authorization**: [Snapshot Poll](https://snapshot.box/#/s:sparkfi.eth/proposal/0xdc1931c6f37149183ae2f15b61f56621d5091d1ce4469ad95cc6cdd33963db8c)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/february-26-2026-proposed-changes-to-spark-for-upcoming-spell/27719)
 
-The Aave Core USDT [rate limit](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2) parameters will be increased as follows:
+The Aave Core USDT [rate limit](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2) parameters will be adjusted as follows:
 
-- Deposits
-  - maxAmount: **10 million USDT**
-  - slope: **1 billion USDT per day**
-- Withdrawals
-  - maxAmount: **Unlimited**
+- Deposits:
+  - maxAmount: Decrease by 40 million USDT, from 50 million USDT to **10 million USDT**.
+  - slope: Increase by 975 millon USDT, from 25 million USDT per day to **1 billion USDT per day**.
+- Withdrawals:
+  - maxAmount: **Unlimited**.
 
 ##### [Mainnet] Spark Liquidity Layer - Onboard with Paxos
 
