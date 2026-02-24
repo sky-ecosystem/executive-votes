@@ -161,7 +161,7 @@ If this executive proposal passes, then the January Monthly Settlement Cycles wi
 - Transfer **4,808,248 USDS** from the Surplus Buffer to the Core Council Buffer located at [0x210CFcF53d1f9648C1c4dcaEE677f0Cb06914364](https://etherscan.io/address/0x210CFcF53d1f9648C1c4dcaEE677f0Cb06914364).
 - Transfer **240,412 USDS** from the Surplus Buffer to the Aligned Delegates Buffer located at [0x37FC5d447c8c54326C62b697f674c93eaD2A93A3](https://etherscan.io/address/0x37FC5d447c8c54326C62b697f674c93eaD2A93A3).
 
-### LSSKY->SKY Rewards Farm Normalization
+### LSSKY->SKY Staking Rewards Normalization
 
 - **Authorization**: [Atlas - A.4.4.1.4.2.1.3.3 - Vesting Stream Parameter Modification](https://sky-atlas.io/#A.4.4.1.4.2.1.3.3), [Core Facilitator Approval](https://forum.sky.money/t/lssky-to-sky-rewards-sky-rewards-for-sky-stakers-normalization-configuration/27721/3)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/lssky-to-sky-rewards-sky-rewards-for-sky-stakers-normalization-configuration/27721/2)
