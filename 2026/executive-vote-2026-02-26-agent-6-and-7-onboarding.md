@@ -59,7 +59,7 @@ Init new Allocator instance by calling [AllocatorInit.initIlk](https://github.co
 - `cfg.allocatorProxy`: [0x24fdcd3bFA5C2553e05B2f9AD0365EBC296278D3](https://etherscan.io/address/0x24fdcd3bFA5C2553e05B2f9AD0365EBC296278D3) (SubProxy contract);
 - `cfg.ilkRegistry`: `ILK_REGISTRY` from [Chainlog](https://chainlog.sky.money/).
 
-The initialization script will create a PIP_ALLOCATOR-PRYSM-A entry in the [Chainlog](https://chainlog.sky.money/); this entry is not necessary and will be removed.
+The initialization script will create a PIP_ALLOCATOR_PRYSM_A entry in the [Chainlog](https://chainlog.sky.money/); this entry is not necessary and will be removed.
 
 ALLOCATOR-PRYSM-A will be added to the [Debt Ceiling Breaker (LINE_MOM)](https://sky-atlas.powerhouse.io/A.1.9.3.2.3_Debt_Ceiling_Breaker_Exception/8c27b081-2db5-4e8f-9b5c-f5cf0f8d3102|0db30758e055352c).
 
