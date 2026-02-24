@@ -168,7 +168,7 @@ If this executive proposal passes, then the January Monthly Settlement Cycles wi
 
 If this executive proposal passes, then the distribution of SKY token rewards to SKY stakers will be normalized as per [A.4.4.1.4.2 - Short Term SKY Rewards For SKY Stakers](https://sky-atlas.io/#A.4.4.1.4.2), by executing the following actions:
 
-- Distribute the remaining tokens from the old DssVest by calling `VestedRewardsDistribution.distribute()` on [REWARDS_DIST_LSSKY_SKY](https://etherscan.io/address/0xa3Ee378BdD0b7DD403cEd3a0A65B2B389A2eaB7e)
+- Distribute the remaining tokens from the old stream by calling `VestedRewardsDistribution.distribute()` on [REWARDS_DIST_LSSKY_SKY](https://etherscan.io/address/0x675671a8756ddb69f7254afb030865388ef699ee)
 - Create a new [MCD_VEST_SKY_TREASURY](https://etherscan.io/address/0x67eaDb3288cceDe034cE95b0511DCc65cf630bB6) stream with the following parameters:
   - `res`: 1 (restricted)
   - `vestBgn`: **`block.timestamp`**
