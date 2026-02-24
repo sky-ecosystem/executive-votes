@@ -19,7 +19,7 @@ If this executive proposal passes, the following **actions** will occur within t
 
 - The Allocator Vaults and associated contracts for Launch Agents 6 and 7 will be initialized.
 - The Monthly Settlement Cycle and Treasury Management Function for January 2026 will be executed.
-- The LSSKY->SKY Rewards Farm will be normalized.
+- LSSKY->SKY staking rewards will be normalized.
 - Star proxy spells for Spark and Grove will be whitelisted in the corresponding StarGuard modules.
 
 **Voting for this executive proposal will place your SKY in support of the actions outlined above.**
