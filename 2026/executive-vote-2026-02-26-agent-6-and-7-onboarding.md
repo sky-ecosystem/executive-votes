@@ -67,20 +67,20 @@ ALLOCATOR-PRYSM-A will be added to the [Debt Ceiling Breaker (LINE_MOM)](https:/
 
 The newly created ALLOCATOR-PRYSM-A will be added to the [SP-BEAM](https://sky-atlas.io/#A.3.7.1.2) with the following parameters:
 
-- [max](https://sky-atlas.io/#A.3.7.1.2.1.2): **3,000 basis points**
-- [min](https://sky-atlas.io/#A.3.7.1.2.1.1): **0 basis points**
-- [step](https://sky-atlas.io/#A.3.7.1.2.1.3): **400 basis points**
+- [max](https://sky-atlas.io/#A.3.7.1.2.1.2): **3,000 basis points**;
+- [min](https://sky-atlas.io/#A.3.7.1.2.1.1): **0 basis points**;
+- [step](https://sky-atlas.io/#A.3.7.1.2.1.3): **400 basis points**.
 
 #### Add Launch Agent 6 StarGuard Instance
 
 Init new StarGuard module by calling [StarGuardInit.init](https://github.com/sky-ecosystem/star-guard/blob/52239d716a89188b303f137fc43fb9288735ba2e/deploy/StarGuardInit.sol#L44-L63) with:
 
-- [`chainlog`](https://chainlog.sky.money/): `DssExecLib.LOG`
-- `cfg.subProxy`: [0x24fdcd3bFA5C2553e05B2f9AD0365EBC296278D3](https://etherscan.io/address/0x24fdcd3bFA5C2553e05B2f9AD0365EBC296278D3)
-- `cfg.subProxyKey`: `PRYSM_SUBPROXY`
-- `cfg.starGuard`: [0xBfA2D1dA838E55A74c61699e164cDFF8cF0cF0e2](https://etherscan.io/address/0xBfA2D1dA838E55A74c61699e164cDFF8cF0cF0e2)
-- `cfg.starGuardKey`: `PRYSM_STARGUARD`
-- `cfg.maxDelay`: **7 days**
+- [`chainlog`](https://chainlog.sky.money/): `DssExecLib.LOG`;
+- `cfg.subProxy`: [0x24fdcd3bFA5C2553e05B2f9AD0365EBC296278D3](https://etherscan.io/address/0x24fdcd3bFA5C2553e05B2f9AD0365EBC296278D3);
+- `cfg.subProxyKey`: `PRYSM_SUBPROXY`;
+- `cfg.starGuard`: [0xBfA2D1dA838E55A74c61699e164cDFF8cF0cF0e2](https://etherscan.io/address/0xBfA2D1dA838E55A74c61699e164cDFF8cF0cF0e2);
+- `cfg.starGuardKey`: `PRYSM_STARGUARD`;
+- `cfg.maxDelay`: **7 days**.
 
 PRYSM_STARGUARD will be added to the [StarGuardJob](https://etherscan.io/address/0xB18d211fA69422a9A848B790C5B4a3957F7Aa44E).
 
@@ -117,20 +117,20 @@ ALLOCATOR-INTERVAL-A will be added to the [Debt Ceiling Breaker (LINE_MOM)](http
 
 The newly created ALLOCATOR-INTERVAL-A will be added to the [SP-BEAM](https://sky-atlas.io/#A.3.7.1.2) with the following parameters:
 
-- [max](https://sky-atlas.io/#A.3.7.1.2.1.2): **3,000 basis points**
-- [min](https://sky-atlas.io/#A.3.7.1.2.1.1): **0 basis points**
-- [step](https://sky-atlas.io/#A.3.7.1.2.1.3): **400 basis points**
+- [max](https://sky-atlas.io/#A.3.7.1.2.1.2): **3,000 basis points**;
+- [min](https://sky-atlas.io/#A.3.7.1.2.1.1): **0 basis points**;
+- [step](https://sky-atlas.io/#A.3.7.1.2.1.3): **400 basis points**.
 
 #### Add Launch Agent 7 StarGuard Instance
 
 Init new StarGuard module by calling [StarGuardInit.init](https://github.com/sky-ecosystem/star-guard/blob/52239d716a89188b303f137fc43fb9288735ba2e/deploy/StarGuardInit.sol#L44-L63) with:
 
-- [`chainlog`](https://chainlog.sky.money/): `DssExecLib.LOG`
-- `cfg.subProxy`: [0x56a9bA5FE133EF4Ab1131E8ac7c4312a52284f5B](https://etherscan.io/address/0x56a9bA5FE133EF4Ab1131E8ac7c4312a52284f5B)
-- `cfg.subProxyKey`: `INTERVAL_SUBPROXY`
-- `cfg.starGuard`: [0xB36e88c02E4619Ef34C0Db76C5BCb6655747FB28](https://etherscan.io/address/0xB36e88c02E4619Ef34C0Db76C5BCb6655747FB28)
-- `cfg.starGuardKey`: `INTERVAL_STARGUARD`
-- `cfg.maxDelay`: **7 days**
+- [`chainlog`](https://chainlog.sky.money/): `DssExecLib.LOG`;
+- `cfg.subProxy`: [0x56a9bA5FE133EF4Ab1131E8ac7c4312a52284f5B](https://etherscan.io/address/0x56a9bA5FE133EF4Ab1131E8ac7c4312a52284f5B);
+- `cfg.subProxyKey`: `INTERVAL_SUBPROXY`;
+- `cfg.starGuard`: [0xB36e88c02E4619Ef34C0Db76C5BCb6655747FB28](https://etherscan.io/address/0xB36e88c02E4619Ef34C0Db76C5BCb6655747FB28);
+- `cfg.starGuardKey`: `INTERVAL_STARGUARD`;
+- `cfg.maxDelay`: **7 days**.
 
 INTERVAL_STARGUARD will be added to the [StarGuardJob](https://etherscan.io/address/0xB18d211fA69422a9A848B790C5B4a3957F7Aa44E).
 
@@ -168,12 +168,12 @@ If this executive proposal passes, then the January Monthly Settlement Cycle wil
 
 If this executive proposal passes, then the distribution of SKY token rewards to SKY stakers will be normalized as per [A.4.4.1.4.2 - Short Term SKY Rewards For SKY Stakers](https://sky-atlas.io/#A.4.4.1.4.2), by executing the following actions:
 
-- Distribute the remaining tokens from the old stream by calling `VestedRewardsDistribution.distribute()` on [REWARDS_DIST_LSSKY_SKY](https://etherscan.io/address/0x675671a8756ddb69f7254afb030865388ef699ee)
+- Distribute the remaining tokens from the old stream by calling `VestedRewardsDistribution.distribute()` on [REWARDS_DIST_LSSKY_SKY](https://etherscan.io/address/0x675671a8756ddb69f7254afb030865388ef699ee).
 - Create a new [MCD_VEST_SKY_TREASURY](https://etherscan.io/address/0x67eaDb3288cceDe034cE95b0511DCc65cf630bB6) stream with the following parameters:
-  - `res`: 1 (restricted)
-  - `vestBgn`: **`block.timestamp`**
-  - `vestTau`: **`block.timestamp` + 180 days**
-  - `tot`: **838,182,330 SKY**
+  - `res`: **1 (restricted)**;
+  - `vestBgn`: **`block.timestamp`**;
+  - `vestTau`: **`block.timestamp` + 180 days**;
+  - `tot`: **838,182,330 SKY**.
 - Adjust the Sky allowance for [MCD_VEST_SKY_TREASURY](https://etherscan.io/address/0x67eadb3288ccede034ce95b0511dcc65cf630bb6), reducing it by the remaining yanked stream amount and increasing it by the new stream total.
 - `yank` [MCD_VEST_SKY_TREASURY](https://etherscan.io/address/0x67eadb3288ccede034ce95b0511dcc65cf630bb6) vest with ID 8.
 - `file` the new stream ID on [REWARDS_DIST_LSSKY_SKY](https://etherscan.io/address/0xa3Ee378BdD0b7DD403cEd3a0A65B2B389A2eaB7e).
@@ -233,10 +233,10 @@ The Maple syrupUSDT [rate limit](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2) parame
 - Deposits:
   - maxAmount: Decrease by 25 million USDT, from 50 million USDT to **25 million USDT**.
   - slope: Increase by 90 million USDT, from 10 million USDT to **100 million USDT per day**.
-- Request Redemption Setting:
+- Request Redemption:
   - maxAmount: **50 million USDT**
   - slope: **500 million USDT per day**
-- Withdrawals Setting:
+- Withdrawals:
   - maxAmount: **Unlimited**
 
 ##### [Mainnet] Spark Liquidity Layer - Adjust Rate Limit for Aave Core USDT
@@ -259,22 +259,22 @@ The Aave Core USDT [rate limit](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2) paramet
 
 Paxos will be onboarded to allow Spark Liquidity Layer the ability to directly swap between Paxos issued stablecoins or mint and redeem in exchange for USDC with the following contracts and [rate limit](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2) parameters:
 
-- USDC transferAsset (sell USDC to buy PYUSD)
-  - maxAmount: **5 million USDC**
-  - slope: **50 million USDC per day**
-  - address: [0xFb1F749024b4544c425f5CAf6641959da31EdF37](https://etherscan.io/address/0xFb1F749024b4544c425f5CAf6641959da31EdF37)
-- PYUSD transferAsset (sell PYUSD to buy USDC)
-  - maxAmount: **5 million PYUSD**
-  - slope: **200 million PYUSD per day**
-  - address: [0x2f7BE67e11A4D621E36f1A8371b0a5Fe16dE6B20](https://etherscan.io/address/0x2f7BE67e11A4D621E36f1A8371b0a5Fe16dE6B20)
-- PYUSD transferAsset (sell PYUSD to buy USDG)
-  - maxAmount: **5 million PYUSD**
-  - slope: **50 million PYUSD per day**
-  - address: [0x227B1912C2fFE1353EA3A603F1C05F030Cc262Ff](https://etherscan.io/address/0x227B1912C2fFE1353EA3A603F1C05F030Cc262Ff)
-- USDG transferAsset (sell USDG to buy PYUSD)
-  - maxAmount: **5 million USDG**
-  - slope: **100 million USDG per day**
-  - address: [0x035b322D0e79de7c8733CdDA5a7EF8b51a6cfcfa](https://etherscan.io/address/0x035b322D0e79de7c8733CdDA5a7EF8b51a6cfcfa)
+- USDC transferAsset (sell USDC to buy PYUSD):
+  - maxAmount: **5 million USDC**;
+  - slope: **50 million USDC per day**;
+  - address: [0xFb1F749024b4544c425f5CAf6641959da31EdF37](https://etherscan.io/address/0xFb1F749024b4544c425f5CAf6641959da31EdF37).
+- PYUSD transferAsset (sell PYUSD to buy USDC):
+  - maxAmount: **5 million PYUSD**;
+  - slope: **200 million PYUSD per day**;
+  - address: [0x2f7BE67e11A4D621E36f1A8371b0a5Fe16dE6B20](https://etherscan.io/address/0x2f7BE67e11A4D621E36f1A8371b0a5Fe16dE6B20).
+- PYUSD transferAsset (sell PYUSD to buy USDG):
+  - maxAmount: **5 million PYUSD**;
+  - slope: **50 million PYUSD per day**;
+  - address: [0x227B1912C2fFE1353EA3A603F1C05F030Cc262Ff](https://etherscan.io/address/0x227B1912C2fFE1353EA3A603F1C05F030Cc262Ff).
+- USDG transferAsset (sell USDG to buy PYUSD):
+  - maxAmount: **5 million USDG**;
+  - slope: **100 million USDG per day**;
+  - address: [0x035b322D0e79de7c8733CdDA5a7EF8b51a6cfcfa](https://etherscan.io/address/0x035b322D0e79de7c8733CdDA5a7EF8b51a6cfcfa).
 
 ##### [Mainnet] Spark Liquidity Layer - Onboard Morpho v2 USDT Vault
 
@@ -283,18 +283,18 @@ Paxos will be onboarded to allow Spark Liquidity Layer the ability to directly s
 
 The Morpho v2 USDT Vault will be onboarded to the Spark Liquidity Layer with the following contracts and [rate limit](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2) parameters:
 
-- Morpho vault configuration
-  - Address: [0xc7CDcFDEfC64631ED6799C95e3b110cd42F2bD22](https://etherscan.io/address/0xc7CDcFDEfC64631ED6799C95e3b110cd42F2bD22)
-  - Allocator: [0x9Ad87668d49ab69EEa0AF091de970EF52b0D5178](https://etherscan.io/address/0x9Ad87668d49ab69EEa0AF091de970EF52b0D5178) (ALM Proxy Freezable)
-  - Curator: [0x0f963A8A8c01042B69054e787E5763ABbB0646A3](https://etherscan.io/address/0x0f963A8A8c01042B69054e787E5763ABbB0646A3)
-  - Sentinel (Guardian): [0xf5748bBeFa17505b2F7222B23ae11584932C908B](https://etherscan.io/address/0xf5748bBeFa17505b2F7222B23ae11584932C908B)
-  - Owner: [0x3300f198988e4C9C63F75dF86De36421f06af8c4](https://etherscan.io/address/0x3300f198988e4C9C63F75dF86De36421f06af8c4) (SubDAO Proxy)
-- SLL configuration
-  - Deposits
-    - maxAmount: **50 million USDT**
-    - slope: **1 billion USDT per day**
-  - Withdrawals
-    - maxAmount: **Unlimited**
+- Morpho vault configuration:
+  - Address: [0xc7CDcFDEfC64631ED6799C95e3b110cd42F2bD22](https://etherscan.io/address/0xc7CDcFDEfC64631ED6799C95e3b110cd42F2bD22);
+  - Allocator: [0x9Ad87668d49ab69EEa0AF091de970EF52b0D5178](https://etherscan.io/address/0x9Ad87668d49ab69EEa0AF091de970EF52b0D5178) (ALM Proxy Freezable);
+  - Curator: [0x0f963A8A8c01042B69054e787E5763ABbB0646A3](https://etherscan.io/address/0x0f963A8A8c01042B69054e787E5763ABbB0646A3);
+  - Sentinel (Guardian): [0xf5748bBeFa17505b2F7222B23ae11584932C908B](https://etherscan.io/address/0xf5748bBeFa17505b2F7222B23ae11584932C908B);
+  - Owner: [0x3300f198988e4C9C63F75dF86De36421f06af8c4](https://etherscan.io/address/0x3300f198988e4C9C63F75dF86De36421f06af8c4) (SubDAO Proxy).
+- SLL configuration:
+  - Deposits:
+    - maxAmount: **50 million USDT**;
+    - slope: **1 billion USDT per day**.
+  - Withdrawals:
+    - maxAmount: **Unlimited**.
 
 #### Grove
 
@@ -305,15 +305,15 @@ The Morpho v2 USDT Vault will be onboarded to the Spark Liquidity Layer with the
 
 The Steakhouse Prime Instant USDC Morpho Vault V2 will be onboarded to the Grove Liquidity Layer with the following contracts and [rate limit](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2) parameters:
 
-- Steakhouse Prime Instant USDC V2: [0xbeef0e0834849aCC03f0089F01f4F1Eeb06873C9](https://etherscan.io/address/0xbeef0e0834849aCC03f0089F01f4F1Eeb06873C9)
-  - Underlying Asset: **USDC**
+- Steakhouse Prime Instant USDC V2: [0xbeef0e0834849aCC03f0089F01f4F1Eeb06873C9](https://etherscan.io/address/0xbeef0e0834849aCC03f0089F01f4F1Eeb06873C9):
+  - Underlying Asset: **USDC**.
   - Deposits:
-    - maxAmount: **20 million USDC**
-    - slope: **20 million USDC per day**
+    - maxAmount: **20 million USDC**;
+    - slope: **20 million USDC per day**.
   - Withdraws:
-    - Amount: **Unlimited**
+    - Amount: **Unlimited**.
   - Max Exchange Rate:
-    - `setMaxExchangeRate(STEAKHOUSE_PRIME_INSTANT_USDC_V2, 1e18, 2e6)`
+    - `setMaxExchangeRate(STEAKHOUSE_PRIME_INSTANT_USDC_V2, 1e18, 2e6)`.
 
 ##### [Mainnet] Onboard Galaxy Warehouse
 
@@ -322,12 +322,12 @@ The Steakhouse Prime Instant USDC Morpho Vault V2 will be onboarded to the Grove
 
 Galaxy Warehouse will be onboarded to the Grove Liquidity Layer with the following contracts and [rate limit](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2) parameters:
 
-- USDC: [0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48](https://etherscan.io/address/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48)
+- USDC: [0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48](https://etherscan.io/address/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48):
   - ERC20Transfers:
-    - Destination: [0x3E23311f9FF660E3c3d87E4b7c207b3c3D7e04f0](https://etherscan.io/address/0x3E23311f9FF660E3c3d87E4b7c207b3c3D7e04f0)
-    - maxAmount: **50 million USDC**
-    - slope: **50 million USDC per day**
-    - Withdraws: **Unlimited**
+    - Destination: [0x3E23311f9FF660E3c3d87E4b7c207b3c3D7e04f0](https://etherscan.io/address/0x3E23311f9FF660E3c3d87E4b7c207b3c3D7e04f0);
+    - maxAmount: **50 million USDC**;
+    - slope: **50 million USDC per day**;
+    - Withdraws: **Unlimited**.
 
 ## Review
 
