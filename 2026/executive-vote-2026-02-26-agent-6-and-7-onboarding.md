@@ -1,5 +1,5 @@
 ---
-title: Template - [Executive Vote] Launch Agent Onboardings, January Monthly Settlement Cycles and Treasury Management Function, SKY Staking Rewards Normalization, Prime Agent Proxy Spells - February 26, 2026
+title: Template - [Executive Vote] Launch Agent Onboardings, January Monthly Settlement Cycle and Treasury Management Function, SKY Staking Rewards Normalization, Prime Agent Proxy Spells - February 26, 2026
 summary: Onboard Launch Agents 6 and 7, execute Monthly Settlement Cycle and Treasury Management Function for January, adjust LSSKY->SKY vesting stream, whitelist proxy spells for Spark and Grove.
 date: 2026-02-26T00:00:00.000Z
 address: "$spell_address"
