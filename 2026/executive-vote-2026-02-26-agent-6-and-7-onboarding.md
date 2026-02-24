@@ -17,7 +17,7 @@ If you are new to voting in the Sky Protocol, please see the [voting guide](http
 
 If this executive proposal passes, the following **actions** will occur within the Sky Protocol:
 
-- The Allocator Vault and associated contracts for Launch Agents 6 and 7 will be initialized.
+- The Allocator Vaults and associated contracts for Launch Agents 6 and 7 will be initialized.
 - The Monthly Settlement Cycle and Treasury Management Function for January 2026 will be executed.
 - The LSSKY->SKY Rewards Farm will be normalized.
 - Star proxy spells for Spark and Grove will be whitelisted in the corresponding StarGuard modules.
