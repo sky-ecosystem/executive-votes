@@ -173,7 +173,7 @@ If this executive proposal passes, then the distribution of SKY token rewards to
   - `res`: 1 (restricted)
   - `vestBgn`: **`block.timestamp`**
   - `vestTau`: **`block.timestamp` + 180 days**
-  - `tot`: **838,2182,330 SKY**
+  - `tot`: **838,182,330 SKY**
 - Adjust the Sky allowance for [MCD_VEST_SKY_TREASURY](https://etherscan.io/address/0x67eadb3288ccede034ce95b0511dcc65cf630bb6), reducing it by the remaining yanked stream amount and increasing it by the new stream total.
 - `yank` [MCD_VEST_SKY_TREASURY](https://etherscan.io/address/0x67eadb3288ccede034ce95b0511dcc65cf630bb6) vest with ID 8.
 - `file` the new stream ID on [REWARDS_DIST_LSSKY_SKY](https://etherscan.io/address/0xa3Ee378BdD0b7DD403cEd3a0A65B2B389A2eaB7e).
