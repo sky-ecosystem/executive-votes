@@ -39,7 +39,7 @@ If this executive proposal does not pass within 30 days, then it will expire and
 - **Authorization**: [Governance Poll 1609](https://vote.sky.money/polling/QmQ95c8b)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/technical-scope-of-the-new-launch-agent-6-allocator-instance/27724)
 
-If this executive proposal passes, then Launch Agent 6 will be onboarded as a Star Agent. The onboarding will consist of initializing an Allocator Vault, adding the new Allocator Vault to the SP-BEAM, and initializing a Pattern StarGuard instance for future proxy spells.
+If this executive proposal passes, then Launch Agent 6 will be onboarded as a Prime Agent. The onboarding will consist of initializing an Allocator Vault, adding the new Allocator Vault to the SP-BEAM, and initializing a StarGuard instance for future proxy spells.
 
 #### Allocator Contracts
 
