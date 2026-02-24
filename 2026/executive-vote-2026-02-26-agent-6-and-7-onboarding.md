@@ -305,7 +305,7 @@ The Morpho v2 USDT Vault will be onboarded to the Spark Liquidity Layer with the
 
 The Steakhouse Prime Instant USDC Morpho Vault V2 will be onboarded to the Grove Liquidity Layer with the following contracts and [rate limit](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2) parameters:
 
-- Steakhouse Prime Instant USDC V2: [0xbeef0e0834849aCC03f0089F01f4F1Eeb06873C9](https://etherscan.io/address/0xbeef0e0834849aCC03f0089F01f4F1Eeb06873C9):
+- Steakhouse Prime Instant USDC V2: [0xbeef0e0834849aCC03f0089F01f4F1Eeb06873C9](https://basescan.org/address/0xbeef0e0834849aCC03f0089F01f4F1Eeb06873C9):
   - Underlying Asset: **USDC**.
   - Deposits:
     - maxAmount: **20 million USDC**;
