@@ -139,7 +139,7 @@ INTERVAL_STARGUARD will be added to the [StarGuardJob](https://etherscan.io/addr
 - **Authorization**: [Atlas - A.2.4 - Sky Core Monthly Settlement Cycle](https://sky-atlas.io/#A.2.4)
 - **Proposal**: [Forum Post](https://forum.sky.money/t/msc-5-settlement-summary-january-2026-spark-and-grove/27709/4)
 
-If this executive proposal passes, then the January Monthly Settlement Cycles will be executed by taking the following steps.
+If this executive proposal passes, then the January Monthly Settlement Cycle will be executed by taking the following steps.
 
 #### Spark
 
