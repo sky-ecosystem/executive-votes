@@ -52,7 +52,7 @@ Init new Allocator instance by calling [AllocatorInit.initIlk](https://github.co
 - `ilkInstance.vault`: [0x146181Aa9B362EaEC2eC3aDd7429a06D53B43d1a](https://etherscan.io/address/0x146181Aa9B362EaEC2eC3aDd7429a06D53B43d1a) (AllocatorVault contract);
 - `ilkInstance.buffer`: [0xD0BB61b34771146e31055f20f329cDf97429F889](https://etherscan.io/address/0xD0BB61b34771146e31055f20f329cDf97429F889) (AllocatorBuffer contract);
 - `cfg.ilk`: `ALLOCATOR-PRYSM-A`;
-- `cfg.duty`: **1*10^27 (0%)**;
+- `cfg.duty`: **0%**;
 - `cfg.gap`: **10 million USDS**;
 - `cfg.maxLine`: **10 million USDS**;
 - `cfg.ttl`: **86,400 seconds (24 hours)**;
@@ -78,7 +78,7 @@ Init new StarGuard module by calling [StarGuardInit.init](https://github.com/sky
 - [`chainlog`](https://chainlog.sky.money/): `DssExecLib.LOG`
 - `cfg.subProxy`: [0x24fdcd3bFA5C2553e05B2f9AD0365EBC296278D3](https://etherscan.io/address/0x24fdcd3bFA5C2553e05B2f9AD0365EBC296278D3)
 - `cfg.subProxyKey`: `PRYSM_SUBPROXY`
-- cfg.starGuard: [0xBfA2D1dA838E55A74c61699e164cDFF8cF0cF0e2](https://etherscan.io/address/0xBfA2D1dA838E55A74c61699e164cDFF8cF0cF0e2)
+- `cfg.starGuard`: [0xBfA2D1dA838E55A74c61699e164cDFF8cF0cF0e2](https://etherscan.io/address/0xBfA2D1dA838E55A74c61699e164cDFF8cF0cF0e2)
 - `cfg.starGuardKey`: `PRYSM_STARGUARD`
 - `cfg.maxDelay`: **7 days**
 
@@ -102,7 +102,7 @@ Init new Allocator instance by calling [AllocatorInit.initIlk](https://github.co
 - `ilkInstance.vault`: [0xDD3bE7650589E6A6171d454b026C4AD1a2C02720](https://etherscan.io/address/0xDD3bE7650589E6A6171d454b026C4AD1a2C02720) (AllocatorVault contract);
 - `ilkInstance.buffer`: [0x67Ac5c8FbFDAc5265c995e9B2ACd830496438AfD](https://etherscan.io/address/0x67Ac5c8FbFDAc5265c995e9B2ACd830496438AfD) (AllocatorBuffer contract);
 - `cfg.ilk`: `ALLOCATOR-INTERVAL-A`;
-- `cfg.duty`: **1*10^27 (0%)**;
+- `cfg.duty`: **0%**;
 - `cfg.gap`: **10 million USDS**;
 - `cfg.maxLine`: **10 million USDS**;
 - `cfg.ttl`: **86,400 seconds (24 hours)**;
@@ -128,7 +128,7 @@ Init new StarGuard module by calling [StarGuardInit.init](https://github.com/sky
 - [`chainlog`](https://chainlog.sky.money/): `DssExecLib.LOG`
 - `cfg.subProxy`: [0x56a9bA5FE133EF4Ab1131E8ac7c4312a52284f5B](https://etherscan.io/address/0x56a9bA5FE133EF4Ab1131E8ac7c4312a52284f5B)
 - `cfg.subProxyKey`: `INTERVAL_SUBPROXY`
-- cfg.starGuard: [0xB36e88c02E4619Ef34C0Db76C5BCb6655747FB28](https://etherscan.io/address/0xB36e88c02E4619Ef34C0Db76C5BCb6655747FB28)
+- `cfg.starGuard`: [0xB36e88c02E4619Ef34C0Db76C5BCb6655747FB28](https://etherscan.io/address/0xB36e88c02E4619Ef34C0Db76C5BCb6655747FB28)
 - `cfg.starGuardKey`: `INTERVAL_STARGUARD`
 - `cfg.maxDelay`: **7 days**
 
