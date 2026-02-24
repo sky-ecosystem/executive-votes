@@ -111,7 +111,7 @@ Init new Allocator instance by calling [AllocatorInit.initIlk](https://github.co
 
 The initialization script will create a PIP_ALLOCATOR_INTERVAL_A entry in the [Chainlog](https://chainlog.sky.money/); this entry is not necessary and will be removed.
 
-ALLOCATOR-INTERVAL-A will be added to the [Debt Ceiling Breaker (LINE_MOM)](https://sky-atlas.powerhouse.io/A.1.9.3.2.3_Debt_Ceiling_Breaker_Exception/8c27b081-2db5-4e8f-9b5c-f5cf0f8d3102|0db30758e055352c).
+ALLOCATOR-INTERVAL-A will be added to the [Debt Ceiling Breaker (LINE_MOM)](https://sky-atlas.io/#A.1.9.3.2.3).
 
 #### Add ALLOCATOR-INTERVAL-A to SP-BEAM
 
