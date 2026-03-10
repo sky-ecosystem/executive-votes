@@ -119,9 +119,9 @@ All SparkLend DAI and SparkLend USDS will be transferred from the Spark SubProxy
 
 SparkLend reserves will be claimed as follows:
 
-- Claim all reserves
-- Transfer USD stablecoin reserves to [ALM Proxy](https://etherscan.io/address/0x1601843c5E9bC251A3272907010AFa41Fa18347E)
-- Transfer non-USD stablecoin reserves to [Spark Operations Multisig](https://etherscan.io/address/0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC) to be liquidated
+- Claim all reserves.
+- Transfer USD stablecoin reserves to [ALM Proxy](https://etherscan.io/address/0x1601843c5E9bC251A3272907010AFa41Fa18347E).
+- Transfer non-USD stablecoin reserves to [Spark Operations Multisig](https://etherscan.io/address/0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC) to be liquidated.
 
 ## Review
 
