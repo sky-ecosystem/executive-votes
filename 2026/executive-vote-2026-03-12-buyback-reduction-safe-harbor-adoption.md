@@ -1,11 +1,11 @@
 ---
-title: Template - [Executive Vote] Sky Buyback Reduction, Delayed Upgrade Penalty Increase, Safe Harbor Adoption, Spark Proxy Spell - March 12, 2026
+title: Template - [Executive Vote] SKY Buyback Reduction, Delayed Upgrade Penalty Increase, Safe Harbor Adoption, Spark Proxy Spell - March 12, 2026
 summary: Reduce the rate of SKY buybacks, increase the Delayed Upgrade Penalty, adopt and initialize the Safe Harbor Agreement, whitelist a Spark proxy spell.
 date: 2026-03-12T00:00:00.000Z
 address: "$spell_address"
 ---
 
-# [Executive Proposal] Sky Buyback Reduction, Delayed Upgrade Penalty Increase, Safe Harbor Adoption, Spark Proxy Spell - March 12, 2026
+# [Executive Proposal] SKY Buyback Reduction, Delayed Upgrade Penalty Increase, Safe Harbor Adoption, Spark Proxy Spell - March 12, 2026
 
 The Core Facilitators, Dewiz, and Sidestream have placed an executive proposal into the voting system. SKY holders should vote for this proposal if they support the following alterations to the Sky Protocol.
 
