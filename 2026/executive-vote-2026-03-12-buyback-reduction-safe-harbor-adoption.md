@@ -39,8 +39,8 @@ If this executive proposal does not pass within 30 days, then it will expire and
 
 If this executive proposal passes, then the SKY token buyback rate will be reduced through the following parameter changes:
 
-- Reduce the kicker lot size parameter (`kbump`) by 4,000 USDS from 10,000 USDS to **6,000 USDS**.
-- Increase the splitter interval parameter (`hop`) by 10,907 seconds from 2,880 seconds to **13,787 seconds**.
+- Reduce the [kicker lot size parameter](https://sky-atlas.io/#A.3.5.2.2.1.1) (`kbump`) by 4,000 USDS from 10,000 USDS to **6,000 USDS**.
+- Increase the [splitter interval parameter (`hop`)](https://sky-atlas.io/#A.3.5.2.1.1.1) by 10,907 seconds from 2,880 seconds to **13,787 seconds**.
 
 The LSEV2-SKY-A USDS rewardsDuration will also increase by 10,907 seconds from 2,880 seconds to **13,787 seconds** to match the new `splitter.hop` value.
 
@@ -51,7 +51,7 @@ The LSEV2-SKY-A USDS rewardsDuration will also increase by 10,907 seconds from 2
 
 If this executive proposal passes, then the following change will be made to the MKR to SKY Delayed Upgrade Penalty:
 
-- Increase the MKR to SKY Delayed Upgrade Penalty by 1 percentage point from 2% to **3%**.
+- Increase the [MKR to SKY Delayed Upgrade Penalty](https://sky-atlas.io/#A.4.1.2.1.1.1.1) by 1 percentage point from 2% to **3%**.
 
 ### Safe Harbor Adoption
 
