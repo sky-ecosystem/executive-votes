@@ -2,7 +2,7 @@
 title: Template - [Executive Vote] SKY Buyback Reduction, Delayed Upgrade Penalty Increase, Safe Harbor Adoption, Spark Proxy Spell - March 12, 2026
 summary: Reduce the rate of SKY buybacks, increase the Delayed Upgrade Penalty, adopt and initialize the Safe Harbor Agreement, whitelist a Spark proxy spell.
 date: 2026-03-12T00:00:00.000Z
-address: "$spell_address"
+address: "0x396122c087Aa23BeE53B38e14237B3C0C10DdDbc"
 ---
 
 # [Executive Proposal] SKY Buyback Reduction, Delayed Upgrade Penalty Increase, Safe Harbor Adoption, Spark Proxy Spell - March 12, 2026
