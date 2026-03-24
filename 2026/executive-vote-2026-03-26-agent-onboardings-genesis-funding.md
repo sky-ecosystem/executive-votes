@@ -213,7 +213,7 @@ SparkLend reserves will be claimed as follows:
 
 The ACRDX (Anemoy Tokenized Apollo Diversified Credit Fund) will be onboarded to the Grove Liquidity Layer with the following contracts and [rate limit](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2) parameters:
 
-- ACRDX Vault: [0x74a739ea1dc67c5a0179ebad665d1d3c4b80b712](https://etherscan.io/address/0x74a739ea1dc67c5a0179ebad665d1d3c4b80b712)
+- ACRDX Vault: [0x74A739EA1Dc67c5a0179ebad665D1D3c4b80B712](https://etherscan.io/address/0x74A739EA1Dc67c5a0179ebad665D1D3c4b80B712)
   - Asset (ACRDX Token): [0x9477724Bb54AD5417de8Baff29e59DF3fB4DA74f](https://etherscan.io/address/0x9477724Bb54AD5417de8Baff29e59DF3fB4DA74f)
   - Underlying Asset: **USDC**
   - Deposits:
