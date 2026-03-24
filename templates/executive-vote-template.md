@@ -54,9 +54,15 @@ If this executive proposal passes, then $executive_entry_2_implications.
 
 If this executive proposal passes, then $executive_entry_3_implications.
 
+$Safe_Harbor_Update? ### Safe Harbor Update
+
+- **Authorization**: [Atlas A.2.11.1.2.3](https://sky-atlas.io/#fcd868db-4a91-4ee0-baf5-1ebd40fc651e)
+
+If this executive proposal passes, the Safe Harbor agreement will be updated to include the $new_contracts added by this spell.
+
 ## Review
 
-Community debate on these topics can be found on the Sky [Governance forum](https://forum.sky.money/). Please review any linked threads to inform your position before voting.
+Community debate on these topics can be found on the Sky [Governance forum](https://forum.skyeco.com/). Please review any linked threads to inform your position before voting.
 
 ---
 
