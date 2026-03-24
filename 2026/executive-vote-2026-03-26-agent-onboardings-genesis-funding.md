@@ -41,7 +41,7 @@ If this executive proposal does not pass within 30 days, then it will expire and
 - **Authorization**: [Governance Poll 1623](https://vote.sky.money/polling/QmZRHXrp)
 - **Proposal**: [Forum Post](https://forum.skyeco.com/t/technical-scope-of-the-new-ozone-executor-agent/27779)
 
-If this executive proposal passes, then the Ozone Prime will be onboarded through the following actions:.
+If this executive proposal passes, then the Ozone Prime will be onboarded through the following actions:
 
 Init new StarGuard module by calling [StarGuardInit.init](https://github.com/sky-ecosystem/star-guard/blob/52239d716a89188b303f137fc43fb9288735ba2e/deploy/StarGuardInit.sol#L44-L63) with:
 
