@@ -48,7 +48,7 @@ Init new StarGuard module by calling [StarGuardInit.init](https://github.com/sky
 - [`chainlog`](https://chainlog.sky.money/): `DssExecLib.LOG`
 - `cfg.subProxy`: [0x9FE628BFc33f0352Bb1f93168881a9Ef93C8d2CF](https://etherscan.io/address/0x9FE628BFc33f0352Bb1f93168881a9Ef93C8d2CF)
 - `cfg.subProxyKey`: `OZONE_SUBPROXY`
-- cfg.starGuard: [0x9803DA8a51Fa02EEbEc3B1b969a9B80f9115cD80](https://etherscan.io/address/0x9803DA8a51Fa02EEbEc3B1b969a9B80f9115cD80)
+- `cfg.starGuard`: [0x9803DA8a51Fa02EEbEc3B1b969a9B80f9115cD80](https://etherscan.io/address/0x9803DA8a51Fa02EEbEc3B1b969a9B80f9115cD80)
 - `cfg.starGuardKey`: `OZONE_STARGUARD`
 - `cfg.maxDelay`: **7 days**
 
