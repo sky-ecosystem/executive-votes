@@ -1,6 +1,6 @@
 ---
 title: Template - [Executive Vote] Ozone Onboarding, Amatsu Onboarding, Genesis Funding Transfers, February 2026 Monthly Settlement Cycle, Safe Harbor Update, Prime Agent Proxy Spells - March 26, 2026
-summary: Onboard Ozone StarGuard, onboard Amatsu StarGuard, transfer Genesis Capital to Amatsu; Ozone; Keel; and Prysm, execute Monthly Settlement Cycle and Treasury Management Function for February 2026, update Safe Harbor contracts, whitelist proxy spells for Spark and Grove.
+summary: Onboard Ozone StarGuard, onboard Amatsu StarGuard, transfer Genesis Capital to Amatsu; Ozone; Keel; and Prysm, execute Monthly Settlement Cycle and Treasury Management Function for February 2026, update Safe Harbor Agreement, whitelist proxy spells for Spark and Grove.
 date: 2026-03-26T00:00:00.000Z
 address: "$spell_address"
 ---
