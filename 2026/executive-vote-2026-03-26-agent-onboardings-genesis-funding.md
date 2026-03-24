@@ -232,8 +232,8 @@ The Sentora PYUSD Morpho Vault V2 will be onboarded to the Grove Liquidity Layer
 - Sentora PYUSD Main V2: [0xb576765fB15505433aF24FEe2c0325895C559FB2](https://etherscan.io/address/0xb576765fB15505433aF24FEe2c0325895C559FB2)
   - Underlying Asset: **PYUSD**
   - Deposits:
-    - Max amount: **50M PYUSD**
-    - Slope: **50M PYUSD per day**
+    - Max amount: **50 million PYUSD**
+    - Slope: **50 million PYUSD per day**
   - Withdraws:
     - Amount: **Unlimited**
   - Max Exchange Rate:
