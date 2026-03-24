@@ -249,8 +249,8 @@ The Sentora RLUSD Morpho Vault V2 will be onboarded to the Grove Liquidity Layer
 - Sentora RLUSD Main V2: [0x6dC58a0FdfC8D694e571DC59B9A52EEEa780E6bf](https://etherscan.io/address/0x6dC58a0FdfC8D694e571DC59B9A52EEEa780E6bf)
   - Underlying Asset: **RLUSD**
   - Deposits:
-    - Max amount: **50M RLUSD**
-    - Slope: **50M RLUSD per day**
+    - Max amount: **50 million RLUSD**
+    - Slope: **50 million RLUSD per day**
   - Withdraws:
     - Amount: **Unlimited**
   - Max Exchange Rate:
