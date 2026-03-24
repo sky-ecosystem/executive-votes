@@ -89,7 +89,7 @@ If this executive proposal passes, then the agents listed will receive Genesis F
 - **Authorization**: [Atlas A.2.4 - Sky Core Monthly Settlement Cycle](https://sky-atlas.io/#A.2.4)
 - **Proposal**: [Forum Post](https://forum.skyeco.com/t/msc-6-settlement-summary-february-2026/27778)
 
-If this executive proposal passes, then the February 2026 Monthly Settlement Cycles will be executed by taking the following steps.
+If this executive proposal passes, then the February 2026 Monthly Settlement Cycle will be executed by taking the following steps.
 
 #### Spark
 
