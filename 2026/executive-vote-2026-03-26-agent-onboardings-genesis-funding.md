@@ -202,7 +202,7 @@ SparkLend reserves will be claimed as follows:
 - **Authorization**: [Atlas A.6.1.1.1.3.4 - SubDAO Proxy Management](https://sky-atlas.io/#A.6.1.1.1.3.4)
 - **Proposal**: [Forum Post](https://forum.skyeco.com/t/march-26-2026-proposed-changes-to-spark-for-upcoming-spell/27770)
 
-Per [A.6.1.1.1.3.4 - SubDAO Proxy Management](https://sky-atlas.io/#A.6.1.1.1.3.4), **414,215 USDS** will be transferred to the [Spark Operations Multisig](https://etherscan.io/address/0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC) for SPK buybacks.
+**414,215 USDS** will be transferred to the [Spark Operations Multisig](https://etherscan.io/address/0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC) for SPK buybacks.
 
 #### Grove
 
