@@ -21,7 +21,7 @@ If this executive proposal passes, the following **actions** will occur within t
 - Amatsu will be onboarded with a StarGuard instance.
 - Genesis Funding will be transferred to Ozone, Amatsu, Keel, and Prysm.
 - The Monthly Settlement Cycle and Treasury Management Function for February 2026 will be executed.
-- The Safe Harbor Contract List will be updated.
+- The contract list in the Safe Harbor Agreement will be updated.
 - Prime Agent proxy spells for Spark and Grove will be whitelisted in the respective StarGuard modules.
 
 **Voting for this executive proposal will place your SKY in support of the actions outlined above.**
