@@ -66,7 +66,7 @@ Init new StarGuard module by calling [StarGuardInit.init](https://github.com/sky
 - [`chainlog`](https://chainlog.sky.money/): `DssExecLib.LOG`
 - `cfg.subProxy`: [0xF33B14329e7115dD0B40DBb2985E1A0Df10E3fAa](https://etherscan.io/address/0xF33B14329e7115dD0B40DBb2985E1A0Df10E3fAa)
 - `cfg.subProxyKey`: `AMATSU_SUBPROXY`
-- cfg.starGuard: [0xF7469b6db1FDD3354969605e168585b8eeB5F08D](https://etherscan.io/address/0xF7469b6db1FDD3354969605e168585b8eeB5F08D)
+- `cfg.starGuard`: [0xF7469b6db1FDD3354969605e168585b8eeB5F08D](https://etherscan.io/address/0xF7469b6db1FDD3354969605e168585b8eeB5F08D)
 - `cfg.starGuardKey`: `AMATSU_STARGUARD`
 - `cfg.maxDelay`: **7 days**
 
