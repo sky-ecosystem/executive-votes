@@ -1,11 +1,11 @@
 ---
-title: Template - [Executive Vote] Ozone Onboarding, Amatsu Onboarding, Genesis Funding Transfers, February Monthly Settlement Cycle, Safe Harbor Update, Prime Agent Proxy Spells - March 26, 2026
+title: Template - [Executive Vote] Ozone Onboarding, Amatsu Onboarding, Genesis Funding Transfers, February 2026 Monthly Settlement Cycle, Safe Harbor Update, Prime Agent Proxy Spells - March 26, 2026
 summary: Onboard Ozone StarGuard, onboard Amatsu StarGuard, transfer Genesis Capital to Amatsu; Ozone; Keel; and Prysm, execute Monthly Settlement Cycle and Treasury Management Function for February 2026, update Safe Harbor contracts, whitelist proxy spells for Spark and Grove.
 date: 2026-03-26T00:00:00.000Z
 address: "$spell_address"
 ---
 
-# [Executive Proposal] Ozone Onboarding, Amatsu Onboarding, Genesis Funding Transfers, February Monthly Settlement Cycle, Safe Harbor Update, Prime Agent Proxy Spells - March 26, 2026
+# [Executive Proposal] Ozone Onboarding, Amatsu Onboarding, Genesis Funding Transfers, February 2026 Monthly Settlement Cycle, Safe Harbor Update, Prime Agent Proxy Spells - March 26, 2026
 
 The Core Facilitators, Sidestream, and Dewiz have placed an executive proposal into the voting system. SKY holders should vote for this proposal if they support the following alterations to the Sky Protocol.
 
@@ -22,7 +22,7 @@ If this executive proposal passes, the following **actions** will occur within t
 - Genesis Funding will be transferred to Ozone, Amatsu, Keel, and Prysm.
 - The Monthly Settlement Cycle and Treasury Management Function for February 2026 will be executed.
 - The Safe Harbor Contract List will be updated.
-- Star Agent proxy spells for Spark and Grove will be whitelisted in the respective StarGuard modules.
+- Prime Agent proxy spells for Spark and Grove will be whitelisted in the respective StarGuard modules.
 
 **Voting for this executive proposal will place your SKY in support of the actions outlined above.**
 
@@ -43,7 +43,7 @@ If this executive proposal does not pass within 30 days, then it will expire and
 
 If this executive proposal passes, then the Ozone Prime will be onboarded to their own StarGuard instance.
 
-Init new StarGuard module by calling [StarGuardInit.init](https://github.com/sidestream-tech/sky-star-guard/blob/7398ffb283c4490c6e29bea28b92cd57285d4889/deploy/StarGuardInit.sol#L44-L63) with:
+Init new StarGuard module by calling [StarGuardInit.init](https://github.com/sky-ecosystem/star-guard/blob/52239d716a89188b303f137fc43fb9288735ba2e/deploy/StarGuardInit.sol#L44-L63) with:
 
 - [`chainlog`](https://chainlog.sky.money/): `DssExecLib.LOG`
 - `cfg.subProxy`: [0x9FE628BFc33f0352Bb1f93168881a9Ef93C8d2CF](https://etherscan.io/address/0x9FE628BFc33f0352Bb1f93168881a9Ef93C8d2CF)
@@ -61,7 +61,7 @@ OZONE_STARGUARD will be added to the [StarGuardJob](https://etherscan.io/address
 
 If this executive proposal passes, then the Amatsu Prime will be onboarded to their own StarGuard instance.
 
-Init new StarGuard module by calling [StarGuardInit.init](https://github.com/sidestream-tech/sky-star-guard/blob/7398ffb283c4490c6e29bea28b92cd57285d4889/deploy/StarGuardInit.sol#L44-L63) with:
+Init new StarGuard module by calling [StarGuardInit.init](https://github.com/sky-ecosystem/star-guard/blob/52239d716a89188b303f137fc43fb9288735ba2e/deploy/StarGuardInit.sol#L44-L63) with:
 
 - [`chainlog`](https://chainlog.sky.money/): `DssExecLib.LOG`
 - `cfg.subProxy`: [0xF33B14329e7115dD0B40DBb2985E1A0Df10E3fAa](https://etherscan.io/address/0xF33B14329e7115dD0B40DBb2985E1A0Df10E3fAa)
@@ -77,7 +77,7 @@ AMATSU_STARGUARD will be added to the [StarGuardJob](https://etherscan.io/addres
 - **Authorization**: [Governance Poll 1623](https://vote.sky.money/polling/QmZRHXrp)
 - **Proposal**: [Forum Post](https://forum.skyeco.com/t/atlas-edit-weekly-cycle-proposal-week-of-2026-03-16/27767)
 
-If this executive proposal passes, then the agents listed will recieve Geneis Funding, as described below.
+If this executive proposal passes, then the agents listed will receive Genesis Funding, as described below.
 
 - Transfer **25 million USDS** to the [AMATSU_SUBPROXY](https://etherscan.io/address/0xF33B14329e7115dD0B40DBb2985E1A0Df10E3fAa).
 - Transfer **25 million USDS** to the [OZONE_SUBPROXY](https://etherscan.io/address/0x9FE628BFc33f0352Bb1f93168881a9Ef93C8d2CF).
@@ -93,22 +93,22 @@ If this executive proposal passes, then the February 2026 Monthly Settlement Cyc
 
 #### Spark
 
-- Mint **7,746,811 USDS** debt in ALLOCATOR-SPARK-A and transfer the amount to the surplus buffer.
-- Send **1,265,132 USDS** from the surplus buffer to the [SPARK_SUBPROXY](https://etherscan.io/address/0x3300f198988e4C9C63F75dF86De36421f06af8c4).
+- Mint **7,746,811 USDS** debt in ALLOCATOR-SPARK-A and transfer the amount to the Surplus Buffer.
+- Send **1,265,132 USDS** from the Surplus Buffer to the [SPARK_SUBPROXY](https://etherscan.io/address/0x3300f198988e4C9C63F75dF86De36421f06af8c4).
 
 #### Grove
 
-- Mint **6,346,829 USDS** debt in ALLOCATOR-BLOOM-A and transfer the amount to the surplus buffer.
-- Send **5,630 USDS** from the surplus buffer to the [GROVE_SUBPROXY](https://etherscan.io/address/0x1369f7b2b38c76B6478c0f0E66D94923421891Ba).
+- Mint **6,346,829 USDS** debt in ALLOCATOR-BLOOM-A and transfer the amount to the Surplus Buffer.
+- Send **5,630 USDS** from the Surplus Buffer to the [GROVE_SUBPROXY](https://etherscan.io/address/0x1369f7b2b38c76B6478c0f0E66D94923421891Ba).
 
 #### Obex
 
-- Mint **1,948,422 USDS** debt in ALLOCATOR-OBEX-A and transfer the amount to the surplus buffer.
-- Send **65,719 USDS** from the surplus buffer to the [OBEX_SUBPROXY](https://etherscan.io/address/0x8be042581f581E3620e29F213EA8b94afA1C8071).
+- Mint **1,948,422 USDS** debt in ALLOCATOR-OBEX-A and transfer the amount to the Surplus Buffer.
+- Send **65,719 USDS** from the Surplus Buffer to the [OBEX_SUBPROXY](https://etherscan.io/address/0x8be042581f581E3620e29F213EA8b94afA1C8071).
 
 #### Skybase
 
-- Send **203,134 USDS** from the surplus buffer to the [SKYBASE_SUBPROXY](https://etherscan.io/address/0x08978E3700859E476201c1D7438B3427e3C81140).
+- Send **203,134 USDS** from the Surplus Buffer to the [SKYBASE_SUBPROXY](https://etherscan.io/address/0x08978E3700859E476201c1D7438B3427e3C81140).
 
 #### Treasury Management Function
 
@@ -117,7 +117,9 @@ If this executive proposal passes, then the February 2026 Monthly Settlement Cyc
 
 ### Safe Harbor Update
 
-As covered in [A.2.11.1.2.3 - Maintenance](https://sky-atlas.io/#fcd868db-4a91-4ee0-baf5-1ebd40fc651e), the Safe Harbor agreement must be updated whenever new contracts are added. If passed, this spell will update the active contract list.
+- **Authorization**: [A.2.11.1.2.3](https://sky-atlas.io/#fcd868db-4a91-4ee0-baf5-1ebd40fc651e)
+
+If this executive proposal passes, the Safe Harbor agreement will be updated to include the new SubProxy and StarGuard contracts added by this spell.
 
 ### Prime Agent Proxy Spells
 
@@ -129,8 +131,8 @@ If this executive proposal passes, then a Grove proxy spell with address [0x78e1
 
 ##### [Ethereum] Spark Treasury - Spark Foundation and Spark Assets Foundation Grants for Q2 2026
 
-- Authorization: [Snapshot Poll](https://snapshot.org/#/s:sparkfi.eth/proposal/0x2ca62cbabf82254f8df685e73a4a7751cf6cf26a8ce8ccfd706c9063f27061c7)
-- Proposal: [Forum Post](https://forum.skyeco.com/t/march-26-2026-proposed-changes-to-spark-for-upcoming-spell/27770)
+- **Authorization**: [Snapshot Poll](https://snapshot.org/#/s:sparkfi.eth/proposal/0x2ca62cbabf82254f8df685e73a4a7751cf6cf26a8ce8ccfd706c9063f27061c7)
+- **Proposal**: [Forum Post](https://forum.skyeco.com/t/march-26-2026-proposed-changes-to-spark-for-upcoming-spell/27770)
 
 The following Grant transfers will be made:
 
@@ -143,51 +145,51 @@ The following Grant transfers will be made:
 
 ##### [Ethereum] SparkLend - Reactivate WBTC
 
-- Authorization: [Governance Poll 1625](https://vote.sky.money/polling/QmX7MC2S)
-- Proposal: [Forum Post](https://forum.skyeco.com/t/march-26-2026-proposed-changes-to-spark-for-upcoming-spell/27770)
+- **Authorization**: [Governance Poll 1625](https://vote.sky.money/polling/QmX7MC2S)
+- **Proposal**: [Forum Post](https://forum.skyeco.com/t/march-26-2026-proposed-changes-to-spark-for-upcoming-spell/27770)
 
 WBTC will be reactivated on SparkLend Ethereum with the following [risk parameters](https://sky-atlas.io/#b370fb72-57f8-4cf1-aab9-597d08afe403):
 
 - [Cap automator parameters](https://sky-atlas.io/#6ffdb8ee-b083-40f5-b51b-1c91e954b68b)
   - Deposits
-    - max: **3,000 WBTC**
-    - gap: **500 WBTC**
-    - ttl: **12 hours**
+    - `max`: **3,000 WBTC**
+    - `gap`: **500 WBTC**
+    - `ttl`: **12 hours**
   - Borrows
-    - max: **1 WBTC**
-    - gap: **1 WBTC**
-    - ttl: **12 hours**
+    - `max`: **1 WBTC**
+    - `gap`: **1 WBTC**
+    - `ttl`: **12 hours**
 - [LTV](https://sky-atlas.io/#586478a3-51cb-4a2e-8bb1-b96e6520fdcc): **77%**
 - [LT](https://sky-atlas.io/#2dd2045c-6a33-4229-b6c8-e531d6ecd27a): **78%**
 
 ##### [Ethereum] Spark Liquidity Layer - Add USAT transferAsset Rate Limit to Anchorage
 
-- Authorization: [Snapshot Poll](https://snapshot.box/#/s:sparkfi.eth/proposal/0x71d2b7802b54a579655ca9c1aca12e6256d2ea3dd8951fdfa39cd7da4524c75e)
-- Proposal: [Forum Post](https://forum.skyeco.com/t/march-26-2026-proposed-changes-to-spark-for-upcoming-spell/27770)
+- **Authorization**: [Snapshot Poll](https://snapshot.box/#/s:sparkfi.eth/proposal/0x71d2b7802b54a579655ca9c1aca12e6256d2ea3dd8951fdfa39cd7da4524c75e)
+- **Proposal**: [Forum Post](https://forum.skyeco.com/t/march-26-2026-proposed-changes-to-spark-for-upcoming-spell/27770)
 
-Enabling transferAsset rate limits for both USDT and USAT from SLL into Anchorage will allow Spark to rebalance liquidity efficiently between the two stablecoins. This item adds USAT transferAsser Rate Limit to Anchorage as described below:
+Enabling transferAsset rate limits for both USDT and USAT from SLL into Anchorage will allow Spark to rebalance liquidity efficiently between the two stablecoins. This item adds USAT transferAsset Rate Limit to Anchorage as described below:
 
 - transferAsset: **USAT**
 - Address: [0x49506C3Aa028693458d6eE816b2EC28522946872](https://etherscan.io/address/0x49506C3Aa028693458d6eE816b2EC28522946872)
 - maxAmount: **5 million USAT**
-- slope: **250 million USAT**
+- slope: **250 million USAT per day**
 
 ##### [Ethereum] Spark Liquidity Layer - Add USDT transferAsset Rate Limit to Anchorage
 
-- Authorization: [Snapshot Poll](https://snapshot.box/#/s:sparkfi.eth/proposal/0x71d2b7802b54a579655ca9c1aca12e6256d2ea3dd8951fdfa39cd7da4524c75e)
-- Proposal: [Forum Post](https://forum.skyeco.com/t/march-26-2026-proposed-changes-to-spark-for-upcoming-spell/27770)
+- **Authorization**: [Snapshot Poll](https://snapshot.box/#/s:sparkfi.eth/proposal/0x71d2b7802b54a579655ca9c1aca12e6256d2ea3dd8951fdfa39cd7da4524c75e)
+- **Proposal**: [Forum Post](https://forum.skyeco.com/t/march-26-2026-proposed-changes-to-spark-for-upcoming-spell/27770)
 
-Enabling transferAsset rate limits for both USDT and USAT from SLL into Anchorage will allow Spark to rebalance liquidity efficiently between the two stablecoins. This item adds USDT transferAsser Rate Limit to Anchorage as described below:
+Enabling transferAsset rate limits for both USDT and USAT from SLL into Anchorage will allow Spark to rebalance liquidity efficiently between the two stablecoins. This item adds USDT transferAsset Rate Limit to Anchorage as described below:
 
 - transferAsset: **USDT**
 - Address: [0x49506C3Aa028693458d6eE816b2EC28522946872](https://etherscan.io/address/0x49506C3Aa028693458d6eE816b2EC28522946872)
 - maxAmount: **5 million USDT**
-- slope: **250 million USDT**
+- slope: **250 million USDT per day**
 
 ##### [Ethereum] SparkLend - Claim SparkLend Reserves
 
-- Authorization: [Atlas A.6.1.1.1.2.6.1.2.1.2.3 - Token Claim Authorization](https://sky-atlas.io/#A.6.1.1.1.2.6.1.2.1.2.3)
-- Proposal: [Forum Post](https://forum.skyeco.com/t/march-26-2026-proposed-changes-to-spark-for-upcoming-spell/27770)
+- **Authorization**: [Atlas A.6.1.1.1.2.6.1.2.1.2.3 - Token Claim Authorization](https://sky-atlas.io/#A.6.1.1.1.2.6.1.2.1.2.3)
+- **Proposal**: [Forum Post](https://forum.skyeco.com/t/march-26-2026-proposed-changes-to-spark-for-upcoming-spell/27770)
 
 SparkLend reserves will be claimed as follows:
 
@@ -197,8 +199,8 @@ SparkLend reserves will be claimed as follows:
 
 ##### [Ethereum] Spark Treasury - Transfer Excess USDS from SubDAO Proxy for SPK Buybacks
 
-- Authorization: [Atlas A.6.1.1.1.3.4 - SubDAO Proxy Management](https://sky-atlas.io/#A.6.1.1.1.3.4)
-- Proposal: [Forum Post](https://forum.skyeco.com/t/march-26-2026-proposed-changes-to-spark-for-upcoming-spell/27770)
+- **Authorization**: [Atlas A.6.1.1.1.3.4 - SubDAO Proxy Management](https://sky-atlas.io/#A.6.1.1.1.3.4)
+- **Proposal**: [Forum Post](https://forum.skyeco.com/t/march-26-2026-proposed-changes-to-spark-for-upcoming-spell/27770)
 
 Per [A.6.1.1.1.3.4 - SubDAO Proxy Management](https://sky-atlas.io/#A.6.1.1.1.3.4), **414,215 USDS** will be transferred to the [Spark Operations Multisig](https://etherscan.io/address/0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC) for SPK buybacks.
 
@@ -206,8 +208,8 @@ Per [A.6.1.1.1.3.4 - SubDAO Proxy Management](https://sky-atlas.io/#A.6.1.1.1.3.
 
 ##### [Ethereum] Onboard Centrifuge ACRDX
 
-- Authorization: [Governance Poll 1623](https://vote.sky.money/polling/QmZRHXrp)
-- Proposal: [Forum Post](https://forum.skyeco.com/t/march-26th-2026-proposed-changes-to-grove-for-upcoming-spell/27761)
+- **Authorization**: [Governance Poll 1623](https://vote.sky.money/polling/QmZRHXrp)
+- **Proposal**: [Forum Post](https://forum.skyeco.com/t/march-26th-2026-proposed-changes-to-grove-for-upcoming-spell/27761)
 
 The ACRDX (Anemoy Tokenized Apollo Diversified Credit Fund) will be onboarded to the Grove Liquidity Layer with the following contracts and [rate limit](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2) parameters:
 
@@ -222,8 +224,8 @@ The ACRDX (Anemoy Tokenized Apollo Diversified Credit Fund) will be onboarded to
 
 ##### [Ethereum] Onboard Sentora PYUSD Morpho Vault V2
 
-- Authorization: [Governance Poll 1623](https://vote.sky.money/polling/QmZRHXrp)
-- Proposal: [Forum Post](https://forum.skyeco.com/t/march-26th-2026-proposed-changes-to-grove-for-upcoming-spell/27761)
+- **Authorization**: [Governance Poll 1623](https://vote.sky.money/polling/QmZRHXrp)
+- **Proposal**: [Forum Post](https://forum.skyeco.com/t/march-26th-2026-proposed-changes-to-grove-for-upcoming-spell/27761)
 
 The Sentora PYUSD Morpho Vault V2 will be onboarded to the Grove Liquidity Layer with the following contracts and [rate limit](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2) parameters:
 
@@ -239,8 +241,8 @@ The Sentora PYUSD Morpho Vault V2 will be onboarded to the Grove Liquidity Layer
 
 ##### [Ethereum] Onboard Sentora RLUSD Morpho Vault V2
 
-- Authorization: [Governance Poll 1623](https://vote.sky.money/polling/QmZRHXrp)
-- Proposal: [Forum Post](https://forum.skyeco.com/t/march-26th-2026-proposed-changes-to-grove-for-upcoming-spell/27761)
+- **Authorization**: [Governance Poll 1623](https://vote.sky.money/polling/QmZRHXrp)
+- **Proposal**: [Forum Post](https://forum.skyeco.com/t/march-26th-2026-proposed-changes-to-grove-for-upcoming-spell/27761)
 
 The Sentora RLUSD Morpho Vault V2 will be onboarded to the Grove Liquidity Layer with the following contracts and [rate limit](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2) parameters:
 
@@ -256,7 +258,7 @@ The Sentora RLUSD Morpho Vault V2 will be onboarded to the Grove Liquidity Layer
 
 ## Review
 
-Community debate on these topics can be found on the Sky [Governance forum](https://forum.sky.money/). Please review any linked threads to inform your position before voting.
+Community debate on these topics can be found on the Sky [Governance forum](https://forum.skyeco.com/). Please review any linked threads to inform your position before voting.
 
 ---
 
