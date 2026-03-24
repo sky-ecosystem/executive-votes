@@ -77,7 +77,7 @@ AMATSU_STARGUARD will be added to the [StarGuardJob](https://etherscan.io/addres
 - **Authorization**: [Governance Poll 1623](https://vote.sky.money/polling/QmZRHXrp)
 - **Proposal**: [Forum Post](https://forum.skyeco.com/t/atlas-edit-weekly-cycle-proposal-week-of-2026-03-16/27767)
 
-If this executive proposal passes, then the agents listed will receive Genesis Funding, as described below.
+If this executive proposal passes, then Genesis Funding will be distributed to four agents as follows:
 
 - Transfer **25 million USDS** to the [AMATSU_SUBPROXY](https://etherscan.io/address/0xF33B14329e7115dD0B40DBb2985E1A0Df10E3fAa).
 - Transfer **25 million USDS** to the [OZONE_SUBPROXY](https://etherscan.io/address/0x9FE628BFc33f0352Bb1f93168881a9Ef93C8d2CF).
