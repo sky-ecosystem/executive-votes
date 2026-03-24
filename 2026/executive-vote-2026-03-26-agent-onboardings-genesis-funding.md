@@ -217,8 +217,8 @@ The ACRDX (Anemoy Tokenized Apollo Diversified Credit Fund) will be onboarded to
   - Asset (ACRDX Token): [0x9477724Bb54AD5417de8Baff29e59DF3fB4DA74f](https://etherscan.io/address/0x9477724Bb54AD5417de8Baff29e59DF3fB4DA74f)
   - Underlying Asset: **USDC**
   - Deposits:
-    - Max amount: **20M USDC**
-    - Slope: **20M USDC per day**
+    - Max amount: **20 million USDC**
+    - Slope: **20 million USDC per day**
   - Withdraws:
     - Amount: **Unlimited**
 
