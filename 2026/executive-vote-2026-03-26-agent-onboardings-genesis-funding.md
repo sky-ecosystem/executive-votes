@@ -139,7 +139,7 @@ The following Grant transfers will be made:
 - Spark Foundation Grant
   - Recipient address: [0x92e4629a4510AF5819d7D1601464C233599fF5ec](https://etherscan.io/address/0x92e4629a4510AF5819d7D1601464C233599fF5ec)
   - Transfer amount: **1,100,000 USDS**
-- Spark Asset Foundation Grant
+- Spark Assets Foundation Grant
   - Recipient address: [0xEabCb8C0346Ac072437362f1692706BA5768A911](https://etherscan.io/address/0xEabCb8C0346Ac072437362f1692706BA5768A911)
   - Transfer amount: **100,000 USDS**
 
