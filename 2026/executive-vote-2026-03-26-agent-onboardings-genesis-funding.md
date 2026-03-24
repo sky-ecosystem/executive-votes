@@ -59,7 +59,7 @@ OZONE_STARGUARD will be added to the [StarGuardJob](https://etherscan.io/address
 - **Authorization**: [Governance Poll 1623](https://vote.sky.money/polling/QmZRHXrp)
 - **Proposal**: [Forum Post](https://forum.skyeco.com/t/technical-scope-of-the-new-amatsu-executor-agent/27780)
 
-If this executive proposal passes, then the Amatsu Prime will be onboarded to their own StarGuard instance.
+If this executive proposal passes, then the Amatsu Prime will be onboarded through the following actions:
 
 Init new StarGuard module by calling [StarGuardInit.init](https://github.com/sky-ecosystem/star-guard/blob/52239d716a89188b303f137fc43fb9288735ba2e/deploy/StarGuardInit.sol#L44-L63) with:
 
