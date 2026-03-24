@@ -79,10 +79,10 @@ AMATSU_STARGUARD will be added to the [StarGuardJob](https://etherscan.io/addres
 
 If this executive proposal passes, then Genesis Funding will be distributed to four agents as follows:
 
-- Transfer **25 million USDS** to the [AMATSU_SUBPROXY](https://etherscan.io/address/0xF33B14329e7115dD0B40DBb2985E1A0Df10E3fAa).
-- Transfer **25 million USDS** to the [OZONE_SUBPROXY](https://etherscan.io/address/0x9FE628BFc33f0352Bb1f93168881a9Ef93C8d2CF).
-- Transfer **10 million USDS** to the [KEEL_SUBPROXY](https://etherscan.io/address/0x355CD90Ecb1b409Fdf8b64c4473C3B858dA2c310).
-- Transfer **10 million USDS** to the [PRYSM_SUBPROXY](https://etherscan.io/address/0x24fdcd3bFA5C2553e05B2f9AD0365EBC296278D3).
+- Transfer **25 million USDS** to the [Amatsu SubProxy](https://etherscan.io/address/0xF33B14329e7115dD0B40DBb2985E1A0Df10E3fAa).
+- Transfer **25 million USDS** to the [Ozone SubProxy](https://etherscan.io/address/0x9FE628BFc33f0352Bb1f93168881a9Ef93C8d2CF).
+- Transfer **10 million USDS** to the [Keel SubProxy](https://etherscan.io/address/0x355CD90Ecb1b409Fdf8b64c4473C3B858dA2c310).
+- Transfer **10 million USDS** to the [Launch Agent 6 SubProxy](https://etherscan.io/address/0x24fdcd3bFA5C2553e05B2f9AD0365EBC296278D3).
 
 ### Monthly Settlement Cycle - February 2026
 
