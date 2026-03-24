@@ -117,7 +117,7 @@ If this executive proposal passes, then the February 2026 Monthly Settlement Cyc
 
 ### Safe Harbor Update
 
-- **Authorization**: [A.2.11.1.2.3](https://sky-atlas.io/#fcd868db-4a91-4ee0-baf5-1ebd40fc651e)
+- **Authorization**: [Atlas A.2.11.1.2.3](https://sky-atlas.io/#fcd868db-4a91-4ee0-baf5-1ebd40fc651e)
 
 If this executive proposal passes, the Safe Harbor agreement will be updated to include the new SubProxy and StarGuard contracts added by this spell.
 
