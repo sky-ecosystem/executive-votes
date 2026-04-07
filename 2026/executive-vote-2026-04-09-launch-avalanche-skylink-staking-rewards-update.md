@@ -293,15 +293,11 @@ Set OFT enforced options for Avalanche by calling [`SUSDS_OFT.setEnforcedOptions
 
 If this executive proposal passes, then then the distribution of SKY token rewards to SKY stakers will be updated through the following actions:
 
-- Distribute any remaining tokens from the old stream by calling `VestedRewardsDistribution.distribute()` on [REWARDS_DIST_LSSKY_SKY](https://etherscan.io/address/0x675671a8756ddb69f7254afb030865388ef699ee).
-- Create a new [MCD_VEST_SKY_TREASURY](https://etherscan.io/address/0x67eaDb3288cceDe034cE95b0511DCc65cf630bB6) stream with the following parameters:
-  - `res`: **1 (restricted)**;
-  - `vestBgn`: **`block.timestamp`**;
-  - `vestTau`: **180 days**;
-  - `tot`: **192,110,322 SKY**.
-- Adjust the Sky allowance for [MCD_VEST_SKY_TREASURY](https://etherscan.io/address/0x67eadb3288ccede034ce95b0511dcc65cf630bb6), reducing it by the remaining yanked stream amount and increasing it by the new stream total.
-- `yank` [MCD_VEST_SKY_TREASURY](https://etherscan.io/address/0x67eadb3288ccede034ce95b0511dcc65cf630bb6) vest with ID **10**.
-- `file` the new stream ID on [REWARDS_DIST_LSSKY_SKY](https://etherscan.io/address/0xa3Ee378BdD0b7DD403cEd3a0A65B2B389A2eaB7e).
+- Call [TreasuryFundedFarmingInit.updateFarmVest()](https://github.com/sky-ecosystem/endgame-toolkit/blob/master/script/dependencies/treasury-funded-farms/TreasuryFundedFarmingInit.sol#L128) with the following parameters:
+  - dist: [0x675671A8756dDb69F7254AFB030865388Ef699Ee](https://etherscan.io/address/0x675671A8756dDb69F7254AFB030865388Ef699Ee)
+  - vestTot: **192,110,322 SKY**
+  - vestBgn: **`block.timestamp`**
+  - vestTau: **90 days**
 
 ### Grove Genesis Capital Transfer
 
