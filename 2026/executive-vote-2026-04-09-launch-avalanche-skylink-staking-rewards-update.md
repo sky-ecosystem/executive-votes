@@ -488,7 +488,7 @@ Maple syrupUSDC will be onboarded to the Grove Liquidity Layer with the followin
 JTRSY deposit [rate limit](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2) parameters will be updated as follows:
 
 - JTRSY (V3): [0xFE6920eB6C421f1179cA8c8d4170530CDBdfd77A](https://etherscan.io/address/0xFE6920eB6C421f1179cA8c8d4170530CDBdfd77A)
-  - Underlying Asset: USDC
+  - Underlying Asset: **USDC**
   - Deposits:
     - Max amount: **500 million USDC**
     - Slope: **500 million USDC per day**
