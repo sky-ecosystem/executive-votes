@@ -1,6 +1,6 @@
 ---
-title: Template - [Executive Vote] Launch Avalanche SkyLink, Update Staking Rewards, Grove Genesis Capital Transfer, Safe Harbor Update, Prime Proxy Spells - April 9, 2026
-summary: Launch SkyLink to Avalanche, update LSSKY-SKY staking rewards, transfer Genesis Capital to Grove, update the Safe Harbor agreement to account for the new SkyLink deployment, whitelist proxy spells for Spark and Grove.
+title: Template - [Executive Vote] Launch Avalanche SkyLink, Update Staking Rewards, Grove Genesis Capital Transfer, Safe Harbor Update, Prime Agent Proxy Spells - April 9, 2026
+summary: Launch SkyLink to Avalanche, update LSSKY->SKY staking rewards, transfer Genesis Capital to Grove, update the Safe Harbor agreement to account for the new SkyLink deployment, whitelist proxy spells for Spark and Grove.
 date: 2026-04-09T00:00:00.000Z
 address: "$spell_address"
 ---
@@ -18,10 +18,10 @@ If you are new to voting in the Sky Protocol, please see the [voting guide](http
 If this executive proposal passes, the following **actions** will occur within the Sky Protocol:
 
 - Avalanche SkyLink will be launched.
-- LSSKY-SKY staking rewards will be updated.
+- LSSKY->SKY staking rewards will be updated.
 - $TBD USDS will be transferred to Grove as Genesis Capital.
 - The chain list and contract list in the Safe Harbor Agreement will be updated.
-- Prime proxy spells for Spark and Grove will be whitelisted in their respective StarGuard modules.
+- Prime Agent proxy spells for Spark and Grove will be whitelisted in their respective StarGuard modules.
 
 **Voting for this executive proposal will place your SKY in support of the actions outlined above.**
 
@@ -40,7 +40,7 @@ If this executive proposal does not pass within 30 days, then it will expire and
 - **Authorization**: [Governance Poll 1627](https://vote.sky.money/polling/QmW61Lnd)
 - **Proposal**: [Atlas Edit Weekly Cycle Proposal](https://forum.skyeco.com/t/atlas-edit-weekly-cycle-proposal-week-of-2026-04-06/27822), [Technical Scope](https://forum.skyeco.com/t/skylink-bridge-to-avalanche/27825)
 
-If this executive proposal passes, then the Avalanche SkyLink will be launched through the following series of actions:
+If this executive proposal passes, then the Avalanche SkyLink will be launched through the following series of actions.
 
 #### Wire LZ_GOV_SENDER on Ethereum Mainnet with Avalanche Mainnet
 
@@ -68,7 +68,7 @@ Configure Oapp SendLibrary for Avalanche by calling [EndpointV2.setConfig](https
     - `uint32 configType` being **1** - Executor type from [the source](https://etherscan.io/address/0xbB2Ea70C9E858123480642Cf96acbcCE1372dCe1#code#F1#L16)
     - `bytes config` being encoded [ExecutorConfig](https://github.com/LayerZero-Labs/LayerZero-v2/blob/9c741e7f9790639537b1710a203bcdfd73b0b9ac/packages/layerzero-v2/evm/messagelib/contracts/SendLibBase.sol#L23-L26) with:
       - `maxMessageSize` being **10_000**
-      - `executor` being [0x173272739Bd7Aa6e4e214714048a9fE699453059](etherscan.io/address/0x173272739Bd7Aa6e4e214714048a9fE699453059) - see [LayerZero docs](https://docs.layerzero.network/v2/deployments/chains/ethereum)
+      - `executor` being [0x173272739Bd7Aa6e4e214714048a9fE699453059](https://etherscan.io/address/0x173272739Bd7Aa6e4e214714048a9fE699453059) - see [LayerZero docs](https://docs.layerzero.network/v2/deployments/chains/ethereum)
   - Second item: ULN parameters
     - `uint32 eid` being **30106** - see [LayerZero docs](https://docs.layerzero.network/v2/deployments/chains/avalanche)
     - `uint32 configType` being **2** - ULN type from [the source](https://etherscan.io/address/0xbB2Ea70C9E858123480642Cf96acbcCE1372dCe1#code#F1#L17)
@@ -79,8 +79,8 @@ Configure Oapp SendLibrary for Avalanche by calling [EndpointV2.setConfig](https
       - `uint8 optionalDVNThreshold` being **4**
       - `address[] requiredDVNs` being an array with 0 addresses
       - `address[] optionalDVNs` being an array with 7 addresses - see [LayerZero docs](https://docs.layerzero.network/v2/deployments/chains/ethereum):
-        - [0x589dEDbD617e0CBcB916A9223F4d1300c294236b](https://etherscan.io/address/0x589dEDbD617e0CBcB916A9223F4d1300c294236b) (LayerZero Labs)
-        - [0xa59BA433ac34D2927232918Ef5B2eaAfcF130BA5](https://etherscan.io/address/0xa59BA433ac34D2927232918Ef5B2eaAfcF130BA5) (Nethermind)
+        - [0x589dEDbD617e0CBcB916A9223F4d1300c294236b](https://etherscan.io/address/0x589dEDbD617e0CBcB916A9223F4d1300c294236b) (LayerZero Labs),
+        - [0xa59BA433ac34D2927232918Ef5B2eaAfcF130BA5](https://etherscan.io/address/0xa59BA433ac34D2927232918Ef5B2eaAfcF130BA5) (Nethermind),
         - [0xa4fE5A5B9A846458a70Cd0748228aED3bF65c2cd](https://etherscan.io/address/0xa4fE5A5B9A846458a70Cd0748228aED3bF65c2cd) (Canary),
         - [0x373a6E5c0C4E89E24819f00AA37ea370917AAfF4](https://etherscan.io/address/0x373a6E5c0C4E89E24819f00AA37ea370917AAfF4) (Deutsche Telekom),
         - [0x06559EE34D85a88317Bf0bfE307444116c631b67](https://etherscan.io/address/0x06559EE34D85a88317Bf0bfE307444116c631b67) (P2P),
@@ -209,7 +209,7 @@ Set `SkyOFTAdapterMintBurn(sUSDS)` as a peer on Avalanche by calling `SUSDS_OFT`
 
 - [`SUSDS_OFT`](https://etherscan.io/address/0x85A3FE4DA2a6cB98A5bdF62458B0dB8471B9f0f1) being the address from chainlog
 - `uint32 _eid` being **30106** - see [LayerZero docs](https://docs.layerzero.network/v2/deployments/chains/avalanche)
-- `bytes32 _peer` being the new `SkyOFTAdapterMintBurn(sUSDS)` on Avalanche at [0x85A3FE4DA2a6cB98A5bdF62458B0dB8471B9f0f1](https://etherscan.io/address/0x85A3FE4DA2a6cB98A5bdF62458B0dB8471B9f0f1) padded with zeros
+- `bytes32 _peer` being the new `SkyOFTAdapterMintBurn(sUSDS)` on Avalanche at [0x7297D4811f088FC26bC5475681405B99b41E1FF9](https://snowscan.xyz/address/0x7297D4811f088FC26bC5475681405B99b41E1FF9) padded with zeros
 
 Set OFT SendLibrary for Avalanche by calling [`EndpointV2.setSendLibrary`](https://github.com/LayerZero-Labs/LayerZero-v2/blob/9c741e7f9790639537b1710a203bcdfd73b0b9ac/packages/layerzero-v2/evm/protocol/contracts/MessageLibManager.sol#L227) with:
 
@@ -291,7 +291,7 @@ Set OFT enforced options for Avalanche by calling [`SUSDS_OFT.setEnforcedOptions
 - **Authorization**: [Governance Poll 1627](https://vote.sky.money/polling/QmW61Lnd)
 - **Proposal**: [Atlas Edit Weekly Cycle Proposal](https://forum.skyeco.com/t/atlas-edit-weekly-cycle-proposal-week-of-2026-04-06/27822), [BA Labs Calculation](https://forum.skyeco.com/t/lssky-to-sky-rewards-sky-rewards-for-sky-stakers-normalization-configuration/27721/6)
 
-If this executive proposal passes, then then the distribution of SKY token rewards to SKY stakers will be updated through the following actions:
+If this executive proposal passes, then the distribution of SKY token rewards to SKY stakers will be updated through the following actions:
 
 - Call [TreasuryFundedFarmingInit.updateFarmVest()](https://github.com/sky-ecosystem/endgame-toolkit/blob/master/script/dependencies/treasury-funded-farms/TreasuryFundedFarmingInit.sol#L128) with the following parameters:
   - dist: [0x675671A8756dDb69F7254AFB030865388Ef699Ee](https://etherscan.io/address/0x675671A8756dDb69F7254AFB030865388Ef699Ee)
@@ -310,9 +310,9 @@ If this executive proposal passes, then **20,797,477 USDS** will be transferred 
 
 - **Authorization**: [Atlas A.2.11.1.2.3](https://sky-atlas.io/#fcd868db-4a91-4ee0-baf5-1ebd40fc651e)
 
-If this executive proposal passes, the Safe Harbor agreement will be updated to include the Avalanche chain along with the new GovernanceOAppReceiver on Avalanche, L2GovernanceRelay on Avalanche, USDS proxy and implementation on Avalanche, sUSDS proxy and implementation on Avalanche, SkyOFTAdapterMintBurn(USDS) on Avalanche, SkyOFTAdapter(sUSDS) on mainnet, sUSDS proxy and implementation on Avalanche, and SkyOFTAdapterMintBurn(sUSDS) on Avalanche added by this spell.
+If this executive proposal passes, the Safe Harbor agreement will be updated to include the Avalanche chain along with the new GovernanceOAppReceiver on Avalanche, L2GovernanceRelay on Avalanche, USDS proxy and implementation on Avalanche, sUSDS proxy and implementation on Avalanche, SkyOFTAdapterMintBurn(USDS) on Avalanche, SkyOFTAdapter(sUSDS) on mainnet, and SkyOFTAdapterMintBurn(sUSDS) on Avalanche added by this spell.
 
-### Prime Proxy Spells
+### Prime Agent Proxy Spells
 
 If this executive proposal passes, then a Spark proxy spell with address [0xFa5fc020311fCC1A467FEC5886640c7dD746deAa](https://etherscan.io/address/0xFa5fc020311fCC1A467FEC5886640c7dD746deAa) and codehash `0x2572a97846f7a6f9f159a9a69c2707cfa4186c061de2a0ec59e7a0d46473c74c` will be whitelisted in the [Spark StarGuard](https://etherscan.io/address/0x6605aa120fe8b656482903E7757BaBF56947E45E).
 
@@ -427,14 +427,14 @@ Various [rate limits](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2) for the Spark Liq
 
 - Aave Base USDC
   - Deposits
-    - maxAmount: 0
+    - maxAmount: **0**
   - Withdrawals
-    - maxAmount: 0
+    - maxAmount: **0**
 - Fluid Base sUSDS
   - Deposits
-    - maxAmount: 0
+    - maxAmount: **0**
   - Withdrawals
-    - maxAmount: 0
+    - maxAmount: **0**
 
 ##### [Ethereum] Spark Savings - Raise Deposit Caps for spUSDC, spUSDT, and spETH
 
@@ -457,9 +457,9 @@ Various [rate limits](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2) for the Spark Liq
 
 SparkLend reserves will be claimed as follows:
 
-- Claim all reserves.
-- Transfer USD stablecoin reserves to ALM Proxy.
-- Transfer non-USD stablecoin reserves to Spark Operations Multisig [0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC](https://etherscan.io/address/0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC) to be liquidated.
+- Claim all reserves
+- Transfer USD stablecoin reserves to ALM Proxy
+- Transfer non-USD stablecoin reserves to Spark Operations Multisig [0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC](https://etherscan.io/address/0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC) to be liquidated
 
 #### Grove
 
@@ -493,7 +493,7 @@ JTRSY deposit [rate limit](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2) parameters w
     - Max amount: **500 million USDC**
     - Slope: **500 million USDC per day**
   - Withdrawals:
-    - Amount: **Unlimited**
+    - Amount: **unlimited**
 
 ##### [Ethereum] Increase PSM USDS/USDC Swap Rate Limits
 
