@@ -5,7 +5,7 @@ date: 2026-04-09T00:00:00.000Z
 address: "$spell_address"
 ---
 
-# [Executive Proposal] Launch Avalanche SkyLink, Update Staking Rewards, Grove Genesis Capital Transfer, Safe Harbor Update, Prime Proxy Spells - April 9, 2026
+# [Executive Proposal] Launch Avalanche SkyLink, Update Staking Rewards, Grove Genesis Capital Transfer, Safe Harbor Update, Prime Agent Proxy Spells - April 9, 2026
 
 The Core Facilitators, Dewiz, and Sidestream have placed an executive proposal into the voting system. SKY holders should vote for this proposal if they support the following alterations to the Sky Protocol.
 
