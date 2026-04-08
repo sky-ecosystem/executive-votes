@@ -19,7 +19,7 @@ If this executive proposal passes, the following **actions** will occur within t
 
 - Avalanche SkyLink will be launched.
 - LSSKY->SKY staking rewards will be updated.
-- $TBD USDS will be transferred to Grove as Genesis Capital.
+- 20,797,477 USDS will be transferred to Grove as part of their Genesis Capital allocation.
 - The chain list and contract list in the Safe Harbor Agreement will be updated.
 - Prime Agent proxy spells for Spark and Grove will be whitelisted in their respective StarGuard modules.
 
