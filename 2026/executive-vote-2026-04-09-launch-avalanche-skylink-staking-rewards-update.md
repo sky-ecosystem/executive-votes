@@ -68,7 +68,7 @@ Configure Oapp SendLibrary for Avalanche by calling [EndpointV2.setConfig](https
     - `uint32 configType` being **1** - Executor type from [the source](https://etherscan.io/address/0xbB2Ea70C9E858123480642Cf96acbcCE1372dCe1#code#F1#L16)
     - `bytes config` being encoded [ExecutorConfig](https://github.com/LayerZero-Labs/LayerZero-v2/blob/9c741e7f9790639537b1710a203bcdfd73b0b9ac/packages/layerzero-v2/evm/messagelib/contracts/SendLibBase.sol#L23-L26) with:
       - `maxMessageSize` being **10_000**
-      - `executor being [0x173272739Bd7Aa6e4e214714048a9fE699453059](etherscan.io/address/0x173272739Bd7Aa6e4e214714048a9fE699453059) - see [LayerZero docs](https://docs.layerzero.network/v2/deployments/chains/ethereum)
+      - `executor` being [0x173272739Bd7Aa6e4e214714048a9fE699453059](etherscan.io/address/0x173272739Bd7Aa6e4e214714048a9fE699453059) - see [LayerZero docs](https://docs.layerzero.network/v2/deployments/chains/ethereum)
   - Second item: ULN parameters
     - `uint32 eid` being **30106** - see [LayerZero docs](https://docs.layerzero.network/v2/deployments/chains/avalanche)
     - `uint32 configType` being **2** - ULN type from [the source](https://etherscan.io/address/0xbB2Ea70C9E858123480642Cf96acbcCE1372dCe1#code#F1#L17)
