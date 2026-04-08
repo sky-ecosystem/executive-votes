@@ -302,7 +302,7 @@ If this executive proposal passes, then then the distribution of SKY token rewar
 ### Grove Genesis Capital Transfer
 
 - **Authorization**: [Atlas A.2.8.2.2.2.5.2](https://sky-atlas.io/#062fdb39-464e-4a5b-a44f-3462d2d38be5)
-- **Proposal**: [$link_to_proposal]()
+- **Proposal**: [Forum post](https://forum.skyeco.com/t/grove-genesis-capital-transfer/27828)
 
 If this executive proposal passes, then **20,797,477 USDS** will be transferred to the [Grove SubProxy](https://etherscan.io/address/0x1369f7b2b38c76B6478c0f0E66D94923421891Ba) as part of their Genesis Capital allocation.
 
