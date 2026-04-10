@@ -2,7 +2,7 @@
 title: Template - [Executive Vote] Launch Avalanche SkyLink, Update Staking Rewards, Grove Genesis Capital Transfer, Safe Harbor Update, Prime Agent Proxy Spells - April 9, 2026
 summary: Launch SkyLink to Avalanche, update LSSKY->SKY staking rewards, transfer Genesis Capital to Grove, update the Safe Harbor agreement to account for the new SkyLink deployment, whitelist proxy spells for Spark and Grove.
 date: 2026-04-09T00:00:00.000Z
-address: "$spell_address"
+address: "0x70Da14478667C08320Ef65506063abba84B6990f"
 ---
 
 # [Executive Proposal] Launch Avalanche SkyLink, Update Staking Rewards, Grove Genesis Capital Transfer, Safe Harbor Update, Prime Agent Proxy Spells - April 9, 2026
