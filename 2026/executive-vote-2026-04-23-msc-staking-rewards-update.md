@@ -54,7 +54,7 @@ If this executive proposal passes, then the March 2026 Monthly Settlement Cycle 
 
 #### Keel
 
-- Send **30,241 USDS** from the surplus buffer to the [KEEL_SUBPROXY](https://etherscan.io/address/0x355cd90ecb1b409fdf8b64c4473c3b858da2c310).
+- Send **30,241 USDS** from the surplus buffer to the [KEEL_SUBPROXY](https://etherscan.io/address/0x355CD90Ecb1b409Fdf8b64c4473C3B858dA2c310).
 
 #### Obex
 
