@@ -291,7 +291,7 @@ Pattern Liquidity Layer [rate limits](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2) f
 |LIMIT_4626_DEPOSIT (Maple Finance)       |100,000,000   |  20,000,000 |
 | LIMIT_MAPLE_REDEEM    | type(uint256).max | 0 |
 
-##### Pattern Onboard Maple syrupUSDC - Ethereum Mainnet Deployment
+##### [Ethereum] Onboard Maple syrupUSDC
 
 - **Authorization**: [Governance Poll 1628](https://vote.sky.money/polling/QmVAKhR6)
 - **Proposal**: [Forum Post](https://forum.skyeco.com/t/proposed-changes-to-pattern-for-upcoming-spell/27835)
