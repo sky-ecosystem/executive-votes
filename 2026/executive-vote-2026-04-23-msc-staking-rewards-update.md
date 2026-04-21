@@ -1,6 +1,6 @@
 ---
 title: Template - [Executive Vote] March 2026 Monthly Settlement Cycle, Update Staking Rewards, Adjust ALLOCATOR-BLOOM-A and ALLOCATOR-PATTERN-A DC-IAM Parameters, Whitelist Pattern ALMProxy, Prime Agent Proxy Spells - April 23, 2026
-summary: Execute Monthly Settlement Cycle and Treasury Management Function for March 2026, update LSSKY->SKY staking rewards, increase ALLOCATOR-BLOOM-A `gap`; increase ALLOCATOR-PATTERN-A `gap` and `line`, whitelist Pattern ALMProxy on the LitePSM, whitelist proxy spells for Spark, Grove, and Pattern.
+summary: Execute Monthly Settlement Cycle and Treasury Management Function for March 2026, update LSSKY->SKY staking rewards, increase ALLOCATOR-BLOOM-A target available debt; increase ALLOCATOR-PATTERN-A target available debt and maximum debt ceiling, whitelist Pattern ALMProxy on the LitePSM, whitelist proxy spells for Spark, Grove, and Pattern.
 date: 2026-04-23T00:00:00.000Z
 address: "$spell_address"
 ---
