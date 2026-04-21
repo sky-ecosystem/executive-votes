@@ -185,7 +185,6 @@ The following [rate limit](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2) changes will
   - Max amount: **500 million USDS**.
   - Slope: **500 million USDS per day**.
 
-
 ##### [Ethereum] Onboard USDS to Centrifuge JTRSY
 
 - **Authorization**: [Governance Poll 1628](https://vote.sky.money/polling/QmVAKhR6)
