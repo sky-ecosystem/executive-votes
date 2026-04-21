@@ -260,7 +260,7 @@ USDS/USDC Curve Stableswap Swaps and LP will onboarded with the following [rate 
 
 #### Pattern
 
-##### Pattern Liquidity Layer - Ethereum Mainnet Deployment
+##### [Ethereum] Deploy Pattern Liquidity Layer
 
 - **Authorization**: [Governance Poll 1628](https://vote.sky.money/polling/QmVAKhR6)
 - **Proposal**: [Forum Post](https://forum.skyeco.com/t/proposed-changes-to-pattern-for-upcoming-spell/27835)
