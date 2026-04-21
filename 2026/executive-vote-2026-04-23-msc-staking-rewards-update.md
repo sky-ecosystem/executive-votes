@@ -265,7 +265,31 @@ USDS/USDC Curve Stableswap Swaps and LP will onboarded with the following [rate 
 - **Authorization**: [Governance Poll 1628](https://vote.sky.money/polling/QmVAKhR6)
 - **Proposal**: [Forum Post](https://forum.skyeco.com/t/proposed-changes-to-pattern-for-upcoming-spell/27835)
 
-The Pattern Liquidity Layer will be deployed on mainnet with the contracts described in this [forum post](https://forum.skyeco.com/t/proposed-changes-to-pattern-for-upcoming-spell/27835).
+The Pattern Liquidity Layer will be deployed on mainnet with the following contracts and [rate limits](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2).
+
+###### Contracts
+
+| Contract Name | Address | Deployed By
+|---------------|---------|-------------|
+| Allocator Buffer     | [0x823459b55D79F0421f24a4828237F7ecb8D7F1ef](https://forum.skyeco.com/t/technical-scope-of-the-new-pattern-allocator-instance/27641) | Core |
+| Allocator Vault      | [0xbd34fc6AAa1d3F52B314CB9D78023dd23eAc3B0E](https://forum.skyeco.com/t/technical-scope-of-the-new-pattern-allocator-instance/27641) | Core |
+| SubProxy             | [0xbC8959Ae2d4E9B385Fe620BEF48C2FD7f4A84736](https://forum.skyeco.com/t/technical-scope-of-the-new-pattern-allocator-instance/27641) | Core |
+| Mainnet Controller   | [0x8739a869E41e828c83EA45575fBDf9FfcC0962b1](https://etherscan.io/address/0x8739a869E41e828c83EA45575fBDf9FfcC0962b1) | Pattern |
+| ALM Proxy            | [0xbA43325E91C79E500486a23E953ab3d8C46f169F](https://etherscan.io/address/0xbA43325E91C79E500486a23E953ab3d8C46f169F) | Pattern
+| Rate Limits          | [0xa77f69f90646A4c0e44cEe1D44Fab08bEb4EA204](https://etherscan.io/address/0xa77f69f90646A4c0e44cEe1D44Fab08bEb4EA204) | Pattern
+| Relayer          | [0xd00665Df77E0b1294Ae2bdC3662F870092f6737B](https://etherscan.io/address/0xd00665Df77E0b1294Ae2bdC3662F870092f6737B) | Soter (GovOps)
+| Freezer          | [0xe728D67bca6cb18dE249325792b6379Eef4618bB](https://etherscan.io/address/0xe728D67bca6cb18dE249325792b6379Eef4618bB) | Soter (GovOps)
+
+###### Initial Parameters
+
+Pattern Liquidity Layer [rate limits](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2) for initial activation:
+
+| Parameter |            Max Amount          |   Slope (Tokens/Day)    |
+|----------|------------|-------------------|
+|LIMIT_USDS_MINT        |100,000,000      |	50,000,000   |
+|LIMIT_USDS_TO_USDC	    |100,000,000	  |   50,000,000 |
+|LIMIT_4626_DEPOSIT (Maple Finance)       |100,000,000   |  20,000,000 |
+| LIMIT_MAPLE_REDEEM    | type(uint256).max | 0 |
 
 ##### Pattern Onboard Maple syrupUSDC - Ethereum Mainnet Deployment
 
