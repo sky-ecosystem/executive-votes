@@ -268,12 +268,12 @@ USDS/USDC Curve Stableswap Swaps and LP will onboarded with the following [rate 
 
 The Pattern Liquidity Layer will be deployed on mainnet with the contracts described in this [forum post](https://forum.skyeco.com/t/proposed-changes-to-pattern-for-upcoming-spell/27835).
 
-##### Pattern Onboard Maple syrupUSDS - Ethereum Mainnet Deployment
+##### Pattern Onboard Maple syrupUSDC - Ethereum Mainnet Deployment
 
 - **Authorization**: [Governance Poll 1628](https://vote.sky.money/polling/QmVAKhR6)
 - **Proposal**: [Forum Post](https://forum.skyeco.com/t/proposed-changes-to-pattern-for-upcoming-spell/27835)
 
-syrupUSDS will be onboarded to the Pattern Liquidity Layer with the following [rate limits]((https://sky-atlas.io/#A.2.2.9.1.1.1.2.2)):
+syrupUSDC will be onboarded to the Pattern Liquidity Layer with the following [rate limits]((https://sky-atlas.io/#A.2.2.9.1.1.1.2.2)):
 
 - Max amount: **100 million USDC**.
 - Slope: **20 million USDC per day**.
