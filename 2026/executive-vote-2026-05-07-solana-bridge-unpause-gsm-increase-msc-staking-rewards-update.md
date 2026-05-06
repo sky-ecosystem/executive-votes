@@ -217,17 +217,6 @@ If this executive proposal passes, then a Grove proxy spell with address [0x8EF8
 
 #### Spark
 
-##### [Avalanche] Spark Liquidity Layer - Update Bridge DVN Configuration
-
-- **Authorization**: [Snapshot Poll](https://snapshot.org/#/s:sparkfi.eth/proposal/0x2912831b683f5461d7bb4a5702c63ff8d2a4ff93d4422ce0cca0ef29f4a3509c)
-- **Proposal**: [Forum Post](https://forum.skyeco.com/t/may-7-2026-proposed-changes-to-spark-for-upcoming-spell/27870)
-
-Spark’s Avalanche deployment currently uses LayerZero for governance bridging, with a 2 of 2 DVN configuration. This spell updates the bridge configuration as follows:
-
-- DVN configuration
-  - Threshold: **4 of 7**
-  - DVNs: **Horizen**, **LayerZero Labs**, **Nethermind**, **Deutsche Telekom**, **Canary**, **Luganodes**, **P2P**
-
 ##### [Avalanche] Spark Liquidity Layer - Offboard Aave Avalanche USDC
 
 - **Authorization**: [Snapshot Poll](https://snapshot.org/#/s:sparkfi.eth/proposal/0x710eb6996204b3df1eedd19d2f8bea9d0d69cdfa85a31c514527d9c212686348)
