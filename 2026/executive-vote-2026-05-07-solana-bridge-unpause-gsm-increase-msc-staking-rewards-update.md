@@ -1,6 +1,6 @@
 ---
 title: Template - [Executive Vote] Unpause Solana SkyLink Bridge, Increase GSM Pause Delay, April 2026 Monthly Settlement Cycle, Update Staking Rewards, Prime Agent Proxy Spells - May 7, 2026
-summary: Active rate limits and unpause Solana SkyLink Bridge, Increase the GSM Pause Delay to 48 hours, execute Monthly Settlement Cycle and Treasury Management Function for April 2026, update LSSKY->SKY staking rewards, whitelist proxy spells for Spark and Grove.
+summary: Active rate limits and unpause Solana SkyLink Bridge, increase the GSM Pause Delay to 48 hours, execute Monthly Settlement Cycle and Treasury Management Function for April 2026, update LSSKY->SKY staking rewards, whitelist proxy spells for Spark and Grove.
 date: 2026-05-07T00:00:00.000Z
 address: "$spell_address"
 ---
@@ -17,7 +17,7 @@ If you are new to voting in the Sky Protocol, please see the [voting guide](http
 
 If this executive proposal passes, the following **actions** will occur within the Sky Protocol:
 
-- Solana SkyLink will be unpaused with updated rate limitis.
+- Solana SkyLink will be unpaused with updated rate limits.
 - The [GSM Pause Delay](https://sky-atlas.io/#A.1.9.3.1) will be increased.
 - The Monthly Settlement Cycle and Treasury Management Function for April 2026 will be executed.
 - LSSKY->SKY staking rewards will be updated.
@@ -233,7 +233,7 @@ Spark’s Avalanche deployment currently uses LayerZero for governance bridging,
 - **Authorization**: [Snapshot Poll](https://snapshot.org/#/s:sparkfi.eth/proposal/0x710eb6996204b3df1eedd19d2f8bea9d0d69cdfa85a31c514527d9c212686348)
 - **Proposal**: [Forum Post](https://forum.skyeco.com/t/may-7-2026-proposed-changes-to-spark-for-upcoming-spell/27870)
 
-Offboard Aave Avalanche USDC with the following [rate limits](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2):
+Aave Avalanche USDC will be offboarded with the following [rate limits](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2):
 
 - SLL parameters
   - Deposits
