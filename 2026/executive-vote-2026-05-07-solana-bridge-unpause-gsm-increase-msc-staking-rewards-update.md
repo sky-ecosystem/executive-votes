@@ -147,6 +147,8 @@ If this executive proposal passes, then the Solana Skylink Bridge will be unpaus
 
 #### Disable Ethereum -> Avalanche USDS flow
 
+_Note: Unpausing Ethereum USDS_OFT without zeroing the rate limit would allow Ethereum -> Avalanche transfers while Avalanche remains paused. User funds would then be locked on Ethereum without successful delivery on Avalanche until the receive flow is restored and the message retried. To prevent this, the Ethereum outbound rate limit for Avalanche should be set to zero so such transfers are rejected before funds are locked._
+
 - Call `USDS_OFT.setRateLimits` with:
   - `USDS_OFT` being [0x1e1D42781FC170EF9da004Fb735f56F0276d01B8](https://etherscan.io/address/0x1e1D42781FC170EF9da004Fb735f56F0276d01B8) from the [Chainlog](https://chainlog.sky.money/)
   - RateLimitConfig[] _rateLimitConfigsInbound being an empty array
