@@ -40,7 +40,120 @@ If this executive proposal does not pass within 30 days, then it will expire and
 - **Authorization**: [Core Facilitator Authorization](https://forum.skyeco.com/t/technical-scope-unpausing-the-layerzero-solana-bridge/27894/3)
 - **Proposal**: [Forum Post](https://forum.skyeco.com/t/technical-scope-unpausing-the-layerzero-solana-bridge/27894)
 
-If this executive proposal passes, then $executive_entry_1_implications.
+If this executive proposal passes, then the Solana Skylink Bridge will be unpaused by executing the following actions.
+
+#### Set Ethereum USDS OFT rate limits for Solana
+
+- Call `USDS_OFT.setRateLimits` with:
+  - USDS_OFT being [0x1e1D42781FC170EF9da004Fb735f56F0276d01B8](https://etherscan.io/address/0x1e1D42781FC170EF9da004Fb735f56F0276d01B8) from the [Chainlog](https://chainlog.sky.money/)
+- `RateLimitConfig[] _rateLimitConfigsInbound` being an array with one item:
+  - `uint32 eid` being **30168** (Solana Mainnet Eid)
+  - `uint48 window` being **86,400** (1 day)
+  - `uint256 limit` being **5_000_000 * WAD** (5,000,000 USDS)
+- `RateLimitConfig[] _rateLimitConfigsOutbound` being an array with one item:
+  - `uint32 eid` being **30168** (Solana Mainnet Eid)
+  - `uint48 window` being **86,400** (1 day)
+  - `uint256 limit` being **5_000_000 * WAD** (5,000,000 USDS)
+
+#### Unpause Ethereum USDS OFT
+
+- Call USDS_OFT.unpause1 with:
+  - `USDS_OFT` being [0x1e1D42781FC170EF9da004Fb735f56F0276d01B8](https://etherscan.io/address/0x1e1D42781FC170EF9da004Fb735f56F0276d01B8) from the [Chainlog](https://chainlog.sky.money/)
+
+#### Allow LZ_GOV_RELAY to send Solana governance payloads
+
+- Call `LZ_GOV_SENDER.setCanCallTarget` with:
+  - `LZ_GOV_SENDER` being [0x27FC1DD771817b53bE48Dc28789533BEa53C9CCA](https://etherscan.io/address/0x27FC1DD771817b53bE48Dc28789533BEa53C9CCA) from the [Chainlog](https://chainlog.sky.money/)
+  - `address _srcSender` being [0x2beBFe397D497b66cB14461cB6ee467b4C3B7D61](https://etherscan.io/address/0x2beBFe397D497b66cB14461cB6ee467b4C3B7D61) (LZ_GOV_RELAY the [Chainlog](https://chainlog.sky.money/))
+  - `uint32 _dstEid` being **30168** (Solana Mainnet Eid)
+  - `bytes32 _dstTarget` being **0x067c7c6c60ba7f1aec14059100df74d6da07e7d31da5dd756c6308f02e661649** (Solana OFT program ID SKYTAiJRkgexqQqFoqhXdCANyfziwrVrzjhBaCzdbKW encoded as bytes32)
+  - `bool _canCall` being **true**
+- Set the max execution budget for bridging the Solana payloads to **0.01 ETH**
+
+#### Set Solana inbound rate limit for Ethereum -> Solana
+
+- Intended parameters:
+  - refill per second: **57,870,370**
+  - capacity: **5,000,000,000,000**
+  - rate_limiter_type: **net**
+ 
+#### `Call LZ_GOV_RELAY.relayRaw` with:
+
+- `LZ_GOV_RELAY` being [0x2beBFe397D497b66cB14461cB6ee467b4C3B7D61](https://etherscan.io/address/0x2beBFe397D497b66cB14461cB6ee467b4C3B7D61) from the [Chainlog](https://chainlog.sky.money/)
+- `LZ_GOV_SENDER` being [0x27FC1DD771817b53bE48Dc28789533BEa53C9CCA](https://etherscan.io/address/0x27FC1DD771817b53bE48Dc28789533BEa53C9CCA) from the [Chainlog](https://chainlog.sky.money/)
+- `TxParams txParams`:
+  - `uint32 dstEid` being **30168** (Solana Mainnet Eid)
+  - `bytes32 dstTarget` being **0x067c7c6c60ba7f1aec14059100df74d6da07e7d31da5dd756c6308f02e661649** (Solana OFT program ID encoded as bytes32)
+  - `bytes dstCallData` being:
+`0x00046370695f617574686f72697479000000000000000000000000000000000000000101b15b6cea974229517bec70478d3f574b4010444df812d75f6ca722fc0fa3256800019825dc0cbeaf22836931c00cb891592f0a96d0dc6a65a4c67992b01e0db8d1220000000000000000000000000000000000000000000000000000000000000000000000004fbba8398b8c5d2f95750000040101220873030000000001005039278c0400000100`
+  - `bytes extraOptions` being **LayerZero Type 3** options encoded via abi.encodePacked as `0x000301001101000000000000000000000000000927c0`:
+    - `uint16 optionsType` being **3**
+    - `uint8 workerId` being **1** (Executor)
+    - `uint16 optionSize` being **17** (1 byte for optionType + 16 bytes for _gas; _value is omitted by the zero-value encoding)
+    - `uint8 optionType` being **1** (LZRECEIVE)
+    - `uint128 _gas` being **600,000**
+    - `uint128 _value` being **0**
+- `MessagingFee fee` being the result of `LZ_GOV_SENDER.quoteTx(txParams, false)`
+- `address refundAddress` being [0x2beBFe397D497b66cB14461cB6ee467b4C3B7D61](https://etherscan.io/address/0x2beBFe397D497b66cB14461cB6ee467b4C3B7D61) (LZ_GOV_RELAY from the [Chainlog](https://chainlog.sky.money/))
+- `msg.value` being **0**, with `LZ_GOV_RELAY` paying `fee.nativeFee` from its pre-funded ETH balance
+
+#### Set Solana outbound rate limit for Solana -> Ethereum
+
+- Intended parameters:
+  - refill per second: **57,870,370**
+  - capacity: **5,000,000,000,000**
+  - rate_limiter_type: **net**
+
+#### Call LZ_GOV_RELAY.relayRaw with:
+
+- `LZ_GOV_RELAY` being [0x2beBFe397D497b66cB14461cB6ee467b4C3B7D61](https://etherscan.io/address/0x2beBFe397D497b66cB14461cB6ee467b4C3B7D61) from the [Chainlog](https://chainlog.sky.money/)
+- `LZ_GOV_SENDER` being [0x27FC1DD771817b53bE48Dc28789533BEa53C9CCA](https://etherscan.io/address/0x27FC1DD771817b53bE48Dc28789533BEa53C9CCA) from the [Chainlog](https://chainlog.sky.money/)
+- `TxParams txParams`:
+  - `uint32 dstEid` being **30168** (Solana Mainnet Eid)
+  - `bytes32 dstTarget` being **0x067c7c6c60ba7f1aec14059100df74d6da07e7d31da5dd756c6308f02e661649** (Solana OFT program ID encoded as bytes32)
+  - `bytes dstCallData` being:
+`0x00046370695f617574686f72697479000000000000000000000000000000000000000101b15b6cea974229517bec70478d3f574b4010444df812d75f6ca722fc0fa3256800019825dc0cbeaf22836931c00cb891592f0a96d0dc6a65a4c67992b01e0db8d1220000000000000000000000000000000000000000000000000000000000000000000000004fbba8398b8c5d2f95750000030101220873030000000001005039278c0400000100`
+  - `bytes extraOptions` being **LayerZero Type 3** options encoded via abi.encodePacked as `0x000301001101000000000000000000000000000927c0`:
+    - `uint16 optionsType` being **3**
+    - `uint8 workerId` being **1** (Executor)
+    - `uint16 optionSize` being **17** (1 byte for optionType + 16 bytes for _gas; _value is omitted by the zero-value encoding)
+    - `uint8 optionType` being **1** (LZRECEIVE)
+    - `uint128 _gas being` **600,000**
+    - `uint128 _value` being **0**
+- `MessagingFee fee` being the result of `LZ_GOV_SENDER.quoteTx(txParams, false)`
+- `address refundAddress` being [0x2beBFe397D497b66cB14461cB6ee467b4C3B7D61](https://etherscan.io/address/0x2beBFe397D497b66cB14461cB6ee467b4C3B7D61) (LZ_GOV_RELAY from the [Chainlog](https://chainlog.sky.money/))
+- `msg.value` being **0**, with `LZ_GOV_RELAY` paying `fee.nativeFee` from its pre-funded ETH balance
+
+#### Unpause Solana Sky OFT
+
+- Call `LZ_GOV_RELAY.relayRaw` with:
+  - `LZ_GOV_RELAY` being [0x2beBFe397D497b66cB14461cB6ee467b4C3B7D61](https://etherscan.io/address/0x2beBFe397D497b66cB14461cB6ee467b4C3B7D61) from the [Chainlog](https://chainlog.sky.money/)
+  - `LZ_GOV_SENDER` being [0x27FC1DD771817b53bE48Dc28789533BEa53C9CCA](https://etherscan.io/address/0x27FC1DD771817b53bE48Dc28789533BEa53C9CCA) from the [Chainlog](https://chainlog.sky.money/)
+  - `TxParams txParams`:
+    - `uint32 dstEid` being **30168** (Solana Mainnet Eid)
+    - `bytes32 dstTarget` being **0x067c7c6c60ba7f1aec14059100df74d6da07e7d31da5dd756c6308f02e661649** (Solana OFT program ID encoded as bytes32)
+    - `bytes dstCallData` being:
+`0x00026370695f617574686f726974790000000000000000000000000000000000000001009825dc0cbeaf22836931c00cb891592f0a96d0dc6a65a4c67992b01e0db8d12200013f209a0238674f2d00`
+    - `bytes extraOptions` being **LayerZero Type 3** options encoded via abi.encodePacked as `0x000301001101000000000000000000000000000927c0`:
+      - `uint16 optionsType` being **3**
+      - `uint8 workerId` being **1** (Executor)
+      - `uint16 optionSize` being **17** (1 byte for optionType + 16 bytes for _gas; _value is omitted by the zero-value encoding)
+      - `uint8 optionType` being **1** (LZRECEIVE)
+      - `uint128 _gas` being **600,000**
+      - `uint128 _value` being **0**
+  - `MessagingFee fee` being the result of `LZ_GOV_SENDER.quoteTx(txParams, false)`
+  - `address refundAddress` being [0x2beBFe397D497b66cB14461cB6ee467b4C3B7D61](https://etherscan.io/address/0x2beBFe397D497b66cB14461cB6ee467b4C3B7D61) (LZ_GOV_RELAY from the [Chainlog](https://chainlog.sky.money/))
+  - `msg.value` being **0**, with `LZ_GOV_RELAY` paying `fee.nativeFee` from its pre-funded ETH balance
+
+#### Disable Ethereum -> Avalanche USDS flow
+
+- Call `USDS_OFT.setRateLimits` with:
+  - `USDS_OFT` being [0x1e1D42781FC170EF9da004Fb735f56F0276d01B8](https://etherscan.io/address/0x1e1D42781FC170EF9da004Fb735f56F0276d01B8) from the [Chainlog](https://chainlog.sky.money/)
+  - RateLimitConfig[] _rateLimitConfigsInbound being an empty array
+  - RateLimitConfig[] _rateLimitConfigsOutbound being an array with one item:
+    - `uint32 eid` being **30106** (Avalanche Mainnet Eid)
+    - `uint48 window` being **86,400** (1 day)
+    - `uint256 limit` being **0**
 
 ### Increase GSM Pause Delay
 
