@@ -353,7 +353,7 @@ Grove x Steakhouse RLUSD Morpho Vault V2will onboarded with the following [rate 
 - **Authorization**: [Governance Poll 1630](https://vote.sky.money/polling/QmToMBbA)
 - **Proposal**: [Forum Post](https://forum.skyeco.com/t/may-7-2026-proposed-changes-to-grove-for-upcoming-spell/27858)
 
-**800,000 USDS** will be transfered to the Grove Foundation at [0xE3EC4CC359E68c9dCE15Bf667b1aD37Df54a5a42](https://etherscan.io/address/0xE3EC4CC359E68c9dCE15Bf667b1aD37Df54a5a42).
+**800,000 USDS** will be transferred to the Grove Foundation at [0xE3EC4CC359E68c9dCE15Bf667b1aD37Df54a5a42](https://etherscan.io/address/0xE3EC4CC359E68c9dCE15Bf667b1aD37Df54a5a42).
 
 ## Review
 
