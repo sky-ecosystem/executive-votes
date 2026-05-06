@@ -337,7 +337,7 @@ The Pull Request for the Grove proxy spell can be viewed [here](https://github.c
 - **Authorization**: [Governance Poll 1630](https://vote.sky.money/polling/QmToMBbA)
 - **Proposal**: [Forum Post](https://forum.skyeco.com/t/may-7-2026-proposed-changes-to-grove-for-upcoming-spell/27858)
 
-Grove x Steakhouse RLUSD Morpho Vault V2will onboarded with the following [rate limits](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2):
+Grove x Steakhouse RLUSD Morpho Vault V2 will be onboarded with the following [rate limits](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2):
 
 - Grove x Steakhouse RLUSD V2: [0xBeEff4fD39F8e48b6a6e475445D650cb11e9599F](https://etherscan.io/address/0xBeEff4fD39F8e48b6a6e475445D650cb11e9599F)
   - Underlying Asset: **RLUSD** [0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD](https://etherscan.io/address/0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD)
