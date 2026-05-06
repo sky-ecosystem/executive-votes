@@ -151,7 +151,7 @@ _Note: Unpausing Ethereum USDS_OFT without zeroing the rate limit would allow Et
 
 - Call `USDS_OFT.setRateLimits` with:
   - `USDS_OFT` being [0x1e1D42781FC170EF9da004Fb735f56F0276d01B8](https://etherscan.io/address/0x1e1D42781FC170EF9da004Fb735f56F0276d01B8) from the [Chainlog](https://chainlog.sky.money/)
-  - RateLimitConfig[] _rateLimitConfigsInbound being an empty array
+  - `RateLimitConfig[] _rateLimitConfigsInbound` being an empty array
   - RateLimitConfig[] _rateLimitConfigsOutbound being an array with one item:
     - `uint32 eid` being **30106** (Avalanche Mainnet Eid)
     - `uint48 window` being **86,400** (1 day)
