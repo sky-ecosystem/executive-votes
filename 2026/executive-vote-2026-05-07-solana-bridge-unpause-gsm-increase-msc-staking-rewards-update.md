@@ -118,7 +118,7 @@ If this executive proposal passes, then the Solana Skylink Bridge will be unpaus
     - `uint8 workerId` being **1** (Executor)
     - `uint16 optionSize` being **17** (1 byte for optionType + 16 bytes for _gas; _value is omitted by the zero-value encoding)
     - `uint8 optionType` being **1** (LZRECEIVE)
-    - `uint128 _gas being` **600,000**
+    - `uint128 _gas` being **600,000**
     - `uint128 _value` being **0**
 - `MessagingFee fee` being the result of `LZ_GOV_SENDER.quoteTx(txParams, false)`
 - `address refundAddress` being [0x2beBFe397D497b66cB14461cB6ee467b4C3B7D61](https://etherscan.io/address/0x2beBFe397D497b66cB14461cB6ee467b4C3B7D61) (`LZ_GOV_RELAY` from the [Chainlog](https://chainlog.sky.money/))
