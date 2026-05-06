@@ -217,6 +217,8 @@ If this executive proposal passes, then a Grove proxy spell with address [0x8EF8
 
 #### Spark
 
+The Pull Request for the Spark proxy spell can be viewed [here](https://github.com/sparkdotfi/spark-spells/pull/166).
+
 ##### [Avalanche] Spark Liquidity Layer - Offboard Aave Avalanche USDC
 
 - **Authorization**: [Snapshot Poll](https://snapshot.org/#/s:sparkfi.eth/proposal/0x710eb6996204b3df1eedd19d2f8bea9d0d69cdfa85a31c514527d9c212686348)
@@ -325,6 +327,8 @@ The following grant transfers will be made:
 **326,945 USDS** will be transfered to the [Spark Operations Multisig](https://etherscan.io/address/0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC) for SPK buybacks.
 
 #### Grove
+
+The Pull Request for the Grove proxy spell can be viewed [here](https://github.com/grove-labs/grove-spells/pull/52).
 
 ##### [Ethereum] Onboard Grove x Steakhouse RLUSD Morpho Vault V2
 
