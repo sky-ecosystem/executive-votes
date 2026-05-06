@@ -45,7 +45,7 @@ If this executive proposal passes, then the Solana Skylink Bridge will be unpaus
 #### Set Ethereum USDS OFT rate limits for Solana
 
 - Call `USDS_OFT.setRateLimits` with:
-  - USDS_OFT being [0x1e1D42781FC170EF9da004Fb735f56F0276d01B8](https://etherscan.io/address/0x1e1D42781FC170EF9da004Fb735f56F0276d01B8) from the [Chainlog](https://chainlog.sky.money/)
+  - `USDS_OFT` being [0x1e1D42781FC170EF9da004Fb735f56F0276d01B8](https://etherscan.io/address/0x1e1D42781FC170EF9da004Fb735f56F0276d01B8) from the [Chainlog](https://chainlog.sky.money/)
 - `RateLimitConfig[] _rateLimitConfigsInbound` being an array with one item:
   - `uint32 eid` being **30168** (Solana Mainnet Eid)
   - `uint48 window` being **86,400** (1 day)
