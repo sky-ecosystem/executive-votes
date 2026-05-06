@@ -1,6 +1,6 @@
 ---
 title: Template - [Executive Vote] Unpause Solana SkyLink Bridge, Increase GSM Pause Delay, April 2026 Monthly Settlement Cycle, Update Staking Rewards, Prime Agent Proxy Spells - May 7, 2026
-summary: Active rate limits and unpause Solana SkyLink Bridge, increase the GSM Pause Delay to 48 hours, execute Monthly Settlement Cycle and Treasury Management Function for April 2026, update LSSKY->SKY staking rewards, whitelist proxy spells for Spark and Grove.
+summary: Update rate limits and unpause Solana SkyLink Bridge, increase the GSM Pause Delay to 48 hours, execute Monthly Settlement Cycle and Treasury Management Function for April 2026, update LSSKY->SKY staking rewards, whitelist proxy spells for Spark and Grove.
 date: 2026-05-07T00:00:00.000Z
 address: "$spell_address"
 ---
@@ -18,14 +18,14 @@ If you are new to voting in the Sky Protocol, please see the [voting guide](http
 If this executive proposal passes, the following **actions** will occur within the Sky Protocol:
 
 - Solana SkyLink will be unpaused with updated rate limits.
-- The [GSM Pause Delay](https://sky-atlas.io/#A.1.9.3.1) will be increased.
+- The [GSM Pause Delay](https://sky-atlas.io/#3c9545d9-775f-4149-88bf-7d297b5302c6) will be increased.
 - The Monthly Settlement Cycle and Treasury Management Function for April 2026 will be executed.
 - LSSKY->SKY staking rewards will be updated.
 - Prime Agent proxy spells for Spark and Grove will be whitelisted in their respective StarGuard modules.
 
 **Voting for this executive proposal will place your SKY in support of the actions outlined above.**
 
-Unless otherwise noted, the actions listed above are subject to the [GSM Pause Delay](https://sky-atlas.io/#A.1.9.3.1). This means that if this executive proposal passes, the changes and additions listed above will only become active in the Sky Protocol after the GSM Pause Delay has expired. The GSM Pause Delay is currently set to [**24 hours**](https://sky-atlas.io/#A.1.9.3.1.2).
+Unless otherwise noted, the actions listed above are subject to the [GSM Pause Delay](https://sky-atlas.io/#3c9545d9-775f-4149-88bf-7d297b5302c6). This means that if this executive proposal passes, the changes and additions listed above will only become active in the Sky Protocol after the GSM Pause Delay has expired. The GSM Pause Delay is currently set to [**24 hours**](https://sky-atlas.io/#db442d8a-8d98-47a2-b162-01c2adc22b67).
 
 This executive proposal includes an office-hours modifier that means that it **can only be executed between 14:00 and 21:00 UTC, Monday - Friday**.
 
