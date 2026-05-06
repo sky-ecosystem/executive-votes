@@ -57,14 +57,14 @@ If this executive proposal passes, then the Solana Skylink Bridge will be unpaus
 
 #### Unpause Ethereum USDS OFT
 
-- Call USDS_OFT.unpause1 with:
+- Call `USDS_OFT.unpause` with:
   - `USDS_OFT` being [0x1e1D42781FC170EF9da004Fb735f56F0276d01B8](https://etherscan.io/address/0x1e1D42781FC170EF9da004Fb735f56F0276d01B8) from the [Chainlog](https://chainlog.sky.money/)
 
 #### Allow LZ_GOV_RELAY to send Solana governance payloads
 
 - Call `LZ_GOV_SENDER.setCanCallTarget` with:
   - `LZ_GOV_SENDER` being [0x27FC1DD771817b53bE48Dc28789533BEa53C9CCA](https://etherscan.io/address/0x27FC1DD771817b53bE48Dc28789533BEa53C9CCA) from the [Chainlog](https://chainlog.sky.money/)
-  - `address _srcSender` being [0x2beBFe397D497b66cB14461cB6ee467b4C3B7D61](https://etherscan.io/address/0x2beBFe397D497b66cB14461cB6ee467b4C3B7D61) (LZ_GOV_RELAY the [Chainlog](https://chainlog.sky.money/))
+  - `address _srcSender` being [0x2beBFe397D497b66cB14461cB6ee467b4C3B7D61](https://etherscan.io/address/0x2beBFe397D497b66cB14461cB6ee467b4C3B7D61) (`LZ_GOV_RELAY` from the [Chainlog](https://chainlog.sky.money/))
   - `uint32 _dstEid` being **30168** (Solana Mainnet Eid)
   - `bytes32 _dstTarget` being **0x067c7c6c60ba7f1aec14059100df74d6da07e7d31da5dd756c6308f02e661649** (Solana OFT program ID SKYTAiJRkgexqQqFoqhXdCANyfziwrVrzjhBaCzdbKW encoded as bytes32)
   - `bool _canCall` being **true**
@@ -77,7 +77,7 @@ If this executive proposal passes, then the Solana Skylink Bridge will be unpaus
   - capacity: **5,000,000,000,000**
   - rate_limiter_type: **net**
  
-#### `Call LZ_GOV_RELAY.relayRaw` with:
+#### Call `LZ_GOV_RELAY.relayRaw` with:
 
 - `LZ_GOV_RELAY` being [0x2beBFe397D497b66cB14461cB6ee467b4C3B7D61](https://etherscan.io/address/0x2beBFe397D497b66cB14461cB6ee467b4C3B7D61) from the [Chainlog](https://chainlog.sky.money/)
 - `LZ_GOV_SENDER` being [0x27FC1DD771817b53bE48Dc28789533BEa53C9CCA](https://etherscan.io/address/0x27FC1DD771817b53bE48Dc28789533BEa53C9CCA) from the [Chainlog](https://chainlog.sky.money/)
@@ -85,8 +85,8 @@ If this executive proposal passes, then the Solana Skylink Bridge will be unpaus
   - `uint32 dstEid` being **30168** (Solana Mainnet Eid)
   - `bytes32 dstTarget` being **0x067c7c6c60ba7f1aec14059100df74d6da07e7d31da5dd756c6308f02e661649** (Solana OFT program ID encoded as bytes32)
   - `bytes dstCallData` being:
-`0x00046370695f617574686f72697479000000000000000000000000000000000000000101b15b6cea974229517bec70478d3f574b4010444df812d75f6ca722fc0fa3256800019825dc0cbeaf22836931c00cb891592f0a96d0dc6a65a4c67992b01e0db8d1220000000000000000000000000000000000000000000000000000000000000000000000004fbba8398b8c5d2f95750000040101220873030000000001005039278c0400000100`
-  - `bytes extraOptions` being **LayerZero Type 3** options encoded via abi.encodePacked as `0x000301001101000000000000000000000000000927c0`:
+**0x00046370695f617574686f72697479000000000000000000000000000000000000000101b15b6cea974229517bec70478d3f574b4010444df812d75f6ca722fc0fa3256800019825dc0cbeaf22836931c00cb891592f0a96d0dc6a65a4c67992b01e0db8d1220000000000000000000000000000000000000000000000000000000000000000000000004fbba8398b8c5d2f95750000040101220873030000000001005039278c0400000100**
+  - `bytes extraOptions` being LayerZero Type 3 options encoded via `abi.encodePacked` as **0x000301001101000000000000000000000000000927c0**:
     - `uint16 optionsType` being **3**
     - `uint8 workerId` being **1** (Executor)
     - `uint16 optionSize` being **17** (1 byte for optionType + 16 bytes for _gas; _value is omitted by the zero-value encoding)
@@ -94,7 +94,7 @@ If this executive proposal passes, then the Solana Skylink Bridge will be unpaus
     - `uint128 _gas` being **600,000**
     - `uint128 _value` being **0**
 - `MessagingFee fee` being the result of `LZ_GOV_SENDER.quoteTx(txParams, false)`
-- `address refundAddress` being [0x2beBFe397D497b66cB14461cB6ee467b4C3B7D61](https://etherscan.io/address/0x2beBFe397D497b66cB14461cB6ee467b4C3B7D61) (LZ_GOV_RELAY from the [Chainlog](https://chainlog.sky.money/))
+- `address refundAddress` being [0x2beBFe397D497b66cB14461cB6ee467b4C3B7D61](https://etherscan.io/address/0x2beBFe397D497b66cB14461cB6ee467b4C3B7D61) (`LZ_GOV_RELAY` from the [Chainlog](https://chainlog.sky.money/))
 - `msg.value` being **0**, with `LZ_GOV_RELAY` paying `fee.nativeFee` from its pre-funded ETH balance
 
 #### Set Solana outbound rate limit for Solana -> Ethereum
@@ -104,7 +104,7 @@ If this executive proposal passes, then the Solana Skylink Bridge will be unpaus
   - capacity: **5,000,000,000,000**
   - rate_limiter_type: **net**
 
-#### Call LZ_GOV_RELAY.relayRaw with:
+#### Call `LZ_GOV_RELAY.relayRaw` with:
 
 - `LZ_GOV_RELAY` being [0x2beBFe397D497b66cB14461cB6ee467b4C3B7D61](https://etherscan.io/address/0x2beBFe397D497b66cB14461cB6ee467b4C3B7D61) from the [Chainlog](https://chainlog.sky.money/)
 - `LZ_GOV_SENDER` being [0x27FC1DD771817b53bE48Dc28789533BEa53C9CCA](https://etherscan.io/address/0x27FC1DD771817b53bE48Dc28789533BEa53C9CCA) from the [Chainlog](https://chainlog.sky.money/)
@@ -112,8 +112,8 @@ If this executive proposal passes, then the Solana Skylink Bridge will be unpaus
   - `uint32 dstEid` being **30168** (Solana Mainnet Eid)
   - `bytes32 dstTarget` being **0x067c7c6c60ba7f1aec14059100df74d6da07e7d31da5dd756c6308f02e661649** (Solana OFT program ID encoded as bytes32)
   - `bytes dstCallData` being:
-`0x00046370695f617574686f72697479000000000000000000000000000000000000000101b15b6cea974229517bec70478d3f574b4010444df812d75f6ca722fc0fa3256800019825dc0cbeaf22836931c00cb891592f0a96d0dc6a65a4c67992b01e0db8d1220000000000000000000000000000000000000000000000000000000000000000000000004fbba8398b8c5d2f95750000030101220873030000000001005039278c0400000100`
-  - `bytes extraOptions` being **LayerZero Type 3** options encoded via abi.encodePacked as `0x000301001101000000000000000000000000000927c0`:
+**0x00046370695f617574686f72697479000000000000000000000000000000000000000101b15b6cea974229517bec70478d3f574b4010444df812d75f6ca722fc0fa3256800019825dc0cbeaf22836931c00cb891592f0a96d0dc6a65a4c67992b01e0db8d1220000000000000000000000000000000000000000000000000000000000000000000000004fbba8398b8c5d2f95750000030101220873030000000001005039278c0400000100**
+  - `bytes extraOptions` being LayerZero Type 3 options encoded via `abi.encodePacked` as **0x000301001101000000000000000000000000000927c0**:
     - `uint16 optionsType` being **3**
     - `uint8 workerId` being **1** (Executor)
     - `uint16 optionSize` being **17** (1 byte for optionType + 16 bytes for _gas; _value is omitted by the zero-value encoding)
@@ -121,7 +121,7 @@ If this executive proposal passes, then the Solana Skylink Bridge will be unpaus
     - `uint128 _gas being` **600,000**
     - `uint128 _value` being **0**
 - `MessagingFee fee` being the result of `LZ_GOV_SENDER.quoteTx(txParams, false)`
-- `address refundAddress` being [0x2beBFe397D497b66cB14461cB6ee467b4C3B7D61](https://etherscan.io/address/0x2beBFe397D497b66cB14461cB6ee467b4C3B7D61) (LZ_GOV_RELAY from the [Chainlog](https://chainlog.sky.money/))
+- `address refundAddress` being [0x2beBFe397D497b66cB14461cB6ee467b4C3B7D61](https://etherscan.io/address/0x2beBFe397D497b66cB14461cB6ee467b4C3B7D61) (`LZ_GOV_RELAY` from the [Chainlog](https://chainlog.sky.money/))
 - `msg.value` being **0**, with `LZ_GOV_RELAY` paying `fee.nativeFee` from its pre-funded ETH balance
 
 #### Unpause Solana Sky OFT
@@ -133,8 +133,8 @@ If this executive proposal passes, then the Solana Skylink Bridge will be unpaus
     - `uint32 dstEid` being **30168** (Solana Mainnet Eid)
     - `bytes32 dstTarget` being **0x067c7c6c60ba7f1aec14059100df74d6da07e7d31da5dd756c6308f02e661649** (Solana OFT program ID encoded as bytes32)
     - `bytes dstCallData` being:
-`0x00026370695f617574686f726974790000000000000000000000000000000000000001009825dc0cbeaf22836931c00cb891592f0a96d0dc6a65a4c67992b01e0db8d12200013f209a0238674f2d00`
-    - `bytes extraOptions` being **LayerZero Type 3** options encoded via abi.encodePacked as `0x000301001101000000000000000000000000000927c0`:
+**0x00026370695f617574686f726974790000000000000000000000000000000000000001009825dc0cbeaf22836931c00cb891592f0a96d0dc6a65a4c67992b01e0db8d12200013f209a0238674f2d00**
+    - `bytes extraOptions` being LayerZero Type 3 options encoded via `abi.encodePacked` as **0x000301001101000000000000000000000000000927c0**:
       - `uint16 optionsType` being **3**
       - `uint8 workerId` being **1** (Executor)
       - `uint16 optionSize` being **17** (1 byte for optionType + 16 bytes for _gas; _value is omitted by the zero-value encoding)
@@ -142,7 +142,7 @@ If this executive proposal passes, then the Solana Skylink Bridge will be unpaus
       - `uint128 _gas` being **600,000**
       - `uint128 _value` being **0**
   - `MessagingFee fee` being the result of `LZ_GOV_SENDER.quoteTx(txParams, false)`
-  - `address refundAddress` being [0x2beBFe397D497b66cB14461cB6ee467b4C3B7D61](https://etherscan.io/address/0x2beBFe397D497b66cB14461cB6ee467b4C3B7D61) (LZ_GOV_RELAY from the [Chainlog](https://chainlog.sky.money/))
+  - `address refundAddress` being [0x2beBFe397D497b66cB14461cB6ee467b4C3B7D61](https://etherscan.io/address/0x2beBFe397D497b66cB14461cB6ee467b4C3B7D61) (`LZ_GOV_RELAY` from the [Chainlog](https://chainlog.sky.money/))
   - `msg.value` being **0**, with `LZ_GOV_RELAY` paying `fee.nativeFee` from its pre-funded ETH balance
 
 #### Disable Ethereum -> Avalanche USDS flow
@@ -160,7 +160,7 @@ If this executive proposal passes, then the Solana Skylink Bridge will be unpaus
 - **Authorization**: [Governance Poll 1630](https://vote.sky.money/polling/QmToMBbA)
 - **Proposal**: [Forum Post](https://forum.skyeco.com/t/atlas-edit-weekly-cycle-proposal-week-of-2026-04-27/27864)
 
-If this executive proposal passes, then the [GSM Pause Delay](https://sky-atlas.io/#A.1.9.3.1) will be increased by 24 hours, from 24 hours to **48 hours**. 
+If this executive proposal passes, then the [GSM Pause Delay](https://sky-atlas.io/#3c9545d9-775f-4149-88bf-7d297b5302c6) will be increased by 24 hours, from 24 hours to **48 hours**. 
 
 ### Monthly Settlement Cycle for April 2026
 
@@ -201,7 +201,7 @@ If this executive proposal passes, then the April 2026 Monthly Settlement Cycle 
 - **Authorization**: [Atlas - A.4.4.1.2 - SKY Staking Rewards](https://sky-atlas.io/#a98a1bfe-5713-43f5-a8bd-83c5808900b8)
 - **Proposal**: [Forum Post](https://forum.skyeco.com/t/lssky-to-sky-rewards-sky-rewards-for-sky-stakers-normalization-configuration/27721/19)
 
-If this executive proposal passes, then the distribution of SKY token rewards to SKY stakers will be normalized as per [A.4.4.1.4.2 - Short Term SKY Rewards For SKY Stakers](https://sky-atlas.io/#A.4.4.1.4.2), by executing the following actions:
+If this executive proposal passes, then the distribution of SKY token rewards to SKY stakers will be normalized as per [A.4.4.1.4.2 - Short Term SKY Rewards For SKY Stakers](https://sky-atlas.io/#aed6511f-f5f0-4b46-a56e-9a7bbc6ea310), by executing the following actions:
 
 - Update LSSKY->SKY Farm vest by calling [`TreasuryFundedFarmingInit.updateFarmVest()`](https://github.com/sky-ecosystem/endgame-toolkit/blob/master/script/dependencies/treasury-funded-farms/TreasuryFundedFarmingInit.sol#L128) with params:
   - dist: [0x675671A8756dDb69F7254AFB030865388Ef699Ee](https://etherscan.io/address/0x675671A8756dDb69F7254AFB030865388Ef699Ee)
@@ -258,7 +258,7 @@ The Spark Blue Chip USDT Morpho Vault will be updated with the following paramet
 - **Authorization**: [Snapshot Poll](https://snapshot.org/#/s:sparkfi.eth/proposal/0x7909f554a2f33155e234788382927f9af0d4dd5a4808349bc0ff57c2ab8b5ce0)
 - **Proposal**: [Forum Post](https://forum.skyeco.com/t/may-7-2026-proposed-changes-to-spark-for-upcoming-spell/27870)
 
-Aave USDT will be offboarded with the following [rate limits](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2):
+Aave Core USDT will be offboarded with the following [rate limits](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2):
 
 - SLL parameters
   - Deposits
@@ -271,7 +271,7 @@ Aave USDT will be offboarded with the following [rate limits](https://sky-atlas.
 - **Authorization**: [Atlas - A.6.1.1.1.3.2.1.2.1 - SparkLend Risk Parameters Modification](https://sky-atlas.io/#6029a425-ad81-46c5-866d-94e2ff663873)
 - **Proposal**: [Forum Post](https://forum.skyeco.com/t/may-7-2026-proposed-changes-to-spark-for-upcoming-spell/27870)
 
-LBTC Parameters will be updated with the following [rate limits](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2):
+LBTC Parameters will be updated with the following [cap automator parameters](https://sky-atlas.io/#6ffdb8ee-b083-40f5-b51b-1c91e954b68b):
 
 - SparkLend LBTC
   - Cap automator parameters
@@ -285,7 +285,7 @@ LBTC Parameters will be updated with the following [rate limits](https://sky-atl
 - **Authorization**: [Atlas - A.6.1.1.1.3.2.1.2.1 - SparkLend Risk Parameters Modification](https://sky-atlas.io/#6029a425-ad81-46c5-866d-94e2ff663873)
 - **Proposal**: [Forum Post](https://forum.skyeco.com/t/may-7-2026-proposed-changes-to-spark-for-upcoming-spell/27870)
 
-WBTC Parameters will be updated with the following [rate limits](https://sky-atlas.io/#A.2.2.9.1.1.1.2.2):
+WBTC Parameters will be updated with the following [cap automator parameters](https://sky-atlas.io/#6ffdb8ee-b083-40f5-b51b-1c91e954b68b):
 
 - SparkLend WBTC
   - Cap automator parameters
@@ -340,8 +340,8 @@ Grove x Steakhouse RLUSD Morpho Vault V2will onboarded with the following [rate 
 - Grove x Steakhouse RLUSD V2: [0xBeEff4fD39F8e48b6a6e475445D650cb11e9599F](https://etherscan.io/address/0xBeEff4fD39F8e48b6a6e475445D650cb11e9599F)
   - Underlying Asset: **RLUSD** [0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD](https://etherscan.io/address/0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD)
   - Deposits:
-    - Max amount: **100M RLUSD**
-    - Slope: **100M RLUSD per day**
+    - Max amount: **100 million RLUSD**
+    - Slope: **100 million RLUSD per day**
   - Withdrawals:
     - Amount: **Unlimited**
     - Max Exchange Rate: `setMaxExchangeRate(GROVE_X_STEAKHOUSE_RLUSD_V2, 1e18, 3e18)`
@@ -352,7 +352,6 @@ Grove x Steakhouse RLUSD Morpho Vault V2will onboarded with the following [rate 
 - **Proposal**: [Forum Post](https://forum.skyeco.com/t/may-7-2026-proposed-changes-to-grove-for-upcoming-spell/27858)
 
 **800,000 USDS** will be transfered to the Grove Foundation at [0xE3EC4CC359E68c9dCE15Bf667b1aD37Df54a5a42](https://etherscan.io/address/0xE3EC4CC359E68c9dCE15Bf667b1aD37Df54a5a42).
-
 
 ## Review
 
