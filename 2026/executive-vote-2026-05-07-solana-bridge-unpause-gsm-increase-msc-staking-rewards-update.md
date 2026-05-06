@@ -326,7 +326,7 @@ The following grant transfers will be made:
 - **Authorization**: [Atlas - A.6.1.1.1.3.4.2.3 - Excess SubDAO Proxy Funds Disposition Policy](https://sky-atlas.io/#6a4870fa-73f1-4d49-b7ee-d531fb59a971)
 - **Proposal**: [Forum Post](https://forum.skyeco.com/t/may-7-2026-proposed-changes-to-spark-for-upcoming-spell/27870)
 
-**326,945 USDS** will be transfered to the [Spark Operations Multisig](https://etherscan.io/address/0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC) for SPK buybacks.
+**326,945 USDS** will be transferred to the [Spark Operations Multisig](https://etherscan.io/address/0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC) for SPK buybacks.
 
 #### Grove
 
