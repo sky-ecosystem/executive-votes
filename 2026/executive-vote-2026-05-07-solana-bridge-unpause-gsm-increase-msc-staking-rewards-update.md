@@ -112,8 +112,8 @@ If this executive proposal passes, then a Grove proxy spell with address [0x8EF8
 Spark’s Avalanche deployment currently uses LayerZero for governance bridging, with a 2 of 2 DVN configuration. This spell updates the bridge configuration as follows:
 
 - DVN configuration
-  - Threshold: 4 of 7
-  - DVNs: Horizen, LayerZero Labs, Nethermind, Deutsche Telekom, Canary, Luganodes, P2P
+  - Threshold: **4 of 7**
+  - DVNs: **Horizen**, **LayerZero Labs**, **Nethermind**, **Deutsche Telekom**, **Canary**, **Luganodes**, **P2P**
 
 ##### [Avalanche] Spark Liquidity Layer - Offboard Aave Avalanche USDC
 
@@ -124,9 +124,9 @@ Offboard Aave Avalanche USDC with the following [rate limits](https://sky-atlas.
 
 - SLL parameters
   - Deposits
-    - maxAmount: 0
+    - maxAmount: **0 USDC**
   - Withdrawals
-    - maxAmount: 0
+    - maxAmount: **0 USDC**
 
 ##### [Ethereum] Spark Liquidity Layer - Update Spark Blue Chip USDT Morpho Vault
 
