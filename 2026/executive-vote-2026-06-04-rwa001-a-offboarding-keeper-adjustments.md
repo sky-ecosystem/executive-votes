@@ -137,7 +137,7 @@ If this executive proposal passes, then the ALLOCATOR-SPARK-A [DC-IAM parameters
 - **Authorization**: [Atlas - A.4.1.2.1.1.1.1 - MKR To SKY Upgrade Penalty](https://sky-atlas.io/#ec820ddb-5d12-43d8-81b7-a7602a70332a)
 - **Proposal**: [Forum Post](https://forum.skyeco.com/t/delayed-migration-penalty-update-june-4th-spell/27940)
 
-If this executive proposal passes, then the Delayed Upgrade Penalty applied to [MKR-SKY](https://etherscan.io/address/0xA1Ea1bA18E88C381C724a75F23a130420C403f9a) conversions will increase by 1 percentage point, from 3% to **4%**.
+If this executive proposal passes, then the Delayed Upgrade Penalty applied to [MKR to SKY conversions](https://etherscan.io/address/0xA1Ea1bA18E88C381C724a75F23a130420C403f9a) will increase by 1 percentage point, from 3% to **4%**.
 
 ### Prime Agent Proxy Spells
 
