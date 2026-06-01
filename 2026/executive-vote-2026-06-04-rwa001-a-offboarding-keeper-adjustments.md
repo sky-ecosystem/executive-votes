@@ -319,7 +319,7 @@ The Grove Foundation will receive a combined disbursement covering Months 2 and 
 
 **753,649 USDC** currently held by the Grove SubProxy will be converted into **753,649 USDS**.
 
-##### [Ethereum] Grove Treasury - Transfer GROVE Tokens to Grove Foundation
+##### [Mainnet] Grove Treasury - Transfer GROVE Tokens to Grove Foundation
 
 - **Authorization**: [Governance Poll 1634](https://vote.sky.money/polling/QmeS7Hm2)
 - **Proposal**: [Forum Post](https://forum.skyeco.com/t/june-4-2026-proposed-changes-to-grove-for-upcoming-spell/27924)
