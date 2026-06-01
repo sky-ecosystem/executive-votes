@@ -272,7 +272,7 @@ SparkLend reserves will be claimed as follows:
 
 - Claim all available SparkLend reserves.
 - Transfer USD stablecoin reserves to the Spark ALM Proxy.
-- Transfer non-USD stablecoin reserves to the [Spark Operations Multisig](https://etherscan.io/address/0xb18d211fa69422a9a848b790c5b4a3957f7aa44e) for liquidation.
+- Transfer non-USD stablecoin reserves to the [Spark Operations Multisig](https://etherscan.io/address/0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC) for liquidation.
 
 ##### Spark Treasury - Transfer Excess USDS for SPK Buybacks
 
