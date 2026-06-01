@@ -73,7 +73,7 @@ If this executive proposal passes, then the Spell 1 actions of the RWA001-A offb
 
 - Call `DssExecLib.setIlkAutoLineDebtCeiling` with:
   - `bytes32 ilk` being `"LITE-PSM-USDC-A"`
-  - `uint256 amoun`t being `10_000_000_000`
+  - `uint256 amount` being `10_000_000_000`
 
 #### Re-execute `MCD_IAM_AUTO_LINE` for `LITE-PSM-USDC-A`
 
