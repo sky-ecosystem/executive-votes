@@ -212,16 +212,16 @@ BTC-correlated [eMode](https://docs.spark.fi/dev/sparklend/features/efficiency-m
 [LTV](https://sky-atlas.io/#586478a3-51cb-4a2e-8bb1-b96e6520fdcc) and [Liquidation Threshold](https://sky-atlas.io/#2dd2045c-6a33-4229-b6c8-e531d6ecd27a) parameters for deprecated assets on SparkLend will be updated to the following amounts:
 
 - rsETH
-  - LTV: 0%
-  - Liquidation Threshold: 70%
+  - LTV: **0%**
+  - Liquidation Threshold: **70%**
 - ezETH
-  - LTV: 0%
-  - Liquidation Threshold: 70%
+  - LTV: **0%**
+  - Liquidation Threshold: **70%**
 - tBTC
-  - LTV: 0%
-  - Liquidation Threshold: 70%
+  - LTV: **0%**
+  - Liquidation Threshold: **70%**
 - rETH
-  - Liquidation Threshold: 70%
+  - Liquidation Threshold: **70%**
 
 ##### [Ethereum] SparkLend - Increase USDC and USDT Reserve Factors
 
