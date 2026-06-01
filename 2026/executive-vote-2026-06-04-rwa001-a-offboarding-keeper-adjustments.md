@@ -60,7 +60,7 @@ If this executive proposal passes, then the Spell 1 actions of the RWA001-A offb
 
 - Call USDC.approve with:
   - `address spender` being `LITE_PSM_USDC_A`;
-  - `uint256 amount` being 14_319_243_510000, i.e. exactly 14,319,243.51 USDC using 6 decimals.
+  - `uint256 amount` being `14_319_243_510000`, i.e. exactly 14,319,243.51 USDC using 6 decimals.
 
 #### Convert Returned USDC to DAI
 
