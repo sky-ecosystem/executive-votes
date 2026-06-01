@@ -274,7 +274,7 @@ SparkLend reserves will be claimed as follows:
 - Transfer USD stablecoin reserves to the Spark ALM Proxy.
 - Transfer non-USD stablecoin reserves to the [Spark Operations Multisig](https://etherscan.io/address/0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC) for liquidation.
 
-##### Spark Treasury - Transfer Excess USDS for SPK Buybacks
+##### [Mainnet] Spark Treasury - Transfer Excess USDS for SPK Buybacks
 
 - **Authorization**: [Atlas - A.6.1.1.1.3.4.2.3 - Excess SubDAO Proxy Funds Disposition Policy](https://sky-atlas.io/#6a4870fa-73f1-4d49-b7ee-d531fb59a971)
 - **Proposal**: [Forum Post](https://forum.skyeco.com/t/june-4-2026-proposed-changes-to-spark-for-upcoming-spell/27931)
