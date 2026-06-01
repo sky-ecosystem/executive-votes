@@ -253,8 +253,8 @@ Spark Liquidity Layer [rate limits](https://sky-atlas.io/#85106bf0-7367-4355-acf
   - `maxAmount`: **1 billion USDS**
   - `slope`: **1 billion USDS per day**
 - USDC PSM swap
-  - `maxAmount`: **1 billion USDC**
-  - `slope`: **1 billion USDC per day**
+  - `maxAmount`: **1 billion USDC/USDS**
+  - `slope`: **1 billion USDC/USDS per day**
 
 ##### [Mainnet] Spark Liquidity Layer - Update ALM Proxy Freezable Configuration
 
