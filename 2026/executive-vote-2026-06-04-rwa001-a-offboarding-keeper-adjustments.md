@@ -159,7 +159,7 @@ BTC-correlated [eMode](https://docs.spark.fi/dev/sparklend/features/efficiency-m
 - LBTC
   - emode category: **0**
 
-##### [Ethereum] SparkLend - Update Cap Automator Parameters
+##### [Mainnet] SparkLend - Update Cap Automator Parameters
 
 - **Authorization**: [Core Council Risk Advisor Approval](https://forum.skyeco.com/t/june-4-2026-proposed-changes-to-spark-for-upcoming-spell/27931/5)
 - **Proposal**: [Forum Post](https://forum.skyeco.com/t/june-4-2026-proposed-changes-to-spark-for-upcoming-spell/27931)
