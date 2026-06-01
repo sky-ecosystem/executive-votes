@@ -139,7 +139,7 @@ If this executive proposal passes, then the Delayed Upgrade Penalty applied to M
 
 ### Prime Agent Proxy Spells
 
-If this executive proposal passes, then a Spark proxy spell with address `[0xAb385eC0Df225D5A37F5245D2aE43D53Fe4Fed20](https://etherscan.io/address/0xAb385eC0Df225D5A37F5245D2aE43D53Fe4Fed20)` and codehash `0x7801a877c029ce6ec7dcde0d16183eef2f81fd6e8fbd04a6433f0d6c3c0ed267` will be whitelisted in the [Spark StarGuard](https://etherscan.io/address/0x6605aa120fe8b656482903E7757BaBF56947E45E).
+If this executive proposal passes, then a Spark proxy spell with address [`0xAb385eC0Df225D5A37F5245D2aE43D53Fe4Fed20`](https://etherscan.io/address/0xAb385eC0Df225D5A37F5245D2aE43D53Fe4Fed20) and codehash `0x7801a877c029ce6ec7dcde0d16183eef2f81fd6e8fbd04a6433f0d6c3c0ed267` will be whitelisted in the [Spark StarGuard](https://etherscan.io/address/0x6605aa120fe8b656482903E7757BaBF56947E45E).
 
 If this executive proposal passes, then a Grove proxy spell with address `[0xbE5E67C516074ba0807A3535035868cE7F2Bd372](https://etherscan.io/address/0xbE5E67C516074ba0807A3535035868cE7F2Bd372)` and codehash `0xb14f6d21bb231192c44f9b868d915f8f541213a6834a72c6158efbd64ff3223c` will be whitelisted in the [Grove StarGuard](https://etherscan.io/address/0xfc51CAa049E8894bEcFfB68c61095C3F3Ec8a880).
 
