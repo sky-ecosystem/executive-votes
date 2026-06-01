@@ -35,7 +35,7 @@ If this executive proposal does not pass within 30 days, then it will expire and
 
 ## Proposal Details
 
-### RWA001-A Offboarding Spell 1
+### RWA001-A Offboarding (Spell 1)
 
 - **Authorization**: [Technical Scope Authorization](https://forum.skyeco.com/t/technical-scope-of-rwa001-a-offboarding/27706/7)
 - **Proposal**: [Forum Post](https://forum.skyeco.com/t/technical-scope-of-rwa001-a-offboarding/27706/5)
