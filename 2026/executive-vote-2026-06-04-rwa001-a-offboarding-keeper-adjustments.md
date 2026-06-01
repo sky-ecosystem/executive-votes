@@ -303,7 +303,7 @@ The upgrade will maintain freeze authority over the Spark USDC Morpho vault whil
 
 The Pull Request for the Grove proxy spell can be viewed [here](https://github.com/grove-labs/grove-spells/pull/55).
 
-##### [Ethereum] Grove Treasury - Monthly Grant for Grove Foundation
+##### [Mainnet] Grove Treasury - Monthly Grant for Grove Foundation
 
 - **Authorization**: [Atlas - A.2.8.2.2.2.4.5.2.1 - Grove Foundation Grant Authorization: Q2 2026](https://sky-atlas.io/#85f7d545-d56c-40b9-b1b4-05663cd7772a)
 - **Proposal**: [Forum Post](https://forum.skyeco.com/t/june-4-2026-proposed-changes-to-grove-for-upcoming-spell/27924)
