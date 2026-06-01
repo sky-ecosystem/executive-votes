@@ -331,7 +331,7 @@ The Grove Foundation will receive a combined disbursement covering Months 2 and 
 - **Authorization**: [Governance Poll 1634](https://vote.sky.money/polling/QmeS7Hm2)
 - **Proposal**: [Forum Post](https://forum.skyeco.com/t/june-4-2026-proposed-changes-to-grove-for-upcoming-spell/27924)
 
-A new audited CCTPv2 governance relay receiver will be added on Avalanche while retaining the existing CCTPv1 receiver as a fallback path.
+A new audited CCTPv2 governance relay receiver at [0x8Ea8Dff8c29f568eA1E716E2C3AfbD003EB83cfA](https://snowscan.xyz/address/0x8Ea8Dff8c29f568eA1E716E2C3AfbD003EB83cfA) will be added on Avalanche while retaining the existing CCTPv1 receiver as a fallback path.
 
 This action will:
 
