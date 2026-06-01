@@ -312,7 +312,7 @@ The Grove Foundation will receive a combined disbursement covering Months 2 and 
 
 **1,600,000 USDS** will be transferred from the Grove SubProxy to the [Grove Foundation Multisig](https://etherscan.io/address/0xE3EC4CC359E68c9dCE15Bf667b1aD37Df54a5a42).
 
-##### [Ethereum] Grove Treasury - Swap USDC to USDS
+##### [Mainnet] Grove Treasury - Swap USDC to USDS
 
 - **Authorization**: [Core Facilitator Approval](https://forum.skyeco.com/t/june-4-2026-proposed-changes-to-grove-for-upcoming-spell/27924/4)
 - **Proposal**: [Forum Post](https://forum.skyeco.com/t/june-4-2026-proposed-changes-to-grove-for-upcoming-spell/27924)
