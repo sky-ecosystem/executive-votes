@@ -60,7 +60,7 @@ The outcome of these actions will be that the USDC received in the PauseProxy wi
 
 #### Approve `LITE_PSM_USDC_A` to pull USDC
 
-- Call USDC.approve with:
+- Call `USDC.approve` with:
   - `address spender` being `LITE_PSM_USDC_A`;
   - `uint256 amount` being `14_319_243_510000`, i.e. exactly 14,319,243.51 USDC using 6 decimals.
 
