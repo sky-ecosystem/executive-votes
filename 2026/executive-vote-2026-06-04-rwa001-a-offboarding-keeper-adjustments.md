@@ -149,7 +149,7 @@ If this executive proposal passes, then a Grove proxy spell with address [`0xbE5
 
 The Pull Request for the Spark proxy spell can be viewed [here](https://github.com/sparkdotfi/spark-spells/pull/167).
 
-##### [Ethereum] SparkLend - Deprecate BTC eMode
+##### [Mainnet] SparkLend - Deprecate BTC eMode
 
 - **Authorization**: [Core Council Risk Advisor Approval](https://forum.skyeco.com/t/june-4-2026-proposed-changes-to-spark-for-upcoming-spell/27931/5)
 - **Proposal**: [Forum Post](https://forum.skyeco.com/t/june-4-2026-proposed-changes-to-spark-for-upcoming-spell/27931)
