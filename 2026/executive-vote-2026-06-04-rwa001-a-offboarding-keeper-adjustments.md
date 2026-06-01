@@ -279,7 +279,7 @@ SparkLend reserves will be claimed as follows:
 - **Authorization**: [Atlas - A.6.1.1.1.3.4.2.3 - Excess SubDAO Proxy Funds Disposition Policy](https://sky-atlas.io/#6a4870fa-73f1-4d49-b7ee-d531fb59a971)
 - **Proposal**: [Forum Post](https://forum.skyeco.com/t/june-4-2026-proposed-changes-to-spark-for-upcoming-spell/27931)
 
-**663,354 USDS** will be transfered to the [Spark Operations Multisig](https://etherscan.io/address/0xb18d211fa69422a9a848b790c5b4a3957f7aa44e) as communicated in this [forum post](https://forum.skyeco.com/t/spark-subdao-proxy-management-updates/27734/4).
+**663,354 USDS** will be transferred to the [Spark Operations Multisig](https://etherscan.io/address/0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC) for SPK buybacks as communicated in this [forum post](https://forum.skyeco.com/t/spark-subdao-proxy-management-updates/27734/4).
 
 ##### [Avalanche] Spark Liquidity Layer - Update ALM Proxy Freezable Configuration
 
