@@ -132,7 +132,7 @@ If this executive proposal passes, then the ALLOCATOR-SPARK-A [DC-IAM parameters
 - Decrease `ttl` by 12 hours, from 24 hours to **12 hours**.
 - Keep `line` unchanged at **10 billion USDS**.
 
-### MKR-SKY Delayed Upgrade Penalty Increase
+### MKR to SKY Delayed Upgrade Penalty Increase
 
 - **Authorization**: [Atlas - A.4.1.2.1.1.1.1 - MKR To SKY Upgrade Penalty](https://sky-atlas.io/#ec820ddb-5d12-43d8-81b7-a7602a70332a)
 - **Proposal**: [Forum Post](https://forum.skyeco.com/t/delayed-migration-penalty-update-june-4th-spell/27940)
