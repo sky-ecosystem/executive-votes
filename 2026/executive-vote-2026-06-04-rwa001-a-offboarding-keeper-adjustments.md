@@ -263,7 +263,7 @@ The Ethereum ALM Proxy Freezable contract will be upgraded to version 1.1 at [0x
 
 The upgrade will maintain freeze authority over the Spark Savings USDC vault while introducing routine operational improvements.
 
-##### SparkLend - Claim Reserves
+##### [Mainnet] SparkLend - Claim Reserves
 
 - **Authorization**: [Atlas - A.6.1.1.1.2.6.1.2.1.2.3 - Token Claim Authorization](https://sky-atlas.io/#ea73f176-0b94-4e93-b1ee-ca498ac5a6c6)
 - **Proposal**: [Forum Post](https://forum.skyeco.com/t/june-4-2026-proposed-changes-to-spark-for-upcoming-spell/27931)
