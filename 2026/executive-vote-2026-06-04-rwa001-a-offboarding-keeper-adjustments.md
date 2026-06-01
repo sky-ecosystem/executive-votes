@@ -315,7 +315,7 @@ The Grove Foundation will receive a combined disbursement covering Months 2 and 
 ##### [Ethereum] Grove Treasury - Swap USDC to USDS
 
 - **Authorization**: [Core Facilitator Approval](https://forum.skyeco.com/t/june-4-2026-proposed-changes-to-grove-for-upcoming-spell/27924/4)
-- **Proposal**: [Forum Post]([https://forum.skyeco.com/t/grove-june-4-2026-spell-technical-scope/27963](https://forum.skyeco.com/t/june-4-2026-proposed-changes-to-grove-for-upcoming-spell/27924))
+- **Proposal**: [Forum Post](https://forum.skyeco.com/t/june-4-2026-proposed-changes-to-grove-for-upcoming-spell/27924)
 
 **753,649 USDC** currently held by the Grove SubProxy will be converted into **753,649 USDS**.
 
