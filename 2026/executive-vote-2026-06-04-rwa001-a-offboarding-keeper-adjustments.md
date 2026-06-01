@@ -5,7 +5,7 @@ date: 2026-06-04T00:00:00.000Z
 address: "$spell_address"
 ---
 
-# [Executive Proposal] RWA001-A Offboarding, Keeper Network Adjustments, ALLOCATOR-SPARK-A Parameter Updates, MKR-SKY Delayed Upgrade Penalty Increase, Prime Agent Proxy Spells - June 4, 2026
+# [Executive Proposal] RWA001-A Offboarding, Keeper Network Adjustments, ALLOCATOR-SPARK-A Parameter Updates, MKR to SKY Delayed Upgrade Penalty Increase, Prime Agent Proxy Spells - June 4, 2026
 
 The Core Facilitators, Sidestream, and Dewiz have placed an executive proposal into the voting system. SKY holders should vote for this proposal if they support the following alterations to the Sky Protocol.
 
