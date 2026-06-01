@@ -155,9 +155,9 @@ The Pull Request for the Spark proxy spell can be viewed [here](https://github.c
 BTC-correlated [eMode](https://docs.spark.fi/dev/sparklend/features/efficiency-mode-emode) will be deprecated on SparkLend by making the following parameter updates:
 
 - cbBTC
-  - emode category: 0
+  - emode category: **0**
 - LBTC
-  - emode category: 0
+  - emode category: **0**
 
 ##### [Ethereum] SparkLend - Update Cap Automator Parameters
 
