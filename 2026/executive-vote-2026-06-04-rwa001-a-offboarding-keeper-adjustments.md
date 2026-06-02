@@ -44,6 +44,8 @@ If this executive proposal passes, then the Spell 1 actions of the RWA001-A offb
 
 The outcome of these actions will be that the USDC received in the PauseProxy will be converted to DAI and used to pay off some of the vault's outstanding debt. The position will be put into a soft liquidation state with a follow-up spell required after a minimum of 30 days to complete the liquidation process. See the [Technical Scope thread](https://forum.skyeco.com/t/technical-scope-of-rwa001-a-offboarding/27706) for further details.
 
+To mitigate a potential griefing attack that would prevent spell execution this action will only be executed if the balance of USDC in the PauseProxy is less than the outstanding debt of the RWA001-A position. Please see the [Technical Scope thread](https://forum.skyeco.com/t/technical-scope-of-rwa001-a-offboarding/27706) for further details.
+
 #### Temporarily Update LITE-PSM-USDC-A AutoLine Parameters
 
 - Call `DssExecLib.setIlkAutoLineDebtCeiling` with:
