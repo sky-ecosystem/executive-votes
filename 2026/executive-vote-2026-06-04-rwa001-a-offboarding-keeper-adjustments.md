@@ -2,7 +2,7 @@
 title: Template - [Executive Vote] RWA001-A Offboarding, Keeper Network Adjustments, ALLOCATOR-SPARK-A Parameter Updates, MKR to SKY Delayed Upgrade Penalty Increase, Prime Agent Proxy Spells - June 4, 2026
 summary: Spell 1 actions for offboarding RWA001-A, remove Keeper Networks and update protocol name, update ALLOCATOR-SPARK-A DC-IAM risk parameters, increase the MKR to SKY Delayed Upgrade Penalty by 1 percentage point, whitelist proxy spells for Spark and Grove.
 date: 2026-06-04T00:00:00.000Z
-address: "$spell_address"
+address: "0x0aE3371e9C4e37515259D124C685fe6722c5e253"
 ---
 
 # [Executive Proposal] RWA001-A Offboarding, Keeper Network Adjustments, ALLOCATOR-SPARK-A Parameter Updates, MKR to SKY Delayed Upgrade Penalty Increase, Prime Agent Proxy Spells - June 4, 2026
