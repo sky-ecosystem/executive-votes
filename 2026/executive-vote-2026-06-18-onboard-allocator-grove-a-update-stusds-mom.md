@@ -21,7 +21,7 @@ If this executive proposal passes, the following **actions** will occur within t
 - LitePSM `buf` and `gap` parameters will be increased.
 - STUSDS_MOM will be updated to a newer version.
 - The Monthly Settlement Cycle for May 2026 will be executed.
-- LSSKY->SKY staking rewards will be updated.
+- LSSKY->SKY staking rewards will be normalized.
 - The Safe Harbor Agreement will be updated with the newly deployed contracts activated by this spell.
 - A proxy spell for Spark will be whitelisted in the Spark StarGuard module.
 
@@ -116,7 +116,7 @@ If this executive proposal passes, then the Monthly Settlement Cycle for May 202
 
 - Transfer **2,946,125 USDS** from the Surplus Buffer to the [Core Council Buffer](https://etherscan.io/address/0x210CFcF53d1f9648C1c4dcaEE677f0Cb06914364).
 
-### Staking Rewards Update
+### Staking Rewards Normalization
 
 - **Authorization**: [Atlas - A.4.4.1.2 - SKY Staking Rewards](https://sky-atlas.io/#a98a1bfe-5713-43f5-a8bd-83c5808900b8)
 - **Proposal**: [Forum Post](https://forum.skyeco.com/t/lssky-to-sky-rewards-sky-rewards-for-sky-stakers-normalization-configuration/27721/24)
