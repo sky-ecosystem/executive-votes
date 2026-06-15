@@ -77,7 +77,7 @@ If this executive proposal passes, then LitePSM parameters will be adjusted as f
 
 ### stUSDS MOM Replacement
 
-- **Authorization**: [$link_to_approval]()
+- **Authorization**: [Core Facilitator Approval](https://forum.skyeco.com/t/technical-scope-of-the-new-stusdsmom-deploy-and-replacement/27967/4)
 - **Proposal**: [Technical Scope](https://forum.skyeco.com/t/technical-scope-of-the-new-stusdsmom-deploy-and-replacement/27967)
 
 If this executive proposal passes, then STUSDS_MOM will be updated to a new version deployed to [**0x99159d0b885CC6633daC7CD4d82e4247A834b89A**](https://etherscan.io/address/0x99159d0b885CC6633daC7CD4d82e4247A834b89A).
