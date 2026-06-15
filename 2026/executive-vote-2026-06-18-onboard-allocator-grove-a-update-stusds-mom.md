@@ -53,9 +53,9 @@ If this executive proposal passes, then a new ALLOCATOR-GROVE-A vault will be on
   - `ilkInstance.buffer` being [**0x436DABce608f73BeA2b75fba35bffe72739697d5**](https://etherscan.io/address/0x436DABce608f73BeA2b75fba35bffe72739697d5) (AllocatorBuffer contract)
   - `cfg.ilk` being **ALLOCATOR-GROVE-A**
   - `cfg.duty` being **0%**
-  - `cfg.gap` being $gap
-  - `cfg.maxLine` being $line
-  - `cfg.ttl` being $ttl
+  - `cfg.gap` being **1 million USDS**
+  - `cfg.maxLine` being **5 million USDS**
+  - `cfg.ttl` being **86,400 seconds** (1 day)
   - `cfg.allocatorProxy` being [**0x1369f7b2b38c76B6478c0f0E66D94923421891Ba**](https://etherscan.io/address/0x1369f7b2b38c76B6478c0f0E66D94923421891Ba) (existing Grove SubProxy contract)
   - `cfg.ilkRegistry` being [**ILK_REGISTRY**](https://etherscan.io/address/0x5a464C28D19848f44199D003BeF5ecc87d090F87) from [chainlog](https://chainlog.sky.money)
 - Remove PIP_ALLOCATOR_GROVE_A from the [chainlog](https://chainlog.sky.money)
