@@ -55,7 +55,7 @@ If this executive proposal passes, then a new ALLOCATOR-GROVE-A vault will be on
   - `cfg.duty` being **0%**
   - `cfg.gap` being **1 million USDS**
   - `cfg.maxLine` being **5 million USDS**
-  - `cfg.ttl` being **86,400 seconds** (1 day)
+  - `cfg.ttl` being **86,400 seconds** (24 hours)
   - `cfg.allocatorProxy` being [**0x1369f7b2b38c76B6478c0f0E66D94923421891Ba**](https://etherscan.io/address/0x1369f7b2b38c76B6478c0f0E66D94923421891Ba) (existing Grove SubProxy contract)
   - `cfg.ilkRegistry` being [**ILK_REGISTRY**](https://etherscan.io/address/0x5a464C28D19848f44199D003BeF5ecc87d090F87) from [chainlog](https://chainlog.sky.money)
 - Remove PIP_ALLOCATOR_GROVE_A from the [chainlog](https://chainlog.sky.money)
