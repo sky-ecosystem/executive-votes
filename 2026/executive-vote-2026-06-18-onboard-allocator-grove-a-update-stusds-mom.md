@@ -118,6 +118,8 @@ If this executive proposal passes, then the Monthly Settlement Cycle for May 202
 
 - Transfer **2,946,125 USDS** from the Surplus Buffer to the [Core Council Buffer](https://etherscan.io/address/0x210CFcF53d1f9648C1c4dcaEE677f0Cb06914364).
 
+This amount represents **1,473,063 USDS** allocated to the Core Council and **1,473,062 USDS** allocated to the Fortification Conserver, with the Fortification Conserver portion to be paid out by the Core Council Multisig.
+
 ### Staking Rewards Normalization
 
 - **Authorization**: [Atlas - A.4.4.1.2 - SKY Staking Rewards](https://sky-atlas.io/#a98a1bfe-5713-43f5-a8bd-83c5808900b8)
