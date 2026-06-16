@@ -177,7 +177,7 @@ SparkLend reserves will be claimed as follows:
 
 - Spark Foundation Grant
   - Recipient address: [**0x92e4629a4510AF5819d7D1601464C233599fF5ec**](https://etherscan.io/address/0x92e4629a4510AF5819d7D1601464C233599fF5ec)
-  - Transfer amount: **1,100,000 USDS**
+  - Transfer amount: **1.1 million USDS**
 - Spark Assets Foundation Grant
   - Recipient address: [**0xEabCb8C0346Ac072437362f1692706BA5768A911**](https://etherscan.io/address/0xEabCb8C0346Ac072437362f1692706BA5768A911)
   - Transfer amount: **155,000 USDS**
