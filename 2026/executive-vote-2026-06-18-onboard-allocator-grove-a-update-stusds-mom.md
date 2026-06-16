@@ -101,7 +101,7 @@ If this executive proposal passes, then the Monthly Settlement Cycle for May 202
 
 #### Keel
 
-- Send **32,279 USDS** from the surplus buffer to the [KEEL_SUBPROXY](https://etherscan.io/address/0x355CD90Ecb1b409Fdf8b64c4473C3B858dA2c310).
+- Send **32,279 USDS** from the Surplus Buffer to the [KEEL_SUBPROXY](https://etherscan.io/address/0x355CD90Ecb1b409Fdf8b64c4473C3B858dA2c310).
 
 #### Obex
 
@@ -135,7 +135,7 @@ If this executive proposal passes, then the distribution of SKY token rewards to
 
 If this executive proposal passes, the Safe Harbor agreement will be updated to include the ALLOCATOR_GROVE_A_VAULT and ALLOCATOR_GROVE_A_BUFFER added by this spell, and the STUSDS_MOM entry will be updated to the new address.
 
-### Prime Proxy Spell
+### Prime Agent Proxy Spell
 
 If this executive proposal passes, then a Spark proxy spell with address [`0xe08BD6D9016EAC522903FC68c80F809664C2692A`](https://etherscan.io/address/0xe08BD6D9016EAC522903FC68c80F809664C2692A) and codehash `0xdf7cca8d640cde5f2f8184ccb03f76031a024cb8ab2c192092acfe329b5aebf5` will be whitelisted in the [Spark StarGuard](https://etherscan.io/address/0x6605aa120fe8b656482903E7757BaBF56947E45E).
 
