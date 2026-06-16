@@ -82,6 +82,8 @@ If this executive proposal passes, then LitePSM parameters will be adjusted as f
 
 If this executive proposal passes, then STUSDS_MOM will be updated to a new version deployed to [**0x99159d0b885CC6633daC7CD4d82e4247A834b89A**](https://etherscan.io/address/0x99159d0b885CC6633daC7CD4d82e4247A834b89A).
 
+The new contract ensures that `zeroLine(address)` calls `stusds.drip()` before propagating a zero borrow ceiling through the Vat, keeping the stUSDS accounting synchronized when offboarding or disabling a line.
+
 ### Monthly Settlement Cycle for May 2026
 
 - **Authorization**: [A.2.4](https://sky-atlas.io/#6f8d5065-d6ff-4add-9a28-eadeffa7ed1a)
