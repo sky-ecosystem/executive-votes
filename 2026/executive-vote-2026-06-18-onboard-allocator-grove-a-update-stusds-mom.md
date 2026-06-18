@@ -2,7 +2,7 @@
 title: Template - [Executive Vote] Onboard ALLOCATOR-GROVE-A Vault, Update LitePSM Parameters, Replace STUSDS_MOM, Monthly Settlement Cycle for May 2026, Staking Rewards Normalization, Update Safe Harbor Agreement, Prime Agent Proxy Spell - June 18, 2026
 summary: Onboard a new ALLOCATOR-GROVE-A vault, increase LitePSM buf and gap parameters, replace the existing STUSDS_MOM with a new version, execute the Monthly Settlement Cycle for May 2026, normalize LSSKY-SKY staking rewards after MSC execution, update the Safe Harbor Agreement with new contracts, whitelist a proxy spell for Spark.
 date: 2026-06-18T00:00:00.000Z
-address: "$spell_address"
+address: "0xC136C3c419746c2e8c0B95100ac866a747e3e04b"
 ---
 
 # [Executive Proposal] Onboard ALLOCATOR-GROVE-A Vault, Update LitePSM Parameters, Replace STUSDS_MOM, Monthly Settlement Cycle for May 2026, Staking Rewards Normalization, Update Safe Harbor Agreement, Prime Agent Proxy Spell - June 18, 2026
