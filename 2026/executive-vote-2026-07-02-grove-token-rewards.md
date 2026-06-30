@@ -164,6 +164,8 @@ If this executive proposal passes, then a Skybase proxy spell with address [`0xd
 
 #### Spark Proxy Spell
 
+The Pull Request for the Spark proxy spell can be viewed [here](https://github.com/sparkdotfi/spark-spells/pull/170).
+
 ##### [Ethereum] SparkLend - Set USDC Interest Rate Model to Target Very Low Liquidity
 
 - **Authorization**: [Sky Atlas - A.6.1.1.1.3.2.1.2.1 - SparkLend Risk Parameters Modification](https://sky-atlas.io/#A.6.1.1.1.3.2.1.2.1)
@@ -244,7 +246,9 @@ The following parameters will be used:
 - Timelock delay: 3 days
 - Planned guardian multisig: [`0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC`](https://snowtrace.io/address/0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC)
 
-#### Grove Proxy Spell Contents
+#### Grove Proxy Spell
+
+The Pull Request for the Grove proxy spell can be viewed [here](https://github.com/grove-labs/grove-spells/pull/61).
 
 ##### [Ethereum] Onboard the Diamond PAU Controller on the New Grove Allocator Instance
 
@@ -275,6 +279,8 @@ If this executive proposal passes, then USDC will be swapped to USDS in the Grov
 If this executive proposal passes, then **800,000 USDS** will be transferred to the Grove Foundation Multisig.
 
 #### Skybase Proxy Spell
+
+The Pull Request for the Skybase proxy spell can be viewed [here](https://github.com/skybase-foundation/skybase-spells/pull/1).
 
 ##### [Ethereum] Transfer 700,000 USDS from the Skybase SubProxy to the Skybase Foundation Operational Multisig
 
