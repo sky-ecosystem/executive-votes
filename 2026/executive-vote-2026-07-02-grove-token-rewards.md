@@ -73,6 +73,34 @@ If this executive proposal passes, then the new Grove ALMProxy at [`0x0DcD9298e1
 
 If this executive proposal passes, then [`0x829dC2b7E94B1954F0764E573f2E0d45Afa28199`](https://etherscan.io/address/0x829dC2b7E94B1954F0764E573f2E0d45Afa28199) will be added to the [chainlog](https://chainlog.skyeco.com/) as `PAU_BEACON`.
 
+The Beacon has been preconfigured with the following facets:
+
+- [AAVE_FACET](https://etherscan.io/address/0x8CE890A96a193ff2DD4B2eA3C682326F655f6b62)
+- [BASIN_FACET](https://etherscan.io/address/0xC84825BCD13AEddc372400239499380376a44A39)
+- [CCTP_FACET](https://etherscan.io/address/0xADf62692340e46EF90336f2e75ce3b37f1148873)
+- [CENTRIFUGE_FACET](https://etherscan.io/address/0xa0A10BA97be1412730D694B8dE1afe7eff20eC31)
+- [CURVE_FACET](https://etherscan.io/address/0x139D81d7d6040fAeF7cF0EF5A2636Ca8a97a30d8)
+- [DAIUSDS_FACET](https://etherscan.io/address/0x3817F734CAe6AD2BDb79F9ff23091F2AD478da5F)
+- [ERC4626_FACET](https://etherscan.io/address/0x1dCA18608c89174181153E786778705b4A0E1a06)
+- [ERC7540_FACET](https://etherscan.io/address/0x4f7e0E3612b0e1E156A2B6570a51d4BD709F1315)
+- [ETHENA_FACET](https://etherscan.io/address/0xEc48D773CEef1c6b07CdA1afA2716C478b55187B)
+- [FARM_FACET](https://etherscan.io/address/0xF24E91f5D8529436c9fB92dd94F80d4A6C25d0f0)
+- [LAYER_ZERO_FACET](https://etherscan.io/address/0xA0c323a0acb20F259eA4ff343319D450BE6472e5)
+- [MAPLE_FACET](https://etherscan.io/address/0x691b5c26aD2B74d2376f4eD87904E9D3E47bD630)
+- [MERKL_FACET](https://etherscan.io/address/0x321138Db5E056e9d0080D4c278e10A1EdC091Eb0)
+- [OTC_FACET](https://etherscan.io/address/0x46b24ba00B65CB4f603447590e539b08097fb7Ac)
+- [PENDLE_FACET](https://etherscan.io/address/0xcC9dD4c9B2a9c08f2692e7060F43d29A03E87348)
+- [PSM_FACET](https://etherscan.io/address/0xE4A5dAc768a310cc2316f258901b32E499653064)
+- [SPARK_VAULT_FACET](https://etherscan.io/address/0xff0d19920E207e3A17eb5A2E5bA3AFA44836362b)
+- [SUPERSTATE_FACET](https://etherscan.io/address/0xeE197475607E9a27cCAA4786e740d2F0d0E706A7)
+- [TRANSFER_ASSET_FACET](https://etherscan.io/address/0x4DA7608C331b8f135df5b985018933780eCd089D)
+- [UNISWAP_V3_FACET](https://etherscan.io/address/0x445D9Dc752F269Be48250f1A180CAC4c61cE4bab)
+- [UNISWAP_V4_FACET](https://etherscan.io/address/0x75D35ffB8e6B871E12EB549CcF6afD324c46E47D)
+- [USDS_FACET](https://etherscan.io/address/0x1221CC4B85Ab260660aD21C2829e0EB516dffBc7)
+- [WEETH_FACET](https://etherscan.io/address/0x1d8D089EB7D558F5dc6aA0cf98DDe13B77b3F641)
+- [WRAP_PROXY_ETH_FACET](https://etherscan.io/address/0x081506DE21C695Af5e61a81aD288C8A96B6b59B9)
+- [WSTETH_FACET](https://etherscan.io/address/0x3a82D11Cd37Fb0098363262Dc69425d07Fa05516)
+
 ### Transfer USDS from Amatsu SubProxy to SFF
 
 - **Authorization**: [Sky Atlas](https://sky-atlas.io/#06bac1e1-ae52-4c67-8ca9-0dcec22dddee)
