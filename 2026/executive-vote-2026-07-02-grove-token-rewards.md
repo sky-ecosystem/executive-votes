@@ -222,12 +222,12 @@ If this executive proposal passes, then the Spark proxy spell will deploy `spUSD
     - recipient: spUSDT address
     - maxAmount: **unlimited**
   - Bridge USDT0 to Ethereum (Arbitrum → Ethereum return route)
-    - destination: ALM Proxy on Ethereum ([0x1601843c5E9bC251A3272907010AFa41Fa18347E](https://etherscan.io/address/0x1601843c5E9bC251A3272907010AFa41Fa18347E))
+    - destination: ALM Proxy on Ethereum [0x1601843c5E9bC251A3272907010AFa41Fa18347E](https://etherscan.io/address/0x1601843c5E9bC251A3272907010AFa41Fa18347E)
     - maxAmount: **unlimited**
 - ALM Proxy Freezable roles
-  - Allocator (primary relayer): [0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB]((https://arbiscan.io/address/0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB))
-  - Allocator (backstop relayer): [0x8Cc0Cb0cfB6B7e548cfd395B833c05C346534795]((https://arbiscan.io/address/0x8Cc0Cb0cfB6B7e548cfd395B833c05C346534795))
-  - Freezer: [0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431]((https://arbiscan.io/address/0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431))
+  - Allocator (primary relayer): [0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB](https://arbiscan.io/address/0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB)
+  - Allocator (backstop relayer): [0x8Cc0Cb0cfB6B7e548cfd395B833c05C346534795](https://arbiscan.io/address/0x8Cc0Cb0cfB6B7e548cfd395B833c05C346534795)
+  - Freezer: [0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431](https://arbiscan.io/address/0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431)
 
 ##### [Avalanche] Spark Liquidity Layer - Add Timelock and Guardian to Avalanche Governance Bridge
 
