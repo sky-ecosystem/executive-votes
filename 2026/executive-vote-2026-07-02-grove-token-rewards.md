@@ -13,7 +13,7 @@ If this executive proposal passes, then the following actions will occur within 
 
 ## Executive Summary
 
-- GROVE token rewards for USDS stakers will be initialized.
+- GROVE token rewards for USDS stakers will be initialized, with an initial stream of 2.45 billion GROVE tokens over 2 years.
 - The new Grove ALMProxy will be whitelisted on `MCD_LITE_PSM_USDC_A`.
 - `PAU_BEACON` will be added to the [chainlog](https://chainlog.skyeco.com/).
 - **14 million USDS** will be transferred from Amatsu's SubProxy to Sky Frontier Foundation.
@@ -71,7 +71,7 @@ If this executive proposal passes, then the new Grove ALMProxy at [`0x0DcD9298e1
 - **Authorization**: [Sky Atlas](https://sky-atlas.io/#fd030da6-1a4d-4df6-8e87-043d4b9666d5)
 - **Proposal**: [Diamond PAU and Beacon Launch](https://forum.skyeco.com/t/diamond-pau-and-beacon-launch/27997)
 
-If this executive proposal passes, then [`0x829dC2b7E94B1954F0764E573f2E0d45Afa28199`](https://etherscan.io/address/0x829dC2b7E94B1954F0764E573f2E0d45Afa28199) will be added to the [chainlog](https://chainlog.skyeco.com/) as `PAU_BEACON`.
+If this executive proposal passes, then the Beacon for the Diamond Parallelized Allocation Unit (PAU)[`0x829dC2b7E94B1954F0764E573f2E0d45Afa28199`](https://etherscan.io/address/0x829dC2b7E94B1954F0764E573f2E0d45Afa28199) will be added to the [chainlog](https://chainlog.skyeco.com/) as `PAU_BEACON`.
 
 The Beacon has been preconfigured with the following facets:
 
@@ -183,7 +183,7 @@ The following SparkLend USDC interest rate parameters will be updated:
 - **Authorization**: [Sky Atlas](https://sky-atlas.io/#ea73f176-0b94-4e93-b1ee-ca498ac5a6c6)
 - **Proposal**: [July 2, 2026 Proposed Changes to Spark for Upcoming Spell](https://forum.skyeco.com/t/july-2-2026-proposed-changes-to-spark-for-upcoming-spell/27982)
 
-If this executive proposal passes, then the Spark proxy spell will claim all SparkLend reserves. USD stablecoin reserves will be transferred to the ALM Proxy and non-USD reserves will be transferred to the Spark Operations Multisig.
+If this executive proposal passes, then the Spark proxy spell will claim all SparkLend reserves. USD stablecoin reserves will be transferred to the Spark ALMProxy and non-USD reserves will be transferred to the Spark Operations Multisig.
 
 ##### [Ethereum] Spark Liquidity Layer - Enable USDT Bridging to Arbitrum
 
@@ -203,21 +203,21 @@ The following rate limit parameters will be applied:
 - **Authorization**: [Snapshot Poll 0x4f6d3e7f769d8fe5c7713338274a24bb7932f0fb0d46ce0bc0c0f0087172fa2b](https://snapshot.box/#/s:sparkdao.eth/proposal/0x4f6d3e7f769d8fe5c7713338274a24bb7932f0fb0d46ce0bc0c0f0087172fa2b)
 - **Proposal**: [July 2, 2026 Proposed Changes to Spark for Upcoming Spell](https://forum.skyeco.com/t/july-2-2026-proposed-changes-to-spark-for-upcoming-spell/27982)
 
-If this executive proposal passes, then the Spark proxy spell will withdraw all USDS and sUSDS in the Base ALM Proxy back to the Ethereum ALM Proxy.
+If this executive proposal passes, then the Spark proxy spell will withdraw all USDS and sUSDS in the Base ALMProxy back to the Ethereum ALMProxy.
 
 ##### [OP Mainnet] Spark Liquidity Layer - Remove Excess Liquidity
 
 - **Authorization**: [Snapshot Poll 0x4f6d3e7f769d8fe5c7713338274a24bb7932f0fb0d46ce0bc0c0f0087172fa2b](https://snapshot.box/#/s:sparkdao.eth/proposal/0x4f6d3e7f769d8fe5c7713338274a24bb7932f0fb0d46ce0bc0c0f0087172fa2b)
 - **Proposal**: [July 2, 2026 Proposed Changes to Spark for Upcoming Spell](https://forum.skyeco.com/t/july-2-2026-proposed-changes-to-spark-for-upcoming-spell/27982)
 
-If this executive proposal passes, then the Spark proxy spell will withdraw all USDS and sUSDS in the OP Mainnet ALM Proxy back to the Ethereum ALM Proxy.
+If this executive proposal passes, then the Spark proxy spell will withdraw all USDS and sUSDS in the OP Mainnet ALMProxy back to the Ethereum ALMProxy.
 
 ##### [Unichain] Spark Liquidity Layer - Remove Excess Liquidity
 
 - **Authorization**: [Snapshot Poll 0x4f6d3e7f769d8fe5c7713338274a24bb7932f0fb0d46ce0bc0c0f0087172fa2b](https://snapshot.box/#/s:sparkdao.eth/proposal/0x4f6d3e7f769d8fe5c7713338274a24bb7932f0fb0d46ce0bc0c0f0087172fa2b)
 - **Proposal**: [July 2, 2026 Proposed Changes to Spark for Upcoming Spell](https://forum.skyeco.com/t/july-2-2026-proposed-changes-to-spark-for-upcoming-spell/27982)
 
-If this executive proposal passes, then the Spark proxy spell will withdraw all USDS and sUSDS in the Unichain ALM Proxy back to the Ethereum ALM Proxy.
+If this executive proposal passes, then the Spark proxy spell will withdraw all USDS and sUSDS in the Unichain ALMProxy back to the Ethereum ALMProxy.
 
 ##### [Arbitrum] Spark Savings - Deploy spUSDT
 
@@ -255,7 +255,7 @@ The Pull Request for the Grove proxy spell can be viewed [here](https://github.c
 - **Authorization**: [Governance Poll ID 1638](https://vote.sky.money/polling/QmdXjfm6)
 - **Proposal**: [July 2, 2026 Proposed Changes to Grove for Upcoming Spell](https://forum.skyeco.com/t/july-2-2026-proposed-changes-to-grove-for-upcoming-spell/27976)
 
-If this executive proposal passes, then the Diamond PAU Controller will be onboarded on the new Grove allocator instance.
+If this executive proposal passes, then the Diamond PAU Controller will be onboarded on the new Grove Allocator instance.
 
 ##### [Ethereum] Onboard the Tokenized Treasury Instances (Basin: JTRSY + BUIDL)
 
