@@ -290,7 +290,7 @@ If this executive proposal passes, then the tokenized treasury instances for Bas
 - **Authorization**: [Sky Atlas](https://sky-atlas.io/#aa16daa3-ee62-49eb-851e-cb0708670144)
 - **Proposal**: [July 2, 2026 Proposed Changes to Grove for Upcoming Spell](https://forum.skyeco.com/t/july-2-2026-proposed-changes-to-grove-for-upcoming-spell/27976)
 
-If this executive proposal passes, then USDC will be swapped to USDS in the [Grove SubProxy](https://etherscan.io/address/0x1369f7b2b38c76B6478c0f0E66D94923421891Ba).
+If this executive proposal passes, then **1,102,056.359999 USDC** will be swapped to USDS in the [Grove SubProxy](https://etherscan.io/address/0x1369f7b2b38c76B6478c0f0E66D94923421891Ba).
 
 ##### [Ethereum] Treasury Distribution - 800,000 USDS to the Grove Foundation Multisig
 
