@@ -273,16 +273,16 @@ The proxy spell will:
 If this executive proposal passes, then the tokenized treasury instances for Basin: JTRSY and BUIDL will be onboarded with the following [rate limits](https://sky-atlas.io/#8efb0a11-b798-48eb-af19-f65b38f039b5):
 
 - JTRSY-USDS:
-  - Deposit rate limits:
+  - LIMIT_BASIN_DEPOSIT:
     - maxAmount: **5,000,000 USDS**
     - slope: **5,000,000 USDS**
-  - Withdrawal rate limits:
+  - LIMIT_BASIN_WITHDRAW:
     - maxAmount: **Unlimited**
 - BUIDL-USDS:
-  - Deposit rate limits:
+  - LIMIT_BASIN_DEPOSIT:
     - maxAmount: **5,000,000 USDS**
     - slope: **5,000,000 USDS**
-  - Withdrawal rate limits:
+  - LIMIT_BASIN_WITHDRAW:
     - maxAmount: **Unlmited**
 
 ##### [Ethereum] Swap USDC to USDS in Grove SubProxy
