@@ -295,7 +295,7 @@ The Pull Request for the Skybase proxy spell can be viewed [here](https://github
 - **Authorization**: [Governance Poll ID 1638](https://vote.sky.money/polling/QmdXjfm6)
 - **Proposal**: [July 2, 2026 Proposed Changes to Skybase for Upcoming Spell](https://forum.skyeco.com/t/july-2-2026-proposed-changes-to-skybase-for-upcoming-spell/27973)
 
-If this executive proposal passes, then **700,000 USDS** will be transferred from the Skybase SubProxy to the Skybase Foundation Operational Multisig.
+If this executive proposal passes, then **700,000 USDS** will be transferred from the [Skybase SubProxy](https://etherscan.io/address/0x08978E3700859E476201c1D7438B3427e3C81140) to the [Skybase Foundation Operational Multisig](https://etherscan.io/address/0x58B945c8Ce34BD8cEA3Fc0437626F9F87d58A621).
 
 ## Review
 
