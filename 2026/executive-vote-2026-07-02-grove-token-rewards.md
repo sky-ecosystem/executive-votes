@@ -284,7 +284,7 @@ If this executive proposal passes, then USDC will be swapped to USDS in the Grov
 - **Authorization**: [Governance Poll ID 1638](https://vote.sky.money/polling/QmdXjfm6)
 - **Proposal**: [July 2, 2026 Proposed Changes to Grove for Upcoming Spell](https://forum.skyeco.com/t/july-2-2026-proposed-changes-to-grove-for-upcoming-spell/27976)
 
-If this executive proposal passes, then **800,000 USDS** will be transferred to the Grove Foundation Multisig.
+If this executive proposal passes, then **800,000 USDS** will be transferred to the [Grove Foundation Multisig](https://etherscan.io/address/0xE3EC4CC359E68c9dCE15Bf667b1aD37Df54a5a42).
 
 #### Skybase Proxy Spell
 
