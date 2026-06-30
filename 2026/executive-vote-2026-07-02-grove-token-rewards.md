@@ -64,7 +64,7 @@ The following actions will occur:
 - **Authorization**: [Governance Poll ID 1638](https://vote.sky.money/polling/QmdXjfm6)
 - **Proposal**: [July 2, 2026 Proposed Changes to Grove for Upcoming Spell](https://forum.skyeco.com/t/july-2-2026-proposed-changes-to-grove-for-upcoming-spell/27976)
 
-If this executive proposal passes, then the new Grove ALMProxy at [`0x0DcD9298e163dFD3c0B5b00F0d9093C36e40A153`](https://etherscan.io/address/0x0DcD9298e163dFD3c0B5b00F0d9093C36e40A153) will be whitelisted on `MCD_LITE_PSM_USDC_A`.
+If this executive proposal passes, then the new Grove ALMProxy at [`0x0DcD9298e163dFD3c0B5b00F0d9093C36e40A153`](https://etherscan.io/address/0x0DcD9298e163dFD3c0B5b00F0d9093C36e40A153) will be whitelisted on [`MCD_LITE_PSM_USDC_A`](https://etherscan.io/address/0xf6e72Db5454dd049d0788e411b06CfAF16853042).
 
 ### Add PAU Beacon to Chainlog
 
