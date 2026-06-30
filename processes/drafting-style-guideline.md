@@ -56,27 +56,15 @@ The asterisk (`*`) is overloaded in Markdown: It can be used to define lists, bo
 
 ### Values, Parameters, and Units
 
-When listing the parameters or amounts an action will set, apply one emphasis style
-to the **values** and use it consistently across *every* parameter block in the
-document. The established convention is to **bold** the value (`**98%**`,
-`**5 million USDT**`, `**3 days**`), or to bold inside a link when the value is an
-address or contract (`[**0x…**](…)`). Do not bold some blocks and leave siblings as
-plain text — a reader should see the same treatment whether the value sits in an
-interest-rate item, a bridging item, a deployment item, or a transfer amount.
+When listing the parameters or amounts an action will set, apply one emphasis style to the **values** and use it consistently across _every_ parameter block in the document. The established convention is to **bold** the value (`**98%**`, `**5 million USDT**`, `**3 days**`), or to bold inside a link when the value is an address or contract (`[**0x…**](…)`). Do not bold some blocks and leave siblings as plain text — a reader should see the same treatment whether the value sits in an interest-rate item, a bridging item, a deployment item, or a transfer amount.
 
 Every numeric value must carry its **unit**, and the unit must match the action:
 
-- Currency/token: state the token (`5 million USDT`, `800,000 USDS`, `2.45 billion
-  GROVE`) — never a bare number, and never the wrong denomination (USDS vs USDC).
-- Rates and shares: use the form the parameter is expressed in (`98%`, `100 bps`) and
-  keep it consistent within a comparison (do not mix `%` and `bps` for the same value).
-- Durations: include the unit (`3 days`, `730 days`, `12 hours`); follow the
-  like-with-like convention for the specific parameter (e.g. a `ttl` in an allocator
-  onboarding is written seconds-first, `86,400 seconds (24 hours)`).
+- Currency/token: state the token (`5 million USDT`, `800,000 USDS`, `2.45 billion GROVE`) — never a bare number, and never the wrong denomination (USDS vs USDC).
+- Rates and shares: use the form the parameter is expressed in (`98%`, `100 bps`) and keep it consistent within a comparison (do not mix `%` and `bps` for the same value).
+- Durations: include the unit (`3 days`, `730 days`, `12 hours`); follow the like-with-like convention for the specific parameter (e.g. a `ttl` in an allocator onboarding is written seconds-first, `86,400 seconds (24 hours)`).
 
-Both of the above are convention checks: confirm a new item against prior occurrences
-of the *same item type* in earlier executive docs, and match their value emphasis and
-unit style rather than inventing a new one.
+Both of the above are convention checks: confirm a new item against prior occurrences of the _same item type_ in earlier executive docs, and match their value emphasis and unit style rather than inventing a new one.
 
 ### Lists
 
