@@ -260,10 +260,10 @@ The proxy spell will:
 
 | Parameter | Max Amount | Slope (Tokens/Day) |
 |---|---|---|
-| LIMIT_USDS_MINT | 5,000,000 USDS | 5,000,000 USDS/day |
-| LIMIT_USDS_BURN | 5,000,000 USDS | 5,000,000 USDS/day |
-| LIMIT_USDS_TO_USDC | 5,000,000 USDS | 5,000,000 USDS/day |
-| LIMIT_USDC_TO_USDS | 5,000,000 USDC | 5,000,000 USDC/day |
+| LIMIT_USDS_MINT | **5,000,000 USDS** | **5,000,000 USDS/day** |
+| LIMIT_USDS_BURN | **5,000,000 USDS** | **5,000,000 USDS/day** |
+| LIMIT_USDS_TO_USDC | **5,000,000 USDS** | **5,000,000 USDS/day** |
+| LIMIT_USDC_TO_USDS | **5,000,000 USDC** | **5,000,000 USDC/day** |
 
 ##### [Ethereum] Onboard the Tokenized Treasury Instances (Basin: JTRSY + BUIDL)
 
