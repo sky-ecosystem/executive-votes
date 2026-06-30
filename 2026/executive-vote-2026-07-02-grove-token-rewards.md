@@ -1,11 +1,11 @@
 ---
-title: Template - [Executive Vote] Set Up GROVE Token Rewards, Whitelist New Grove ALMProxy on LitePSM, Add PAU Beacon to Chainlog, Transfer USDS from Amatsu SubProxy to SFF, Update Safe Harbor Agreement, Star Proxy Spells - July 2, 2026
-summary: Set up GROVE token rewards stream, whitelist the new Grove ALMProxy on LitePSM, add PAU_BEACON to the Chainlog, transfer 14 million USDS from AMATSU_SUBPROXY to SFF, update the Safe Harbor Agreement, and whitelist Spark, Grove, and Skybase proxy spells.
+title: Template - [Executive Vote] Initialize GROVE Token Rewards, Whitelist New Grove ALMProxy on LitePSM, Add PAU Beacon to Chainlog, Transfer USDS from Amatsu SubProxy to SFF, Update Safe Harbor Agreement, Star Proxy Spells - July 2, 2026
+summary: Initialize GROVE token rewards farm, whitelist the new Grove ALMProxy on LitePSM, add PAU_BEACON to the Chainlog, transfer 14 million USDS from AMATSU_SUBPROXY to SFF, update the Safe Harbor Agreement, and whitelist Spark, Grove, and Skybase proxy spells.
 date: 2026-07-02T00:00:00.000Z
 address: "$spell_address"
 ---
 
-# [Executive Proposal] Set Up GROVE Token Rewards, Whitelist New Grove ALMProxy on LitePSM, Add PAU Beacon to Chainlog, Transfer USDS from Amatsu SubProxy to SFF, Update Safe Harbor Agreement, Star Proxy Spells - July 2, 2026
+# [Executive Proposal] Initialize GROVE Token Rewards, Whitelist New Grove ALMProxy on LitePSM, Add PAU Beacon to Chainlog, Transfer USDS from Amatsu SubProxy to SFF, Update Safe Harbor Agreement, Star Proxy Spells - July 2, 2026
 
 The Core Facilitators, Sidestream, and Dewiz have placed an executive proposal into the voting system. SKY holders should vote for this proposal if they support the following alterations to the Sky Protocol.
 
@@ -14,7 +14,7 @@ If this executive proposal passes, then the following actions will occur within 
 ## Executive Summary
 
 - The earliest execution date will be set to July 6, 2026, at 18:00 UTC.
-- GROVE token rewards for USDS stakers will be set up.
+- GROVE token rewards for USDS stakers will be initialized.
 - The new Grove ALMProxy will be whitelisted on `MCD_LITE_PSM_USDC_A`.
 - `PAU_BEACON` will be added to the Chainlog.
 - **14 million USDS** will be transfered from from `AMATSU_SUBPROXY` to SFF.
@@ -35,7 +35,7 @@ This executive proposal will be valid for 30 days from its creation. This means 
 
 ## Proposal Details
 
-### Set Up GROVE Token Rewards
+### Initialize GROVE Token Rewards
 
 - **Authorization**: [Governance Poll Qmd3gCcD](https://vote.sky.money/polling/Qmd3gCcD)
 - **Proposal**: [Technical Scope: Grove Farm](https://forum.skyeco.com/t/technical-scope-grove-farm/27999)
