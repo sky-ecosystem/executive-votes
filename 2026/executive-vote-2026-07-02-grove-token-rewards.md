@@ -1,6 +1,6 @@
 ---
 title: Template - [Executive Vote] Initialize GROVE Token Rewards, Whitelist New Grove ALMProxy on LitePSM, Add PAU Beacon to Chainlog, Transfer USDS from Amatsu SubProxy to SFF, Update Safe Harbor Agreement, Prime Agent Proxy Spells - July 2, 2026
-summary: Initialize GROVE token rewards farm, whitelist the new Grove ALMProxy on LitePSM, add PAU_BEACON to the Chainlog, transfer 14 million USDS from AMATSU_SUBPROXY to SFF, update the Safe Harbor Agreement, and whitelist Spark, Grove, and Skybase proxy spells.
+summary: Initialize GROVE token rewards farm, whitelist the new Grove ALMProxy on LitePSM, add PAU_BEACON to the Chainlog, transfer 14 million USDS from the Amatsu SubProxy to the Sky Frontier Foundation, update the Safe Harbor Agreement, and whitelist Spark, Grove, and Skybase proxy spells.
 date: 2026-07-02T00:00:00.000Z
 address: "$spell_address"
 ---
@@ -17,7 +17,7 @@ If this executive proposal passes, then the following actions will occur within 
 - GROVE token rewards for USDS stakers will be initialized.
 - The new Grove ALMProxy will be whitelisted on `MCD_LITE_PSM_USDC_A`.
 - `PAU_BEACON` will be added to the Chainlog.
-- **14 million USDS** will be transfered from from `AMATSU_SUBPROXY` to SFF.
+- **14 million USDS** will be transferred from Amatsu's SubProxy to Sky Frontier Foundation.
 - The Safe Harbor Agreement will be updated.
 - Spark, Grove, and Skybase proxy spells will be whitelisted in their respective StarGuard modules.
 
@@ -82,7 +82,7 @@ If this executive proposal passes, then [`0x829dC2b7E94B1954F0764E573f2E0d45Afa2
 If this executive proposal passes, then the following actions will occur:
 
 - [`0x5162489F4FEa651b76c75193387d08aAAC9CB52C`](https://etherscan.io/address/0x5162489F4FEa651b76c75193387d08aAAC9CB52C) will be added to the Chainlog as `SUBPROXY_METHODS`.
-- `SUBPROXY_METHODS` will be executed in `AMATSU_SUBPROXY` to transfer **14 million USDS** to SFF at [`0xca5183FB9997046fbd9bA8113139bf5a5Af122A0`](https://etherscan.io/address/0xca5183FB9997046fbd9bA8113139bf5a5Af122A0).
+- `SUBPROXY_METHODS` will be executed in `AMATSU_SUBPROXY` to transfer **14 million USDS** to Sky Frontier Foundation at [`0xca5183FB9997046fbd9bA8113139bf5a5Af122A0`](https://etherscan.io/address/0xca5183FB9997046fbd9bA8113139bf5a5Af122A0).
 
 ### Safe Harbor Update
 
