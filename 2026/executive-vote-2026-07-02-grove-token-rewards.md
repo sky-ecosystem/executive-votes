@@ -36,7 +36,7 @@ This executive proposal will be valid for 30 days from its creation. This means 
 
 ### Initialize GROVE Token Rewards
 
-- **Authorization**: [Governance Poll Qmd3gCcD](https://vote.sky.money/polling/Qmd3gCcD)
+- **Authorization**: [Governance Poll ID 1639](https://vote.sky.money/polling/Qmd3gCcD)
 - **Proposal**: [Technical Scope: Grove Farm](https://forum.skyeco.com/t/technical-scope-grove-farm/27999)
 
 If this executive proposal passes, then a USDS -> GROVE farm will be initialized, enabling users to stake USDS and receive GROVE rewards.
@@ -61,7 +61,7 @@ The following actions will occur:
 
 ### Whitelist New Grove ALMProxy on LitePSM
 
-- **Authorization**: [Governance Poll QmdXjfm6](https://vote.sky.money/polling/QmdXjfm6)
+- **Authorization**: [Governance Poll ID 1638](https://vote.sky.money/polling/QmdXjfm6)
 - **Proposal**: [July 2, 2026 Proposed Changes to Grove for Upcoming Spell](https://forum.skyeco.com/t/july-2-2026-proposed-changes-to-grove-for-upcoming-spell/27976)
 
 If this executive proposal passes, then the new Grove ALMProxy at [`0x0DcD9298e163dFD3c0B5b00F0d9093C36e40A153`](https://etherscan.io/address/0x0DcD9298e163dFD3c0B5b00F0d9093C36e40A153) will be whitelisted on `MCD_LITE_PSM_USDC_A`.
@@ -183,14 +183,14 @@ If this executive proposal passes, then a Grove proxy spell with address [`0xa21
 
 ##### [Ethereum] Onboard the Diamond PAU Controller on the New Grove Allocator Instance
 
-- **Authorization**: [Governance Poll QmdXjfm6](https://vote.sky.money/polling/QmdXjfm6)
+- **Authorization**: [Governance Poll ID 1638](https://vote.sky.money/polling/QmdXjfm6)
 - **Proposal**: [July 2, 2026 Proposed Changes to Grove for Upcoming Spell](https://forum.skyeco.com/t/july-2-2026-proposed-changes-to-grove-for-upcoming-spell/27976)
 
 If this executive proposal passes, then the Diamond PAU Controller will be onboarded on the new Grove allocator instance.
 
 ##### [Ethereum] Onboard the Tokenized Treasury Instances (Basin: JTRSY + BUIDL)
 
-- **Authorization**: [Governance Poll QmdXjfm6](https://vote.sky.money/polling/QmdXjfm6)
+- **Authorization**: [Governance Poll ID 1638](https://vote.sky.money/polling/QmdXjfm6)
 - **Proposal**: [July 2, 2026 Proposed Changes to Grove for Upcoming Spell](https://forum.skyeco.com/t/july-2-2026-proposed-changes-to-grove-for-upcoming-spell/27976)
 
 If this executive proposal passes, then the tokenized treasury instances for Basin: JTRSY and BUIDL will be onboarded.
@@ -204,7 +204,7 @@ If this executive proposal passes, then USDC will be swapped to USDS in the Grov
 
 ##### [Ethereum] Treasury Distribution - 800,000 USDS to the Grove Foundation Multisig
 
-- **Authorization**: [Governance Poll QmdXjfm6](https://vote.sky.money/polling/QmdXjfm6)
+- **Authorization**: [Governance Poll ID 1638](https://vote.sky.money/polling/QmdXjfm6)
 - **Proposal**: [July 2, 2026 Proposed Changes to Grove for Upcoming Spell](https://forum.skyeco.com/t/july-2-2026-proposed-changes-to-grove-for-upcoming-spell/27976)
 
 If this executive proposal passes, then **800,000 USDS** will be transferred to the Grove Foundation Multisig.
@@ -217,7 +217,7 @@ If this executive proposal passes, then a Skybase proxy spell with address [`0xd
 
 ##### [Ethereum] Transfer 700,000 USDS from the Skybase SubProxy to the Skybase Foundation Operational Multisig
 
-- **Authorization**: [Governance Poll QmdXjfm6](https://vote.sky.money/polling/QmdXjfm6)
+- **Authorization**: [Governance Poll ID 1638](https://vote.sky.money/polling/QmdXjfm6)
 - **Proposal**: [July 2, 2026 Proposed Changes to Skybase for Upcoming Spell](https://forum.skyeco.com/t/july-2-2026-proposed-changes-to-skybase-for-upcoming-spell/27973)
 
 If this executive proposal passes, then **700,000 USDS** will be transferred from the Skybase SubProxy to the Skybase Foundation Operational Multisig.
