@@ -71,7 +71,7 @@ If this executive proposal passes, then the new Grove ALMProxy at [`0x0DcD9298e1
 - **Authorization**: [Sky Atlas](https://sky-atlas.io/#fd030da6-1a4d-4df6-8e87-043d4b9666d5)
 - **Proposal**: [Diamond PAU and Beacon Launch](https://forum.skyeco.com/t/diamond-pau-and-beacon-launch/27997)
 
-If this executive proposal passes, then the Beacon for the Diamond Parallelized Allocation Unit (PAU)[`0x829dC2b7E94B1954F0764E573f2E0d45Afa28199`](https://etherscan.io/address/0x829dC2b7E94B1954F0764E573f2E0d45Afa28199) will be added to the [chainlog](https://chainlog.skyeco.com/) as `PAU_BEACON`.
+If this executive proposal passes, then the Beacon for the Diamond Parallelized Allocation Unit (PAU) at [`0x829dC2b7E94B1954F0764E573f2E0d45Afa28199`](https://etherscan.io/address/0x829dC2b7E94B1954F0764E573f2E0d45Afa28199) will be added to the [chainlog](https://chainlog.skyeco.com/) as `PAU_BEACON`.
 
 The Beacon has been preconfigured with the following facets:
 
@@ -135,7 +135,7 @@ If this executive proposal passes, then a Spark proxy spell with address [`0xcc7
 
 If this executive proposal passes, then a Grove proxy spell with address [`0xa21d2E301D50AfF797143deb5a7C400482E9122C`](https://etherscan.io/address/0xa21d2E301D50AfF797143deb5a7C400482E9122C) and codehash `0xb3377dba77dfd8bce7c272e7c4c445ab48b3d0ec3fd0a52f512a39974f059a0f` will be whitelisted in the [Grove StarGuard](https://etherscan.io/address/0xfc51CAa049E8894bEcFfB68c61095C3F3Ec8a880).
 
-If this executive proposal passes, then a Skybase proxy spell with address [`0xd3e4e16ED515Be794fd181D7d2cEB0447A6f2cb5`](https://etherscan.io/address/0xd3e4e16ED515Be794fd181D7d2cEB0447A6f2cb5) and codehash `0x09c387eed3e4373a4cc91fc28686e103cfc704335279f65f2f7308f474c002d9` will be whitelisted in the [Skybae StarGuard](https://etherscan.io/address/0xA170086AeF9b3b81dD73897A0dF56B55e4C2a1F7).
+If this executive proposal passes, then a Skybase proxy spell with address [`0xd3e4e16ED515Be794fd181D7d2cEB0447A6f2cb5`](https://etherscan.io/address/0xd3e4e16ED515Be794fd181D7d2cEB0447A6f2cb5) and codehash `0x09c387eed3e4373a4cc91fc28686e103cfc704335279f65f2f7308f474c002d9` will be whitelisted in the [Skybase StarGuard](https://etherscan.io/address/0xA170086AeF9b3b81dD73897A0dF56B55e4C2a1F7).
 
 #### Spark Proxy Spell
 
@@ -235,7 +235,7 @@ If this executive proposal passes, then the Diamond PAU Controller will be onboa
 ###### Contracts
 
 | Contract Name | Address |
-|---|---|
+| --- | --- |
 | Grove Allocator Vault (`ALLOCATOR-GROVE-A`)  | [0xf739a30c74927dc6cFA3B67E4933872a1FC5F4EB](https://etherscan.io/address/0xf739a30c74927dc6cFA3B67E4933872a1FC5F4EB) |
 | Grove Allocator Buffer | [0x436DABce608f73BeA2b75fba35bffe72739697d5](https://etherscan.io/address/0x436DABce608f73BeA2b75fba35bffe72739697d5) |
 | New ALMProxy | [0x0DcD9298e163dFD3c0B5b00F0d9093C36e40A153](https://etherscan.io/address/0x0DcD9298e163dFD3c0B5b00F0d9093C36e40A153) |
@@ -245,21 +245,20 @@ If this executive proposal passes, then the Diamond PAU Controller will be onboa
 | Grove ALM Relayer 1 | [0x0eEC86649E756a23CBc68d9EFEd756f16aD5F85f](https://etherscan.io/address/0x0eEC86649E756a23CBc68d9EFEd756f16aD5F85f) |
 | Grove Secondary Relayer Operator | [0x9187807e07112359C481870feB58f0c117a29179](https://etherscan.io/address/0x9187807e07112359C481870feB58f0c117a29179) |
 | Core Operator Relayer (Soter Labs) | [0x4364D17B578b0eD1c42Be9075D774D1d6AeAFe96](https://etherscan.io/address/0x4364D17B578b0eD1c42Be9075D774D1d6AeAFe96) |
-| Core Operator Relayer (Soter Labs) | [0x4364D17B578b0eD1c42Be9075D774D1d6AeAFe96](https://etherscan.io/address/0x4364D17B578b0eD1c42Be9075D774D1d6AeAFe96) |
 | Grove Freezer Proxy | [0xB0113804960345fd0a245788b3423319c86940e5](https://etherscan.io/address/0xB0113804960345fd0a245788b3423319c86940e5) |
 
 The proxy spell will:
 
 - Set the controller's USDS vault: point the Diamond PAU Controller at the `ALLOCATOR-GROVE-A` AllocatorVault.
-- Authorize the DPAU ALMProxy on the AllocatorVault
-- Approve the DPAU ALMProxy on the AllocaotrBuffer
+- Authorize the DPAU ALMProxy on the AllocatorVault.
+- Approve the DPAU ALMProxy on the AllocatorBuffer.
 
 ###### Initial Parameters
 
 [Rate limits](https://sky-atlas.io/#8efb0a11-b798-48eb-af19-f65b38f039b5) for initial activation:
 
 | Parameter | Max Amount | Slope (Tokens/Day) |
-|---|---|---|
+| --- | --- | --- |
 | LIMIT_USDS_MINT | **5,000,000 USDS** | **5,000,000 USDS/day** |
 | LIMIT_USDS_BURN | **5,000,000 USDS** | **5,000,000 USDS/day** |
 | LIMIT_USDS_TO_USDC | **5,000,000 USDS** | **5,000,000 USDS/day** |
@@ -275,15 +274,15 @@ If this executive proposal passes, then the tokenized treasury instances for Bas
 - JTRSY-USDS:
   - LIMIT_BASIN_DEPOSIT:
     - maxAmount: **5,000,000 USDS**
-    - slope: **5,000,000 USDS**
+    - slope: **5,000,000 USDS/day**
   - LIMIT_BASIN_WITHDRAW:
     - maxAmount: **Unlimited**
 - BUIDL-USDS:
   - LIMIT_BASIN_DEPOSIT:
     - maxAmount: **5,000,000 USDS**
-    - slope: **5,000,000 USDS**
+    - slope: **5,000,000 USDS/day**
   - LIMIT_BASIN_WITHDRAW:
-    - maxAmount: **Unlmited**
+    - maxAmount: **Unlimited**
 
 ##### [Ethereum] Swap USDC to USDS in Grove SubProxy
 
