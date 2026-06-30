@@ -14,7 +14,7 @@ If this executive proposal passes, then the following actions will occur within 
 ## Executive Summary
 
 - GROVE token rewards for USDS stakers will be initialized, with an initial stream of 2.45 billion GROVE tokens over 2 years.
-- The new Grove ALMProxy will be whitelisted on `MCD_LITE_PSM_USDC_A`.
+- The [new Grove ALMProxy](https://etherscan.io/address/0x0DcD9298e163dFD3c0B5b00F0d9093C36e40A153) will be whitelisted on `MCD_LITE_PSM_USDC_A`.
 - `PAU_BEACON` will be added to the [chainlog](https://chainlog.skyeco.com/).
 - **14 million USDS** will be transferred from Amatsu's SubProxy to Sky Frontier Foundation.
 - The Safe Harbor Agreement will be updated.
@@ -183,7 +183,7 @@ The following SparkLend USDC interest rate parameters will be updated:
 - **Authorization**: [Sky Atlas](https://sky-atlas.io/#ea73f176-0b94-4e93-b1ee-ca498ac5a6c6)
 - **Proposal**: [July 2, 2026 Proposed Changes to Spark for Upcoming Spell](https://forum.skyeco.com/t/july-2-2026-proposed-changes-to-spark-for-upcoming-spell/27982)
 
-If this executive proposal passes, then the Spark proxy spell will claim all SparkLend reserves. USD stablecoin reserves will be transferred to the Spark ALMProxy and non-USD reserves will be transferred to the Spark Operations Multisig.
+If this executive proposal passes, then the Spark proxy spell will claim all SparkLend reserves. USD stablecoin reserves will be transferred to the Spark ALMProxy and non-USD reserves will be transferred to the [Spark Operations Multisig](https://etherscan.io/address/0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC).
 
 ##### [Ethereum] Spark Liquidity Layer - Enable USDT Bridging to Arbitrum
 
@@ -230,9 +230,9 @@ The deployment will use the following parameters:
 
 - `spUSDT` implementation: [`0x282Dafe8b42979e66a90f3e3a6cda8e43F5DD6f0`](https://arbiscan.io/address/0x282Dafe8b42979e66a90f3e3a6cda8e43F5DD6f0)
 - `spUSDT`: [`0x45D91340B7e41831b7ef6675f8F0C31f72c3A850`](https://arbiscan.io/address/0x45D91340B7e41831b7ef6675f8F0C31f72c3A850)
-- Supply cap: 250 million USDT
-- Maximum yield: 6%
-- Launch current yield: 0%
+- Supply cap: **250 million USDT**
+- Maximum yield: **6%**
+- Launch current yield: **0%**
 
 ##### [Avalanche] Spark Liquidity Layer - Add Timelock and Guardian to Avalanche Governance Bridge
 
@@ -243,7 +243,7 @@ If this executive proposal passes, then the Spark proxy spell will add a timeloc
 
 The following parameters will be used:
 
-- Timelock delay: 3 days
+- Timelock delay: **3 days**
 - Planned guardian multisig: [`0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC`](https://snowtrace.io/address/0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC)
 
 #### Grove Proxy Spell
@@ -255,7 +255,40 @@ The Pull Request for the Grove proxy spell can be viewed [here](https://github.c
 - **Authorization**: [Governance Poll ID 1638](https://vote.sky.money/polling/QmdXjfm6)
 - **Proposal**: [July 2, 2026 Proposed Changes to Grove for Upcoming Spell](https://forum.skyeco.com/t/july-2-2026-proposed-changes-to-grove-for-upcoming-spell/27976)
 
-If this executive proposal passes, then the Diamond PAU Controller will be onboarded on the new Grove Allocator instance.
+If this executive proposal passes, then the Diamond PAU Controller will be onboarded on the new Grove Allocator instance with the following contracts and [rate limits](https://sky-atlas.io/#8efb0a11-b798-48eb-af19-f65b38f039b5).
+
+###### Contracts
+
+| Contract Name | Address |
+|---|---|
+| Grove Allocator Vault (`ALLOCATOR-GROVE-A`)  | [0xf739a30c74927dc6cFA3B67E4933872a1FC5F4EB](https://etherscan.io/address/0xf739a30c74927dc6cFA3B67E4933872a1FC5F4EB) |
+| Grove Allocator Buffer | [0x436DABce608f73BeA2b75fba35bffe72739697d5](https://etherscan.io/address/0x436DABce608f73BeA2b75fba35bffe72739697d5) |
+| New ALMProxy | [0x0DcD9298e163dFD3c0B5b00F0d9093C36e40A153](https://etherscan.io/address/0x0DcD9298e163dFD3c0B5b00F0d9093C36e40A153) |
+| Grove Diamond PAU Controller | [0xbf83F5974B932c7D842254042717D6A2706CE5eE](https://etherscan.io/address/0xbf83F5974B932c7D842254042717D6A2706CE5eE) |
+| Grove PAU Rate Limits | [0xE016Ae733A77Ba77E7907aAA749394Fc5e75C0e1](https://etherscan.io/address/0xE016Ae733A77Ba77E7907aAA749394Fc5e75C0e1) |
+| Grove PAU AccessControls | [0x4F6d1704700cd494DD4cd9bF59c0C39DA1Bc9164](https://etherscan.io/address/0x4F6d1704700cd494DD4cd9bF59c0C39DA1Bc9164) |
+| Grove ALM Relayer 1 | [0x0eEC86649E756a23CBc68d9EFEd756f16aD5F85f](https://etherscan.io/address/0x0eEC86649E756a23CBc68d9EFEd756f16aD5F85f) |
+| Grove Secondary Relayer Operator | [0x9187807e07112359C481870feB58f0c117a29179](https://etherscan.io/address/0x9187807e07112359C481870feB58f0c117a29179) |
+| Core Operator Relayer (Soter Labs) | [0x4364D17B578b0eD1c42Be9075D774D1d6AeAFe96](https://etherscan.io/address/0x4364D17B578b0eD1c42Be9075D774D1d6AeAFe96) |
+| Core Operator Relayer (Soter Labs) | [0x4364D17B578b0eD1c42Be9075D774D1d6AeAFe96](https://etherscan.io/address/0x4364D17B578b0eD1c42Be9075D774D1d6AeAFe96) |
+| Grove Freezer Proxy | [0xB0113804960345fd0a245788b3423319c86940e5](https://etherscan.io/address/0xB0113804960345fd0a245788b3423319c86940e5) |
+
+The proxy spell will:
+
+- Set the controller's USDS vault: point the Diamond PAU Controller at the `ALLOCATOR-GROVE-A` AllocatorVault.
+- Authorize the DPAU ALMProxy on the AllocatorVault
+- Approve the DPAU ALMProxy on the AllocaotrBuffer
+
+###### Initial Parameters
+
+Pattern Liquidity Layer [rate limits](https://sky-atlas.io/#8efb0a11-b798-48eb-af19-f65b38f039b5) for initial activation:
+
+| Parameter | Max Amount | Slope (Tokens/Day) |
+|---|---|---|
+| LIMIT_USDS_MINT | 5,000,000 USDS | 5,000,000 USDS/day |
+| LIMIT_USDS_BURN | 5,000,000 USDS | 5,000,000 USDS/day |
+| LIMIT_USDS_TO_USDC | 5,000,000 USDS | 5,000,000 USDS/day |
+| LIMIT_USDC_TO_USDS | 5,000,000 USDC | 5,000,000 USDC/day |
 
 ##### [Ethereum] Onboard the Tokenized Treasury Instances (Basin: JTRSY + BUIDL)
 
