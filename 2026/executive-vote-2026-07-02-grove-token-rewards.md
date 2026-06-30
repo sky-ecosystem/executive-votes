@@ -277,14 +277,14 @@ If this executive proposal passes, then the tokenized treasury instances for Bas
 - **Authorization**: [Sky Atlas](https://sky-atlas.io/#aa16daa3-ee62-49eb-851e-cb0708670144)
 - **Proposal**: [July 2, 2026 Proposed Changes to Grove for Upcoming Spell](https://forum.skyeco.com/t/july-2-2026-proposed-changes-to-grove-for-upcoming-spell/27976)
 
-If this executive proposal passes, then USDC will be swapped to USDS in the Grove SubProxy.
+If this executive proposal passes, then USDC will be swapped to USDS in the [Grove SubProxy](https://etherscan.io/address/0x1369f7b2b38c76B6478c0f0E66D94923421891Ba).
 
 ##### [Ethereum] Treasury Distribution - 800,000 USDS to the Grove Foundation Multisig
 
 - **Authorization**: [Governance Poll ID 1638](https://vote.sky.money/polling/QmdXjfm6)
 - **Proposal**: [July 2, 2026 Proposed Changes to Grove for Upcoming Spell](https://forum.skyeco.com/t/july-2-2026-proposed-changes-to-grove-for-upcoming-spell/27976)
 
-If this executive proposal passes, then **800,000 USDS** will be transferred to the [Grove Foundation Multisig](https://etherscan.io/address/0xE3EC4CC359E68c9dCE15Bf667b1aD37Df54a5a42).
+If this executive proposal passes, then **800,000 USDS** will be transferred from the [Grove SubProxy](https://etherscan.io/address/0x1369f7b2b38c76B6478c0f0E66D94923421891Ba) to the [Grove Foundation Multisig](https://etherscan.io/address/0xE3EC4CC359E68c9dCE15Bf667b1aD37Df54a5a42).
 
 #### Skybase Proxy Spell
 
