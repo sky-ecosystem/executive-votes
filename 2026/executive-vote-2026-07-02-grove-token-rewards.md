@@ -256,7 +256,7 @@ The proxy spell will:
 
 ###### Initial Parameters
 
-Pattern Liquidity Layer [rate limits](https://sky-atlas.io/#8efb0a11-b798-48eb-af19-f65b38f039b5) for initial activation:
+[Rate limits](https://sky-atlas.io/#8efb0a11-b798-48eb-af19-f65b38f039b5) for initial activation:
 
 | Parameter | Max Amount | Slope (Tokens/Day) |
 |---|---|---|
