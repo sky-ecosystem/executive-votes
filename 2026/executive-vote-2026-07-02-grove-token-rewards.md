@@ -162,8 +162,6 @@ If this executive proposal passes, then a Grove proxy spell with address [`0xa21
 
 If this executive proposal passes, then a Skybase proxy spell with address [`0xd3e4e16ED515Be794fd181D7d2cEB0447A6f2cb5`](https://etherscan.io/address/0xd3e4e16ED515Be794fd181D7d2cEB0447A6f2cb5) and codehash `0x09c387eed3e4373a4cc91fc28686e103cfc704335279f65f2f7308f474c002d9` will be whitelisted in the [Skybae StarGuard](https://etherscan.io/address/0xA170086AeF9b3b81dD73897A0dF56B55e4C2a1F7).
 
-If this executive proposal passes, then a Spark proxy spell with address [`0xcc7529473B850103524905D3914470898aDe8747`](https://etherscan.io/address/0xcc7529473B850103524905D3914470898aDe8747) and codehash `0xf952ba1ea1df8c42217cecd3c4e88abcde2864fbf1e4465b1a13af0bf05e00f0` will be whitelisted in `SPARK_STARGUARD`.
-
 #### Spark Proxy Spell
 
 ##### [Ethereum] SparkLend - Set USDC Interest Rate Model to Target Very Low Liquidity
