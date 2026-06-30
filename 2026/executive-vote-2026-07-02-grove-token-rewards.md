@@ -45,19 +45,19 @@ The following actions will occur:
 
 - Add [`0xcBCfCD450de686894d3C5E7E8975cF23EEF077B2`](https://etherscan.io/address/0xcBCfCD450de686894d3C5E7E8975cF23EEF077B2) to the [chainlog](https://chainlog.skyeco.com/) as `MCD_VEST_GROVE_TREASURY`.
 - Add [`0xB30FE1Cf884B48a22a50D22a9282004F2c5E9406`](https://etherscan.io/address/0xB30FE1Cf884B48a22a50D22a9282004F2c5E9406) to the [chainlog](https://chainlog.skyeco.com/) as `GROVE`.
-- Initialize the USDS -> GROVE farm with `TreasuryFundedFarmingInit.initFarm` using the following parameters:
-  - `stakingToken`: `USDS`
-  - `rewardsToken`: `GROVE`
-  - `rewards`: [`0x4E41488C19cD35EB4de3083Fc3e204854c75c86a`](https://etherscan.io/address/0x4E41488C19cD35EB4de3083Fc3e204854c75c86a)
-  - `rewardsKey`: `"REWARDS_USDS_GROVE"`
-  - `dist`: [`0xAf7a108B4fB0b2F65E1Acc9E1a548abe482559C4`](https://etherscan.io/address/0xAf7a108B4fB0b2F65E1Acc9E1a548abe482559C4)
-  - `distKey`: `"REWARDS_DIST_USDS_GROVE"`
-  - `distJob`: `CRON_REWARDS_DIST_JOB`
-  - `distJobInterval`: `7 days - 1 hours`
-  - `vest`: `MCD_VEST_GROVE_TREASURY`
-  - `vestTot`: 2.45 billion GROVE
-  - `vestBgn`: `block.timestamp - 7 days`
-  - `vestTau`: 730 days
+- Initialize the USDS -> GROVE farm with [`TreasuryFundedFarmingInit.initFarm`](https://github.com/sky-ecosystem/endgame-toolkit/blob/4f238f9b23298190150d49482bad56c00f0af825/script/dependencies/treasury-funded-farms/TreasuryFundedFarmingInit.sol#L59) using the following parameters:
+  - `stakingToken`: [**USDS**](https://etherscan.io/address/0xdC035D45d973E3EC169d2276DDab16f1e407384F)
+  - `rewardsToken`: [**GROVE**](https://etherscan.io/address/0xB30FE1Cf884B48a22a50D22a9282004F2c5E9406)
+  - `rewards`: [**0x4E41488C19cD35EB4de3083Fc3e204854c75c86a**](https://etherscan.io/address/0x4E41488C19cD35EB4de3083Fc3e204854c75c86a)
+  - `rewardsKey`: **"REWARDS_USDS_GROVE"**
+  - `dist`: [**0xAf7a108B4fB0b2F65E1Acc9E1a548abe482559C4**](https://etherscan.io/address/0xAf7a108B4fB0b2F65E1Acc9E1a548abe482559C4)
+  - `distKey`: **"REWARDS_DIST_USDS_GROVE"**
+  - `distJob`: [**CRON_REWARDS_DIST_JOB**](https://etherscan.io/address/0x6464C34A02DD155dd0c630CE233DD6e21C24F9A5)
+  - `distJobInterval`: **7 days - 1 hours**
+  - `vest`: [**MCD_VEST_GROVE_TREASURY**](https://etherscan.io/address/0xcBCfCD450de686894d3C5E7E8975cF23EEF077B2)
+  - `vestTot`: **2.45 billion GROVE**
+  - `vestBgn`: **block.timestamp - 7 days**
+  - `vestTau`: **730 days**
 
 ### Whitelist New Grove ALMProxy on LitePSM
 
