@@ -87,7 +87,44 @@ If this executive proposal passes, then the following actions will occur:
 
 - **Authorization**: [Sky Atlas - A.2.11.1.2.3 - Safe Harbor Modifications](https://sky-atlas.io/#fcd868db-4a91-4ee0-baf5-1ebd40fc651e)
 
-If this executive proposal passes, then the Safe Harbor Agreement will be updated.
+If this executive proposal passes, then the Safe Harbor Agreement will be updated to include the following Sky Core contracts added to the chainlog in this spell:
+
+- [MCD_VEST_GROVE_TREASURY](https://etherscan.io/address/0xcBCfCD450de686894d3C5E7E8975cF23EEF077B2)
+- [REWARDS_USDS_GROVE](https://etherscan.io/address/0x4E41488C19cD35EB4de3083Fc3e204854c75c86a)
+- [REWARDS_DIST_USDS_GROVE](https://etherscan.io/address/0xAf7a108B4fB0b2F65E1Acc9E1a548abe482559C4)
+- [PAU_BEACON](https://etherscan.io/address/0x829dC2b7E94B1954F0764E573f2E0d45Afa28199)
+- [SUBPROXY_METHODS](https://etherscan.io/address/0x5162489F4FEa651b76c75193387d08aAAC9CB52C)
+
+Additionally the pre-configured facets and factory contracts for Diamond PAU deployments that have not been added to the chainlog will be added. These are:
+
+- [AAVE_FACET](https://etherscan.io/address/0x8CE890A96a193ff2DD4B2eA3C682326F655f6b62)
+- [BASIN_FACET](https://etherscan.io/address/0xC84825BCD13AEddc372400239499380376a44A39)
+- [CCTP_FACET](https://etherscan.io/address/0xADf62692340e46EF90336f2e75ce3b37f1148873)
+- [CENTRIFUGE_FACET](https://etherscan.io/address/0xa0A10BA97be1412730D694B8dE1afe7eff20eC31)
+- [CURVE_FACET](https://etherscan.io/address/0x139D81d7d6040fAeF7cF0EF5A2636Ca8a97a30d8)
+- [DAIUSDS_FACET](https://etherscan.io/address/0x3817F734CAe6AD2BDb79F9ff23091F2AD478da5F)
+- [ERC4626_FACET](https://etherscan.io/address/0x1dCA18608c89174181153E786778705b4A0E1a06)
+- [ERC7540_FACET](https://etherscan.io/address/0x4f7e0E3612b0e1E156A2B6570a51d4BD709F1315)
+- [ETHENA_FACET](https://etherscan.io/address/0xEc48D773CEef1c6b07CdA1afA2716C478b55187B)
+- [FARM_FACET](https://etherscan.io/address/0xF24E91f5D8529436c9fB92dd94F80d4A6C25d0f0)
+- [LAYER_ZERO_FACET](https://etherscan.io/address/0xA0c323a0acb20F259eA4ff343319D450BE6472e5)
+- [MAPLE_FACET](https://etherscan.io/address/0x691b5c26aD2B74d2376f4eD87904E9D3E47bD630)
+- [MERKL_FACET](https://etherscan.io/address/0x321138Db5E056e9d0080D4c278e10A1EdC091Eb0)
+- [OTC_FACET](https://etherscan.io/address/0x46b24ba00B65CB4f603447590e539b08097fb7Ac)
+- [PENDLE_FACET](https://etherscan.io/address/0xcC9dD4c9B2a9c08f2692e7060F43d29A03E87348)
+- [PSM_FACET](https://etherscan.io/address/0xE4A5dAc768a310cc2316f258901b32E499653064)
+- [SPARK_VAULT_FACET](https://etherscan.io/address/0xff0d19920E207e3A17eb5A2E5bA3AFA44836362b)
+- [SUPERSTATE_FACET](https://etherscan.io/address/0xeE197475607E9a27cCAA4786e740d2F0d0E706A7)
+- [TRANSFER_ASSET_FACET](https://etherscan.io/address/0x4DA7608C331b8f135df5b985018933780eCd089D)
+- [UNISWAP_V3_FACET](https://etherscan.io/address/0x445D9Dc752F269Be48250f1A180CAC4c61cE4bab)
+- [UNISWAP_V4_FACET](https://etherscan.io/address/0x75D35ffB8e6B871E12EB549CcF6afD324c46E47D)
+- [USDS_FACET](https://etherscan.io/address/0x1221CC4B85Ab260660aD21C2829e0EB516dffBc7)
+- [WEETH_FACET](https://etherscan.io/address/0x1d8D089EB7D558F5dc6aA0cf98DDe13B77b3F641)
+- [WRAP_PROXY_ETH_FACET](https://etherscan.io/address/0x081506DE21C695Af5e61a81aD288C8A96B6b59B9)
+- [WSTETH_FACET](https://etherscan.io/address/0x3a82D11Cd37Fb0098363262Dc69425d07Fa05516)
+- [PAU Factory](https://etherscan.io/address/0x69A5d548830AC2A4Ba90A44a2C75BDA71f97fc66)
+- [Administered Agent Factory](https://etherscan.io/address/0x2968c3b5478cF93B70aB1e24255d4EDBBd27a089)
+- [Default PAU Assembler](https://etherscan.io/address/0xc812aAD3FaE2D3511C664374B601a9BeBFeCCa2E)
 
 ### Spark Proxy Spell
 
