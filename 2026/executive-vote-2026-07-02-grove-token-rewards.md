@@ -1,11 +1,11 @@
 ---
-title: Template - [Executive Vote] Initialize GROVE Token Rewards, Whitelist New Grove ALMProxy on LitePSM, Add PAU Beacon to Chainlog, Transfer USDS from Amatsu SubProxy to SFF, Update Safe Harbor Agreement, Star Proxy Spells - July 2, 2026
+title: Template - [Executive Vote] Initialize GROVE Token Rewards, Whitelist New Grove ALMProxy on LitePSM, Add PAU Beacon to Chainlog, Transfer USDS from Amatsu SubProxy to SFF, Update Safe Harbor Agreement, Prime Agent Proxy Spells - July 2, 2026
 summary: Initialize GROVE token rewards farm, whitelist the new Grove ALMProxy on LitePSM, add PAU_BEACON to the Chainlog, transfer 14 million USDS from AMATSU_SUBPROXY to SFF, update the Safe Harbor Agreement, and whitelist Spark, Grove, and Skybase proxy spells.
 date: 2026-07-02T00:00:00.000Z
 address: "$spell_address"
 ---
 
-# [Executive Proposal] Initialize GROVE Token Rewards, Whitelist New Grove ALMProxy on LitePSM, Add PAU Beacon to Chainlog, Transfer USDS from Amatsu SubProxy to SFF, Update Safe Harbor Agreement, Star Proxy Spells - July 2, 2026
+# [Executive Proposal] Initialize GROVE Token Rewards, Whitelist New Grove ALMProxy on LitePSM, Add PAU Beacon to Chainlog, Transfer USDS from Amatsu SubProxy to SFF, Update Safe Harbor Agreement, Prime Agent Proxy Spells - July 2, 2026
 
 The Core Facilitators, Sidestream, and Dewiz have placed an executive proposal into the voting system. SKY holders should vote for this proposal if they support the following alterations to the Sky Protocol.
 
