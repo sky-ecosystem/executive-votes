@@ -151,7 +151,9 @@ If this executive proposal passes, then the Spark proxy spell will update the Sp
 The following SparkLend USDC interest rate parameters will be updated:
 
 - Optimal utilization (`kink`) will be increased from **95%** to **98%**.
-- Slope 1 spread above the rate source will be decreased from **125 bps** to **100 bps**.
+- Slope1 spread above the rate source will be decreased from **125 bps** to **100 bps**.
+- Base variable borrow rate, variable slope2, and reserve factor will remain unchanged.
+- Rate source (sUSDS/SSR) anchor: [0x57027B6262083E3aC3c8B2EB99f7e8005f669973](https://etherscan.io/address/0x57027B6262083E3aC3c8B2EB99f7e8005f669973)
 
 ##### [Ethereum] SparkLend - Claim SparkLend Reserves
 
@@ -169,45 +171,63 @@ If this executive proposal passes, then the Spark proxy spell will enable USDT b
 
 The following rate limit parameters will be applied:
 
-- Destination domain: `0x92afd601dfcfc51c04099d77d414d14542677e7a62f04f53c8b74008b30a68f5`
-- `maxAmount`: 5 million USDT
-- `slope`: 50 million USDT per day
+- Bridge USDT0 to Arbitrum (Ethereum → Arbitrum route)
+  - destination: ALM Proxy on Arbitrum ([0x92afd6F2385a90e44da3a8B60fe36f6cBe1D8709](https://arbiscan.io/address/0x92afd6F2385a90e44da3a8B60fe36f6cBe1D8709))
+  - maxAmount: **5,000,000 USDT**
+  - slope: **50,000,000 USDT/day**
 
 ##### [Base] Spark Liquidity Layer - Remove Excess Liquidity
 
 - **Authorization**: [Snapshot Poll 0x4f6d3e7f769d8fe5c7713338274a24bb7932f0fb0d46ce0bc0c0f0087172fa2b](https://snapshot.box/#/s:sparkdao.eth/proposal/0x4f6d3e7f769d8fe5c7713338274a24bb7932f0fb0d46ce0bc0c0f0087172fa2b)
 - **Proposal**: [July 2, 2026 Proposed Changes to Spark for Upcoming Spell](https://forum.skyeco.com/t/july-2-2026-proposed-changes-to-spark-for-upcoming-spell/27982)
 
-If this executive proposal passes, then the Spark proxy spell will withdraw all USDS and sUSDS in the Base ALMProxy back to the Ethereum ALMProxy.
+If this executive proposal passes, then the Spark proxy spell will withdraw all USDS and sUSDS in the [Base ALMProxy](https://basescan.org/address/0x2917956eFF0B5eaF030abDB4EF4296DF775009cA) back to the [Ethereum ALMProxy](https://etherscan.io/address/0x1601843c5E9bC251A3272907010AFa41Fa18347E).
 
 ##### [OP Mainnet] Spark Liquidity Layer - Remove Excess Liquidity
 
 - **Authorization**: [Snapshot Poll 0x4f6d3e7f769d8fe5c7713338274a24bb7932f0fb0d46ce0bc0c0f0087172fa2b](https://snapshot.box/#/s:sparkdao.eth/proposal/0x4f6d3e7f769d8fe5c7713338274a24bb7932f0fb0d46ce0bc0c0f0087172fa2b)
 - **Proposal**: [July 2, 2026 Proposed Changes to Spark for Upcoming Spell](https://forum.skyeco.com/t/july-2-2026-proposed-changes-to-spark-for-upcoming-spell/27982)
 
-If this executive proposal passes, then the Spark proxy spell will withdraw all USDS and sUSDS in the OP Mainnet ALMProxy back to the Ethereum ALMProxy.
+If this executive proposal passes, then the Spark proxy spell will withdraw all USDS and sUSDS in the [OP Mainnet ALMProxy](https://optimistic.etherscan.io/address/0x876664f0c9Ff24D1aa355Ce9f1680AE1A5bf36fB) back to the [Ethereum ALMProxy](https://etherscan.io/address/0x1601843c5E9bC251A3272907010AFa41Fa18347E).
 
 ##### [Unichain] Spark Liquidity Layer - Remove Excess Liquidity
 
 - **Authorization**: [Snapshot Poll 0x4f6d3e7f769d8fe5c7713338274a24bb7932f0fb0d46ce0bc0c0f0087172fa2b](https://snapshot.box/#/s:sparkdao.eth/proposal/0x4f6d3e7f769d8fe5c7713338274a24bb7932f0fb0d46ce0bc0c0f0087172fa2b)
 - **Proposal**: [July 2, 2026 Proposed Changes to Spark for Upcoming Spell](https://forum.skyeco.com/t/july-2-2026-proposed-changes-to-spark-for-upcoming-spell/27982)
 
-If this executive proposal passes, then the Spark proxy spell will withdraw all USDS and sUSDS in the Unichain ALMProxy back to the Ethereum ALMProxy.
+If this executive proposal passes, then the Spark proxy spell will withdraw all USDS and sUSDS in the [Unichain ALMProxy](https://uniscan.xyz/address/0x345E368fcCd62266B3f5F37C9a131FD1c39f5869) back to the [Ethereum ALMProxy](https://etherscan.io/address/0x1601843c5E9bC251A3272907010AFa41Fa18347E).
 
 ##### [Arbitrum] Spark Savings - Deploy spUSDT
 
 - **Authorization**: [Snapshot Poll 0xbf916af7e6765a7d0ebd1d8d09cf58856bac0d46e7c5d597e411fb86f4f7c004](https://snapshot.box/#/s:sparkdao.eth/proposal/0xbf916af7e6765a7d0ebd1d8d09cf58856bac0d46e7c5d597e411fb86f4f7c004)
 - **Proposal**: [July 2, 2026 Proposed Changes to Spark for Upcoming Spell](https://forum.skyeco.com/t/july-2-2026-proposed-changes-to-spark-for-upcoming-spell/27982)
 
-If this executive proposal passes, then the Spark proxy spell will deploy `spUSDT` on Arbitrum.
+If this executive proposal passes, then the Spark proxy spell will deploy `spUSDT` on Arbitrum with the following address, parameters, and [rate limits](https://sky-atlas.io/#8efb0a11-b798-48eb-af19-f65b38f039b5):
 
-The deployment will use the following parameters:
-
-- `spUSDT` implementation: [`0x282Dafe8b42979e66a90f3e3a6cda8e43F5DD6f0`](https://arbiscan.io/address/0x282Dafe8b42979e66a90f3e3a6cda8e43F5DD6f0)
-- `spUSDT`: [`0x45D91340B7e41831b7ef6675f8F0C31f72c3A850`](https://arbiscan.io/address/0x45D91340B7e41831b7ef6675f8F0C31f72c3A850)
+- spUSDT addresses
+  - Spark Vaults v2 Implementation: [0x282dAfE8B97e2Db5053761a4601ab2E1CB976318](https://arbiscan.io/address/0x282dAfE8B97e2Db5053761a4601ab2E1CB976318)
+  - spUSDT: [0x45d91340B3B7B96985A72b5c678F7D9e8D664b62](https://arbiscan.io/address/0x45d91340B3B7B96985A72b5c678F7D9e8D664b62)
+- Roles
+  - Default admin: [0x65d946e533748A998B1f0E430803e39A6388f7a1](https://arbiscan.io/address/0x65d946e533748A998B1f0E430803e39A6388f7a1) (Spark Executor on Arbitrum)
+  - Setter: [0x4eE67c8Db1BAa6ddE99d936C7D313B5d31e8fa38](https://arbiscan.io/address/0x4eE67c8Db1BAa6ddE99d936C7D313B5d31e8fa38) (ALM Proxy Freezable)
+  - Taker: [0x92afd6F2385a90e44da3a8B60fe36f6cBe1D8709](https://arbiscan.io/address/0x92afd6F2385a90e44da3a8B60fe36f6cBe1D8709) (ALM Proxy on Arbitrum)
+- Yield
+  - Max yield: **6%**
+  - Current yield (at launch): **0%**
 - Supply cap: **250 million USDT**
-- Maximum yield: **6%**
-- Launch current yield: **0%**
+- SLL rate limits
+  - take
+    - maxAmount: **unlimited**
+  - transferAssets
+    - recipient: spUSDT address
+    - maxAmount: **unlimited**
+  - Bridge USDT0 to Ethereum (Arbitrum → Ethereum return route)
+    - destination: ALM Proxy on Ethereum ([0x1601843c5E9bC251A3272907010AFa41Fa18347E](https://etherscan.io/address/0x1601843c5E9bC251A3272907010AFa41Fa18347E))
+    - maxAmount: **unlimited**
+- ALM Proxy Freezable roles
+  - Allocator (primary relayer): [0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB]((https://arbiscan.io/address/0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB))
+  - Allocator (backstop relayer): [0x8Cc0Cb0cfB6B7e548cfd395B833c05C346534795]((https://arbiscan.io/address/0x8Cc0Cb0cfB6B7e548cfd395B833c05C346534795))
+  - Freezer: [0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431]((https://arbiscan.io/address/0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431))
 
 ##### [Avalanche] Spark Liquidity Layer - Add Timelock and Guardian to Avalanche Governance Bridge
 
