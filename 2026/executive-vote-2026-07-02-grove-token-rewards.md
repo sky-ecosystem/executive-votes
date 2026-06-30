@@ -15,7 +15,7 @@ If this executive proposal passes, then the following actions will occur within 
 
 - GROVE token rewards for USDS stakers will be initialized.
 - The new Grove ALMProxy will be whitelisted on `MCD_LITE_PSM_USDC_A`.
-- `PAU_BEACON` will be added to the Chainlog.
+- `PAU_BEACON` will be added to the [chainlog](https://chainlog.skyeco.com/).
 - **14 million USDS** will be transferred from Amatsu's SubProxy to Sky Frontier Foundation.
 - The Safe Harbor Agreement will be updated.
 - Spark, Grove, and Skybase proxy spells will be whitelisted in their respective StarGuard modules.
@@ -43,8 +43,8 @@ If this executive proposal passes, then a USDS -> GROVE farm will be initialized
 
 The following actions will occur:
 
-- Add [`0xcBCfCD450de686894d3C5E7E8975cF23EEF077B2`](https://etherscan.io/address/0xcBCfCD450de686894d3C5E7E8975cF23EEF077B2) to the Chainlog as `MCD_VEST_GROVE_TREASURY`.
-- Add [`0xB30FE1Cf884B48a22a50D22a9282004F2c5E9406`](https://etherscan.io/address/0xB30FE1Cf884B48a22a50D22a9282004F2c5E9406) to the Chainlog as `GROVE`.
+- Add [`0xcBCfCD450de686894d3C5E7E8975cF23EEF077B2`](https://etherscan.io/address/0xcBCfCD450de686894d3C5E7E8975cF23EEF077B2) to the [chainlog](https://chainlog.skyeco.com/) as `MCD_VEST_GROVE_TREASURY`.
+- Add [`0xB30FE1Cf884B48a22a50D22a9282004F2c5E9406`](https://etherscan.io/address/0xB30FE1Cf884B48a22a50D22a9282004F2c5E9406) to the [chainlog](https://chainlog.skyeco.com/) as `GROVE`.
 - Initialize the USDS -> GROVE farm with `TreasuryFundedFarmingInit.initFarm` using the following parameters:
   - `stakingToken`: `USDS`
   - `rewardsToken`: `GROVE`
@@ -71,7 +71,7 @@ If this executive proposal passes, then the new Grove ALMProxy at [`0x0DcD9298e1
 - **Authorization**: [Sky Atlas](https://sky-atlas.io/#fd030da6-1a4d-4df6-8e87-043d4b9666d5)
 - **Proposal**: [Diamond PAU and Beacon Launch](https://forum.skyeco.com/t/diamond-pau-and-beacon-launch/27997)
 
-If this executive proposal passes, then [`0x829dC2b7E94B1954F0764E573f2E0d45Afa28199`](https://etherscan.io/address/0x829dC2b7E94B1954F0764E573f2E0d45Afa28199) will be added to the Chainlog as `PAU_BEACON`.
+If this executive proposal passes, then [`0x829dC2b7E94B1954F0764E573f2E0d45Afa28199`](https://etherscan.io/address/0x829dC2b7E94B1954F0764E573f2E0d45Afa28199) will be added to the [chainlog](https://chainlog.skyeco.com/) as `PAU_BEACON`.
 
 ### Transfer USDS from Amatsu SubProxy to SFF
 
@@ -80,7 +80,7 @@ If this executive proposal passes, then [`0x829dC2b7E94B1954F0764E573f2E0d45Afa2
 
 If this executive proposal passes, then the following actions will occur:
 
-- [`0x5162489F4FEa651b76c75193387d08aAAC9CB52C`](https://etherscan.io/address/0x5162489F4FEa651b76c75193387d08aAAC9CB52C) will be added to the Chainlog as `SUBPROXY_METHODS`.
+- [`0x5162489F4FEa651b76c75193387d08aAAC9CB52C`](https://etherscan.io/address/0x5162489F4FEa651b76c75193387d08aAAC9CB52C) will be added to the [chainlog](https://chainlog.skyeco.com/) as `SUBPROXY_METHODS`.
 - `SUBPROXY_METHODS` will be executed in `AMATSU_SUBPROXY` to transfer **14 million USDS** to Sky Frontier Foundation at [`0xca5183FB9997046fbd9bA8113139bf5a5Af122A0`](https://etherscan.io/address/0xca5183FB9997046fbd9bA8113139bf5a5Af122A0).
 
 ### Safe Harbor Update
