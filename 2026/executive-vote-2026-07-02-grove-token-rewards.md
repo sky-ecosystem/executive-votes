@@ -13,7 +13,6 @@ If this executive proposal passes, then the following actions will occur within 
 
 ## Executive Summary
 
-- The earliest execution date will be set to July 6, 2026, at 18:00 UTC.
 - GROVE token rewards for USDS stakers will be initialized.
 - The new Grove ALMProxy will be whitelisted on `MCD_LITE_PSM_USDC_A`.
 - `PAU_BEACON` will be added to the Chainlog.
@@ -25,9 +24,9 @@ If this executive proposal passes, then the following actions will occur within 
 
 Unless otherwise noted, the actions listed above are subject to the [GSM Pause Delay](https://sky-atlas.io/#3c9545d9-775f-4149-88bf-7d297b5302c6). This means that if this executive proposal passes, the changes listed above will only become active in the Sky Protocol after the GSM Pause Delay has expired. The GSM Pause Delay is currently set to [**48 hours**](https://sky-atlas.io/#db442d8a-8d98-47a2-b162-01c2adc22b67).
 
-This executive proposal includes an office-hours modifier that ensures the proposal can only be executed between 14:00 and 21:00 UTC, Monday through Friday. This is to ensure that at least some auction keepers are available to react to unforeseen market events that may occur as a result of the changes included in this executive proposal.
+This executive proposal **has its earliest execution date set to Monday, July 6, 2026 at 18:00 UTC**. This means that it cannot be executed before that date.
 
-This executive proposal includes an earliest possible execution date. The earliest date it can execute is **July 6, 2026, at 18:00 UTC**.
+This executive proposal includes an office-hours modifier that ensures the proposal can only be executed between 14:00 and 21:00 UTC, Monday through Friday. This is to ensure that at least some auction keepers are available to react to unforeseen market events that may occur as a result of the changes included in this executive proposal.
 
 This executive proposal will be valid for 30 days from its creation. This means that if this executive proposal does not pass within 30 days, then it will expire and can no longer have any effect on the Sky Protocol.
 
