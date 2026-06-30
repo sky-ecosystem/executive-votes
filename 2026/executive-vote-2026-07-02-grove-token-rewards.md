@@ -157,8 +157,8 @@ If this executive proposal passes, then the Spark proxy spell will deploy `spUSD
 
 The deployment will use the following parameters:
 
-- `spUSDT` implementation: [`0x282dAfE8B42979e66A90f3e3a6cDA8E43f5dd6f0`](https://arbiscan.io/address/0x282dAfE8B42979e66A90f3e3a6cDA8E43f5dd6f0)
-- `spUSDT`: [`0x45d91340b7e41831b7ef6675f8f0c31f72c3a850`](https://arbiscan.io/address/0x45d91340b7e41831b7ef6675f8f0c31f72c3a850)
+- `spUSDT` implementation: [`0x282Dafe8b42979e66a90f3e3a6cda8e43F5DD6f0`](https://arbiscan.io/address/0x282Dafe8b42979e66a90f3e3a6cda8e43F5DD6f0)
+- `spUSDT`: [`0x45D91340B7e41831b7ef6675f8F0C31f72c3A850`](https://arbiscan.io/address/0x45D91340B7e41831b7ef6675f8F0C31f72c3A850)
 - Supply cap: 250 million USDT
 - Maximum yield: 6%
 - Launch current yield: 0%
