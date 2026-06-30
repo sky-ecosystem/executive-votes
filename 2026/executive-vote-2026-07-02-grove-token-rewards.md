@@ -270,7 +270,20 @@ The proxy spell will:
 - **Authorization**: [Governance Poll ID 1638](https://vote.sky.money/polling/QmdXjfm6)
 - **Proposal**: [July 2, 2026 Proposed Changes to Grove for Upcoming Spell](https://forum.skyeco.com/t/july-2-2026-proposed-changes-to-grove-for-upcoming-spell/27976)
 
-If this executive proposal passes, then the tokenized treasury instances for Basin: JTRSY and BUIDL will be onboarded.
+If this executive proposal passes, then the tokenized treasury instances for Basin: JTRSY and BUIDL will be onboarded with the following [rate limits](https://sky-atlas.io/#8efb0a11-b798-48eb-af19-f65b38f039b5):
+
+- JTRSY-USDS:
+  - Deposit rate limits:
+    - maxAmount: **5,000,000 USDS**
+    - slope: **5,000,000 USDS**
+  - Withdrawal rate limits:
+    - maxAmount: **Unlimited**
+- BUIDL-USDS:
+  - Deposit rate limits:
+    - maxAmount: **5,000,000 USDS**
+    - slope: **5,000,000 USDS**
+  - Withdrawal rate limits:
+    - maxAmount: **Unlmited**
 
 ##### [Ethereum] Swap USDC to USDS in Grove SubProxy
 
