@@ -154,11 +154,17 @@ Additionally the pre-configured facets and factory contracts for Diamond PAU dep
 - [Administered Agent Factory](https://etherscan.io/address/0x2968c3b5478cF93B70aB1e24255d4EDBBd27a089)
 - [Default PAU Assembler](https://etherscan.io/address/0xc812aAD3FaE2D3511C664374B601a9BeBFeCCa2E)
 
-### Spark Proxy Spell
+### Prime Agent Proxy Spells
+
+If this executive proposal passes, then a Spark proxy spell with address [`0xcc7529473B850103524905D3914470898aDe8747`](https://etherscan.io/address/0xcc7529473B850103524905D3914470898aDe8747) and codehash `0xf952ba1ea1df8c42217cecd3c4e88abcde2864fbf1e4465b1a13af0bf05e00f0` will be whitelisted in the [Spark StarGuard](https://etherscan.io/address/0x6605aa120fe8b656482903E7757BaBF56947E45E).
+
+If this executive proposal passes, then a Grove proxy spell with address [`0xa21d2E301D50AfF797143deb5a7C400482E9122C`](https://etherscan.io/address/0xa21d2E301D50AfF797143deb5a7C400482E9122C) and codehash `0xb3377dba77dfd8bce7c272e7c4c445ab48b3d0ec3fd0a52f512a39974f059a0f` will be whitelisted in the [Grove StarGuard](https://etherscan.io/address/0xfc51CAa049E8894bEcFfB68c61095C3F3Ec8a880).
+
+If this executive proposal passes, then a Skybase proxy spell with address [`0xd3e4e16ED515Be794fd181D7d2cEB0447A6f2cb5`](https://etherscan.io/address/0xd3e4e16ED515Be794fd181D7d2cEB0447A6f2cb5) and codehash `0x09c387eed3e4373a4cc91fc28686e103cfc704335279f65f2f7308f474c002d9` will be whitelisted in the [Skybae StarGuard](https://etherscan.io/address/0xA170086AeF9b3b81dD73897A0dF56B55e4C2a1F7).
 
 If this executive proposal passes, then a Spark proxy spell with address [`0xcc7529473B850103524905D3914470898aDe8747`](https://etherscan.io/address/0xcc7529473B850103524905D3914470898aDe8747) and codehash `0xf952ba1ea1df8c42217cecd3c4e88abcde2864fbf1e4465b1a13af0bf05e00f0` will be whitelisted in `SPARK_STARGUARD`.
 
-#### Spark Proxy Spell Contents
+#### Spark Proxy Spell
 
 ##### [Ethereum] SparkLend - Set USDC Interest Rate Model to Target Very Low Liquidity
 
@@ -240,10 +246,6 @@ The following parameters will be used:
 - Timelock delay: 3 days
 - Planned guardian multisig: [`0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC`](https://snowtrace.io/address/0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC)
 
-### Grove Proxy Spell
-
-If this executive proposal passes, then a Grove proxy spell with address [`0xa21d2E301D50AfF797143deb5a7C400482E9122C`](https://etherscan.io/address/0xa21d2E301D50AfF797143deb5a7C400482E9122C) and codehash `0xb3377dba77dfd8bce7c272e7c4c445ab48b3d0ec3fd0a52f512a39974f059a0f` will be whitelisted in `GROVE_STARGUARD`.
-
 #### Grove Proxy Spell Contents
 
 ##### [Ethereum] Onboard the Diamond PAU Controller on the New Grove Allocator Instance
@@ -274,11 +276,7 @@ If this executive proposal passes, then USDC will be swapped to USDS in the Grov
 
 If this executive proposal passes, then **800,000 USDS** will be transferred to the Grove Foundation Multisig.
 
-### Skybase Proxy Spell
-
-If this executive proposal passes, then a Skybase proxy spell with address [`0xd3e4e16ED515Be794fd181D7d2cEB0447A6f2cb5`](https://etherscan.io/address/0xd3e4e16ED515Be794fd181D7d2cEB0447A6f2cb5) and codehash `0x09c387eed3e4373a4cc91fc28686e103cfc704335279f65f2f7308f474c002d9` will be whitelisted in `SKYBASE_STARGUARD`.
-
-#### Skybase Proxy Spell Contents
+#### Skybase Proxy Spell
 
 ##### [Ethereum] Transfer 700,000 USDS from the Skybase SubProxy to the Skybase Foundation Operational Multisig
 
