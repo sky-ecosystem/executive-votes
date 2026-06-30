@@ -36,9 +36,11 @@ When not a currency amount or in a mathematical/technical context, numbers must 
 Numbers greater or equal to 1 million should be so spelled as long as the least non-zero decimal place is the ten thousands place, e.g.:
 
 - 1,000,000 = 1 million
-- 1,500,000 = 1,5 million
-- 1,550,000 = 1,55 million
+- 1,500,000 = 1.5 million
+- 1,550,000 = 1.55 million
 - 1,555,000 = 1,555,000
+
+Use a period (`.`) as the decimal separator and a comma (`,`) as the thousands separator.
 
 ## Format
 
