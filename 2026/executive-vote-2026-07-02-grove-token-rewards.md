@@ -150,9 +150,9 @@ If this executive proposal passes, then the Spark proxy spell will update the Sp
 
 The following SparkLend USDC interest rate parameters will be updated:
 
-- Optimal utilization (`kink`) will be increased from **95%** to **98%**.
+- [Optimal utilization (`kink`)](https://sky-atlas.io/#a6677e8a-7ef1-460b-a5cd-5411319bf2c0) will be increased from **95%** to **98%**.
 - Slope1 spread above the rate source will be decreased from **125 bps** to **100 bps**.
-- Base variable borrow rate, variable slope2, and reserve factor will remain unchanged.
+- [Base variable borrow rate](https://sky-atlas.io/#9006fd8d-bd13-48fc-bf2f-04f47579b3b0), variable slope2, and [reserve factor](https://sky-atlas.io/#a68d2ffe-e541-4754-b11e-6cafe7b4ae5c) will remain unchanged.
 - Rate source (sUSDS/SSR) anchor: [0x57027B6262083E3aC3c8B2EB99f7e8005f669973](https://etherscan.io/address/0x57027B6262083E3aC3c8B2EB99f7e8005f669973)
 
 ##### [Ethereum] SparkLend - Claim SparkLend Reserves
