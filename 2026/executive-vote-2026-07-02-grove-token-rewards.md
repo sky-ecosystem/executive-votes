@@ -2,7 +2,7 @@
 title: Template - [Executive Vote] Initialize GROVE Token Rewards, Whitelist New Grove ALMProxy on LitePSM, Add PAU Beacon to Chainlog, Transfer USDS from Amatsu SubProxy to SFF, Update Safe Harbor Agreement, Prime Agent Proxy Spells - July 2, 2026
 summary: Initialize GROVE token rewards farm, whitelist the new Grove ALMProxy on LitePSM, add PAU_BEACON to the Chainlog, transfer 14 million USDS from the Amatsu SubProxy to the Sky Frontier Foundation, update the Safe Harbor Agreement, and whitelist Spark, Grove, and Skybase proxy spells.
 date: 2026-07-02T00:00:00.000Z
-address: "$spell_address"
+address: "0xEbf156fB6C87cBE0a962944eC254b519c1441A51"
 ---
 
 # [Executive Proposal] Initialize GROVE Token Rewards, Whitelist New Grove ALMProxy on LitePSM, Add PAU Beacon to Chainlog, Transfer USDS from Amatsu SubProxy to SFF, Update Safe Harbor Agreement, Prime Agent Proxy Spells - July 2, 2026
