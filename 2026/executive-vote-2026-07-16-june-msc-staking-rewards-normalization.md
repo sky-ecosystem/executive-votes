@@ -20,7 +20,7 @@ If this executive proposal passes, the following **actions** will occur within t
 - The Monthly Settlement Cycle for June 2026 will be executed.
 - LSSKY-SKY staking rewards will be normalized.
 - The offboarding of RWA001-A will be completed.
-- Emergency spells relating to the STUSDS_MOM will be added to the [chainlog](https://chainlog.skyeco.com).
+- Emergency spells relating to STUSDS_MOM will be added to the [chainlog](https://chainlog.skyeco.com).
 - The Osero DPAU ALMProxy will be whitelisted on the LitePSM.
 - DC-IAM parameters for Osero will be updated.
 - Proxy spells for Spark, Grove, and Osero will be whitelisted in their respective StarGuard modules.
@@ -72,7 +72,7 @@ If this executive proposal passes, then the Monthly Settlement Cycle for June 20
 
 - Transfer **3,378,069 USDS** from the Surplus Buffer to the [Core Council Buffer](https://etherscan.io/address/0x210CFcF53d1f9648C1c4dcaEE677f0Cb06914364).
 
-This amount represents a **635,130 USDS** Grove Core Council Genesis Capital Expenses Repayment, **1,371,470 USDS** allocated to the Core Council, and **1,371,469 USDS** allocated to the Fortification Conserver, with the Fortification Conserver portion to be paid out by the Core Council Multisig. These items have been combined for coding simplicity and gas efficiency.
+This amount represents a **635,130 USDS** Grove Core Council Genesis Capital Expenses Repayment, **1,371,470 USDS** allocated to the Core Council, and **1,371,469 USDS** allocated to the Fortification Foundation, with the Fortification Foundation portion to be paid out by the Core Council Multisig. These items have been combined for coding simplicity and gas efficiency.
 
 ### Staking Rewards Normalization
 
@@ -114,7 +114,7 @@ If this executive proposal passes, then the following standby spell factories an
 
 ### Whitelist Osero ALMProxy on LitePSM
 
-- **Authorization**: [Governance Poll ID 1641](https://vote.sky.money/polling/Qmd3yk9L)
+- **Authorization**: [Governance Poll ID 1640](https://vote.sky.money/polling/QmUnVyGg)
 - **Proposal**: [Prime Technical Scope](https://forum.skyeco.com/t/july-16-2026-proposed-changes-to-osero-for-upcoming-spell/28023)
 
 If this executive proposal passes, then the Osero ALMProxy at [`0x6d370e359e9cbd0Fd35Bb38fAF705D84238CB884`](https://etherscan.io/address/0x6d370e359e9cbd0Fd35Bb38fAF705D84238CB884) will be whitelisted on [`MCD_LITE_PSM_USDC_A`](https://etherscan.io/address/0xf6e72Db5454dd049d0788e411b06CfAF16853042).
@@ -126,8 +126,8 @@ If this executive proposal passes, then the Osero ALMProxy at [`0x6d370e359e9cbd
 
 If this executive proposal passes, then the following DC-IAM parameters will be updated for the Osero vault (ALLOCATOR-PRYSM-A):
 
-- Decrease ALLOCATOR-PRYSM-A [Maximum Debt Ceiling (`line`)](https://sky-atlas.io/#6ba18f25-dae8-4fa5-929e-3c7071b70107) by 5 million USDS from 10 million USDS to **5 million USDS**
-- Decrease ALLOCATOR-PRYSM-A [Target Available Debt (`gap`)](https://sky-atlas.io/#07353080-4346-4ffd-bfc8-913cac78776a) by 9 million USDS from 10 million USDS to **1 million USDS**
+- Decrease ALLOCATOR-PRYSM-A [Maximum Debt Ceiling (`line`)](https://sky-atlas.io/#6ba18f25-dae8-4fa5-929e-3c7071b70107) by 5 million USDS from 10 million USDS to **5 million USDS**.
+- Decrease ALLOCATOR-PRYSM-A [Target Available Debt (`gap`)](https://sky-atlas.io/#07353080-4346-4ffd-bfc8-913cac78776a) by 9 million USDS from 10 million USDS to **1 million USDS**.
 - Leave ALLOCATOR-PRYSM-A [Stability Fee (`duty`)](https://sky-atlas.io/#0257a420-e92e-4942-b794-a559f299365f) and [Ceiling Increase Cooldown (`ttl`)](https://sky-atlas.io/#a5ae79ad-9460-41a3-8dbf-65605f54b79b) unchanged.
 
 ### Safe Harbor Update
@@ -182,10 +182,10 @@ If this executive proposal passes, then the Spark proxy spell will activate the 
 If this executive proposal passes, then the Spark proxy spell will enable bridging of USDG from Ethereum to Robinhood Chain with the following [rate limits](https://sky-atlas.io/#8efb0a11-b798-48eb-af19-f65b38f039b5):
 
 - transferAsset (USDG)
-  - recipient: [0xf752cF318dfF2C01575c98741AA52e7a34d873Fd](https://etherscan.io/address/0x17C0F5345d1144fdF670D14719077be3842E5087)
+  - recipient: [0xf752cF318dfF2C01575c98741AA52e7a34d873Fd](https://etherscan.io/address/0xf752cF318dfF2C01575c98741AA52e7a34d873Fd)
   - destination: [0xfD2fD4B046136B540A56C11c75ac679AE7d1dB24](https://robinhoodchain.blockscout.com/address/0xfD2fD4B046136B540A56C11c75ac679AE7d1dB24)
-  - maxAmount: **50,000,000 USDG**
-  - slope: **250,000,000 USDG per day**
+  - maxAmount: **50 million USDG**
+  - slope: **250 million USDG per day**
 
 ##### [X Layer] Spark Savings - Deploy spUSDT
 
@@ -225,8 +225,8 @@ If this executive proposal passes, then the Spark proxy spell will enable USDT b
 
 - Bridge USDT to X Layer (Ethereum → X Layer route)
   - destination: [0x83A914C361bB729EB6BEBC8C7bA993667A0E6Df8](https://web3.okx.com/explorer/x-layer/evm/address/0x83A914C361bB729EB6BEBC8C7bA993667A0E6Df8) (ALM Proxy on X Layer)
-  - maxAmount: **5,000,000 USDT**
-  - slope: **100,000,000 USDT per day**
+  - maxAmount: **5 million USDT**
+  - slope: **100 million USDT per day**
 
 ##### [Ethereum] Spark Liquidity Layer - Deactivate Deprecated USDT Morpho V2 Vault
 
@@ -245,7 +245,7 @@ If this executive proposal passes, then the Spark proxy spell will remove the ol
 - **Authorization**: [Snapshot Poll](https://snapshot.box/#/s:sparkfi.eth/proposal/0x2df281a276e0c17eff9a05e65bfc05937c2f600edec1a82386a6efb6dbe9d63d)
 - **Proposal**: [Prime Technical Scope](https://forum.skyeco.com/t/july-16-2026-proposed-changes-to-spark-for-upcoming-spell/28029)
 
-If this executive proposal passes, then the Spark proxy spell will transfer **2 million USDS** from the Spark SubProxy to the Spark Foundation at [0x92e4629a4510AF5819d7D1601464C233599fF5ec](https://etherscan.io/address/0x92e4629a4510AF5819d7D1601464C233599fF5ec) to fund exchange/distributor hold-to-earn initiatives and term deposit boost programs.
+If this executive proposal passes, then the Spark proxy spell will transfer **2 million USDS** from the Spark SubProxy to the Spark Foundation at [0x92e4629a4510AF5819d7D1601464C233599fF5ec](https://etherscan.io/address/0x92e4629a4510AF5819d7D1601464C233599fF5ec) to fund exchange and distributor hold-to-earn initiatives and term deposit boost programs.
 
 ##### [Ethereum] Spark Treasury - USDS Transfer to Spark Assets Foundation for Anchorage Fees
 
@@ -259,7 +259,7 @@ If this executive proposal passes, then the Spark proxy spell will transfer **50
 - **Authorization**: [Snapshot Poll](https://snapshot.box/#/s:sparkfi.eth/proposal/0x451bb53f80ad2906ff06cc3d03c88a6b09f350db371c4782e0621e26a1d55a43)
 - **Proposal**: [Prime Technical Scope](https://forum.skyeco.com/t/july-16-2026-proposed-changes-to-spark-for-upcoming-spell/28029)
 
-If this executive proposal passes, then the Spark proxy spell will transfer an amount of USDS to the Grove ALMProxy at [0x491EDFB0B8b608044e227225C715981a30F3A44E](https://etherscan.io/address/0x491EDFB0B8b608044e227225C715981a30F3A44E) in exchange for the Grove ALMProxy's balance of syrupUSDC. The precise amount of USDS will be determined by the formula: `85,943,747.637271 * syrupUSDC/USDC conversion rate` at the time of execution, in USDS.
+If this executive proposal passes, then the Spark proxy spell will transfer an amount of USDS to the Grove ALMProxy at [0x491EDFB0B8b608044e227225C715981a30F3A44E](https://etherscan.io/address/0x491EDFB0B8b608044e227225C715981a30F3A44E) in exchange for the Grove ALMProxy's balance of syrupUSDC. The precise amount of USDS will be determined by the formula: `85,943,747.637271 * syrupUSDC/USDC conversion rate` at the time of execution.
 
 ##### [Ethereum] SparkLend - Claim SparkLend Reserves
 
@@ -291,7 +291,7 @@ The Pull Request for the Grove proxy spell can be viewed [here](https://github.c
 - **Authorization**: [Governance Poll ID 1640](https://vote.sky.money/polling/QmUnVyGg)
 - **Proposal**: [Prime Technical Scope](https://forum.skyeco.com/t/july-16-2026-proposed-changes-to-grove-for-upcoming-spell/28024)
 
-If this executive proposal passes, then the Grove proxy spell will onboard the Grove Liquidity Layer to Robinhood chain with the following contracts and rate limits.
+If this executive proposal passes, then the Grove proxy spell will onboard the Grove Liquidity Layer to Robinhood Chain with the following contracts and [rate limits](https://sky-atlas.io/#8efb0a11-b798-48eb-af19-f65b38f039b5):
 
 ###### Contracts
 
@@ -324,12 +324,12 @@ If this executive proposal passes, then the Grove proxy spell will onboard the G
 
 | Parameter | Max Amount | Slope (Tokens/Day) |
 | --- | --- | --- |
-| LIMIT_ASSET_TRANSFER (USDC from mainnet ALMProxy to Paxos USDC receive address ) | **50,000,000 USDC** | **50,000,000 USDC/day** |
-| LIMIT_ASSET_TRANSFER (USDG from Robinhood Chain ALMProxy to Paxos USDG receive address) | **50,000,000 USDG** | **50,000,000 USDG/day** |
+| LIMIT_ASSET_TRANSFER (USDC from mainnet ALMProxy to Paxos USDC receive address ) | **50 million USDC** | **50 million USDC/day** |
+| LIMIT_ASSET_TRANSFER (USDG from Robinhood Chain ALMProxy to Paxos USDG receive address) | **50 million USDG** | **50 million USDG/day** |
 
 These contracts and rate limits will activate the Grove Liquidity Layer on Robinhood Chain and activate bridging of USDG in both directions. The conversion from USDC to USDG is an off-chain conversion handled by Paxos.
 
-##### [Ethereum] Onboard the Robinhood Chain Grove x Steakhouse USDG Morpho Vault for Grove ALM deposits
+##### [Robinhood Chain] Onboard the Robinhood Chain Grove x Steakhouse USDG Morpho Vault for Grove ALM deposits
 
 - **Authorization**: [Governance Poll ID 1640](https://vote.sky.money/polling/QmUnVyGg)
 - **Proposal**: [Prime Technical Scope](https://forum.skyeco.com/t/july-16-2026-proposed-changes-to-grove-for-upcoming-spell/28024)
@@ -338,8 +338,8 @@ If this executive proposal passes, then the Grove proxy spell will onboard the R
 
 - Vault address: [0xBEEff039907422219Fb367e525954DDC092854d9](https://robinhoodchain.blockscout.com/address/0xBEEff039907422219Fb367e525954DDC092854d9)
 - Deposits:
-  - maxAmount: **50,000,000 USDG**
-  - slope: **50,000,000 USDG/day**
+  - maxAmount: **50 million USDG**
+  - slope: **50 million USDG/day**
 - Withdrawals:
   - maxAmount: **Unlimited**
 
@@ -397,7 +397,7 @@ The proxy spell will:
 - **Authorization**: [Governance Poll ID 1640](https://vote.sky.money/polling/QmUnVyGg)
 - **Proposal**: [Prime Technical Scope](https://forum.skyeco.com/t/july-16-2026-proposed-changes-to-osero-for-upcoming-spell/28023)
 
-If this executive proposal passes, then  the Osero proxy spell will onboard SparkLend USDS (spUSDS) with the following [rate limits](https://sky-atlas.io/#8efb0a11-b798-48eb-af19-f65b38f039b5):
+If this executive proposal passes, then the Osero proxy spell will onboard SparkLend USDS (spUSDS) with the following [rate limits](https://sky-atlas.io/#8efb0a11-b798-48eb-af19-f65b38f039b5):
 
 - Deposits:
   - maxAmount: **5 million USDS**
