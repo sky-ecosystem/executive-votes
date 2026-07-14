@@ -129,7 +129,7 @@ If this executive proposal passes, then the following DC-IAM parameters will be 
 
 - Decrease ALLOCATOR-PRYSM-A [Maximum Debt Ceiling (`line`)](https://sky-atlas.io/#6ba18f25-dae8-4fa5-929e-3c7071b70107) by 5 million USDS from 10 million USDS to **5 million USDS**.
 - Decrease ALLOCATOR-PRYSM-A [Target Available Debt (`gap`)](https://sky-atlas.io/#07353080-4346-4ffd-bfc8-913cac78776a) by 9 million USDS from 10 million USDS to **1 million USDS**.
-- Leave ALLOCATOR-PRYSM-A [Stability Fee (`duty`)](https://sky-atlas.io/#0257a420-e92e-4942-b794-a559f299365f) and [Ceiling Increase Cooldown (`ttl`)](https://sky-atlas.io/#a5ae79ad-9460-41a3-8dbf-65605f54b79b) unchanged.
+- Leave ALLOCATOR-PRYSM-A [Stability Fee (`duty`)](https://sky-atlas.io/#0257a420-e92e-4942-b794-a559f299365f) and [Ceiling Increase Cooldown (`ttl`)](https://sky-atlas.io/#a5ae79ad-9460-41a3-8dbf-65605f54b79b) unchanged at **0%** and **24 hours** respectively.
 
 ### Safe Harbor Update
 
