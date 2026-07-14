@@ -27,7 +27,18 @@ project checklists, principles, and the established conventions of recent docs.
    **Compare like-with-like** — see the principle below; when an item's convention
    is in question, find prior occurrences of *that same item type* (ideally produced
    by the same function/mechanism), not a superficially similar item elsewhere.
-3. **Read the target doc in full.**
+3. **Read the target doc in full — the LIVE file, re-read fresh at review time.**
+   Review the current working-tree file, never a committed/older version and never a
+   copy you read earlier in the conversation — the author iterates continuously, so a
+   read from even a few messages ago is likely stale. **Re-read the file immediately
+   before producing findings**, and re-read any specific line again before asserting a
+   finding on it. Caveat: the file tools read from **disk**, so unsaved changes in the
+   author's IDE buffer are invisible to you and the on-disk copy can lag the live
+   editor. If the author is editing interactively, ask them to **save** first (or to
+   confirm the exact current text of any line you're about to flag) so you're
+   reviewing the live state. Do not report a finding on a line whose current content
+   you have not just verified. (This has produced repeated false findings against
+   already-fixed content — treat it as a hard rule.)
 4. **Follow the links and read what they point to** (see below) — the linked
    content is part of the context the review depends on.
 5. **Produce structured feedback** grouped by severity:
@@ -76,6 +87,23 @@ what the doc actually authorizes, not just how it reads.
     matches (e.g. token symbol, contract name, deployer).
   - **Forum / discussion / poll links** — read enough to confirm the doc's framing,
     amounts, and parameters match what was actually discussed or approved.
+  - **Governance poll links** (`vote.sky.money/polling/<slug>`) — `WebFetch` gets a
+    **403** on the vote portal (bot-blocked and client-rendered), so use the JSON API
+    via `curl`:
+    `curl -s "https://vote.sky.money/api/polling/<slug>?network=mainnet"` where
+    `<slug>` is the trailing path segment of the poll URL (e.g. `QmUnVyGg`). It
+    returns `pollId`, `title`, `summary`, dates, and a `url` to the poll's source
+    markdown. Use this to identify the poll — but **the summary alone is not
+    sufficient to confirm authorization.** Atlas Edit Weekly Cycle polls bundle many
+    changes and the summary is high-level, so a specific item may be authorized
+    without appearing in the summary text. **Follow through to the underlying Atlas
+    changes** — the poll's source/PR and the corresponding `next-gen-atlas` diff — and
+    confirm the *specific* item (the exact parameter, contract, or action) is present
+    in the Atlas edit. Only treat a poll as the wrong authorization once you've
+    checked the underlying Atlas changes and the item genuinely isn't there (🔴).
+    Cross-check the poll cited in the doc against the poll in the instruction sheet's
+    Authority column for the same item, and reconcile any difference against the
+    Atlas changes rather than assuming either is right.
   - **Technical reference links** (e.g. spell source, MIPs, prior execs) — read for
     context that changes how an item should be interpreted.
 - **Cross-check the link's content against the doc.** Flag mismatches between what
@@ -90,6 +118,57 @@ what the doc actually authorizes, not just how it reads.
 - Be judicious: you need not fetch every boilerplate/footer link (e.g. the standard
   Operational Manual or Governance Calendar) more than once, but every
   item-specific authorization, address, and amount-bearing link should be checked.
+
+## Cross-check against the instruction sheet (IMPORTANT)
+
+The doc is crafted from an "Executive Contents" instruction sheet — the source of
+truth for *what the spell is supposed to contain*. Reconcile the two in **both
+directions**; a discrepancy either way is a high-severity (🔴) finding.
+
+- **Sheet → doc**: every instructed item appears in the doc. A missing one is an
+  **omission** — an authorized action the doc failed to describe.
+- **Doc → sheet**: every doc item traces back to a sheet item. One that doesn't is
+  an **unauthorized or stale addition** — the direction reviews most often miss, and
+  where an un-instructed change would hide. No orphans on either side.
+
+### Locating the sheet (public, no auth needed)
+
+Fixed spreadsheet ID: `1w_z5WpqxzwreCcaveB2Ye1PP5B8QAHDglzyxKHG3CHw`. Only the tab
+changes per spell, so **select the tab by position, not name** — the naming
+convention has drifted (older tabs use `Executive Contents - <date>` with a hyphen,
+recent ones `Executive Contents <date>` without), so by-name selection is brittle.
+
+1. Fetch the bootstrap: `curl -sL ".../spreadsheets/d/<ID>/edit"` and parse the
+   ordered sheet registry — entries look like `[<index>,0,"<gid>",[{"1":[[0,0,"<name>"`.
+2. **Take the 3rd tab (index 2)** and read its gid. Index 0 = *Spell Progress
+   Tracking*, index 1 = *Executive Contents (Template)*, index 2 = the current
+   spell (new spells insert here, pushing prior ones down).
+3. Export it: `curl -sL ".../spreadsheets/d/<ID>/export?format=csv&gid=<gid>"`.
+4. **Validate, don't assume**: confirm the resolved tab's name is
+   `Executive Contents <date>` and `<date>` equals the doc's date. If position and
+   date disagree, stop and flag it — do not review against the wrong tab. (Fallback:
+   `.../gviz/tq?tqx=out:csv&sheet=<url-encoded exact name>`, but only with the exact
+   current name.) Reachable without auth as long as the sheet is link-shareable; if a
+   fetch returns HTML instead of CSV, it isn't public — flag as unverified (🔵).
+
+### Reading the sheet
+
+- Two side-by-side blocks: **main-spell** content in cols B-G, and a **proxy spell**
+  block ("… Executive Content") in cols J-N. Parse *both* — proxy items live only in
+  the right block.
+- `Input` rows = top-level items; `Derived` rows = the sub-bullets under them. Match
+  `Input` rows to doc top-level items and `Derived` rows to the doc's bullets.
+- **Checksums (the rows near the top): re-verify against the doc's arithmetic** —
+  total USDS transfers, total SKY transfers, total newly-minted allocator debt must
+  each equal the sum of the corresponding doc amounts. A mismatch is 🔴.
+- Sheet **address/codehash instruction rows** are authoritative for the doc's spell
+  addresses — diff them per the address+codehash guidance below.
+- The `Confirmed`/`Unconfirmed` columns are sign-off **workflow** state, not doc
+  correctness — surface as info at most, **never** as a blocker.
+- Sheet content is mutable — note the fetch timestamp in the findings.
+- Watch for **wording / chain-tag drift** between sheet and doc on the same item
+  (e.g. a `[Robinhood Chain]` vs `[Ethereum]` tag, or a differing category prefix);
+  raise as a question to confirm which is intended rather than assuming.
 
 ## High-value checks (beyond the checklists)
 
@@ -116,13 +195,77 @@ These recur and are easy to miss. Check each explicitly.
 - **Verify each address matches its label.** Cross-check recurring entities
   against recent docs; a label paired with an address used for a different entity
   elsewhere is a likely copy-paste error.
-- **Verify each address links to the correct block explorer for its chain.**
-  Determine each address's chain from its item context (e.g. the `[chain]` tag or
-  surrounding text) and confirm the hyperlink points to that chain's explorer
-  (Ethereum mainnet → `etherscan.io`, Avalanche → `snowscan.xyz`, Base →
-  `basescan.org`, etc.). A mainnet explorer link on a non-mainnet address (or vice
-  versa) is a common error.
+- **Verify each block-explorer link uses the correct explorer for the address's
+  chain — this is a contextual check, driven by the address's chain, not its
+  format.** The same 0x address can exist on many EVM chains, so the *context*
+  decides which explorer is correct, not the address itself. Determine each
+  address's chain from, in order of strength: an explicit chain prefix on the
+  address (`eth:`, `rh:`, …), a `[chain]` tag on the item or section heading, the
+  surrounding text, or the entity's known home chain. Then confirm the link's domain
+  matches that chain. A right-address/wrong-chain-explorer link (e.g. a mainnet
+  `etherscan.io` link on an Avalanche address, or vice versa) is a 🔴 finding.
+  Explorer↔chain mapping (per this repo's established convention — grep recent docs
+  if a chain isn't listed, and anchor on prior usage rather than guessing a domain):
+
+  | Chain | Explorer domain |
+  | --- | --- |
+  | Ethereum mainnet | `etherscan.io` |
+  | Optimism | `optimistic.etherscan.io` |
+  | Base | `basescan.org` |
+  | Arbitrum | `arbiscan.io` |
+  | Unichain | `uniscan.xyz` |
+  | Avalanche | `snowtrace.io` (primary; `snowscan.xyz` also seen) |
+  | Solana | `solscan.io` |
+  | Plume | `explorer.plume.org` |
+  | X Layer | `web3.okx.com/explorer/x-layer` |
+  | Robinhood Chain | `robinhoodchain.blockscout.com` |
+
+  Notes:
+  - **Bridge / cross-chain items reference addresses on more than one chain — use
+    the per-address inline label, not the section `[chain]` tag.** In an
+    `[Ethereum]` bridging item the `destination` may legitimately be an ALM Proxy
+    "on X Layer" or a vault "on Robinhood Chain", correctly linked to that chain's
+    explorer. The nearest per-address text ("destination … on X Layer", "vault on
+    Robinhood Chain", "ALM Proxy on Ethereum") overrides the heading. Do not flag a
+    destination whose own label names a different chain than the section.
+  - Multiple valid explorers can exist for one chain (e.g. Avalanche
+    `snowtrace.io`/`snowscan.xyz`) — the error to catch is the wrong *chain*, not the
+    wrong vendor, so don't flag an acceptable alternate.
+  - `layerzeroscan.com` is a cross-chain **messaging** explorer, not a chain
+    explorer — expect it only on bridge/LayerZero message links, never as an address
+    explorer.
+  - While checking explorer domains, also confirm the **address shown in the link
+    text matches the address in the href** — a `[0xAAA…](…/address/0xBBB…)` mismatch
+    (often an href copy-pasted from a nearby item) is a 🔴 finding.
 - Newly deployed contracts must have their **address given and hyperlinked**.
+- **Address + codehash pairs: verify each independently against the Prime spell's
+  own repo (the source of truth).** When a doc pairs a spell address with a codehash
+  (e.g. the Prime Agent proxy spells), open that spell's PR and diff *both* cells
+  against the doc — the address char-by-char and the codehash separately. **The
+  address lives in different places per repo** — check the PR body's deployment table
+  first, and if it isn't there, look in the spell's test file (e.g. Spark records it
+  as `chainData[<chain>].payload` in `src/proposals/<date>/Spell_<date>.t.sol`, not
+  in the PR body). Do **not** substitute the core `spells-mainnet` repo for the Prime
+  repo — the Prime repo is authoritative here. A **matching codehash does not imply a
+  matching address**: it proves the doc means the same spell, which makes it tempting
+  to treat the whole row as verified and skip the address. Treat a matching codehash
+  as *increasing* the need to scrutinize the address, not decreasing it — a
+  wrong-address/right-codehash row is a 🔴 blocker. This check applies to proxy spell
+  addresses too; the proxy-spell scope exclusions below cover Safe Harbor / Bug
+  Bounty / before-value framing only, **never** address-vs-PR verification.
+- **Codehash: verify against the deployed bytecode on-chain, not just the PR text.**
+  A codehash matching the PR only proves the doc and PR agree — it does not prove
+  either matches what's deployed. Confirm the address and codehash actually belong
+  together on-chain: `cast code <addr> | cast keccak` (this cast build has no
+  `cast codehash` subcommand) must equal the stated codehash. This is a
+  *self-contained* check — it needs no PR, and it catches an address/codehash pair
+  that was mixed up (a doc address holding unrelated code that hashes to something
+  else, while the stated codehash belongs to a different address). Reachable public
+  RPC for `ETH_RPC_URL`:
+  `https://ethereum-rpc.publicnode.com` (llamarpc/cloudflare/ankr were down or
+  key-walled at last check). An address with no code (`0x`) paired with a codehash
+  is also a 🔴 blocker.
+
 
 ### Consistency
 - **Chain tags**: pick one convention per chain and apply it to *every* item;
