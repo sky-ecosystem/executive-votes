@@ -325,7 +325,7 @@ If this executive proposal passes, then the Grove proxy spell will onboard the G
 
 | Parameter | Max Amount | Slope (Tokens/Day) |
 | --- | --- | --- |
-| LIMIT_ASSET_TRANSFER (USDC from mainnet ALMProxy to Paxos USDC receive address ) | **50 million USDC** | **50 million USDC/day** |
+| LIMIT_ASSET_TRANSFER (USDC from mainnet ALMProxy to Paxos USDC receive address) | **50 million USDC** | **50 million USDC/day** |
 | LIMIT_ASSET_TRANSFER (USDG from Robinhood Chain ALMProxy to Paxos USDG receive address) | **50 million USDG** | **50 million USDG/day** |
 
 These contracts and rate limits will activate the Grove Liquidity Layer on Robinhood Chain and activate bridging of USDG in both directions. The conversion from USDC to USDG is an off-chain conversion handled by Paxos.
