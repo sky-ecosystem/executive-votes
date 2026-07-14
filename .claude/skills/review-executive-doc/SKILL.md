@@ -87,6 +87,23 @@ what the doc actually authorizes, not just how it reads.
     matches (e.g. token symbol, contract name, deployer).
   - **Forum / discussion / poll links** — read enough to confirm the doc's framing,
     amounts, and parameters match what was actually discussed or approved.
+  - **Governance poll links** (`vote.sky.money/polling/<slug>`) — `WebFetch` gets a
+    **403** on the vote portal (bot-blocked and client-rendered), so use the JSON API
+    via `curl`:
+    `curl -s "https://vote.sky.money/api/polling/<slug>?network=mainnet"` where
+    `<slug>` is the trailing path segment of the poll URL (e.g. `QmUnVyGg`). It
+    returns `pollId`, `title`, `summary`, dates, and a `url` to the poll's source
+    markdown. Use this to identify the poll — but **the summary alone is not
+    sufficient to confirm authorization.** Atlas Edit Weekly Cycle polls bundle many
+    changes and the summary is high-level, so a specific item may be authorized
+    without appearing in the summary text. **Follow through to the underlying Atlas
+    changes** — the poll's source/PR and the corresponding `next-gen-atlas` diff — and
+    confirm the *specific* item (the exact parameter, contract, or action) is present
+    in the Atlas edit. Only treat a poll as the wrong authorization once you've
+    checked the underlying Atlas changes and the item genuinely isn't there (🔴).
+    Cross-check the poll cited in the doc against the poll in the instruction sheet's
+    Authority column for the same item, and reconcile any difference against the
+    Atlas changes rather than assuming either is right.
   - **Technical reference links** (e.g. spell source, MIPs, prior execs) — read for
     context that changes how an item should be interpreted.
 - **Cross-check the link's content against the doc.** Flag mismatches between what
