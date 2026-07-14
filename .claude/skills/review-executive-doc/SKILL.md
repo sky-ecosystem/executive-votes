@@ -210,6 +210,34 @@ These recur and are easy to miss. Check each explicitly.
     text matches the address in the href** — a `[0xAAA…](…/address/0xBBB…)` mismatch
     (often an href copy-pasted from a nearby item) is a 🔴 finding.
 - Newly deployed contracts must have their **address given and hyperlinked**.
+- **Address + codehash pairs: verify each independently against the Prime spell's
+  own repo (the source of truth).** When a doc pairs a spell address with a codehash
+  (e.g. the Prime Agent proxy spells), open that spell's PR and diff *both* cells
+  against the doc — the address char-by-char and the codehash separately. **The
+  address lives in different places per repo** — check the PR body's deployment table
+  first, and if it isn't there, look in the spell's test file (e.g. Spark records it
+  as `chainData[<chain>].payload` in `src/proposals/<date>/Spell_<date>.t.sol`, not
+  in the PR body). Do **not** substitute the core `spells-mainnet` repo for the Prime
+  repo — the Prime repo is authoritative here. A **matching codehash does not imply a
+  matching address**: it proves the doc means the same spell, which makes it tempting
+  to treat the whole row as verified and skip the address. Treat a matching codehash
+  as *increasing* the need to scrutinize the address, not decreasing it — a
+  wrong-address/right-codehash row is a 🔴 blocker. This check applies to proxy spell
+  addresses too; the proxy-spell scope exclusions below cover Safe Harbor / Bug
+  Bounty / before-value framing only, **never** address-vs-PR verification.
+- **Codehash: verify against the deployed bytecode on-chain, not just the PR text.**
+  A codehash matching the PR only proves the doc and PR agree — it does not prove
+  either matches what's deployed. Confirm the address and codehash actually belong
+  together on-chain: `cast code <addr> | cast keccak` (this cast build has no
+  `cast codehash` subcommand) must equal the stated codehash. This is a
+  *self-contained* check — it needs no PR, and it catches an address/codehash pair
+  that was mixed up (a doc address holding unrelated code that hashes to something
+  else, while the stated codehash belongs to a different address). Reachable public
+  RPC for `ETH_RPC_URL`:
+  `https://ethereum-rpc.publicnode.com` (llamarpc/cloudflare/ankr were down or
+  key-walled at last check). An address with no code (`0x`) paired with a codehash
+  is also a 🔴 blocker.
+
 
 ### Consistency
 - **Chain tags**: pick one convention per chain and apply it to *every* item;
