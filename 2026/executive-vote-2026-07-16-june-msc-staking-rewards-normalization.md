@@ -1,6 +1,6 @@
 ---
 title: Template - [Executive Vote] Monthly Settlement Cycle for June 2026, LSSKY-SKY Rewards Normalization, Complete RWA001-A Offboarding, Add Emergency Spells to the Chainlog, Whitelist Osero ALMProxy, Adjust Vault Parameters, Prime Agent Proxy Spells - July 16, 2026
-summary: Execute the Monthly Settlement Cycle for June 2026 and the associated reconciliation transfers, normalize LSSKY-SKY staking rewards, complete the offboarding of RWA001-A, add emergency spells for STUSDS_MOM to the Chainlog, whitelist the new Osero DPAU ALMProxy on the LitePSM, adjust the Osero DC-IAM parameters, whitelist Prime spells for Spark, Grove, and Osero.
+summary: Execute the Monthly Settlement Cycle for June 2026 and the associated reconciliation transfers, normalize LSSKY-SKY staking rewards, complete the offboarding of RWA001-A, add emergency spells for STUSDS_MOM to the Chainlog, whitelist the new Osero ALMProxy on the LitePSM, adjust the Osero DC-IAM parameters, whitelist Prime spells for Spark, Grove, and Osero.
 date: 2026-07-16T00:00:00.000Z
 address: "$spell_address"
 ---
@@ -21,7 +21,7 @@ If this executive proposal passes, the following **actions** will occur within t
 - LSSKY-SKY staking rewards will be normalized.
 - The offboarding of RWA001-A will be completed.
 - Emergency spells relating to STUSDS_MOM will be added to the [chainlog](https://chainlog.skyeco.com).
-- The Osero DPAU ALMProxy will be whitelisted on the LitePSM.
+- The Osero ALMProxy will be whitelisted on the LitePSM.
 - DC-IAM parameters for Osero will be updated.
 - Proxy spells for Spark, Grove, and Osero will be whitelisted in their respective StarGuard modules.
 
@@ -380,8 +380,8 @@ If this executive proposal passes, then the Diamond PAU Controller will be onboa
 The proxy spell will:
 
 - Set the controller's USDS vault: point the Diamond PAU Controller at the `ALLOCATOR-PRYSM-A` AllocatorVault.
-- Authorize the DPAU ALMProxy on the AllocatorVault.
-- Approve the DPAU ALMProxy on the AllocatorBuffer.
+- Authorize the ALMProxy on the AllocatorVault.
+- Approve the ALMProxy on the AllocatorBuffer.
 
 ###### Initial Parameters
 
