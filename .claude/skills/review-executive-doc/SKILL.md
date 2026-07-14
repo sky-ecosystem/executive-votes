@@ -91,6 +91,57 @@ what the doc actually authorizes, not just how it reads.
   Operational Manual or Governance Calendar) more than once, but every
   item-specific authorization, address, and amount-bearing link should be checked.
 
+## Cross-check against the instruction sheet (IMPORTANT)
+
+The doc is crafted from an "Executive Contents" instruction sheet — the source of
+truth for *what the spell is supposed to contain*. Reconcile the two in **both
+directions**; a discrepancy either way is a high-severity (🔴) finding.
+
+- **Sheet → doc**: every instructed item appears in the doc. A missing one is an
+  **omission** — an authorized action the doc failed to describe.
+- **Doc → sheet**: every doc item traces back to a sheet item. One that doesn't is
+  an **unauthorized or stale addition** — the direction reviews most often miss, and
+  where an un-instructed change would hide. No orphans on either side.
+
+### Locating the sheet (public, no auth needed)
+
+Fixed spreadsheet ID: `1w_z5WpqxzwreCcaveB2Ye1PP5B8QAHDglzyxKHG3CHw`. Only the tab
+changes per spell, so **select the tab by position, not name** — the naming
+convention has drifted (older tabs use `Executive Contents - <date>` with a hyphen,
+recent ones `Executive Contents <date>` without), so by-name selection is brittle.
+
+1. Fetch the bootstrap: `curl -sL ".../spreadsheets/d/<ID>/edit"` and parse the
+   ordered sheet registry — entries look like `[<index>,0,"<gid>",[{"1":[[0,0,"<name>"`.
+2. **Take the 3rd tab (index 2)** and read its gid. Index 0 = *Spell Progress
+   Tracking*, index 1 = *Executive Contents (Template)*, index 2 = the current
+   spell (new spells insert here, pushing prior ones down).
+3. Export it: `curl -sL ".../spreadsheets/d/<ID>/export?format=csv&gid=<gid>"`.
+4. **Validate, don't assume**: confirm the resolved tab's name is
+   `Executive Contents <date>` and `<date>` equals the doc's date. If position and
+   date disagree, stop and flag it — do not review against the wrong tab. (Fallback:
+   `.../gviz/tq?tqx=out:csv&sheet=<url-encoded exact name>`, but only with the exact
+   current name.) Reachable without auth as long as the sheet is link-shareable; if a
+   fetch returns HTML instead of CSV, it isn't public — flag as unverified (🔵).
+
+### Reading the sheet
+
+- Two side-by-side blocks: **main-spell** content in cols B-G, and a **proxy spell**
+  block ("… Executive Content") in cols J-N. Parse *both* — proxy items live only in
+  the right block.
+- `Input` rows = top-level items; `Derived` rows = the sub-bullets under them. Match
+  `Input` rows to doc top-level items and `Derived` rows to the doc's bullets.
+- **Checksums (the rows near the top): re-verify against the doc's arithmetic** —
+  total USDS transfers, total SKY transfers, total newly-minted allocator debt must
+  each equal the sum of the corresponding doc amounts. A mismatch is 🔴.
+- Sheet **address/codehash instruction rows** are authoritative for the doc's spell
+  addresses — diff them per the address+codehash guidance below.
+- The `Confirmed`/`Unconfirmed` columns are sign-off **workflow** state, not doc
+  correctness — surface as info at most, **never** as a blocker.
+- Sheet content is mutable — note the fetch timestamp in the findings.
+- Watch for **wording / chain-tag drift** between sheet and doc on the same item
+  (e.g. a `[Robinhood Chain]` vs `[Ethereum]` tag, or a differing category prefix);
+  raise as a question to confirm which is intended rather than assuming.
+
 ## High-value checks (beyond the checklists)
 
 These recur and are easy to miss. Check each explicitly.
