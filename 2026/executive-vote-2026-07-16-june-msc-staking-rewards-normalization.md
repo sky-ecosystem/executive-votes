@@ -146,7 +146,7 @@ If this executive proposal passes, then a Spark proxy spell with address [`0xC10
 
 If this executive proposal passes, then a Grove proxy spell with address [`0x4f1318bC0490dC7C7F8230F1dd91A4A2e4694134`](https://etherscan.io/address/0x4f1318bC0490dC7C7F8230F1dd91A4A2e4694134) and codehash `0x38dd6399490f19d7a7e17a6eafda5d2ad92f9395c08efe2fdbacfda3b6d36a89` will be whitelisted in the [Grove StarGuard](https://etherscan.io/address/0xfc51CAa049E8894bEcFfB68c61095C3F3Ec8a880).
 
-If this executive proposal passes, then an Osero proxy spell with address [`0xd3e4e16ED515Be794fd181D7d2cEB0447A6f2cb5`](https://etherscan.io/address/0xd3e4e16ED515Be794fd181D7d2cEB0447A6f2cb5) and codehash `0x7dca6bc3a3097897198698a674bc824fd3bbb1c9b94c655cd0d78c49db2b9f3e` will be whitelisted in the [Prysm StarGuard](https://etherscan.io/address/0xBfA2D1dA838E55A74c61699e164cDFF8cF0cF0e2).
+If this executive proposal passes, then an Osero proxy spell with address [`0x5D9311fcDda62c08EB9F1115Ca804881a6660445`](https://etherscan.io/address/0x5D9311fcDda62c08EB9F1115Ca804881a6660445) and codehash `0x7dca6bc3a3097897198698a674bc824fd3bbb1c9b94c655cd0d78c49db2b9f3e` will be whitelisted in the [Prysm StarGuard](https://etherscan.io/address/0xBfA2D1dA838E55A74c61699e164cDFF8cF0cF0e2).
 
 #### Spark Proxy Spell
 
