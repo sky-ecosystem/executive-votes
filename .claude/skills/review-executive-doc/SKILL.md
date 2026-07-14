@@ -167,12 +167,48 @@ These recur and are easy to miss. Check each explicitly.
 - **Verify each address matches its label.** Cross-check recurring entities
   against recent docs; a label paired with an address used for a different entity
   elsewhere is a likely copy-paste error.
-- **Verify each address links to the correct block explorer for its chain.**
-  Determine each address's chain from its item context (e.g. the `[chain]` tag or
-  surrounding text) and confirm the hyperlink points to that chain's explorer
-  (Ethereum mainnet → `etherscan.io`, Avalanche → `snowscan.xyz`, Base →
-  `basescan.org`, etc.). A mainnet explorer link on a non-mainnet address (or vice
-  versa) is a common error.
+- **Verify each block-explorer link uses the correct explorer for the address's
+  chain — this is a contextual check, driven by the address's chain, not its
+  format.** The same 0x address can exist on many EVM chains, so the *context*
+  decides which explorer is correct, not the address itself. Determine each
+  address's chain from, in order of strength: an explicit chain prefix on the
+  address (`eth:`, `rh:`, …), a `[chain]` tag on the item or section heading, the
+  surrounding text, or the entity's known home chain. Then confirm the link's domain
+  matches that chain. A right-address/wrong-chain-explorer link (e.g. a mainnet
+  `etherscan.io` link on an Avalanche address, or vice versa) is a 🔴 finding.
+  Explorer↔chain mapping (per this repo's established convention — grep recent docs
+  if a chain isn't listed, and anchor on prior usage rather than guessing a domain):
+
+  | Chain | Explorer domain |
+  | --- | --- |
+  | Ethereum mainnet | `etherscan.io` |
+  | Optimism | `optimistic.etherscan.io` |
+  | Base | `basescan.org` |
+  | Arbitrum | `arbiscan.io` |
+  | Unichain | `uniscan.xyz` |
+  | Avalanche | `snowtrace.io` (primary; `snowscan.xyz` also seen) |
+  | Solana | `solscan.io` |
+  | Plume | `explorer.plume.org` |
+  | X Layer | `web3.okx.com/explorer/x-layer` |
+  | Robinhood Chain | `robinhoodchain.blockscout.com` |
+
+  Notes:
+  - **Bridge / cross-chain items reference addresses on more than one chain — use
+    the per-address inline label, not the section `[chain]` tag.** In an
+    `[Ethereum]` bridging item the `destination` may legitimately be an ALM Proxy
+    "on X Layer" or a vault "on Robinhood Chain", correctly linked to that chain's
+    explorer. The nearest per-address text ("destination … on X Layer", "vault on
+    Robinhood Chain", "ALM Proxy on Ethereum") overrides the heading. Do not flag a
+    destination whose own label names a different chain than the section.
+  - Multiple valid explorers can exist for one chain (e.g. Avalanche
+    `snowtrace.io`/`snowscan.xyz`) — the error to catch is the wrong *chain*, not the
+    wrong vendor, so don't flag an acceptable alternate.
+  - `layerzeroscan.com` is a cross-chain **messaging** explorer, not a chain
+    explorer — expect it only on bridge/LayerZero message links, never as an address
+    explorer.
+  - While checking explorer domains, also confirm the **address shown in the link
+    text matches the address in the href** — a `[0xAAA…](…/address/0xBBB…)` mismatch
+    (often an href copy-pasted from a nearby item) is a 🔴 finding.
 - Newly deployed contracts must have their **address given and hyperlinked**.
 
 ### Consistency
