@@ -330,7 +330,7 @@ If this executive proposal passes, then the Grove proxy spell will onboard the G
 
 These contracts and rate limits will activate the Grove Liquidity Layer on Robinhood Chain and activate bridging of USDG in both directions. The conversion from USDC to USDG is an off-chain conversion handled by Paxos.
 
-##### [Robinhood Chain] Onboard the Robinhood Chain Grove x Steakhouse USDG Morpho Vault for Grove ALM deposits
+##### [Robinhood Chain] Onboard the Robinhood Chain Grove x Steakhouse USDG Morpho Vault for Grove ALM Deposits
 
 - **Authorization**: [Governance Poll ID 1640](https://vote.sky.money/polling/QmUnVyGg)
 - **Proposal**: [Prime Technical Scope](https://forum.skyeco.com/t/july-16-2026-proposed-changes-to-grove-for-upcoming-spell/28024)
