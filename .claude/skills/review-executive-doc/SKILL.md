@@ -27,7 +27,18 @@ project checklists, principles, and the established conventions of recent docs.
    **Compare like-with-like** — see the principle below; when an item's convention
    is in question, find prior occurrences of *that same item type* (ideally produced
    by the same function/mechanism), not a superficially similar item elsewhere.
-3. **Read the target doc in full.**
+3. **Read the target doc in full — the LIVE file, re-read fresh at review time.**
+   Review the current working-tree file, never a committed/older version and never a
+   copy you read earlier in the conversation — the author iterates continuously, so a
+   read from even a few messages ago is likely stale. **Re-read the file immediately
+   before producing findings**, and re-read any specific line again before asserting a
+   finding on it. Caveat: the file tools read from **disk**, so unsaved changes in the
+   author's IDE buffer are invisible to you and the on-disk copy can lag the live
+   editor. If the author is editing interactively, ask them to **save** first (or to
+   confirm the exact current text of any line you're about to flag) so you're
+   reviewing the live state. Do not report a finding on a line whose current content
+   you have not just verified. (This has produced repeated false findings against
+   already-fixed content — treat it as a hard rule.)
 4. **Follow the links and read what they point to** (see below) — the linked
    content is part of the context the review depends on.
 5. **Produce structured feedback** grouped by severity:
