@@ -311,6 +311,39 @@ These recur and are easy to miss. Check each explicitly.
   Proposal] …` line) carries **no** prefix and must have the real title filled in;
   an unreplaced `$executive_title` there is a genuine blocker.
 
+### Prime/proxy-spell parameter values — verify against all three sources (IMPORTANT)
+For **prime/proxy-spell** items (Spark/Grove/Osero etc.), every numeric value in a
+rate-limit / parameter table (max amount, slope, cap, slippage, …) must be cross-checked
+so **all three of these agree with the doc** — a mismatch in any is a 🔴:
+1. **Technical scope** — the item's **Proposal** link (the forum "Prime Technical
+   Scope" post). This is the human-readable statement of the intended numbers; read it
+   for each value and its rationale (e.g. *"USDS burning is unlimited to preserve the
+   unwind path"*).
+2. **Authorization** — the **Authorization** link, whatever its type: a governance
+   poll (for an Atlas Edit Weekly Cycle poll the summary is high-level, so follow
+   through to the underlying Atlas edit for the specific value — see the governance-poll
+   guidance above), a forum thread, **or a `sky-atlas.io` link** used in the
+   Authorization position. Read whichever it is for the value.
+3. **Proxy spell PR** — the implementation source of truth: match each cell to the
+   payload constant and test assertion (e.g. `*_MAX_LIMIT`, `*_SLOPE`, `*_MAX_SLIPPAGE`;
+   `_assertRateLimit`, `_assertUnlimitedRateLimit`).
+
+**Judge a `sky-atlas.io` link by its role, not its domain.** In the **Authorization**
+position it *is* authorization and must be verified as in (2). An atlas link used
+*inline* as reference (e.g. a `[rate limits](sky-atlas.io/#…)` beside a table) is
+documentation only and does not establish the value — and such links are often
+definitional concept pages anyway (see the links section). (Main-spell values instead
+trace to the instruction sheet and the core `spells-mainnet` repo — see the cross-check
+and address sections.)
+- **Mint/burn and deposit/withdraw are independent directions — do not assume the
+  outflow row mirrors the inflow row.** A common author error is copy-pasting the
+  mint/deposit values into the burn/withdraw row. Burn/withdraw are frequently
+  **unlimited** (`type(uint256).max`, slope `0`) even when mint/deposit are capped.
+- Cross-check the two directions *within the doc* too: if the spUSDS block lists
+  Withdrawals as *Unlimited* but the USDS table gives BURN a finite figure, that
+  internal asymmetry is a red flag to chase down against the source.
+- A wrong value here is a 🔴 factual error.
+
 ### Parameter tables — confirm intentional asymmetry
 - When a list of assets each carry a set of parameters but one entry is missing a
   line its siblings have, flag it to confirm it's deliberate, not an omission.
