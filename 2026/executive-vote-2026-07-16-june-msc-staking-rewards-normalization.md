@@ -172,8 +172,8 @@ If this executive proposal passes, then the Spark proxy spell will activate the 
 - SLL rate limits
   - transferAsset (USDG)
     - recipient: [0x17C0F5345d1144fdF670D14719077be3842E5087](https://robinhoodchain.blockscout.com/address/0x17C0F5345d1144fdF670D14719077be3842E5087)
-    - maxAmount: **50,000,000 USDG**
-    - slope: **250,000,000 USDG per day**
+    - maxAmount: **50 million USDG**
+    - slope: **250 million USDG per day**
 
 ##### [Ethereum] Spark Liquidity Layer - Enable USDG Bridging to Robinhood Chain
 
