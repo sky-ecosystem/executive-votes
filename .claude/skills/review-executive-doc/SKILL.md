@@ -15,12 +15,25 @@ project checklists, principles, and the established conventions of recent docs.
 
 ## Process
 
-1. **Read the governing process docs** (source of truth — re-read, don't rely on memory):
+1. **Read *and review the doc against* the governing process docs** (source of truth
+   — re-read, don't rely on memory):
    - `processes/executive-doc-review-checklist.md`
    - `processes/executive-doc-creation-checklist.md`
    - `processes/executive-doc-principles.md`
    - `processes/drafting-style-guideline.md`
    - `templates/executive-vote-template.md`
+
+   Reading each is **not** context-gathering — it commits you to checking the target
+   against **every** rule in it. These docs are the source of truth; do not copy their
+   rules into this skill (that just creates a second, drift-prone copy) — apply them
+   directly from the file. In particular, `drafting-style-guideline.md` is a prose
+   checklist (number-spelling ≥1M, abbreviation-on-first-use, full-stops on
+   full-sentence list items, avoid slashes/localisms, header capitalization, entity
+   name/notation consistency across title ↔ summary ↔ Executive Summary ↔ body); it is
+   **not** covered by `markdownlint`, which only checks Markdown mechanics. In the
+   findings, **affirmatively account for each governing doc** — a ✅ line ("conforms to
+   `drafting-style-guideline.md`") or the specific deviations — so a doc you failed to
+   apply shows up as a visible omission rather than a silent skip.
 2. **Read 3–4 recent docs of the same shape** from `2025/`/`2026/` to anchor
    conventions: the most recent month, plus some earlier ones containing the same
    items. Use them to verify recurring addresses, link styles, and section structure.
