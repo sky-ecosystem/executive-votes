@@ -104,6 +104,19 @@ what the doc actually authorizes, not just how it reads.
     Cross-check the poll cited in the doc against the poll in the instruction sheet's
     Authority column for the same item, and reconcile any difference against the
     Atlas changes rather than assuming either is right.
+  - **Sky Atlas links** (`sky-atlas.io/#<uuid>`) are client-rendered — `WebFetch` on
+    the page URL returns only the table of contents. Read the underlying node via the
+    API: `curl -sL "https://sky-atlas.io/api/atlas.md"` (308-redirects to
+    `www.sky-atlas.io`; ~3.5MB) and grep the uuid — the fragment after `#` is the node
+    uuid, tagged inline as `<!-- UUID: <uuid> -->`; read the surrounding lines for
+    context. `atlas.json` (~11MB; structured fields `content`, `active_data`, `tenets`,
+    `annotations`) and `atlas.yaml` carry the same data — use JSON only when you need a
+    field programmatically. For a uuid→context lookup, **`atlas.md` is best** (smallest,
+    human-readable, one grep). Many linked nodes are *definitional* (the generic concept
+    page, e.g. "Rate Limits", "Maximum Debt Ceiling (`line`)") and carry no value — for
+    those, verify the item's actual number against the spell source / instruction sheet
+    (see the parameter-table check below); value-bearing nodes exist too (check the
+    node's `active_data`), so read the node before deciding which kind it is.
   - **Technical reference links** (e.g. spell source, MIPs, prior execs) — read for
     context that changes how an item should be interpreted.
 - **Cross-check the link's content against the doc.** Flag mismatches between what
