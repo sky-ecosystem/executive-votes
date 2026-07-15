@@ -391,7 +391,7 @@ The proxy spell will:
 | Parameter | Max Amount | Slope (Tokens/Day) |
 | --- | --- | --- |
 | LIMIT_USDS_MINT | **5 million USDS** | **5 million USDS/day** |
-| LIMIT_USDS_BURN | **5 million USDS** | **5 million USDS/day** |
+| LIMIT_USDS_BURN | **Unlimited** | N/A |
 
 ##### [Ethereum] Onboard SparkLend USDS (spUSDS)
 
