@@ -2,7 +2,7 @@
 title: Template - [Executive Vote] Monthly Settlement Cycle for June 2026, LSSKY-SKY Rewards Normalization, Complete RWA001-A Offboarding, Add Emergency Spells to the Chainlog, Whitelist Osero ALMProxy, Adjust Vault Parameters, Update Safe Harbor Agreement, Prime Agent Proxy Spells - July 16, 2026
 summary: Execute the Monthly Settlement Cycle for June 2026 and the associated reconciliation transfers, normalize LSSKY-SKY staking rewards, complete the offboarding of RWA001-A, add emergency spells for STUSDS_MOM to the Chainlog, whitelist the new Osero ALMProxy on the LitePSM, adjust the Osero DC-IAM parameters, update the Safe Harbor Agreement, whitelist Prime Agent spells for Spark, Grove, and Osero.
 date: 2026-07-16T00:00:00.000Z
-address: "$spell_address"
+address: "0xfffc346976c53757BcF7a536be340bc0Ce1d9163"
 ---
 
 # [Executive Proposal] Monthly Settlement Cycle for June 2026, LSSKY-SKY Rewards Normalization, Complete RWA001-A Offboarding, Add Emergency Spells to the Chainlog, Whitelist Osero ALMProxy, Adjust Vault Parameters, Update Safe Harbor Agreement, Prime Agent Proxy Spells - July 16, 2026
