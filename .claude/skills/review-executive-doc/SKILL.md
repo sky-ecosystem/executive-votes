@@ -15,12 +15,25 @@ project checklists, principles, and the established conventions of recent docs.
 
 ## Process
 
-1. **Read the governing process docs** (source of truth — re-read, don't rely on memory):
+1. **Read *and review the doc against* the governing process docs** (source of truth
+   — re-read, don't rely on memory):
    - `processes/executive-doc-review-checklist.md`
    - `processes/executive-doc-creation-checklist.md`
    - `processes/executive-doc-principles.md`
    - `processes/drafting-style-guideline.md`
    - `templates/executive-vote-template.md`
+
+   Reading each is **not** context-gathering — it commits you to checking the target
+   against **every** rule in it. These docs are the source of truth; do not copy their
+   rules into this skill (that just creates a second, drift-prone copy) — apply them
+   directly from the file. In particular, `drafting-style-guideline.md` is a prose
+   checklist (number-spelling ≥1M, abbreviation-on-first-use, full-stops on
+   full-sentence list items, avoid slashes/localisms, header capitalization, entity
+   name/notation consistency across title ↔ summary ↔ Executive Summary ↔ body); it is
+   **not** covered by `markdownlint`, which only checks Markdown mechanics. In the
+   findings, **affirmatively account for each governing doc** — a ✅ line ("conforms to
+   `drafting-style-guideline.md`") or the specific deviations — so a doc you failed to
+   apply shows up as a visible omission rather than a silent skip.
 2. **Read 3–4 recent docs of the same shape** from `2025/`/`2026/` to anchor
    conventions: the most recent month, plus some earlier ones containing the same
    items. Use them to verify recurring addresses, link styles, and section structure.
@@ -104,6 +117,19 @@ what the doc actually authorizes, not just how it reads.
     Cross-check the poll cited in the doc against the poll in the instruction sheet's
     Authority column for the same item, and reconcile any difference against the
     Atlas changes rather than assuming either is right.
+  - **Sky Atlas links** (`sky-atlas.io/#<uuid>`) are client-rendered — `WebFetch` on
+    the page URL returns only the table of contents. Read the underlying node via the
+    API: `curl -sL "https://sky-atlas.io/api/atlas.md"` (308-redirects to
+    `www.sky-atlas.io`; ~3.5MB) and grep the uuid — the fragment after `#` is the node
+    uuid, tagged inline as `<!-- UUID: <uuid> -->`; read the surrounding lines for
+    context. `atlas.json` (~11MB; structured fields `content`, `active_data`, `tenets`,
+    `annotations`) and `atlas.yaml` carry the same data — use JSON only when you need a
+    field programmatically. For a uuid→context lookup, **`atlas.md` is best** (smallest,
+    human-readable, one grep). Many linked nodes are *definitional* (the generic concept
+    page, e.g. "Rate Limits", "Maximum Debt Ceiling (`line`)") and carry no value — for
+    those, verify the item's actual number against the spell source / instruction sheet
+    (see the parameter-table check below); value-bearing nodes exist too (check the
+    node's `active_data`), so read the node before deciding which kind it is.
   - **Technical reference links** (e.g. spell source, MIPs, prior execs) — read for
     context that changes how an item should be interpreted.
 - **Cross-check the link's content against the doc.** Flag mismatches between what
@@ -297,6 +323,39 @@ These recur and are easy to miss. Check each explicitly.
   **not** flag it as a leftover placeholder. The visible H1 (the `# [Executive
   Proposal] …` line) carries **no** prefix and must have the real title filled in;
   an unreplaced `$executive_title` there is a genuine blocker.
+
+### Prime/proxy-spell parameter values — verify against all three sources (IMPORTANT)
+For **prime/proxy-spell** items (Spark/Grove/Osero etc.), every numeric value in a
+rate-limit / parameter table (max amount, slope, cap, slippage, …) must be cross-checked
+so **all three of these agree with the doc** — a mismatch in any is a 🔴:
+1. **Technical scope** — the item's **Proposal** link (the forum "Prime Technical
+   Scope" post). This is the human-readable statement of the intended numbers; read it
+   for each value and its rationale (e.g. *"USDS burning is unlimited to preserve the
+   unwind path"*).
+2. **Authorization** — the **Authorization** link, whatever its type: a governance
+   poll (for an Atlas Edit Weekly Cycle poll the summary is high-level, so follow
+   through to the underlying Atlas edit for the specific value — see the governance-poll
+   guidance above), a forum thread, **or a `sky-atlas.io` link** used in the
+   Authorization position. Read whichever it is for the value.
+3. **Proxy spell PR** — the implementation source of truth: match each cell to the
+   payload constant and test assertion (e.g. `*_MAX_LIMIT`, `*_SLOPE`, `*_MAX_SLIPPAGE`;
+   `_assertRateLimit`, `_assertUnlimitedRateLimit`).
+
+**Judge a `sky-atlas.io` link by its role, not its domain.** In the **Authorization**
+position it *is* authorization and must be verified as in (2). An atlas link used
+*inline* as reference (e.g. a `[rate limits](sky-atlas.io/#…)` beside a table) is
+documentation only and does not establish the value — and such links are often
+definitional concept pages anyway (see the links section). (Main-spell values instead
+trace to the instruction sheet and the core `spells-mainnet` repo — see the cross-check
+and address sections.)
+- **Mint/burn and deposit/withdraw are independent directions — do not assume the
+  outflow row mirrors the inflow row.** A common author error is copy-pasting the
+  mint/deposit values into the burn/withdraw row. Burn/withdraw are frequently
+  **unlimited** (`type(uint256).max`, slope `0`) even when mint/deposit are capped.
+- Cross-check the two directions *within the doc* too: if the spUSDS block lists
+  Withdrawals as *Unlimited* but the USDS table gives BURN a finite figure, that
+  internal asymmetry is a red flag to chase down against the source.
+- A wrong value here is a 🔴 factual error.
 
 ### Parameter tables — confirm intentional asymmetry
 - When a list of assets each carry a set of parameters but one entry is missing a
