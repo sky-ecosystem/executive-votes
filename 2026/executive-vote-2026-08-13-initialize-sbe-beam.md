@@ -176,7 +176,7 @@ The Pull Request for the Spark proxy spell can be viewed [here](https://github.c
 - **Authorization**: [Snapshot Poll](https://snapshot.org/#/s:sparkfi.eth/proposal/0x101ed4ff7ef77f8e4a6db6af4bbf053b703001c0245a1e166babb8ba6ad633fb)
 - **Proposal**: [August 13, 2026 Proposed Changes to Spark for Upcoming Spell](https://forum.skyeco.com/t/august-13-2026-proposed-changes-to-spark-for-upcoming-spell/28135)
 
-If this executive proposal passes, then the Spark proxy spell will onboard the Uniswap v4 USDG/USDS pool to the Spark Liquidity Layer with the following parameters and rate limits:
+If this executive proposal passes, then the Spark proxy spell will onboard the Uniswap v4 USDG/USDS pool to the Spark Liquidity Layer with the following parameters and [rate limits](https://sky-atlas.io/#8efb0a11-b798-48eb-af19-f65b38f039b5):
 
 - [Uniswap v4 parameters](https://docs.uniswap.org/contracts/v4/reference/core/libraries/TickMath):
 - Pool ID: `0x28adc7179a8a83c3379955d59563c0fec33eadfa83946b447af289190ff5fcff`
