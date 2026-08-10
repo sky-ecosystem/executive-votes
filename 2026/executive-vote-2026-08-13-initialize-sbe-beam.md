@@ -127,7 +127,7 @@ If this executive proposal passes, then buybacks will be increased and the LSSKY
 
 If this executive proposal passes, then the following DC-IAM parameters will be updated for `ALLOCATOR-GROVE-A`:
 
-- Increase the Maximum Debt Ceiling (`line`) by 5 million USDS from 5 million USDS to **10 million USDS**.
+- Increase the [Maximum Debt Ceiling (`line`)](https://sky-atlas.io/#A.3.7.1.1.2.4.1) by 5 million USDS from 5 million USDS to **10 million USDS**.
 - Increase the Target Available Debt (`gap`) by 1 million USDS from 1 million USDS to **2 million USDS**.
 - Leave the Ceiling Increase Cooldown (`ttl`) unchanged at **86,400 seconds** (24 hours).
 
