@@ -183,12 +183,13 @@ If this executive proposal passes, then the Spark proxy spell will onboard the U
 - Max tick width: **10 ticks**
 - `maxSlippage`: **0.1%** (`0.999e18`)
 - Deposit rate limit:
-  - `maxAmount`: **10 million USDS**
-  - `slope`: **100 million USDS per day**
+  - `maxAmount`: **10 million**
+  - `slope`: **100 million per day**
 - Withdrawal rate limit: **unlimited**
 - Swap rate limit:
-  - `maxAmount`: **5 million USDS**
-  - `slope`: **200 million USDS per day**
+  - `maxAmount`: **5 million**
+  - `slope`: **200 million per day**
+- Swap fee: **0.0005%**
 
 ##### [Ethereum] Spark Liquidity Layer - Onboard Uniswap v4 rlUSD/USDS Pool
 
@@ -202,12 +203,13 @@ If this executive proposal passes, then the Spark proxy spell will onboard the U
 - Max tick width: **10 ticks**
 - `maxSlippage`: **0.1%** (`0.999e18`)
 - Deposit rate limit:
-  - `maxAmount`: **10 million USDS**
-  - `slope`: **50 million USDS per day**
+  - `maxAmount`: **10 million**
+  - `slope`: **50 million per day**
 - Withdrawal rate limit: **unlimited**
 - Swap rate limit:
-  - `maxAmount`: **5 million USDS**
-  - `slope`: **100 million USDS per day**
+  - `maxAmount`: **5 million**
+  - `slope`: **100 million per day**
+- Swap fee: **0.0005%**
 
 ##### [Ethereum] Spark Liquidity Layer - Onboard Curve rlUSD/USDC for Swaps
 
@@ -219,8 +221,8 @@ If this executive proposal passes, then the Spark proxy spell will onboard the C
 - Pool: [`0xD001aE433f254283FeCE51d4ACcE8c53263aa186`](https://etherscan.io/address/0xD001aE433f254283FeCE51d4ACcE8c53263aa186)
 - `maxSlippage`: **0.1%** (`0.999e18`)
 - Swap rate limit:
-  - `maxAmount`: **5 million USDC**
-  - `slope`: **25 million USDC per day**
+  - `maxAmount`: **5 million**
+  - `slope`: **25 million per day**
 
 ##### [Ethereum] SparkLend - Claim SparkLend Reserves
 
@@ -255,8 +257,8 @@ If this executive proposal passes, then the Grove proxy spell will enable the `U
 The following DPAU rate limits will be configured:
 
 - Aggregate deposit rate limit:
-  - `maxAmount`: **5 million USDC**
-  - `slope`: **0 USDC**
+  - `maxAmount`: **5 million**
+  - `slope`: **0**
 - AUSD deposit rate limit:
   - `maxAmount`: **5 million AUSD**
   - `slope`: **0 AUSD**
