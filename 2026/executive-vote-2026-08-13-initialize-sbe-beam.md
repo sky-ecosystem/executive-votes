@@ -218,7 +218,7 @@ If this executive proposal passes, then the Spark proxy spell will onboard the U
 - **Authorization**: [Snapshot Poll](https://snapshot.org/#/s:sparkfi.eth/proposal/0x3240fc78276a2f4898188809464b3357124b2c42065f55a46a7a7254eabd0f82)
 - **Proposal**: [August 13, 2026 Proposed Changes to Spark for Upcoming Spell](https://forum.skyeco.com/t/august-13-2026-proposed-changes-to-spark-for-upcoming-spell/28135)
 
-If this executive proposal passes, then the Spark proxy spell will onboard the Curve rlUSD/USDC StableSwap-NG pool for swaps with the following parameters and rate limits:
+If this executive proposal passes, then the Spark proxy spell will onboard the Curve rlUSD/USDC StableSwap-NG pool for swaps with the following parameters and [rate limits](https://sky-atlas.io/#8efb0a11-b798-48eb-af19-f65b38f039b5):
 
 - Pool: [`0xD001aE433f254283FeCE51d4ACcE8c53263aa186`](https://etherscan.io/address/0xD001aE433f254283FeCE51d4ACcE8c53263aa186)
 - `maxSlippage`: **0.1%** (`0.999e18`)
