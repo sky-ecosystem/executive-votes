@@ -140,7 +140,7 @@ If this executive proposal passes, then the following DC-IAM parameters will be 
 
 - Increase the [Maximum Debt Ceiling (`line`)](https://sky-atlas.io/#A.3.7.1.1.2.4.1) by 5 million USDS from 5 million USDS to **10 million USDS**.
 - Increase the Target Available Debt (`gap`) by 1 million USDS from 1 million USDS to **2 million USDS**.
-- Leave the Ceiling Increase Cooldown (`ttl`) unchanged at **86,400 seconds** (24 hours).
+- Leave the [Ceiling Increase Cooldown (`ttl`)](https://sky-atlas.io/#A.3.7.1.1.2.4.3) unchanged at **86,400 seconds** (24 hours).
 
 ### Rename Osero Chainlog Keys
 
