@@ -15,7 +15,7 @@ If you are new to voting in the Sky Protocol, please see the [voting guide](http
 
 If this executive proposal passes, the following **actions** will occur within the Sky Protocol:
 
-- SBE BEAM will be initialized.
+- The Smart Burn Engine Bounded External Access Module (SBE BEAM) will be initialized.
 - The Monthly Settlement Cycle for July 2026 will be executed.
 - LSSKY->SKY staking rewards will be normalized.
 - Buybacks will be increased and the LSSKY->USDS farm will be reactivated.
@@ -48,10 +48,10 @@ If this executive proposal passes, then SBE BEAM will be initialized through the
 - Call `FlapperInit.initSBEBeam()` with:
   - `beam`: [`0xc8b61d211D3D03A630Fb09199E17953a8c9749a9`](https://etherscan.io/address/0xc8b61d211D3D03A630Fb09199E17953a8c9749a9)
   - `farmOwner`: [`0xA3d3A2e9Fe5d0901D720D5382E4a7eA12D4E2b0e`](https://etherscan.io/address/0xA3d3A2e9Fe5d0901D720D5382E4a7eA12D4E2b0e)
-  - `maxKbump`: 12,000 USDS
-  - `minHop`: 550 seconds
-  - `maxRate`: 350 million USDS per year
-  - `tau`: 30 minutes
+  - `maxKbump`: **12,000 USDS**
+  - `minHop`: **550 seconds**
+  - `maxRate`: **350 million USDS per year**
+  - `tau`: **30 minutes**
   - `buds`: [`0x869294B42B80f99CF3Bdac0F44abddAd6cD41330`](https://etherscan.io/address/0x869294B42B80f99CF3Bdac0F44abddAd6cD41330)
   - `chainlogKey`: `MCD_SBEBEAM`
 
@@ -64,35 +64,37 @@ If this executive proposal passes, then the Monthly Settlement Cycle for July 20
 
 #### Spark
 
-- Mint 9,465,419 USDS debt in `ALLOCATOR-SPARK-A` and transfer the amount to the Surplus Buffer.
-- Send 4,442,924 USDS from the Surplus Buffer to `SPARK_SUBPROXY`.
+- Mint **9,465,419 USDS** debt in `ALLOCATOR-SPARK-A` and transfer the amount to the Surplus Buffer.
+- Send **4,442,924 USDS** from the Surplus Buffer to [`SPARK_SUBPROXY`](https://etherscan.io/address/0x3300f198988e4C9C63F75dF86De36421f06af8c4).
 
 #### Grove
 
-- Mint 9,685,438 USDS debt in `ALLOCATOR-BLOOM-A` and transfer the amount to the Surplus Buffer.
-- Send 1,808,084 USDS from the Surplus Buffer to `GROVE_SUBPROXY`.
+- Mint **9,685,438 USDS** debt in `ALLOCATOR-BLOOM-A` and transfer the amount to the Surplus Buffer.
+- Send **1,808,084 USDS** from the Surplus Buffer to [`GROVE_SUBPROXY`](https://etherscan.io/address/0x1369f7b2b38c76B6478c0f0E66D94923421891Ba).
 
 #### Keel
 
-- Send 35,328 USDS from the Surplus Buffer to `KEEL_SUBPROXY`.
+- Send **35,328 USDS** from the Surplus Buffer to [`KEEL_SUBPROXY`](https://etherscan.io/address/0x355CD90Ecb1b409Fdf8b64c4473C3B858dA2c310).
 
 #### Obex
 
-- Mint 2,535,968 USDS debt in `ALLOCATOR-OBEX-A` and transfer the amount to the Surplus Buffer.
-- Send 916,736 USDS from the Surplus Buffer to `OBEX_SUBPROXY`.
+- Mint **2,535,968 USDS** debt in `ALLOCATOR-OBEX-A` and transfer the amount to the Surplus Buffer.
+- Send **916,736 USDS** from the Surplus Buffer to [`OBEX_SUBPROXY`](https://etherscan.io/address/0x8be042581f581E3620e29F213EA8b94afA1C8071).
 
 #### Skybase
 
-- Send 327,407 USDS from the Surplus Buffer to `SKYBASE_SUBPROXY`.
+- Send **327,407 USDS** from the Surplus Buffer to [`SKYBASE_SUBPROXY`](https://etherscan.io/address/0x08978E3700859E476201c1D7438B3427e3C81140).
 
 #### Osero
 
-- Mint 497 USDS debt in `ALLOCATOR-PRYSM-A` and transfer the amount to the Surplus Buffer.
-- Send 12,043 USDS from the Surplus Buffer to `PRYSM_SUBPROXY`.
+- Mint **497 USDS** debt in `ALLOCATOR-PRYSM-A` and transfer the amount to the Surplus Buffer.
+- Send **12,043 USDS** from the Surplus Buffer to [`PRYSM_SUBPROXY`](https://etherscan.io/address/0x24fdcd3bFA5C2553e05B2f9AD0365EBC296278D3).
 
 #### Treasury Management Function
 
-- Send 2,103,484 USDS from the Surplus Buffer to the [Core Council Buffer](https://etherscan.io/address/0x210CFcF53d1f9648C1c4dcaEE677f0Cb06914364).
+- Send **2,103,484 USDS** from the Surplus Buffer to the [Core Council Buffer](https://etherscan.io/address/0x210CFcF53d1f9648C1c4dcaEE677f0Cb06914364).
+
+This amount represents **1,051,742 USDS** allocated to the Core Council and **1,051,742 USDS** allocated to the Fortification Conserver, combined into a single transfer.
 
 ### LSSKY->SKY Rewards Normalization
 
@@ -102,9 +104,9 @@ If this executive proposal passes, then the Monthly Settlement Cycle for July 20
 If this executive proposal passes, then the distribution of SKY token rewards to SKY stakers will be normalized by updating the LSSKY->SKY farm vest through `TreasuryFundedFarmingInit.updateFarmVest()` with the following parameters:
 
 - `dist`: [`0x675671A8756dDb69F7254AFB030865388Ef699Ee`](https://etherscan.io/address/0x675671A8756dDb69F7254AFB030865388Ef699Ee)
-- `vestTot`: 96,903,706 SKY
+- `vestTot`: **96,903,706 SKY**
 - `vestBgn`: `block.timestamp`
-- `vestTau`: 90 days
+- `vestTau`: **90 days**
 
 ### Increase Buybacks and Reactivate LSSKY->USDS Farm
 
@@ -113,10 +115,10 @@ If this executive proposal passes, then the distribution of SKY token rewards to
 
 If this executive proposal passes, then buybacks will be increased and the LSSKY->USDS farm will be reactivated through the following parameter changes:
 
-- Decrease `splitter.hop` by 10,039 seconds from 13,787 seconds to 3,748 seconds.
-- Decrease `rewardsDuration` in `REWARDS_LSSKY_USDS` by 10,039 seconds from 13,787 seconds to 3,748 seconds.
-- Decrease `splitter.burn` by 45 percentage points from 100% to 55%.
-- Keep `kicker.kbump` unchanged at 6,000 USDS.
+- Decrease `splitter.hop` by 10,039 seconds from 13,787 seconds to **3,748 seconds**.
+- Decrease `rewardsDuration` in `REWARDS_LSSKY_USDS` by 10,039 seconds from 13,787 seconds to **3,748 seconds**.
+- Decrease `splitter.burn` by 45 percentage points from 100% to **55%**.
+- Keep `kicker.kbump` unchanged at **6,000 USDS**.
 
 ### Adjust Grove DC-IAM Parameters
 
@@ -125,9 +127,9 @@ If this executive proposal passes, then buybacks will be increased and the LSSKY
 
 If this executive proposal passes, then the following DC-IAM parameters will be updated for `ALLOCATOR-GROVE-A`:
 
-- Increase the Maximum Debt Ceiling (`line`) by 5 million USDS from 5 million USDS to 10 million USDS.
-- Increase the Target Available Debt (`gap`) by 1 million USDS from 1 million USDS to 2 million USDS.
-- Leave the Ceiling Increase Cooldown (`ttl`) unchanged at 86,400 seconds (24 hours).
+- Increase the Maximum Debt Ceiling (`line`) by 5 million USDS from 5 million USDS to **10 million USDS**.
+- Increase the Target Available Debt (`gap`) by 1 million USDS from 1 million USDS to **2 million USDS**.
+- Leave the Ceiling Increase Cooldown (`ttl`) unchanged at **86,400 seconds** (24 hours).
 
 ### Adjust Osero DC-IAM Parameters
 
@@ -136,9 +138,9 @@ If this executive proposal passes, then the following DC-IAM parameters will be 
 
 If this executive proposal passes, then the following DC-IAM parameters will be updated for the Osero vault (`ALLOCATOR-PRYSM-A`):
 
-- Increase the Maximum Debt Ceiling (`line`) by 5 million USDS from 5 million USDS to 10 million USDS.
-- Increase the Target Available Debt (`gap`) by 1 million USDS from 1 million USDS to 2 million USDS.
-- Leave the Ceiling Increase Cooldown (`ttl`) unchanged at 86,400 seconds (24 hours).
+- Increase the Maximum Debt Ceiling (`line`) by 5 million USDS from 5 million USDS to **10 million USDS**.
+- Increase the Target Available Debt (`gap`) by 1 million USDS from 1 million USDS to **2 million USDS**.
+- Leave the Ceiling Increase Cooldown (`ttl`) unchanged at **86,400 seconds** (24 hours).
 
 ### Rename Osero Chainlog Keys
 
@@ -178,14 +180,15 @@ If this executive proposal passes, then the Spark proxy spell will onboard the U
 
 - Pool ID: `0x28adc7179a8a83c3379955d59563c0fec33eadfa83946b447af289190ff5fcff`
 - Tick bounds: `-276334` to `-276314`
-- `maxSlippage`: 0.1% (`0.999e18`)
+- Max tick width: **10 ticks**
+- `maxSlippage`: **0.1%** (`0.999e18`)
 - Deposit rate limit:
-  - `maxAmount`: 10 million
-  - `slope`: 100 million per day
-- Withdrawal rate limit: unlimited
+  - `maxAmount`: **10 million USDS**
+  - `slope`: **100 million USDS per day**
+- Withdrawal rate limit: **unlimited**
 - Swap rate limit:
-  - `maxAmount`: 5 million
-  - `slope`: 200 million per day
+  - `maxAmount`: **5 million USDS**
+  - `slope`: **200 million USDS per day**
 
 ##### [Ethereum] Spark Liquidity Layer - Onboard Uniswap v4 rlUSD/USDS Pool
 
@@ -196,14 +199,15 @@ If this executive proposal passes, then the Spark proxy spell will onboard the U
 
 - Pool ID: `0x9035721b23481db3888fd201b9c2b26dbc3af60258bca65e669f2ed98dc8eb4f`
 - Tick bounds: `-10` to `10`
-- `maxSlippage`: 0.1% (`0.999e18`)
+- Max tick width: **10 ticks**
+- `maxSlippage`: **0.1%** (`0.999e18`)
 - Deposit rate limit:
-  - `maxAmount`: 10 million
-  - `slope`: 50 million per day
-- Withdrawal rate limit: unlimited
+  - `maxAmount`: **10 million USDS**
+  - `slope`: **50 million USDS per day**
+- Withdrawal rate limit: **unlimited**
 - Swap rate limit:
-  - `maxAmount`: 5 million
-  - `slope`: 100 million per day
+  - `maxAmount`: **5 million USDS**
+  - `slope`: **100 million USDS per day**
 
 ##### [Ethereum] Spark Liquidity Layer - Onboard Curve rlUSD/USDC for Swaps
 
@@ -213,10 +217,10 @@ If this executive proposal passes, then the Spark proxy spell will onboard the U
 If this executive proposal passes, then the Spark proxy spell will onboard the Curve rlUSD/USDC StableSwap-NG pool for swaps with the following parameters and rate limits:
 
 - Pool: [`0xD001aE433f254283FeCE51d4ACcE8c53263aa186`](https://etherscan.io/address/0xD001aE433f254283FeCE51d4ACcE8c53263aa186)
-- `maxSlippage`: 0.1% (`0.999e18`)
+- `maxSlippage`: **0.1%** (`0.999e18`)
 - Swap rate limit:
-  - `maxAmount`: 5 million
-  - `slope`: 25 million per day
+  - `maxAmount`: **5 million USDC**
+  - `slope`: **25 million USDC per day**
 
 ##### [Ethereum] SparkLend - Claim SparkLend Reserves
 
@@ -243,29 +247,29 @@ The Pull Request for the Grove proxy spell can be viewed [here](https://github.c
 
 If this executive proposal passes, then the Grove proxy spell will enable the `UNISWAP_V3_FACET` on the `ALLOCATOR-GROVE-A` Diamond PAU Controller and configure the AUSD/USDC pool with the following parameters:
 
-- `maxSlippage`: 0.1% (`0.999e18`)
-- `maxTickDelta`: 200
-- `twapSecondsAgo`: 600 seconds
+- `maxSlippage`: **0.1%** (`0.999e18`)
+- `maxTickDelta`: **200 ticks**
+- `twapSecondsAgo`: **600 seconds**
 - Liquidity tick bounds: `-10` to `10`
 
 The following DPAU rate limits will be configured:
 
 - Aggregate deposit rate limit:
-  - `maxAmount`: 5 million
-  - `slope`: 0
+  - `maxAmount`: **5 million USDC**
+  - `slope`: **0 USDC**
 - AUSD deposit rate limit:
-  - `maxAmount`: 5 million AUSD
-  - `slope`: 0
+  - `maxAmount`: **5 million AUSD**
+  - `slope`: **0 AUSD**
 - USDC deposit rate limit:
-  - `maxAmount`: 5 million USDC
-  - `slope`: 0
+  - `maxAmount`: **5 million USDC**
+  - `slope`: **0 USDC**
 - Aggregate, AUSD, and USDC withdrawal rate limits: unlimited
 - AUSD swap rate limit:
-  - `maxAmount`: 1 million AUSD
-  - `slope`: 5 million AUSD per day
+  - `maxAmount`: **1 million AUSD**
+  - `slope`: **5 million AUSD per day**
 - USDC swap rate limit:
-  - `maxAmount`: 1 million USDC
-  - `slope`: 5 million USDC per day
+  - `maxAmount`: **1 million USDC**
+  - `slope`: **5 million USDC per day**
 
 ##### [Ethereum] One-Time Collect on the Grove Uniswap V3 Position
 
@@ -281,8 +285,8 @@ If this executive proposal passes, then the Grove proxy spell will collect all a
 
 If this executive proposal passes, then the Grove proxy spell will set the Maple syrupUSDC `LIMIT_4626_DEPOSIT` rate limit to zero:
 
-- `maxAmount`: decrease from 50 million syrupUSDC to 0.
-- `slope`: decrease from 50 million syrupUSDC per day to 0.
+- `maxAmount`: decrease from 50 million syrupUSDC to **0 syrupUSDC**.
+- `slope`: decrease from 50 million syrupUSDC per day to **0 syrupUSDC**.
 
 ## Review
 
