@@ -259,7 +259,7 @@ If this executive proposal passes, then the Grove proxy spell will enable the `U
 - `twapSecondsAgo`: **600 seconds**
 - Liquidity tick bounds: `-10` to `10`
 
-The following DPAU rate limits will be configured:
+The following DPAU [rate limits](https://sky-atlas.io/#8efb0a11-b798-48eb-af19-f65b38f039b5) will be configured:
 
 - Aggregate deposit rate limit:
   - `maxAmount`: **5 million**
