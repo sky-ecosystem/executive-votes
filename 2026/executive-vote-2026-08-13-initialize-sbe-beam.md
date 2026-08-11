@@ -220,7 +220,7 @@ If this executive proposal passes, then the Spark proxy spell will onboard the U
   - `slope`: **100 million per day**
   - `maxSlippage`: **0.1%** (`0.999e18`)
 
-##### [Ethereum] Spark Liquidity Layer - Onboard Curve rlUSD/USDC for Swaps
+##### [Ethereum] Spark Liquidity Layer - Onboard Curve RLUSD/USDC for Swaps
 
 - **Authorization**: [Snapshot Poll](https://snapshot.org/#/s:sparkfi.eth/proposal/0x3240fc78276a2f4898188809464b3357124b2c42065f55a46a7a7254eabd0f82)
 - **Proposal**: [August 13, 2026 Proposed Changes to Spark for Upcoming Spell](https://forum.skyeco.com/t/august-13-2026-proposed-changes-to-spark-for-upcoming-spell/28135)
