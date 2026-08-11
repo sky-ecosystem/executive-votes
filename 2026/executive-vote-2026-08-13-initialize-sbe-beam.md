@@ -246,7 +246,7 @@ If this executive proposal passes, then the Spark proxy spell will claim all Spa
 - **Authorization**: [Sky Atlas](https://sky-atlas.io/#6a4870fa-73f1-4d49-b7ee-d531fb59a971)
 - **Proposal**: [August 13, 2026 Proposed Changes to Spark for Upcoming Spell](https://forum.skyeco.com/t/august-13-2026-proposed-changes-to-spark-for-upcoming-spell/28135)
 
-If this executive proposal passes, then the Spark proxy spell will transfer 1,756,359 USDS to `ALM_OPS_MULTISIG` to fund SPK buybacks.
+If this executive proposal passes, then the Spark proxy spell will transfer **1,756,359 USDS** to `ALM_OPS_MULTISIG` to fund SPK buybacks.
 
 #### Grove Proxy Spell
 
