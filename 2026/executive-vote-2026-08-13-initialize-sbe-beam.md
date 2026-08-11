@@ -209,7 +209,8 @@ If this executive proposal passes, then the Spark proxy spell will onboard the U
 - Deposit rate limit:
   - `maxAmount`: **10 million**
   - `slope`: **50 million per day**
-- Withdrawal rate limit: **unlimited**
+- Withdrawal rate limit:
+  - `maxAmount`: **unlimited**
 - Swap rate limit:
   - `maxAmount`: **5 million**
   - `slope`: **100 million per day**
