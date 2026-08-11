@@ -210,7 +210,7 @@ If this executive proposal passes, then the Spark proxy spell will onboard the U
   - Pool ID: `0x9035721b23481db3888fd201b9c2b26dbc3af60258bca65e669f2ed98dc8eb4f`
   - Min tick range: **-10** (0.999)
   - Max tick range: **10** (1.001)
-  - Max tick width: **10 ticks**
+  - Max tick spacing: **10**
   - Swap fee: **0.0005%**
 - Deposit rate limit:
   - `maxAmount`: **10 million**
