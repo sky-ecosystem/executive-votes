@@ -99,7 +99,7 @@ This amount represents **1,051,742 USDS** allocated to the Core Council and **1,
 
 ### LSSKY->SKY Rewards Normalization
 
-- **Authorization**: [Sky Atlas](https://www.sky-atlas.io/#7932c8f3-ce44-49ea-adc4-f6391c621c6e)
+- **Authorization**: [Sky Atlas](https://sky-atlas.io/#7932c8f3-ce44-49ea-adc4-f6391c621c6e)
 - **Proposal**: [Treasury Management Function (TMF) Configurations](https://forum.skyeco.com/t/treasury-management-function-tmf-configurations/28153/2)
 
 If this executive proposal passes, then the distribution of SKY token rewards to SKY stakers will be normalized by updating the LSSKY->SKY farm vest through [`TreasuryFundedFarmingInit.updateFarmVest()`](https://github.com/sky-ecosystem/endgame-toolkit/blob/master/script/dependencies/treasury-funded-farms/TreasuryFundedFarmingInit.sol#L128) with the following parameters:
