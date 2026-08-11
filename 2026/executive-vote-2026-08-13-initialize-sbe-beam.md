@@ -294,8 +294,8 @@ If this executive proposal passes, then the Grove proxy spell will collect all a
 
 If this executive proposal passes, then the Grove proxy spell will set the Maple syrupUSDC `LIMIT_4626_DEPOSIT` [rate limit](https://sky-atlas.io/#8efb0a11-b798-48eb-af19-f65b38f039b5) to zero:
 
-- `maxAmount`: decrease from 50 million syrupUSDC to **0 syrupUSDC**.
-- `slope`: decrease from 50 million syrupUSDC per day to **0 syrupUSDC**.
+- `maxAmount`: decrease by 50 million syrupUSDC from 50 million syrupUSDC to **0 syrupUSDC**.
+- `slope`: decrease by 50 million syrupUSDC per day from 50 million syrupUSDC per day to **0 syrupUSDC per day**.
 
 ## Review
 
