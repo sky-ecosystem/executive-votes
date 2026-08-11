@@ -197,7 +197,7 @@ If this executive proposal passes, then the Spark proxy spell will onboard the U
   - `slope`: **200 million per day**
   - `maxSlippage`: **0.1%** (`0.999e18`)
 
-##### [Ethereum] Spark Liquidity Layer - Onboard Uniswap v4 rlUSD/USDS Pool
+##### [Ethereum] Spark Liquidity Layer - Onboard Uniswap v4 RLUSD/USDS Pool
 
 - **Authorization**: [Snapshot Poll](https://snapshot.org/#/s:sparkfi.eth/proposal/0xf99d50e34900ea8f54c90053584f758d2a6d1ddbbe77a8c8d751e2c5a8fd0493)
 - **Proposal**: [August 13, 2026 Proposed Changes to Spark for Upcoming Spell](https://forum.skyeco.com/t/august-13-2026-proposed-changes-to-spark-for-upcoming-spell/28135)
