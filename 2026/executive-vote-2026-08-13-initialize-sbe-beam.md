@@ -4,6 +4,7 @@ summary: Initialize SBE BEAM, execute the Monthly Settlement Cycle for July 2026
 date: 2026-08-13T00:00:00.000Z
 address: "$spell_address"
 ---
+
 # [Executive Proposal] Initialize SBE BEAM, Monthly Settlement Cycle for July 2026, LSSKY-SKY Rewards Normalization, Increase Buybacks and Reactivate LSSKY-USDS Farm, Adjust Grove and Osero DC-IAM Parameters, Rename Osero Chainlog Keys, Update Safe Harbor Agreement, Prime Agent Proxy Spells - August 13, 2026
 
 The Core Facilitators, Sidestream, and Dewiz have placed an executive proposal into the voting system. SKY holders should vote for this proposal if they support the following alterations to the Sky Protocol.
