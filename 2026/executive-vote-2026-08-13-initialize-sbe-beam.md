@@ -183,7 +183,7 @@ The Pull Request for the Spark proxy spell can be viewed [here](https://github.c
 
 If this executive proposal passes, then the Spark proxy spell will onboard the Uniswap v4 USDG/USDS pool to the Spark Liquidity Layer with the following parameters and [rate limits](https://sky-atlas.io/#8efb0a11-b798-48eb-af19-f65b38f039b5):
 
-- [Uniswap v4 parameters](https://developers.uniswap.org/docs/protocols/v4/overview):
+- Uniswap v4 parameters:
   - Pool ID: `0x28adc7179a8a83c3379955d59563c0fec33eadfa83946b447af289190ff5fcff`
   - Min tick range: **-276,334** (0.999)
   - Max tick range: **-276,314** (1.001)
@@ -206,7 +206,7 @@ If this executive proposal passes, then the Spark proxy spell will onboard the U
 
 If this executive proposal passes, then the Spark proxy spell will onboard the Uniswap v4 RLUSD/USDS pool to the Spark Liquidity Layer with the following parameters and [rate limits](https://sky-atlas.io/#8efb0a11-b798-48eb-af19-f65b38f039b5):
 
-- [Uniswap v4 parameters](https://developers.uniswap.org/docs/protocols/v4/overview):
+- Uniswap v4 parameters:
   - Pool ID: `0x9035721b23481db3888fd201b9c2b26dbc3af60258bca65e669f2ed98dc8eb4f`
   - Min tick range: **-10** (0.999)
   - Max tick range: **10** (1.001)
