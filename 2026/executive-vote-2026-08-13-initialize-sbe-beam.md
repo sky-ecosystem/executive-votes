@@ -240,8 +240,8 @@ If this executive proposal passes, then the Spark proxy spell will onboard the C
 
 If this executive proposal passes, then the Spark proxy spell will claim all SparkLend reserves as follows:
 
-- Claim SparkLend reserves of DAI, USDS, USDC, USDT, and PYUSD to the ALM Proxy: [0x1601843c5E9bC251A3272907010AFa41Fa18347E](https://etherscan.io/address/0x1601843c5E9bC251A3272907010AFa41Fa18347E)
-- Claim all other SparkLend reserves to the Spark Operations Multisig: [0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC](https://etherscan.io/address/0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC)
+- Claim SparkLend reserves of DAI, USDS, USDC, USDT, and PYUSD to the ALM Proxy: [`0x1601843c5E9bC251A3272907010AFa41Fa18347E`](https://etherscan.io/address/0x1601843c5E9bC251A3272907010AFa41Fa18347E).
+- Claim all other SparkLend reserves to the Spark Operations Multisig: [`0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC`](https://etherscan.io/address/0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC).
 
 ##### [Ethereum] Spark Treasury - Transfer Excess USDS for Buybacks
 
