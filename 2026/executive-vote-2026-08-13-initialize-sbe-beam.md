@@ -271,7 +271,8 @@ The following DPAU [rate limits](https://sky-atlas.io/#8efb0a11-b798-48eb-af19-f
 - USDC deposit rate limit:
   - `maxAmount`: **5 million USDC**
   - `slope`: **0 USDC**
-- Aggregate, AUSD, and USDC withdrawal rate limits: unlimited
+- Aggregate, AUSD, and USDC withdrawal rate limits:
+  - `maxAmount`: **unlimited**
 - AUSD swap rate limit:
   - `maxAmount`: **1 million AUSD**
   - `slope`: **5 million AUSD per day**
