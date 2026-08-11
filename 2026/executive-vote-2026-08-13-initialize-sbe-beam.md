@@ -53,7 +53,7 @@ If this executive proposal passes, then SBE BEAM will be initialized through the
   - `farmOwner`: [`0xA3d3A2e9Fe5d0901D720D5382E4a7eA12D4E2b0e`](https://etherscan.io/address/0xA3d3A2e9Fe5d0901D720D5382E4a7eA12D4E2b0e)
   - [`maxKbump`](https://sky-atlas.io/#53370eb5-8fc7-4600-8f52-46615e03801e): **12,000 USDS**
   - [`minHop`](https://sky-atlas.io/#b1cbaeb4-4e7f-45f4-a033-e338c6855499): **550 seconds**
-  - `maxRate`: **350 million USDS per year**
+  - [`maxRate`](https://sky-atlas.io/#f700ba6e-7aa4-4d47-addf-981c32f3c49d): **350 million USDS per year**
   - `tau`: **30 minutes**
   - `buds`: [`0x869294B42B80f99CF3Bdac0F44abddAd6cD41330`](https://etherscan.io/address/0x869294B42B80f99CF3Bdac0F44abddAd6cD41330)
   - `chainlogKey`: `MCD_SBEBEAM`
