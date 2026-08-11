@@ -12,6 +12,7 @@ The Core Facilitators, Sidestream, and Dewiz have placed an executive proposal i
 If you are new to voting in the Sky Protocol, please see the [voting guide](https://manual.makerdao.com/governance/voting-in-makerdao/on-chain-governance) to learn how voting works.
 
 ---
+
 ## Executive Summary
 
 If this executive proposal passes, the following **actions** will occur within the Sky Protocol:
