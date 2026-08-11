@@ -179,14 +179,15 @@ The Pull Request for the Spark proxy spell can be viewed [here](https://github.c
 If this executive proposal passes, then the Spark proxy spell will onboard the Uniswap v4 USDG/USDS pool to the Spark Liquidity Layer with the following parameters and [rate limits](https://sky-atlas.io/#8efb0a11-b798-48eb-af19-f65b38f039b5):
 
 - [Uniswap v4 parameters](https://docs.uniswap.org/contracts/v4/reference/core/libraries/TickMath):
-- Pool ID: `0x28adc7179a8a83c3379955d59563c0fec33eadfa83946b447af289190ff5fcff`
-- Tick bounds: `-276334` to `-276314`
-- Max tick width: **10 ticks**
+  - Pool ID: `0x28adc7179a8a83c3379955d59563c0fec33eadfa83946b447af289190ff5fcff`
+  - Tick bounds: `-276334` to `-276314`
+  - Max tick width: **10 ticks**
 - `maxSlippage`: **0.1%** (`0.999e18`)
 - Deposit rate limit:
   - `maxAmount`: **10 million**
   - `slope`: **100 million per day**
-- Withdrawal rate limit: **unlimited**
+- Withdrawal rate limit:
+  - `maxAmount`: **unlimited**
 - Swap rate limit:
   - `maxAmount`: **5 million**
   - `slope`: **200 million per day**
