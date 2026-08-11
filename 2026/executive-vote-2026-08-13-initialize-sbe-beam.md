@@ -55,7 +55,7 @@ If this executive proposal passes, then SBE BEAM will be initialized through the
   - [`minHop`](https://sky-atlas.io/#b1cbaeb4-4e7f-45f4-a033-e338c6855499): **550 seconds**
   - [`maxRate`](https://sky-atlas.io/#f700ba6e-7aa4-4d47-addf-981c32f3c49d): **350 million USDS per year**
   - [`tau`](https://sky-atlas.io/#6c389eb2-8f50-4b6b-ad77-deb27c9f9fb0): **30 minutes** (1,800 seconds)
-  - `buds`: [`0x869294B42B80f99CF3Bdac0F44abddAd6cD41330`](https://etherscan.io/address/0x869294B42B80f99CF3Bdac0F44abddAd6cD41330)
+  - `buds`: [`0x869294B42B80f99CF3Bdac0F44abddAd6cD41330`](https://etherscan.io/address/0x869294B42B80f99CF3Bdac0F44abddAd6cD41330) (The SBE BEAM Operator Multisig)
   - `chainlogKey`: `MCD_SBEBEAM`
 
 ### Monthly Settlement Cycle for July 2026
