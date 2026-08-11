@@ -45,10 +45,10 @@ If this executive proposal does not pass within 30 days, then it will expire and
 
 If this executive proposal passes, then SBE BEAM will be initialized through the following actions:
 
-- Call `FlapperInit.initFarmOwner()` with:
+- Call [`FlapperInit.initFarmOwner()`](https://github.com/sky-ecosystem/dss-flappers/blob/655d2dd2c7000235633fec87b763ee0143e85bab/deploy/FlapperInit.sol#L284-L300) with:
   - `farmOwner`: [`0xA3d3A2e9Fe5d0901D720D5382E4a7eA12D4E2b0e`](https://etherscan.io/address/0xA3d3A2e9Fe5d0901D720D5382E4a7eA12D4E2b0e)
   - `chainlogKey`: `OWNER_REWARDS_LSSKY_USDS`
-- Call `FlapperInit.initSBEBeam()` with:
+- Call [`FlapperInit.initSBEBeam()`](https://github.com/sky-ecosystem/dss-flappers/blob/655d2dd2c7000235633fec87b763ee0143e85bab/deploy/FlapperInit.sol#L302-L331) with:
   - `beam`: [`0xc8b61d211D3D03A630Fb09199E17953a8c9749a9`](https://etherscan.io/address/0xc8b61d211D3D03A630Fb09199E17953a8c9749a9)
   - `farmOwner`: [`0xA3d3A2e9Fe5d0901D720D5382E4a7eA12D4E2b0e`](https://etherscan.io/address/0xA3d3A2e9Fe5d0901D720D5382E4a7eA12D4E2b0e)
   - `maxKbump`: **12,000 USDS**
@@ -130,9 +130,9 @@ If this executive proposal passes, then buybacks will be increased and the LSSKY
 
 If this executive proposal passes, then the following DC-IAM parameters will be updated for `ALLOCATOR-GROVE-A`:
 
-- Increase the [Maximum Debt Ceiling (`line`)](https://sky-atlas.io/#A.3.7.1.1.2.4.1) by 5 million USDS from 5 million USDS to **10 million USDS**.
-- Increase the [Target Available Debt (`gap`)](https://sky-atlas.io/#A.3.7.1.1.2.4.2) by 1 million USDS from 1 million USDS to **2 million USDS**.
-- Leave the [Ceiling Increase Cooldown (`ttl`)](https://sky-atlas.io/#A.3.7.1.1.2.4.3) unchanged at **86,400 seconds** (24 hours).
+- Increase the [Maximum Debt Ceiling (`line`)](https://www.sky-atlas.io/#6ba18f25-dae8-4fa5-929e-3c7071b70107) by 5 million USDS from 5 million USDS to **10 million USDS**.
+- Increase the [Target Available Debt (`gap`)](https://www.sky-atlas.io/#07353080-4346-4ffd-bfc8-913cac78776a) by 1 million USDS from 1 million USDS to **2 million USDS**.
+- Leave the [Ceiling Increase Cooldown (`ttl`)](https://www.sky-atlas.io/#a5ae79ad-9460-41a3-8dbf-65605f54b79b) unchanged at **86,400 seconds** (24 hours).
 
 ### Adjust Osero DC-IAM Parameters
 
@@ -141,9 +141,9 @@ If this executive proposal passes, then the following DC-IAM parameters will be 
 
 If this executive proposal passes, then the following DC-IAM parameters will be updated for the Osero vault (`ALLOCATOR-PRYSM-A`):
 
-- Increase the [Maximum Debt Ceiling (`line`)](https://sky-atlas.io/#A.3.7.1.1.2.4.1) by 5 million USDS from 5 million USDS to **10 million USDS**.
-- Increase the Target Available Debt (`gap`) by 1 million USDS from 1 million USDS to **2 million USDS**.
-- Leave the [Ceiling Increase Cooldown (`ttl`)](https://sky-atlas.io/#A.3.7.1.1.2.4.3) unchanged at **86,400 seconds** (24 hours).
+- Increase the [Maximum Debt Ceiling (`line`)](https://www.sky-atlas.io/#6ba18f25-dae8-4fa5-929e-3c7071b70107) by 5 million USDS from 5 million USDS to **10 million USDS**.
+- Increase the [Target Available Debt (`gap`)](https://www.sky-atlas.io/#07353080-4346-4ffd-bfc8-913cac78776a) by 1 million USDS from 1 million USDS to **2 million USDS**.
+- Leave the [Ceiling Increase Cooldown (`ttl`)](https://www.sky-atlas.io/#a5ae79ad-9460-41a3-8dbf-65605f54b79b) unchanged at **86,400 seconds** (24 hours).
 
 ### Rename Osero Chainlog Keys
 
@@ -183,9 +183,10 @@ If this executive proposal passes, then the Spark proxy spell will onboard the U
 
 - [Uniswap v4 parameters](https://docs.uniswap.org/contracts/v4/reference/core/libraries/TickMath):
   - Pool ID: `0x28adc7179a8a83c3379955d59563c0fec33eadfa83946b447af289190ff5fcff`
-  - Tick bounds: `-276334` to `-276314`
+  - Min tick range: **-276,334** (0.999)
+  - Max tick range: **-276,314** (1.001)
   - Max tick width: **10 ticks**
-- `maxSlippage`: **0.1%** (`0.999e18`)
+  - Swap fee: **0.0005%**
 - Deposit rate limit:
   - `maxAmount`: **10 million**
   - `slope`: **100 million per day**
@@ -194,7 +195,7 @@ If this executive proposal passes, then the Spark proxy spell will onboard the U
 - Swap rate limit:
   - `maxAmount`: **5 million**
   - `slope`: **200 million per day**
-- Swap fee: **0.0005%**
+  - `maxSlippage`: **0.1%** (`0.999e18`)
 
 ##### [Ethereum] Spark Liquidity Layer - Onboard Uniswap v4 rlUSD/USDS Pool
 
@@ -205,9 +206,10 @@ If this executive proposal passes, then the Spark proxy spell will onboard the U
 
 - [Uniswap v4 parameters](https://docs.uniswap.org/contracts/v4/reference/core/libraries/TickMath):
   - Pool ID: `0x9035721b23481db3888fd201b9c2b26dbc3af60258bca65e669f2ed98dc8eb4f`
-  - Tick bounds: `-10` to `10`
+  - Min tick range: **-10** (0.999)
+  - Max tick range: **10** (1.001)
   - Max tick width: **10 ticks**
-- `maxSlippage`: **0.1%** (`0.999e18`)
+  - Swap fee: **0.0005%**
 - Deposit rate limit:
   - `maxAmount`: **10 million**
   - `slope`: **50 million per day**
@@ -216,7 +218,7 @@ If this executive proposal passes, then the Spark proxy spell will onboard the U
 - Swap rate limit:
   - `maxAmount`: **5 million**
   - `slope`: **100 million per day**
-- Swap fee: **0.0005%**
+  - `maxSlippage`: **0.1%** (`0.999e18`)
 
 ##### [Ethereum] Spark Liquidity Layer - Onboard Curve rlUSD/USDC for Swaps
 
@@ -246,7 +248,7 @@ If this executive proposal passes, then the Spark proxy spell will claim all Spa
 - **Authorization**: [Sky Atlas](https://sky-atlas.io/#6a4870fa-73f1-4d49-b7ee-d531fb59a971)
 - **Proposal**: [August 13, 2026 Proposed Changes to Spark for Upcoming Spell](https://forum.skyeco.com/t/august-13-2026-proposed-changes-to-spark-for-upcoming-spell/28135)
 
-If this executive proposal passes, then the Spark proxy spell will transfer **1,756,359 USDS** to `ALM_OPS_MULTISIG` to fund SPK buybacks.
+If this executive proposal passes, then the Spark proxy spell will transfer **1,756,359 USDS** to [`ALM_OPS_MULTISIG`](https://etherscan.io/address/0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC) to fund SPK buybacks.
 
 #### Grove Proxy Spell
 
@@ -289,7 +291,7 @@ The following DPAU [rate limits](https://sky-atlas.io/#8efb0a11-b798-48eb-af19-f
 - **Authorization**: [Snapshot Poll](https://snapshot.org/#/s:grovefinance.eth/proposal/0x3bce0bdda59ea54dd6056e772aa7f77880209b0206d11a7345286136d28fba70)
 - **Proposal**: [August 13, 2026 Proposed Changes to Grove for Upcoming Spell](https://forum.skyeco.com/t/august-13-2026-proposed-changes-to-grove-for-upcoming-spell/28126)
 
-If this executive proposal passes, then the Grove proxy spell will collect all accrued fees from Uniswap V3 position NFT `tokenId 1192575` for the AUSD/USDC 0.01% pool and send them to the Grove ALM Proxy.
+If this executive proposal passes, then the Grove proxy spell will collect all accrued fees from Uniswap V3 position NFT `tokenId 1192575` for the AUSD/USDC 0.01% pool and send them to the [Grove ALM Proxy](https://etherscan.io/address/0x491EDFB0B8b608044e227225C715981a30F3A44E).
 
 ##### [Ethereum] Set the Grove ALM Maple syrupUSDC Deposit Rate Limit to 0
 
