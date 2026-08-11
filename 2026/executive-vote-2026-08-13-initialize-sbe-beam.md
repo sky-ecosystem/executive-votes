@@ -111,7 +111,7 @@ If this executive proposal passes, then the distribution of SKY token rewards to
 
 ### Increase Buybacks and Reactivate LSSKY->USDS Farm
 
-- **Authorization**: [Sky Atlas](https://www.sky-atlas.io/#7932c8f3-ce44-49ea-adc4-f6391c621c6e)
+- **Authorization**: [Sky Atlas](https://sky-atlas.io/#7932c8f3-ce44-49ea-adc4-f6391c621c6e)
 - **Proposal**: [Treasury Management Function (TMF) Configurations](https://forum.skyeco.com/t/treasury-management-function-tmf-configurations/28153/2)
 
 If this executive proposal passes, then buybacks will be increased and the LSSKY->USDS farm will be reactivated through the following parameter changes:
