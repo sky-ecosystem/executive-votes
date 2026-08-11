@@ -130,9 +130,9 @@ If this executive proposal passes, then buybacks will be increased and the LSSKY
 
 If this executive proposal passes, then the following DC-IAM parameters will be updated for `ALLOCATOR-GROVE-A`:
 
-- Increase the [Maximum Debt Ceiling (`line`)](https://www.sky-atlas.io/#6ba18f25-dae8-4fa5-929e-3c7071b70107) by 5 million USDS from 5 million USDS to **10 million USDS**.
-- Increase the [Target Available Debt (`gap`)](https://www.sky-atlas.io/#07353080-4346-4ffd-bfc8-913cac78776a) by 1 million USDS from 1 million USDS to **2 million USDS**.
-- Leave the [Ceiling Increase Cooldown (`ttl`)](https://www.sky-atlas.io/#a5ae79ad-9460-41a3-8dbf-65605f54b79b) unchanged at **86,400 seconds** (24 hours).
+- Increase the [Maximum Debt Ceiling (`line`)](https://sky-atlas.io/#6ba18f25-dae8-4fa5-929e-3c7071b70107) by 5 million USDS from 5 million USDS to **10 million USDS**.
+- Increase the [Target Available Debt (`gap`)](https://sky-atlas.io/#07353080-4346-4ffd-bfc8-913cac78776a) by 1 million USDS from 1 million USDS to **2 million USDS**.
+- Leave the [Ceiling Increase Cooldown (`ttl`)](https://sky-atlas.io/#a5ae79ad-9460-41a3-8dbf-65605f54b79b) unchanged at **86,400 seconds** (24 hours).
 
 ### Adjust Osero DC-IAM Parameters
 
@@ -141,13 +141,13 @@ If this executive proposal passes, then the following DC-IAM parameters will be 
 
 If this executive proposal passes, then the following DC-IAM parameters will be updated for the Osero vault (`ALLOCATOR-PRYSM-A`):
 
-- Increase the [Maximum Debt Ceiling (`line`)](https://www.sky-atlas.io/#6ba18f25-dae8-4fa5-929e-3c7071b70107) by 5 million USDS from 5 million USDS to **10 million USDS**.
-- Increase the [Target Available Debt (`gap`)](https://www.sky-atlas.io/#07353080-4346-4ffd-bfc8-913cac78776a) by 1 million USDS from 1 million USDS to **2 million USDS**.
-- Leave the [Ceiling Increase Cooldown (`ttl`)](https://www.sky-atlas.io/#a5ae79ad-9460-41a3-8dbf-65605f54b79b) unchanged at **86,400 seconds** (24 hours).
+- Increase the [Maximum Debt Ceiling (`line`)](https://sky-atlas.io/#6ba18f25-dae8-4fa5-929e-3c7071b70107) by 5 million USDS from 5 million USDS to **10 million USDS**.
+- Increase the [Target Available Debt (`gap`)](https://sky-atlas.io/#07353080-4346-4ffd-bfc8-913cac78776a) by 1 million USDS from 1 million USDS to **2 million USDS**.
+- Leave the [Ceiling Increase Cooldown (`ttl`)](https://sky-atlas.io/#a5ae79ad-9460-41a3-8dbf-65605f54b79b) unchanged at **86,400 seconds** (24 hours).
 
 ### Rename Osero Chainlog Keys
 
-- **Authorization**: [Sky Atlas](https://www.sky-atlas.io/#0d0e2e1a-0502-4ee3-bc9d-8bd8ddde19ec)
+- **Authorization**: [Sky Atlas](https://sky-atlas.io/#0d0e2e1a-0502-4ee3-bc9d-8bd8ddde19ec)
 - **Proposal**: [Proposed Housekeeping Item - 2026-08-13 Executive Vote](https://forum.skyeco.com/t/proposed-housekeeping-item-2026-08-13-executive-vote/28148)
 
 If this executive proposal passes, then the following Osero Chainlog keys will be renamed:
