@@ -236,7 +236,7 @@ If this executive proposal passes, then the Spark proxy spell will onboard the C
 - **Authorization**: [Sky Atlas](https://sky-atlas.io/#ea73f176-0b94-4e93-b1ee-ca498ac5a6c6)
 - **Proposal**: [August 13, 2026 Proposed Changes to Spark for Upcoming Spell](https://forum.skyeco.com/t/august-13-2026-proposed-changes-to-spark-for-upcoming-spell/28135)
 
-If this executive proposal passes, then the Spark proxy spell will claim all SparkLend reserves as follows: 
+If this executive proposal passes, then the Spark proxy spell will claim all SparkLend reserves as follows:
 
 - Claim SparkLend reserves of DAI, USDS, USDC, USDT, and PYUSD to the ALM Proxy: [0x1601843c5E9bC251A3272907010AFa41Fa18347E](https://etherscan.io/address/0x1601843c5E9bC251A3272907010AFa41Fa18347E)
 - Claim all other SparkLend reserves to the Spark Operations Multisig: [0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC](https://etherscan.io/address/0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC)
