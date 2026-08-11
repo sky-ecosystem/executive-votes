@@ -51,7 +51,7 @@ If this executive proposal passes, then SBE BEAM will be initialized through the
 - Call [`FlapperInit.initSBEBeam()`](https://github.com/sky-ecosystem/dss-flappers/blob/655d2dd2c7000235633fec87b763ee0143e85bab/deploy/FlapperInit.sol#L302-L331) with:
   - `beam`: [`0xc8b61d211D3D03A630Fb09199E17953a8c9749a9`](https://etherscan.io/address/0xc8b61d211D3D03A630Fb09199E17953a8c9749a9)
   - `farmOwner`: [`0xA3d3A2e9Fe5d0901D720D5382E4a7eA12D4E2b0e`](https://etherscan.io/address/0xA3d3A2e9Fe5d0901D720D5382E4a7eA12D4E2b0e)
-  - `maxKbump`: **12,000 USDS**
+  - [`maxKbump`](https://sky-atlas.io/#53370eb5-8fc7-4600-8f52-46615e03801e): **12,000 USDS**
   - `minHop`: **550 seconds**
   - `maxRate`: **350 million USDS per year**
   - `tau`: **30 minutes**
