@@ -94,7 +94,7 @@ If this executive proposal passes, then the Monthly Settlement Cycle for July 20
 
 - Send **2,103,484 USDS** from the Surplus Buffer to the [Core Council Buffer](https://etherscan.io/address/0x210CFcF53d1f9648C1c4dcaEE677f0Cb06914364).
 
-This amount represents **1,051,742 USDS** allocated to the Core Council and **1,051,742 USDS** allocated to the Fortification Conserver, combined into a single transfer.
+This amount represents **1,051,742 USDS** allocated to the Core Council and **1,051,742 USDS** allocated to the Fortification Foundation, combined into a single transfer.
 
 ### LSSKY->SKY Rewards Normalization
 
