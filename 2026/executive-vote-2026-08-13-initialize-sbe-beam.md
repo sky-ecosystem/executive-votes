@@ -201,9 +201,9 @@ If this executive proposal passes, then the Spark proxy spell will onboard the U
 If this executive proposal passes, then the Spark proxy spell will onboard the Uniswap v4 rlUSD/USDS pool to the Spark Liquidity Layer with the following parameters and [rate limits](https://sky-atlas.io/#8efb0a11-b798-48eb-af19-f65b38f039b5):
 
 - [Uniswap v4 parameters](https://docs.uniswap.org/contracts/v4/reference/core/libraries/TickMath):
-- Pool ID: `0x9035721b23481db3888fd201b9c2b26dbc3af60258bca65e669f2ed98dc8eb4f`
-- Tick bounds: `-10` to `10`
-- Max tick width: **10 ticks**
+  - Pool ID: `0x9035721b23481db3888fd201b9c2b26dbc3af60258bca65e669f2ed98dc8eb4f`
+  - Tick bounds: `-10` to `10`
+  - Max tick width: **10 ticks**
 - `maxSlippage`: **0.1%** (`0.999e18`)
 - Deposit rate limit:
   - `maxAmount`: **10 million**
