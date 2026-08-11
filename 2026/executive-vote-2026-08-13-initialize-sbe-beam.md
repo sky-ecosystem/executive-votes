@@ -123,7 +123,7 @@ If this executive proposal passes, then buybacks will be increased and the LSSKY
 - Decrease `splitter.burn` by 45 percentage points from 100% to **55%**.
 - Keep `kicker.kbump` unchanged at **6,000 USDS**.
 
-These changes increase the buyback rate by increasing the frequency of buybacks. 55% of USDS in each transaction will be used to buyback SKY tokens, 45% of the USDS will be distributed to stakers through the LSSKY->USDS farm.
+These changes increase the buyback rate by increasing the frequency of buybacks. 55% of the USDS in each cycle will be used to buy back SKY tokens, while the remaining 45% will be distributed to stakers through the LSSKY->USDS farm.
 
 ### Adjust Grove DC-IAM Parameters
 
