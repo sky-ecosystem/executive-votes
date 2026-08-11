@@ -264,7 +264,7 @@ If this executive proposal passes, then the Grove proxy spell will enable the `U
 - `maxSlippage`: **0.1%** (`0.999e18`)
 - `maxTickDelta`: **200 ticks**
 - `twapSecondsAgo`: **600 seconds**
-- Liquidity tick bounds: `-10` to `10`
+- Liquidity tick bounds: **-10 ticks** to **10 ticks**
 
 The following DPAU [rate limits](https://sky-atlas.io/#8efb0a11-b798-48eb-af19-f65b38f039b5) will be configured:
 
