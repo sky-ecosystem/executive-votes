@@ -2,7 +2,7 @@
 title: Template - [Executive Vote] Initialize SBE BEAM, Monthly Settlement Cycle for July 2026, LSSKY-SKY Rewards Normalization, Increase Buybacks and Reactivate LSSKY-USDS Farm, Adjust Grove and Osero DC-IAM Parameters, Rename Osero Chainlog Keys, Update Safe Harbor Agreement, Prime Agent Proxy Spells - August 13, 2026
 summary: Initialize SBE BEAM, execute the Monthly Settlement Cycle for July 2026 and the associated reconciliation transfers, normalize LSSKY-SKY staking rewards, increase buybacks and reactivate the LSSKY-USDS farm, adjust the Grove and Osero DC-IAM parameters, rename the Osero Chainlog keys, update the Safe Harbor Agreement, and whitelist Prime Agent spells for Spark and Grove.
 date: 2026-08-13T00:00:00.000Z
-address: "$spell_address"
+address: "0xB26b9d89776aa9E74ddA0e86e916413def03F59b"
 ---
 
 # [Executive Proposal] Initialize SBE BEAM, Monthly Settlement Cycle for July 2026, LSSKY-SKY Rewards Normalization, Increase Buybacks and Reactivate LSSKY-USDS Farm, Adjust Grove and Osero DC-IAM Parameters, Rename Osero Chainlog Keys, Update Safe Harbor Agreement, Prime Agent Proxy Spells - August 13, 2026
