@@ -1,11 +1,11 @@
 ---
-title: Template - [Executive Vote] PAS Initialization, Funding Transfer, Allocator Vault Parameter Updates, Rename Chainlog Key, Update Safe Harbor Agreement, Prime Agent Proxy Spells  - August 27, 2026
-summary: Initialize the Parallelized Allocation System, Transfer funds from Ozone SubProxy to SFF, update DC-IAM parameters for two Allocator vaults, rename a Chainlog key, update the Safe Harbor Agreement, whitelist Spark and Grove Proxy Spells.
+title: Template - [Executive Vote] PAS Initialization, Funding Transfer, Allocator Vault Parameter Updates, Rename Chainlog Key, Update Safe Harbor Agreement, Prime Agent Proxy Spells - August 27, 2026
+summary: Initialize the Parallelized Allocation System, transfer funds from Ozone SubProxy to SFF, update DC-IAM parameters for two Allocator vaults, rename a Chainlog key, update the Safe Harbor Agreement, whitelist Spark and Grove Proxy Spells.
 date: 2026-08-27T00:00:00.000Z
 address: "$spell_address"
 ---
 
-# [Executive Proposal] PAS Initialization, Funding Transfer, Allocator Vault Parameter Updates, Rename Chainlog Key, Update Safe Harbor Agreement, Prime Agent Proxy Spells  - August 27, 2026
+# [Executive Proposal] PAS Initialization, Funding Transfer, Allocator Vault Parameter Updates, Rename Chainlog Key, Update Safe Harbor Agreement, Prime Agent Proxy Spells - August 27, 2026
 
 The Core Facilitator, Dewiz, and Sidestream have placed an executive proposal into the voting system. SKY holders should vote for this proposal if they support the following alterations to the Sky Protocol.
 
@@ -51,7 +51,7 @@ If this executive proposal passes, then the Parallelized Allocation System (PAS)
   - `address pasInstance.timelock`
     - Argument value: [0xB50a06Af02dDE44dB6EA7ee729403848c2B35293](https://etherscan.io/address/0xB50a06Af02dDE44dB6EA7ee729403848c2B35293)
   - `uint256 minDelay`
-    - Argument value: **14 days** (or 1209600 seconds)
+    - Argument value: **14 days** (or 1,209,600 seconds)
   - `address coreCouncil`
     - Argument value: [0x148eF923d764CBdc1597CcADBbbC66499C1A1432](https://etherscan.io/address/0x148eF923d764CBdc1597CcADBbbC66499C1A1432)
   - `address[] cancellers`
@@ -90,7 +90,7 @@ If this executive proposal passes, then the Parallelized Allocation System (PAS)
   - `address pasInstance.timelock`
     - Argument value: [0xB50a06Af02dDE44dB6EA7ee729403848c2B35293](https://etherscan.io/address/0xB50a06Af02dDE44dB6EA7ee729403848c2B35293)
   - `uint256 hop`
-    - Argument value: **16 hours** (or 57600 seconds)
+    - Argument value: **16 hours** (or 57,600 seconds)
   - `uint256 maxChange`
     - Argument value: **1.20** (i.e. a maximum increase of 20% per eligible step)
   - `address[] memory rateLimits`
@@ -104,7 +104,7 @@ If this executive proposal passes, then the Parallelized Allocation System (PAS)
       - Argument value: A single address [0xE016Ae733A77Ba77E7907aAA749394Fc5e75C0e1](https://etherscan.io/address/0xE016Ae733A77Ba77E7907aAA749394Fc5e75C0e1)
     - `address[] cBeamConfigs[0].controllers`
       - Argument value: A single address [0xbf83F5974B932c7D842254042717D6A2706CE5eE](https://etherscan.io/address/0xbf83F5974B932c7D842254042717D6A2706CE5eE)
-- Call [PASInit.pauseTimelock](https://github.com/sky-ecosystem/pas/blob/947e71cd5dbaaf9c5b3840dd1b23e8e99d9a564d/deploy/PASInit.sol#L150-L161) with the following arguments
+- Call [PASInit.pauseTimelock](https://github.com/sky-ecosystem/pas/blob/947e71cd5dbaaf9c5b3840dd1b23e8e99d9a564d/deploy/PASInit.sol#L150-L161) with the following arguments:
   - `address timelock_`
     - Argument value: [0xB50a06Af02dDE44dB6EA7ee729403848c2B35293](https://etherscan.io/address/0xB50a06Af02dDE44dB6EA7ee729403848c2B35293)
   - `address admin`
@@ -112,7 +112,7 @@ If this executive proposal passes, then the Parallelized Allocation System (PAS)
 
 ### Transfer Funds From Ozone SubProxy to Sky Frontier Foundation
 
-- **Authorization**: [A.4.6.2.1.4](https://sky-atlas.io/#813a123a-d6e1-4ef2-bc55-716b50732721)
+- **Authorization**: [A.2.8.2.9.2.2](https://sky-atlas.io/#9bb85c21-96a3-4f0a-baab-1c3fe340871d)
 - **Proposal**: [Agent Request](https://forum.skyeco.com/t/technical-scope-for-transferring-funds-from-the-subproxy/28004/7)
 
 If this executive proposal passes, then [`SUBPROXY_METHODS`](https://etherscan.io/address/0x5162489F4FEa651b76c75193387d08aAAC9CB52C) will be executed in [`OZONE_SUBPROXY`](https://etherscan.io/address/0x9FE628BFc33f0352Bb1f93168881a9Ef93C8d2CF) to transfer **16 million USDS** to Sky Frontier Foundation at [`0xca5183FB9997046fbd9bA8113139bf5a5Af122A0`](https://etherscan.io/address/0xca5183FB9997046fbd9bA8113139bf5a5Af122A0).
@@ -213,8 +213,8 @@ If this executive proposal passes, then USDG will be onboarded to SparkLend with
 If this executive proposal passes, then RLUSD will be onboarded to SparkLend with the following addresses and parameters:
 
 - Addresses
-  - RLUSD token: [0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD](https://etherscan.io/address/0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD)
-  - RLUSD spToken (aToken): [0x59275Fb72c8004F44BA44432e25082932Fd677f1](https://etherscan.io/address/0x59275Fb72c8004F44BA44432e25082932Fd677f1) (will be deterministically deployed to this address as part of spell at nonce 55)
+  - RLUSD token: Ethereum.RLUSD ([0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD](https://etherscan.io/address/0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD))
+  - RLUSD spToken (aToken): [0x59275Fb72c8004F44BA44432e25082932Fd677f1](https://etherscan.io/address/0x59275Fb72c8004F44BA44432e25082932Fd677f1) (will be deterministically deployed to this address as part of spell at nonce 58)
   - RLUSD price feed / oracle: [0x42a03F81dd8A1cEcD746dc262e4d1CD9fD39F777](https://etherscan.io/address/0x42a03F81dd8A1cEcD746dc262e4d1CD9fD39F777)
   - RLUSD interest rate model contract: [0x473fDf9713C9a02A9a9c17173a57d120493F3C6B](https://etherscan.io/address/0x473fDf9713C9a02A9a9c17173a57d120493F3C6B)
 - Reserve parameters
@@ -253,11 +253,11 @@ If this executive proposal passes, then SparkLend USDG will be onboarded to the 
   - controller: [Ethereum.ALM_CONTROLLER](https://etherscan.io/address/0x5c46Fc65855c0C7465a1EA85EEA0B24B601502D3)
   - rate limits: [Ethereum.ALM_RATE_LIMITS](https://etherscan.io/address/0x7A5FD5cf045e010e62147F065cEAe59e5344b188)
 - Deposit rate limit:
-  - deposit max: **100,000,000 USDG**
-  - deposit slope: **100,000,000 USDG / day**
-- Withdraw rate limit
+  - deposit max: **100 million USDG**
+  - deposit slope: **100 million USDG / day**
+- Withdrawal rate limit:
   - withdraw max: **unlimited**
-- Max slippage
+- Max slippage:
   - max slippage: **0.001%**
 
 ##### [Ethereum] Spark Liquidity Layer - Onboard SparkLend RLUSD
@@ -272,19 +272,19 @@ If this executive proposal passes, then SparkLend RLUSD will be onboarded to the
   - controller: [Ethereum.ALM_CONTROLLER](https://etherscan.io/address/0x5c46Fc65855c0C7465a1EA85EEA0B24B601502D3)
   - rate limits: [Ethereum.ALM_RATE_LIMITS](https://etherscan.io/address/0x7A5FD5cf045e010e62147F065cEAe59e5344b188)
 - Deposit rate limit:
-  - deposit max: **100,000,000 RLUSD**
-  - deposit slope: **100,000,000 RLUSD / day**
+  - deposit max: **100 million RLUSD**
+  - deposit slope: **100 million RLUSD / day**
 - Withdraw rate limit:
   - withdraw max: **unlimited**
 - Max slippage:
   - max slippage: **0.001%**
 
-##### [Ethereum] Spark Treasury - Grants for Spark Foundation and Spark Assets Foundation
+##### [Ethereum] Spark Treasury - Grants for Spark Foundation and Spark Asset Foundation
 
 - **Authorization**: [A.2.8.2.2.2.4.5.1.4](https://sky-atlas.io/#8dd2eb27-a760-4287-89cf-7b5bdb0c5d7c)
 - **Proposal**: [Prime Technical Scope](https://forum.skyeco.com/t/august-27-2026-proposed-changes-to-spark-for-upcoming-spell/28181)
 
-If this executive proposal passes, then **1.1 million USDS** will be transferred from the Spark SubProxy to the Spark Foundation at [0x92e4629a4510AF5819d7D1601464C233599fF5ec](https://etherscan.io/address/0x92e4629a4510AF5819d7D1601464C233599fF5ec) and **155,000 USDS** will be transferred form the Spark Subproxy to the Spark Asset Foundation at [0xEabCb8C0346Ac072437362f1692706BA5768A911](https://etherscan.io/address/0xEabCb8C0346Ac072437362f1692706BA5768A911).
+If this executive proposal passes, then **1.1 million USDS** will be transferred from the Spark SubProxy to the Spark Foundation at [0x92e4629a4510AF5819d7D1601464C233599fF5ec](https://etherscan.io/address/0x92e4629a4510AF5819d7D1601464C233599fF5ec) and **155,000 USDS** will be transferred from the Spark SubProxy to the Spark Asset Foundation at [0xEabCb8C0346Ac072437362f1692706BA5768A911](https://etherscan.io/address/0xEabCb8C0346Ac072437362f1692706BA5768A911).
 
 ##### [Ethereum] SparkLend - Claim SparkLend Reserves
 
@@ -324,7 +324,7 @@ If this executive proposal passes, then the deposit [rate limits](https://sky-at
 - **Authorization**: [Snapshot Poll](https://snapshot.box/#/s:grovefinance.eth/proposal/0x760f15647c7ac433a8378b07655e6ab5f48c610f9efd8a925b239f959032d6a6)
 - **Proposal**: [Prime Technical Scope](https://forum.skyeco.com/t/august-27-2026-proposed-changes-to-grove-for-upcoming-spell/28164)
 
-If this executive proposal passes, then the Sky Configurator ([PAS_CONFIGURATOR](0xb7E61Df6CAb0A51E9A5dab1A7DD3f942dDe5b929)) will be granted admin role on the Grove DPAU [AccessControls](https://etherscan.io/address/0x4F6d1704700cd494DD4cd9bF59c0C39DA1Bc9164) and [RateLimits](https://etherscan.io/address/0xE016Ae733A77Ba77E7907aAA749394Fc5e75C0e1) contracts.
+If this executive proposal passes, then the Sky Configurator ([https://etherscan.io/address/PAS_CONFIGURATOR](0xb7E61Df6CAb0A51E9A5dab1A7DD3f942dDe5b929)) will be granted admin role on the Grove DPAU [AccessControls](https://etherscan.io/address/0x4F6d1704700cd494DD4cd9bF59c0C39DA1Bc9164) and [RateLimits](https://etherscan.io/address/0xE016Ae733A77Ba77E7907aAA749394Fc5e75C0e1) contracts.
 
 ## Review
 
