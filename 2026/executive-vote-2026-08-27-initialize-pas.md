@@ -21,7 +21,7 @@ If this executive proposal passes, the following **actions** will occur within t
 - **16 million USDS** will be transferred from Ozone's SubProxy to Sky Frontier Foundation.
 - Debt Ceiling Instant Access Module (DC-IAM) parameters for ALLOCATOR-GROVE-A and ALLOCATOR-PRYSM-A will be updated.
 - A Chainlog key will be renamed.
-- The Safe Harbor Agreement will be updated to reflect the newly initialized PAS contracts.
+- The Safe Harbor Agreement will be updated.
 - Prime Agent Proxy Spells will be whitelisted for Spark and Grove in their respective StarGuard modules.
 
 **Voting for this executive proposal will place your SKY in support of the actions outlined above.**
@@ -120,7 +120,7 @@ If this executive proposal passes, then [`SUBPROXY_METHODS`](https://etherscan.i
 ### Increase ALLOCATOR-GROVE-A DC-IAM Parameters
 
 - **Authorization**: [A.3.7.1.2.2](https://sky-atlas.io/#41a1ae38-4f5c-468f-b6ba-47e16ecc5aec)
-- **Proposal**: [Prime Request](https://forum.skyeco.com/t/august-27-2026-proposed-changes-to-grove-for-upcoming-spell/28164/7)
+- **Proposal**: [Prime Request](https://forum.skyeco.com/t/august-27-2026-proposed-changes-to-grove-for-upcoming-spell/28164/10)
 
 If this executive proposal passes, then the following DC-IAM parameters will be updated for `ALLOCATOR-GROVE-A`:
 
@@ -253,8 +253,8 @@ If this executive proposal passes, then SparkLend USDG will be onboarded to the 
   - controller: [Ethereum.ALM_CONTROLLER](https://etherscan.io/address/0x5c46Fc65855c0C7465a1EA85EEA0B24B601502D3)
   - rate limits: [Ethereum.ALM_RATE_LIMITS](https://etherscan.io/address/0x7A5FD5cf045e010e62147F065cEAe59e5344b188)
 - Deposit rate limit:
-  - deposit max: **100 million USDG**
-  - deposit slope: **100 million USDG / day**
+  - maxAmount: **100 million USDG**
+  - slope: **100 million USDG per day**
 - Withdrawal rate limit:
   - withdraw max: **unlimited**
 - Max slippage:
@@ -272,9 +272,9 @@ If this executive proposal passes, then SparkLend RLUSD will be onboarded to the
   - controller: [Ethereum.ALM_CONTROLLER](https://etherscan.io/address/0x5c46Fc65855c0C7465a1EA85EEA0B24B601502D3)
   - rate limits: [Ethereum.ALM_RATE_LIMITS](https://etherscan.io/address/0x7A5FD5cf045e010e62147F065cEAe59e5344b188)
 - Deposit rate limit:
-  - deposit max: **100 million RLUSD**
-  - deposit slope: **100 million RLUSD / day**
-- Withdraw rate limit:
+  - maxAmount: **100 million RLUSD**
+  - slope: **100 million RLUSD per day**
+- Withdrawal rate limit:
   - withdraw max: **unlimited**
 - Max slippage:
   - max slippage: **0.001%**
@@ -296,7 +296,6 @@ If this executive proposal passes, SparkLend Reserves will be claimed as follows
 - Claim all reserves
 - Transfer USD stablecoin reserves to the ALM Proxy: [Ethereum.ALM_PROXY](https://etherscan.io/address/0x1601843c5E9bC251A3272907010AFa41Fa18347E)
 - Transfer non-USD-stablecoin reserves to the Spark Operations Multisig to be liquidated: [Ethereum.ALM_OPS_MULTISIG](https://etherscan.io/address/0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC)
-- Add the new USDG and RLUSD spTokens to the stablecoin spToken set so their reserves route to the ALM Proxy
 
 #### Grove Proxy Spell
 
@@ -324,7 +323,7 @@ If this executive proposal passes, then the deposit [rate limits](https://sky-at
 - **Authorization**: [Snapshot Poll](https://snapshot.box/#/s:grovefinance.eth/proposal/0x760f15647c7ac433a8378b07655e6ab5f48c610f9efd8a925b239f959032d6a6)
 - **Proposal**: [Prime Technical Scope](https://forum.skyeco.com/t/august-27-2026-proposed-changes-to-grove-for-upcoming-spell/28164)
 
-If this executive proposal passes, then the Sky Configurator ([https://etherscan.io/address/PAS_CONFIGURATOR](0xb7E61Df6CAb0A51E9A5dab1A7DD3f942dDe5b929)) will be granted admin role on the Grove DPAU [AccessControls](https://etherscan.io/address/0x4F6d1704700cd494DD4cd9bF59c0C39DA1Bc9164) and [RateLimits](https://etherscan.io/address/0xE016Ae733A77Ba77E7907aAA749394Fc5e75C0e1) contracts.
+If this executive proposal passes, then the Sky Configurator ([PAS_CONFIGURATOR](https://etherscan.io/address/0xb7E61Df6CAb0A51E9A5dab1A7DD3f942dDe5b929)) will be granted admin role on the Grove DPAU [AccessControls](https://etherscan.io/address/0x4F6d1704700cd494DD4cd9bF59c0C39DA1Bc9164) and [RateLimits](https://etherscan.io/address/0xE016Ae733A77Ba77E7907aAA749394Fc5e75C0e1) contracts.
 
 ## Review
 
@@ -337,3 +336,4 @@ Community debate on these topics can be found on the Sky [Governance forum](http
 Additional information about the Governance process can be found in the [Operational Manual](https://manual.makerdao.com).
 
 To add current and upcoming votes to your calendar, please see the [Sky Governance Calendar](https://manual.makerdao.com/makerdao/calendars/governance-calendar).
+
