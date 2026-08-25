@@ -253,12 +253,12 @@ If this executive proposal passes, then SparkLend USDG will be onboarded to the 
   - controller: [Ethereum.ALM_CONTROLLER](https://etherscan.io/address/0x5c46Fc65855c0C7465a1EA85EEA0B24B601502D3)
   - rate limits: [Ethereum.ALM_RATE_LIMITS](https://etherscan.io/address/0x7A5FD5cf045e010e62147F065cEAe59e5344b188)
 - Deposit rate limit:
-  - maxAmount: **100 million USDG**
-  - slope: **100 million USDG per day**
+  - `maxAmount`: **100 million USDG**
+  - `slope`: **100 million USDG per day**
 - Withdrawal rate limit:
-  - withdraw max: **unlimited**
+  - `maxAmount`: **unlimited**
 - Max slippage:
-  - max slippage: **0.001%**
+  - `maxSlippage`: **0.001%** (0.99999e18)
 
 ##### [Ethereum] Spark Liquidity Layer - Onboard SparkLend RLUSD
 
@@ -272,12 +272,12 @@ If this executive proposal passes, then SparkLend RLUSD will be onboarded to the
   - controller: [Ethereum.ALM_CONTROLLER](https://etherscan.io/address/0x5c46Fc65855c0C7465a1EA85EEA0B24B601502D3)
   - rate limits: [Ethereum.ALM_RATE_LIMITS](https://etherscan.io/address/0x7A5FD5cf045e010e62147F065cEAe59e5344b188)
 - Deposit rate limit:
-  - maxAmount: **100 million RLUSD**
-  - slope: **100 million RLUSD per day**
+  - `maxAmount`: **100 million RLUSD**
+  - `slope`: **100 million RLUSD per day**
 - Withdrawal rate limit:
-  - withdraw max: **unlimited**
+  - `maxAmount`: **unlimited**
 - Max slippage:
-  - max slippage: **0.001%**
+  - `maxSlippage`: **0.001%** (0.99999e18)
 
 ##### [Ethereum] Spark Treasury - Grants for Spark Foundation and Spark Asset Foundation
 
