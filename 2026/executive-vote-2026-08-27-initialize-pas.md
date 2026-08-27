@@ -2,7 +2,7 @@
 title: Template - [Executive Vote] PAS Initialization, Funding Transfer, Allocator Vault Parameter Updates, Rename Chainlog Key, Update Safe Harbor Agreement, Prime Agent Proxy Spells - August 27, 2026
 summary: Initialize the Parallelized Allocation System, transfer funds from Ozone SubProxy to SFF, update DC-IAM parameters for two Allocator vaults, rename a Chainlog key, update the Safe Harbor Agreement, whitelist Spark and Grove Proxy Spells.
 date: 2026-08-27T00:00:00.000Z
-address: "$spell_address"
+address: "0x2bf5132EC2F21B079D7591c86D9817f1f18a2E05"
 ---
 
 # [Executive Proposal] PAS Initialization, Funding Transfer, Allocator Vault Parameter Updates, Rename Chainlog Key, Update Safe Harbor Agreement, Prime Agent Proxy Spells - August 27, 2026
