@@ -1,0 +1,31 @@
+// markdownlint config for the executive vote docs.
+// Run: npx markdownlint-cli2 "<year>/*.md"
+{
+  "config": {
+    // Address lines legitimately exceed 400 chars.
+    "MD013": false,
+
+    // Every doc has a frontmatter `title:` and a visible H1 by design.
+    "MD025": { "front_matter_title": "" },
+
+    // "Spark"/"Grove" recur under different parents.
+    "MD024": { "siblings_only": true },
+
+    // "[here]" is the PR-link convention.
+    "MD059": { "prohibited_texts": ["click here", "link", "more"] },
+
+    // Pinned, not "consistent": otherwise one malformed row makes the correct
+    // rows the reported ones.
+    "MD055": { "style": "leading_and_trailing" },
+    "MD060": { "style": "compact" },
+
+    // drafting-style-guideline.md formatting rules.
+    "MD004": { "style": "dash" },
+    "MD049": { "style": "underscore" },
+    "MD050": { "style": "asterisk" },
+    "MD003": { "style": "atx" },
+    "MD035": { "style": "---" },
+    "MD048": { "style": "backtick" },
+    "MD046": { "style": "fenced" }
+  }
+}
