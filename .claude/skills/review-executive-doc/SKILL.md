@@ -1,6 +1,7 @@
 ---
 name: review-executive-doc
 description: Review a Sky executive vote document for content, structure, formatting, and convention compliance. Use when asked to review, check, or give feedback on an executive vote markdown file in 2025/ or 2026/ (e.g. "review the June 4 exec doc", "check this executive vote").
+allowed-tools: Bash(curl *) Bash(jq *) Bash(cast call *) Bash(cast code *) Bash(cast keccak *) Bash(cast to-check-sum-address *) Bash(cast format-bytes32-string *) Bash(npx markdownlint-cli2 *) Bash(npx --yes markdownlint-cli2 *) WebFetch(domain:forum.skyeco.com) WebFetch(domain:sky-atlas.io) WebFetch(domain:github.com) WebFetch(domain:raw.githubusercontent.com)
 ---
 
 # Review Executive Doc
@@ -12,6 +13,30 @@ project checklists, principles, and the established conventions of recent docs.
 
 - The target executive doc (a markdown file in a folder corresponding to the current year e.g. `2025/` or `2026/`). If the user
   didn't name one, ask or infer from the open editor file.
+
+## Tooling and permissions (read first)
+
+The `allowed-tools` list in this skill's frontmatter pre-approves the fetch and
+verification commands the review needs (`curl`, `jq`, read-only `cast` subcommands,
+`markdownlint-cli2`, and `WebFetch` on the forum, Atlas and GitHub) for the duration of
+the invocation. Anything outside that list prompts the user, so **shape every command
+to stay inside it**:
+
+- **One command per Bash call, no wrappers.** `for` loops, `export VAR=…;` prefixes and
+  `python3` heredocs are not on the list and force a prompt even when the inner command
+  is. Issue allowlisted commands as parallel tool calls instead of looping. Pipes and
+  `&&` are fine when *every* segment is allowlisted (`curl … | jq …`,
+  `cast code … | cast keccak`).
+- **Pass the RPC inline**: `cast call --rpc-url https://ethereum-rpc.publicnode.com …`
+  rather than exporting `ETH_RPC_URL`.
+- **Parse with the Read and Grep tools, not shell.** They never prompt. When a payload
+  needs inspection beyond a `jq` one-liner, `curl -sL <url> -o <scratch>/<file>` into
+  the session scratchpad directory (or `/tmp`) and Read or Grep the file.
+- **Do not reach for `python3`, `sed -i`, or any tool not listed** to save a step. If a
+  check genuinely needs something outside the list, do it and say so in the findings;
+  never silently skip a check because it would prompt.
+
+Concrete commands for each fetch appear in the sections below.
 
 ## Process
 
@@ -99,15 +124,41 @@ what the doc actually authorizes, not just how it reads.
     expected chain's explorer and (where determinable) that the contract/label
     matches (e.g. token symbol, contract name, deployer).
   - **Forum / discussion / poll links** — read enough to confirm the doc's framing,
-    amounts, and parameters match what was actually discussed or approved.
+    amounts, and parameters match what was actually discussed or approved. Use the
+    Discourse JSON API rather than the HTML page — the numeric `<topic-id>` is the
+    path segment after the slug:
+
+    ```
+    curl -s https://forum.skyeco.com/t/<topic-id>.json | jq -r '.post_stream.posts[] | select(.post_number == <n>) | "--- post \(.post_number) by \(.username) (\(.created_at[:10]))\n\(.cooked)"'
+    ```
+
+    Drop the `select` to get every fetched post. The `cooked` field is HTML; read
+    through the tags. A doc link ending in `/<n>` points at a specific reply — read
+    *that* post, not just post 1, since the *final* calculation or the Core
+    Facilitator's confirmation is usually a later reply.
+  - **Snapshot links** (`snapshot.org/#/s:<space>/proposal/<id>`) — the Authorization
+    for Prime/proxy-spell items. snapshot.org is client-rendered, so query the GraphQL
+    hub (the `<id>` is the trailing 0x…64-hex path segment):
+
+    ```
+    curl -s -X POST https://hub.snapshot.org/graphql -H 'Content-Type: application/json' -d '{"query":"{ proposal(id: \"<id>\") { title state choices scores scores_total space { id } } }"}' | jq '.data.proposal'
+    ```
+
+    A `null` proposal means the id does not resolve — that is a dead Authorization
+    link (🔴), not a blank to skip. Confirm the space matches the Prime
+    (`sparkfi.eth`, `grovefinance.eth`, …), the state is `closed`, the outcome passed,
+    and the title describes the same action as the doc's heading.
   - **Governance poll links** (`vote.sky.money/polling/<slug>`) — `WebFetch` gets a
-    **403** on the vote portal (bot-blocked and client-rendered), so use the JSON API
-    via `curl`:
-    `curl -s "https://vote.sky.money/api/polling/<slug>?network=mainnet"` where
-    `<slug>` is the trailing path segment of the poll URL (e.g. `QmUnVyGg`). It
-    returns `pollId`, `title`, `summary`, dates, and a `url` to the poll's source
-    markdown. Use this to identify the poll — but **the summary alone is not
-    sufficient to confirm authorization.** Atlas Edit Weekly Cycle polls bundle many
+    **403** on the vote portal (bot-blocked and client-rendered), so use the JSON API,
+    where `<slug>` is the trailing path segment of the poll URL:
+
+    ```
+    curl -s "https://vote.sky.money/api/polling/<slug>?network=mainnet" | jq '{pollId, title, type: .parameters.inputFormat.type, startDate, endDate, url, summary}'
+    ```
+
+    `url` points at the poll's source markdown. Use this to identify the poll — but
+    **the summary alone is not sufficient to confirm authorization.** Atlas Edit
+    Weekly Cycle polls bundle many
     changes and the summary is high-level, so a specific item may be authorized
     without appearing in the summary text. **Follow through to the underlying Atlas
     changes** — the poll's source/PR and the corresponding `next-gen-atlas` diff — and
@@ -117,15 +168,33 @@ what the doc actually authorizes, not just how it reads.
     Cross-check the poll cited in the doc against the poll in the instruction sheet's
     Authority column for the same item, and reconcile any difference against the
     Atlas changes rather than assuming either is right.
+    **Two items citing the same poll is not inherently an error.** One poll routinely
+    bundles authorization for several unrelated items in the same exec (e.g. a single
+    Atlas Edit Weekly Cycle poll covering both an allocator onboarding and a
+    foundation grant). It *can* be a copy-paste error, so raise it as a question
+    ("confirm poll X covers item Y") and verify against the poll's underlying Atlas
+    changes — never assert it as a blocker from a forum thread's paraphrase, and never
+    escalate to 🔴 because the poll itself could not be fetched.
   - **Sky Atlas links** (`sky-atlas.io/#<uuid>`) are client-rendered — `WebFetch` on
-    the page URL returns only the table of contents. Read the underlying node via the
-    API: `curl -sL "https://sky-atlas.io/api/atlas.md"` (308-redirects to
-    `www.sky-atlas.io`; ~3.5MB) and grep the uuid — the fragment after `#` is the node
-    uuid, tagged inline as `<!-- UUID: <uuid> -->`; read the surrounding lines for
-    context. `atlas.json` (~11MB; structured fields `content`, `active_data`, `tenets`,
-    `annotations`) and `atlas.yaml` carry the same data — use JSON only when you need a
-    field programmatically. For a uuid→context lookup, **`atlas.md` is best** (smallest,
-    human-readable, one grep). Many linked nodes are *definitional* (the generic concept
+    the page URL returns only the table of contents. Fetch the flat markdown export
+    once per review and Grep it; every node carries an inline
+    `<!-- UUID: <uuid> -->` marker, and the `<uuid>` is the fragment after `#` in the
+    doc's link:
+
+    ```
+    curl -sL https://sky-atlas.io/api/atlas.md -o <scratch>/atlas.md
+    ```
+
+    Then use the **Grep tool** on that file with pattern `UUID: <uuid>` and enough
+    `-A` context to read the node (`-B` a few lines to see the parent heading). No
+    match means the uuid is not in the Atlas — itself a finding, so don't swallow it.
+    Grep the same file for a parameter name (`maxKbump`, `line`, …) to find where a
+    value is defined.
+    The export 308-redirects to `www.sky-atlas.io` and is ~3.5MB. `atlas.json`
+    (~11MB; structured fields `content`, `active_data`, `tenets`, `annotations`) and
+    `atlas.yaml` carry the same data — use JSON only when you need a field
+    programmatically. Many linked nodes are
+    *definitional* (the generic concept
     page, e.g. "Rate Limits", "Maximum Debt Ceiling (`line`)") and carry no value — for
     those, verify the item's actual number against the spell source / instruction sheet
     (see the parameter-table check below); value-bearing nodes exist too (check the
@@ -164,18 +233,42 @@ changes per spell, so **select the tab by position, not name** — the naming
 convention has drifted (older tabs use `Executive Contents - <date>` with a hyphen,
 recent ones `Executive Contents <date>` without), so by-name selection is brittle.
 
-1. Fetch the bootstrap: `curl -sL ".../spreadsheets/d/<ID>/edit"` and parse the
-   ordered sheet registry — entries look like `[<index>,0,"<gid>",[{"1":[[0,0,"<name>"`.
-2. **Take the 3rd tab (index 2)** and read its gid. Index 0 = *Spell Progress
-   Tracking*, index 1 = *Executive Contents (Template)*, index 2 = the current
-   spell (new spells insert here, pushing prior ones down).
-3. Export it: `curl -sL ".../spreadsheets/d/<ID>/export?format=csv&gid=<gid>"`.
-4. **Validate, don't assume**: confirm the resolved tab's name is
-   `Executive Contents <date>` and `<date>` equals the doc's date. If position and
-   date disagree, stop and flag it — do not review against the wrong tab. (Fallback:
-   `.../gviz/tq?tqx=out:csv&sheet=<url-encoded exact name>`, but only with the exact
-   current name.) Reachable without auth as long as the sheet is link-shareable; if a
-   fetch returns HTML instead of CSV, it isn't public — flag as unverified (🔵).
+Tab positions: index 0 = *Spell Progress Tracking*, index 1 = *Executive Contents
+(Template)*, index 2 = the current spell (new spells insert here, pushing prior ones
+down).
+
+1. **Fetch the bootstrap** and save it — it is large, minified HTML, so parse it with
+   the Grep tool rather than reading it:
+
+   ```
+   curl -sL "https://docs.google.com/spreadsheets/d/1w_z5WpqxzwreCcaveB2Ye1PP5B8QAHDglzyxKHG3CHw/edit" -o <scratch>/sheet.html
+   ```
+
+2. **Read the ordered sheet registry** with Grep (`-o` output) using this pattern:
+
+   ```
+   \[(\d+),0,\\{1,2}"(\d+)\\{1,2}",\[\{\\{1,2}"1\\{1,2}":\[\[0,0,\\{1,2}"([^"\\]+)
+   ```
+
+   Each match is `[<index>,0,"<gid>",[{"1":[[0,0,"<name>"`. Take the entry with index
+   **2** and note its gid and name. As a sanity check, the visible tab captions
+   (`docs-sheet-tab-caption">([^<]*)</div>`) appear in the same order and should carry
+   the same names; if the two disagree, stop and say so rather than guessing.
+3. **Validate, don't assume**: the resolved name must start with `Executive Contents`
+   and contain the doc's date (`YYYY-MM-DD`). If position and date disagree, **stop
+   and flag it — do not review against the wrong tab.**
+4. **Export the tab** as CSV and Read it:
+
+   ```
+   curl -sL "https://docs.google.com/spreadsheets/d/1w_z5WpqxzwreCcaveB2Ye1PP5B8QAHDglzyxKHG3CHw/export?format=csv&gid=<gid>" -o <scratch>/sheet.csv
+   ```
+
+   Record the fetch time in the findings, since sheet content is mutable.
+
+Fallback if the bootstrap format changes:
+`.../gviz/tq?tqx=out:csv&sheet=<url-encoded exact name>`, but only with the exact
+current name. The sheet is reachable without auth as long as it stays link-shareable;
+if a fetch returns HTML instead of CSV it isn't public — flag as unverified (🔵).
 
 ### Reading the sheet
 
@@ -201,6 +294,27 @@ recent ones `Executive Contents <date>` without), so by-name selection is brittl
 These recur and are easy to miss. Check each explicitly.
 
 ### Markdown rendering bugs
+
+**Start with a mechanical Grep pass over the doc** (the Grep tool, not shell `grep`),
+one pattern per call, and read every hit:
+
+| Hazard | Grep pattern |
+| --- | --- |
+| Backtick-wrapped link (renders as literal text) | `` `\[[^\]]*\]\([^)]*\)` `` |
+| Nested link | `\[[^\]]*\[[^\]]*\]\([^)]*\)[^\]]*\]\([^)]*\)` |
+| Bullet missing the space after `-` | `^\s*-[^\s-]` |
+| Leftover placeholder (only `$spell_address` may remain) | `\$[A-Za-z_]\w*` |
+| Link whose href is a bare address or not a URL | `\]\([^h)]` |
+| Key name pasted into an explorer URL's address slot | `/address/[^0)]` |
+| Link text that is itself a URL (text/href swapped) | `\[https?://[^\]]*\]\(` |
+| Every address, for the checksum and chainlog checks below | `0x[0-9a-fA-F]{40}\b` (the `\b` excludes 64-hex ids) |
+| Sibling labels differing only by a suffix (`Withdraw`/`Withdrawal`) | `^\s*-\s+\**`?[A-Za-z][A-Za-z0-9 _/-]*`?\**\s*:` then compare the labels by eye |
+
+For address-bearing links, also confirm the address in the link text equals the one
+in the href — an href copy-pasted from a nearby item is a common 🔴. Treat a clean
+pass as "no mechanical defects found", **not** as "the formatting is fine" — it has
+no view on wording, emphasis consistency, or header capitalization.
+
 - **Backtick-wrapped links**: a `[text](url)` wrapped entirely in backticks
   renders as literal text, not a link. Put any code span *inside* the link instead.
 - **Nested/double links**: a link whose text is itself a link is malformed —
@@ -210,17 +324,78 @@ These recur and are easy to miss. Check each explicitly.
 - **Plain-text trailing links**: the Review and Resources sections (Governance
   forum, Operational Manual, Sky Governance Calendar) must be hyperlinked per the
   template — these are frequently left as plain text.
-- **Run markdownlint** over the doc to catch standard Markdown deviations
-  (inconsistent list markers, heading levels, spacing, etc.) per the
-  `drafting-style-guideline.md` recommendation. If a linter binary is available
-  (e.g. `markdownlint`/`markdownlint-cli2`), run it and report findings; otherwise
+- **Run markdownlint** over the doc — `npx markdownlint-cli2 <doc>` — per the
+  `drafting-style-guideline.md` recommendation. The repo root carries a
+  `.markdownlint-cli2.jsonc` tuned for these docs, so **a clean run means clean:
+  report every finding rather than filtering a baseline.** (Historically the
+  defaults produced ~1,600 findings, none real, and the noise had to be hand-
+  filtered — that is no longer the case, so do not dismiss a finding as "expected
+  baseline".) If the config is missing or the binary is unavailable, say so and
   check the equivalent rules manually.
+  What the config does, so you can reason about a finding: MD013 (line length) is
+  off, since address lines legitimately exceed 400 characters. MD025 ignores the
+  frontmatter `title:` (every doc has both that and a visible H1 by design), MD024
+  is `siblings_only` (agent sub-headings like "Spark"/"Grove" recur under
+  different parents), and MD059 permits the `[here]` PR-link convention. Tables
+  are pinned to leading+trailing pipes and compact (`| cell | cell |`) padding.
+  MD004/MD049/MD050/MD003/MD035 are pinned to the style guideline's hyphen /
+  underscore-italics / asterisk-bold / atx / `---` choices, so markdownlint now
+  enforces those rules directly. Everything else is left at defaults and catches
+  real defects — **MD037** (spaces inside emphasis markers) and **MD039** (spaces
+  inside link text) are genuine rendering bugs; never wave them through.
+  Note that docs from 2025 and early 2026 still carry unfixed findings (mostly
+  table padding and trailing whitespace); when comparing against a prior doc for
+  convention, a lint finding there is not a precedent to copy.
 
 ### Addresses
-- All Ethereum addresses **checksummed** (EIP-55 casing); flag all-lowercase.
-- **Verify each address matches its label.** Cross-check recurring entities
-  against recent docs; a label paired with an address used for a different entity
-  elsewhere is a likely copy-paste error.
+- All Ethereum addresses **checksummed** (EIP-55 casing); flag all-lowercase. Verify
+  with `cast to-check-sum-address <addr>` for every distinct address from the Grep
+  pass — one call per address, issued in parallel, never a loop — and flag any whose
+  output differs from the doc. Do not re-derive checksums by hand. 64-hex values (pool
+  ids, codehashes, Snapshot proposal ids) are not addresses and have no checksum.
+- **Chainlog is the authority for any address the doc labels with a chainlog key**
+  (`SPARK_SUBPROXY`, `GROVE_STARGUARD`, `REWARDS_LSSKY_USDS`, …). "It matches the last
+  six docs" is **not** equivalent and is not sufficient: a copy-paste error propagated
+  through prior docs survives that check, and the wrong address is often itself a
+  legitimate address that appears in many docs under a *different* key — which is
+  exactly what makes the error invisible. Fetch the chainlog once and keep it:
+
+  ```
+  curl -s https://chainlog.skyeco.com/api/mainnet/active.json -o <scratch>/chainlog.json
+  ```
+
+  Then, for every address the doc labels with a key (link text in `UPPER_SNAKE` shape,
+  or a `Label:` prefix that normalizes to one, e.g. "Spark StarGuard" →
+  `SPARK_STARGUARD`), Grep the JSON for the key and compare. The JSON is a mirror, so
+  re-confirm each key that matched against the contract itself, in two calls (a
+  `$(…)` substitution would take the command outside the allowlist):
+
+  ```
+  cast format-bytes32-string <KEY>
+  cast call --rpc-url https://ethereum-rpc.publicnode.com 0xdA0Ab1e0017DEbCd72Be8599041a2aa3bA7e740F "getAddress(bytes32)(address)" <bytes32-from-above>
+  ```
+
+  Also Grep the JSON for each *unlabelled* doc address to see whether it is
+  registered under a key the doc omits. Read the three outcomes correctly:
+  - **Doc pairs `<KEY>` with an address the chainlog holds under a different value**
+    — a 🔴 copy-paste error **unless this spell is itself replacing that entry**. The
+    comparison is against the *current* chainlog, which is right for a doc under
+    review but legitimately differs for any key the spell sets, replaces, or renames.
+    Read the item before calling it: an onboarding or a `file`-a-new-address item is
+    expected to differ.
+  - **`<KEY>` is not in the chainlog** — expected when this spell registers the key
+    (e.g. `MCD_SBEBEAM`), and expected for Prime-side keys that live in the
+    spark-address-registry or a Star spell rather than Sky's chainlog. Confirm which.
+  - **An address is registered as `<KEY>` but the doc does not name the key** — an
+    opportunity, not a defect: the doc's own convention is to use the chainlog key as
+    link text, and naming it lets a reader verify the address independently. Suggest it
+    (🔵).
+  Addresses genuinely absent from the chainlog (Core Council Buffer, one-off proxy
+  spell addresses, Prime-side ALM contracts) have weaker provenance — fall back to the
+  instruction sheet, the Prime repo, and the forum post, and say which you used.
+- **Verify each address matches its label.** For non-chainlog addresses, cross-check
+  recurring entities against recent docs; a label paired with an address used for a
+  different entity elsewhere is a likely copy-paste error.
 - **Verify each block-explorer link uses the correct explorer for the address's
   chain — this is a contextual check, driven by the address's chain, not its
   format.** The same 0x address can exist on many EVM chains, so the *context*
@@ -286,12 +461,11 @@ These recur and are easy to miss. Check each explicitly.
   `cast codehash` subcommand) must equal the stated codehash. This is a
   *self-contained* check — it needs no PR, and it catches an address/codehash pair
   that was mixed up (a doc address holding unrelated code that hashes to something
-  else, while the stated codehash belongs to a different address). Reachable public
-  RPC for `ETH_RPC_URL`:
-  `https://ethereum-rpc.publicnode.com` (llamarpc/cloudflare/ankr were down or
-  key-walled at last check). An address with no code (`0x`) paired with a codehash
-  is also a 🔴 blocker.
-
+  else, while the stated codehash belongs to a different address). Pass the RPC
+  inline — `cast code --rpc-url https://ethereum-rpc.publicnode.com <addr> | cast keccak`
+  — rather than exporting `ETH_RPC_URL`, which would take the command outside the
+  allowlist (llamarpc/cloudflare/ankr were down or key-walled at last check). An
+  address with no code (`0x`) paired with a codehash is also a 🔴 blocker.
 
 ### Consistency
 - **Chain tags**: pick one convention per chain and apply it to *every* item;
