@@ -88,14 +88,14 @@ If this executive proposal passes, then Treasury Management Function configurati
   - `vestBgn`: `block.timestamp`
   - `vestTau`: **90 days**
 - Decrease `splitter.hop` by **1,244 seconds** from **3,748 seconds** to **2,504 seconds**.
-- Decrease `rewardsDuration` in `REWARDS_LSSKY_USDS` by **1,244 seconds** from **3,748 seconds** to **2,504 seconds**.
+- Decrease `rewardsDuration` in [`REWARDS_LSSKY_USDS`](0x38E4254bD82ED5Ee97CD1C4278FAae748d998865) by **1,244 seconds** from **3,748 seconds** to **2,504 seconds**.
 
 ### Increase the MKR-SKY Delayed Upgrade Penalty
 
 - **Authorization**: [Sky Atlas](https://sky-atlas.io/#ec820ddb-5d12-43d8-81b7-a7602a70332a)
 - **Proposal**: [Delayed Migration Penalty Update - September 10th Spell](https://forum.skyeco.com/t/delayed-migration-penalty-update-september-10th-spell/28218)
 
-If this executive proposal passes, then the MKR-SKY Delayed Upgrade Penalty will be increased by **1 percentage point**, from **4% to 5%**.
+If this executive proposal passes, then the Delayed Upgrade Penalty applied to [MKR to SKY conversions](https://etherscan.io/address/0xA1Ea1bA18E88C381C724a75F23a130420C403f9a) will increase by **1 percentage point**, from **4% to 5%**.
 
 ### Adjust ALLOCATOR-GROVE-A DC-IAM Parameters
 
@@ -131,10 +131,10 @@ The Pull Request for the Spark proxy spell can be viewed [here](https://github.c
 
 ##### [Ethereum] Spark Liquidity Layer - Offboard Unused Integrations
 
-- **Authorization**: [Snapshot Poll](https://snapshot.org/#/s:sparkfi.eth/proposal/0xce102fe51d0f9dffa64c47df88974e52899ce5347375854adfe3547225489421)
+- **Authorization**: [Snapshot Poll 1](https://snapshot.org/#/s:sparkfi.eth/proposal/0xce102fe51d0f9dffa64c47df88974e52899ce5347375854adfe3547225489421), [2](https://snapshot.org/#/s:sparkfi.eth/proposal/0xcf6b2556093cca153cba5c986da1c43265d0267ae6fa501c20b6f2862a138927)
 - **Proposal**: [Prime Technical Scope](https://forum.skyeco.com/t/september-10-2026-proposed-changes-to-spark-for-upcoming-spell/28208)
 
-If this executive proposal passes, then the Spark proxy spell will set **35 rate-limit keys to zero** to offboard the following unused Spark Liquidity Layer integrations:
+If this executive proposal passes, then the Spark proxy spell will set the **maxAmount parameter to 0** to functionally offboard the following 35 unused Spark Liquidity Layer integrations:
 
 - Morpho v1 DAI and USDS vaults
 - Aave Core `aEthUSDe`
