@@ -1,6 +1,6 @@
 ---
 title: Template - [Executive Vote] Monthly Settlement Cycle for August 2026, Treasury Management Function Updates, Increase MKR-SKY Delayed Upgrade Penalty, Adjust Allocator Vault DC-IAM Parameters, Prime Agent Proxy Spells - September 10, 2026
-summary: Execute the Monthly Settlement Cycle for August 2026 and the associated reconciliation transfers, burn SKY from the Pause Proxy balance, update LSSKY-SKY staking rewards and shorten the buyback and LSSKY-USDS reward cycles, increase the MKR-SKY Delayed Upgrade Penalty, adjust the Grove and Osero DC-IAM parameters, and whitelist Prime Agent spells for Spark and Grove.
+summary: Execute the Monthly Settlement Cycle for August 2026 and the associated reconciliation transfers, burn SKY from the Pause Proxy balance, update LSSKY->SKY staking rewards and shorten the buyback and LSSKY-USDS reward cycles, increase the MKR-SKY Delayed Upgrade Penalty, adjust the Grove and Osero DC-IAM parameters, and whitelist Prime Agent spells for Spark and Grove.
 date: 2026-09-10T00:00:00.000Z
 address: "$spell_address"
 ---
@@ -15,18 +15,18 @@ If you are new to voting in the Sky Protocol, please see the [voting guide](http
 
 ## Executive Summary
 
-If this executive proposal passes, the following actions will occur within the Sky Protocol:
+If this executive proposal passes, the following **actions** will occur within the Sky Protocol:
 
 - The Monthly Settlement Cycle for August 2026 will be executed.
-- The Treasury Management Function will be performed, including burning SKY from the Pause Proxy and Staking Rewards normalization.
+- The Treasury Management Function will be performed, including burning SKY from the Pause Proxy, updating LSSKY->SKY staking rewards, and shortening the buyback and LSSKY->USDS reward cycles.
 - The MKR-SKY Delayed Upgrade Penalty will be increased.
 - Debt Ceiling Instant Access Module (DC-IAM) parameters for `ALLOCATOR-GROVE-A` will be updated.
 - Debt Ceiling Instant Access Module (DC-IAM) parameters for `ALLOCATOR-PRYSM-A` will be updated.
 - Proxy spells for Spark and Grove will be whitelisted in their respective StarGuard modules.
 
-Voting for this executive proposal will place your SKY in support of the actions outlined above.
+**Voting for this executive proposal will place your SKY in support of the actions outlined above.**
 
-Unless otherwise noted, the actions listed above are subject to the [GSM Pause Delay](https://sky-atlas.io/#3c9545d9-775f-4149-88bf-7d297b5302c6). This means that if this executive proposal passes, the changes and additions listed above will only become active in the Sky Protocol after the GSM Pause Delay has expired. The GSM Pause Delay is currently set to [48 hours](https://sky-atlas.io/#db442d8a-8d98-47a2-b162-01c2adc22b67).
+Unless otherwise noted, the actions listed above are subject to the [GSM Pause Delay](https://sky-atlas.io/#3c9545d9-775f-4149-88bf-7d297b5302c6). This means that if this executive proposal passes, the changes and additions listed above will only become active in the Sky Protocol after the GSM Pause Delay has expired. The GSM Pause Delay is currently set to [**48 hours**](https://sky-atlas.io/#db442d8a-8d98-47a2-b162-01c2adc22b67).
 
 If this executive proposal does not pass within 30 days, then it will expire and can no longer have any effect on the Sky Protocol.
 
@@ -72,6 +72,8 @@ If this executive proposal passes, then the Monthly Settlement Cycle for August 
 #### Treasury Management Function
 
 - Send **3,149,060 USDS** from the Surplus Buffer to the [Core Council Buffer](https://etherscan.io/address/0x210CFcF53d1f9648C1c4dcaEE677f0Cb06914364).
+
+This amount represents **1,574,530 USDS** allocated to the Core Council and **1,574,530 USDS** allocated to the Fortification Foundation, combined into a single transfer.
 
 ### Treasury Management Function
 
@@ -159,7 +161,8 @@ If this executive proposal passes, then the Spark proxy spell will further depre
 If this executive proposal passes, then the Spark proxy spell will update the USDT interest rate strategy to [`0x4FA65B096681bD6FeecF78e5D83096bf4A5762A0`](https://etherscan.io/address/0x4FA65B096681bD6FeecF78e5D83096bf4A5762A0) with the following parameters:
 
 - Optimal usage ratio: **95%**.
-- Base variable borrow rate: **Sky Savings Rate (SSR)**.
+- Rate source: **Sky Savings Rate (SSR)**.
+- Base variable borrow rate: **0%**.
 - Variable rate slope 1 spread: **0.10%** over SSR.
 - Variable rate slope 2: **15%**.
 
