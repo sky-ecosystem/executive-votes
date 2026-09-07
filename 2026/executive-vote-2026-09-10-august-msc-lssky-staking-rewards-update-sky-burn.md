@@ -18,7 +18,7 @@ If you are new to voting in the Sky Protocol, please see the [voting guide](http
 If this executive proposal passes, the following actions will occur within the Sky Protocol:
 
 - The Monthly Settlement Cycle for August 2026 will be executed.
-- The Treasury Management Function will be preformed, including burning SKY from the Pause Proxy and Staking Rewards normalization.
+- The Treasury Management Function will be performed, including burning SKY from the Pause Proxy and Staking Rewards normalization.
 - The MKR-SKY Delayed Upgrade Penalty will be increased.
 - Debt Ceiling Instant Access Module (DC-IAM) parameters for `ALLOCATOR-GROVE-A` will be updated.
 - Debt Ceiling Instant Access Module (DC-IAM) parameters for `ALLOCATOR-PRYSM-A` will be updated.
