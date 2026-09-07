@@ -21,7 +21,7 @@ If this executive proposal passes, the following actions will occur within the S
 - The Treasury Management Function will be preformed, including burning SKY from the Pause Proxy and Staking Rewards normalization.
 - The MKR-SKY Delayed Upgrade Penalty will be increased.
 - Debt Ceiling Instant Access Module (DC-IAM) parameters for `ALLOCATOR-GROVE-A` will be updated.
-- Debt Ceiling Instant Access Module (DC-IAM) parameters for`ALLOCATOR-PRYSM-A` will be updated.
+- Debt Ceiling Instant Access Module (DC-IAM) parameters for `ALLOCATOR-PRYSM-A` will be updated.
 - Proxy spells for Spark and Grove will be whitelisted in their respective StarGuard modules.
 
 Voting for this executive proposal will place your SKY in support of the actions outlined above.
