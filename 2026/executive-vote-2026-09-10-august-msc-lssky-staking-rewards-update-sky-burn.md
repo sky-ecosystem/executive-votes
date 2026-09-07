@@ -117,7 +117,7 @@ If this executive proposal passes, then the following DC-IAM parameters will be 
 
 - Increase the [Maximum Debt Ceiling (`line`)](https://sky-atlas.io/#6ba18f25-dae8-4fa5-929e-3c7071b70107) by 75 million USDS, from 25 million USDS to **100 million USDS**.
 - Increase the [Target Available Debt (`gap`)](https://sky-atlas.io/#07353080-4346-4ffd-bfc8-913cac78776a) by 10 million USDS, from 5 million USDS to **15 million USDS**.
-- Leave the [Ceiling Increase Cooldown (`ttl`)](https://sky-atlas.io/#a5ae79ad-9460-41a3-8dbf-65605f54b79b) unchanged at **86,400 seconds (24 hours)**.
+- Leave the [Ceiling Increase Cooldown (`ttl`)](https://sky-atlas.io/#a5ae79ad-9460-41a3-8dbf-65605f54b79b) unchanged at **86,400 seconds** (24 hours).
 
 ### Prime Agent Proxy Spells
 
