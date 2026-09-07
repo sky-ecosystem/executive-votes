@@ -18,10 +18,10 @@ If you are new to voting in the Sky Protocol, please see the [voting guide](http
 If this executive proposal passes, the following actions will occur within the Sky Protocol:
 
 - The Monthly Settlement Cycle for August 2026 will be executed.
-- SKY from the Pause Proxy balance will be burned.
-- LSSKY->SKY staking rewards will be updated and the buyback and LSSKY->USDS reward cycles will be shortened.
+- The Treasury Management Function will be preformed, including burning SKY from the Pause Proxy and Staking Rewards normalization.
 - The MKR-SKY Delayed Upgrade Penalty will be increased.
-- Debt Ceiling Instant Access Module (DC-IAM) parameters for `ALLOCATOR-GROVE-A` and `ALLOCATOR-PRYSM-A` will be updated.
+- Debt Ceiling Instant Access Module (DC-IAM) parameters for `ALLOCATOR-GROVE-A` will be updated.
+- Debt Ceiling Instant Access Module (DC-IAM) parameters for`ALLOCATOR-PRYSM-A` will be updated.
 - Proxy spells for Spark and Grove will be whitelisted in their respective StarGuard modules.
 
 Voting for this executive proposal will place your SKY in support of the actions outlined above.
@@ -39,7 +39,7 @@ If this executive proposal does not pass within 30 days, then it will expire and
 - **Authorization**: [Sky Atlas](https://sky-atlas.io/#6f8d5065-d6ff-4add-9a28-eadeffa7ed1a)
 - **Proposal**: [MSC 12 Settlement Summary - August 2026](https://forum.skyeco.com/t/msc-12-settlement-summary-august-2026/28217)
 
-If this executive proposal passes, then the Monthly Settlement Cycle for August 2026 will be executed through the following actions:
+If this executive proposal passes, then the Monthly Settlement Cycle for August 2026 will be executed through the following actions.
 
 #### Spark
 
@@ -103,9 +103,9 @@ If this executive proposal passes, then the MKR-SKY Delayed Upgrade Penalty will
 
 If this executive proposal passes, then the following DC-IAM parameters will be updated for `ALLOCATOR-GROVE-A`:
 
-- Increase the [Maximum Debt Ceiling (`line`)](https://sky-atlas.io/#6ba18f25-dae8-4fa5-929e-3c7071b70107) by **75 million USDS**, from **25 million USDS to 100 million USDS**.
-- Increase the [Target Available Debt (`gap`)](https://sky-atlas.io/#07353080-4346-4ffd-bfc8-913cac78776a) by **10 million USDS**, from **5 million USDS to 15 million USDS**.
-- Decrease the [Ceiling Increase Cooldown (`ttl`)](https://sky-atlas.io/#a5ae79ad-9460-41a3-8dbf-65605f54b79b) by **43,200 seconds**, from **86,400 seconds (24 hours) to 43,200 seconds (12 hours)**.
+- Increase the [Maximum Debt Ceiling (`line`)](https://sky-atlas.io/#6ba18f25-dae8-4fa5-929e-3c7071b70107) by 75 million USDS, from 25 million USDS to **100 million USDS**.
+- Increase the [Target Available Debt (`gap`)](https://sky-atlas.io/#07353080-4346-4ffd-bfc8-913cac78776a) by 10 million USDS, from 5 million USDS to **15 million USDS**.
+- Decrease the [Ceiling Increase Cooldown (`ttl`)](https://sky-atlas.io/#a5ae79ad-9460-41a3-8dbf-65605f54b79b) by 43,200 seconds, from 86,400 seconds (24 hours) to **43,200 seconds (12 hours)**.
 
 ### Adjust ALLOCATOR-PRYSM-A DC-IAM Parameters
 
@@ -114,8 +114,8 @@ If this executive proposal passes, then the following DC-IAM parameters will be 
 
 If this executive proposal passes, then the following DC-IAM parameters will be updated for the Osero vault (`ALLOCATOR-PRYSM-A`):
 
-- Increase the [Maximum Debt Ceiling (`line`)](https://sky-atlas.io/#6ba18f25-dae8-4fa5-929e-3c7071b70107) by **75 million USDS**, from **25 million USDS to 100 million USDS**.
-- Increase the [Target Available Debt (`gap`)](https://sky-atlas.io/#07353080-4346-4ffd-bfc8-913cac78776a) by **10 million USDS**, from **5 million USDS to 15 million USDS**.
+- Increase the [Maximum Debt Ceiling (`line`)](https://sky-atlas.io/#6ba18f25-dae8-4fa5-929e-3c7071b70107) by 75 million USDS, from 25 million USDS to **100 million USDS**.
+- Increase the [Target Available Debt (`gap`)](https://sky-atlas.io/#07353080-4346-4ffd-bfc8-913cac78776a) by 10 million USDS, from 5 million USDS to **15 million USDS**.
 - Leave the [Ceiling Increase Cooldown (`ttl`)](https://sky-atlas.io/#a5ae79ad-9460-41a3-8dbf-65605f54b79b) unchanged at **86,400 seconds (24 hours)**.
 
 ### Prime Agent Proxy Spells
