@@ -1,6 +1,6 @@
 ---
 title: Template - [Executive Vote] Monthly Settlement Cycle for August 2026, Treasury Management Function Updates, Increase MKR-SKY Delayed Upgrade Penalty, Adjust Allocator Vault DC-IAM Parameters, Prime Agent Proxy Spells - September 10, 2026
-summary: Execute the Monthly Settlement Cycle for August 2026 and the associated reconciliation transfers, burn SKY from the Pause Proxy balance, update LSSKY->SKY staking rewards and shorten the buyback and LSSKY-USDS reward cycles, increase the MKR-SKY Delayed Upgrade Penalty, adjust the Grove and Osero DC-IAM parameters, and whitelist Prime Agent spells for Spark and Grove.
+summary: Execute the Monthly Settlement Cycle for August 2026 and the associated reconciliation transfers, burn SKY from the Pause Proxy balance, update LSSKY->SKY staking rewards and shorten the buyback and LSSKY->USDS reward cycles, increase the MKR-SKY Delayed Upgrade Penalty, adjust the Grove and Osero DC-IAM parameters, and whitelist Prime Agent spells for Spark and Grove.
 date: 2026-09-10T00:00:00.000Z
 address: "$spell_address"
 ---
