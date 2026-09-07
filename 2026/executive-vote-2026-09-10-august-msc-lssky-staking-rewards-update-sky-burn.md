@@ -136,14 +136,14 @@ The Pull Request for the Spark proxy spell can be viewed [here](https://github.c
 
 If this executive proposal passes, then the Spark proxy spell will set **35 rate-limit keys to zero** to offboard the following unused Spark Liquidity Layer integrations:
 
-- Morpho v1 DAI and USDS vaults.
-- Aave Core `aEthUSDe`.
-- Ethena USDe minting and burning, sUSDe cooldown, and sUSDe ERC-4626 deposits.
-- Maple syrupUSDT and syrupUSDC vaults.
-- Curve PYUSD/USDS, PYUSD/USDC, sUSDS/USDT, USDC/USDT, and weETH/WETH-ng integrations.
-- Superstate USTB and USCC integrations.
-- B2C2 OTC USDC, USDT, and PYUSD integrations.
-- Anchorage USDT and USAT integrations.
+- Morpho v1 DAI and USDS vaults
+- Aave Core `aEthUSDe`
+- Ethena USDe minting and burning, sUSDe cooldown, and sUSDe ERC-4626 deposits
+- Maple syrupUSDT and syrupUSDC vaults
+- Curve PYUSD/USDS, PYUSD/USDC, sUSDS/USDT, USDC/USDT, and weETH/WETH-ng integrations
+- Superstate USTB and USCC integrations
+- B2C2 OTC USDC, USDT, and PYUSD integrations
+- Anchorage USDT and USAT integrations
 
 ##### [Ethereum] SparkLend - Deprecate LBTC
 
