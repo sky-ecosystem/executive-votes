@@ -198,8 +198,8 @@ If this executive proposal passes, then the Spark proxy spell will complete the 
 
 - Set [Maximum LTV](https://sky-atlas.io/#586478a3-51cb-4a2e-8bb1-b96e6520fdcc) to **0%**
 - Set [liquidation thresholds](https://sky-atlas.io/#2dd2045c-6a33-4229-b6c8-e531d6ecd27a) to **0.01%**
-- Set [liquidation bonus](https://sky-atlas.io/#173ff961-bf1f-4c6c-992c-4a67b269e544) to **0%**
-- Remove [WETH](https://sky-atlas.io/#b1a1fb8a-29d7-4bbd-8204-25c74263c25d) and [wstETH](https://sky-atlas.io/#5d721ab3-be87-4989-b4a2-b32ff38b912f) from [E-Mode Category 1](https://sky-atlas.io/#49159478-90c9-4200-ab33-277a70b924d6).
+- Set the liquidation protocol fee to **0%**
+- Remove [WETH](https://sky-atlas.io/#dc3b3c32-f891-49fa-bdb4-8944d14e3d56) and [wstETH](https://sky-atlas.io/#a07d0682-9249-4a4f-b2a3-c0dfb163c683) from [E-Mode Category 1](https://sky-atlas.io/#49159478-90c9-4200-ab33-277a70b924d6).
 
 These changes will make remaining borrow positions backed by these collateral assets liquidatable. Stablecoin reserves USDC, USDT, EURe, and USDC.e will remain unchanged.
 
