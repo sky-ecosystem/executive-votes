@@ -159,11 +159,11 @@ If this executive proposal passes, then the Spark proxy spell will further depre
 
 If this executive proposal passes, then the Spark proxy spell will update the USDT interest rate strategy to [`0x4FA65B096681bD6FeecF78e5D83096bf4A5762A0`](https://etherscan.io/address/0x4FA65B096681bD6FeecF78e5D83096bf4A5762A0) with the following parameters:
 
-- Optimal usage ratio: **95%**.
-- Rate source: **Sky Savings Rate (SSR)**.
-- Base variable borrow rate: **0%**.
-- Variable rate slope 1 spread: **0.10%** over SSR.
-- Variable rate slope 2: **15%**.
+- Optimal usage ratio: **95%**
+- Rate source: **Sky Savings Rate (SSR)**
+- Base variable borrow rate: **0%**
+- Variable rate slope 1 spread: **0.10%** over SSR
+- Variable rate slope 2: **15%**
 
 ##### [Ethereum] Spark Liquidity Layer - Onboard the Sentora-Curated RLUSD Morpho Vaults V2 Instance
 
