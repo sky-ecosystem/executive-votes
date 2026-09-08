@@ -95,7 +95,7 @@ If this executive proposal passes, then Treasury Management Function configurati
 - **Authorization**: [Sky Atlas](https://sky-atlas.io/#ec820ddb-5d12-43d8-81b7-a7602a70332a)
 - **Proposal**: [Delayed Migration Penalty Update - September 10th Spell](https://forum.skyeco.com/t/delayed-migration-penalty-update-september-10th-spell/28218)
 
-If this executive proposal passes, then the Delayed Upgrade Penalty applied to [MKR to SKY conversions](https://etherscan.io/address/0xA1Ea1bA18E88C381C724a75F23a130420C403f9a) will increase by **1 percentage point**, from **4% to 5%**.
+If this executive proposal passes, then the Delayed Upgrade Penalty applied to [MKR to SKY conversions](https://etherscan.io/address/0xA1Ea1bA18E88C381C724a75F23a130420C403f9a) will increase by 1 percentage point, from 4% to **5%**.
 
 ### Adjust ALLOCATOR-GROVE-A DC-IAM Parameters
 
