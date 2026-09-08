@@ -215,11 +215,11 @@ The Pull Request for the Grove proxy spell can be viewed [here](https://github.c
 If this executive proposal passes, then the Grove proxy spell will onboard the [Grove × Steakhouse USDG Morpho Vault V2](https://etherscan.io/address/0xbeef05061FE51eA482BD1b68041353490b3a5934) to the Grove Liquidity Layer with the following [rate limits](https://sky-atlas.io/#8efb0a11-b798-48eb-af19-f65b38f039b5):
 
 - Deposit rate limit:
-  - `maxAmount`: **50 million USDG**.
-  - `slope`: **50 million USDG per day**.
+  - `maxAmount`: **50 million USDG**
+  - `slope`: **50 million USDG per day**
 - Withdrawal rate limit:
-  - `maxAmount`: **Unlimited**.
-- Maximum exchange rate: **2 USDG per vault share**.
+  - `maxAmount`: **Unlimited**
+- Maximum exchange rate: **2 USDG per vault share**
 
 ## Review
 
