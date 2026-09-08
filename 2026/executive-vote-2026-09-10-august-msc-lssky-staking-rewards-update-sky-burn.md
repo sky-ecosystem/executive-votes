@@ -87,8 +87,8 @@ If this executive proposal passes, then Treasury Management Function configurati
   - `vestTot`: **143,208,393 SKY**
   - `vestBgn`: `block.timestamp`
   - `vestTau`: **90 days**
-- Decrease `splitter.hop` by **1,244 seconds** from **3,748 seconds** to **2,504 seconds**.
-- Decrease `rewardsDuration` in [`REWARDS_LSSKY_USDS`](https://etherscan.io/address/0x38E4254bD82ED5Ee97CD1C4278FAae748d998865) by **1,244 seconds** from **3,748 seconds** to **2,504 seconds**.
+- Decrease `splitter.hop` by 1,244 seconds from 3,748 seconds to **2,504 seconds**.
+- Decrease `rewardsDuration` in [`REWARDS_LSSKY_USDS`](https://etherscan.io/address/0x38E4254bD82ED5Ee97CD1C4278FAae748d998865) by 1,244 seconds from 3,748 seconds to **2,504 seconds**.
 
 ### Increase the MKR-SKY Delayed Upgrade Penalty
 
