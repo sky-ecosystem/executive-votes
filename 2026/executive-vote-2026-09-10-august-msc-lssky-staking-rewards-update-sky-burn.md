@@ -81,7 +81,7 @@ This amount represents **1,574,530 USDS** allocated to the Core Council and **1,
 
 If this executive proposal passes, then Treasury Management Function configurations will be updated through the following actions:
 
-- Burn **2,860,943.76 SKY** from the [Pause Proxy](https://etherscan.io/address/0xbe8e3e3618f7474f8cb1d074a26affef007e98fb) balance.
+- Burn **2,860,943.76 SKY** from the [Pause Proxy](https://etherscan.io/address/0xBE8E3e3618f7474F8cB1d074A26afFef007E98FB) balance.
 - Update the LSSKY->SKY farm vest by calling [`TreasuryFundedFarmingInit.updateFarmVest()`](https://github.com/sky-ecosystem/endgame-toolkit/blob/master/script/dependencies/treasury-funded-farms/TreasuryFundedFarmingInit.sol#L128) with the following parameters:
   - `dist`: [`0x675671A8756dDb69F7254AFB030865388Ef699Ee`](https://etherscan.io/address/0x675671A8756dDb69F7254AFB030865388Ef699Ee)
   - `vestTot`: **143,208,393 SKY**
