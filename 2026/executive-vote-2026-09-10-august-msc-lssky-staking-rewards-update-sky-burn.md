@@ -38,7 +38,7 @@ If this executive proposal does not pass within 30 days, then it will expire and
 - **Authorization**: [Sky Atlas](https://sky-atlas.io/#6f8d5065-d6ff-4add-9a28-eadeffa7ed1a)
 - **Proposal**: [MSC 12 Settlement Summary - August 2026](https://forum.skyeco.com/t/msc-12-settlement-summary-august-2026/28217)
 
-If this executive proposal passes, then the Monthly Settlement Cycle for August 2026 will be executed through the following actions.
+If this executive proposal passes, then the Monthly Settlement Cycle for August 2026 will be executed through the following actions:
 
 #### Spark
 
