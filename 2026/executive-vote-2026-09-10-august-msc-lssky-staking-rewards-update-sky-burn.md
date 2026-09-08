@@ -81,7 +81,7 @@ This amount represents **1,574,530 USDS** allocated to the Core Council and **1,
 
 If this executive proposal passes, then Treasury Management Function configurations will be updated through the following actions:
 
-- Burn **2,860,943.76 SKY** from the Pause Proxy balance.
+- Burn **2,860,943.76 SKY** from the [Pause Proxy](https://etherscan.io/address/0xbe8e3e3618f7474f8cb1d074a26affef007e98fb) balance.
 - Update the LSSKY->SKY farm vest by calling [`TreasuryFundedFarmingInit.updateFarmVest()`](https://github.com/sky-ecosystem/endgame-toolkit/blob/master/script/dependencies/treasury-funded-farms/TreasuryFundedFarmingInit.sol#L128) with the following parameters:
   - `dist`: [`0x675671A8756dDb69F7254AFB030865388Ef699Ee`](https://etherscan.io/address/0x675671A8756dDb69F7254AFB030865388Ef699Ee)
   - `vestTot`: **143,208,393 SKY**
@@ -102,7 +102,7 @@ If this executive proposal passes, then the Delayed Upgrade Penalty applied to [
 - **Authorization**: [Sky Atlas](https://sky-atlas.io/#41a1ae38-4f5c-468f-b6ba-47e16ecc5aec)
 - **Proposal**: [September 10, 2026 Proposed Changes to Grove for Upcoming Spell](https://forum.skyeco.com/t/september-10-2026-proposed-changes-to-grove-for-upcoming-spell/28207/6)
 
-If this executive proposal passes, then the following DC-IAM parameters will be updated for `ALLOCATOR-GROVE-A`:
+If this executive proposal passes, then the following DC-IAM parameters will be updated for Grove's DPAU-linked vault (`ALLOCATOR-GROVE-A`):
 
 - Increase the [Maximum Debt Ceiling (`line`)](https://sky-atlas.io/#6ba18f25-dae8-4fa5-929e-3c7071b70107) by 75 million USDS, from 25 million USDS to **100 million USDS**.
 - Increase the [Target Available Debt (`gap`)](https://sky-atlas.io/#07353080-4346-4ffd-bfc8-913cac78776a) by 10 million USDS, from 5 million USDS to **15 million USDS**.
@@ -113,7 +113,7 @@ If this executive proposal passes, then the following DC-IAM parameters will be 
 - **Authorization**: [Sky Atlas](https://sky-atlas.io/#41a1ae38-4f5c-468f-b6ba-47e16ecc5aec)
 - **Proposal**: [Osero Requested Changes to Allocator Vault Parameters](https://forum.skyeco.com/t/sep-10-2026-osero-requested-changes-to-allocator-vault-parameters/28211)
 
-If this executive proposal passes, then the following DC-IAM parameters will be updated for the Osero vault (`ALLOCATOR-PRYSM-A`):
+If this executive proposal passes, then the following DC-IAM parameters will be updated for the Osero's DPAU-linked vault (`ALLOCATOR-PRYSM-A`):
 
 - Increase the [Maximum Debt Ceiling (`line`)](https://sky-atlas.io/#6ba18f25-dae8-4fa5-929e-3c7071b70107) by 75 million USDS, from 25 million USDS to **100 million USDS**.
 - Increase the [Target Available Debt (`gap`)](https://sky-atlas.io/#07353080-4346-4ffd-bfc8-913cac78776a) by 10 million USDS, from 5 million USDS to **15 million USDS**.
@@ -150,7 +150,7 @@ If this executive proposal passes, then the Spark proxy spell will set the maxAm
 - **Authorization**: [Sky Atlas](https://sky-atlas.io/#6029a425-ad81-46c5-866d-94e2ff663873)
 - **Proposal**: [Prime Technical Scope](https://forum.skyeco.com/t/september-10-2026-proposed-changes-to-spark-for-upcoming-spell/28208)
 
-If this executive proposal passes, then the Spark proxy spell will further deprecate LBTC on SparkLend by setting its Maximum Loan-to-Value (LTV) to **0%**. The liquidation threshold will remain unchanged at **75%**, preventing the change from directly causing liquidations.
+If this executive proposal passes, then the Spark proxy spell will further deprecate LBTC on SparkLend by setting its [Maximum Loan-to-Value (LTV)](https://sky-atlas.io/#586478a3-51cb-4a2e-8bb1-b96e6520fdcc) to **0%**. The liquidation threshold will remain unchanged at **75%**, preventing the change from directly causing liquidations.
 
 ##### [Ethereum] SparkLend - Update the USDT Interest Rate Model
 
@@ -159,11 +159,11 @@ If this executive proposal passes, then the Spark proxy spell will further depre
 
 If this executive proposal passes, then the Spark proxy spell will update the USDT interest rate strategy to [`0x4FA65B096681bD6FeecF78e5D83096bf4A5762A0`](https://etherscan.io/address/0x4FA65B096681bD6FeecF78e5D83096bf4A5762A0) with the following parameters:
 
-- Optimal usage ratio: **95%**
-- Rate source: **Sky Savings Rate (SSR)**
-- Base variable borrow rate: **0%**
-- Variable rate slope 1 spread: **0.10%** over SSR
-- Variable rate slope 2: **15%**
+- [Optimal usage ratio](https://sky-atlas.io/#a6677e8a-7ef1-460b-a5cd-5411319bf2c0): **95%**
+- Rate source: **[Sky Savings Rate (SSR)](https://sky-atlas.io/#2674cccb-d779-4868-b83f-8cb86648c88a)**
+- [Base variable borrow rate](https://sky-atlas.io/#9372deb9-5115-4010-bf72-34023b846525): **0%**
+- Variable rate [slope 1](https://sky-atlas.io/#c16b2b24-d663-4877-8bb3-cbd32e977360) spread: **0.10%** over SSR
+- Variable rate [slope 2](https://sky-atlas.io/#56bc7808-5ef8-42af-ba17-708b995194cc): **15%**
 
 ##### [Ethereum] Spark Liquidity Layer - Onboard the Sentora-Curated RLUSD Morpho Vaults V2 Instance
 
@@ -196,10 +196,10 @@ If this executive proposal passes, then the Spark proxy spell will claim all acc
 
 If this executive proposal passes, then the Spark proxy spell will complete the deprecation of the SparkLend Gnosis market through the following changes to WXDAI, WETH, wstETH, GNO, and sDAI:
 
-- Set Maximum LTV to **0%**
-- Set liquidation thresholds to **0.01%**
-- Set liquidation protocol fees to **0%**
-- Remove WETH and wstETH from E-Mode Category 1
+- Set [Maximum LTV](https://sky-atlas.io/#586478a3-51cb-4a2e-8bb1-b96e6520fdcc) to **0%**
+- Set [liquidation thresholds](https://sky-atlas.io/#2dd2045c-6a33-4229-b6c8-e531d6ecd27a) to **0.01%**
+- Set [liquidation bonus](https://sky-atlas.io/#173ff961-bf1f-4c6c-992c-4a67b269e544) to **0%**
+- - Remove [WETH](https://sky-atlas.io/#b1a1fb8a-29d7-4bbd-8204-25c74263c25d) and [wstETH](https://sky-atlas.io/#5d721ab3-be87-4989-b4a2-b32ff38b912f) from [E-Mode Category 1](https://sky-atlas.io/#49159478-90c9-4200-ab33-277a70b924d6).
 
 These changes will make remaining borrow positions backed by these collateral assets liquidatable. Stablecoin reserves USDC, USDT, EURe, and USDC.e will remain unchanged.
 
