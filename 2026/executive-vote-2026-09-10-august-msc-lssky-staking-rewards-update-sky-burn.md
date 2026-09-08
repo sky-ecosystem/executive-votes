@@ -134,7 +134,7 @@ The Pull Request for the Spark proxy spell can be viewed [here](https://github.c
 - **Authorization**: [Snapshot Poll 1](https://snapshot.org/#/s:sparkfi.eth/proposal/0xce102fe51d0f9dffa64c47df88974e52899ce5347375854adfe3547225489421), [Snapshot Poll 2](https://snapshot.org/#/s:sparkfi.eth/proposal/0xcf6b2556093cca153cba5c986da1c43265d0267ae6fa501c20b6f2862a138927)
 - **Proposal**: [Prime Technical Scope](https://forum.skyeco.com/t/september-10-2026-proposed-changes-to-spark-for-upcoming-spell/28208)
 
-If this executive proposal passes, then the Spark proxy spell will set the **maxAmount and slope parameters to 0** to functionally offboard 35 rate limit keys from the following unused Spark Liquidity Layer integrations:
+If this executive proposal passes, then the Spark proxy spell will set the maxAmount and slope parameters to **0** to functionally offboard 35 rate limit keys from the following unused Spark Liquidity Layer integrations:
 
 - Morpho v1 DAI and USDS vaults
 - Aave Core `aEthUSDe`
