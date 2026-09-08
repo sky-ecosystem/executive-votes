@@ -173,11 +173,11 @@ If this executive proposal passes, then the Spark proxy spell will update the US
 If this executive proposal passes, then the Spark proxy spell will onboard the [Sentora x Spark RLUSD Morpho Vault V2](https://etherscan.io/address/0xFC8C624B6080a0a780583799f2A862DE936F6E22) to the Spark Liquidity Layer with the following [rate limits](https://sky-atlas.io/#8efb0a11-b798-48eb-af19-f65b38f039b5):
 
 - Deposit rate limit:
-  - `maxAmount`: **10 million RLUSD**.
-  - `slope`: **100 million RLUSD per day**.
+  - `maxAmount`: **10 million RLUSD**
+  - `slope`: **100 million RLUSD per day**
 - Withdrawal rate limit:
-  - `maxAmount`: **Unlimited**.
-- Maximum exchange rate: **3 RLUSD per vault share**.
+  - `maxAmount`: **Unlimited**
+- Maximum exchange rate: **3 RLUSD per vault share**
 
 ##### [Ethereum] SparkLend - Claim Accrued SparkLend Reserves
 
