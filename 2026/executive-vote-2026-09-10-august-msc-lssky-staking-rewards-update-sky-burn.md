@@ -196,10 +196,10 @@ If this executive proposal passes, then the Spark proxy spell will claim all acc
 
 If this executive proposal passes, then the Spark proxy spell will complete the deprecation of the SparkLend Gnosis market through the following changes to WXDAI, WETH, wstETH, GNO, and sDAI:
 
-- Set Maximum LTV to **0%**.
-- Set liquidation thresholds to **0.01%**.
-- Set liquidation protocol fees to **0%**.
-- Remove WETH and wstETH from E-Mode Category 1.
+- Set Maximum LTV to **0%**
+- Set liquidation thresholds to **0.01%**
+- Set liquidation protocol fees to **0%**
+- Remove WETH and wstETH from E-Mode Category 1
 
 These changes will make remaining borrow positions backed by these collateral assets liquidatable. Stablecoin reserves USDC, USDT, EURe, and USDC.e will remain unchanged.
 
