@@ -113,7 +113,7 @@ If this executive proposal passes, then the following DC-IAM parameters will be 
 - **Authorization**: [Sky Atlas](https://sky-atlas.io/#41a1ae38-4f5c-468f-b6ba-47e16ecc5aec)
 - **Proposal**: [Osero Requested Changes to Allocator Vault Parameters](https://forum.skyeco.com/t/sep-10-2026-osero-requested-changes-to-allocator-vault-parameters/28211)
 
-If this executive proposal passes, then the following DC-IAM parameters will be updated for the Osero's DPAU-linked vault (`ALLOCATOR-PRYSM-A`):
+If this executive proposal passes, then the following DC-IAM parameters will be updated for Osero's DPAU-linked vault (`ALLOCATOR-PRYSM-A`):
 
 - Increase the [Maximum Debt Ceiling (`line`)](https://sky-atlas.io/#6ba18f25-dae8-4fa5-929e-3c7071b70107) by 75 million USDS, from 25 million USDS to **100 million USDS**.
 - Increase the [Target Available Debt (`gap`)](https://sky-atlas.io/#07353080-4346-4ffd-bfc8-913cac78776a) by 10 million USDS, from 5 million USDS to **15 million USDS**.
