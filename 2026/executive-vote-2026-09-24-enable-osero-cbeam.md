@@ -159,7 +159,7 @@ The Pull Request for the Osero proxy spell can be viewed [here](https://github.c
 If this executive proposal passes, the Sky PAS Configurator will be authorized on the Osero DPAU through the following actions:
 
 - Grant `DEFAULT_ADMIN_ROLE` on the Osero [`AccessControls`](https://etherscan.io/address/0x791D2a017532CfAD881c446e6bF93BbC3c0778b2) to the [Sky PAS Configurator](https://etherscan.io/address/0xb7E61Df6CAb0A51E9A5dab1A7DD3f942dDe5b929)
-- Grant `DEFAULT_ADMIN_ROLE` on the Osero [ALM Rate Limits contract (`RateLimits`)](https://etherscan.io/address/0xE9a78f34fe497e2186f81B8c014cd93B308BC62a) to the [Sky PAS Configurator](https://etherscan.io/address/0xb7E61Df6CAb0A51E9A5dab1A7DD3f942dDe5b929)
+- Grant `DEFAULT_ADMIN_ROLE` on the Osero [ALM Rate Limits contract (`RateLimits`)](https://etherscan.io/address/0xE9a78f34fe497e2186f81B8c014cd93B308BC62a) to the [Sky PAS Configurator](https://etherscan.io/address/0xb7E61Df6CAb0A51E9A5dab1A7DD3f942dDe5b929).
 
 ##### [Ethereum] Increase the USDS Mint and SparkLend USDS Deposit Rate Limits
 
