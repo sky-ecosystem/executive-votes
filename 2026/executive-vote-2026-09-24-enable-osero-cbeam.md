@@ -17,8 +17,8 @@ If you are new to voting in the Sky Protocol, please see the [voting guide](http
 
 If this executive proposal passes, the following **actions** will occur within the Sky Protocol:
 
-- The cBEAM for Osero's Diamond Parallelized Allocator Unit (PAU) will be enabled.
-- Debt Ceiling Instant Access Module (DC-IAM) parameters for ALLOCATOR-GROVE-A will be adjusted to increase throughput.
+- The cBEAM for Osero's Diamond Parallelized Allocation Unit (DPAU) will be enabled.
+- Debt Ceiling Instant Access Module (DC-IAM) parameters for ALLOCATOR-GROVE-A will be adjusted.
 - A DAO Resolution pertaining to RWA009-A (HVBank) will be approved.
 - Proxy spells for Spark, Grove, and Osero will be whitelisted in the respective StarGuard modules.
 
@@ -50,14 +50,14 @@ If this executive proposal passes, then the Osero cBEAM will be enabled on the r
   - `address cBeam`: [0x42D1038017E466b413aa44Ae798E30FB80b2E180](https://etherscan.io/address/0x42D1038017E466b413aa44Ae798E30FB80b2E180)
 - Call [beamState.addController](https://github.com/sky-ecosystem/pas/blob/947e71cd5dbaaf9c5b3840dd1b23e8e99d9a564d/src/BeamState.sol#L198-L201) with the following arguments:
   - `address controller`: [0x24169Afb34fAe4D4356BC54Bd80319131e35ca38](https://etherscan.io/address/0x24169Afb34fAe4D4356BC54Bd80319131e35ca38)
-- Call beamState.setCBeamForController with the following arguments:
+- Call [beamState.setCBeamForController](https://github.com/sky-ecosystem/pas/blob/947e71cd5dbaaf9c5b3840dd1b23e8e99d9a564d/src/BeamState.sol#L237-L242) with the following arguments:
   - `address controller`: [0x24169Afb34fAe4D4356BC54Bd80319131e35ca38](https://etherscan.io/address/0x24169Afb34fAe4D4356BC54Bd80319131e35ca38)
   - `address cBeam`: [0x42D1038017E466b413aa44Ae798E30FB80b2E180](https://etherscan.io/address/0x42D1038017E466b413aa44Ae798E30FB80b2E180)
 
 ### Adjust ALLOCATOR-GROVE-A DC-IAM Parameters
 
 - **Authorization**: [Sky Atlas](https://sky-atlas.io/#41a1ae38-4f5c-468f-b6ba-47e16ecc5aec)
-- **Proposal**: [Prime Technical Scope](https://forum.skyeco.com/t/september-24-2026-proposed-changes-to-grove-for-upcoming-spell/28229/6)
+- **Proposal**: [Core GovOps Request](https://forum.skyeco.com/t/september-24-2026-proposed-changes-to-grove-for-upcoming-spell/28229/9)
 
 If this executive proposal passes, then the following DC-IAM parameters will be updated for Grove's DPAU-linked vault (`ALLOCATOR-GROVE-A`):
 
@@ -72,7 +72,7 @@ If this executive proposal passes, then the following DC-IAM parameters will be 
 
 If this executive proposal passes, then the DAO Resolution pertaining to RWA009-A (HVBank) with IPFS hash [bafkreickfbtcslmburi6s4q6br6hn3j2cgdykf3ekv5i46r622vo3jzznm](https://gateway.pinata.cloud/ipfs/bafkreickfbtcslmburi6s4q6br6hn3j2cgdykf3ekv5i46r622vo3jzznm) will be approved.
 
-This will facilitate the return of accrued loan and cash interest to Sky Protocol.
+This will facilitate the return of accrued loan and cash interest totaling 2,204,481.65 DAI to the Sky Protocol.
 
 ### Prime Agent Proxy Spells
 
@@ -84,7 +84,7 @@ If this executive proposal passes, then an Osero proxy spell with address [`0xA0
 
 #### Spark Proxy Spell
 
-The Pull Request for the Spark proxy spell can be viewed [here](https://github.com/sparkdotfi/spark-spells/pull/196)
+The Pull Request for the Spark proxy spell can be viewed [here](https://github.com/sparkdotfi/spark-spells/pull/196).
 
 ##### [Ethereum] Spark Treasury - Transfer the October 2026 Monthly Grants to the Spark Foundation and the Spark Assets Foundation
 
@@ -95,7 +95,7 @@ If this executive proposal passes, then the Spark proxy spell will transfer **86
 
 ##### [Ethereum] Spark Treasury - Transfer USDS to the Buyback Executor to Fund SPK Buybacks
 
-- **Authorization**: [Sky Atlas](https://sky-atlas.io/#6a4870fa-73f1-4d49-b7ee-d531fb59a971)
+- **Authorization**: [Sky Atlas](https://sky-atlas.io/#dfa483c7-5adb-480e-9f82-c97cf4d0f74e)
 - **Proposal**: [Prime Technical Scope](https://forum.skyeco.com/t/september-24-2026-proposed-changes-to-spark-for-upcoming-spell/28237)
 
 If this executive proposal passes, then the Spark proxy spell will transfer **972,485 USDS** from the Spark SubProxy to the [Spark Operations Multisig](https://etherscan.io/address/0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC) to fund SPK buybacks.
@@ -112,7 +112,7 @@ If this executive proposal passes, then the Spark proxy spell will claim all acc
 
 #### Grove Proxy Spell
 
-The Pull Request for the Grove proxy spell can be viwed [here](https://github.com/grove-labs/grove-spells/pull/78).
+The Pull Request for the Grove proxy spell can be viewed [here](https://github.com/grove-labs/grove-spells/pull/78).
 
 ##### [Ethereum] Treasury Distribution — 800,000 USDS to the Grove Foundation Multisig
 
@@ -121,7 +121,7 @@ The Pull Request for the Grove proxy spell can be viwed [here](https://github.co
 
 If this executive proposal passes, then the Grove proxy spell will transfer **800,000 USDS** from the Grove SubProxy to the [Grove Foundation Multisig](https://etherscan.io/address/0xE3EC4CC359E68c9dCE15Bf667b1aD37Df54a5a42).
 
-##### [Ethereum] Set the Grove DPAU Unwind Rate Limits - USDS Burn and the USDC→USDS Swap - to Unlimited
+##### [Ethereum] Set the Grove DPAU Unwind Rate Limits - USDS Burn and the USDC-to-USDS Swap - to Unlimited
 
 - **Authorization**: [Snapshot Poll](https://snapshot.org/#/s:grovefinance.eth/proposal/0x4713e4045e8780272aa56f483e54075566b2bdb66df8ed2c9beb6d5086bcbf73)
 - **Proposal**: [Prime Technical Scope](https://forum.skyeco.com/t/september-24-2026-proposed-changes-to-grove-for-upcoming-spell/28229)
@@ -129,16 +129,16 @@ If this executive proposal passes, then the Grove proxy spell will transfer **80
 If this executive proposal passes, then the Grove proxy spell will set the [rate limits](https://sky-atlas.io/#8efb0a11-b798-48eb-af19-f65b38f039b5) for USDS burn and USDC-to-USDS swaps as follows:
 
 - USDS Burn:
-  - maxAmount: **Unlimited**
+  - `maxAmount`: **Unlimited**
 - USDC-to-USDS Swap:
-  - maxAmount: **Unlimited**
+  - `maxAmount`: **Unlimited**
 
-##### [Base] Onboard the New Grove × Steakhouse USDC Morpho Vault on Base with ERC-4626 Deposit and Withdrawal Rate Limits, and Set its Maximum Exchange Rate
+##### [Base] Onboard the New Grove × Steakhouse USDC Morpho Vault on Base with ERC-4626 Deposit and Withdrawal Rate Limits, and Set Its Maximum Exchange Rate
 
-- **Authorization**: [Sky Atlas](https://sky-atlas.io/#8ddc309e-abde-4d17-8977-bd5f20e100a7)
+- **Authorization**: [Snapshot Poll](https://snapshot.box/#/s:grovefinance.eth/proposal/0x014c93a287ea15d98148e0418f5262efa9a7c4c4ec8b8d3505cfac68674b3944)
 - **Proposal**: [Prime Technical Scope](https://forum.skyeco.com/t/september-24-2026-proposed-changes-to-grove-for-upcoming-spell/28229)
 
-If this executive proposal passes, then the Grove proxy spell will onboard the [Grove × Steakhouse USDC Morpho Vault](0xbeef0786756810478b88982DE00F3CD7fdB8e7c7) on Base with the following [rate limits](https://sky-atlas.io/#8efb0a11-b798-48eb-af19-f65b38f039b5):
+If this executive proposal passes, then the Grove proxy spell will onboard the [Grove × Steakhouse USDC Morpho Vault](https://basescan.org/address/0xbeef0786756810478b88982DE00F3CD7fdB8e7c7) on Base with the following [rate limits](https://sky-atlas.io/#8efb0a11-b798-48eb-af19-f65b38f039b5):
 
 - Deposit rate limit:
   - `maxAmount`: **20 million USDC**
@@ -153,27 +153,27 @@ The Pull Request for the Osero proxy spell can be viewed [here](https://github.c
 
 ##### [Ethereum] Authorize the Sky Parallelized Allocation System (PAS) Configurator on the Existing Osero Diamond PAU
 
-- **Authorization**: [Sky Atlas](https://sky-atlas.io/#aae0e1ba-4ed0-4484-9187-3e53f3695ae8)
+- **Authorization**: [Governance Poll 1649](https://vote.sky.money/polling/Qmbk7ZFS)
 - **Proposal**: [Prime Technical Scope](https://forum.skyeco.com/t/september-24-2026-proposed-changes-to-osero-for-upcoming-spell/28224)
 
-If this executive proposal passes, the SKY PAS Configurator will be authorized on the Osero DPAU through the following actions:
+If this executive proposal passes, the Sky PAS Configurator will be authorized on the Osero DPAU through the following actions:
 
 - Grant `DEFAULT_ADMIN_ROLE` on the Osero `AccessControls` to the [Sky PAS Configurator](https://etherscan.io/address/0xb7E61Df6CAb0A51E9A5dab1A7DD3f942dDe5b929)
 - Grant `DEFAULT_ADMIN_ROLE` on the Osero ALM Rate Limits contract (`RateLimits`) to the [Sky PAS Configurator](https://etherscan.io/address/0xb7E61Df6CAb0A51E9A5dab1A7DD3f942dDe5b929)
 
 ##### [Ethereum] Increase the USDS Mint and SparkLend USDS Deposit Rate Limits
 
-- **Authorization**: [Sky Atlas - USDS Mint Maximum](https://sky-atlas.io/#c6456279-0dab-4517-aad9-46d9e8d4aede), [Sky Atlas - Sparklend USDS Deposit Rate Limits](https://sky-atlas.io/#e3b12e29-eb67-40be-8cac-85913eff958c)
+- **Authorization**: [Governance Poll 1649](https://vote.sky.money/polling/Qmbk7ZFS)
 - **Proposal**: [Prime Technical Scope](https://forum.skyeco.com/t/september-24-2026-proposed-changes-to-osero-for-upcoming-spell/28224)
 
 If this executive proposal passes, the [rate limits](https://sky-atlas.io/#8efb0a11-b798-48eb-af19-f65b38f039b5) for USDS mint and SparkLend USDS deposits will be increased to the following values:
 
 - USDS mint:
-  - maxAmount: **50 million USDS**
-  - slope: **50 million USDS per day**
-SparkLend USDS deposit:
-  - maxAmount: **50 million USDS**
-  - slope: **50 million USDS per day**
+  - `maxAmount`: **50 million USDS**
+  - `slope`: **50 million USDS per day**
+- SparkLend USDS deposit:
+  - `maxAmount`: **50 million USDS**
+  - `slope`: **50 million USDS per day**
 
 ## Review
 
