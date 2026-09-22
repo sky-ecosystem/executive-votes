@@ -1,6 +1,6 @@
 ---
 title: Template - [Executive Vote] Enable Osero cBEAM, Adjust ALLOCATOR-GROVE-A DC-IAM Parameters, DAO Resolution for RWA009-A, Prime Agent Proxy Spells - September 24, 2026
-summary: Enable the cBEAM for Osero's PAU, adjust DC-IAM parameters for the ALLOCATOR-GROVE-A vault, approve a DAO Resolution for RWA009-A, whitelist Prime Agent proxy spells for Spark, Grove, and Osero
+summary: Enable the cBEAM for Osero's DPAU, adjust DC-IAM parameters for the ALLOCATOR-GROVE-A vault, approve a DAO Resolution for RWA009-A, whitelist Prime Agent proxy spells for Spark, Grove, and Osero
 date: 2026-09-24T00:00:00.000Z
 address: "$spell_address"
 ---
@@ -17,7 +17,7 @@ If you are new to voting in the Sky Protocol, please see the [voting guide](http
 
 If this executive proposal passes, the following **actions** will occur within the Sky Protocol:
 
-- The cBEAM for Osero's Diamond Parallelized Allocation Unit (DPAU) will be enabled.
+- The Configurator Bounded External Access Module (cBEAM) for Osero's Diamond Parallelized Allocation Unit (DPAU) will be enabled.
 - Debt Ceiling Instant Access Module (DC-IAM) parameters for ALLOCATOR-GROVE-A will be adjusted.
 - A DAO Resolution pertaining to RWA009-A (HVBank) will be approved.
 - Proxy spells for Spark, Grove, and Osero will be whitelisted in the respective StarGuard modules.
@@ -39,7 +39,7 @@ If this executive proposal does not pass within 30 days, then it will expire and
 - **Authorization**: [Governance Poll 1650](https://vote.sky.money/polling/QmeXvxdN)
 - **Proposal**: [Technical Scope](https://forum.skyeco.com/t/technical-scope-of-the-oseros-cbeam-activation/28239), [Atlas Edit Weekly Cycle Proposal](https://forum.skyeco.com/t/atlas-edit-weekly-cycle-proposal-week-of-2026-09-21/28241)
 
-If this executive proposal passes, then the Osero cBEAM will be enabled on the relevant Diamond Parallelized Allocation Unit (DPAU) through the following actions:
+If this executive proposal passes, then the Osero cBEAM will be enabled on the relevant DPAU through the following actions:
 
 - Call [beamState.addCBeam](https://github.com/sky-ecosystem/pas/blob/947e71cd5dbaaf9c5b3840dd1b23e8e99d9a564d/src/BeamState.sol#L210-L213) with the following arguments:
   - `address cBeam`: [0x42D1038017E466b413aa44Ae798E30FB80b2E180](https://etherscan.io/address/0x42D1038017E466b413aa44Ae798E30FB80b2E180)
@@ -72,7 +72,7 @@ If this executive proposal passes, then the following DC-IAM parameters will be 
 
 If this executive proposal passes, then the DAO Resolution pertaining to RWA009-A (HVBank) with IPFS hash [bafkreickfbtcslmburi6s4q6br6hn3j2cgdykf3ekv5i46r622vo3jzznm](https://gateway.pinata.cloud/ipfs/bafkreickfbtcslmburi6s4q6br6hn3j2cgdykf3ekv5i46r622vo3jzznm) will be approved.
 
-This will facilitate the return of accrued loan and cash interest totaling 2,204,481.65 DAI to the Sky Protocol.
+This will facilitate the return of accrued loan and cash interest totaling USD 2,204,481.65, to be converted to DAI, to the Sky Protocol.
 
 ### Prime Agent Proxy Spells
 
@@ -158,8 +158,8 @@ The Pull Request for the Osero proxy spell can be viewed [here](https://github.c
 
 If this executive proposal passes, the Sky PAS Configurator will be authorized on the Osero DPAU through the following actions:
 
-- Grant `DEFAULT_ADMIN_ROLE` on the Osero `AccessControls` to the [Sky PAS Configurator](https://etherscan.io/address/0xb7E61Df6CAb0A51E9A5dab1A7DD3f942dDe5b929)
-- Grant `DEFAULT_ADMIN_ROLE` on the Osero ALM Rate Limits contract (`RateLimits`) to the [Sky PAS Configurator](https://etherscan.io/address/0xb7E61Df6CAb0A51E9A5dab1A7DD3f942dDe5b929)
+- Grant `DEFAULT_ADMIN_ROLE` on the Osero [`AccessControls`](https://etherscan.io/address/0x791D2a017532CfAD881c446e6bF93BbC3c0778b2) to the [Sky PAS Configurator](https://etherscan.io/address/0xb7E61Df6CAb0A51E9A5dab1A7DD3f942dDe5b929)
+- Grant `DEFAULT_ADMIN_ROLE` on the Osero [ALM Rate Limits contract (`RateLimits`)](https://etherscan.io/address/0xE9a78f34fe497e2186f81B8c014cd93B308BC62a) to the [Sky PAS Configurator](https://etherscan.io/address/0xb7E61Df6CAb0A51E9A5dab1A7DD3f942dDe5b929)
 
 ##### [Ethereum] Increase the USDS Mint and SparkLend USDS Deposit Rate Limits
 
