@@ -123,7 +123,7 @@ If this executive proposal passes, then the Grove proxy spell will transfer **80
 
 ##### [Ethereum] Set the Grove DPAU Unwind Rate Limits - USDS Burn and the USDC-to-USDS Swap - to Unlimited
 
-- **Authorization**: [Snapshot Poll](https://snapshot.org/#/s:grovefinance.eth/proposal/0x4713e4045e8780272aa56f483e54075566b2bdb66df8ed2c9beb6d5086bcbf73)
+- **Authorization**: [Snapshot Poll](https://snapshot.box/#/s:grovefinance.eth/proposal/0x4713e4045e8780272aa56f483e54075566b2bdb66df8ed2c9beb6d5086bcbf73)
 - **Proposal**: [Prime Technical Scope](https://forum.skyeco.com/t/september-24-2026-proposed-changes-to-grove-for-upcoming-spell/28229)
 
 If this executive proposal passes, then the Grove proxy spell will set the [rate limits](https://sky-atlas.io/#8efb0a11-b798-48eb-af19-f65b38f039b5) for USDS burn and USDC-to-USDS swaps as follows:
