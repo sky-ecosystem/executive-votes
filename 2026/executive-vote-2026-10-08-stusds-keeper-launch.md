@@ -209,6 +209,8 @@ If this executive proposal passes, then the Spark proxy spell will claim all acc
 
 #### Grove Proxy Spell
 
+The Pull Request for the Grove proxy spell can be viewed [here](https://github.com/grove-labs/grove-spells/pull/82).
+
 ##### [Ethereum] Migrate Grove × Steakhouse Vaults to the Atlas Morpho Vault Curation Framework
 
 - **Authorization**: [Snapshot Poll](https://snapshot.box/#/s:grovefinance.eth/proposal/0x515fa8cf35a8ee5bd39a8a5b55dfad3f1e8f0ecb1e4678f8de83bfe892f28dc3)
