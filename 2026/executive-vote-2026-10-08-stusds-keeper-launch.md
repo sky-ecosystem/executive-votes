@@ -195,7 +195,7 @@ If this executive proposal passes, then the Spark proxy spell will transfer admi
 
 If this executive proposal passes, then the Spark proxy spell will add the [spUSDC vault](https://www.oklink.com/xlayer/address/0xf90E63079D97a0A1f479b2b168457F420CAFf6ba) to the X Layer Savings Vault Intents system with the following configuration:
 
-- Grant the `RELAYER` role to the spUSDC PAU Administered Agent.
+- Grant the `RELAYER` role to the [spUSDC PAU Administered Agent](https://www.oklink.com/x-layer/evm/address/0x79b4055Eda153f739B5EA63C9B647c1a095059f5).
 - Whitelist spUSDC for intents.
 - Minimum intent amount: **1 million USDC**.
 - Maximum intent amount: **500 million USDC**.
