@@ -293,7 +293,7 @@ If this executive proposal passes, then the Osero proxy spell will onboard the [
 - Configure the PSM USDC-to-USDS rate limit as **Unlimited**.
 - Configure the vault deposit rate limit with:
   - `maxAmount`: **5 million USDC**
-  - `slope`: **0**
+  - `slope`: **0 USDC per day**
 - Configure the vault withdrawal rate limit as **Unlimited**.
 
 ## Review
