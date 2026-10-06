@@ -157,7 +157,7 @@ If this executive proposal passes, then the Spark proxy spell will configure the
 - Grant the controller role to the PAU Controller on the Arbitrum ALM Proxy.
 - Reconfigure the PAU Administered Agent by replacing the existing grantor with the Soter Labs Grantor Multisig, adding the Soter Labs Freezer Multisig as a revoker, and adding the Spark hot wallet as an actor. The existing ALM Relayer Multisig actor and ALM Freezer Multisig revoker will remain unchanged.
 - Set the aggregate CCTP rate limit to **Unlimited**.
-- Configure the Arbitrum-to-Ethereum CCTP route with:
+- Configure the Arbitrum-to-Ethereum CCTP route with the following [rate limits](https://sky-atlas.io/#8efb0a11-b798-48eb-af19-f65b38f039b5):
   - `maxAmount`: **5 million USDC**
   - `slope`: **50 million USDC per day**
   - Recipient: [Spark Ethereum ALM Proxy](https://etherscan.io/address/0x1601843c5E9bC251A3272907010AFa41Fa18347E)
