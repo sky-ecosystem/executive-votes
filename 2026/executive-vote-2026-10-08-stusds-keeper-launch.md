@@ -161,8 +161,8 @@ If this executive proposal passes, then the Spark proxy spell will configure the
   - `maxAmount`: **5 million USDC**
   - `slope`: **50 million USDC per day**
   - Recipient: [Spark Ethereum ALM Proxy](https://etherscan.io/address/0x1601843c5E9bC251A3272907010AFa41Fa18347E)
-  - Minimum fee cap rate: **0**
-  - Maximum fee cap rate: **0**
+  - Minimum fee cap rate: **0 basis points**
+  - Maximum fee cap rate: **0 basis points**
 
 ##### [Arbitrum] Spark Liquidity Layer - Return Excess USDS to Ethereum
 
