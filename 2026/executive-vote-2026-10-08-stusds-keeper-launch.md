@@ -230,7 +230,7 @@ If this executive proposal passes, then the Grove proxy spell will set the [`max
 - **Authorization**: [Snapshot Poll](https://snapshot.box/#/s:grovefinance.eth/proposal/0xf97cae9eb7937f48c92b268b3f28886f9dcc5fd05e3d39fb1b67ccf2ec16ca4d)
 - **Proposal**: [Prime Technical Scope](https://forum.skyeco.com/t/october-8-2026-proposed-changes-to-grove-for-upcoming-spell/28255)
 
-If this executive proposal passes, then the Grove proxy spell will set the deposit rate limit for [`0xd8A6511979D9C5D387c819E9F8ED9F3a5C6c5379`](https://etherscan.io/address/0xd8A6511979D9C5D387c819E9F8ED9F3a5C6c5379) to **0**, while leaving withdrawals unchanged.
+If this executive proposal passes, then the Grove proxy spell will set the [`maxAmount`](https://sky-atlas.io/#8b5f1ffd-9dfd-4aa0-8fc2-638a79d9fadb) and [`slope`](https://sky-atlas.io/#ae8674bc-44ac-4b95-b5df-c6322a1d6e9a) parameters for [`0xd8A6511979D9C5D387c819E9F8ED9F3a5C6c5379`](https://etherscan.io/address/0xd8A6511979D9C5D387c819E9F8ED9F3a5C6c5379) to **0**, while leaving withdrawals unchanged.
 
 ##### [Ethereum] Set the Sentora PYUSD Morpho Vault V2 Deposit Rate Limit to 0
 
