@@ -4,6 +4,7 @@ summary: Launch the stUSDS Keeper, execute the Monthly Settlement Cycle for Sept
 date: 2026-10-08T00:00:00.000Z
 address: "$spell_address"
 ---
+
 # [Executive Proposal] stUSDS Keeper Launch, Monthly Settlement Cycle for September 2026, Treasury Management Function Parameter Updates, Adjust Grove DC-IAM Parameters, Update Safe Harbor Agreement, Prime Agent Proxy Spells - October 8, 2026
 
 The Core Facilitators, Sidestream, and Dewiz have placed an executive proposal into the voting system. SKY holders should vote for this proposal if they support the following alterations to the Sky Protocol.
