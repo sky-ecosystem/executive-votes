@@ -126,17 +126,17 @@ If this executive proposal passes, then the Safe Harbor Agreement will be update
 
 #### Ethereum
 
-- stUSDS Value Registry: [`0xcDb55A799A9B9eAe22Ed0E13037bb6D2E3f1d080`](https://etherscan.io/address/0xcDb55A799A9B9eAe22Ed0E13037bb6D2E3f1d080)
+- `stUSDS Value Registry`: [`0xcDb55A799A9B9eAe22Ed0E13037bb6D2E3f1d080`](https://etherscan.io/address/0xcDb55A799A9B9eAe22Ed0E13037bb6D2E3f1d080)
 
 #### Arbitrum
 
-- PAS BeamState: [`0x11CFefeA67B18de9046a6250555D438854fFEEDa`](https://arbiscan.io/address/0x11CFefeA67B18de9046a6250555D438854fFEEDa)
-- PAS Configurator: [`0xd11Dc57F3eF23bb7b3142588a461F68460a7C474`](https://arbiscan.io/address/0xd11Dc57F3eF23bb7b3142588a461F68460a7C474)
-- PAS Timelock: [`0x66d3653e66F7edb973549CFA3b46F22298B8f983`](https://arbiscan.io/address/0x66d3653e66F7edb973549CFA3b46F22298B8f983)
-- CCTP V2 facet: [`0xeCCA0D296Cb133081d41E9772B60D57F5fd2798E`](https://arbiscan.io/address/0xeCCA0D296Cb133081d41E9772B60D57F5fd2798E)
-- Spark Beacon: [`0x86036CE5d2f792367C0AA43164e688d13c5A60A8`](https://arbiscan.io/address/0x86036CE5d2f792367C0AA43164e688d13c5A60A8)
-- PAU Factory: [`0x3968a022D955Bbb7927cc011A48601B65a33F346`](https://arbiscan.io/address/0x3968a022D955Bbb7927cc011A48601B65a33F346)
-- Administered Agent Factory: [`0xCBA0C0a2a0B6Bb11233ec4EA85C5bFfea33e724d`](https://arbiscan.io/address/0xCBA0C0a2a0B6Bb11233ec4EA85C5bFfea33e724d)
+- `PAS BeamState`: [`0x11CFefeA67B18de9046a6250555D438854fFEEDa`](https://arbiscan.io/address/0x11CFefeA67B18de9046a6250555D438854fFEEDa)
+- `PAS Configurator`: [`0xd11Dc57F3eF23bb7b3142588a461F68460a7C474`](https://arbiscan.io/address/0xd11Dc57F3eF23bb7b3142588a461F68460a7C474)
+- `PAS Timelock`: [`0x66d3653e66F7edb973549CFA3b46F22298B8f983`](https://arbiscan.io/address/0x66d3653e66F7edb973549CFA3b46F22298B8f983)
+- `CCTP V2 Facet`: [`0xeCCA0D296Cb133081d41E9772B60D57F5fd2798E`](https://arbiscan.io/address/0xeCCA0D296Cb133081d41E9772B60D57F5fd2798E)
+- `Spark Beacon`: [`0x86036CE5d2f792367C0AA43164e688d13c5A60A8`](https://arbiscan.io/address/0x86036CE5d2f792367C0AA43164e688d13c5A60A8)
+- `PAU Factory`: [`0x3968a022D955Bbb7927cc011A48601B65a33F346`](https://arbiscan.io/address/0x3968a022D955Bbb7927cc011A48601B65a33F346)
+- `Administered Agent Factory`: [`0xCBA0C0a2a0B6Bb11233ec4EA85C5bFfea33e724d`](https://arbiscan.io/address/0xCBA0C0a2a0B6Bb11233ec4EA85C5bFfea33e724d)
 
 ### Prime Agent Proxy Spells
 
