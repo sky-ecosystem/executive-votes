@@ -154,8 +154,8 @@ The Pull Request for the Spark proxy spell can be viewed [here](https://github.c
 
 If this executive proposal passes, then the Spark proxy spell will configure the Arbitrum Diamond PAU parallel controller for CCTP V2, including the following changes:
 
-- Grant the controller role to the PAU Controller on the Arbitrum ALM Proxy.
-- Reconfigure the PAU Administered Agent by replacing the existing grantor with the Soter Labs Grantor Multisig, adding the Soter Labs Freezer Multisig as a revoker, and adding the Spark hot wallet as an actor. The existing ALM Relayer Multisig actor and ALM Freezer Multisig revoker will remain unchanged.
+- Grant the controller role to the [PAU Controller](https://arbiscan.io/address/0x04ACB9e9bbd64A425677edC535D6B30cfD74E42f) on the [Arbitrum ALM Proxy](https://arbiscan.io/address/0x92afd6F2385a90e44da3a8B60fe36f6cBe1D8709).
+- Reconfigure the [PAU Administered Agent](https://arbiscan.io/address/0x0745aae633E8318a063D383791bCc0d8C82F46C6) by replacing the existing grantor with the [Soter Labs Grantor Multisig](https://arbiscan.io/address/0x97EC6398e5dD047BA3223cFC017bFC6436Ac3Fe7), adding the [Soter Labs Freezer Multisig](https://arbiscan.io/address/0x747BF29B189e2a070a921Af7Cf65681E3d5F5967) as a revoker, and adding the [Spark hot wallet](https://arbiscan.io/address/0x062cE42caE04c51D04E77e3D64cc8953a2296FfE) as an actor. The existing ALM Relayer Multisig actor and ALM Freezer Multisig revoker will remain unchanged.
 - Set the aggregate CCTP rate limit to **Unlimited**.
 - Configure the Arbitrum-to-Ethereum CCTP route with the following [rate limits](https://sky-atlas.io/#8efb0a11-b798-48eb-af19-f65b38f039b5):
   - `maxAmount`: **5 million USDC**
