@@ -122,7 +122,7 @@ If this executive proposal passes, then the following DC-IAM parameters will be 
 
 - **Authorization**: [Atlas A.2.11.1.2.3 - Safe Harbor Modifications](https://sky-atlas.io/#fcd868db-4a91-4ee0-baf5-1ebd40fc651e)
 
-If this executive proposal passes, then the Safe Harbor Agreement will be updated to include the following accounts.
+If this executive proposal passes, then the Safe Harbor Agreement will be updated to include the following accounts:
 
 #### Ethereum
 
