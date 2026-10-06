@@ -287,7 +287,7 @@ If this executive proposal passes, then the Osero proxy spell will onboard the [
 
 - Enable the `ERC4626_FACET` and `PSM_FACET` integrations on the Osero Controller.
 - Set the maximum exchange rate to **2 USDC per vault share**.
-- Configure the PSM USDS-to-USDC rate limit with:
+- Configure the PSM USDS-to-USDC [rate limit](https://sky-atlas.io/#8efb0a11-b798-48eb-af19-f65b38f039b5) with:
   - `maxAmount`: **50 million USDC**
   - `slope`: **50 million USDC per day**
 - Configure the PSM USDC-to-USDS rate limit as **Unlimited**.
