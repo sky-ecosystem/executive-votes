@@ -107,7 +107,7 @@ If this executive proposal passes, then Treasury Management Function configurati
 ### Adjust ALLOCATOR-GROVE-A DC-IAM Parameters
 
 - **Authorization**: [Sky Atlas](https://sky-atlas.io/#41a1ae38-4f5c-468f-b6ba-47e16ecc5aec)
-- **Proposal**: [October 8, 2026 Proposed Changes to Grove for Upcoming Spell](https://forum.skyeco.com/t/october-8-2026-proposed-changes-to-grove-for-upcoming-spell/28255/7)
+- **Proposal**: [October 8, 2026 Proposed Changes to Grove for Upcoming Spell](https://forum.skyeco.com/t/october-8-2026-proposed-changes-to-grove-for-upcoming-spell/28255/7), [Core Council Risk Advisor Recommendation](https://forum.skyeco.com/t/october-8-2026-proposed-changes-to-grove-for-upcoming-spell/28255/8)
 
 If this executive proposal passes, then the following DC-IAM parameters will be updated for Grove's DPAU-linked vault (`ALLOCATOR-GROVE-A`):
 
