@@ -1,5 +1,5 @@
 ---
-title: Template - [Executive Vote] Add Initial Rate Limits for Osero, Prime Proxy Spells - October 22, 2026
+title: Template - [Executive Vote] Add Initial Rate Limits for Osero, Prime Agent Proxy Spells - October 22, 2026
 summary: Configure initial rate limits for the Osero x Gauntlet USDC Prime Vault deposit key, whitelist Prime proxy spells for Spark, Grove, and Pattern.
 date: 2026-10-22T00:00:00.000Z
 address: "$spell_address"
@@ -33,11 +33,11 @@ If this executive proposal does not pass within 30 days, then it will expire and
 ### Add Initial Rate Limits for Osero x Gauntlet USDC Prime Vault
 
 - **Authorization**: [Sky Atlas](https://sky-atlas.io/#cb293144-de0c-4bd8-9971-d96327b38ae9)
-- **Proposal**: [Prime Technical Scope](https://forum.skyeco.com/t/october-22-2026-proposed-changes-to-osero-for-upcoming-spell/28297/)
+- **Proposal**: [Prime Technical Scope](https://forum.skyeco.com/t/october-22-2026-proposed-changes-to-osero-for-upcoming-spell/28297)
 
-If this executive proposal passes, then the following [rate limits](https://sky-atlas.io/#8efb0a11-b798-48eb-af19-f65b38f039b5) will be set as the default values for the deposit key of the Osero x Gauntlet USDC Prime Vault. This permits the Osero Operator Multisig (Osero’s cBEAM) to raise the vault deposit slope from 0 to 650,000 USDC/day through the Configurator, without an Osero spell.
+If this executive proposal passes, then the following [rate limits](https://sky-atlas.io/#8efb0a11-b798-48eb-af19-f65b38f039b5) will be set as the default values for the deposit key of the Osero x Gauntlet USDC Prime Vault. This permits the Osero Operator Multisig (Osero's cBEAM) to raise the vault deposit slope from 0 to 650,000 USDC per day through the Configurator, without an Osero spell.
 
-- `maxAmount`: **5,000,000 USDC**
+- `maxAmount`: **5 million USDC**
 - `slope`: **650,000 USDC per day**
 
 ### Prime Agent Proxy Spells
@@ -83,9 +83,9 @@ If this executive proposal passes, the PYUSD, RLUSD and USDG markets' [Interest 
 - **Authorization**: [Governance Poll](https://vote.sky.money/polling/QmQBiM5W)
 - **Proposal**: [Prime Technical Scope](https://forum.skyeco.com/t/october-22-2026-proposed-changes-to-spark-for-upcoming-spell/28298)
 
-If this executive proposal passes, **865,000 USDS** will be transferred to the Spark Foundation at [0x92e4629a4510AF5819d7D1601464C233599fF5ec](https://etherscan.io/address/0x92e4629a4510AF5819d7D1601464C233599fF5ec), and **45,000 USDS** will be transferred to the Spark Assets Foundation at [0xEabCb8C0346Ac072437362f1692706BA5768A911](https://etherscan.io/address/0xEabCb8C0346Ac072437362f1692706BA5768A911).
+If this executive proposal passes, **865,000 USDS** will be transferred from the Spark SubProxy to the Spark Foundation at [0x92e4629a4510AF5819d7D1601464C233599fF5ec](https://etherscan.io/address/0x92e4629a4510AF5819d7D1601464C233599fF5ec), and **45,000 USDS** will be transferred from the Spark SubProxy to the Spark Assets Foundation at [0xEabCb8C0346Ac072437362f1692706BA5768A911](https://etherscan.io/address/0xEabCb8C0346Ac072437362f1692706BA5768A911).
 
-##### [Ethereum] Spark Treasury - Transfer USDS for Buybacks
+##### [Ethereum] Spark Treasury - Transfer 341,970 USDS to the Spark Operations Multisig for SPK Buybacks
 
 - **Authorization**: [Sky Atlas](https://sky-atlas.io/#dfa483c7-5adb-480e-9f82-c97cf4d0f74e)
 - **Proposal**: [Prime Technical Scope](https://forum.skyeco.com/t/october-22-2026-proposed-changes-to-spark-for-upcoming-spell/28298)
@@ -118,7 +118,7 @@ If this executive proposal passes, **800,000 USDS** will be transferred from the
 - **Authorization**: [Snapshot Poll](https://snapshot.box/#/s:grovefinance.eth/proposal/0x7659f7a429ab635b7c41796c80f2f730008fe3dd2beb603f7ced05b7ac9cada8)
 - **Proposal**: [Prime Technical Scope](https://forum.skyeco.com/t/october-22-2026-proposed-changes-to-grove-for-upcoming-spell/28296)
 
-If this executive proposal passes, the CCTP v1 relay to Avalanche will be retired. The CCTP v2 governance relay was authorized in the June 4, 2026 spell.
+If this executive proposal passes, the CCTP v1 relay to Avalanche will be retired by revoking `SUBMISSION_ROLE` from the [Grove Circle CCTP v1 Governance Relay Receiver](https://snowtrace.io/address/0x26e9512547feC1906C55256e491DfB6673D8C23f) on the Grove Executor on Avalanche. The CCTP v2 governance relay was authorized in the June 4, 2026 spell.
 
 #### Pattern Proxy Spell
 
