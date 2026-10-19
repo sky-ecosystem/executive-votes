@@ -30,9 +30,9 @@ If this executive proposal does not pass within 30 days, then it will expire and
 
 ## Proposal Details
 
-### $executive_entry_1
+### Add Initial Rate Limits for Osero x Gauntlet USDC Prime Vault
 
-- **Authorization**: [Sky Atlas](https://sky-atlas.io/#8b15128c-5b5e-4936-b835-eee711617d61)
+- **Authorization**: [Sky Atlas](https://sky-atlas.io/#cb293144-de0c-4bd8-9971-d96327b38ae9)
 - **Proposal**: [Prime Technical Scope](https://forum.skyeco.com/t/october-22-2026-proposed-changes-to-osero-for-upcoming-spell/28297/)
 
 If this executive proposal passes, then the following [rate limits](https://sky-atlas.io/#8efb0a11-b798-48eb-af19-f65b38f039b5) will be set as the default values for the deposit key of the Osero x Gauntlet USDC Prime Vault. This permits the Osero Operator Multisig (Osero’s cBEAM) to raise the vault deposit slope from 0 to 650,000 USDC/day through the Configurator, without an Osero spell.
@@ -46,7 +46,7 @@ If this executive proposal passes, then a Spark proxy spell with address [`0x78E
 
 If this executive proposal passes, then a Grove proxy spell with address [`0xf9449D21ef687eE55233B9EDC3d7DDA87C7562a7`](https://etherscan.io/address/0xf9449D21ef687eE55233B9EDC3d7DDA87C7562a7) and codehash `0x7c9f6ed4604e78848e7b368736b8ae59f2209c6687977128a8302fafe1d6526c` will be whitelisted in the [Grove StarGuard](https://etherscan.io/address/0xfc51CAa049E8894bEcFfB68c61095C3F3Ec8a880).
 
-If this executive proposal passes, then an Osero proxy spell with address [`0xb38EB4a6f0Ae439a454EED67877f5aC7e66A7652`](https://etherscan.io/address/0xb38EB4a6f0Ae439a454EED67877f5aC7e66A7652) and codehash `0x2b3da408f1feea10a958fd5678dfe409d54500e8f1dfc2d0fe22c6b49b41b10c` will be whitelisted in the [Osero StarGuard](https://etherscan.io/address/0xBfA2D1dA838E55A74c61699e164cDFF8cF0cF0e2).
+If this executive proposal passes, then a Pattern proxy spell with address [`0xb38EB4a6f0Ae439a454EED67877f5aC7e66A7652`](https://etherscan.io/address/0xb38EB4a6f0Ae439a454EED67877f5aC7e66A7652) and codehash `0x2b3da408f1feea10a958fd5678dfe409d54500e8f1dfc2d0fe22c6b49b41b10c` will be whitelisted in the [Pattern StarGuard](https://etherscan.io/address/0x2fb18b28fB39Ec3b26C3B5AF5222e2ca3B8B2269).
 
 #### Spark Proxy Spell
 
@@ -71,7 +71,7 @@ If this executive proposal passes, the WETH market's [Interest Rate Model](https
 - **Authorization**: [Sky Atlas](https://sky-atlas.io/#6029a425-ad81-46c5-866d-94e2ff663873)
 - **Proposal**: [Prime Technical Scope](https://forum.skyeco.com/t/october-22-2026-proposed-changes-to-spark-for-upcoming-spell/28298)
 
-It this executive proposal passes, the PYUSD, RLUSD and USDG markets' [Interest Rate Models](https://sky-atlas.io/#9006fd8d-bd13-48fc-bf2f-04f47579b3b0) will be updated with the following parameters:
+If this executive proposal passes, the PYUSD, RLUSD and USDG markets' [Interest Rate Models](https://sky-atlas.io/#9006fd8d-bd13-48fc-bf2f-04f47579b3b0) will be updated with the following parameters:
 
 - [Optimal Utilization](https://sky-atlas.io/#a6677e8a-7ef1-460b-a5cd-5411319bf2c0): **80%**
 - [Base Rate](https://sky-atlas.io/#9372deb9-5115-4010-bf72-34023b846525): **SSR + 0.20%**
@@ -85,9 +85,9 @@ It this executive proposal passes, the PYUSD, RLUSD and USDG markets' [Interest 
 
 If this executive proposal passes, **865,000 USDS** will be transferred to the Spark Foundation at [0x92e4629a4510AF5819d7D1601464C233599fF5ec](https://etherscan.io/address/0x92e4629a4510AF5819d7D1601464C233599fF5ec), and **45,000 USDS** will be transferred to the Spark Assets Foundation at [0xEabCb8C0346Ac072437362f1692706BA5768A911](https://etherscan.io/address/0xEabCb8C0346Ac072437362f1692706BA5768A911).
 
-##### [Ethereum] Spark Treasury - Transfer USDS for buybacks
+##### [Ethereum] Spark Treasury - Transfer USDS for Buybacks
 
-- **Authorization**: [Spark Artifact](https://sky-atlas.io/#6a4870fa-73f1-4d49-b7ee-d531fb59a971)
+- **Authorization**: [Sky Atlas](https://sky-atlas.io/#dfa483c7-5adb-480e-9f82-c97cf4d0f74e)
 - **Proposal**: [Prime Technical Scope](https://forum.skyeco.com/t/october-22-2026-proposed-changes-to-spark-for-upcoming-spell/28298)
 
 If this executive proposal passes, **341,970 USDS** will be transferred from the [Spark SubProxy](https://etherscan.io/address/0x3300f198988e4C9C63F75dF86De36421f06af8c4) to the [Spark Operations Multisig](https://etherscan.io/address/0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC) to fund SPK buybacks.
@@ -106,7 +106,7 @@ If this executive proposal passes, then the Spark proxy spell will claim all acc
 
 The Pull Request for the Grove proxy spell can be viewed [here](https://github.com/grove-labs/grove-spells/pull/85).
 
-##### [Ethereum] Treasury Distribution — 800,000 USDS to the Grove Foundation Multisig for October 2026
+##### [Ethereum] Grove Treasury - Transfer 800,000 USDS to the Grove Foundation Multisig for October 2026
 
 - **Authorization**: [Governance Poll](https://vote.sky.money/polling/QmQBiM5W)
 - **Proposal**: [Prime Technical Scope](https://forum.skyeco.com/t/october-22-2026-proposed-changes-to-grove-for-upcoming-spell/28296)
@@ -122,9 +122,9 @@ If this executive proposal passes, the CCTP v1 relay to Avalanche will be retire
 
 #### Pattern Proxy Spell
 
-The Pull Request for the Pattern proxy spell can be viewed [here](https://github.com/Pattern-Dev-Co/pattern-spells/pull/3)
+The Pull Request for the Pattern proxy spell can be viewed [here](https://github.com/Pattern-Dev-Co/pattern-spells/pull/3).
 
-##### [Ethereum] Set Rate Limits for River USDC Transfer Asset Allocation
+##### [Ethereum] Pattern Liquidity Layer - Onboard the River I Allocation to River SPV II as a USDC Transfer Asset with a maxAmount of 35,000,000 USDC and slope of 10,000,000 USDC per day
 
 - **Authorization**: [Governance Poll](https://vote.sky.money/polling/QmQBiM5W)
 - **Proposal**: [Prime Technical Scope](https://forum.skyeco.com/t/technical-scope-for-the-october-22-2026-pattern-prime-spell/28295)
@@ -132,10 +132,10 @@ The Pull Request for the Pattern proxy spell can be viewed [here](https://github
 If this executive proposal passes, the LIMIT_ASSET_TRANSFER [rate limit](https://sky-atlas.io/#8efb0a11-b798-48eb-af19-f65b38f039b5) will be set with the following parameters. This will permit the Pattern ALM Proxy to transfer USDC to the specified `RIVER_SPV_2_OFFRAMP` address.
 
 - `key`: **0x9e89eef868db62cc103dac9e8428957603e3ff835526132d10b5f1f327fc7605**
-  - `asset`: [**0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48**](https://etherscan.io/address/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48) (USDC addres)
+  - `asset`: [**0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48**](https://etherscan.io/address/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48) (USDC address)
   - `destination`: [**0xfD2cB7Ebbb339B9AA4E9C60e5aFa460F4888320F**](https://etherscan.io/address/0xfD2cB7Ebbb339B9AA4E9C60e5aFa460F4888320F) (`RIVER_SPV_2_OFFRAMP`)
 - `maxAmount`: **35 million USDC**
-- `slope`: **10,000,000 USDC per day**
+- `slope`: **10 million USDC per day**
 
 ## Review
 
