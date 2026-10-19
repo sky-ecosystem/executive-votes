@@ -5,7 +5,7 @@ date: 2026-10-22T00:00:00.000Z
 address: "$spell_address"
 ---
 
-# [Executive Proposal] Add Initial Rate Limits for Osero, Prime Proxy Spells - October 22, 2026
+# [Executive Proposal] Add Initial Rate Limits for Osero, Prime Agent Proxy Spells - October 22, 2026
 
 The Core Facilitators, Dewiz, and Sidestream have placed an executive proposal into the voting system. SKY holders should vote for this proposal if they support the following alterations to the Sky Protocol.
 
