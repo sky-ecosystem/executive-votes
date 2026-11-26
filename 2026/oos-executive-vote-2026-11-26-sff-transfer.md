@@ -2,7 +2,7 @@
 title: Template - [Executive Vote] Out-of-Schedule Spell - SFF Transfer - November 26, 2026
 summary: Transfer 25 million USDS from three Executor Agent SubProxies to the Sky Frontier Foundation.
 date: 2026-11-26T00:00:00.000Z
-address: "$spell_address"
+address: "0xCFFa0aeA62794b883c20F2463ECdB0E20099106B"
 ---
 
 # [Executive Proposal] Out-of-Schedule Spell - SFF Transfer - November 26, 2026
