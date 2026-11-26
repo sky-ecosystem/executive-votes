@@ -322,5 +322,14 @@
       "date": "2026-11-19T00:00:00.000Z",
       "address": "0x8c7eE657FcbEda789F45A6660Dc592a6E30fE88c"
     }
+  },
+  {
+    "path": "2026/oos-executive-vote-2026-11-26-sff-transfer.md",
+    "metadata": {
+      "title": "Template - [Executive Vote] Out-of-Schedule Spell - SFF Transfer - November 26, 2026",
+      "summary": "Transfer 25 million USDS from three Executor Agent SubProxies to the Sky Frontier Foundation.",
+      "date": "2026-11-26T00:00:00.000Z",
+      "address": "0xCFFa0aeA62794b883c20F2463ECdB0E20099106B"
+    }
   }
 ]
